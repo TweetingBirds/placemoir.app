@@ -317,7 +317,7 @@ section { padding: clamp(64px, 9vw, 112px) 0; }
 .prose li { margin-bottom: 6px; }
 .prose li::marker { color: var(--moss); }
 .prose strong { font-weight: 700; }
-.prose .caps { text-transform: none; }
+.prose .caps { font-size: .9rem; letter-spacing: .01em; }
 .summary-card { padding: 24px 26px; margin: 0 0 18px; }
 .summary-card h2 { margin-top: 0 !important; font-size: 1.5rem !important; }
 .summary-card ul { margin-bottom: 12px; }
@@ -332,3 +332,5 @@ section { padding: clamp(64px, 9vw, 112px) 0; }
 .help-grid .feature { text-decoration: none; color: inherit; }
 .help-grid a.feature:hover { border-color: var(--moss); }
 @media (max-width: 760px) { .help-grid { grid-template-columns: 1fr; } }
+
+.faq-list.left { margin: 0; }
