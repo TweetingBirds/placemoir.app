@@ -32,6 +32,8 @@ Then open http://127.0.0.1:8811. GitHub Pages serves `404.html` for missing path
 - Every color is a token with a light and a dark value. Screenshots are `<picture>`s with a `(prefers-color-scheme: dark)` source marked `data-theme-dark`; the logo SVGs use `.only-light` / `.only-dark`.
 - The Content Security Policy allows only same-origin scripts, styles, fonts and images, with no inline styles or scripts. The one exception is Cloudflare Web Analytics, which Cloudflare injects because the site is proxied (static.cloudflareinsights.com and cloudflareinsights.com). No cookies or other third-party requests.
 
+- Cloudflare caches CSS and JS for four hours, so stylesheets and scripts are linked with `?v=<date>`. When you change `css/` or `js/`, bump that value in every page (`grep -l '?v=' *.html`), or the live site mixes new HTML with old CSS.
+
 ## Before launch
 
 - Add an App Store link (`apple-itunes-app` meta and the store buttons).
