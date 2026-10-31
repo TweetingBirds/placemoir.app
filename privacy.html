@@ -46,7 +46,7 @@
 
     <main id="main">
         <!-- DRAFT for review before launch. Open items are marked TODO in comments:
-             legal entity name, contact mailbox, weather provider, and any purchases. -->
+             legal entity name, contact mailbox, and any purchases. -->
         <div class="wrap">
             <header class="page-head">
                 <p class="eyebrow moss">Privacy Policy</p>
@@ -62,12 +62,13 @@
                         <li>Your journal stays on your devices and, if iCloud is on, in your personal iCloud account, which we can't see</li>
                         <li>There's no account, no ads, no tracking, and no analytics in the app</li>
                         <li>The app doesn't send us crash reports or usage data</li>
-                        <li>To find places and fill in the weather, the app sends a search or an approximate location to Apple Maps and a weather service. It never sends your notes, ratings, photos or memos</li>
+                        <li>To find places and fill in the weather, the app sends a search or an approximate location to Apple Maps and Apple Weather. It never sends your notes, ratings, photos or memos</li>
+                        <li>Importing from Photos or from a Google Maps export happens on your device. Only place lookups go to Apple Maps</li>
                         <li>The app uses your location, camera, microphone and photo library only when you choose a feature that needs them, and only after you allow it</li>
                         <li>Face ID is handled by Apple on your device. We never receive your face data</li>
                         <li>If you email us for help, we see your email address and your message</li>
                         <li>This website sets no cookies. It uses Cloudflare Web Analytics, which counts page views in aggregate and can't identify you</li>
-                        <li>We don't sell your data, and you can export or delete everything at any time</li>
+                        <li>We don't sell your data, and you can export your journal or delete all of it at any time from the You tab</li>
                     </ul>
                     <p><b>Questions?</b> Email us at <a href="mailto:feedback@placemoir.app">feedback@placemoir.app</a></p>
                 </div>
@@ -90,20 +91,29 @@
                 <p>The App does not collect information that identifies you. A few features need to ask an outside service for help, and this is the complete list of what is sent:</p>
                 <ul>
                     <li><strong>Place search and suggestions (Apple Maps):</strong> when you search for a place, or let the App suggest the place you're standing in, the App sends your search text or your current location to Apple Maps and shows the results. Maps also load map tiles for the area you're viewing. Apple handles these requests under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>, and we do not receive them.</li>
-                    <!-- TODO: name the weather provider here once it's chosen for release (WeatherKit or our own proxy). -->
-                    <li><strong>Weather:</strong> when Fill in weather is on, the App asks a weather service for the conditions at a place on the date and hour of your visit. The request carries only that place's coordinates, rounded to about 100 meters, and the date. It does not carry your notes, your rating, the name of the place, or anything that identifies you. You can turn this off in <b>You › Fill in weather</b>.</li>
+                    <li><strong>Weather (Apple Weather):</strong> when Fill in weather is on, the App asks Apple Weather, through Apple's WeatherKit service, for the conditions at a place on the date and hour of your visit. The request carries only that place's coordinates, rounded to about 100 meters, and the date. It does not carry your notes, your rating, the name of the place, or anything that identifies you to us. Apple handles these requests under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>, and we do not receive them. The App shows the Apple Weather mark and a link to <a href="https://weatherkit.apple.com/legal-attribution.html">Apple Weather's data sources</a> wherever weather appears. You can turn this off in <b>You › Fill in weather</b>.</li>
                     <li><strong>iCloud sync:</strong> if iCloud is on for Placemoir, your journal syncs through your personal iCloud account, managed by Apple. See <a href="#storage">Data storage and security</a>.</li>
                     <li><strong>Purchases:</strong> if you buy anything in the App, Apple processes the transaction through the App Store. We do not receive your name, Apple Account or payment information.</li>
                 </ul>
                 <p>Nothing else leaves your device unless you choose to send it, for example by exporting your journal or sharing a file.</p>
 
+                <h2 id="imports">Importing places</h2>
+                <ul>
+                    <li><strong>Import from Photos:</strong> when you pick photos to import, the App reads the location and time stored in those photos, on your device, to suggest places and visit dates. It reads only the photos you pick, and nothing from them is sent to us. To name a place, the App may look up its coordinates in Apple Maps, as described above.</li>
+                    <li><strong>Import from Google Maps:</strong> when you pick the files from a Google Takeout export, the App reads your saved and visited places from them on your device. The files are not uploaded anywhere. The App looks each place up in Apple Maps to match it, which sends that place's name or coordinates to Apple, and we do not receive them. The App does not connect to your Google account.</li>
+                </ul>
+
+                <h2 id="reminders">Reminders</h2>
+                <p>Quick capture can remind you to finish an entry later. The reminder is a local notification that the App schedules on your device, after asking your permission the first time. Nothing about it is sent to a server, and you can turn notifications off in your device's Settings.</p>
+
                 <h2 id="permissions">Location, camera, microphone and photos</h2>
                 <p>The App asks for these permissions only when you first use a feature that needs one, and you can change your answer at any time in your device's Settings:</p>
                 <ul>
+                    <li><strong>Notifications:</strong> to remind you to finish an entry you started with quick capture. Reminders are scheduled on your device.</li>
                     <li><strong>Location (while using the App):</strong> to suggest the place you're standing in and fill in its weather. The App never tracks your location in the background, and it does not keep a history of where you've been beyond the places you choose to save.</li>
                     <li><strong>Camera:</strong> to take photos of the places you visit.</li>
                     <li><strong>Microphone:</strong> to record voice memos for your entries.</li>
-                    <li><strong>Photo library:</strong> to add photos you choose to an entry.</li>
+                    <li><strong>Photo library:</strong> to add photos you choose to an entry, or to import places from the location and time stored in photos you pick.</li>
                     <li><strong>Face ID:</strong> to lock your journal so only you can open it. The check happens on your device through Apple. We never receive your face data.</li>
                 </ul>
                 <p>Anything these features capture is kept with that entry in your journal, on your device and in your iCloud account if iCloud is on. We never receive it.</p>
@@ -126,7 +136,7 @@
                 <ol>
                     <li><strong>Your journal:</strong> stored on your device to provide the App's features</li>
                     <li><strong>iCloud sync:</strong> kept in step across your devices through your personal iCloud account</li>
-                    <li><strong>Place search and weather:</strong> used only to answer the request you made</li>
+                    <li><strong>Place search, weather and imports:</strong> used only to answer the request you made</li>
                     <li><strong>Support:</strong> emails you send are used only to answer you</li>
                 </ol>
                 <p>We do not use any information for advertising, to build a profile of you, or to make automated decisions about you.</p>
@@ -149,7 +159,7 @@
                 <h2 id="your-choices">Your choices and control</h2>
                 <ul>
                     <li><strong>View and edit:</strong> everything you've written is in the App, and you can change it at any time</li>
-                    <li><strong>Delete:</strong> delete any entry from its menu. With iCloud on, deletions sync to your other devices and your iCloud account</li>
+                    <li><strong>Delete:</strong> delete any entry from its menu, or erase your whole journal with <b>You › Delete all data</b>, next to Export. With iCloud on, deletions sync to your other devices and your iCloud account</li>
                     <li><strong>Export:</strong> export your whole journal, with every photo, memo and file, from <b>You › Export journal</b></li>
                     <li><strong>iCloud:</strong> turn iCloud sync for Placemoir on or off in <b>Settings › [your name] › iCloud</b>. Deleting the App does not delete your iCloud data; you can remove it in your iCloud storage settings</li>
                     <li><strong>Permissions:</strong> change location, camera, microphone and photo access in your device's Settings</li>
@@ -167,12 +177,11 @@
                 <p>Placemoir is not directed to children under 13. We do not knowingly collect personal information from children under 13 (or the higher age set by the law where you live). If you believe a child has sent us personal information, for example by emailing us, contact us at <a href="mailto:feedback@placemoir.app">feedback@placemoir.app</a> and we will delete it.</p>
 
                 <h2 id="service-providers">Service providers</h2>
-                <!-- TODO: add the weather provider once chosen. -->
-                <p>The companies involved in running Placemoir are Apple (App Store, iCloud, Apple Maps and Face ID), the weather service described above, and GitHub and Cloudflare (hosting and delivering this website, and Cloudflare's cookieless website analytics). Each receives only what it needs to provide its service. We may also disclose information if the law requires it, to protect our rights or the safety of others, or to a successor if Tweeting Birds or the App is transferred, in which case this policy will continue to apply to that information.</p>
+                <p>The companies involved in running Placemoir are Apple (App Store, iCloud, Apple Maps, Apple Weather and Face ID) and GitHub and Cloudflare (hosting and delivering this website, and Cloudflare's cookieless website analytics). Each receives only what it needs to provide its service. We may also disclose information if the law requires it, to protect our rights or the safety of others, or to a successor if Tweeting Birds or the App is transferred, in which case this policy will continue to apply to that information.</p>
 
                 <h2 id="retention">Data retention</h2>
                 <ul>
-                    <li><strong>Your journal:</strong> kept on your device until you delete it or the App</li>
+                    <li><strong>Your journal:</strong> kept on your device until you delete it, use Delete all data, or delete the App</li>
                     <li><strong>iCloud data:</strong> kept in your iCloud account according to your settings and Apple's policies</li>
                     <li><strong>Purchase history:</strong> kept by Apple according to its policies</li>
                     <li><strong>Support emails:</strong> kept only as long as we need them to help you; ask and we'll delete them</li>
@@ -194,9 +203,9 @@
                 </ul>
                 <h3>European Economic Area, United Kingdom and Switzerland</h3>
                 <ul>
-                    <li><strong>Data controller:</strong> Tweeting Birds LLC is the controller for support emails. Apple is the controller for iCloud, App Store and Apple Maps data</li>
+                    <li><strong>Data controller:</strong> Tweeting Birds LLC is the controller for support emails. Apple is the controller for iCloud, App Store, Apple Maps and Apple Weather data</li>
                     <li><strong>Legal bases:</strong> we process support emails to respond to your request and for our legitimate interest in supporting the App</li>
-                    <li><strong>Portability and erasure:</strong> you can export and delete your journal in the App at any time; for support emails, ask us</li>
+                    <li><strong>Portability and erasure:</strong> you can export your journal or delete all of it in the App at any time; for support emails, ask us</li>
                     <li><strong>Complaints:</strong> you may complain to your local data protection authority, though we'd appreciate the chance to help first</li>
                 </ul>
 

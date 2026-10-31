@@ -37,5 +37,5 @@ Then open http://127.0.0.1:8811. GitHub Pages serves `404.html` for missing path
 ## Before launch
 
 - Add an App Store link (`apple-itunes-app` meta and the store buttons).
-- Legal pages are drafts adapted from quipsapp.com. Open items are marked `TODO` in HTML comments: the legal entity and address, the contact mailbox (`feedback@placemoir.app`), the weather provider, and pricing.
+- Legal pages are drafts adapted from quipsapp.com. Open items are marked `TODO` in HTML comments: the legal entity and address, the contact mailbox (`feedback@placemoir.app`) and pricing.
 - Add a press kit page if wanted.
