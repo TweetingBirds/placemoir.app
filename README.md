@@ -15,7 +15,7 @@ Then open http://127.0.0.1:8811. GitHub Pages serves `404.html` for missing path
 | Path | What's there |
 | --- | --- |
 | `index.html` | Landing page |
-| `support.html`, `privacy.html`, `terms.html`, `404.html` | Inner pages. They copy the header and footer from `index.html`, so change all of them together |
+| `support.html`, `privacy.html`, `terms.html`, `eula.html`, `404.html` | Inner pages. They copy the header and footer from `index.html`, so change all of them together |
 | `css/site.css` | Everything visual. Tokens at the top mirror `brand/tokens.css` in placemoir-marketing |
 | `css/fonts.css`, `fonts/` | Newsreader Italic, Karla and IBM Plex Mono, self-hosted as Latin subsets (SIL OFL) |
 | `js/theme.js` | Light and dark toggle, including the inline “light” and “dark” links. Follows the system until the visitor picks one, then remembers it in localStorage and pins each `<picture>` to that theme so only its images load |
@@ -23,6 +23,7 @@ Then open http://127.0.0.1:8811. GitHub Pages serves `404.html` for missing path
 | `images/screens/` | Gallery screens named `<iphone|ipad|duo>-<screen>-<light|dark>.jpg`, made from the full-size PNGs in placemoir-marketing/website/screenshots at twice their display width (520, 840 and 1120 px) |
 | `images/devices/` | The framed iPhone for the hero, light and dark, cut out of the `website/framed` images in placemoir-marketing so it sits on the map backdrop |
 | `images/brand/` | Logo mark and wordmark SVGs from placemoir-marketing |
+| `legal/eula.md` | Plain-text copy of the EULA to paste into App Store Connect (App Information › License Agreement). Keep it in step with `eula.html` |
 | `CNAME` | `placemoir.app` |
 
 ## Conventions
@@ -38,4 +39,5 @@ Then open http://127.0.0.1:8811. GitHub Pages serves `404.html` for missing path
 
 - Add an App Store link (`apple-itunes-app` meta and the store buttons).
 - Legal pages are drafts adapted from quipsapp.com. Open items are marked `TODO` in HTML comments: the legal entity and address, the contact mailbox (`feedback@placemoir.app`) and pricing.
+- The custom EULA (`eula.html`, `legal/eula.md`) is a draft and needs a lawyer's review before it goes into App Store Connect.
 - Add a press kit page if wanted.
