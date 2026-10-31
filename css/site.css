@@ -44,10 +44,10 @@
 /* Which artwork shows: light assets by default, dark ones when the dark tokens are active. */
 .only-dark { display: none !important; }
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .only-dark { display: revert !important; }
+  :root:not([data-theme="light"]) .only-dark { display: block !important; }
   :root:not([data-theme="light"]) .only-light { display: none !important; }
 }
-:root[data-theme="dark"] .only-dark { display: revert !important; }
+:root[data-theme="dark"] .only-dark { display: block !important; }
 :root[data-theme="dark"] .only-light { display: none !important; }
 
 /* Base */
@@ -170,7 +170,7 @@ p { margin: 0; }
 
 /* Phone frames */
 .phone {
-  position: relative; width: 100%; max-width: 330px; aspect-ratio: 780 / 1688;
+  position: relative; width: 100%; max-width: 330px; aspect-ratio: 460 / 1000;
   border-radius: 46px; padding: 9px; background: var(--ink);
   box-shadow: 0 40px 80px -30px rgba(29, 39, 51, .45), 0 0 0 1px rgba(255, 255, 255, .06) inset;
 }
@@ -178,7 +178,8 @@ p { margin: 0; }
 :root[data-theme="dark"] .phone { background: #0B0F13; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .phone { background: #0B0F13; } }
 .hero-art { position: relative; display: grid; justify-items: center; }
-.hero-art .phone { transform: rotate(2.5deg); }
+.device-hero { width: 100%; max-width: 360px; }
+.device-hero img { width: 100%; height: auto; filter: drop-shadow(0 30px 40px rgba(29, 39, 51, .22)); }
 .float {
   position: absolute; display: inline-flex; align-items: center; gap: 8px;
   padding: 10px 16px; border-radius: 999px; font: 500 .9rem var(--mono); color: var(--ink);
@@ -193,7 +194,7 @@ p { margin: 0; }
   .hero { padding-top: 116px; }
   .hero-grid { grid-template-columns: 1fr; gap: 28px; }
   .hero-copy { padding: 24px 20px; }
-  .hero-art .phone { max-width: 280px; }
+  .device-hero { max-width: 300px; }
 }
 @media (max-width: 420px) {
   .float-weather { left: 0; }
@@ -334,3 +335,14 @@ section { padding: clamp(64px, 9vw, 112px) 0; }
 @media (max-width: 760px) { .help-grid { grid-template-columns: 1fr; } }
 
 .faq-list.left { margin: 0; }
+
+/* Devices: framed iPad and iPhone Duo renders */
+.devices { padding-top: 0; }
+.device-row { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: clamp(24px, 4vw, 56px); align-items: end; }
+.device { margin: 0; display: grid; gap: 18px; justify-items: center; text-align: center; }
+.device img { width: 100%; height: auto; filter: drop-shadow(0 30px 40px rgba(29, 39, 51, .2)); }
+.device-ipad img { max-width: 400px; }
+.device figcaption { display: grid; gap: 4px; }
+.device figcaption b { font: italic 500 1.35rem var(--display); }
+.device figcaption span { color: var(--pencil); font-size: .96rem; }
+@media (max-width: 760px) { .device-row { grid-template-columns: 1fr; } .device-ipad img { max-width: 300px; } }
