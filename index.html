@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/site.css">
     <script src="js/theme.js"></script>
+    <script src="js/gallery.js" defer></script>
 
     <script type="application/ld+json">
     {
@@ -98,8 +99,7 @@
                 </div>
                 <div class="hero-art">
                     <div class="device-hero">
-                        <img class="only-light" src="images/devices/iphone-light.png" alt="The Placemoir journal on iPhone: Café Lomi in Paris with four stars, a photo of a flat white, 14° light rain and the note “Flat white was perfect,” followed by La Cantine du Marais and Musée de l’Orangerie." width="720" height="1494" fetchpriority="high">
-                        <img class="only-dark" src="images/devices/iphone-dark.png" alt="The Placemoir journal on iPhone in dark mode: Café Lomi in Paris with four stars, a photo of a flat white, 14° light rain and the note “Flat white was perfect.”" width="720" height="1494">
+                        <picture><source media="(prefers-color-scheme: dark)" srcset="images/devices/iphone-dark.png" data-theme-dark><img src="images/devices/iphone-light.png" alt="The Placemoir journal on iPhone: Café Lomi in Paris with four stars, a photo of a flat white, 14° light rain and the note “Flat white was perfect,” followed by La Cantine du Marais and Musée de l’Orangerie." width="720" height="1494" fetchpriority="high"></picture>
                     </div>
                     <span class="float float-weather glass" aria-hidden="true">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 15H7a4.5 4.5 0 1 1 1.1-8.9A5.5 5.5 0 0 1 18.6 8 3.5 3.5 0 0 1 17.5 15z"/><path d="M8 18l-1 2M12 18l-1 2M16 18l-1 2"/></svg>
@@ -213,71 +213,86 @@
             </div>
         </section>
 
-        <section class="devices" aria-labelledby="devices-title">
-            <div class="wrap">
-                <div class="sec-head center">
-                    <p class="eyebrow moss">iPhone, iPad and iPhone Duo</p>
-                    <h2 id="devices-title">Room to remember, on every screen.</h2>
-                    <p>On iPad and an open iPhone Duo, your journal and the entry you're reading sit side by side. Your whole journal syncs between them through your own iCloud.</p>
-                </div>
-                <div class="device-row">
-                    <figure class="device device-ipad">
-                        <img class="only-light" src="images/devices/ipad-light.png" alt="Placemoir on iPad: the journal in a sidebar beside the Café Lomi entry with its photos, weather, rating and notes." width="1100" height="1436" loading="lazy">
-                        <img class="only-dark" src="images/devices/ipad-dark.png" alt="Placemoir on iPad in dark mode: the journal in a sidebar beside the Café Lomi entry." width="1100" height="1436" loading="lazy">
-                        <figcaption><b>iPad</b><span>The journal and an entry, side by side.</span></figcaption>
-                    </figure>
-                    <figure class="device device-duo">
-                        <img class="only-light" src="images/devices/duo-light.png" alt="Placemoir on an open iPhone Duo: the journal on the left half and the Café Lomi entry on the right." width="1300" height="925" loading="lazy">
-                        <img class="only-dark" src="images/devices/duo-dark.png" alt="Placemoir on an open iPhone Duo in dark mode: the journal on the left half and the Café Lomi entry on the right." width="1300" height="925" loading="lazy">
-                        <figcaption><b>iPhone Duo</b><span>Open it flat for two pages at once.</span></figcaption>
-                    </figure>
-                </div>
-            </div>
-        </section>
-
         <section class="gallery-section" aria-labelledby="gallery-title">
             <div class="wrap">
                 <div class="sec-head center">
                     <p class="eyebrow moss">A look inside</p>
                     <h2 id="gallery-title">Calm paper, ink, and a little glass.</h2>
-                    <p>Liquid Glass controls float above your entries, in light and dark. Here it is on iPhone.</p>
+                    <p>On iPhone, iPad and iPhone Duo. Liquid Glass controls float above your entries, in <button type="button" class="theme-link" data-set-theme="light">light</button> and <button type="button" class="theme-link" data-set-theme="dark">dark</button>.</p>
+                </div>
+                <div class="device-tabs glass" role="tablist" aria-label="Device" hidden>
+                    <button type="button" role="tab" id="tab-iphone" aria-controls="panel-iphone" aria-selected="true" tabindex="0">iPhone</button>
+                    <button type="button" role="tab" id="tab-ipad" aria-controls="panel-ipad" aria-selected="false" tabindex="-1">iPad</button>
+                    <button type="button" role="tab" id="tab-duo" aria-controls="panel-duo" aria-selected="false" tabindex="-1">iPhone Duo</button>
                 </div>
             </div>
-            <div class="gallery" tabindex="0" aria-label="App screens on iPhone, scroll sideways for more">
+            <div class="gallery gallery-iphone" id="panel-iphone" role="tabpanel" aria-labelledby="tab-iphone" tabindex="0">
+                <h3 class="gallery-heading">iPhone</h3>
                 <figure>
-                    <div class="phone">
-                        <img class="only-light" src="images/screens/iphone-entry-light.jpg" alt="The Café Lomi entry: a photo of a flat white, the address, Saturday 17 October at 9:40, 14° light rain, four stars and Would go back, then the notes." width="460" height="1000" loading="lazy">
-                        <img class="only-dark" src="images/screens/iphone-entry-dark.jpg" alt="The Café Lomi entry: a photo of a flat white, the address, Saturday 17 October at 9:40, 14° light rain, four stars and Would go back, then the notes." width="460" height="1000" loading="lazy">
-                    </div>
+                    <div class="frame frame-iphone"><picture><source media="(prefers-color-scheme: dark)" srcset="images/screens/iphone-entry-dark.jpg" data-theme-dark><img src="images/screens/iphone-entry-light.jpg" alt="The Café Lomi entry on iPhone: a photo of a flat white, the address, Saturday 17 October at 9:40, 14° light rain, four stars and Would go back, then the notes." width="520" height="1131" loading="lazy" decoding="async"></picture></div>
                     <figcaption><b>An entry</b><span>Photos, the weather, your rating and every note, in one place.</span></figcaption>
                 </figure>
                 <figure>
-                    <div class="phone">
-                        <img class="only-light" src="images/screens/iphone-rating-simple-light.jpg" alt="Editing an entry for Le Relais Rapide near Gare du Nord, with the choice between I'll be back and Never again, and the note “Cold croque, warm beer.”" width="460" height="1000" loading="lazy">
-                        <img class="only-dark" src="images/screens/iphone-rating-simple-dark.jpg" alt="Editing an entry for Le Relais Rapide near Gare du Nord, with the choice between I'll be back and Never again, and the note “Cold croque, warm beer.”" width="460" height="1000" loading="lazy">
-                    </div>
+                    <div class="frame frame-iphone"><picture><source media="(prefers-color-scheme: dark)" srcset="images/screens/iphone-rating-simple-dark.jpg" data-theme-dark><img src="images/screens/iphone-rating-simple-light.jpg" alt="Editing an entry for Le Relais Rapide on iPhone, with the choice between I'll be back and Never again, and the note “Cold croque, warm beer.”" width="520" height="1131" loading="lazy" decoding="async"></picture></div>
                     <figcaption><b>How was it?</b><span>Simple rating is one tap: I'll be back, or Never again.</span></figcaption>
                 </figure>
                 <figure>
-                    <div class="phone">
-                        <img class="only-light" src="images/screens/iphone-map-light.jpg" alt="A map of Europe with pins in Paris, Lisbon and Stockholm, and a legend for Would go back, Maybe or no, and Want to go." width="460" height="1000" loading="lazy">
-                        <img class="only-dark" src="images/screens/iphone-map-dark.jpg" alt="A map of Europe with pins in Paris, Lisbon and Stockholm, and a legend for Would go back, Maybe or no, and Want to go." width="460" height="1000" loading="lazy">
-                    </div>
+                    <div class="frame frame-iphone"><picture><source media="(prefers-color-scheme: dark)" srcset="images/screens/iphone-map-dark.jpg" data-theme-dark><img src="images/screens/iphone-map-light.jpg" alt="A map of Europe on iPhone with pins in Paris, Lisbon and Stockholm, and a legend for Would go back, Maybe or no, and Want to go." width="520" height="1131" loading="lazy" decoding="async"></picture></div>
                     <figcaption><b>Map</b><span>Every place you've been, on one map.</span></figcaption>
                 </figure>
                 <figure>
-                    <div class="phone">
-                        <img class="only-light" src="images/screens/iphone-search-light.jpg" alt="Searching for “cardamom” finds two entries: Café Lomi in Paris and Fabrique Bakery in Stockholm, with the word highlighted in each note." width="460" height="1000" loading="lazy">
-                        <img class="only-dark" src="images/screens/iphone-search-dark.jpg" alt="Searching for “cardamom” finds two entries: Café Lomi in Paris and Fabrique Bakery in Stockholm, with the word highlighted in each note." width="460" height="1000" loading="lazy">
-                    </div>
+                    <div class="frame frame-iphone"><picture><source media="(prefers-color-scheme: dark)" srcset="images/screens/iphone-search-dark.jpg" data-theme-dark><img src="images/screens/iphone-search-light.jpg" alt="Searching for “cardamom” on iPhone finds Café Lomi in Paris and Fabrique Bakery in Stockholm, with the word highlighted in each note." width="520" height="1131" loading="lazy" decoding="async"></picture></div>
                     <figcaption><b>Search</b><span>Find a place by a word from your notes.</span></figcaption>
                 </figure>
                 <figure>
-                    <div class="phone">
-                        <img class="only-light" src="images/screens/iphone-you-light.jpg" alt="The You tab: 8 places, 9 visits, 3 cities and 3 countries, an On this day memory of Tasca do Chico in Lisbon, and journal and privacy settings." width="460" height="1000" loading="lazy">
-                        <img class="only-dark" src="images/screens/iphone-you-dark.jpg" alt="The You tab: 8 places, 9 visits, 3 cities and 3 countries, an On this day memory of Tasca do Chico in Lisbon, and journal and privacy settings." width="460" height="1000" loading="lazy">
-                    </div>
+                    <div class="frame frame-iphone"><picture><source media="(prefers-color-scheme: dark)" srcset="images/screens/iphone-you-dark.jpg" data-theme-dark><img src="images/screens/iphone-you-light.jpg" alt="The You tab on iPhone: 8 places, 9 visits, 3 cities and 3 countries, an On this day memory of Tasca do Chico in Lisbon, and settings." width="520" height="1131" loading="lazy" decoding="async"></picture></div>
                     <figcaption><b>You</b><span>Your journal at a glance, and On this day.</span></figcaption>
+                </figure>
+            </div>
+            <div class="gallery gallery-ipad" id="panel-ipad" role="tabpanel" aria-labelledby="tab-ipad" tabindex="0">
+                <h3 class="gallery-heading">iPad</h3>
+                <figure>
+                    <div class="frame frame-ipad"><picture><source media="(prefers-color-scheme: dark)" srcset="images/screens/ipad-journal-dark.jpg" data-theme-dark><img src="images/screens/ipad-journal-light.jpg" alt="Placemoir on iPad: the journal in a sidebar beside the Café Lomi entry with its photo, weather, rating, notes and photos." width="840" height="1120" loading="lazy" decoding="async"></picture></div>
+                    <figcaption><b>Journal and entry</b><span>Your journal in the sidebar, the entry beside it.</span></figcaption>
+                </figure>
+                <figure>
+                    <div class="frame frame-ipad"><picture><source media="(prefers-color-scheme: dark)" srcset="images/screens/ipad-rating-simple-dark.jpg" data-theme-dark><img src="images/screens/ipad-rating-simple-light.jpg" alt="Editing an entry on iPad in a sheet over the journal, with I'll be back and Never again." width="840" height="1120" loading="lazy" decoding="async"></picture></div>
+                    <figcaption><b>How was it?</b><span>Edit an entry without losing your place.</span></figcaption>
+                </figure>
+                <figure>
+                    <div class="frame frame-ipad"><picture><source media="(prefers-color-scheme: dark)" srcset="images/screens/ipad-map-dark.jpg" data-theme-dark><img src="images/screens/ipad-map-light.jpg" alt="A full-screen map of Europe on iPad with your places pinned." width="840" height="1120" loading="lazy" decoding="async"></picture></div>
+                    <figcaption><b>Map</b><span>Room to see every trip at once.</span></figcaption>
+                </figure>
+                <figure>
+                    <div class="frame frame-ipad"><picture><source media="(prefers-color-scheme: dark)" srcset="images/screens/ipad-search-dark.jpg" data-theme-dark><img src="images/screens/ipad-search-light.jpg" alt="Searching for “cardamom” on iPad, with two matching entries." width="840" height="1120" loading="lazy" decoding="async"></picture></div>
+                    <figcaption><b>Search</b><span>Names, neighborhoods and words from your notes.</span></figcaption>
+                </figure>
+                <figure>
+                    <div class="frame frame-ipad"><picture><source media="(prefers-color-scheme: dark)" srcset="images/screens/ipad-you-dark.jpg" data-theme-dark><img src="images/screens/ipad-you-light.jpg" alt="The You tab on iPad with journal stats, On this day, and settings." width="840" height="1120" loading="lazy" decoding="async"></picture></div>
+                    <figcaption><b>You</b><span>Your journal at a glance.</span></figcaption>
+                </figure>
+            </div>
+            <div class="gallery gallery-duo" id="panel-duo" role="tabpanel" aria-labelledby="tab-duo" tabindex="0">
+                <h3 class="gallery-heading">iPhone Duo</h3>
+                <figure>
+                    <div class="frame frame-duo"><picture><source media="(prefers-color-scheme: dark)" srcset="images/screens/duo-journal-dark.jpg" data-theme-dark><img src="images/screens/duo-journal-light.jpg" alt="Placemoir on an open iPhone Duo: the journal on the left half and the Café Lomi entry on the right." width="1120" height="788" loading="lazy" decoding="async"></picture></div>
+                    <figcaption><b>Journal and entry</b><span>Open it flat for two pages at once.</span></figcaption>
+                </figure>
+                <figure>
+                    <div class="frame frame-duo"><picture><source media="(prefers-color-scheme: dark)" srcset="images/screens/duo-book-spread-dark.jpg" data-theme-dark><img src="images/screens/duo-book-spread-light.jpg" alt="Two entries side by side on an iPhone Duo: Café Lomi and La Cantine du Marais." width="1120" height="788" loading="lazy" decoding="async"></picture></div>
+                    <figcaption><b>Turn the page</b><span>Half open, it reads like a notebook.</span></figcaption>
+                </figure>
+                <figure>
+                    <div class="frame frame-duo"><picture><source media="(prefers-color-scheme: dark)" srcset="images/screens/duo-map-spread-dark.jpg" data-theme-dark><img src="images/screens/duo-map-spread-light.jpg" alt="A map of Europe spread across both halves of an open iPhone Duo." width="1120" height="788" loading="lazy" decoding="async"></picture></div>
+                    <figcaption><b>Map</b><span>The whole map across both halves.</span></figcaption>
+                </figure>
+                <figure>
+                    <div class="frame frame-duo"><picture><source media="(prefers-color-scheme: dark)" srcset="images/screens/duo-search-keyboard-dark.jpg" data-theme-dark><img src="images/screens/duo-search-keyboard-light.jpg" alt="Searching on an open iPhone Duo with the keyboard on the lower half." width="1120" height="788" loading="lazy" decoding="async"></picture></div>
+                    <figcaption><b>Search</b><span>Type on one half, read on the other.</span></figcaption>
+                </figure>
+                <figure>
+                    <div class="frame frame-duo"><picture><source media="(prefers-color-scheme: dark)" srcset="images/screens/duo-rating-simple-dark.jpg" data-theme-dark><img src="images/screens/duo-rating-simple-light.jpg" alt="Editing an entry on an open iPhone Duo beside the journal, with I'll be back and Never again." width="1120" height="788" loading="lazy" decoding="async"></picture></div>
+                    <figcaption><b>How was it?</b><span>Rate it beside the journal.</span></figcaption>
                 </figure>
             </div>
         </section>
