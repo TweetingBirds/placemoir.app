@@ -207,19 +207,55 @@ section { padding: clamp(64px, 9vw, 112px) 0; }
 .rating-card { padding: clamp(22px, 3vw, 32px); display: grid; gap: 18px; align-content: start; }
 .rating-card h3 { font: italic 500 1.6rem/1.15 var(--display); }
 .rating-card p { color: var(--pencil); }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.rating-card .try { color: var(--faint); }
+.rating-note { margin-top: 18px; text-align: center; font: 500 .72rem/1.4 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--faint); }
+/* The examples are real radios and a slider so they work by touch, mouse, keyboard and screen reader.
+   They sit outside any form, so nothing is submitted. */
+.choice-row, .pills { border: 0; margin: 0; padding: 0; min-width: 0; }
 .choice-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.choice input, .pill input { position: absolute; opacity: 0; width: 1px; height: 1px; margin: 0; pointer-events: none; }
 .choice {
-  display: grid; justify-items: center; gap: 8px; padding: 18px 12px; border-radius: var(--r-control);
+  position: relative; display: grid; justify-items: center; gap: 8px; padding: 18px 12px; border-radius: var(--r-control);
   border: 1px solid var(--line); background: var(--paper); font-weight: 700; text-align: center;
+  cursor: pointer; user-select: none; -webkit-tap-highlight-color: transparent;
+  transition: background-color .15s ease-out, color .15s ease-out, border-color .15s ease-out, transform .15s ease-out;
 }
 .choice svg { width: 26px; height: 26px; }
-.choice.yes { background: var(--glass-tint); color: var(--on-moss); border-color: transparent; box-shadow: var(--glass-shadow); }
+.choice .check { stroke: var(--paper); }
+.choice.yes { color: var(--moss); }
 .choice.no { color: var(--plum); }
-.stars { display: flex; gap: 6px; color: var(--ochre); }
-.stars svg { width: 26px; height: 26px; }
+.choice.yes:hover { border-color: var(--moss); }
+.choice.no:hover { border-color: var(--plum); }
+.choice:active { transform: scale(.97); }
+.choice.yes:has(input:checked) { background: var(--glass-tint); color: var(--on-moss); border-color: transparent; box-shadow: var(--glass-shadow); }
+.choice.yes:has(input:checked) .check { stroke: var(--glass-tint); }
+.choice.no:has(input:checked) { background: color-mix(in srgb, var(--plum) 90%, transparent); color: var(--paper); border-color: transparent; box-shadow: var(--glass-shadow); }
+.choice:has(input:focus-visible), .pill:has(input:focus-visible) { outline: 3px solid var(--moss); outline-offset: 3px; }
+.stars-row { display: flex; align-items: center; gap: 12px; }
+.stars { display: flex; gap: 4px; color: var(--ochre); border-radius: 12px; }
+.stars.is-live { padding: 6px; margin: -6px; cursor: pointer; touch-action: pan-y; user-select: none; -webkit-user-select: none; -webkit-tap-highlight-color: transparent; }
+.star { position: relative; width: 30px; height: 30px; flex: none; }
+.star svg { width: 30px; height: 30px; max-width: none; }
+.star-line path { fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linejoin: round; }
+.star-fill { position: absolute; inset: 0; width: 0; overflow: hidden; }
+.star-fill path { fill: currentColor; stroke: currentColor; stroke-width: 1.6; stroke-linejoin: round; }
+.star[data-fill="half"] .star-fill { width: 50%; }
+.star[data-fill="full"] .star-fill { width: 100%; }
+.stars-value { font: 500 .9rem var(--mono); color: var(--pencil); min-width: 3ch; }
 .pills { display: flex; flex-wrap: wrap; gap: 8px; }
-.pill { display: inline-flex; align-items: center; min-height: 36px; padding: 0 16px; border-radius: 999px; border: 1px solid var(--line); background: var(--paper); font-weight: 500; font-size: .95rem; }
-.pill.on { background: var(--glass-tint-soft); color: var(--moss); border-color: transparent; font-weight: 700; }
+.pill {
+  position: relative; display: inline-flex; align-items: center; min-height: 40px; padding: 0 18px; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--paper); font-weight: 500; font-size: .95rem;
+  cursor: pointer; user-select: none; -webkit-tap-highlight-color: transparent;
+  transition: background-color .15s ease-out, color .15s ease-out, border-color .15s ease-out;
+}
+.pill:hover { border-color: var(--moss); }
+.pill:has(input:checked) { background: var(--glass-tint-soft); color: var(--moss); border-color: transparent; font-weight: 700; }
+@media (prefers-reduced-motion: reduce) {
+  .choice, .pill { transition: none; }
+  .choice:active { transform: none; }
+}
 @media (max-width: 760px) { .rating-grid { grid-template-columns: 1fr; } }
 
 /* Features */
