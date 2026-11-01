@@ -8,7 +8,7 @@
 
     var cells = Array.prototype.slice.call(stars.querySelectorAll('.star'));
     var readout = document.getElementById('demoStarsValue');
-    var MIN = 1, MAX = 5, STEP = 0.5;
+    var MIN = 0.5, MAX = 5, STEP = 0.5;
     var WORDS = ['', 'One', 'Two', 'Three', 'Four', 'Five'];
     var value = parseFloat(stars.getAttribute('data-value')) || 4.5;
 
