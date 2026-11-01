@@ -16,9 +16,9 @@
     <meta name="twitter:card" content="summary_large_image">
     <link rel="icon" type="image/png" sizes="64x64" href="images/favicon-64.png">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="stylesheet" href="css/fonts.css?v=20261031">
-    <link rel="stylesheet" href="css/site.css?v=20261031">
-    <script src="js/theme.js?v=20261031"></script>
+    <link rel="stylesheet" href="css/fonts.css?v=20261101">
+    <link rel="stylesheet" href="css/site.css?v=20261101">
+    <script src="js/theme.js?v=20261101"></script>
 </head>
 <body>
     <a class="skip" href="#main">Skip to content</a>
@@ -88,7 +88,19 @@
                 </details>
                 <details>
                     <summary>How do I export or back up my journal?</summary>
-                    <div class="answer"><p>Go to <b>You › Export journal</b>. You'll get a single file with every entry in a standard format (JSON), plus all of your photos, voice memos and files. Save it to Files, AirDrop it to your Mac, or keep it wherever you keep backups.</p></div>
+                    <div class="answer">
+                        <p>Go to <b>You › Export journal</b>. You'll get a single <b>.placemoirarchive</b> file with every place and visit in a standard format (JSON), plus all of your photos, voice memos and files. Save it to Files, AirDrop it to your Mac, or keep it wherever you keep backups.</p>
+                        <p>To restore it, open the file from Files, or choose it under <b>You › Import an archive</b>. Anything already in your journal is skipped, so nothing is duplicated or overwritten. The format is <a href="archive-format.html">open and documented</a>.</p>
+                    </div>
+                </details>
+                <details>
+                    <summary>Can I move my journal from Day One, Apple Journal or another app?</summary>
+                    <div class="answer">
+                        <p>Yes, with the help of an AI assistant such as ChatGPT or Claude. Export your journal from the other app, attach the export to a new chat, and ask:</p>
+                        <p class="prompt"><i>“Make a Placemoir import file from my attached export. Follow the instructions at placemoir.app/archive-format.html”</i></p>
+                        <p>Save the file it gives you to Files, then open it, or choose it under <b>You › Import an archive</b>. The same works for a list of places you want to try: ask for “a Placemoir import file of the best bakeries in Lisbon” instead.</p>
+                        <p>Placemoir checks the whole file before importing anything. If something's wrong, it lists what to fix, and you can paste that back to the assistant.</p>
+                    </div>
                 </details>
                 <details>
                     <summary>Can I bring in places from Photos or Google Maps?</summary>
@@ -133,6 +145,7 @@
                 <li><a href="support.html">Support</a></li>
                 <li><a href="privacy.html">Privacy Policy</a></li>
                 <li><a href="terms.html">Terms</a></li>
+                <li><a href="archive-format.html">Archive format</a></li>
             </ul>
             <div class="footer-note">
                 <p class="meta">© 2026 Tweeting Birds</p>
