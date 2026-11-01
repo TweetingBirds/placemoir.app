@@ -1,0 +1,71 @@
+{
+  "format": "placemoir-library",
+  "formatVersion": 1,
+  "exportedAt": "2026-11-01T09:00:00Z",
+  "generator": "Example from placemoir.app/archive-format.html",
+  "places": [
+    {
+      "id": "6F1C2D3E-4A5B-4C6D-8E7F-901A2B3C4D5E",
+      "name": "Tasca do Chico",
+      "category": "bar",
+      "address": "Rua do Diário de Notícias 39",
+      "locality": "Lisboa",
+      "country": "Portugal",
+      "latitude": 38.7115,
+      "longitude": -9.1442,
+      "wantToGo": false,
+      "createdAt": "2025-10-30T21:40:00Z",
+      "visits": [
+        {
+          "id": "A1B2C3D4-E5F6-4711-8899-AABBCCDDEEFF",
+          "date": "2025-10-30T22:15:00+01:00",
+          "rating": 4.5,
+          "goBack": "yes",
+          "notes": "Fado after 10pm. Standing room only, worth it.",
+          "tags": ["fado", "late night"],
+          "companions": "Sam",
+          "weather": { "summary": "Clear", "symbol": "moon.stars", "temperatureCelsius": 17 },
+          "attachments": [
+            {
+              "id": "0D9E8F7A-6B5C-4D3E-9F2A-1B0C9D8E7F6A",
+              "kind": "photo",
+              "path": "media/0D9E8F7A-6B5C-4D3E-9F2A-1B0C9D8E7F6A/Photo.jpg",
+              "filename": "Photo.jpg",
+              "caption": "The singer"
+            },
+            {
+              "kind": "audio",
+              "path": "media/fado.m4a",
+              "filename": "Voice memo.m4a",
+              "duration": 42.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hotel-lisbon-memmo",
+      "name": "Memmo Alfama",
+      "category": "hotel",
+      "locality": "Lisboa",
+      "country": "Portugal",
+      "visits": [
+        {
+          "id": "stay-2025-10",
+          "date": "2025-10-28",
+          "endDate": "2025-11-01",
+          "rating": 4,
+          "goBack": "maybe",
+          "notes": "Rooftop pool, small rooms."
+        }
+      ]
+    },
+    {
+      "name": "Septime",
+      "category": "restaurant",
+      "locality": "Paris 11e",
+      "country": "France",
+      "notes": "Book two weeks out, ask for the counter."
+    }
+  ]
+}
