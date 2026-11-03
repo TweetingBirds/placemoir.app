@@ -454,3 +454,4 @@ html:not(.has-device-tabs) .gallery-heading { display: block; width: 100%; font:
 @media (max-width: 480px) { .say-facts { grid-template-columns: 1fr; } }
 .say-faq { margin-bottom: 8px; }
 .faq-list .answer ul { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; }
+.pull-quote + .pull-quote { margin-top: 16px; }
