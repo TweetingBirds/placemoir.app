@@ -169,18 +169,22 @@ p { margin: 0; }
 .facts svg { width: 15px; height: 15px; color: var(--moss); }
 
 /* Phone frames */
-.device-hero { width: 100%; max-width: 360px; }
+.hero-art { display: flex; justify-content: center; }
+.device-hero { position: relative; width: 100%; max-width: 360px; }
 .device-hero img { width: 100%; height: auto; filter: drop-shadow(0 30px 40px rgba(29, 39, 51, .22)); }
+/* Callouts are anchored to the phone, so they keep the same spots at every width.
+   Weather and date share one left edge; the ribbon sits on the right, between them. */
 .float {
+  --hang: clamp(12px, 10vw, 64px);
   position: absolute; display: inline-flex; align-items: center; gap: 8px;
   padding: 10px 16px; border-radius: 999px; font: 500 .9rem var(--mono); color: var(--ink);
   white-space: nowrap;
 }
 .float svg { width: 18px; height: 18px; }
-.float-weather { top: 30%; left: max(0px, calc(50% - 240px)); }
-.float-ribbon { bottom: 20%; right: max(0px, calc(50% - 230px)); font: 700 .95rem var(--sans); }
+.float-weather { top: 30%; left: calc(-1 * var(--hang)); }
+.float-ribbon { top: 55%; right: calc(-1 * var(--hang)); font: 700 .95rem var(--sans); }
 .float-ribbon svg { color: currentColor; }
-.float-date { bottom: 6%; left: max(0px, calc(50% - 250px)); }
+.float-date { top: 80%; left: calc(-1 * var(--hang)); }
 @media (max-width: 900px) {
   .hero { padding-top: 116px; }
   .hero-grid { grid-template-columns: 1fr; gap: 28px; }
@@ -188,9 +192,9 @@ p { margin: 0; }
   .device-hero { max-width: 300px; }
 }
 @media (max-width: 420px) {
-  .float-weather { left: 0; }
-  .float-ribbon { right: 0; }
-  .float-date { display: none; }
+  .float { --hang: 12px; padding: 8px 13px; font-size: .8rem; }
+  .float-ribbon { font-size: .85rem; }
+  .float svg { width: 16px; height: 16px; }
 }
 
 /* Sections */
