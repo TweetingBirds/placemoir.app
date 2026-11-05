@@ -39,8 +39,8 @@
     },
     "date": {
       "type": "string",
-      "description": "ISO 8601: 2026-11-01T18:30:00Z, 2026-11-01T18:30:00.250+01:00, 2026-11-01T18:30:00 (local time), or 2026-11-01 (midday local time).",
-      "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}(:\\d{2}(\\.\\d+)?)?(Z|[+-]\\d{2}:?\\d{2})?)?$"
+      "description": "ISO 8601: 2026-11-01T18:30:00Z, 2026-11-01T18:30:00.250+01:00, 2026-11-01T18:30:00 or 2026-11-01T18:30 (local time), or 2026-11-01 (midday local time). A time zone needs seconds before it; fractions of a second have three digits.",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}(:\\d{2}(\\.\\d{3})?(Z|[+-]\\d{2}:\\d{2})?)?)?$"
     },
     "place": {
       "type": "object",
@@ -135,9 +135,9 @@
         },
         "rating": {
           "type": "number",
-          "minimum": 1,
+          "minimum": 0.5,
           "maximum": 5,
-          "description": "Stars in half steps. Other values round to the nearest half."
+          "description": "Stars, 0.5 to 5 in half steps. Other values in range round to the nearest half."
         },
         "goBack": {
           "enum": [
@@ -189,7 +189,8 @@
           "$ref": "#/$defs/date"
         },
         "updatedAt": {
-          "$ref": "#/$defs/date"
+          "$ref": "#/$defs/date",
+          "description": "Defaults to createdAt, which defaults to date."
         },
         "attachments": {
           "type": "array",
