@@ -116,12 +116,12 @@
 <li>The file MUST be a ZIP archive (PKWARE APPNOTE 6.3). Entries MUST be stored (method 0) or deflated (method 8), and MUST NOT be encrypted. ZIP64 is supported. Names SHOULD be UTF-8.</li>
 <li><code>library.json</code> MUST be at the top level. Placemoir also accepts it inside a single top-level folder (<code>Lisbon/library.json</code>), which is what Finder's Compress makes; then every <code>path</code> is relative to that folder. <code>__MACOSX/</code> entries are ignored.</li>
 <li>Placemoir writes each attachment stored (photos and audio are already compressed) at <code>media/&lt;attachment id&gt;/&lt;file name&gt;</code>, and then <code>library.json</code> last, deflated, listing only the attachments it wrote. Readers MUST NOT depend on that order or layout.</li>
-<li>No attachment may be larger than 200 MB, and <code>library.json</code> no larger than 256 MB (in a zip or on its own). All attachments together may unpack to at most 64 GB, and no more than the free space on the device. Two attachments MUST NOT share one <code>path</code>: each becomes its own copy in the journal.</li>
+<li>No attachment may be larger than 200 MB, and <code>library.json</code> no larger than 256 MB (in a zip or on its own). One visit's attachments may add up to at most 1 GB. All attachments together may unpack to at most 64 GB, no more than the free space on the device, and no more than 50 times the archive's own size plus 100 MB (photos and audio barely compress, so far more means a damaged or malicious file). Two attachments MUST NOT share one <code>path</code>: each becomes its own copy in the journal.</li>
 </ul>
 <h3 id="without-a-zip">Without a zip</h3>
 <p>A <code>library.json</code> on its own (any file name ending in <code>.json</code>) also imports, from You › Import an archive. It can't carry attachments, so it MUST NOT list any. This is the easiest shape for a script or an AI assistant that can't make a zip.</p>
 <h2 id="libraryjson">library.json</h2>
-<p>UTF-8 JSON. Unknown keys are ignored at every level, so a file MAY carry extra data (for example the original app's ids) without harm. Every field below is optional unless marked <strong>required</strong>. Placemoir reads <code>null</code> in an optional field as if the field were missing; a required field, or an item in a list, can't be <code>null</code>. The schema has no nulls at all, so leave a field out rather than writing <code>null</code>.</p>
+<p>UTF-8 JSON. A byte order mark, and a Markdown code fence around the whole file (<code>```json</code> … <code>```</code>, as chat assistants often add), are ignored, but write plain JSON when you can. Unknown keys are ignored at every level, so a file MAY carry extra data (for example the original app's ids) without harm. Every field below is optional unless marked <strong>required</strong>. Placemoir reads <code>null</code> in an optional field as if the field were missing; a required field, or an item in a list, can't be <code>null</code>. The schema has no nulls at all, so leave a field out rather than writing <code>null</code>.</p>
 <h3 id="top-level">Top level</h3>
 <div class="table-scroll"><table>
 <thead>
@@ -281,7 +281,7 @@
 <tr>
 <td><code>weather</code></td>
 <td>object</td>
-<td><code>summary</code> (string, "Partly cloudy"), <code>symbol</code> (string, an <a href="https://developer.apple.com/sf-symbols/">SF Symbols</a> name such as <code>cloud.sun</code>) and <code>temperatureCelsius</code> (number). All optional.</td>
+<td><code>summary</code> (string, "Partly cloudy"), <code>symbol</code> (string, an <a href="https://developer.apple.com/sf-symbols/">SF Symbols</a> name such as <code>cloud.sun</code>), <code>code</code> (string, WeatherKit's <a href="https://developer.apple.com/documentation/weatherkit/weathercondition"><code>WeatherCondition</code></a> name such as <code>partlyCloudy</code>, which Placemoir shows in the reader's language; a code it doesn't know falls back to <code>summary</code>) and <code>temperatureCelsius</code> (number). All optional.</td>
 </tr>
 <tr>
 <td><code>isDraft</code></td>
@@ -350,6 +350,11 @@
 <td><code>createdAt</code></td>
 <td>date</td>
 <td></td>
+</tr>
+<tr>
+<td><code>assetIdentifier</code></td>
+<td>string</td>
+<td>The Photos library id of the photo it was imported from, so importing that photo again on the same device is skipped. Library ids are per device; leave it out when writing a file by hand.</td>
 </tr>
 </tbody>
 </table></div>

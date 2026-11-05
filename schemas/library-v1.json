@@ -176,6 +176,13 @@
                 "cloud.sun"
               ]
             },
+            "code": {
+              "type": "string",
+              "description": "WeatherKit's WeatherCondition name, shown in the reader's language.",
+              "examples": [
+                "partlyCloudy"
+              ]
+            },
             "temperatureCelsius": {
               "type": "number"
             }
@@ -237,6 +244,10 @@
         },
         "createdAt": {
           "$ref": "#/$defs/date"
+        },
+        "assetIdentifier": {
+          "type": "string",
+          "description": "The Photos library id it was imported from, per device. Leave it out in hand-written files."
         }
       }
     }
