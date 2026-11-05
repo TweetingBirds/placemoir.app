@@ -24,7 +24,7 @@
           "notes": "Fado after 10pm. Standing room only, worth it.",
           "tags": ["fado", "late night"],
           "companions": "Sam",
-          "weather": { "summary": "Clear", "symbol": "moon.stars", "temperatureCelsius": 17 }
+          "weather": { "summary": "Clear", "symbol": "moon.stars", "code": "clear", "temperatureCelsius": 17 }
         }
       ]
     },
