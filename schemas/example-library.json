@@ -24,22 +24,7 @@
           "notes": "Fado after 10pm. Standing room only, worth it.",
           "tags": ["fado", "late night"],
           "companions": "Sam",
-          "weather": { "summary": "Clear", "symbol": "moon.stars", "temperatureCelsius": 17 },
-          "attachments": [
-            {
-              "id": "0D9E8F7A-6B5C-4D3E-9F2A-1B0C9D8E7F6A",
-              "kind": "photo",
-              "path": "media/0D9E8F7A-6B5C-4D3E-9F2A-1B0C9D8E7F6A/Photo.jpg",
-              "filename": "Photo.jpg",
-              "caption": "The singer"
-            },
-            {
-              "kind": "audio",
-              "path": "media/fado.m4a",
-              "filename": "Voice memo.m4a",
-              "duration": 42.5
-            }
-          ]
+          "weather": { "summary": "Clear", "symbol": "moon.stars", "temperatureCelsius": 17 }
         }
       ]
     },

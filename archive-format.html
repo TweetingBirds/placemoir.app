@@ -57,7 +57,7 @@
         <div class="wrap page-body">
             <article class="prose spec">
 <p>A Placemoir archive holds a whole Placemoir journal in one file: places, visits, ratings, notes, tags, weather, photos, voice memos and other attachments. Placemoir writes one when you export your journal (You › Export journal), and reads one back under You › Import an archive, or when you open the file from Files, Mail or AirDrop.</p>
-<p>The format is public so that anyone, including scripts and AI assistants, can write files Placemoir imports: from Day One, Apple Journal, a spreadsheet, a travel blog or another app's export. This document is the whole contract. The machine-readable version is <a href="https://placemoir.app/schemas/library-v1.json">library-v1.json</a> (JSON Schema 2020-12), and <a href="https://placemoir.app/schemas/example-library.json">example-library.json</a> is a complete example.</p>
+<p>The format is public so that anyone, including scripts and AI assistants, can write files Placemoir imports: from Day One, Apple Journal, a spreadsheet, a travel blog or another app's export. This document is the whole contract. The machine-readable version is <a href="https://placemoir.app/schemas/library-v1.json">library-v1.json</a> (JSON Schema 2020-12), and <a href="https://placemoir.app/schemas/example-library.json">example-library.json</a> is a complete example that imports as it is, as a bare <code>library.json</code>. It has no attachments, because a bare file can't carry any; <a href="#at-a-glance">At a glance</a> shows one inside an archive.</p>
 <p>The words MUST, SHOULD and MAY are used as in RFC 2119.</p>
 <h2 id="for-ai-assistants-and-scripts">For AI assistants and scripts</h2>
 <p>Someone has asked you to make a file they can import into Placemoir, an iPhone journal of places they've been and want to go. Follow these steps.</p>
@@ -75,12 +75,12 @@
 <li><strong>Use stable ids.</strong> Give each place and visit an <code>id</code>, taken from the source when it has one (a Day One entry <code>uuid</code>, a spreadsheet row id). Then importing the same file again adds nothing new.</li>
 <li><strong>Keep their words.</strong> Copy the person's own text into <code>notes</code> as plain text. Turn Markdown or HTML into plain text, keep line breaks, and drop image placeholders.</li>
 <li><strong>Dates:</strong> keep the source's time and time zone offset when it has them. When there's only a day, write the day alone (<code>2025-10-30</code>).</li>
-<li><strong>Ratings:</strong> only when the source has one. Convert other scales to 1–5 in half steps (8/10 → 4, 3 of 4 → 4). Use <code>goBack</code> only when the person said whether they'd return.</li>
+<li><strong>Ratings:</strong> only when the source has one. Convert other scales to 0.5–5 in half steps (8/10 → 4, 3 of 4 → 4). Use <code>goBack</code> only when the person said whether they'd return.</li>
 <li><strong>Categories:</strong> pick the closest of <code>restaurant</code>, <code>cafe</code>, <code>bar</code>, <code>hotel</code>, <code>park</code>, <code>museum</code>, <code>attraction</code>, otherwise <code>other</code>. Bakeries and dessert shops are <code>cafe</code>; beaches, viewpoints and gardens are <code>park</code>; galleries are <code>museum</code>; shops, markets and anything else are <code>attraction</code> or <code>other</code>.</li>
 <li><strong>Want to go:</strong> a place they haven't been to yet (a recommendation, a trip plan) has no <code>visits</code>. It lands on their Want to go list. Put why it's on the list in the place's <code>notes</code>.</li>
 <li><strong>Recommendations you research:</strong> only places that exist and are open now, with a full street address. Leave out coordinates you aren't sure of.</li>
 </ul>
-<p>If Placemoir refuses the file, it lists each problem with its location, like <code>places[2].visits[0].rating: must be 1 to 5, not 9.</code> Fix exactly those and hand over the file again.</p>
+<p>If Placemoir refuses the file, it lists each problem with its location, like <code>places[2].visits[0].rating: must be 0.5 to 5, not 9.</code> Fix exactly those and hand over the file again.</p>
 <h2 id="at-a-glance">At a glance</h2>
 <pre><code>Lisbon.placemoirarchive          (a ZIP file)
 ├── library.json                 the journal, as JSON (required)
@@ -115,13 +115,13 @@
 <li><strong>Extension:</strong> <code>.placemoirarchive</code>. <strong>Uniform Type Identifier:</strong> <code>com.tweetingbirds.placemoir.archive</code> (conforms to <code>public.data</code> and <code>public.archive</code>). <strong>MIME type:</strong> <code>application/vnd.placemoir.archive+zip</code>.</li>
 <li>The file MUST be a ZIP archive (PKWARE APPNOTE 6.3). Entries MUST be stored (method 0) or deflated (method 8), and MUST NOT be encrypted. ZIP64 is supported. Names SHOULD be UTF-8.</li>
 <li><code>library.json</code> MUST be at the top level. Placemoir also accepts it inside a single top-level folder (<code>Lisbon/library.json</code>), which is what Finder's Compress makes; then every <code>path</code> is relative to that folder. <code>__MACOSX/</code> entries are ignored.</li>
-<li>Placemoir writes <code>library.json</code> first, deflated, and then each attachment stored (photos and audio are already compressed) at <code>media/&lt;attachment id&gt;/&lt;file name&gt;</code>. Readers MUST NOT depend on that order or layout.</li>
-<li>No attachment may be larger than 1 GB, and <code>library.json</code> no larger than 256 MB.</li>
+<li>Placemoir writes each attachment stored (photos and audio are already compressed) at <code>media/&lt;attachment id&gt;/&lt;file name&gt;</code>, and then <code>library.json</code> last, deflated, listing only the attachments it wrote. Readers MUST NOT depend on that order or layout.</li>
+<li>No attachment may be larger than 200 MB, and <code>library.json</code> no larger than 256 MB (in a zip or on its own). All attachments together may unpack to at most 64 GB, and no more than the free space on the device. Two attachments MUST NOT share one <code>path</code>: each becomes its own copy in the journal.</li>
 </ul>
 <h3 id="without-a-zip">Without a zip</h3>
 <p>A <code>library.json</code> on its own (any file name ending in <code>.json</code>) also imports, from You › Import an archive. It can't carry attachments, so it MUST NOT list any. This is the easiest shape for a script or an AI assistant that can't make a zip.</p>
 <h2 id="libraryjson">library.json</h2>
-<p>UTF-8 JSON. Unknown keys are ignored at every level, so a file MAY carry extra data (for example the original app's ids) without harm. Every field below is optional unless marked <strong>required</strong>. <code>null</code> counts as missing.</p>
+<p>UTF-8 JSON. Unknown keys are ignored at every level, so a file MAY carry extra data (for example the original app's ids) without harm. Every field below is optional unless marked <strong>required</strong>. Placemoir reads <code>null</code> in an optional field as if the field were missing; a required field, or an item in a list, can't be <code>null</code>. The schema has no nulls at all, so leave a field out rather than writing <code>null</code>.</p>
 <h3 id="top-level">Top level</h3>
 <div class="table-scroll"><table>
 <thead>
@@ -218,7 +218,7 @@
 <tr>
 <td><code>createdAt</code></td>
 <td>date</td>
-<td>When it was added to the journal.</td>
+<td>When it was added to the journal. Defaults to the time of the import.</td>
 </tr>
 <tr>
 <td><code>visits</code></td>
@@ -256,7 +256,7 @@
 <tr>
 <td><code>rating</code></td>
 <td>number</td>
-<td>Stars, 1 to 5, in half steps. Other values in range round to the nearest half (4.3 → 4.5).</td>
+<td>Stars, 0.5 to 5, in half steps. Other values in range round to the nearest half (4.3 → 4.5) rather than fail; values outside it are an error.</td>
 </tr>
 <tr>
 <td><code>goBack</code></td>
@@ -289,9 +289,14 @@
 <td>An unfinished entry, shown with drafts. Default <code>false</code>.</td>
 </tr>
 <tr>
-<td><code>createdAt</code>, <code>updatedAt</code></td>
+<td><code>createdAt</code></td>
 <td>date</td>
-<td>Default to <code>date</code>.</td>
+<td>Defaults to <code>date</code>.</td>
+</tr>
+<tr>
+<td><code>updatedAt</code></td>
+<td>date</td>
+<td>Defaults to <code>createdAt</code> (so to <code>date</code> when both are missing).</td>
 </tr>
 <tr>
 <td><code>attachments</code></td>
@@ -329,7 +334,7 @@
 <tr>
 <td><code>filename</code></td>
 <td>string</td>
-<td>The name shown in the app. Defaults to the last part of <code>path</code>.</td>
+<td>The name shown in the app. Defaults to the last part of <code>path</code>. Placemoir turns <code>/</code>, <code>\</code>, <code>:</code> and control characters into <code>-</code> and keeps at most 255 bytes (UTF-8), so it stays a single file name.</td>
 </tr>
 <tr>
 <td><code>caption</code></td>
@@ -350,7 +355,7 @@
 </table></div>
 <p>Photos can be any format iOS reads (JPEG, HEIC, PNG). Placemoir keeps the original bytes and makes its own thumbnail. Audio SHOULD be M4A (AAC) or MP3. Video isn't supported yet; attach it as <code>file</code> if you want to keep it.</p>
 <h3 id="dates">Dates</h3>
-<p>Dates are ISO 8601 strings. Placemoir writes <code>2026-11-01T18:30:00Z</code> and reads any of these:</p>
+<p>Dates are ISO 8601 strings. Placemoir writes <code>2026-11-01T18:30:00Z</code> (or <code>2026-11-01T18:30:00.250Z</code> when the time has fractions of a second) and reads any of these:</p>
 <div class="table-scroll"><table>
 <thead>
 <tr>
@@ -364,11 +369,11 @@
 <td>That moment.</td>
 </tr>
 <tr>
-<td><code>2026-11-01T18:30:00.250Z</code></td>
-<td>That moment, with fractions of a second.</td>
+<td><code>2026-11-01T18:30:00.250Z</code>, <code>2026-11-01T18:30:00.250+01:00</code></td>
+<td>That moment, to the millisecond.</td>
 </tr>
 <tr>
-<td><code>2026-11-01T18:30:00</code>, <code>2026-11-01T18:30</code></td>
+<td><code>2026-11-01T18:30:00</code>, <code>2026-11-01T18:30:00.250</code>, <code>2026-11-01T18:30</code></td>
 <td>That time, in the time zone of the device importing it.</td>
 </tr>
 <tr>
@@ -377,24 +382,26 @@
 </tr>
 </tbody>
 </table></div>
-<p>Anything else, such as <code>Nov 1, 2026</code> or a Unix timestamp, is an error.</p>
+<p>A time zone is <code>Z</code> or <code>+hh:mm</code>/<code>-hh:mm</code>, and needs the seconds before it (<code>18:30:00Z</code>, not <code>18:30Z</code>). Fractions of a second have exactly three digits. Anything else, such as <code>Nov 1, 2026</code> or a Unix timestamp, is an error. The schema's <code>date</code> pattern allows exactly these shapes.</p>
 <h3 id="ids">Ids</h3>
 <p>An <code>id</code> is any non-empty string, unique among the places (or visits, or attachments) in the file. Placemoir writes UUIDs. Any other string, such as a Day One entry id, is turned into a UUID the same way every time, so ids from another app keep working across imports.</p>
 <p>Give every place and visit an id when you can. It is what makes importing the same file twice safe.</p>
 <h2 id="how-placemoir-imports">How Placemoir imports</h2>
 <p>Importing <strong>merges</strong>: it adds what's new and never changes or removes what's already in the journal.</p>
 <ul>
-<li><strong>A place</strong> is already there when it has the same id, or the same name (ignoring case) within 150 m. When either side has no position, the same name is enough. A matched place keeps its own fields, and gains any that were blank (address, locality, country, notes, position, a category other than <code>other</code>).</li>
-<li><strong>A visit</strong> is already there when it has the same id. A visit without an id is already there when the same place has a visit within a minute of it with the same notes. Visits already there are skipped, with their attachments.</li>
+<li><strong>A place</strong> is already there when it has the same id. A place whose id is a UUID (what Placemoir writes) matches only by id, so a restore never merges two places that share a name. Otherwise (another kind of id, or none) it also matches the same name (ignoring case) within 150 m; when either side has no position, the addresses must match too; and when neither has a position or an address, the same name is enough. A matched place keeps its own fields, and gains any that were blank (address, locality, country, notes, position, a category other than <code>other</code>).</li>
+<li><strong>A visit</strong> is already there when it has the same id. A visit without an id is already there when the same place has a visit within a minute of it with the same notes. Visits already there are skipped, except that one with an id gains any of the file's attachments, by id, that it doesn't have yet. Attachments without an id on a visit already there are skipped.</li>
 <li><strong>An attachment</strong> keeps its id unless the journal already uses it, in which case it gets a new one.</li>
-<li>A Want to go place that the file says you've visited (<code>"wantToGo": false</code> with visits) comes off the list.</li>
+<li>A Want to go place that gains visits from the file comes off the list, unless the file says <code>"wantToGo": true</code>.</li>
 </ul>
 <p>So restoring a backup into the journal it came from adds nothing, and importing the same file twice adds nothing the second time. To replace a journal instead, use You › Delete all data first.</p>
 <p>Before anything is imported, the whole file is checked. If anything is wrong, nothing is imported and Placemoir lists the problems with where to find them:</p>
 <pre><code>The library has 2 problems:
-• places[0].visits[3].rating: must be 1 to 5, not 9.
+• places[0].visits[3].rating: must be 0.5 to 5, not 9.
 • places[2].visits[0].attachments[0].path: “media/IMG_0042.jpg” isn’t in the archive.
 </code></pre>
+<p>Some damage only shows while importing, such as an attachment whose bytes fail their checksum. Each visit goes in whole, with all its attachments, or not at all, so the import stops at the damaged visit and keeps the complete visits before it. Importing the repaired file again skips those and adds the rest.</p>
+<p>Placemoir checks its own exports the same way before writing them, and refuses to write one that wouldn't import.</p>
 <h2 id="versions">Versions</h2>
 <p><code>formatVersion</code> changes only when a file written to the new version would be misread by an app that reads the old one. Adding an optional field doesn't change it; readers ignore fields they don't know. Placemoir refuses a file with a <code>formatVersion</code> newer than it supports and asks you to update the app.</p>
 <div class="table-scroll"><table>
