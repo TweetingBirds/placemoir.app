@@ -1,0 +1,50 @@
+name: Deploy site
+
+# Publishes the site to GitHub Pages from `main`. This replaces the built-in "pages build and
+# deployment" run, which pins actions on Node 20 and runs on `ubuntu-latest`, and so warns on
+# every push. It needs Settings → Pages → Source set to "GitHub Actions".
+#
+# There is no build step: the repository root is the site. The old built-in run passed it
+# through Jekyll, but no page uses front matter or Liquid, so the files go up as they are.
+# Hidden files, `.git` and `.github` are left out of the upload.
+#
+# Pull requests run the upload only, so a broken workflow shows up before it reaches `main`.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# One deploy at a time, and an in-progress deploy is never cut short.
+concurrency:
+  group: pages-${{ github.event_name == 'pull_request' && github.ref || 'deploy' }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  build:
+    # Pinned rather than `ubuntu-latest`, so an image migration can't change the job unseen.
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: .
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
