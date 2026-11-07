@@ -32,7 +32,11 @@
 
     function label() {
         var button = document.getElementById('themeToggle');
-        if (button) button.setAttribute('aria-label', current() === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+        // Translated pages carry their own labels in data-label-light and data-label-dark.
+        if (button) {
+            var next = current() === 'dark' ? 'light' : 'dark';
+            button.setAttribute('aria-label', button.getAttribute('data-label-' + next) || 'Switch to ' + next + ' mode');
+        }
         var links = document.querySelectorAll('[data-set-theme]');
         for (var i = 0; i < links.length; i++) {
             links[i].setAttribute('aria-pressed', String(links[i].getAttribute('data-set-theme') === current()));

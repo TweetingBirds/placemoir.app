@@ -513,3 +513,46 @@ html:not(.has-device-tabs) .gallery-heading { display: block; width: 100%; font:
 .btn-soft:hover { background: color-mix(in srgb, var(--moss) 22%, transparent); }
 .feature .feature-link { font-weight: 700; font-size: .95rem; }
 @media (max-width: 720px) { .prompt-grid { grid-template-columns: 1fr; } }
+
+/* Languages: the footer list, reached from the globe in the header */
+.lang-switch { width: 100%; }
+.lang-switch ul { display: flex; flex-wrap: wrap; gap: 6px 18px; list-style: none; margin: 0; padding: 0; }
+.lang-switch a { color: var(--pencil); text-decoration: none; font-size: .9rem; }
+.lang-switch a:hover { color: var(--moss); text-decoration: underline; }
+.lang-switch a[aria-current] { color: var(--ink); font-weight: 700; }
+:target.lang-switch { scroll-margin-bottom: 40px; }
+/* Small phones: translated Download labels run longer, so the header tightens up, and below
+   380px the globe goes (the list is still at the foot of the page). */
+@media (max-width: 420px) {
+  .nav { gap: 6px; padding-left: 14px; }
+  .brand { flex: none; }
+  .brand .wordmark { height: 20px; }
+  .nav .icon-btn { width: 38px; }
+  .nav .btn-moss { padding: 0 14px; }
+}
+@media (max-width: 379px) { .nav .lang-btn { display: none; } }
+
+/* Translated pages. Long German and French words may break in headings. */
+:root:not(:lang(en)) :is(h1, h2, h3) { hyphens: auto; -webkit-hyphens: auto; }
+
+/* Japanese and Traditional Chinese: the brand faces are Latin only, so CJK text uses the
+   system fonts (Hiragino, PingFang TC) and is never set in italic. Latin words inside keep
+   the brand faces. Eyebrows drop the wide tracking that only suits capitals. */
+:root:lang(ja) {
+  --display: "Newsreader", "Hiragino Mincho ProN", "Yu Mincho", serif;
+  --sans: "Karla", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, "Hiragino Sans", monospace;
+}
+:root:lang(zh-Hant) {
+  --display: "Newsreader", "PingFang TC", "Heiti TC", "Microsoft JhengHei", serif;
+  --sans: "Karla", "PingFang TC", "Heiti TC", "Microsoft JhengHei", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, "PingFang TC", monospace;
+}
+/* !important because the title rules set italic in the font shorthand. */
+:root:is(:lang(ja), :lang(zh-Hant)) * { font-style: normal !important; }
+:root:is(:lang(ja), :lang(zh-Hant)) body { line-height: 1.75; line-break: strict; }
+:root:is(:lang(ja), :lang(zh-Hant)) :is(h1, h2, h3) { letter-spacing: 0; line-height: 1.3; word-break: auto-phrase; }
+:root:is(:lang(ja), :lang(zh-Hant)) .eyebrow { letter-spacing: .06em; }
+:root:is(:lang(ja), :lang(zh-Hant)) .hero h1 { font-size: clamp(32px, 3.4vw, 42px); max-width: 12em; }
+:root:is(:lang(ja), :lang(zh-Hant)) .sec-head h2 { font-size: clamp(28px, 3.6vw, 42px); }
+:root:is(:lang(ja), :lang(zh-Hant)) .download h2 { font-size: clamp(30px, 4vw, 48px); }
