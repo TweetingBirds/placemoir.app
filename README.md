@@ -40,8 +40,15 @@ Then open http://127.0.0.1:8811. GitHub Pages serves `404.html` for missing path
 
 - Cloudflare caches CSS and JS for four hours, so stylesheets and scripts are linked with `?v=<date>`. When you change `css/` or `js/`, bump that value in every page (`grep -l '?v=' *.html`), or the live site mixes new HTML with old CSS.
 
-## Before launch
+## App Store links
 
-- Add an App Store link (`apple-itunes-app` meta and the store buttons).
-- Legal pages are drafts adapted from quipsapp.com. Open items are marked `TODO` in HTML comments: the legal entity and address, the contact mailbox (`feedback@placemoir.app`) and pricing.
-- Press kit: add the release date and App Store link, approve the maker quote, add tester quotes, and rebuild the ZIP with the final screenshots. Items are marked `TODO` in `press.html`.
+Placemoir 1.0 went live on the App Store on November 6, 2026 (app ID `6829224969`).
+
+- Every page has `<meta name="apple-itunes-app" content="app-id=6829224969">` for Safari's Smart App Banner.
+- Store links go straight to `https://apps.apple.com/app/placemoir/id6829224969?pt=121730518&ct=<campaign>&mt=8`. `pt` is the Tweeting Birds provider token and `ct` names where the click came from, so App Store Connect › App Analytics › Campaigns shows which link drives downloads. Campaigns in use: `website-nav`, `website-hero`, `website-download`, `website-faq`, `press`. Use a new `ct` for each new placement and for social posts (`bsky`, `threads`, `ig`, `email`).
+- The badge is Apple's official black “Download on the App Store” SVG (`images/app-store-badge.svg`, the same file as quipsapp.com). Don't recolor or redraw it; keep it at least 40px tall.
+
+## Still open
+
+- Legal pages: open items are marked `TODO` in HTML comments (the developer address and the `feedback@placemoir.app` mailbox).
+- Press kit: add tester quotes and rebuild the ZIP with the final App Store screenshots. Items are marked `TODO` in `press.html`.
