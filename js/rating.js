@@ -12,7 +12,13 @@
     var WORDS = ['', 'One', 'Two', 'Three', 'Four', 'Five'];
     var value = parseFloat(stars.getAttribute('data-value')) || 4.5;
 
+    // Translated pages list the ten spoken values, half a star to five, in data-valuetexts,
+    // and the slider's name in data-label. English is built from WORDS when they're missing.
+    var TEXTS = (stars.getAttribute('data-valuetexts') || '').split('|');
+    var LANG = document.documentElement.lang || 'en';
+
     function describe(v) {
+        if (TEXTS.length === 10) return TEXTS[Math.round(v * 2) - 1];
         var whole = Math.floor(v);
         var half = v % 1 !== 0;
         if (whole === 0) return 'Half a star';
@@ -29,7 +35,7 @@
         stars.setAttribute('aria-valuenow', String(value));
         stars.setAttribute('aria-valuetext', describe(value));
         stars.setAttribute('data-value', String(value));
-        if (readout) readout.textContent = value.toFixed(1);
+        if (readout) readout.textContent = value.toLocaleString(LANG, { minimumFractionDigits: 1, maximumFractionDigits: 1 });
     }
 
     // Left half of a star is a half step, right half the whole star, as in the app.
@@ -47,7 +53,7 @@
     stars.removeAttribute('aria-label');
     stars.setAttribute('role', 'slider');
     stars.setAttribute('tabindex', '0');
-    stars.setAttribute('aria-label', 'Star rating example');
+    stars.setAttribute('aria-label', stars.getAttribute('data-label') || 'Star rating example');
     stars.setAttribute('aria-valuemin', String(MIN));
     stars.setAttribute('aria-valuemax', String(MAX));
     stars.classList.add('is-live');
