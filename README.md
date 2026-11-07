@@ -1,6 +1,6 @@
 # placemoir.app
 
-The marketing site for **Placemoir**, a private journal for the places you visit. Plain static HTML, CSS and a little JavaScript, published with GitHub Pages from the root of `main`. There's no build step.
+The marketing site for **Placemoir**, a private journal for the places you visit. Plain static HTML, CSS and a little JavaScript, published with GitHub Pages from the root of `main` by `.github/workflows/pages.yml` (Settings → Pages → Source must be "GitHub Actions"). There's no build step.
 
 ## Preview
 
