@@ -26,11 +26,12 @@
       "address": "309 SW Broadway, Portland, OR 97205",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 45.5217,
-      "longitude": -122.6779,
+      "latitude": 45.521844,
+      "longitude": -122.678428,
       "wantToGo": true,
       "notes": "A 1913 hotel with a walnut-paneled lobby, where presidents stay when they're in town.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "IC909BE555C9C0014"
     },
     {
       "id": "guide:portland/hotel-deluxe",
@@ -39,11 +40,12 @@
       "address": "729 SW 15th Ave, Portland, OR 97205",
       "locality": "Goose Hollow",
       "country": "United States",
-      "latitude": 45.5214,
-      "longitude": -122.6878,
+      "latitude": 45.520932,
+      "longitude": -122.68762,
       "wantToGo": true,
       "notes": "Old-Hollywood glamour and the Driftwood Room bar, on the edge of downtown.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "IA76F08EFFA732D32"
     },
     {
       "id": "guide:portland/hoxton",
@@ -52,11 +54,12 @@
       "address": "15 NW 4th Ave, Portland, OR 97209",
       "locality": "Old Town Chinatown",
       "country": "United States",
-      "latitude": 45.5231,
-      "longitude": -122.6747,
+      "latitude": 45.523404,
+      "longitude": -122.674727,
       "wantToGo": true,
       "notes": "Stylish, fairly priced rooms across from the Chinese garden, with a rooftop bar.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "IB51D9D4FFF0FD9CD"
     },
     {
       "id": "guide:portland/jupiter-hotel",
@@ -65,11 +68,12 @@
       "address": "800 E Burnside St, Portland, OR 97214",
       "locality": "Buckman",
       "country": "United States",
-      "latitude": 45.523,
-      "longitude": -122.6574,
+      "latitude": 45.52275,
+      "longitude": -122.657196,
       "wantToGo": true,
       "notes": "A retro motor lodge turned hip hotel on the east side. Ask for a quiet room away from the courtyard.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "I433DF27631EA9291"
     },
     {
       "id": "guide:portland/le-pigeon",
@@ -78,11 +82,12 @@
       "address": "738 E Burnside St, Portland, OR 97214",
       "locality": "Buckman",
       "country": "United States",
-      "latitude": 45.5228,
-      "longitude": -122.6582,
+      "latitude": 45.522766,
+      "longitude": -122.657852,
       "wantToGo": true,
       "notes": "French food with Portland nerve, at a counter facing the cooks. Order the burger if it's on.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IB81CD0530139689D"
     },
     {
       "id": "guide:portland/canard",
@@ -91,11 +96,12 @@
       "address": "734 E Burnside St, Portland, OR 97214",
       "locality": "Buckman",
       "country": "United States",
-      "latitude": 45.5228,
-      "longitude": -122.6583,
+      "latitude": 45.52271,
+      "longitude": -122.657984,
       "wantToGo": true,
       "notes": "Le Pigeon's casual sibling. Duck-stack pancakes at brunch, and the steamburger.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IC6DAD0AAFD02E2F7"
     },
     {
       "id": "guide:portland/screen-door",
@@ -104,11 +110,12 @@
       "address": "2337 E Burnside St, Portland, OR 97214",
       "locality": "Kerns",
       "country": "United States",
-      "latitude": 45.523,
-      "longitude": -122.6418,
+      "latitude": 45.522981,
+      "longitude": -122.641626,
       "wantToGo": true,
       "notes": "Southern cooking with a famous fried chicken and waffle brunch. Get there early.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IB3A7FCB720305291"
     },
     {
       "id": "guide:portland/kachka",
@@ -117,11 +124,12 @@
       "address": "960 SE 11th Ave, Portland, OR 97214",
       "locality": "Buckman",
       "country": "United States",
-      "latitude": 45.5167,
-      "longitude": -122.6544,
+      "latitude": 45.51574,
+      "longitude": -122.654531,
       "wantToGo": true,
       "notes": "Russian dumplings, zakuski and house-infused vodkas. A party of a dinner.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I7ADABA923AC1845D"
     },
     {
       "id": "guide:portland/nongs",
@@ -130,11 +138,12 @@
       "address": "609 SE Ankeny St, Portland, OR 97214",
       "locality": "Buckman",
       "country": "United States",
-      "latitude": 45.5222,
-      "longitude": -122.6597,
+      "latitude": 45.52237,
+      "longitude": -122.659386,
       "wantToGo": true,
       "notes": "One perfect Thai dish, poached chicken and rice with a ginger-chili sauce. From a food cart to a café.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I8BCFFEDCE2A6CFDE"
     },
     {
       "id": "guide:portland/kens-pizza",
@@ -143,11 +152,12 @@
       "address": "304 SE 28th Ave, Portland, OR 97214",
       "locality": "Kerns",
       "country": "United States",
-      "latitude": 45.5212,
-      "longitude": -122.637,
+      "latitude": 45.520586,
+      "longitude": -122.637141,
       "wantToGo": true,
       "notes": "Wood-fired pizza in a lively room. Arrive at opening or put your name in and wait at a bar nearby.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IF34D6E73645DBF4E"
     },
     {
       "id": "guide:portland/ava-genes",
@@ -156,11 +166,12 @@
       "address": "3377 SE Division St, Portland, OR 97202",
       "locality": "Richmond",
       "country": "United States",
-      "latitude": 45.5048,
-      "longitude": -122.6301,
+      "latitude": 45.50488,
+      "longitude": -122.629854,
       "wantToGo": true,
       "notes": "Roman-style cooking with Oregon vegetables. A Division Street favorite.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I955339906315B91A"
     },
     {
       "id": "guide:portland/tusk",
@@ -169,11 +180,12 @@
       "address": "2448 E Burnside St, Portland, OR 97214",
       "locality": "Kerns",
       "country": "United States",
-      "latitude": 45.5229,
-      "longitude": -122.6406,
+      "latitude": 45.522751,
+      "longitude": -122.640506,
       "wantToGo": true,
       "notes": "Bright Middle Eastern plates and a sunny patio.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I170C65D0C5DA18F6"
     },
     {
       "id": "guide:portland/lardo",
@@ -182,11 +194,12 @@
       "address": "1212 SE Hawthorne Blvd, Portland, OR 97214",
       "locality": "Hawthorne",
       "country": "United States",
-      "latitude": 45.5121,
-      "longitude": -122.653,
+      "latitude": 45.512103,
+      "longitude": -122.653036,
       "wantToGo": true,
       "notes": "Big, messy sandwiches. The pork meatball banh mi and the dirty fries.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I76C91AB08CA0E502"
     },
     {
       "id": "guide:portland/voodoo-doughnut",
@@ -195,11 +208,12 @@
       "address": "22 SW 3rd Ave, Portland, OR 97204",
       "locality": "Old Town Chinatown",
       "country": "United States",
-      "latitude": 45.5227,
-      "longitude": -122.6732,
+      "latitude": 45.522648,
+      "longitude": -122.673143,
       "wantToGo": true,
       "notes": "The pink-box tourist classic. Get the Bacon Maple Bar, once.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IC43469C40C2A884C"
     },
     {
       "id": "guide:portland/blue-star-donuts",
@@ -208,11 +222,12 @@
       "address": "3325 SE Division St, Portland, OR 97202",
       "locality": "Richmond",
       "country": "United States",
-      "latitude": 45.5049,
-      "longitude": -122.6311,
+      "latitude": 45.504869,
+      "longitude": -122.631136,
       "wantToGo": true,
       "notes": "Brioche doughnuts for grown-ups. Blueberry bourbon basil is the one.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I9B7D2D9FD6D74C35"
     },
     {
       "id": "guide:portland/salt-and-straw",
@@ -221,11 +236,12 @@
       "address": "838 NW 23rd Ave, Portland, OR 97210",
       "locality": "Northwest",
       "country": "United States",
-      "latitude": 45.5298,
-      "longitude": -122.6985,
+      "latitude": 45.528965,
+      "longitude": -122.698464,
       "wantToGo": true,
       "notes": "Strange and wonderful ice cream flavors. Ask to taste a few before you choose.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "ID93F458FFD252AF4"
     },
     {
       "id": "guide:portland/stumptown",
@@ -234,11 +250,12 @@
       "address": "1140 SW Washington St, Portland, OR 97205",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 45.5215,
-      "longitude": -122.6829,
+      "latitude": 45.521509,
+      "longitude": -122.682851,
       "wantToGo": true,
       "notes": "The roaster that put Portland coffee on the map, with its downtown café a few blocks from Powell's.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I101CC9B28D6E9478"
     },
     {
       "id": "guide:portland/coava",
@@ -247,11 +264,12 @@
       "address": "1300 SE Grand Ave, Portland, OR 97214",
       "locality": "Buckman",
       "country": "United States",
-      "latitude": 45.5134,
-      "longitude": -122.661,
+      "latitude": 45.513446,
+      "longitude": -122.660439,
       "wantToGo": true,
       "notes": "Bright, clean coffee in a big, airy room shared with a woodshop.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I319B4647AEE9470E"
     },
     {
       "id": "guide:portland/multnomah-whiskey-library",
@@ -260,11 +278,12 @@
       "address": "1124 SW Alder St, Portland, OR 97205",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 45.5207,
-      "longitude": -122.6832,
+      "latitude": 45.521038,
+      "longitude": -122.683401,
       "wantToGo": true,
       "notes": "Over 1,500 spirits on rolling ladders. Book a seat; it's worth it.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I40643FA7AEF7E08"
     },
     {
       "id": "guide:portland/deschutes-pub",
@@ -273,11 +292,12 @@
       "address": "210 NW 11th Ave, Portland, OR 97209",
       "locality": "Pearl District",
       "country": "United States",
-      "latitude": 45.5246,
-      "longitude": -122.6823,
+      "latitude": 45.524548,
+      "longitude": -122.681901,
       "wantToGo": true,
       "notes": "The Bend brewery's big Pearl District pub, with Portland-only beers on tap.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IB65C0FCC45840798"
     },
     {
       "id": "guide:portland/powells",
@@ -286,11 +306,12 @@
       "address": "1005 W Burnside St, Portland, OR 97209",
       "locality": "Pearl District",
       "country": "United States",
-      "latitude": 45.5231,
-      "longitude": -122.6814,
+      "latitude": 45.523255,
+      "longitude": -122.681558,
       "wantToGo": true,
       "notes": "A whole city block of new and used books. Grab a map at the door and find the Rare Book Room.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I33FA41F6A8ACF28"
     },
     {
       "id": "guide:portland/lan-su-garden",
@@ -299,11 +320,12 @@
       "address": "239 NW Everett St, Portland, OR 97209",
       "locality": "Old Town Chinatown",
       "country": "United States",
-      "latitude": 45.5254,
-      "longitude": -122.6731,
+      "latitude": 45.525525,
+      "longitude": -122.67311,
       "wantToGo": true,
       "notes": "A walled Ming-style garden in the middle of the city. Have tea in the teahouse.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IE96D2522DF0073D7"
     },
     {
       "id": "guide:portland/portland-art-museum",
@@ -312,24 +334,12 @@
       "address": "1219 SW Park Ave, Portland, OR 97205",
       "locality": "South Park Blocks",
       "country": "United States",
-      "latitude": 45.5161,
-      "longitude": -122.6833,
+      "latitude": 45.51615,
+      "longitude": -122.683357,
       "wantToGo": true,
       "notes": "The oldest art museum in the Northwest, with strong Native American and Northwest galleries.",
-      "section": "See"
-    },
-    {
-      "id": "guide:portland/oregon-historical-society",
-      "name": "Oregon Historical Society Museum",
-      "category": "museum",
-      "address": "1200 SW Park Ave, Portland, OR 97205",
-      "locality": "South Park Blocks",
-      "country": "United States",
-      "latitude": 45.5163,
-      "longitude": -122.683,
-      "wantToGo": true,
-      "notes": "Oregon's story, from the Oregon Trail to today, across the Park Blocks from the art museum.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I7F7C16274621EEC5"
     },
     {
       "id": "guide:portland/omsi",
@@ -338,11 +348,12 @@
       "address": "1945 SE Water Ave, Portland, OR 97214",
       "locality": "Central Eastside",
       "country": "United States",
-      "latitude": 45.5084,
-      "longitude": -122.6655,
+      "latitude": 45.508067,
+      "longitude": -122.665488,
       "wantToGo": true,
       "notes": "Hands-on science on the river, and a real Navy submarine to tour.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IF31971038145BA05"
     },
     {
       "id": "guide:portland/pittock-mansion",
@@ -351,11 +362,12 @@
       "address": "3229 NW Pittock Dr, Portland, OR 97210",
       "locality": "Hillside",
       "country": "United States",
-      "latitude": 45.5252,
-      "longitude": -122.7163,
+      "latitude": 45.525179,
+      "longitude": -122.716255,
       "wantToGo": true,
       "notes": "A 1914 French Renaissance mansion with a view of five Cascade peaks on a clear day.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I4A307A418132EC34"
     },
     {
       "id": "guide:portland/saturday-market",
@@ -364,11 +376,12 @@
       "address": "2 SW Naito Pkwy, Portland, OR 97204",
       "locality": "Old Town Chinatown",
       "country": "United States",
-      "latitude": 45.5226,
-      "longitude": -122.6702,
+      "latitude": 45.522673,
+      "longitude": -122.669777,
       "wantToGo": true,
       "notes": "A big outdoor craft market by the river, on weekends from March to Christmas.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I9A0DA4600D6D61BD"
     },
     {
       "id": "guide:portland/pioneer-square",
@@ -377,11 +390,12 @@
       "address": "701 SW 6th Ave, Portland, OR 97204",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 45.5189,
-      "longitude": -122.6793,
+      "latitude": 45.518943,
+      "longitude": -122.679535,
       "wantToGo": true,
       "notes": "Portland's living room, with bricks bearing donors' names and the weather machine at noon.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IAA0A967FBB757D72"
     },
     {
       "id": "guide:portland/aerial-tram",
@@ -390,11 +404,12 @@
       "address": "3303 S Bond Ave, Portland, OR 97239",
       "locality": "South Waterfront",
       "country": "United States",
-      "latitude": 45.4996,
-      "longitude": -122.6714,
+      "latitude": 45.499301,
+      "longitude": -122.671061,
       "wantToGo": true,
       "notes": "A four-minute ride up to Marquam Hill with views of Mount Hood. Ride down for free.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IAB8A4F47ECD89BEE"
     },
     {
       "id": "guide:portland/japanese-garden",
@@ -403,11 +418,12 @@
       "address": "611 SW Kingston Ave, Portland, OR 97205",
       "locality": "Washington Park",
       "country": "United States",
-      "latitude": 45.5191,
-      "longitude": -122.7066,
+      "latitude": 45.51876,
+      "longitude": -122.708123,
       "wantToGo": true,
       "notes": "One of the finest Japanese gardens outside Japan. Go when it opens, and in October for the maples.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I72E3E97B72B1426B"
     },
     {
       "id": "guide:portland/rose-garden",
@@ -416,11 +432,12 @@
       "address": "400 SW Kingston Ave, Portland, OR 97205",
       "locality": "Washington Park",
       "country": "United States",
-      "latitude": 45.5193,
-      "longitude": -122.7053,
+      "latitude": 45.518951,
+      "longitude": -122.705086,
       "wantToGo": true,
       "notes": "Ten thousand rose bushes and a view of Mount Hood. Free, and at its peak in June.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "IDCFFF55C0A186461"
     },
     {
       "id": "guide:portland/forest-park",
@@ -429,8 +446,8 @@
       "address": "Forest Park, Portland, OR 97210",
       "locality": "Northwest",
       "country": "United States",
-      "latitude": 45.5727,
-      "longitude": -122.7968,
+      "latitude": 45.57269,
+      "longitude": -122.79676,
       "wantToGo": true,
       "notes": "Over 80 miles of trails in one of the largest urban forests in the country. Start on the Lower Macleay Trail.",
       "section": "Outside"
@@ -442,11 +459,12 @@
       "address": "98 SW Naito Pkwy, Portland, OR 97204",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 45.5155,
-      "longitude": -122.673,
+      "latitude": 45.517814,
+      "longitude": -122.67192,
       "wantToGo": true,
       "notes": "A riverside promenade with cherry trees in spring. Loop across the bridges on the Eastbank Esplanade.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "IC3D59062BF3F13FF"
     },
     {
       "id": "guide:portland/mount-tabor",
@@ -455,11 +473,12 @@
       "address": "Mount Tabor Park, Portland, OR 97215",
       "locality": "Mount Tabor",
       "country": "United States",
-      "latitude": 45.5116,
-      "longitude": -122.5946,
+      "latitude": 45.511881,
+      "longitude": -122.595706,
       "wantToGo": true,
       "notes": "A park on a dormant volcano, with old reservoirs and sunset views over downtown.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "IB5471441724980CB"
     },
     {
       "id": "guide:portland/laurelhurst-park",
@@ -468,11 +487,12 @@
       "address": "Laurelhurst Park, Portland, OR 97214",
       "locality": "Laurelhurst",
       "country": "United States",
-      "latitude": 45.5212,
-      "longitude": -122.6262,
+      "latitude": 45.521022,
+      "longitude": -122.627002,
       "wantToGo": true,
       "notes": "A classic Olmsted-style park with a duck pond and huge old trees.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "IFB7B1055850D6D8"
     },
     {
       "id": "guide:portland/multnomah-falls",
@@ -481,11 +501,12 @@
       "address": "53000 E Historic Columbia River Hwy, Bridal Veil, OR 97010",
       "locality": "Columbia River Gorge",
       "country": "United States",
-      "latitude": 45.5762,
-      "longitude": -122.1158,
+      "latitude": 45.575811,
+      "longitude": -122.115129,
       "wantToGo": true,
       "notes": "A 620-foot waterfall 40 minutes east. A timed permit may be needed in summer, so check before you go.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I4A1B0797CB131AC7"
     },
     {
       "id": "guide:portland/haystack-rock",
@@ -494,11 +515,12 @@
       "address": "Cannon Beach, OR 97110",
       "locality": "Cannon Beach",
       "country": "United States",
-      "latitude": 45.8844,
-      "longitude": -123.9686,
+      "latitude": 45.88436,
+      "longitude": -123.968547,
       "wantToGo": true,
       "notes": "A day trip to the coast. Tide pools with sea stars and puffins in spring and summer.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I7B3F7930B65BF08D"
     }
   ]
 }

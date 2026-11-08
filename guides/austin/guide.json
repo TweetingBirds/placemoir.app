@@ -26,11 +26,12 @@
       "address": "604 Brazos St, Austin, TX 78701",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 30.2681,
-      "longitude": -97.7417,
+      "latitude": 30.267975,
+      "longitude": -97.741655,
       "wantToGo": true,
       "notes": "An 1886 cattle baron's hotel on Sixth Street, with a grand lobby bar.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "I18E19B7BEF8E2462"
     },
     {
       "id": "guide:austin/hotel-san-jose",
@@ -39,11 +40,12 @@
       "address": "1316 S Congress Ave, Austin, TX 78704",
       "locality": "South Congress",
       "country": "United States",
-      "latitude": 30.2509,
-      "longitude": -97.7489,
+      "latitude": 30.250608,
+      "longitude": -97.749548,
       "wantToGo": true,
       "notes": "A calm, minimalist bungalow court on South Congress, with a courtyard bar and pool.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "IC6FA461C56A1869B"
     },
     {
       "id": "guide:austin/hotel-saint-cecilia",
@@ -52,11 +54,12 @@
       "address": "112 Academy Dr, Austin, TX 78704",
       "locality": "South Congress",
       "country": "United States",
-      "latitude": 30.2522,
-      "longitude": -97.7473,
+      "latitude": 30.252078,
+      "longitude": -97.74727,
       "wantToGo": true,
       "notes": "The splurge. A Victorian house and poolside bungalows under old oaks, each with a turntable.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "IA940825AF50DD077"
     },
     {
       "id": "guide:austin/austin-motel",
@@ -65,11 +68,12 @@
       "address": "1220 S Congress Ave, Austin, TX 78704",
       "locality": "South Congress",
       "country": "United States",
-      "latitude": 30.2519,
-      "longitude": -97.7491,
+      "latitude": 30.251748,
+      "longitude": -97.749094,
       "wantToGo": true,
       "notes": "A bright, retro 1938 motel with a kidney-shaped pool. The fun, budget pick.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "I9F6F86C444EFF266"
     },
     {
       "id": "guide:austin/franklin-bbq",
@@ -78,11 +82,12 @@
       "address": "900 E 11th St, Austin, TX 78702",
       "locality": "East Austin",
       "country": "United States",
-      "latitude": 30.2701,
-      "longitude": -97.7313,
+      "latitude": 30.270084,
+      "longitude": -97.731279,
       "wantToGo": true,
       "notes": "The famous brisket. Queue early with a chair and a cooler, or preorder online weeks ahead.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IAA409CDF9D3555A9"
     },
     {
       "id": "guide:austin/la-barbecue",
@@ -91,11 +96,12 @@
       "address": "2401 E Cesar Chavez St, Austin, TX 78702",
       "locality": "East Austin",
       "country": "United States",
-      "latitude": 30.2563,
-      "longitude": -97.7183,
+      "latitude": 30.254485,
+      "longitude": -97.717601,
       "wantToGo": true,
       "notes": "Brisket that rivals Franklin's with a shorter line. Try the El Sancho sandwich.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "ID27477247784E9FB"
     },
     {
       "id": "guide:austin/terry-blacks",
@@ -104,11 +110,12 @@
       "address": "1003 Barton Springs Rd, Austin, TX 78704",
       "locality": "Zilker",
       "country": "United States",
-      "latitude": 30.259,
-      "longitude": -97.755,
+      "latitude": 30.259805,
+      "longitude": -97.754764,
       "wantToGo": true,
       "notes": "Cafeteria-style Texas barbecue with no preorder needed. Brisket, beef ribs and creamed corn.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I4E0FCE12CF3F918B"
     },
     {
       "id": "guide:austin/veracruz",
@@ -117,11 +124,12 @@
       "address": "2505 Webberville Rd, Austin, TX 78702",
       "locality": "East Austin",
       "country": "United States",
-      "latitude": 30.2629,
-      "longitude": -97.7138,
+      "latitude": 30.262927,
+      "longitude": -97.713776,
       "wantToGo": true,
       "notes": "The migas taco, often called Austin's best breakfast taco.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IE453BE05BB6824E4"
     },
     {
       "id": "guide:austin/joes-bakery",
@@ -130,11 +138,12 @@
       "address": "2305 E 7th St, Austin, TX 78702",
       "locality": "East Austin",
       "country": "United States",
-      "latitude": 30.2603,
-      "longitude": -97.7176,
+      "latitude": 30.261067,
+      "longitude": -97.716689,
       "wantToGo": true,
       "notes": "A family-run Tex-Mex spot since 1962. Breakfast tacos and pan dulce.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I9DB5C238BE320B0C"
     },
     {
       "id": "guide:austin/juan-in-a-million",
@@ -143,11 +152,12 @@
       "address": "2300 E Cesar Chavez St, Austin, TX 78702",
       "locality": "East Austin",
       "country": "United States",
-      "latitude": 30.2553,
-      "longitude": -97.7195,
+      "latitude": 30.255311,
+      "longitude": -97.719148,
       "wantToGo": true,
       "notes": "Home of the Don Juan, a breakfast taco so big it comes with spare tortillas.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I1EB279307D47B17E"
     },
     {
       "id": "guide:austin/matts-el-rancho",
@@ -156,11 +166,12 @@
       "address": "2613 S Lamar Blvd, Austin, TX 78704",
       "locality": "South Lamar",
       "country": "United States",
-      "latitude": 30.247,
-      "longitude": -97.781,
+      "latitude": 30.245138,
+      "longitude": -97.77924,
       "wantToGo": true,
       "notes": "Classic Tex-Mex since 1952. Order the Bob Armstrong dip and a margarita.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I47AFBCD8424FAAAE"
     },
     {
       "id": "guide:austin/uchi",
@@ -169,11 +180,12 @@
       "address": "801 S Lamar Blvd, Austin, TX 78704",
       "locality": "South Lamar",
       "country": "United States",
-      "latitude": 30.2577,
-      "longitude": -97.7615,
+      "latitude": 30.257541,
+      "longitude": -97.759796,
       "wantToGo": true,
       "notes": "Inventive Japanese in a converted bungalow. The happy hour is the best value.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I2E8A9418A5077CA5"
     },
     {
       "id": "guide:austin/odd-duck",
@@ -182,11 +194,12 @@
       "address": "1201 S Lamar Blvd, Austin, TX 78704",
       "locality": "South Lamar",
       "country": "United States",
-      "latitude": 30.2549,
-      "longitude": -97.7645,
+      "latitude": 30.25467,
+      "longitude": -97.762012,
       "wantToGo": true,
       "notes": "Seasonal Texas small plates from a former food trailer. Share everything.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I4F9E8CBEF61773D2"
     },
     {
       "id": "guide:austin/kerbey-lane",
@@ -195,11 +208,12 @@
       "address": "3704 Kerbey Ln, Austin, TX 78731",
       "locality": "Bryker Woods",
       "country": "United States",
-      "latitude": 30.3058,
-      "longitude": -97.7509,
+      "latitude": 30.307898,
+      "longitude": -97.750476,
       "wantToGo": true,
       "notes": "The original location of Austin's beloved all-day diner. Queso and gingerbread pancakes.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I85B2292CC148DD58"
     },
     {
       "id": "guide:austin/jos-coffee",
@@ -208,11 +222,12 @@
       "address": "1300 S Congress Ave, Austin, TX 78704",
       "locality": "South Congress",
       "country": "United States",
-      "latitude": 30.2512,
-      "longitude": -97.7488,
+      "latitude": 30.251084,
+      "longitude": -97.749345,
       "wantToGo": true,
       "notes": "A walk-up coffee window next to the \"i love you so much\" mural.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I5E1BB5F180C48E9A"
     },
     {
       "id": "guide:austin/lick",
@@ -221,11 +236,12 @@
       "address": "1100 S Lamar Blvd, Austin, TX 78704",
       "locality": "South Lamar",
       "country": "United States",
-      "latitude": 30.2557,
-      "longitude": -97.7631,
+      "latitude": 30.255502,
+      "longitude": -97.762555,
       "wantToGo": true,
       "notes": "Ice cream from Texas farms, in flavors like goat cheese with thyme and honey.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I66D37E754CC0DF82"
     },
     {
       "id": "guide:austin/continental-club",
@@ -234,11 +250,12 @@
       "address": "1315 S Congress Ave, Austin, TX 78704",
       "locality": "South Congress",
       "country": "United States",
-      "latitude": 30.2507,
-      "longitude": -97.7494,
+      "latitude": 30.250516,
+      "longitude": -97.749076,
       "wantToGo": true,
       "notes": "A 1955 music club with live bands every night. Monday and Tuesday regulars are a treat.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I7A84901D6EA21240"
     },
     {
       "id": "guide:austin/broken-spoke",
@@ -247,11 +264,12 @@
       "address": "3201 S Lamar Blvd, Austin, TX 78704",
       "locality": "South Lamar",
       "country": "United States",
-      "latitude": 30.2413,
-      "longitude": -97.7856,
+      "latitude": 30.240865,
+      "longitude": -97.785179,
       "wantToGo": true,
       "notes": "A true Texas dance hall since 1964. Take the early two-step lesson, then dance.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I45745517A8EECD98"
     },
     {
       "id": "guide:austin/white-horse",
@@ -260,11 +278,12 @@
       "address": "500 Comal St, Austin, TX 78702",
       "locality": "East Austin",
       "country": "United States",
-      "latitude": 30.2624,
-      "longitude": -97.7279,
+      "latitude": 30.262554,
+      "longitude": -97.727074,
       "wantToGo": true,
       "notes": "A honky-tonk with free dance lessons and live country every night.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I5D974761E7911C81"
     },
     {
       "id": "guide:austin/antones",
@@ -273,11 +292,12 @@
       "address": "305 E 5th St, Austin, TX 78701",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 30.2667,
-      "longitude": -97.7409,
+      "latitude": 30.2662,
+      "longitude": -97.740379,
       "wantToGo": true,
       "notes": "Austin's home of the blues since 1975, where Stevie Ray Vaughan cut his teeth.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I8363C3ABA06F553F"
     },
     {
       "id": "guide:austin/cosmic-coffee",
@@ -286,11 +306,12 @@
       "address": "121 Pickle Rd, Austin, TX 78704",
       "locality": "South Austin",
       "country": "United States",
-      "latitude": 30.233,
-      "longitude": -97.758,
+      "latitude": 30.2268,
+      "longitude": -97.762538,
       "wantToGo": true,
       "notes": "Coffee, beer and food trucks in a big garden with chickens and a creek.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IE02F63E157324283"
     },
     {
       "id": "guide:austin/state-capitol",
@@ -299,11 +320,12 @@
       "address": "1100 Congress Ave, Austin, TX 78701",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 30.2747,
-      "longitude": -97.7404,
+      "latitude": 30.274672,
+      "longitude": -97.740383,
       "wantToGo": true,
       "notes": "Taller than the U.S. Capitol, of course. Free tours, and stand in the middle of the rotunda to hear the echo.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IDD1DFFF779F59C00"
     },
     {
       "id": "guide:austin/bullock-museum",
@@ -312,11 +334,12 @@
       "address": "1800 Congress Ave, Austin, TX 78701",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 30.2803,
-      "longitude": -97.7391,
+      "latitude": 30.280304,
+      "longitude": -97.73914,
       "wantToGo": true,
       "notes": "The story of Texas, including a 17th-century French shipwreck raised from Matagorda Bay.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "ID2BFB5C33DD59EED"
     },
     {
       "id": "guide:austin/blanton",
@@ -325,11 +348,12 @@
       "address": "200 E Martin Luther King Jr Blvd, Austin, TX 78712",
       "locality": "UT Campus",
       "country": "United States",
-      "latitude": 30.2808,
-      "longitude": -97.7375,
+      "latitude": 30.281006,
+      "longitude": -97.737706,
       "wantToGo": true,
       "notes": "A strong university museum, and Ellsworth Kelly's Austin, a chapel of colored light.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I73544B43846AA2C6"
     },
     {
       "id": "guide:austin/lbj-library",
@@ -338,11 +362,12 @@
       "address": "2313 Red River St, Austin, TX 78705",
       "locality": "UT Campus",
       "country": "United States",
-      "latitude": 30.2858,
-      "longitude": -97.7292,
+      "latitude": 30.285732,
+      "longitude": -97.72932,
       "wantToGo": true,
       "notes": "Civil rights, Vietnam and the Great Society, with an animatronic LBJ telling jokes.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I5506F336B40B68AA"
     },
     {
       "id": "guide:austin/harry-ransom-center",
@@ -351,11 +376,12 @@
       "address": "300 W 21st St, Austin, TX 78712",
       "locality": "UT Campus",
       "country": "United States",
-      "latitude": 30.2843,
-      "longitude": -97.7411,
+      "latitude": 30.284245,
+      "longitude": -97.741092,
       "wantToGo": true,
       "notes": "Free, with a Gutenberg Bible and the world's first photograph on show.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I98D13E3D5196C718"
     },
     {
       "id": "guide:austin/congress-bridge-bats",
@@ -364,11 +390,12 @@
       "address": "Congress Ave Bridge, Austin, TX 78701",
       "locality": "Lady Bird Lake",
       "country": "United States",
-      "latitude": 30.2614,
-      "longitude": -97.745,
+      "latitude": 30.26131,
+      "longitude": -97.745297,
       "wantToGo": true,
       "notes": "A million and a half bats fly out at dusk from March to October. Watch from the bank or a boat.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IAB7822877235A890"
     },
     {
       "id": "guide:austin/mexic-arte",
@@ -377,11 +404,12 @@
       "address": "419 Congress Ave, Austin, TX 78701",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 30.2671,
-      "longitude": -97.7433,
+      "latitude": 30.26686,
+      "longitude": -97.742899,
       "wantToGo": true,
       "notes": "Mexican and Latino art downtown, with a beautiful Day of the Dead exhibition every fall.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IC5C694B6709AE2C4"
     },
     {
       "id": "guide:austin/umlauf",
@@ -390,11 +418,12 @@
       "address": "605 Azie Morton Rd, Austin, TX 78704",
       "locality": "Zilker",
       "country": "United States",
-      "latitude": 30.264,
-      "longitude": -97.766,
+      "latitude": 30.263247,
+      "longitude": -97.766132,
       "wantToGo": true,
       "notes": "A shady sculpture garden by Zilker Park, with ponds and benches. Pair it with Barton Springs.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I2DAC753482623D99"
     },
     {
       "id": "guide:austin/elisabet-ney",
@@ -403,11 +432,12 @@
       "address": "304 E 44th St, Austin, TX 78751",
       "locality": "Hyde Park",
       "country": "United States",
-      "latitude": 30.3063,
-      "longitude": -97.7262,
+      "latitude": 30.306648,
+      "longitude": -97.726289,
       "wantToGo": true,
       "notes": "A 19th-century sculptor's free castle-like studio in Hyde Park.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IAF831277CA55722D"
     },
     {
       "id": "guide:austin/acl-live",
@@ -416,11 +446,12 @@
       "address": "310 W Willie Nelson Blvd, Austin, TX 78701",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 30.2655,
-      "longitude": -97.7473,
+      "latitude": 30.265273,
+      "longitude": -97.747102,
       "wantToGo": true,
       "notes": "Home of the Austin City Limits TV tapings, with the Willie Nelson statue out front.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I85BE09F305F79B7B"
     },
     {
       "id": "guide:austin/barton-springs",
@@ -429,11 +460,12 @@
       "address": "2131 William Barton Dr, Austin, TX 78746",
       "locality": "Zilker",
       "country": "United States",
-      "latitude": 30.264,
-      "longitude": -97.7713,
+      "latitude": 30.263752,
+      "longitude": -97.770671,
       "wantToGo": true,
       "notes": "A three-acre spring-fed pool at 68 degrees all year. Bliss on a hot afternoon.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I8281EDAE093A6E36"
     },
     {
       "id": "guide:austin/zilker-park",
@@ -442,11 +474,12 @@
       "address": "2100 Barton Springs Rd, Austin, TX 78704",
       "locality": "Zilker",
       "country": "United States",
-      "latitude": 30.2669,
-      "longitude": -97.7729,
+      "latitude": 30.26611,
+      "longitude": -97.770939,
       "wantToGo": true,
       "notes": "Austin's big backyard, with kayaks for rent on Barton Creek and the botanical garden nearby.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I72764CDFBAAD7344"
     },
     {
       "id": "guide:austin/lady-bird-trail",
@@ -455,11 +488,12 @@
       "address": "Ann and Roy Butler Hike-and-Bike Trail, Austin, TX 78704",
       "locality": "Lady Bird Lake",
       "country": "United States",
-      "latitude": 30.262,
-      "longitude": -97.755,
+      "latitude": 30.26592,
+      "longitude": -97.75896,
       "wantToGo": true,
       "notes": "Ten miles around Lady Bird Lake. Walk the boardwalk section for the skyline view.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I8DE9B8658328FA7E"
     },
     {
       "id": "guide:austin/mount-bonnell",
@@ -468,11 +502,12 @@
       "address": "3800 Mount Bonnell Rd, Austin, TX 78731",
       "locality": "Mount Bonnell",
       "country": "United States",
-      "latitude": 30.321,
-      "longitude": -97.7735,
+      "latitude": 30.321216,
+      "longitude": -97.773359,
       "wantToGo": true,
       "notes": "A short climb to a view over the Colorado River and the 360 Bridge. Go at sunset.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I83ADFC4DE5AAF9C1"
     },
     {
       "id": "guide:austin/wildflower-center",
@@ -481,11 +516,12 @@
       "address": "4801 La Crosse Ave, Austin, TX 78739",
       "locality": "Southwest Austin",
       "country": "United States",
-      "latitude": 30.1856,
-      "longitude": -97.8731,
+      "latitude": 30.185858,
+      "longitude": -97.873314,
       "wantToGo": true,
       "notes": "Native Texas plants and wildflowers. Bluebonnet season is late March to April.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I523ABBCC1383FF0C"
     },
     {
       "id": "guide:austin/mckinney-falls",
@@ -494,11 +530,12 @@
       "address": "5808 McKinney Falls Pkwy, Austin, TX 78744",
       "locality": "Southeast Austin",
       "country": "United States",
-      "latitude": 30.1836,
-      "longitude": -97.7222,
+      "latitude": 30.183504,
+      "longitude": -97.722176,
       "wantToGo": true,
       "notes": "Limestone falls and swimming holes on Onion Creek, twenty minutes from downtown.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I16A0B0F52E9D2F0D"
     },
     {
       "id": "guide:austin/hamilton-pool",
@@ -507,11 +544,12 @@
       "address": "24300 Hamilton Pool Rd, Dripping Springs, TX 78620",
       "locality": "Dripping Springs",
       "country": "United States",
-      "latitude": 30.3426,
-      "longitude": -98.127,
+      "latitude": 30.342687,
+      "longitude": -98.132388,
       "wantToGo": true,
       "notes": "A collapsed grotto with a waterfall into a jade pool. Reservations are required; check before you go.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "IA42AE1E29F930C82"
     }
   ]
 }

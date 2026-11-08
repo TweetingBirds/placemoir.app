@@ -26,11 +26,12 @@
       "address": "321 17th St, Denver, CO 80202",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 39.7439,
-      "longitude": -104.9877,
+      "latitude": 39.744351,
+      "longitude": -104.98798,
       "wantToGo": true,
       "notes": "An 1892 hotel around a stained glass atrium, where every president since Teddy Roosevelt has stayed. Afternoon tea is a treat.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "I66450F9448BDFF8C"
     },
     {
       "id": "guide:denver/the-crawford",
@@ -39,11 +40,12 @@
       "address": "1701 Wynkoop St, Denver, CO 80202",
       "locality": "LoDo",
       "country": "United States",
-      "latitude": 39.753,
-      "longitude": -105.0003,
+      "latitude": 39.75315,
+      "longitude": -105.000131,
       "wantToGo": true,
       "notes": "Rooms upstairs in restored Union Station, with the train to the airport downstairs.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "I2AB634BE1E72AD00"
     },
     {
       "id": "guide:denver/limelight-denver",
@@ -52,11 +54,12 @@
       "address": "1600 Wewatta St, Denver, CO 80202",
       "locality": "LoDo",
       "country": "United States",
-      "latitude": 39.7532,
-      "longitude": -105.0021,
+      "latitude": 39.753207,
+      "longitude": -105.002067,
       "wantToGo": true,
       "notes": "A calm, modern hotel next to Union Station, with mountain views from the upper floors and a lively lobby bar.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "I6865082A98570CEA"
     },
     {
       "id": "guide:denver/ramble-hotel",
@@ -65,11 +68,12 @@
       "address": "1280 25th St, Denver, CO 80205",
       "locality": "RiNo",
       "country": "United States",
-      "latitude": 39.761,
-      "longitude": -104.985,
+      "latitude": 39.757286,
+      "longitude": -104.986481,
       "wantToGo": true,
       "notes": "A small, stylish hotel in RiNo with a great cocktail bar, Death & Co, in the lobby.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "I75308C9D5044A36C"
     },
     {
       "id": "guide:denver/snooze",
@@ -78,11 +82,12 @@
       "address": "2262 Larimer St, Denver, CO 80205",
       "locality": "Ballpark",
       "country": "United States",
-      "latitude": 39.7553,
-      "longitude": -104.9886,
+      "latitude": 39.755581,
+      "longitude": -104.98896,
       "wantToGo": true,
       "notes": "The original location of the breakfast chain. Pancake flights and a long weekend wait.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I8E338349ADBCB5F8"
     },
     {
       "id": "guide:denver/biker-jims",
@@ -91,8 +96,8 @@
       "address": "16th Street Mall & Stout St, Denver, CO 80202",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 39.747,
-      "longitude": -104.993,
+      "latitude": 39.748048,
+      "longitude": -104.995659,
       "wantToGo": true,
       "notes": "Reindeer, elk and rattlesnake sausages with cream cheese and caramelized onions.",
       "section": "Eat"
@@ -104,11 +109,12 @@
       "address": "2669 Larimer St, Denver, CO 80205",
       "locality": "RiNo",
       "country": "United States",
-      "latitude": 39.7598,
-      "longitude": -104.984,
+      "latitude": 39.759381,
+      "longitude": -104.984595,
       "wantToGo": true,
       "notes": "A food hall in an old warehouse. Pizza, tacos and gelato, and you can drink while you browse.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IE96D397C72DBCC46"
     },
     {
       "id": "guide:denver/work-and-class",
@@ -117,11 +123,12 @@
       "address": "2500 Larimer St, Denver, CO 80205",
       "locality": "RiNo",
       "country": "United States",
-      "latitude": 39.7583,
-      "longitude": -104.9857,
+      "latitude": 39.757585,
+      "longitude": -104.986218,
       "wantToGo": true,
       "notes": "Latin and American comfort food by the pound in a shipping-container building. Lively and fun.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I190575B3D5B68D51"
     },
     {
       "id": "guide:denver/rioja",
@@ -130,11 +137,12 @@
       "address": "1431 Larimer St, Denver, CO 80202",
       "locality": "Larimer Square",
       "country": "United States",
-      "latitude": 39.7477,
-      "longitude": -104.9989,
+      "latitude": 39.747898,
+      "longitude": -104.999404,
       "wantToGo": true,
       "notes": "Mediterranean-inspired cooking on Larimer Square. One of Denver's best dinners.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I7D9A6A4783D60A24"
     },
     {
       "id": "guide:denver/tavernetta",
@@ -143,11 +151,12 @@
       "address": "1889 16th St, Denver, CO 80202",
       "locality": "LoDo",
       "country": "United States",
-      "latitude": 39.753,
-      "longitude": -105.0004,
+      "latitude": 39.75308,
+      "longitude": -105.001788,
       "wantToGo": true,
       "notes": "Elegant Italian by Union Station from the team behind Boulder's Frasca. Book ahead.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I475C62D2F0B0DA08"
     },
     {
       "id": "guide:denver/buckhorn-exchange",
@@ -156,11 +165,12 @@
       "address": "1000 Osage St, Denver, CO 80204",
       "locality": "Lincoln Park",
       "country": "United States",
-      "latitude": 39.7325,
-      "longitude": -105.0055,
+      "latitude": 39.732255,
+      "longitude": -105.005149,
       "wantToGo": true,
       "notes": "Denver's oldest restaurant, since 1893, under hundreds of mounted heads. Steaks and game.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IBF4CC31F9E3D38F8"
     },
     {
       "id": "guide:denver/sams-no-3",
@@ -169,11 +179,12 @@
       "address": "1500 Curtis St, Denver, CO 80202",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 39.7469,
-      "longitude": -104.9966,
+      "latitude": 39.746239,
+      "longitude": -104.995627,
       "wantToGo": true,
       "notes": "A classic diner since 1927. Get the Kickin' Green Chile, smothered on anything.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IF2E92026D4F08332"
     },
     {
       "id": "guide:denver/el-taco-de-mexico",
@@ -182,11 +193,12 @@
       "address": "714 Santa Fe Dr, Denver, CO 80204",
       "locality": "Lincoln Park",
       "country": "United States",
-      "latitude": 39.7276,
-      "longitude": -104.9989,
+      "latitude": 39.727635,
+      "longitude": -104.998283,
       "wantToGo": true,
       "notes": "A no-frills counter with legendary smothered burritos in green chile.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I6243ADC1626FF3C1"
     },
     {
       "id": "guide:denver/rosenbergs",
@@ -195,11 +207,12 @@
       "address": "725 E 26th Ave, Denver, CO 80205",
       "locality": "Five Points",
       "country": "United States",
-      "latitude": 39.7546,
-      "longitude": -104.9771,
+      "latitude": 39.754964,
+      "longitude": -104.977611,
       "wantToGo": true,
       "notes": "New York-style bagels, made with water treated to taste like New York's.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I2B6C137B4970F5A0"
     },
     {
       "id": "guide:denver/little-man-ice-cream",
@@ -208,11 +221,12 @@
       "address": "2620 16th St, Denver, CO 80211",
       "locality": "LoHi",
       "country": "United States",
-      "latitude": 39.7593,
-      "longitude": -105.011,
+      "latitude": 39.759327,
+      "longitude": -105.010983,
       "wantToGo": true,
       "notes": "Ice cream served from a giant milk can. The line on summer nights is part of the fun.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IAD8B2F2B66DF428A"
     },
     {
       "id": "guide:denver/williams-and-graham",
@@ -221,11 +235,12 @@
       "address": "3160 Tejon St, Denver, CO 80211",
       "locality": "LoHi",
       "country": "United States",
-      "latitude": 39.7616,
-      "longitude": -105.0111,
+      "latitude": 39.761909,
+      "longitude": -105.010977,
       "wantToGo": true,
       "notes": "A speakeasy behind a bookcase in a small storefront. Some of the best cocktails in the country.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IA6A88FD14F4C031C"
     },
     {
       "id": "guide:denver/my-brothers-bar",
@@ -234,11 +249,12 @@
       "address": "2376 15th St, Denver, CO 80202",
       "locality": "Jefferson Park",
       "country": "United States",
-      "latitude": 39.7585,
-      "longitude": -105.0067,
+      "latitude": 39.756193,
+      "longitude": -105.009331,
       "wantToGo": true,
       "notes": "Denver's oldest bar, with no sign out front and classical music on. Order a JCB burger.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IBC590AA7910D8695"
     },
     {
       "id": "guide:denver/wynkoop-brewing",
@@ -247,11 +263,12 @@
       "address": "1634 18th St, Denver, CO 80202",
       "locality": "LoDo",
       "country": "United States",
-      "latitude": 39.7533,
-      "longitude": -104.9984,
+      "latitude": 39.753503,
+      "longitude": -104.998606,
       "wantToGo": true,
       "notes": "Colorado's first brewpub, opened in 1988 by a future governor. Pool tables upstairs.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I5F2681BBA82BB89B"
     },
     {
       "id": "guide:denver/union-station",
@@ -260,11 +277,12 @@
       "address": "1701 Wynkoop St, Denver, CO 80202",
       "locality": "LoDo",
       "country": "United States",
-      "latitude": 39.753,
-      "longitude": -105.0003,
+      "latitude": 39.75323,
+      "longitude": -105.000051,
       "wantToGo": true,
       "notes": "A grand 1914 station turned the city's living room, with bars, cafes and shuffleboard in the great hall.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I74D1B59CF3378886"
     },
     {
       "id": "guide:denver/denver-art-museum",
@@ -273,11 +291,12 @@
       "address": "100 W 14th Ave Pkwy, Denver, CO 80204",
       "locality": "Golden Triangle",
       "country": "United States",
-      "latitude": 39.7372,
+      "latitude": 39.73716,
       "longitude": -104.9893,
       "wantToGo": true,
       "notes": "Bold buildings and a strong collection of Indigenous and Western American art.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I86BB4638875D105E"
     },
     {
       "id": "guide:denver/clyfford-still",
@@ -286,11 +305,12 @@
       "address": "1250 Bannock St, Denver, CO 80204",
       "locality": "Golden Triangle",
       "country": "United States",
-      "latitude": 39.7365,
-      "longitude": -104.9902,
+      "latitude": 39.736347,
+      "longitude": -104.989857,
       "wantToGo": true,
       "notes": "A whole museum of one abstract painter's work, in calm concrete galleries. Next to the art museum.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I675817EFC368B80E"
     },
     {
       "id": "guide:denver/history-colorado",
@@ -299,11 +319,12 @@
       "address": "1200 Broadway, Denver, CO 80203",
       "locality": "Golden Triangle",
       "country": "United States",
-      "latitude": 39.7357,
-      "longitude": -104.9871,
+      "latitude": 39.735661,
+      "longitude": -104.986702,
       "wantToGo": true,
       "notes": "Colorado's story, from Ute history to ski towns. The rooftop terrace has a mountain view.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I16520C05343E328F"
     },
     {
       "id": "guide:denver/state-capitol",
@@ -312,11 +333,12 @@
       "address": "200 E Colfax Ave, Denver, CO 80203",
       "locality": "Capitol Hill",
       "country": "United States",
-      "latitude": 39.7393,
-      "longitude": -104.9848,
+      "latitude": 39.739249,
+      "longitude": -104.984888,
       "wantToGo": true,
       "notes": "Stand on the 'mile high' step, then take the free tour up into the gold dome.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I5D243BA5152765F4"
     },
     {
       "id": "guide:denver/molly-brown-house",
@@ -325,11 +347,12 @@
       "address": "1340 Pennsylvania St, Denver, CO 80203",
       "locality": "Capitol Hill",
       "country": "United States",
-      "latitude": 39.7374,
-      "longitude": -104.9808,
+      "latitude": 39.737499,
+      "longitude": -104.980698,
       "wantToGo": true,
       "notes": "The Victorian home of the Titanic survivor, with guided tours of the rooms.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I55B32275DB0944A1"
     },
     {
       "id": "guide:denver/larimer-square",
@@ -338,11 +361,12 @@
       "address": "1430 Larimer St, Denver, CO 80202",
       "locality": "Larimer Square",
       "country": "United States",
-      "latitude": 39.7477,
-      "longitude": -104.9993,
+      "latitude": 39.747813,
+      "longitude": -104.999271,
       "wantToGo": true,
       "notes": "Denver's oldest block, strung with lights over the street. Good for a dinner and a walk.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I1CB01000C708A822"
     },
     {
       "id": "guide:denver/meow-wolf",
@@ -351,11 +375,12 @@
       "address": "1338 1st St, Denver, CO 80204",
       "locality": "Sun Valley",
       "country": "United States",
-      "latitude": 39.7404,
-      "longitude": -105.0136,
+      "latitude": 39.740835,
+      "longitude": -105.015853,
       "wantToGo": true,
       "notes": "A huge, strange, walk-through art world. Allow three hours and touch everything.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IFB9D1D20B3DA19F9"
     },
     {
       "id": "guide:denver/nature-and-science",
@@ -364,11 +389,12 @@
       "address": "2001 Colorado Blvd, Denver, CO 80205",
       "locality": "City Park",
       "country": "United States",
-      "latitude": 39.7475,
-      "longitude": -104.9428,
+      "latitude": 39.747578,
+      "longitude": -104.943061,
       "wantToGo": true,
       "notes": "Dinosaurs, gems and dioramas, with the mountains framed in the windows behind City Park.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IFC15E91D5D38AEF5"
     },
     {
       "id": "guide:denver/us-mint",
@@ -377,11 +403,12 @@
       "address": "320 W Colfax Ave, Denver, CO 80204",
       "locality": "Civic Center",
       "country": "United States",
-      "latitude": 39.7395,
-      "longitude": -104.9922,
+      "latitude": 39.73931,
+      "longitude": -104.99235,
       "wantToGo": true,
       "notes": "A free tour of where the coins in your pocket were made. Book ahead online.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I1B49C3EE806C9AFF"
     },
     {
       "id": "guide:denver/coors-field",
@@ -390,11 +417,12 @@
       "address": "2001 Blake St, Denver, CO 80205",
       "locality": "Ballpark",
       "country": "United States",
-      "latitude": 39.7559,
-      "longitude": -104.9942,
+      "latitude": 39.755855,
+      "longitude": -104.99423,
       "wantToGo": true,
       "notes": "Rockies baseball with mountain views. Look for the purple row of seats a mile above sea level.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I9614832ACD05FD99"
     },
     {
       "id": "guide:denver/red-rocks",
@@ -403,11 +431,12 @@
       "address": "18300 W Alameda Pkwy, Morrison, CO 80465",
       "locality": "Morrison",
       "country": "United States",
-      "latitude": 39.6654,
-      "longitude": -105.2057,
+      "latitude": 39.665541,
+      "longitude": -105.205116,
       "wantToGo": true,
       "notes": "A concert stage between giant red rocks. Walk the trails by day, or catch a show at night.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IC1801EBEE1806651"
     },
     {
       "id": "guide:denver/botanic-gardens",
@@ -416,11 +445,12 @@
       "address": "1007 York St, Denver, CO 80206",
       "locality": "Cheesman Park",
       "country": "United States",
-      "latitude": 39.7322,
-      "longitude": -104.96,
+      "latitude": 39.731896,
+      "longitude": -104.961272,
       "wantToGo": true,
       "notes": "Gardens from around the world, including a calm Japanese garden. Summer concerts on the lawn.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "ICC26D40D28737C8B"
     },
     {
       "id": "guide:denver/city-park",
@@ -429,11 +459,12 @@
       "address": "City Park, Denver, CO 80205",
       "locality": "City Park",
       "country": "United States",
-      "latitude": 39.7471,
-      "longitude": -104.95,
+      "latitude": 39.747473,
+      "longitude": -104.950279,
       "wantToGo": true,
       "notes": "Lakes and lawns with the classic downtown-and-mountains view from the museum steps.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I88451721322E7DE5"
     },
     {
       "id": "guide:denver/washington-park",
@@ -442,11 +473,12 @@
       "address": "701 S Franklin St, Denver, CO 80209",
       "locality": "Washington Park",
       "country": "United States",
-      "latitude": 39.7006,
-      "longitude": -104.9701,
+      "latitude": 39.700193,
+      "longitude": -104.971052,
       "wantToGo": true,
       "notes": "Denver's favorite park for a run or a picnic, with two lakes and flower gardens.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "IB4E0E801EE462E8E"
     },
     {
       "id": "guide:denver/confluence-park",
@@ -455,11 +487,12 @@
       "address": "2200 15th St, Denver, CO 80202",
       "locality": "LoDo",
       "country": "United States",
-      "latitude": 39.7547,
-      "longitude": -105.0076,
+      "latitude": 39.753995,
+      "longitude": -105.00844,
       "wantToGo": true,
       "notes": "Where Cherry Creek meets the South Platte. Start a bike ride or float down the creek in summer.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "ICB83FB526D6E8547"
     },
     {
       "id": "guide:denver/chautauqua-park",
@@ -468,11 +501,12 @@
       "address": "900 Baseline Rd, Boulder, CO 80302",
       "locality": "Boulder",
       "country": "United States",
-      "latitude": 39.9989,
-      "longitude": -105.2817,
+      "latitude": 39.999175,
+      "longitude": -105.281415,
       "wantToGo": true,
       "notes": "A meadow below the Flatirons with trails for every level, half an hour from Denver.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I2E328FDE8BE901FD"
     },
     {
       "id": "guide:denver/lookout-mountain",
@@ -481,11 +515,12 @@
       "address": "987 1/2 Lookout Mountain Rd, Golden, CO 80401",
       "locality": "Golden",
       "country": "United States",
-      "latitude": 39.7322,
-      "longitude": -105.2386,
+      "latitude": 39.73336,
+      "longitude": -105.238448,
       "wantToGo": true,
       "notes": "A winding drive up Lookout Mountain to Buffalo Bill's grave and a sweeping view of the plains.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I879863CDEBF7139C"
     }
   ]
 }

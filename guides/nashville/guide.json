@@ -26,11 +26,12 @@
       "address": "231 6th Ave N, Nashville, TN 37219",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 36.165,
-      "longitude": -86.7831,
+      "latitude": 36.16368,
+      "longitude": -86.78231,
       "wantToGo": true,
       "notes": "Nashville's grand 1910 hotel. Even the Art Deco men's room is a sight.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "IDB92C9D497612B67"
     },
     {
       "id": "guide:nashville/union-station-hotel",
@@ -39,11 +40,12 @@
       "address": "1001 Broadway, Nashville, TN 37203",
       "locality": "The Gulch",
       "country": "United States",
-      "latitude": 36.1572,
-      "longitude": -86.7849,
+      "latitude": 36.157337,
+      "longitude": -86.784638,
       "wantToGo": true,
       "notes": "A 1900 railroad station with a stained glass vaulted lobby, at the quiet end of Broadway.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "IFED20D5E7147209B"
     },
     {
       "id": "guide:nashville/noelle",
@@ -52,11 +54,12 @@
       "address": "200 4th Ave N, Nashville, TN 37219",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 36.163,
-      "longitude": -86.778,
+      "latitude": 36.163963,
+      "longitude": -86.778739,
       "wantToGo": true,
       "notes": "A 1930s building with a rooftop bar, two blocks from the honky-tonks but calmer.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "I1152BBF46E6A87C2"
     },
     {
       "id": "guide:nashville/graduate-nashville",
@@ -65,11 +68,12 @@
       "address": "101 20th Ave N, Nashville, TN 37203",
       "locality": "Midtown",
       "country": "United States",
-      "latitude": 36.152,
-      "longitude": -86.799,
+      "latitude": 36.151555,
+      "longitude": -86.799996,
       "wantToGo": true,
       "notes": "A playful hotel near Vanderbilt, with a rooftop bar themed on Dolly Parton.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "I842E852066D28321"
     },
     {
       "id": "guide:nashville/princes",
@@ -78,11 +82,12 @@
       "address": "5814 Nolensville Pike, Nashville, TN 37211",
       "locality": "South Nashville",
       "country": "United States",
-      "latitude": 36.0807,
-      "longitude": -86.7255,
+      "latitude": 36.043864,
+      "longitude": -86.712266,
       "wantToGo": true,
       "notes": "The family that invented Nashville hot chicken. Start at mild. Really.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I15F9564808CD77CF"
     },
     {
       "id": "guide:nashville/hattie-bs",
@@ -91,11 +96,12 @@
       "address": "112 19th Ave S, Nashville, TN 37203",
       "locality": "Midtown",
       "country": "United States",
-      "latitude": 36.1514,
-      "longitude": -86.7975,
+      "latitude": 36.151402,
+      "longitude": -86.796569,
       "wantToGo": true,
       "notes": "The busiest hot chicken in town, with good sides. Go mid-afternoon to skip the line.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IF89047B9536E8901"
     },
     {
       "id": "guide:nashville/boltons",
@@ -104,11 +110,12 @@
       "address": "624 Main St, Nashville, TN 37206",
       "locality": "East Nashville",
       "country": "United States",
-      "latitude": 36.1749,
-      "longitude": -86.7608,
+      "latitude": 36.174071,
+      "longitude": -86.761453,
       "wantToGo": true,
       "notes": "Fiery chicken and whiting in a small East Nashville shack. Ask for it hot only if you mean it.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IA0DA53E6B37DE28F"
     },
     {
       "id": "guide:nashville/arnolds",
@@ -117,11 +124,12 @@
       "address": "605 8th Ave S, Nashville, TN 37203",
       "locality": "SoBro",
       "country": "United States",
-      "latitude": 36.152,
-      "longitude": -86.782,
+      "latitude": 36.151403,
+      "longitude": -86.779415,
       "wantToGo": true,
       "notes": "The classic meat-and-three, weekday lunch only. Roast beef, greens and chess pie.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IB4995143849FE3"
     },
     {
       "id": "guide:nashville/loveless-cafe",
@@ -130,11 +138,12 @@
       "address": "8400 Highway 100, Nashville, TN 37221",
       "locality": "Bellevue",
       "country": "United States",
-      "latitude": 36.0353,
-      "longitude": -86.9721,
+      "latitude": 36.035253,
+      "longitude": -86.972065,
       "wantToGo": true,
       "notes": "Biscuits and preserves at an old motel café near the Natchez Trace. Book or arrive early.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I7A8AABA6A56838CF"
     },
     {
       "id": "guide:nashville/pancake-pantry",
@@ -143,11 +152,12 @@
       "address": "1796 21st Ave S, Nashville, TN 37212",
       "locality": "Hillsboro Village",
       "country": "United States",
-      "latitude": 36.1373,
-      "longitude": -86.8005,
+      "latitude": 36.137017,
+      "longitude": -86.800635,
       "wantToGo": true,
       "notes": "Pancakes by the stack since 1961, with a line down the block on weekends.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I64386B91A71A1802"
     },
     {
       "id": "guide:nashville/biscuit-love",
@@ -156,11 +166,12 @@
       "address": "316 11th Ave S, Nashville, TN 37203",
       "locality": "The Gulch",
       "country": "United States",
-      "latitude": 36.1535,
-      "longitude": -86.785,
+      "latitude": 36.153063,
+      "longitude": -86.783218,
       "wantToGo": true,
       "notes": "Biscuits all ways. The bonuts, fried biscuit doughnuts, are the thing.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I2ADE591F87DB6F1C"
     },
     {
       "id": "guide:nashville/martins-bbq",
@@ -169,11 +180,12 @@
       "address": "410 4th Ave S, Nashville, TN 37201",
       "locality": "SoBro",
       "country": "United States",
-      "latitude": 36.157,
-      "longitude": -86.7741,
+      "latitude": 36.156738,
+      "longitude": -86.774078,
       "wantToGo": true,
       "notes": "Whole-hog West Tennessee barbecue with a big beer garden upstairs.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I343CFC3D16EBB5AE"
     },
     {
       "id": "guide:nashville/husk",
@@ -182,11 +194,12 @@
       "address": "37 Rutledge St, Nashville, TN 37210",
       "locality": "Rutledge Hill",
       "country": "United States",
-      "latitude": 36.1531,
-      "longitude": -86.7681,
+      "latitude": 36.155293,
+      "longitude": -86.769902,
       "wantToGo": true,
       "notes": "Southern-only ingredients in an 1880s mansion. The burger at lunch is a bargain.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I42133447B34E7146"
     },
     {
       "id": "guide:nashville/rolf-and-daughters",
@@ -195,11 +208,12 @@
       "address": "700 Taylor St, Nashville, TN 37208",
       "locality": "Germantown",
       "country": "United States",
-      "latitude": 36.1785,
-      "longitude": -86.7894,
+      "latitude": 36.177536,
+      "longitude": -86.792845,
       "wantToGo": true,
       "notes": "Handmade pastas in an old Germantown factory. One of the city's best dinners.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "ID7C41000B59A55C8"
     },
     {
       "id": "guide:nashville/mas-tacos",
@@ -208,11 +222,12 @@
       "address": "732 McFerrin Ave, Nashville, TN 37206",
       "locality": "East Nashville",
       "country": "United States",
-      "latitude": 36.1858,
-      "longitude": -86.755,
+      "latitude": 36.184736,
+      "longitude": -86.754677,
       "wantToGo": true,
       "notes": "Cheap, excellent tacos and chicken tortilla soup in East Nashville. Cash only.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I88D6362A122F2501"
     },
     {
       "id": "guide:nashville/barista-parlor",
@@ -221,11 +236,12 @@
       "address": "519 Gallatin Ave, Nashville, TN 37206",
       "locality": "East Nashville",
       "country": "United States",
-      "latitude": 36.1786,
-      "longitude": -86.7487,
+      "latitude": 36.182356,
+      "longitude": -86.748513,
       "wantToGo": true,
       "notes": "Careful coffee in an old auto garage. Order a biscuit sandwich with it.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IDEFECCB884D42BE3"
     },
     {
       "id": "guide:nashville/patterson-house",
@@ -234,11 +250,12 @@
       "address": "1711 Division St, Nashville, TN 37203",
       "locality": "Midtown",
       "country": "United States",
-      "latitude": 36.1522,
-      "longitude": -86.7929,
+      "latitude": 36.151279,
+      "longitude": -86.794065,
       "wantToGo": true,
       "notes": "A dark speakeasy-style cocktail bar. Expect a short wait for a seat.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I116A513CB5F0001C"
     },
     {
       "id": "guide:nashville/roberts-western-world",
@@ -247,11 +264,12 @@
       "address": "416 Broadway, Nashville, TN 37203",
       "locality": "Broadway",
       "country": "United States",
-      "latitude": 36.161,
-      "longitude": -86.7765,
+      "latitude": 36.160828,
+      "longitude": -86.777976,
       "wantToGo": true,
       "notes": "The real honky-tonk on Broadway. Order the Recession Special and listen to the house band.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I71B27816BBA53A02"
     },
     {
       "id": "guide:nashville/tootsies",
@@ -260,11 +278,12 @@
       "address": "422 Broadway, Nashville, TN 37203",
       "locality": "Broadway",
       "country": "United States",
-      "latitude": 36.1611,
-      "longitude": -86.7767,
+      "latitude": 36.160792,
+      "longitude": -86.77821,
       "wantToGo": true,
       "notes": "The purple-fronted bar where Willie Nelson got his first songwriting job. Live music from 10 a.m.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IB72EF72C2E4EF8BF"
     },
     {
       "id": "guide:nashville/station-inn",
@@ -273,11 +292,12 @@
       "address": "402 12th Ave S, Nashville, TN 37203",
       "locality": "The Gulch",
       "country": "United States",
-      "latitude": 36.153,
-      "longitude": -86.786,
+      "latitude": 36.152515,
+      "longitude": -86.784598,
       "wantToGo": true,
       "notes": "Bluegrass most nights since 1974. Sunday night is the open jam.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IB55B41B46B3D36A5"
     },
     {
       "id": "guide:nashville/ryman",
@@ -286,11 +306,12 @@
       "address": "116 Rep. John Lewis Way N, Nashville, TN 37219",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 36.1612,
-      "longitude": -86.7785,
+      "latitude": 36.161305,
+      "longitude": -86.778361,
       "wantToGo": true,
       "notes": "The Mother Church of Country Music. Take the daytime tour, then come back for a show.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IDBB669433DEC1247"
     },
     {
       "id": "guide:nashville/country-music-hof",
@@ -299,11 +320,12 @@
       "address": "222 Rep. John Lewis Way S, Nashville, TN 37203",
       "locality": "SoBro",
       "country": "United States",
-      "latitude": 36.1582,
-      "longitude": -86.776,
+      "latitude": 36.158096,
+      "longitude": -86.776087,
       "wantToGo": true,
       "notes": "Elvis's gold Cadillac and the history of country. Add the RCA Studio B tour here.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I9C15C4713101F754"
     },
     {
       "id": "guide:nashville/johnny-cash-museum",
@@ -312,11 +334,12 @@
       "address": "119 3rd Ave S, Nashville, TN 37201",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 36.1606,
-      "longitude": -86.7752,
+      "latitude": 36.160833,
+      "longitude": -86.77584,
       "wantToGo": true,
       "notes": "A small, packed museum of the Man in Black. Patsy Cline's museum is upstairs.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I91E89FAE97C55B2C"
     },
     {
       "id": "guide:nashville/nmaam",
@@ -325,11 +348,12 @@
       "address": "510 Broadway, Nashville, TN 37203",
       "locality": "Broadway",
       "country": "United States",
-      "latitude": 36.1606,
-      "longitude": -86.7779,
+      "latitude": 36.160529,
+      "longitude": -86.779032,
       "wantToGo": true,
       "notes": "Gospel, blues, jazz and hip-hop in one interactive museum. Make your own track.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I6845DA94B19BEFE6"
     },
     {
       "id": "guide:nashville/frist",
@@ -338,11 +362,12 @@
       "address": "919 Broadway, Nashville, TN 37203",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 36.1578,
-      "longitude": -86.7836,
+      "latitude": 36.157527,
+      "longitude": -86.783583,
       "wantToGo": true,
       "notes": "Changing exhibitions in a 1934 Art Deco post office.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I58FFB9B33D9748CC"
     },
     {
       "id": "guide:nashville/grand-ole-opry",
@@ -351,11 +376,12 @@
       "address": "600 Opry Mills Dr, Nashville, TN 37214",
       "locality": "Music Valley",
       "country": "United States",
-      "latitude": 36.2069,
-      "longitude": -86.6922,
+      "latitude": 36.206832,
+      "longitude": -86.692203,
       "wantToGo": true,
       "notes": "The longest-running radio show in America. Buy tickets for a Friday or Saturday show.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I9D7949CA040B58BD"
     },
     {
       "id": "guide:nashville/bluebird-cafe",
@@ -364,11 +390,12 @@
       "address": "4104 Hillsboro Pike, Nashville, TN 37215",
       "locality": "Green Hills",
       "country": "United States",
-      "latitude": 36.1027,
-      "longitude": -86.8165,
+      "latitude": 36.102111,
+      "longitude": -86.81691,
       "wantToGo": true,
       "notes": "Songwriters playing their hits in the round, in a 90-seat room. Tickets go fast online.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IB6D1962DC7196976"
     },
     {
       "id": "guide:nashville/the-parthenon",
@@ -377,11 +404,12 @@
       "address": "2500 West End Ave, Nashville, TN 37203",
       "locality": "Centennial Park",
       "country": "United States",
-      "latitude": 36.1497,
-      "longitude": -86.8133,
+      "latitude": 36.149662,
+      "longitude": -86.813439,
       "wantToGo": true,
       "notes": "A full-size copy of the Athens Parthenon, with a 42-foot gilded Athena inside.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I49923BC27532CD4F"
     },
     {
       "id": "guide:nashville/state-capitol",
@@ -390,11 +418,12 @@
       "address": "600 Dr. Martin L King Jr Blvd, Nashville, TN 37243",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 36.1659,
-      "longitude": -86.7841,
+      "latitude": 36.165791,
+      "longitude": -86.784057,
       "wantToGo": true,
       "notes": "An 1859 Greek Revival capitol on a hill. Free guided tours on weekdays.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IAF3EB025A656778B"
     },
     {
       "id": "guide:nashville/the-hermitage",
@@ -403,11 +432,12 @@
       "address": "4580 Rachel's Ln, Hermitage, TN 37076",
       "locality": "Hermitage",
       "country": "United States",
-      "latitude": 36.2155,
-      "longitude": -86.6129,
+      "latitude": 36.215012,
+      "longitude": -86.612992,
       "wantToGo": true,
       "notes": "Andrew Jackson's plantation, told with the lives of the people enslaved there.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I9F549C05DEA48F29"
     },
     {
       "id": "guide:nashville/belle-meade",
@@ -416,11 +446,12 @@
       "address": "110 Leake Ave, Nashville, TN 37205",
       "locality": "Belle Meade",
       "country": "United States",
-      "latitude": 36.105,
-      "longitude": -86.865,
+      "latitude": 36.104955,
+      "longitude": -86.864728,
       "wantToGo": true,
       "notes": "A Greek Revival plantation and thoroughbred farm, with a wine tasting after the tour.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I6A960F4788E1AED8"
     },
     {
       "id": "guide:nashville/centennial-park",
@@ -429,11 +460,12 @@
       "address": "Centennial Park, Nashville, TN 37203",
       "locality": "West End",
       "country": "United States",
-      "latitude": 36.149,
-      "longitude": -86.812,
+      "latitude": 36.14845,
+      "longitude": -86.812459,
       "wantToGo": true,
       "notes": "Lawns and a lake around the Parthenon. Free concerts and dance on summer evenings.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I5836BFAA5913199A"
     },
     {
       "id": "guide:nashville/cheekwood",
@@ -442,11 +474,12 @@
       "address": "1200 Forrest Park Dr, Nashville, TN 37205",
       "locality": "Belle Meade",
       "country": "United States",
-      "latitude": 36.0874,
-      "longitude": -86.8714,
+      "latitude": 36.087302,
+      "longitude": -86.874646,
       "wantToGo": true,
       "notes": "A 1920s mansion and 55 acres of gardens. Best in spring and during the holiday lights.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I7682EA729FC900BB"
     },
     {
       "id": "guide:nashville/pedestrian-bridge",
@@ -455,11 +488,12 @@
       "address": "John Seigenthaler Pedestrian Bridge, Nashville, TN 37201",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 36.162,
-      "longitude": -86.773,
+      "latitude": 36.16227,
+      "longitude": -86.771918,
       "wantToGo": true,
       "notes": "Walk across the Cumberland River for the best skyline view in town, especially at night.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I5CB66A93AC1DFE42"
     },
     {
       "id": "guide:nashville/bicentennial-mall",
@@ -468,11 +502,12 @@
       "address": "600 James Robertson Pkwy, Nashville, TN 37243",
       "locality": "Germantown",
       "country": "United States",
-      "latitude": 36.1708,
-      "longitude": -86.7871,
+      "latitude": 36.16865,
+      "longitude": -86.786001,
       "wantToGo": true,
       "notes": "A long state history walk below the Capitol, next to the Nashville Farmers' Market.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I557DFECDA59ECBF2"
     },
     {
       "id": "guide:nashville/shelby-bottoms",
@@ -481,11 +516,12 @@
       "address": "1900 Davidson St, Nashville, TN 37206",
       "locality": "East Nashville",
       "country": "United States",
-      "latitude": 36.1724,
-      "longitude": -86.736,
+      "latitude": 36.165666,
+      "longitude": -86.723778,
       "wantToGo": true,
       "notes": "Flat river trails through wetlands and woods. Rent a bike and ride to the Cumberland.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I4BC8672C9D8151D9"
     },
     {
       "id": "guide:nashville/radnor-lake",
@@ -494,11 +530,12 @@
       "address": "1160 Otter Creek Rd, Nashville, TN 37220",
       "locality": "Oak Hill",
       "country": "United States",
-      "latitude": 36.0629,
-      "longitude": -86.8092,
+      "latitude": 36.063181,
+      "longitude": -86.809593,
       "wantToGo": true,
       "notes": "A quiet lake with deer, owls and herons, fifteen minutes from downtown.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I6BA913C29CA1C9CB"
     },
     {
       "id": "guide:nashville/warner-parks",
@@ -507,11 +544,12 @@
       "address": "50 Vaughn Rd, Nashville, TN 37221",
       "locality": "Belle Meade",
       "country": "United States",
-      "latitude": 36.0686,
-      "longitude": -86.8851,
+      "latitude": 36.068581,
+      "longitude": -86.885097,
       "wantToGo": true,
       "notes": "Wooded hills, stone gates and a long scenic drive. Climb the Allée steps at the main entrance.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I13E5B1F5DCB088B9"
     }
   ]
 }
