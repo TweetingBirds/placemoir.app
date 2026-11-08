@@ -222,7 +222,7 @@ def page(title, description, canonical, body, prefix, noindex, app_argument=None
     head, foot = template()
     if with_map:
         head = with_mapkit_csp(head)
-        head = head.replace("</head>", '    <script src="js/guide-map.js?v=20261108.2" defer></script>\n</head>', 1)
+        head = head.replace("</head>", '    <script src="js/guide-map.js?v=20261108.3" defer></script>\n</head>', 1)
     head = head.replace("<title>Privacy Policy · Placemoir</title>", f"<title>{html.escape(title)} · Placemoir</title>")
     head = head.replace('href="https://placemoir.app/privacy.html"', f'href="{canonical}"')
     head = head.replace('content="Privacy Policy · Placemoir"', f'content="{html.escape(title)} · Placemoir"')
@@ -269,7 +269,15 @@ def map_section(guide):
     # MapKit token (a local preview) or with Apple Maps unreachable just shows the list.
     return f'''            <figure class="guide-map card" id="guide-map" hidden>
                 <div class="guide-map-canvas" role="region" aria-label="Map of the places in this guide"></div>
-                <figcaption><ul class="guide-legend">{keys}</ul></figcaption>
+                <figcaption>
+                    <div class="guide-map-picked" aria-live="polite" hidden>
+                        <p class="meta guide-map-section"></p>
+                        <p class="guide-map-name"></p>
+                        <p class="guide-map-notes"></p>
+                        <a href="#">See it in the list</a>
+                    </div>
+                    <ul class="guide-legend">{keys}</ul>
+                </figcaption>
             </figure>'''
 
 

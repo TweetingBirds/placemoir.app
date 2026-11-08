@@ -19,9 +19,9 @@
     <link rel="icon" type="image/png" sizes="64x64" href="../../images/favicon-64.png">
     <link rel="apple-touch-icon" href="../../images/apple-touch-icon.png">
     <link rel="stylesheet" href="../../css/fonts.css?v=20261103.2">
-    <link rel="stylesheet" href="../../css/site.css?v=20261108.2">
+    <link rel="stylesheet" href="../../css/site.css?v=20261108.3">
     <script src="../../js/theme.js?v=20261107.1"></script>
-    <script src="../../js/guide-map.js?v=20261108.2" defer></script>
+    <script src="../../js/guide-map.js?v=20261108.3" defer></script>
 </head>
 <body>
     <a class="skip" href="#main">Skip to content</a>
@@ -67,7 +67,15 @@
         <div class="wrap page-body">
             <figure class="guide-map card" id="guide-map" hidden>
                 <div class="guide-map-canvas" role="region" aria-label="Map of the places in this guide"></div>
-                <figcaption><ul class="guide-legend"><li><span class="guide-key guide-key-0" aria-hidden="true"></span>Stay</li><li><span class="guide-key guide-key-1" aria-hidden="true"></span>Eat</li><li><span class="guide-key guide-key-2" aria-hidden="true"></span>See</li><li><span class="guide-key guide-key-3" aria-hidden="true"></span>Outside</li></ul></figcaption>
+                <figcaption>
+                    <div class="guide-map-picked" aria-live="polite" hidden>
+                        <p class="meta guide-map-section"></p>
+                        <p class="guide-map-name"></p>
+                        <p class="guide-map-notes"></p>
+                        <a href="#">See it in the list</a>
+                    </div>
+                    <ul class="guide-legend"><li><span class="guide-key guide-key-0" aria-hidden="true"></span>Stay</li><li><span class="guide-key guide-key-1" aria-hidden="true"></span>Eat</li><li><span class="guide-key guide-key-2" aria-hidden="true"></span>See</li><li><span class="guide-key guide-key-3" aria-hidden="true"></span>Outside</li></ul>
+                </figcaption>
             </figure>
             <h2 class="press-h2" id="stay"><span class="guide-key guide-key-0" aria-hidden="true"></span>Stay</h2>
             <div class="prompt-grid">

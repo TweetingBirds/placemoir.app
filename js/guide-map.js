@@ -75,16 +75,37 @@
         };
         map.showItems(pins, { padding: new mapkit.Padding(48, 32, 32, 32) });
 
-        // Picking a pin brings its card into view and marks it.
+        // Picking a pin shows its name on the map and in the panel under it, and marks its card.
+        // Picking a numbered circle zooms in until its pins come apart.
+        var picked = figure.querySelector(".guide-map-picked");
         map.addEventListener("select", function (event) {
-            var place = guide.places[pins.indexOf(event.annotation)];
-            var card = place && document.getElementById(place.id.split("/").pop());
-            if (!card) return;
+            var annotation = event.annotation;
+            if (annotation.memberAnnotations) {
+                map.showItems(annotation.memberAnnotations, { animate: true, padding: new mapkit.Padding(64, 48, 48, 48) });
+                return;
+            }
+            var place = guide.places[pins.indexOf(annotation)];
+            if (!place) return;
+            annotation.titleVisibility = mapkit.FeatureVisibility.Visible;
+            annotation.subtitleVisibility = mapkit.FeatureVisibility.Visible;
+            var key = place.id.split("/").pop();
+            picked.querySelector(".guide-map-name").textContent = place.name;
+            picked.querySelector(".guide-map-section").textContent = place.section + (place.locality ? " · " + place.locality : "");
+            picked.querySelector(".guide-map-notes").textContent = place.notes || "";
+            picked.querySelector("a").setAttribute("href", "#" + key);
+            picked.hidden = false;
             document.querySelectorAll(".guide-place.is-picked").forEach(function (other) {
                 other.classList.remove("is-picked");
             });
-            card.classList.add("is-picked");
+            var card = document.getElementById(key);
+            if (card) card.classList.add("is-picked");
         });
+        map.addEventListener("deselect", function (event) {
+            if (event.annotation.memberAnnotations) return;
+            event.annotation.titleVisibility = mapkit.FeatureVisibility.Hidden;
+            event.annotation.subtitleVisibility = mapkit.FeatureVisibility.Hidden;
+        });
+        figure.guideMap = map;
 
         // Follow the theme switch and the system setting.
         function retheme() {

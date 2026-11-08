@@ -591,3 +591,8 @@ html:not(.has-device-tabs) .gallery-heading { display: block; width: 100%; font:
     :root:not([data-theme="light"]) .guide-key-3 { background: #8EC3D9; }
 }
 @media (max-width: 720px) { .guide-map-canvas { height: 340px; } }
+.guide-map-picked { padding: 4px 0 14px; margin-bottom: 12px; border-bottom: 1px solid var(--line); display: grid; gap: 4px; }
+.guide-map-picked[hidden] { display: none; }
+.guide-map-name { font: italic 500 1.3rem/1.2 var(--display); }
+.guide-map-notes { color: var(--pencil); max-width: 70ch; }
+.guide-map-picked a { font-size: .92rem; justify-self: start; }
