@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Builds the Want to go guides from guides/src/<slug>.json.
+"""Builds the Field Guides (city guides for the Want to go list) from guides/src/<slug>.json.
 
 Each source file is one guide: its title, sections and places, written by hand. This
 script turns it into, for every guide:
@@ -171,7 +171,7 @@ def library(guide):
         "format": "placemoir-library",
         "formatVersion": 1,
         "exportedAt": guide["updatedAt"],
-        "generator": "Placemoir Guides",
+        "generator": "Placemoir Field Guides",
         "guide": {
             "slug": guide["slug"],
             "title": guide["title"],
@@ -332,7 +332,7 @@ def guide_page(guide):
     body = f'''        <script type="application/ld+json">{ld_json}</script>
         <div class="wrap">
             <header class="page-head">
-                <p class="eyebrow moss"><a href="../">Want to go guides</a></p>
+                <p class="eyebrow moss"><a href="../">Field Guides</a></p>
                 <h1>{e(guide['title'])}</h1>
                 <p>{e(guide['summary'])}</p>
                 <p class="meta">{count} places · Picked by {e(guide['author'])} · Checked {updated}</p>
@@ -363,15 +363,15 @@ def index_page(guides):
         listing = '            <p class="press-lede">The first guides are on their way.</p>'
     body = f'''        <div class="wrap">
             <header class="page-head">
-                <p class="eyebrow moss">Want to go guides</p>
+                <p class="eyebrow moss">Field Guides</p>
                 <h1>Places worth the trip.</h1>
-                <p>A week of places to stay, eat, see and walk in a city, picked by people who've been. Add a guide to your Want to go list in Placemoir, then rate each place once you've gone.</p>
+                <p>A week of places to stay, eat, see and walk in a city, picked by people who've been. Add a Field Guide to your Want to go list in Placemoir, then rate each place once you've gone.</p>
             </header>
         </div>
         <div class="wrap page-body">
 {listing}
         </div>'''
-    return page("Want to go guides", "City guides you can add to your Want to go list in Placemoir.",
+    return page("Field Guides", "Placemoir Field Guides: city guides you can add to your Want to go list.",
                 f"{BASE_URL}/guides/", body, "../", noindex=not published)
 
 
@@ -388,7 +388,7 @@ def sitemap(guides, current):
 
 
 def catalog_json(guides):
-    """guides/index.json: the published guides, for the Guides list in the app.
+    """guides/index.json: the published Field Guides, for the Guides list in the app.
 
     The app fetches this one static file when someone opens the list, and nothing else until
     they pick a guide, so the list needs no account and tells the site nothing about them.
