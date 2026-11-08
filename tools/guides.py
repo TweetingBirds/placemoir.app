@@ -487,10 +487,25 @@ def one_line(lines):
     return re.sub(r"\s*\n\s*", ", ", re.sub(r"[ \t]+", " ", text)).strip()
 
 
+ORDINALS = {"first": "1st", "second": "2nd", "third": "3rd", "fourth": "4th", "fifth": "5th", "sixth": "6th",
+            "seventh": "7th", "eighth": "8th", "ninth": "9th", "tenth": "10th"}
+DIRECTIONS = {"n", "s", "e", "w", "ne", "nw", "se", "sw", "north", "south", "east", "west"}
+
+
 def street(address):
-    """("659", "peachtree") from "659 Peachtree St NE, …", or None without a street number."""
-    match = re.match(r"\s*(\d+[a-z]?)\s+([\w.']+)", address.lower())
-    return (match.group(1), match.group(2).replace(".", "")) if match else None
+    """("659", "peachtree") from "659 Peachtree St NE, …", or None without a street number.
+
+    Looks at each part of the address, so "The Ferry Building, 1 Ferry Building" works, and
+    reads "1622.5 N 45th St" and "1000 Fifth Ave" as ("1622", "45th") and ("1000", "5th").
+    """
+    for part in address.lower().split(","):
+        match = re.match(r"\s*(\d+)[\d./-]*[a-z]?\s+(.+)", part)
+        if not match:
+            continue
+        words = [w.replace(".", "") for w in match.group(2).split()]
+        words = [w for w in words if w not in DIRECTIONS and w != "1/2"] or words
+        return match.group(1), ORDINALS.get(words[0], words[0])
+    return None
 
 
 def judge(guide, place, result):
@@ -502,12 +517,14 @@ def judge(guide, place, result):
     if score < 0.6:
         return False, score, metres
     ours = street(place["address"])
-    if ours and metres <= STREET_RADIUS_METRES:
+    theirs = street(one_line(result.get("formattedAddressLines", [])))
+    if ours and theirs and metres <= STREET_RADIUS_METRES:
         # A street address decides it: the same number on the same street, wherever the pin is.
         # This keeps "Sweet Auburn Curb Market" from matching a train station of a similar name.
-        return street(one_line(result.get("formattedAddressLines", []))) == ours, score, metres
-    # No street number (a trail, a big park): only a close name, near where the source says.
-    return not ours and score >= 0.9 and metres <= SEARCH_RADIUS_METRES, score, metres
+        return theirs == ours, score, metres
+    # No street number on one side (a trail, a big park, a station Apple lists without one):
+    # only a close name, near where the source says.
+    return score >= 0.9 and metres <= SEARCH_RADIUS_METRES, score, metres
 
 
 def maps(slugs):
@@ -526,8 +543,9 @@ def maps(slugs):
                 if "latitude" not in (result.get("coordinate") or {}):
                     continue
                 fits, score, metres = judge(guide, place, result)
+                coordinate = result["coordinate"]
                 seen.append(f"{result.get('name', '?')} ({one_line(result.get('formattedAddressLines', []))}, "
-                            f"{round(metres)} m, name {score:.2f})")
+                            f"{round(metres)} m, name {score:.2f}, at {coordinate['latitude']:.4f},{coordinate['longitude']:.4f})")
                 if fits and (best is None or (score, -metres) > best[0]):
                     best = ((score, -metres), result, metres)
             if best is None:

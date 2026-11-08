@@ -4,3 +4,4 @@
 .vscode/
 maps-report.txt
 guides/mapkit-token.json
+__pycache__/

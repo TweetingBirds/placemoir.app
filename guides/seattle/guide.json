@@ -241,19 +241,6 @@
       "section": "Eat"
     },
     {
-      "id": "guide:seattle/starbucks-roastery",
-      "name": "Starbucks Reserve Roastery",
-      "category": "cafe",
-      "address": "1124 Pike St, Seattle, WA 98101",
-      "locality": "Capitol Hill",
-      "country": "United States",
-      "latitude": 47.6141,
-      "longitude": -122.3283,
-      "wantToGo": true,
-      "notes": "A theatrical roastery with copper casks and coffee you can't get anywhere else.",
-      "section": "Eat"
-    },
-    {
       "id": "guide:seattle/caffe-vita",
       "name": "Caffe Vita",
       "category": "cafe",
@@ -465,7 +452,7 @@
       "id": "guide:seattle/burke-museum",
       "name": "Burke Museum",
       "category": "museum",
-      "address": "4300 15th Ave NE, Seattle, WA 98105",
+      "address": "4303 Memorial Way NE, Seattle, WA 98195",
       "locality": "University District",
       "country": "United States",
       "latitude": 47.6606,
@@ -569,7 +556,7 @@
       "id": "guide:seattle/alki-beach",
       "name": "Alki Beach Park",
       "category": "park",
-      "address": "1702 Alki Ave SW, Seattle, WA 98116",
+      "address": "2665 Alki Ave SW, Seattle, WA 98116",
       "locality": "West Seattle",
       "country": "United States",
       "latitude": 47.5794,
