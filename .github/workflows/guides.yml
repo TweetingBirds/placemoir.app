@@ -12,7 +12,7 @@ name: Guides
 on:
   pull_request:
     branches: [main]
-    paths: ["guides/**", "tools/guides.py", "sitemap.xml", "privacy.html", ".github/workflows/guides.yml"]
+    paths: ["guides/**", "tools/guides.py", "sitemap.xml", "privacy.html", "js/guide-map.js", "css/site.css", ".github/workflows/guides.yml"]
   push:
     branches: [main]
     paths: ["guides/**", "tools/guides.py", "sitemap.xml", "privacy.html"]
@@ -86,3 +86,68 @@ jobs:
             echo "Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           } > "$RUNNER_TEMP/issue.md"
           gh issue create --title "Guides: places to check ($(date +%Y-%m))" --body-file "$RUNNER_TEMP/issue.md"
+
+  # Draws the Atlanta page with its map in a real browser, with a token for the local server,
+  # and keeps the screenshots and any console errors (such as a blocked request) as an artifact.
+  map-preview:
+    needs: check
+    timeout-minutes: 10
+    if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-24.04
+    env:
+      APPLE_MAPS_KEY: ${{ secrets.APPLE_MAPS_KEY || vars.APPLE_MAPS_KEY }}
+      APPLE_MAPS_KEY_ID: ${{ secrets.APPLE_MAPS_KEY_ID || vars.APPLE_MAPS_KEY_ID }}
+      APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID || vars.APPLE_TEAM_ID }}
+    steps:
+      - uses: actions/checkout@v7
+      - name: Token for the local server
+        run: |
+          python3 -m venv "$RUNNER_TEMP/token"
+          "$RUNNER_TEMP/token/bin/pip" install --quiet pyjwt cryptography
+          "$RUNNER_TEMP/token/bin/python" tools/guides.py token http://127.0.0.1:8811 1
+      - name: Screenshot the guide map
+        timeout-minutes: 6
+        run: |
+          python3 -m http.server 8811 --bind 127.0.0.1 >/dev/null 2>&1 &
+          mkdir -p "$RUNNER_TEMP/pw" && cd "$RUNNER_TEMP/pw"
+          # The runner image already has Google Chrome, so only the driver is installed.
+          npm init -y >/dev/null && npm install --silent --no-audit --no-fund playwright-core@1
+          cat > shot.mjs <<'JS'
+          import { chromium } from "playwright-core";
+          import { appendFileSync } from "node:fs";
+          const out = `${process.env.GITHUB_WORKSPACE}/map-console.txt`;
+          const log = line => { const text = `${new Date().toISOString().slice(11, 19)} ${line}`; console.log(text); appendFileSync(out, text + "\n"); };
+          setTimeout(() => { log("gave up after 120 s"); process.exit(1); }, 120000);
+          log("launching Chrome");
+          // The runner has no GPU; MapKit draws with WebGL, so give Chrome its software renderer.
+          const browser = await chromium.launch({ channel: "chrome", timeout: 30000,
+            args: ["--use-gl=angle", "--use-angle=swiftshader", "--enable-unsafe-swiftshader", "--ignore-gpu-blocklist"] });
+          let shown = false;
+          for (const scheme of ["light", "dark"]) {
+            const page = await browser.newPage({ viewport: { width: 1100, height: 900 }, colorScheme: scheme });
+            page.setDefaultTimeout(20000);
+            page.on("console", m => log(`${scheme} console ${m.type()}: ${m.text()}`));
+            page.on("pageerror", e => log(`${scheme} pageerror: ${e.message}`));
+            page.on("requestfailed", r => { if (r.failure()?.errorText !== "net::ERR_ABORTED") log(`${scheme} failed: ${r.url().slice(0, 120)} ${r.failure()?.errorText}`); });
+            log(`${scheme}: opening the page`);
+            await page.goto("http://127.0.0.1:8811/guides/atlanta/", { waitUntil: "domcontentloaded" });
+            const visible = await page.waitForFunction(() => !document.getElementById("guide-map").hidden, null, { timeout: 15000 })
+              .then(() => true, () => false);
+            await page.waitForTimeout(4000);
+            log(`${scheme}: map shown = ${visible}`);
+            if (scheme === "light") shown = visible;
+            await page.locator(visible ? "#guide-map" : "main").screenshot({ path: `${process.env.GITHUB_WORKSPACE}/map-${scheme}.png`, animations: "disabled", timeout: 20000 })
+              .then(() => log(`${scheme}: screenshot saved`), e => log(`${scheme}: screenshot failed: ${e.message.split("\n")[0]}`));
+            await page.close();
+          }
+          await browser.close();
+          process.exit(shown ? 0 : 1);
+          JS
+          node shot.mjs
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: map-preview
+          path: |
+            map-*.png
+            map-console.txt

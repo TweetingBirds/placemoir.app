@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="apple-itunes-app" content="app-id=6829224969, app-argument=https://placemoir.app/guides/atlanta/">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://static.cloudflareinsights.com; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'self' https://cloudflareinsights.com; form-action 'self'; base-uri 'self'; object-src 'none';">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://static.cloudflareinsights.com https://cdn.apple-mapkit.com; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data: https://*.apple-mapkit.com https://*.ls.apple.com blob:; connect-src 'self' https://cloudflareinsights.com https://*.apple-mapkit.com https://*.ls.apple.com https://*.apple.com; form-action 'self'; base-uri 'self'; object-src 'none'; worker-src blob:;">
     <meta name="robots" content="noindex">
     <title>A week in Atlanta · Placemoir</title>
     <meta name="description" content="Seven days of civil rights history, Southern cooking, BeltLine walks and a few places to stay, from Sweet Auburn to the Westside.">
@@ -19,8 +19,9 @@
     <link rel="icon" type="image/png" sizes="64x64" href="../../images/favicon-64.png">
     <link rel="apple-touch-icon" href="../../images/apple-touch-icon.png">
     <link rel="stylesheet" href="../../css/fonts.css?v=20261103.2">
-    <link rel="stylesheet" href="../../css/site.css?v=20261108.1">
+    <link rel="stylesheet" href="../../css/site.css?v=20261108.2">
     <script src="../../js/theme.js?v=20261107.1"></script>
+    <script src="../../js/guide-map.js?v=20261108.2" defer></script>
 </head>
 <body>
     <a class="skip" href="#main">Skip to content</a>
@@ -64,7 +65,11 @@
             </header>
         </div>
         <div class="wrap page-body">
-            <h2 class="press-h2" id="stay">Stay</h2>
+            <figure class="guide-map card" id="guide-map" hidden>
+                <div class="guide-map-canvas" role="region" aria-label="Map of the places in this guide"></div>
+                <figcaption><ul class="guide-legend"><li><span class="guide-key guide-key-0" aria-hidden="true"></span>Stay</li><li><span class="guide-key guide-key-1" aria-hidden="true"></span>Eat</li><li><span class="guide-key guide-key-2" aria-hidden="true"></span>See</li><li><span class="guide-key guide-key-3" aria-hidden="true"></span>Outside</li></ul></figcaption>
+            </figure>
+            <h2 class="press-h2" id="stay"><span class="guide-key guide-key-0" aria-hidden="true"></span>Stay</h2>
             <div class="prompt-grid">
                     <article class="prompt-card card guide-place" id="georgian-terrace">
                         <p class="meta">Hotel · Midtown</p>
@@ -91,7 +96,7 @@
                         <p class="meta guide-address"><a href="https://maps.apple.com/?q=The+St.+Regis+Atlanta&amp;ll=33.839975%2C-84.382508">88 W Paces Ferry Rd NW, Atlanta, GA 30305</a></p>
                     </article>
             </div>
-            <h2 class="press-h2" id="eat">Eat</h2>
+            <h2 class="press-h2" id="eat"><span class="guide-key guide-key-1" aria-hidden="true"></span>Eat</h2>
             <div class="prompt-grid">
                     <article class="prompt-card card guide-place" id="mary-macs">
                         <p class="meta">Restaurant · Midtown</p>
@@ -196,7 +201,7 @@
                         <p class="meta guide-address"><a href="https://maps.apple.com/?q=Bones&amp;ll=33.842188%2C-84.370891">3130 Piedmont Rd NE, Atlanta, GA 30305</a></p>
                     </article>
             </div>
-            <h2 class="press-h2" id="see">See</h2>
+            <h2 class="press-h2" id="see"><span class="guide-key guide-key-2" aria-hidden="true"></span>See</h2>
             <div class="prompt-grid">
                     <article class="prompt-card card guide-place" id="mlk-park">
                         <p class="meta">Attraction · Sweet Auburn</p>
@@ -289,7 +294,7 @@
                         <p class="meta guide-address"><a href="https://maps.apple.com/?q=Buford+Highway+Farmers+Market&amp;ll=33.905658%2C-84.274042">5600 Buford Hwy NE, Doraville, GA 30340</a></p>
                     </article>
             </div>
-            <h2 class="press-h2" id="outside">Outside</h2>
+            <h2 class="press-h2" id="outside"><span class="guide-key guide-key-3" aria-hidden="true"></span>Outside</h2>
             <div class="prompt-grid">
                     <article class="prompt-card card guide-place" id="piedmont-park">
                         <p class="meta">Park · Midtown</p>
