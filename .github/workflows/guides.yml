@@ -91,6 +91,7 @@ jobs:
   # and keeps the screenshots and any console errors (such as a blocked request) as an artifact.
   map-preview:
     needs: check
+    timeout-minutes: 10
     if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-24.04
     env:
@@ -105,20 +106,21 @@ jobs:
           "$RUNNER_TEMP/token/bin/pip" install --quiet pyjwt cryptography
           "$RUNNER_TEMP/token/bin/python" tools/guides.py token http://127.0.0.1:8811 1
       - name: Screenshot the guide map
+        timeout-minutes: 6
         run: |
           python3 -m http.server 8811 --bind 127.0.0.1 >/dev/null 2>&1 &
           mkdir -p "$RUNNER_TEMP/pw" && cd "$RUNNER_TEMP/pw"
-          npm init -y >/dev/null && npm install --silent playwright@1 >/dev/null
-          npx playwright install --with-deps chromium >/dev/null
+          # The runner image already has Google Chrome, so only the driver is installed.
+          npm init -y >/dev/null && npm install --silent --no-audit --no-fund playwright-core@1
           cat > shot.mjs <<'JS'
-          import { chromium } from "playwright";
-          const browser = await chromium.launch();
+          import { chromium } from "playwright-core";
+          const browser = await chromium.launch({ channel: "chrome" });
           const problems = [];
           for (const [name, scheme] of [["light", "light"], ["dark", "dark"]]) {
             const page = await browser.newPage({ viewport: { width: 1280, height: 1000 }, colorScheme: scheme });
             page.on("console", m => { if (["error", "warning", "info"].includes(m.type())) problems.push(`${name} ${m.type()}: ${m.text()}`); });
             page.on("pageerror", e => problems.push(`${name} pageerror: ${e.message}`));
-            await page.goto("http://127.0.0.1:8811/guides/atlanta/");
+            await page.goto("http://127.0.0.1:8811/guides/atlanta/", { waitUntil: "domcontentloaded", timeout: 30000 });
             await page.waitForTimeout(8000);
             const shown = await page.evaluate(() => !document.getElementById("guide-map").hidden);
             problems.push(`${name}: map shown = ${shown}`);
