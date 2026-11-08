@@ -1,0 +1,88 @@
+name: Guides
+
+# Checks the Want to go guides in guides/src/ (see tools/guides.py):
+# - check: the sources are valid and the built pages and files are up to date.
+# - maps: every place is found in Apple Maps where the guide says it is. On a pull request, a
+#   change to guides/src/<slug>.maps.json fails the job and is uploaded as an artifact to commit.
+#   Once a month the same check runs on main and opens an issue when a place has closed or moved.
+#
+# Apple Maps needs APPLE_MAPS_KEY (the .p8), APPLE_MAPS_KEY_ID and APPLE_TEAM_ID, each as a
+# repository secret or variable.
+
+on:
+  pull_request:
+    branches: [main]
+    paths: ["guides/**", "tools/guides.py", "sitemap.xml", "privacy.html", ".github/workflows/guides.yml"]
+  push:
+    branches: [main]
+    paths: ["guides/**", "tools/guides.py", "sitemap.xml", "privacy.html"]
+  schedule:
+    - cron: "17 9 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - run: python3 tools/guides.py check
+
+  maps:
+    needs: check
+    # Secrets aren't passed to pull requests from forks.
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+      issues: write
+    env:
+      APPLE_MAPS_KEY: ${{ secrets.APPLE_MAPS_KEY || vars.APPLE_MAPS_KEY }}
+      APPLE_MAPS_KEY_ID: ${{ secrets.APPLE_MAPS_KEY_ID || vars.APPLE_MAPS_KEY_ID }}
+      APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID || vars.APPLE_TEAM_ID }}
+    steps:
+      - uses: actions/checkout@v7
+      # A venv, because the runner's system Python refuses pip installs (PEP 668).
+      - name: Look up every place in Apple Maps
+        id: maps
+        run: |
+          python3 -m venv "$RUNNER_TEMP/maps"
+          "$RUNNER_TEMP/maps/bin/pip" install --quiet pyjwt cryptography
+          set -o pipefail
+          "$RUNNER_TEMP/maps/bin/python" tools/guides.py maps | tee maps-report.txt
+      - name: Lookups match guides/src/*.maps.json
+        if: always() && steps.maps.outcome != 'skipped'
+        run: |
+          if ! git diff --quiet -- guides/src; then
+            git --no-pager diff --stat -- guides/src
+            echo "::error title=Apple Maps lookups changed::Download the maps-lookups artifact and commit it to guides/src/, then run python3 tools/guides.py build."
+            exit 1
+          fi
+          if [ -n "$(git ls-files --others --exclude-standard guides/src)" ]; then
+            echo "::error title=New Apple Maps lookups::Download the maps-lookups artifact and commit it to guides/src/, then run python3 tools/guides.py build."
+            exit 1
+          fi
+      - uses: actions/upload-artifact@v7
+        if: always() && steps.maps.outcome != 'skipped'
+        with:
+          name: maps-lookups
+          path: |
+            guides/src/*.maps.json
+            maps-report.txt
+      - name: Open an issue when a place needs a look
+        if: failure() && github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          {
+            echo "The monthly Apple Maps check found places that have closed, moved or can't be found."
+            echo
+            echo '```'
+            grep -A100 "need a look" maps-report.txt || cat maps-report.txt
+            echo '```'
+            echo
+            echo "Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          } > "$RUNNER_TEMP/issue.md"
+          gh issue create --title "Guides: places to check ($(date +%Y-%m))" --body-file "$RUNNER_TEMP/issue.md"
