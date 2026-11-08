@@ -9,4 +9,21 @@
   <url><loc>https://placemoir.app/pronunciation.html</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://placemoir.app/support.html</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://placemoir.app/whats-new.html</loc><lastmod>2026-11-07</lastmod></url>
+  <!-- guides:sitemap -->
+  <url><loc>https://placemoir.app/guides/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://placemoir.app/guides/atlanta/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://placemoir.app/guides/austin/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://placemoir.app/guides/boston/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://placemoir.app/guides/chicago/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://placemoir.app/guides/denver/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://placemoir.app/guides/kansas-city/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://placemoir.app/guides/nashville/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://placemoir.app/guides/new-york/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://placemoir.app/guides/orlando/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://placemoir.app/guides/portland/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://placemoir.app/guides/salt-lake-city/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://placemoir.app/guides/san-francisco/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://placemoir.app/guides/seattle/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://placemoir.app/guides/washington-dc/</loc><lastmod>2026-11-08</lastmod></url>
+  <!-- /guides:sitemap -->
 </urlset>

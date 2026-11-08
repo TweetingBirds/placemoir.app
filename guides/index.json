@@ -1,6 +1,301 @@
 {
   "format": "placemoir-guides",
   "formatVersion": 1,
-  "updatedAt": "",
-  "guides": []
+  "updatedAt": "2026-11-08",
+  "guides": [
+    {
+      "slug": "atlanta",
+      "title": "A week in Atlanta",
+      "summary": "Seven days of civil rights history, Southern cooking, BeltLine walks and a few places to stay, from Sweet Auburn to the Westside.",
+      "author": "friends of Placemoir",
+      "language": "en",
+      "country": "United States",
+      "sections": [
+        "Stay",
+        "Eat",
+        "See",
+        "Outside"
+      ],
+      "placeCount": 42,
+      "latitude": 33.7804,
+      "longitude": -84.3764,
+      "updatedAt": "2026-11-08",
+      "url": "https://placemoir.app/guides/atlanta/",
+      "guideURL": "https://placemoir.app/guides/atlanta/guide.json",
+      "archiveURL": "https://placemoir.app/guides/atlanta/atlanta.placemoirarchive"
+    },
+    {
+      "slug": "austin",
+      "title": "A week in Austin",
+      "summary": "Seven days of brisket and breakfast tacos, live music every night, spring-fed swimming holes and bats over Lady Bird Lake.",
+      "author": "friends of Placemoir",
+      "language": "en",
+      "country": "United States",
+      "sections": [
+        "Stay",
+        "Eat",
+        "See",
+        "Outside"
+      ],
+      "placeCount": 38,
+      "latitude": 30.2632,
+      "longitude": -97.7601,
+      "updatedAt": "2026-11-08",
+      "url": "https://placemoir.app/guides/austin/",
+      "guideURL": "https://placemoir.app/guides/austin/guide.json",
+      "archiveURL": "https://placemoir.app/guides/austin/austin.placemoirarchive"
+    },
+    {
+      "slug": "boston",
+      "title": "A week in Boston",
+      "summary": "Seven days of the Freedom Trail and the North End, oysters and cannoli, great museums, Fenway and walks along the Charles.",
+      "author": "friends of Placemoir",
+      "language": "en",
+      "country": "United States",
+      "sections": [
+        "Stay",
+        "Eat",
+        "See",
+        "Outside"
+      ],
+      "placeCount": 41,
+      "latitude": 42.3532,
+      "longitude": -71.0654,
+      "updatedAt": "2026-11-08",
+      "url": "https://placemoir.app/guides/boston/",
+      "guideURL": "https://placemoir.app/guides/boston/guide.json",
+      "archiveURL": "https://placemoir.app/guides/boston/boston.placemoirarchive"
+    },
+    {
+      "slug": "chicago",
+      "title": "A week in Chicago",
+      "summary": "Seven days of architecture by boat, deep dish and Italian beef, the Art Institute and the lakefront, blues bars and a game at Wrigley.",
+      "author": "friends of Placemoir",
+      "language": "en",
+      "country": "United States",
+      "sections": [
+        "Stay",
+        "Eat",
+        "See",
+        "Outside"
+      ],
+      "placeCount": 43,
+      "latitude": 41.8934,
+      "longitude": -87.6421,
+      "updatedAt": "2026-11-08",
+      "url": "https://placemoir.app/guides/chicago/",
+      "guideURL": "https://placemoir.app/guides/chicago/guide.json",
+      "archiveURL": "https://placemoir.app/guides/chicago/chicago.placemoirarchive"
+    },
+    {
+      "slug": "denver",
+      "title": "A week in Denver",
+      "summary": "Seven days of mountain views and red rocks, green chile and craft beer, great museums and murals, with a day up in the foothills.",
+      "author": "friends of Placemoir",
+      "language": "en",
+      "country": "United States",
+      "sections": [
+        "Stay",
+        "Eat",
+        "See",
+        "Outside"
+      ],
+      "placeCount": 36,
+      "latitude": 39.7507,
+      "longitude": -105.012,
+      "updatedAt": "2026-11-08",
+      "url": "https://placemoir.app/guides/denver/",
+      "guideURL": "https://placemoir.app/guides/denver/guide.json",
+      "archiveURL": "https://placemoir.app/guides/denver/denver.placemoirarchive"
+    },
+    {
+      "slug": "kansas-city",
+      "title": "A week in Kansas City",
+      "summary": "Seven days of barbecue and jazz, fountains and boulevards, the WWI museum and the Nelson-Atkins, with a Chiefs or Royals game if you can.",
+      "author": "friends of Placemoir",
+      "language": "en",
+      "country": "United States",
+      "sections": [
+        "Stay",
+        "Eat",
+        "See",
+        "Outside"
+      ],
+      "placeCount": 38,
+      "latitude": 39.062,
+      "longitude": -94.5804,
+      "updatedAt": "2026-11-08",
+      "url": "https://placemoir.app/guides/kansas-city/",
+      "guideURL": "https://placemoir.app/guides/kansas-city/guide.json",
+      "archiveURL": "https://placemoir.app/guides/kansas-city/kansas-city.placemoirarchive"
+    },
+    {
+      "slug": "nashville",
+      "title": "A week in Nashville",
+      "summary": "Seven days of hot chicken and meat-and-threes, honky-tonks and the Opry, songwriter nights, and green trails just outside town.",
+      "author": "friends of Placemoir",
+      "language": "en",
+      "country": "United States",
+      "sections": [
+        "Stay",
+        "Eat",
+        "See",
+        "Outside"
+      ],
+      "placeCount": 38,
+      "latitude": 36.1466,
+      "longitude": -86.786,
+      "updatedAt": "2026-11-08",
+      "url": "https://placemoir.app/guides/nashville/",
+      "guideURL": "https://placemoir.app/guides/nashville/guide.json",
+      "archiveURL": "https://placemoir.app/guides/nashville/nashville.placemoirarchive"
+    },
+    {
+      "slug": "new-york",
+      "title": "A week in New York",
+      "summary": "Seven days of museums and delis, bridges and harbor ferries, Central Park and the High Line, across Manhattan and Brooklyn.",
+      "author": "friends of Placemoir",
+      "language": "en",
+      "country": "United States",
+      "sections": [
+        "Stay",
+        "Eat",
+        "See",
+        "Outside"
+      ],
+      "placeCount": 46,
+      "latitude": 40.7404,
+      "longitude": -73.9845,
+      "updatedAt": "2026-11-08",
+      "url": "https://placemoir.app/guides/new-york/",
+      "guideURL": "https://placemoir.app/guides/new-york/guide.json",
+      "archiveURL": "https://placemoir.app/guides/new-york/new-york.placemoirarchive"
+    },
+    {
+      "slug": "orlando",
+      "title": "A week in Orlando",
+      "summary": "Seven days of theme parks and the space coast, springs and manatees, and the quieter, tree-lined side of Orlando and Winter Park.",
+      "author": "friends of Placemoir",
+      "language": "en",
+      "country": "United States",
+      "sections": [
+        "Stay",
+        "Eat",
+        "See",
+        "Outside"
+      ],
+      "placeCount": 37,
+      "latitude": 28.4983,
+      "longitude": -81.4156,
+      "updatedAt": "2026-11-08",
+      "url": "https://placemoir.app/guides/orlando/",
+      "guideURL": "https://placemoir.app/guides/orlando/guide.json",
+      "archiveURL": "https://placemoir.app/guides/orlando/orlando.placemoirarchive"
+    },
+    {
+      "slug": "portland",
+      "title": "A week in Portland",
+      "summary": "Seven days of food carts and doughnuts, roses and a Japanese garden, books and coffee, and waterfalls in the Columbia River Gorge.",
+      "author": "friends of Placemoir",
+      "language": "en",
+      "country": "United States",
+      "sections": [
+        "Stay",
+        "Eat",
+        "See",
+        "Outside"
+      ],
+      "placeCount": 36,
+      "latitude": 45.532,
+      "longitude": -122.6908,
+      "updatedAt": "2026-11-08",
+      "url": "https://placemoir.app/guides/portland/",
+      "guideURL": "https://placemoir.app/guides/portland/guide.json",
+      "archiveURL": "https://placemoir.app/guides/portland/portland.placemoirarchive"
+    },
+    {
+      "slug": "salt-lake-city",
+      "title": "A week in Salt Lake City",
+      "summary": "Seven days of mountain trails, pioneer history, mole and fry sauce, and a day out on the Great Salt Lake, with the Wasatch always in view.",
+      "author": "friends of Placemoir",
+      "language": "en",
+      "country": "United States",
+      "sections": [
+        "Stay",
+        "Eat",
+        "See",
+        "Outside"
+      ],
+      "placeCount": 39,
+      "latitude": 40.7617,
+      "longitude": -111.8772,
+      "updatedAt": "2026-11-08",
+      "url": "https://placemoir.app/guides/salt-lake-city/",
+      "guideURL": "https://placemoir.app/guides/salt-lake-city/guide.json",
+      "archiveURL": "https://placemoir.app/guides/salt-lake-city/salt-lake-city.placemoirarchive"
+    },
+    {
+      "slug": "san-francisco",
+      "title": "A week in San Francisco",
+      "summary": "Seven days of cable cars and fog, dim sum and burritos, bay crossings and big parks, from the Ferry Building to Lands End.",
+      "author": "friends of Placemoir",
+      "language": "en",
+      "country": "United States",
+      "sections": [
+        "Stay",
+        "Eat",
+        "See",
+        "Outside"
+      ],
+      "placeCount": 44,
+      "latitude": 37.788,
+      "longitude": -122.4322,
+      "updatedAt": "2026-11-08",
+      "url": "https://placemoir.app/guides/san-francisco/",
+      "guideURL": "https://placemoir.app/guides/san-francisco/guide.json",
+      "archiveURL": "https://placemoir.app/guides/san-francisco/san-francisco.placemoirarchive"
+    },
+    {
+      "slug": "seattle",
+      "title": "A week in Seattle",
+      "summary": "Seven days of Pike Place, ferries and salmon, glass art and rock history, and green parks with views of the Sound and the mountains.",
+      "author": "friends of Placemoir",
+      "language": "en",
+      "country": "United States",
+      "sections": [
+        "Stay",
+        "Eat",
+        "See",
+        "Outside"
+      ],
+      "placeCount": 42,
+      "latitude": 47.6215,
+      "longitude": -122.343,
+      "updatedAt": "2026-11-08",
+      "url": "https://placemoir.app/guides/seattle/",
+      "guideURL": "https://placemoir.app/guides/seattle/guide.json",
+      "archiveURL": "https://placemoir.app/guides/seattle/seattle.placemoirarchive"
+    },
+    {
+      "slug": "washington-dc",
+      "title": "A week in Washington, DC",
+      "summary": "Seven days of free museums and monuments, half-smokes and Ethiopian dinners, Georgetown walks and cherry trees on the Tidal Basin.",
+      "author": "friends of Placemoir",
+      "language": "en",
+      "country": "United States",
+      "sections": [
+        "Stay",
+        "Eat",
+        "See",
+        "Outside"
+      ],
+      "placeCount": 40,
+      "latitude": 38.8997,
+      "longitude": -77.0358,
+      "updatedAt": "2026-11-08",
+      "url": "https://placemoir.app/guides/washington-dc/",
+      "guideURL": "https://placemoir.app/guides/washington-dc/guide.json",
+      "archiveURL": "https://placemoir.app/guides/washington-dc/washington-dc.placemoirarchive"
+    }
+  ]
 }
