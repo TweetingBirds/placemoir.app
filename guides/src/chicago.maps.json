@@ -1,0 +1,303 @@
+{
+  "360-chicago": {
+    "address": "875 N Michigan Ave, FL 94, Chicago, IL 60611, United States",
+    "appleMapsID": "I86F879B1156044C8",
+    "latitude": 41.898812,
+    "longitude": -87.623639,
+    "name": "360 Chicago"
+  },
+  "adler-planetarium": {
+    "address": "1300 S DuSable Lake Shore Dr, Chicago, IL 60605, United States",
+    "appleMapsID": "I30ABDACEC146D175",
+    "latitude": 41.866381,
+    "longitude": -87.606771,
+    "name": "Adler Planetarium"
+  },
+  "alinea": {
+    "address": "1723 N Halsted St, Chicago, IL 60614, United States",
+    "appleMapsID": "I1E89AE39AB790934",
+    "latitude": 41.913442,
+    "longitude": -87.648188,
+    "name": "Alinea"
+  },
+  "architecture-center": {
+    "address": "111 E Wacker Dr, Chicago, IL 60601, United States",
+    "appleMapsID": "I135651D6B27761EE",
+    "latitude": 41.888018,
+    "longitude": -87.623545,
+    "name": "Chicago Architecture Center"
+  },
+  "art-institute": {
+    "address": "111 S Michigan Ave, Chicago, IL 60603, United States",
+    "appleMapsID": "IF853143CDBCBE5C9",
+    "latitude": 41.879567,
+    "longitude": -87.623861,
+    "name": "Art Institute of Chicago"
+  },
+  "au-cheval": {
+    "address": "800 W Randolph St, Chicago, IL 60607, United States",
+    "appleMapsID": "IA124623ECF419B53",
+    "latitude": 41.884633,
+    "longitude": -87.647614,
+    "name": "Au Cheval"
+  },
+  "billy-goat": {
+    "address": "430 N Michigan Ave, Chicago, IL 60611, United States",
+    "appleMapsID": "I2F5CFDAAD9A4C12A",
+    "latitude": 41.890316,
+    "longitude": -87.62471,
+    "name": "Billy Goat"
+  },
+  "chicago-athletic-association": {
+    "address": "12 S Michigan Ave, Chicago, IL 60603, United States",
+    "appleMapsID": "I3A234331A18FD63B",
+    "latitude": 41.881667,
+    "longitude": -87.624988,
+    "name": "Chicago Athletic Association"
+  },
+  "cultural-center": {
+    "address": "78 E Washington St, Chicago, IL 60602, United States",
+    "appleMapsID": "I5432E97B79218719",
+    "latitude": 41.883576,
+    "longitude": -87.624948,
+    "name": "Chicago Cultural Center"
+  },
+  "field-museum": {
+    "address": "1400 S DuSable Lake Shore Dr, Chicago, IL 60605, United States",
+    "appleMapsID": "I1C223D14B06B136B",
+    "latitude": 41.866203,
+    "longitude": -87.617029,
+    "name": "Field Museum"
+  },
+  "freehand": {
+    "address": "19 E Ohio St, Chicago, IL 60611, United States",
+    "appleMapsID": "I8669068B73DF498E",
+    "latitude": 41.892303,
+    "longitude": -87.627221,
+    "name": "Freehand"
+  },
+  "frontera-grill": {
+    "address": "445 N Clark St, Chicago, IL 60654, United States",
+    "appleMapsID": "I53F70970E3C55978",
+    "latitude": 41.890546,
+    "longitude": -87.630832,
+    "name": "Frontera Grill"
+  },
+  "garfield-park-conservatory": {
+    "address": "300 N Central Park Ave, Chicago, IL 60624, United States",
+    "appleMapsID": "I8606AE1FAA5CFFF9",
+    "latitude": 41.886891,
+    "longitude": -87.718604,
+    "name": "Garfield Park Conservatory"
+  },
+  "girl-and-the-goat": {
+    "address": "809 W Randolph St, Chicago, IL 60607, United States",
+    "appleMapsID": "I2EF2E833E0B71608",
+    "latitude": 41.884156,
+    "longitude": -87.647864,
+    "name": "Girl & the Goat"
+  },
+  "green-mill": {
+    "address": "4802 N Broadway Ave, Chicago, IL 60640, United States",
+    "appleMapsID": "I3A75215EE4EDA8E3",
+    "latitude": 41.969171,
+    "longitude": -87.659925,
+    "name": "Green Mill"
+  },
+  "intelligentsia": {
+    "address": "53 E Randolph St, Chicago, IL 60601, United States",
+    "appleMapsID": "IBBE7F3338DBDA9AA",
+    "latitude": 41.884308,
+    "longitude": -87.625692,
+    "name": "Intelligentsia"
+  },
+  "kasama": {
+    "address": "1001 N Winchester Ave, Chicago, IL 60622, United States",
+    "appleMapsID": "I4C61B4A0B7CFEAA3",
+    "latitude": 41.899691,
+    "longitude": -87.675572,
+    "name": "Kasama"
+  },
+  "kingston-mines": {
+    "address": "2548 N Halsted St, Chicago, IL 60614, United States",
+    "appleMapsID": "I88D26825ECE1704A",
+    "latitude": 41.92869,
+    "longitude": -87.649024,
+    "name": "Kingston Mines"
+  },
+  "lincoln-park-conservatory": {
+    "address": "2391 N Stockton Dr, Chicago, IL 60614, United States",
+    "appleMapsID": "I15D10D83B48DDFD3",
+    "latitude": 41.924282,
+    "longitude": -87.635268,
+    "name": "Lincoln Park Conservatory"
+  },
+  "lincoln-park-zoo": {
+    "address": "2400 N. Cannon Drive, Chicago, IL 60614, United States",
+    "appleMapsID": "IB114FF5234AC8C8C",
+    "latitude": 41.920947,
+    "longitude": -87.633355,
+    "name": "Lincoln Park Zoo"
+  },
+  "lou-malnatis": {
+    "address": "439 N Wells St, Chicago, IL 60654, United States",
+    "appleMapsID": "IF771F91C4FCDBDE9",
+    "latitude": 41.89036,
+    "longitude": -87.633882,
+    "name": "Lou Malnati's Pizzeria"
+  },
+  "lou-mitchells": {
+    "address": "565 W Jackson Blvd, Chicago, IL 60661, United States",
+    "appleMapsID": "IBD8D7A632F3A579B",
+    "latitude": 41.877895,
+    "longitude": -87.642136,
+    "name": "Lou Mitchell's"
+  },
+  "maggie-daley": {
+    "address": "337 E Randolph St, Chicago, IL 60601, United States",
+    "appleMapsID": "IB1146E71025E8024",
+    "latitude": 41.882746,
+    "longitude": -87.618076,
+    "name": "Maggie Daley Park"
+  },
+  "mannys": {
+    "address": "1141 S Jefferson St, Chicago, IL 60607, United States",
+    "appleMapsID": "I8278DE7556DED2E1",
+    "latitude": 41.867955,
+    "longitude": -87.641984,
+    "name": "Manny's Cafeteria & Delicatessen"
+  },
+  "mca-chicago": {
+    "address": "220 E Chicago Ave, Chicago, IL 60611, United States",
+    "appleMapsID": "I6309F373E792E7DC",
+    "latitude": 41.897217,
+    "longitude": -87.621042,
+    "name": "Museum of Contemporary Art Chicago"
+  },
+  "millennium-park": {
+    "address": "201 E Randolph St, Chicago, IL 60601, United States",
+    "appleMapsID": "IF0E09D66DB0D5D55",
+    "latitude": 41.882628,
+    "longitude": -87.622529,
+    "name": "Millennium Park"
+  },
+  "mr-beef": {
+    "address": "666 N Orleans St, Chicago, IL 60654, United States",
+    "appleMapsID": "I6985161C64789971",
+    "latitude": 41.894453,
+    "longitude": -87.637374,
+    "name": "Mr. Beef"
+  },
+  "navy-pier": {
+    "address": "600 E Grand Ave, Chicago, IL 60611, United States",
+    "appleMapsID": "IA78F3DBA51E195CC",
+    "latitude": 41.891787,
+    "longitude": -87.605654,
+    "name": "Navy Pier"
+  },
+  "north-avenue-beach": {
+    "address": "1601 N Jean-Baptiste Pointe DuSable Lake Shore Drive, Chicago, IL 60611, United States",
+    "appleMapsID": "IE4B6E1151900D7A3",
+    "latitude": 41.916457,
+    "longitude": -87.627103,
+    "name": "North Avenue Beach"
+  },
+  "pequods": {
+    "address": "2207 N Clybourn Ave, Chicago, IL 60614, United States",
+    "appleMapsID": "I768FEC45F66E7A94",
+    "latitude": 41.921842,
+    "longitude": -87.664453,
+    "name": "Pequod's Pizza"
+  },
+  "portillos": {
+    "address": "100 W Ontario St, Chicago, IL 60610, United States",
+    "appleMapsID": "IA42CC3E15F84F0CB",
+    "latitude": 41.893474,
+    "longitude": -87.631496,
+    "name": "Portillo's"
+  },
+  "riverwalk": {
+    "address": "2 N La Salle St, Floor 2, Chicago, IL 60602, United States",
+    "appleMapsID": "IF1D78F47EB21D5B0",
+    "latitude": 41.888493,
+    "longitude": -87.623655,
+    "name": "Chicago Riverwalk"
+  },
+  "robie-house": {
+    "address": "5757 S Woodlawn Ave, Chicago, IL 60637, United States",
+    "appleMapsID": "I530F93C527F7886",
+    "latitude": 41.789811,
+    "longitude": -87.595928,
+    "name": "Frederick C. Robie House"
+  },
+  "science-and-industry": {
+    "address": "5700 S DuSable Lake Shore Drive, Chicago, IL 60637, United States",
+    "appleMapsID": "I2BAF7DDB28250BDC",
+    "latitude": 41.790513,
+    "longitude": -87.582922,
+    "name": "Griffin Museum of Science and Industry"
+  },
+  "shedd-aquarium": {
+    "address": "1200 S DuSable Lake Shore Dr, Chicago, IL 60605, United States",
+    "appleMapsID": "I5526C9162C6FB10E",
+    "latitude": 41.867579,
+    "longitude": -87.613607,
+    "name": "Shedd Aquarium"
+  },
+  "skydeck": {
+    "address": "233 S Wacker Dr, Chicago, IL 60606, United States",
+    "appleMapsID": "I41045B97749FB498",
+    "latitude": 41.878854,
+    "longitude": -87.636095,
+    "name": "Skydeck"
+  },
+  "superdawg": {
+    "address": "6363 N Milwaukee Ave, Chicago, IL 60646, United States",
+    "appleMapsID": "I3CAA10ABF8EFBC8",
+    "latitude": 41.996769,
+    "longitude": -87.787049,
+    "name": "Superdawg"
+  },
+  "the-606": {
+    "address": "1600 W Bloomingdale Ave, Chicago, IL 60622, United States",
+    "appleMapsID": "I8384CA6AC6A81ECB",
+    "latitude": 41.914435,
+    "longitude": -87.670546,
+    "name": "The 606 - Bloomingdale Trail"
+  },
+  "the-drake": {
+    "address": "140 E Walton Pl, Chicago, IL 60611, United States",
+    "appleMapsID": "ICC4406CD2F886F29",
+    "latitude": 41.900151,
+    "longitude": -87.623426,
+    "name": "The Drake Hotel"
+  },
+  "the-langham": {
+    "address": "330 N Wabash Ave, Chicago, IL 60611, United States",
+    "appleMapsID": "IE372DCAF3D75EFC4",
+    "latitude": 41.888643,
+    "longitude": -87.627583,
+    "name": "The Langham, Chicago"
+  },
+  "violet-hour": {
+    "address": "1520 N Damen Ave, Chicago, IL 60622, United States",
+    "appleMapsID": "I21FA8A3C52E1A0F5",
+    "latitude": 41.909048,
+    "longitude": -87.677631,
+    "name": "The Violet Hour"
+  },
+  "wright-home-studio": {
+    "address": "951 Chicago Ave, Oak Park, IL 60302, United States",
+    "appleMapsID": "I8265B2B0F1D1923D",
+    "latitude": 41.894135,
+    "longitude": -87.799669,
+    "name": "Frank Lloyd Wright Home and Studio"
+  },
+  "wrigley-field": {
+    "address": "1060 W Addison St, Chicago, IL 60613, United States",
+    "appleMapsID": "IE175B1C48A249082",
+    "latitude": 41.947906,
+    "longitude": -87.65582,
+    "name": "Wrigley Field"
+  }
+}

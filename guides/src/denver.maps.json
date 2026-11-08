@@ -1,0 +1,253 @@
+{
+  "biker-jims": {
+    "address": "16th Street Mall & Stout St, Denver, CO 80202, United States",
+    "latitude": 39.748048,
+    "longitude": -104.995659,
+    "name": "Biker Jim's Gourmet Dogs"
+  },
+  "botanic-gardens": {
+    "address": "1007 York St, Denver, CO 80206, United States",
+    "appleMapsID": "ICC26D40D28737C8B",
+    "latitude": 39.731896,
+    "longitude": -104.961272,
+    "name": "Denver Botanic Gardens"
+  },
+  "brown-palace": {
+    "address": "321 17th St, Denver, CO 80202, United States",
+    "appleMapsID": "I66450F9448BDFF8C",
+    "latitude": 39.744351,
+    "longitude": -104.98798,
+    "name": "The Brown Palace Hotel and Spa, Autograph Collection"
+  },
+  "buckhorn-exchange": {
+    "address": "1000 Osage St, Denver, CO 80204, United States",
+    "appleMapsID": "IBF4CC31F9E3D38F8",
+    "latitude": 39.732255,
+    "longitude": -105.005149,
+    "name": "Buckhorn Exchange"
+  },
+  "chautauqua-park": {
+    "address": "900 Baseline Rd, Boulder, CO 80302, United States",
+    "appleMapsID": "I2E328FDE8BE901FD",
+    "latitude": 39.999175,
+    "longitude": -105.281415,
+    "name": "Chautauqua Park"
+  },
+  "city-park": {
+    "address": "2001 Colorado Blvd, Denver, CO 80205, United States",
+    "appleMapsID": "I88451721322E7DE5",
+    "latitude": 39.747473,
+    "longitude": -104.950279,
+    "name": "City Park"
+  },
+  "clyfford-still": {
+    "address": "1250 Bannock St, Denver, CO 80204, United States",
+    "appleMapsID": "I675817EFC368B80E",
+    "latitude": 39.736347,
+    "longitude": -104.989857,
+    "name": "Clyfford Still Museum"
+  },
+  "confluence-park": {
+    "address": "2200 15th St, Denver, CO 80202, United States",
+    "appleMapsID": "ICB83FB526D6E8547",
+    "latitude": 39.753995,
+    "longitude": -105.00844,
+    "name": "Confluence Park"
+  },
+  "coors-field": {
+    "address": "2001 Blake St, Unit A, Denver, CO 80205, United States",
+    "appleMapsID": "I9614832ACD05FD99",
+    "latitude": 39.755855,
+    "longitude": -104.99423,
+    "name": "Coors Field"
+  },
+  "denver-art-museum": {
+    "address": "100 W 14th Ave Pkwy, Denver, CO 80204, United States",
+    "appleMapsID": "I86BB4638875D105E",
+    "latitude": 39.73716,
+    "longitude": -104.9893,
+    "name": "Denver Art Museum"
+  },
+  "denver-central-market": {
+    "address": "2669 Larimer St, Denver, CO 80205, United States",
+    "appleMapsID": "IE96D397C72DBCC46",
+    "latitude": 39.759381,
+    "longitude": -104.984595,
+    "name": "The Denver Central Market"
+  },
+  "el-taco-de-mexico": {
+    "address": "714 Santa Fe Dr, Denver, CO 80204, United States",
+    "appleMapsID": "I6243ADC1626FF3C1",
+    "latitude": 39.727635,
+    "longitude": -104.998283,
+    "name": "El Taco De Mexico"
+  },
+  "history-colorado": {
+    "address": "1200 N Broadway, Denver, CO 80203, United States",
+    "appleMapsID": "I16520C05343E328F",
+    "latitude": 39.735661,
+    "longitude": -104.986702,
+    "name": "History Colorado Center"
+  },
+  "larimer-square": {
+    "address": "1430 Larimer St, Denver, CO 80202, United States",
+    "appleMapsID": "I1CB01000C708A822",
+    "latitude": 39.747813,
+    "longitude": -104.999271,
+    "name": "Larimer Square"
+  },
+  "limelight-denver": {
+    "address": "1600 Wewatta St, Denver, CO 80202, United States",
+    "appleMapsID": "I6865082A98570CEA",
+    "latitude": 39.753207,
+    "longitude": -105.002067,
+    "name": "Limelight Hotel"
+  },
+  "little-man-ice-cream": {
+    "address": "2620 16th St, Denver, CO 80211, United States",
+    "appleMapsID": "IAD8B2F2B66DF428A",
+    "latitude": 39.759327,
+    "longitude": -105.010983,
+    "name": "Little Man Ice Cream"
+  },
+  "lookout-mountain": {
+    "address": "987 1/2 Lookout Mountain Rd, Golden, CO 80401, United States",
+    "appleMapsID": "I879863CDEBF7139C",
+    "latitude": 39.73336,
+    "longitude": -105.238448,
+    "name": "Buffalo Bill Museum and Grave"
+  },
+  "meow-wolf": {
+    "address": "1338 First St, Denver, CO 80204, United States",
+    "appleMapsID": "IFB9D1D20B3DA19F9",
+    "latitude": 39.740835,
+    "longitude": -105.015853,
+    "name": "Convergence Station"
+  },
+  "molly-brown-house": {
+    "address": "1340 Pennsylvania St, Denver, CO 80203, United States",
+    "appleMapsID": "I55B32275DB0944A1",
+    "latitude": 39.737499,
+    "longitude": -104.980698,
+    "name": "Molly Brown House Museum"
+  },
+  "my-brothers-bar": {
+    "address": "2376 15th St, Denver, CO 80202, United States",
+    "appleMapsID": "IBC590AA7910D8695",
+    "latitude": 39.756193,
+    "longitude": -105.009331,
+    "name": "My Brother's Bar"
+  },
+  "nature-and-science": {
+    "address": "2001 Colorado Blvd, Denver, CO 80205, United States",
+    "appleMapsID": "IFC15E91D5D38AEF5",
+    "latitude": 39.747578,
+    "longitude": -104.943061,
+    "name": "Denver Museum of Nature & Science"
+  },
+  "ramble-hotel": {
+    "address": "1280 25th St, Denver, CO 80205, United States",
+    "appleMapsID": "I75308C9D5044A36C",
+    "latitude": 39.757286,
+    "longitude": -104.986481,
+    "name": "The Ramble Hotel"
+  },
+  "red-rocks": {
+    "address": "18300 W Alameda Pkwy, Morrison, CO 80465, United States",
+    "appleMapsID": "IC1801EBEE1806651",
+    "latitude": 39.665541,
+    "longitude": -105.205116,
+    "name": "Red Rocks Park and Amphitheatre"
+  },
+  "rioja": {
+    "address": "1431 Larimer St, Denver, CO 80202, United States",
+    "appleMapsID": "I7D9A6A4783D60A24",
+    "latitude": 39.747898,
+    "longitude": -104.999404,
+    "name": "Rioja"
+  },
+  "rosenbergs": {
+    "address": "725 E 26th Ave, Denver, CO 80205, United States",
+    "appleMapsID": "I2B6C137B4970F5A0",
+    "latitude": 39.754964,
+    "longitude": -104.977611,
+    "name": "Rosenberg's Bagels & Delicatessen"
+  },
+  "sams-no-3": {
+    "address": "1500 Curtis St, Denver, CO 80202, United States",
+    "appleMapsID": "IF2E92026D4F08332",
+    "latitude": 39.746239,
+    "longitude": -104.995627,
+    "name": "Sam's No. 3"
+  },
+  "snooze": {
+    "address": "2262 Larimer St, Denver, CO 80205, United States",
+    "appleMapsID": "I8E338349ADBCB5F8",
+    "latitude": 39.755581,
+    "longitude": -104.98896,
+    "name": "Snooze"
+  },
+  "state-capitol": {
+    "address": "200 E Colfax Ave, Denver, CO 80203, United States",
+    "appleMapsID": "I5D243BA5152765F4",
+    "latitude": 39.739249,
+    "longitude": -104.984888,
+    "name": "Colorado State Capitol"
+  },
+  "tavernetta": {
+    "address": "1889 Sixteenth St, Denver, CO 80202, United States",
+    "appleMapsID": "I475C62D2F0B0DA08",
+    "latitude": 39.75308,
+    "longitude": -105.001788,
+    "name": "Tavernetta"
+  },
+  "the-crawford": {
+    "address": "1701 Wynkoop St, Denver, CO 80202, United States",
+    "appleMapsID": "I2AB634BE1E72AD00",
+    "latitude": 39.75315,
+    "longitude": -105.000131,
+    "name": "The Crawford Hotel"
+  },
+  "union-station": {
+    "address": "1701 Wynkoop St, Denver, CO 80202, United States",
+    "appleMapsID": "I74D1B59CF3378886",
+    "latitude": 39.75323,
+    "longitude": -105.000051,
+    "name": "Denver Union Station"
+  },
+  "us-mint": {
+    "address": "320 W Colfax Ave, Denver, CO 80204, United States",
+    "appleMapsID": "I1B49C3EE806C9AFF",
+    "latitude": 39.73931,
+    "longitude": -104.99235,
+    "name": "United States Mint"
+  },
+  "washington-park": {
+    "address": "701 S Franklin St, Denver, CO 80209, United States",
+    "appleMapsID": "IB4E0E801EE462E8E",
+    "latitude": 39.700193,
+    "longitude": -104.971052,
+    "name": "Washington Park"
+  },
+  "williams-and-graham": {
+    "address": "3160 Tejon St, Denver, CO 80211, United States",
+    "appleMapsID": "IA6A88FD14F4C031C",
+    "latitude": 39.761909,
+    "longitude": -105.010977,
+    "name": "Williams & Graham"
+  },
+  "work-and-class": {
+    "address": "2500 Larimer St, Ste 101, Denver, CO 80205, United States",
+    "appleMapsID": "I190575B3D5B68D51",
+    "latitude": 39.757585,
+    "longitude": -104.986218,
+    "name": "Work & Class"
+  },
+  "wynkoop-brewing": {
+    "address": "1634 18th St, Denver, CO 80202, United States",
+    "appleMapsID": "I5F2681BBA82BB89B",
+    "latitude": 39.753503,
+    "longitude": -104.998606,
+    "name": "Wynkoop Brewing Company"
+  }
+}

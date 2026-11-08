@@ -521,7 +521,10 @@ def one_line(lines):
 
 
 ORDINALS = {"first": "1st", "second": "2nd", "third": "3rd", "fourth": "4th", "fifth": "5th", "sixth": "6th",
-            "seventh": "7th", "eighth": "8th", "ninth": "9th", "tenth": "10th"}
+            "seventh": "7th", "eighth": "8th", "ninth": "9th", "tenth": "10th", "eleventh": "11th",
+            "twelfth": "12th", "thirteenth": "13th", "fourteenth": "14th", "fifteenth": "15th",
+            "sixteenth": "16th", "seventeenth": "17th", "eighteenth": "18th", "nineteenth": "19th",
+            "twentieth": "20th"}
 DIRECTIONS = {"n", "s", "e", "w", "ne", "nw", "se", "sw", "north", "south", "east", "west"}
 
 
@@ -535,8 +538,8 @@ def street(address):
         match = re.match(r"\s*(\d+)[\d./-]*[a-z]?\s+(.+)", part)
         if not match:
             continue
-        words = [w.replace(".", "") for w in match.group(2).split()]
-        words = [w for w in words if w not in DIRECTIONS and w != "1/2"] or words
+        words = [re.sub(r"[.'’]", "", w) for w in match.group(2).split()]
+        words = [w for w in words if w not in DIRECTIONS and w not in {"1/2", "&", "and"} and not w.isdigit()] or words
         return match.group(1), ORDINALS.get(words[0], words[0])
     return None
 

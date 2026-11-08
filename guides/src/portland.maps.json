@@ -1,0 +1,253 @@
+{
+  "aerial-tram": {
+    "address": "Portland, OR, United States",
+    "appleMapsID": "IAB8A4F47ECD89BEE",
+    "latitude": 45.499301,
+    "longitude": -122.671061,
+    "name": "South Waterfront Lower Tram Terminal"
+  },
+  "ava-genes": {
+    "address": "3377 SE Division St, Portland, OR 97202, United States",
+    "appleMapsID": "I955339906315B91A",
+    "latitude": 45.50488,
+    "longitude": -122.629854,
+    "name": "Ava Gene's"
+  },
+  "blue-star-donuts": {
+    "address": "3325 SE Division St, Unit 1, Portland, OR 97202, United States",
+    "appleMapsID": "I9B7D2D9FD6D74C35",
+    "latitude": 45.504869,
+    "longitude": -122.631136,
+    "name": "Blue Star Donuts"
+  },
+  "canard": {
+    "address": "734 E Burnside St, Portland, OR 97214, United States",
+    "appleMapsID": "IC6DAD0AAFD02E2F7",
+    "latitude": 45.52271,
+    "longitude": -122.657984,
+    "name": "Canard"
+  },
+  "coava": {
+    "address": "1300 SE Grand Ave, Unit A, Portland, OR 97214, United States",
+    "appleMapsID": "I319B4647AEE9470E",
+    "latitude": 45.513446,
+    "longitude": -122.660439,
+    "name": "Coava Coffee Roasters"
+  },
+  "deschutes-pub": {
+    "address": "210 NW 11th Ave, Portland, OR 97209, United States",
+    "appleMapsID": "IB65C0FCC45840798",
+    "latitude": 45.524548,
+    "longitude": -122.681901,
+    "name": "Deschutes Brewery"
+  },
+  "forest-park": {
+    "address": "Forest Park, Portland, OR, United States",
+    "latitude": 45.57269,
+    "longitude": -122.79676,
+    "name": "Forest Park"
+  },
+  "haystack-rock": {
+    "address": "Clatsop County, OR, United States",
+    "appleMapsID": "I7B3F7930B65BF08D",
+    "latitude": 45.88436,
+    "longitude": -123.968547,
+    "name": "Haystack Rock"
+  },
+  "hotel-deluxe": {
+    "address": "729 SW 15th Ave, Portland, OR 97205, United States",
+    "appleMapsID": "IA76F08EFFA732D32",
+    "latitude": 45.520932,
+    "longitude": -122.68762,
+    "name": "Hotel deLuxe"
+  },
+  "hoxton": {
+    "address": "15 NW 4th Ave, Portland, OR 97209, United States",
+    "appleMapsID": "IB51D9D4FFF0FD9CD",
+    "latitude": 45.523404,
+    "longitude": -122.674727,
+    "name": "The Hoxton - Portland"
+  },
+  "japanese-garden": {
+    "address": "611 SW Kingston Ave, Portland, OR 97205, United States",
+    "appleMapsID": "I72E3E97B72B1426B",
+    "latitude": 45.51876,
+    "longitude": -122.708123,
+    "name": "Portland Japanese Garden"
+  },
+  "jupiter-hotel": {
+    "address": "800 E Burnside St, Portland, OR 97214, United States",
+    "appleMapsID": "I433DF27631EA9291",
+    "latitude": 45.52275,
+    "longitude": -122.657196,
+    "name": "Jupiter Hotel"
+  },
+  "kachka": {
+    "address": "960 SE 11th Ave, Portland, OR 97214, United States",
+    "appleMapsID": "I7ADABA923AC1845D",
+    "latitude": 45.51574,
+    "longitude": -122.654531,
+    "name": "Kachka"
+  },
+  "kens-pizza": {
+    "address": "304 SE 28th Ave, Portland, OR 97214, United States",
+    "appleMapsID": "IF34D6E73645DBF4E",
+    "latitude": 45.520586,
+    "longitude": -122.637141,
+    "name": "Ken’s Artisan Pizza"
+  },
+  "lan-su-garden": {
+    "address": "239 NW Everett St, Portland, OR 97209, United States",
+    "appleMapsID": "IE96D2522DF0073D7",
+    "latitude": 45.525525,
+    "longitude": -122.67311,
+    "name": "Lan Su Chinese Garden"
+  },
+  "lardo": {
+    "address": "1212 SE Hawthorne Blvd, Portland, OR 97214, United States",
+    "appleMapsID": "I76C91AB08CA0E502",
+    "latitude": 45.512103,
+    "longitude": -122.653036,
+    "name": "Lardo"
+  },
+  "laurelhurst-park": {
+    "address": "NW Corner of SE César E. Chávez Blvd and Stark Street, Portland, OR 97214, United States",
+    "appleMapsID": "IFB7B1055850D6D8",
+    "latitude": 45.521022,
+    "longitude": -122.627002,
+    "name": "Laurelhurst Park"
+  },
+  "le-pigeon": {
+    "address": "738 E Burnside St, Portland, OR 97214, United States",
+    "appleMapsID": "IB81CD0530139689D",
+    "latitude": 45.522766,
+    "longitude": -122.657852,
+    "name": "Le Pigeon"
+  },
+  "mount-tabor": {
+    "address": "SE 60th Avenue and Salmon Street, Portland, OR 97215, United States",
+    "appleMapsID": "IB5471441724980CB",
+    "latitude": 45.511881,
+    "longitude": -122.595706,
+    "name": "Mt. Tabor Park"
+  },
+  "multnomah-falls": {
+    "address": "Multnomah Falls Viewing Deck, Corbett, OR 97019, United States",
+    "appleMapsID": "I4A1B0797CB131AC7",
+    "latitude": 45.575811,
+    "longitude": -122.115129,
+    "name": "Multnomah Falls"
+  },
+  "multnomah-whiskey-library": {
+    "address": "1124 SW Alder St, Portland, OR 97205, United States",
+    "appleMapsID": "I40643FA7AEF7E08",
+    "latitude": 45.521038,
+    "longitude": -122.683401,
+    "name": "Multnomah Whiskey Library"
+  },
+  "nongs": {
+    "address": "609 SE Ankeny St, Ste C, Portland, OR 97214, United States",
+    "appleMapsID": "I8BCFFEDCE2A6CFDE",
+    "latitude": 45.52237,
+    "longitude": -122.659386,
+    "name": "Nong's Khao Man Gai"
+  },
+  "omsi": {
+    "address": "1945 SE Water Ave, Portland, OR 97214, United States",
+    "appleMapsID": "IF31971038145BA05",
+    "latitude": 45.508067,
+    "longitude": -122.665488,
+    "name": "Oregon Museum of Science and Industry"
+  },
+  "pioneer-square": {
+    "address": "Pioneer Square Park, 701 SW 6th Ave, Portland, OR 97204, United States",
+    "appleMapsID": "IAA0A967FBB757D72",
+    "latitude": 45.518943,
+    "longitude": -122.679535,
+    "name": "Waterfall Fountain - Pioneer Courthouse Square"
+  },
+  "pittock-mansion": {
+    "address": "3229 NW Pittock Dr, Portland, OR 97210, United States",
+    "appleMapsID": "I4A307A418132EC34",
+    "latitude": 45.525179,
+    "longitude": -122.716255,
+    "name": "Pittock Mansion"
+  },
+  "portland-art-museum": {
+    "address": "1219 SW Park Ave, Portland, OR 97205, United States",
+    "appleMapsID": "I7F7C16274621EEC5",
+    "latitude": 45.51615,
+    "longitude": -122.683357,
+    "name": "Portland Art Museum"
+  },
+  "powells": {
+    "address": "1005 W Burnside St, Portland, OR 97209, United States",
+    "appleMapsID": "I33FA41F6A8ACF28",
+    "latitude": 45.523255,
+    "longitude": -122.681558,
+    "name": "Powell's Books"
+  },
+  "rose-garden": {
+    "address": "400 SW Kingston Ave, Portland, OR 97210, United States",
+    "appleMapsID": "IDCFFF55C0A186461",
+    "latitude": 45.518951,
+    "longitude": -122.705086,
+    "name": "International Rose Test Garden"
+  },
+  "salt-and-straw": {
+    "address": "838 NW 23rd Ave, Portland, OR 97210, United States",
+    "appleMapsID": "ID93F458FFD252AF4",
+    "latitude": 45.528965,
+    "longitude": -122.698464,
+    "name": "Salt & Straw"
+  },
+  "saturday-market": {
+    "address": "2 SW Naito Pkwy, Portland, OR 97204, United States",
+    "appleMapsID": "I9A0DA4600D6D61BD",
+    "latitude": 45.522673,
+    "longitude": -122.669777,
+    "name": "Portland Saturday Market"
+  },
+  "screen-door": {
+    "address": "2337 E Burnside St, Portland, OR 97214, United States",
+    "appleMapsID": "IB3A7FCB720305291",
+    "latitude": 45.522981,
+    "longitude": -122.641626,
+    "name": "Screen Door"
+  },
+  "stumptown": {
+    "address": "1140 SW Washington St, Unit 103, Portland, OR 97205, United States",
+    "appleMapsID": "I101CC9B28D6E9478",
+    "latitude": 45.521509,
+    "longitude": -122.682851,
+    "name": "Stumptown Coffee Roasters"
+  },
+  "the-benson": {
+    "address": "309 SW Broadway, Portland, OR 97205, United States",
+    "appleMapsID": "IC909BE555C9C0014",
+    "latitude": 45.521844,
+    "longitude": -122.678428,
+    "name": "The Benson Portland, Curio Collection by Hilton"
+  },
+  "tusk": {
+    "address": "2448 E Burnside, Portland, OR 97214, United States",
+    "appleMapsID": "I170C65D0C5DA18F6",
+    "latitude": 45.522751,
+    "longitude": -122.640506,
+    "name": "Tusk"
+  },
+  "voodoo-doughnut": {
+    "address": "22 SW 3rd Ave, Portland, OR 97204, United States",
+    "appleMapsID": "IC43469C40C2A884C",
+    "latitude": 45.522648,
+    "longitude": -122.673143,
+    "name": "Voodoo Doughnut"
+  },
+  "waterfront-park": {
+    "address": "Naito Parkway between S Harrison Street and NW Glisan Street, Portland, OR 97204, United States",
+    "appleMapsID": "IC3D59062BF3F13FF",
+    "latitude": 45.517814,
+    "longitude": -122.67192,
+    "name": "Governor Tom McCall Waterfront Park"
+  }
+}
