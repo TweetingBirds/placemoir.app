@@ -138,6 +138,20 @@ jobs:
             if (scheme === "light") shown = visible;
             await page.locator(visible ? "#guide-map" : "main").screenshot({ path: `${process.env.GITHUB_WORKSPACE}/map-${scheme}.png`, animations: "disabled", timeout: 20000 })
               .then(() => log(`${scheme}: screenshot saved`), e => log(`${scheme}: screenshot failed: ${e.message.split("\n")[0]}`));
+            if (visible && scheme === "light") {
+              // Pick the first pin, as a tap would, and check its name shows in the panel.
+              const name = await page.evaluate(() => {
+                const map = document.getElementById("guide-map").guideMap;
+                const pin = map.annotations.find(a => !a.memberAnnotations);
+                map.selectedAnnotation = pin;
+                return pin.title;
+              }).catch(e => log(`picked: ${e.message.split("\n")[0]}`));
+              await page.waitForTimeout(1500);
+              const panel = await page.locator(".guide-map-name").textContent().catch(() => "");
+              log(`picked: ${name} → panel shows "${panel}"`);
+              await page.locator("#guide-map").screenshot({ path: `${process.env.GITHUB_WORKSPACE}/map-picked.png`, animations: "disabled", timeout: 20000 })
+                .catch(e => log(`picked: screenshot failed: ${e.message.split("\n")[0]}`));
+            }
             await page.close();
           }
           await browser.close();
