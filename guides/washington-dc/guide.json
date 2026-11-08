@@ -26,11 +26,12 @@
       "address": "800 16th St NW, Washington, DC 20006",
       "locality": "Lafayette Square",
       "country": "United States",
-      "latitude": 38.9011,
-      "longitude": -77.0365,
+      "latitude": 38.900427,
+      "longitude": -77.03697,
       "wantToGo": true,
       "notes": "Across Lafayette Square from the White House. Ask for a room facing it, then have a drink in Off the Record downstairs.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "I22DBA3D6D8ACFB4C"
     },
     {
       "id": "guide:washington-dc/the-jefferson",
@@ -39,11 +40,12 @@
       "address": "1200 16th St NW, Washington, DC 20036",
       "locality": "Dupont Circle",
       "country": "United States",
-      "latitude": 38.9057,
-      "longitude": -77.0365,
+      "latitude": 38.906002,
+      "longitude": -77.036976,
       "wantToGo": true,
       "notes": "A quiet, elegant 1923 hotel, with Jefferson's letters on the walls and a cozy bar.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "I15F196BFF44D2740"
     },
     {
       "id": "guide:washington-dc/hotel-monaco",
@@ -52,11 +54,12 @@
       "address": "700 F St NW, Washington, DC 20004",
       "locality": "Penn Quarter",
       "country": "United States",
-      "latitude": 38.8975,
-      "longitude": -77.0222,
+      "latitude": 38.896999,
+      "longitude": -77.022454,
       "wantToGo": true,
       "notes": "A marble 1839 post office in Penn Quarter, steps from the Portrait Gallery and the Metro.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "ICD76F6850FED096E"
     },
     {
       "id": "guide:washington-dc/hotel-hive",
@@ -65,11 +68,12 @@
       "address": "2224 F St NW, Washington, DC 20037",
       "locality": "Foggy Bottom",
       "country": "United States",
-      "latitude": 38.8963,
+      "latitude": 38.89718,
       "longitude": -77.0497,
       "wantToGo": true,
       "notes": "Tiny, well-designed rooms near the Lincoln Memorial. The budget pick, with a rooftop bar.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "I85941B7830A93C95"
     },
     {
       "id": "guide:washington-dc/bens-chili-bowl",
@@ -78,11 +82,12 @@
       "address": "1213 U St NW, Washington, DC 20009",
       "locality": "U Street",
       "country": "United States",
-      "latitude": 38.917,
-      "longitude": -77.0287,
+      "latitude": 38.917189,
+      "longitude": -77.028743,
       "wantToGo": true,
       "notes": "The chili half-smoke, served on U Street since 1958.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IDE99580BE9C44822"
     },
     {
       "id": "guide:washington-dc/old-ebbitt",
@@ -91,11 +96,12 @@
       "address": "675 15th St NW, Washington, DC 20005",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 38.898,
-      "longitude": -77.0334,
+      "latitude": 38.897953,
+      "longitude": -77.033334,
       "wantToGo": true,
       "notes": "The city's oldest saloon, a block from the White House. Go for oysters at the late-night happy hour.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IF5E58479347AD710"
     },
     {
       "id": "guide:washington-dc/rasika",
@@ -104,11 +110,12 @@
       "address": "633 D St NW, Washington, DC 20004",
       "locality": "Penn Quarter",
       "country": "United States",
-      "latitude": 38.8946,
-      "longitude": -77.0209,
+      "latitude": 38.894949,
+      "longitude": -77.0213,
       "wantToGo": true,
       "notes": "Modern Indian cooking. The crispy spinach, palak chaat, is famous for a reason.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IA31D2C0DEF77AAF7"
     },
     {
       "id": "guide:washington-dc/zaytinya",
@@ -117,11 +124,12 @@
       "address": "701 9th St NW, Washington, DC 20001",
       "locality": "Penn Quarter",
       "country": "United States",
-      "latitude": 38.899,
-      "longitude": -77.0238,
+      "latitude": 38.898784,
+      "longitude": -77.023719,
       "wantToGo": true,
       "notes": "José Andrés's Greek, Turkish and Lebanese small plates in a bright, airy room.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I7D8E1B6C9DD23ED4"
     },
     {
       "id": "guide:washington-dc/le-diplomate",
@@ -130,11 +138,12 @@
       "address": "1601 14th St NW, Washington, DC 20009",
       "locality": "Logan Circle",
       "country": "United States",
-      "latitude": 38.9113,
-      "longitude": -77.0317,
+      "latitude": 38.911367,
+      "longitude": -77.031577,
       "wantToGo": true,
       "notes": "A Paris brasserie on 14th Street. Book weekend brunch ahead.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I9648F01D87885D8C"
     },
     {
       "id": "guide:washington-dc/compass-rose",
@@ -143,11 +152,12 @@
       "address": "1346 T St NW, Washington, DC 20009",
       "locality": "U Street",
       "country": "United States",
-      "latitude": 38.9156,
-      "longitude": -77.0311,
+      "latitude": 38.915352,
+      "longitude": -77.031548,
       "wantToGo": true,
       "notes": "Street food from around the world in a cozy rowhouse. Order the khachapuri.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I21A2DE26B462BBC8"
     },
     {
       "id": "guide:washington-dc/founding-farmers",
@@ -156,11 +166,12 @@
       "address": "1924 Pennsylvania Ave NW, Washington, DC 20006",
       "locality": "Foggy Bottom",
       "country": "United States",
-      "latitude": 38.9002,
-      "longitude": -77.0447,
+      "latitude": 38.900201,
+      "longitude": -77.044458,
       "wantToGo": true,
       "notes": "Big, comforting American plates from a restaurant owned by farmers. Good for breakfast.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IA1678D775CB658A0"
     },
     {
       "id": "guide:washington-dc/martins-tavern",
@@ -169,11 +180,12 @@
       "address": "1264 Wisconsin Ave NW, Washington, DC 20007",
       "locality": "Georgetown",
       "country": "United States",
-      "latitude": 38.9065,
-      "longitude": -77.0633,
+      "latitude": 38.906764,
+      "longitude": -77.063131,
       "wantToGo": true,
       "notes": "A Georgetown tavern since 1933, where JFK is said to have proposed to Jackie in booth three.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I9820299FFFB5D5DD"
     },
     {
       "id": "guide:washington-dc/union-market",
@@ -182,11 +194,12 @@
       "address": "1309 5th St NE, Washington, DC 20002",
       "locality": "NoMa",
       "country": "United States",
-      "latitude": 38.9083,
-      "longitude": -76.9973,
+      "latitude": 38.908724,
+      "longitude": -76.997653,
       "wantToGo": true,
       "notes": "A food hall in an old wholesale market. Graze a little from everywhere.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I77000221F244E92B"
     },
     {
       "id": "guide:washington-dc/eastern-market",
@@ -195,11 +208,12 @@
       "address": "225 7th St SE, Washington, DC 20003",
       "locality": "Capitol Hill",
       "country": "United States",
-      "latitude": 38.8865,
-      "longitude": -76.9963,
+      "latitude": 38.886421,
+      "longitude": -76.996471,
       "wantToGo": true,
       "notes": "A market hall since 1873. Get the blueberry buckwheat pancakes at the Market Lunch counter on a weekend.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I894CEC18BCB2CCE7"
     },
     {
       "id": "guide:washington-dc/call-your-mother",
@@ -208,11 +222,12 @@
       "address": "3428 O St NW, Washington, DC 20007",
       "locality": "Georgetown",
       "country": "United States",
-      "latitude": 38.9078,
-      "longitude": -77.0688,
+      "latitude": 38.907618,
+      "longitude": -77.068896,
       "wantToGo": true,
       "notes": "A Jew-ish deli with bagels people line up for. The Georgetown shop is a tiny pink house.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I4CC174960F08825B"
     },
     {
       "id": "guide:washington-dc/baked-and-wired",
@@ -221,11 +236,12 @@
       "address": "1052 Thomas Jefferson St NW, Washington, DC 20007",
       "locality": "Georgetown",
       "country": "United States",
-      "latitude": 38.9037,
-      "longitude": -77.0601,
+      "latitude": 38.904024,
+      "longitude": -77.060333,
       "wantToGo": true,
       "notes": "Cupcakes and coffee by the C&O Canal, a calmer pick than the famous cupcake line nearby.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I68E138286ACBDB64"
     },
     {
       "id": "guide:washington-dc/kramers",
@@ -234,11 +250,12 @@
       "address": "1517 Connecticut Ave NW, Washington, DC 20036",
       "locality": "Dupont Circle",
       "country": "United States",
-      "latitude": 38.9107,
-      "longitude": -77.0437,
+      "latitude": 38.910829,
+      "longitude": -77.043767,
       "wantToGo": true,
       "notes": "An independent bookstore with a cafe and bar at the back, open late.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I59B00E1A49D44405"
     },
     {
       "id": "guide:washington-dc/round-robin",
@@ -247,11 +264,12 @@
       "address": "1401 Pennsylvania Ave NW, Washington, DC 20004",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 38.8966,
-      "longitude": -77.0326,
+      "latitude": 38.896477,
+      "longitude": -77.032152,
       "wantToGo": true,
       "notes": "The Willard hotel's round bar, where Henry Clay mixed his first mint julep in Washington.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I7CE03299C56FC86F"
     },
     {
       "id": "guide:washington-dc/lincoln-memorial",
@@ -260,11 +278,12 @@
       "address": "2 Lincoln Memorial Cir NW, Washington, DC 20002",
       "locality": "National Mall",
       "country": "United States",
-      "latitude": 38.8893,
-      "longitude": -77.0502,
+      "latitude": 38.889218,
+      "longitude": -77.050178,
       "wantToGo": true,
       "notes": "Go at night, when it's lit and quiet, and read the Gettysburg Address on the wall.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IABDC1C050860E598"
     },
     {
       "id": "guide:washington-dc/washington-monument",
@@ -273,11 +292,12 @@
       "address": "2 15th St NW, Washington, DC 20024",
       "locality": "National Mall",
       "country": "United States",
-      "latitude": 38.8895,
-      "longitude": -77.0353,
+      "latitude": 38.88943,
+      "longitude": -77.035396,
       "wantToGo": true,
       "notes": "Free timed tickets to the top. Reserve online a day or two ahead.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I4C540881DB54489"
     },
     {
       "id": "guide:washington-dc/us-capitol",
@@ -286,11 +306,12 @@
       "address": "First St SE, Washington, DC 20004",
       "locality": "Capitol Hill",
       "country": "United States",
-      "latitude": 38.8899,
-      "longitude": -77.0091,
+      "latitude": 38.889797,
+      "longitude": -77.009026,
       "wantToGo": true,
       "notes": "Free tours from the visitor center. Book ahead, and add the galleries through your representative.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I5349E2714C6E0F36"
     },
     {
       "id": "guide:washington-dc/library-of-congress",
@@ -299,11 +320,12 @@
       "address": "101 Independence Ave SE, Washington, DC 20540",
       "locality": "Capitol Hill",
       "country": "United States",
-      "latitude": 38.8887,
-      "longitude": -77.0047,
+      "latitude": 38.888653,
+      "longitude": -77.004654,
       "wantToGo": true,
       "notes": "The Jefferson Building's Great Hall is breathtaking. Take the tunnel from the Capitol.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I7B7AFC42594ADFBB"
     },
     {
       "id": "guide:washington-dc/white-house",
@@ -312,11 +334,12 @@
       "address": "1600 Pennsylvania Ave NW, Washington, DC 20500",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 38.8977,
-      "longitude": -77.0365,
+      "latitude": 38.897682,
+      "longitude": -77.036588,
       "wantToGo": true,
       "notes": "See it from Lafayette Square or the Ellipse. Tours are requested through your member of Congress.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I39B435BC2539FE89"
     },
     {
       "id": "guide:washington-dc/nmaahc",
@@ -325,11 +348,12 @@
       "address": "1400 Constitution Ave NW, Washington, DC 20560",
       "locality": "National Mall",
       "country": "United States",
-      "latitude": 38.8911,
-      "longitude": -77.0326,
+      "latitude": 38.89125,
+      "longitude": -77.032485,
       "wantToGo": true,
       "notes": "Start at the bottom, in the history galleries, and work your way up. Allow most of a day.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I9BA5064AACA4FA46"
     },
     {
       "id": "guide:washington-dc/air-and-space",
@@ -338,11 +362,12 @@
       "address": "650 Jefferson Dr SW, Washington, DC 20560",
       "locality": "National Mall",
       "country": "United States",
-      "latitude": 38.8882,
-      "longitude": -77.0199,
+      "latitude": 38.887868,
+      "longitude": -77.019771,
       "wantToGo": true,
       "notes": "The Wright Flyer, Apollo 11 and the Spirit of St. Louis. Free, with timed passes.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IEB511C0735EB8437"
     },
     {
       "id": "guide:washington-dc/natural-history",
@@ -351,11 +376,12 @@
       "address": "10th St NW & Constitution Ave NW, Washington, DC 20560",
       "locality": "National Mall",
       "country": "United States",
-      "latitude": 38.8913,
-      "longitude": -77.0261,
+      "latitude": 38.891252,
+      "longitude": -77.025963,
       "wantToGo": true,
       "notes": "The Hope Diamond, the dinosaur hall and the giant squid. Free.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I56501AF1E3BDE48E"
     },
     {
       "id": "guide:washington-dc/national-gallery",
@@ -364,11 +390,12 @@
       "address": "Constitution Ave NW, Washington, DC 20565",
       "locality": "National Mall",
       "country": "United States",
-      "latitude": 38.8913,
-      "longitude": -77.02,
+      "latitude": 38.891342,
+      "longitude": -77.019835,
       "wantToGo": true,
       "notes": "The only Leonardo in the Americas, and a sculpture garden with an ice rink in winter.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IBE85DE67D296A4F4"
     },
     {
       "id": "guide:washington-dc/portrait-gallery",
@@ -377,11 +404,12 @@
       "address": "8th St NW & F St NW, Washington, DC 20001",
       "locality": "Penn Quarter",
       "country": "United States",
-      "latitude": 38.8977,
-      "longitude": -77.023,
+      "latitude": 38.897888,
+      "longitude": -77.022904,
       "wantToGo": true,
       "notes": "The presidents, including the Obama portraits, and a glass-roofed courtyard to rest in.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IE1D032F49802BB6D"
     },
     {
       "id": "guide:washington-dc/holocaust-museum",
@@ -390,11 +418,12 @@
       "address": "100 Raoul Wallenberg Pl SW, Washington, DC 20024",
       "locality": "National Mall",
       "country": "United States",
-      "latitude": 38.8867,
-      "longitude": -77.0326,
+      "latitude": 38.886657,
+      "longitude": -77.032784,
       "wantToGo": true,
       "notes": "Powerful and hard. Free timed passes are needed from March to August.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I301B93903977411D"
     },
     {
       "id": "guide:washington-dc/fords-theatre",
@@ -403,11 +432,12 @@
       "address": "511 10th St NW, Washington, DC 20004",
       "locality": "Penn Quarter",
       "country": "United States",
-      "latitude": 38.8967,
-      "longitude": -77.0257,
+      "latitude": 38.896825,
+      "longitude": -77.025766,
       "wantToGo": true,
       "notes": "Where Lincoln was shot in 1865, still a working theater, with the Petersen House across the street.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I100AA271655C8A48"
     },
     {
       "id": "guide:washington-dc/national-cathedral",
@@ -416,11 +446,12 @@
       "address": "3101 Wisconsin Ave NW, Washington, DC 20016",
       "locality": "Cathedral Heights",
       "country": "United States",
-      "latitude": 38.9306,
-      "longitude": -77.0707,
+      "latitude": 38.930619,
+      "longitude": -77.070687,
       "wantToGo": true,
       "notes": "Gothic arches, a Darth Vader gargoyle and views from the tower. Look for the moon rock in the space window.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I59ECD0C31EEAD5CB"
     },
     {
       "id": "guide:washington-dc/arlington-cemetery",
@@ -429,11 +460,12 @@
       "address": "Arlington, VA 22211",
       "locality": "Arlington",
       "country": "United States",
-      "latitude": 38.8783,
-      "longitude": -77.0687,
+      "latitude": 38.882918,
+      "longitude": -77.065703,
       "wantToGo": true,
       "notes": "The Kennedy graves and the changing of the guard at the Tomb of the Unknown Soldier.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I814534F8F0401AFC"
     },
     {
       "id": "guide:washington-dc/national-mall",
@@ -442,11 +474,12 @@
       "address": "National Mall, Washington, DC 20024",
       "locality": "National Mall",
       "country": "United States",
-      "latitude": 38.8896,
-      "longitude": -77.023,
+      "latitude": 38.889956,
+      "longitude": -77.022209,
       "wantToGo": true,
       "notes": "Two miles from the Capitol to the Lincoln Memorial. Walk it end to end once, then use the Circulator.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "IE2999112F0B0134B"
     },
     {
       "id": "guide:washington-dc/tidal-basin",
@@ -455,8 +488,8 @@
       "address": "Tidal Basin, Washington, DC 20024",
       "locality": "National Mall",
       "country": "United States",
-      "latitude": 38.8841,
-      "longitude": -77.0389,
+      "latitude": 38.884335,
+      "longitude": -77.039111,
       "wantToGo": true,
       "notes": "The cherry trees in early spring, and the Jefferson and MLK memorials all year. Rent a paddle boat.",
       "section": "Outside"
@@ -468,11 +501,12 @@
       "address": "1850 W Basin Dr SW, Washington, DC 20024",
       "locality": "Tidal Basin",
       "country": "United States",
-      "latitude": 38.8862,
-      "longitude": -77.0442,
+      "latitude": 38.886218,
+      "longitude": -77.04422,
       "wantToGo": true,
       "notes": "Dr. King carved from a Stone of Hope, with his words along the wall behind.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "IE0173B2C5B10F273"
     },
     {
       "id": "guide:washington-dc/botanic-garden",
@@ -481,11 +515,12 @@
       "address": "100 Maryland Ave SW, Washington, DC 20001",
       "locality": "Capitol Hill",
       "country": "United States",
-      "latitude": 38.8881,
-      "longitude": -77.0129,
+      "latitude": 38.887914,
+      "longitude": -77.012926,
       "wantToGo": true,
       "notes": "A free glasshouse jungle at the foot of the Capitol. Good on a rainy or cold day.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I3A5D7A1A2C56D0BB"
     },
     {
       "id": "guide:washington-dc/georgetown-waterfront",
@@ -494,11 +529,12 @@
       "address": "3303 Water St NW, Washington, DC 20007",
       "locality": "Georgetown",
       "country": "United States",
-      "latitude": 38.9026,
-      "longitude": -77.0632,
+      "latitude": 38.902655,
+      "longitude": -77.064433,
       "wantToGo": true,
       "notes": "Fountains and river views, with kayaks for rent at Key Bridge Boathouse.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I6D6220BF769BA30A"
     },
     {
       "id": "guide:washington-dc/dumbarton-oaks",
@@ -507,11 +543,12 @@
       "address": "1703 32nd St NW, Washington, DC 20007",
       "locality": "Georgetown",
       "country": "United States",
-      "latitude": 38.9142,
-      "longitude": -77.0634,
+      "latitude": 38.914161,
+      "longitude": -77.062497,
       "wantToGo": true,
       "notes": "Terraced gardens behind a Georgetown mansion. Best in spring.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "IC6A708AB6A2BB29B"
     },
     {
       "id": "guide:washington-dc/rock-creek-park",
@@ -520,11 +557,12 @@
       "address": "Rock Creek Park, Washington, DC 20008",
       "locality": "Rock Creek",
       "country": "United States",
-      "latitude": 38.959,
-      "longitude": -77.045,
+      "latitude": 38.955368,
+      "longitude": -77.048855,
       "wantToGo": true,
       "notes": "Woods and trails right in the city. On weekends Beach Drive is closed to cars.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I50405AA2E52DD412"
     },
     {
       "id": "guide:washington-dc/roosevelt-island",
@@ -533,11 +571,12 @@
       "address": "Arlington, VA 22209",
       "locality": "Potomac River",
       "country": "United States",
-      "latitude": 38.8963,
-      "longitude": -77.0645,
+      "latitude": 38.897522,
+      "longitude": -77.063022,
       "wantToGo": true,
       "notes": "A wooded island in the Potomac with an easy loop trail and a statue of Teddy Roosevelt.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I918665ACBD25DFA0"
     }
   ]
 }
