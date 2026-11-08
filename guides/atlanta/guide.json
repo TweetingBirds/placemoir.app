@@ -26,11 +26,12 @@
       "address": "659 Peachtree St NE, Atlanta, GA 30308",
       "locality": "Midtown",
       "country": "United States",
-      "latitude": 33.7727,
-      "longitude": -84.3852,
+      "latitude": 33.77266,
+      "longitude": -84.384372,
       "wantToGo": true,
       "notes": "A 1911 hotel across the street from the Fox Theatre. Ask for a room facing Peachtree.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "IEDA74EC106CF40D4"
     },
     {
       "id": "guide:atlanta/hotel-clermont",
@@ -39,11 +40,12 @@
       "address": "789 Ponce de Leon Ave NE, Atlanta, GA 30306",
       "locality": "Poncey-Highland",
       "country": "United States",
-      "latitude": 33.7731,
-      "longitude": -84.3613,
+      "latitude": 33.773497,
+      "longitude": -84.361443,
       "wantToGo": true,
       "notes": "A restored 1924 hotel with a rooftop bar, a short walk from Ponce City Market and the BeltLine.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "I892D84B84F4A4E21"
     },
     {
       "id": "guide:atlanta/candler-hotel",
@@ -52,11 +54,12 @@
       "address": "127 Peachtree St NE, Atlanta, GA 30303",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 33.7579,
-      "longitude": -84.3878,
+      "latitude": 33.756936,
+      "longitude": -84.38771,
       "wantToGo": true,
       "notes": "Asa Candler's 1906 office tower, now a hotel. Handy for the Centennial Park museums.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "IC3AE5CDF5FE66A13"
     },
     {
       "id": "guide:atlanta/st-regis",
@@ -65,11 +68,12 @@
       "address": "88 W Paces Ferry Rd NW, Atlanta, GA 30305",
       "locality": "Buckhead",
       "country": "United States",
-      "latitude": 33.8394,
-      "longitude": -84.3837,
+      "latitude": 33.839975,
+      "longitude": -84.382508,
       "wantToGo": true,
       "notes": "The splurge. Quiet Buckhead, a big pool, and the Atlanta History Center down the road.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "I84CDA52B1D5F81DF"
     },
     {
       "id": "guide:atlanta/mary-macs",
@@ -78,11 +82,12 @@
       "address": "224 Ponce de Leon Ave NE, Atlanta, GA 30308",
       "locality": "Midtown",
       "country": "United States",
-      "latitude": 33.7727,
-      "longitude": -84.3796,
+      "latitude": 33.772755,
+      "longitude": -84.379906,
       "wantToGo": true,
       "notes": "Southern plates since 1945. Start with the pot likker and cornbread.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IAC11EB290A740387"
     },
     {
       "id": "guide:atlanta/the-varsity",
@@ -91,11 +96,12 @@
       "address": "61 North Ave NW, Atlanta, GA 30308",
       "locality": "Midtown",
       "country": "United States",
-      "latitude": 33.7713,
-      "longitude": -84.3894,
+      "latitude": 33.771498,
+      "longitude": -84.389276,
       "wantToGo": true,
       "notes": "Chili dogs, onion rings and a frosted orange, served fast since 1928.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IFCFBD333A85AEC11"
     },
     {
       "id": "guide:atlanta/busy-bee",
@@ -104,11 +110,12 @@
       "address": "810 Martin Luther King Jr Dr SW, Atlanta, GA 30314",
       "locality": "Vine City",
       "country": "United States",
-      "latitude": 33.7529,
-      "longitude": -84.4128,
+      "latitude": 33.754399,
+      "longitude": -84.41401,
       "wantToGo": true,
       "notes": "Fried chicken and sides since 1947. Expect a line at lunch, and it's worth it.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I10BBC5EB24528CCA"
     },
     {
       "id": "guide:atlanta/paschals",
@@ -117,11 +124,12 @@
       "address": "180 Northside Dr SW, Atlanta, GA 30313",
       "locality": "Castleberry Hill",
       "country": "United States",
-      "latitude": 33.7516,
-      "longitude": -84.4031,
+      "latitude": 33.749424,
+      "longitude": -84.403839,
       "wantToGo": true,
       "notes": "Where civil rights leaders met to plan in the 1960s. Fried chicken and peach cobbler.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IC6BD7C3886FEA73A"
     },
     {
       "id": "guide:atlanta/fox-bros",
@@ -130,11 +138,12 @@
       "address": "1238 DeKalb Ave NE, Atlanta, GA 30307",
       "locality": "Candler Park",
       "country": "United States",
-      "latitude": 33.7576,
-      "longitude": -84.3466,
+      "latitude": 33.760995,
+      "longitude": -84.347533,
       "wantToGo": true,
       "notes": "Texas-style brisket and smoked wings. Get the Brunswick stew on the side.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I970BE7854083846F"
     },
     {
       "id": "guide:atlanta/antico",
@@ -143,11 +152,12 @@
       "address": "1093 Hemphill Ave NW, Atlanta, GA 30318",
       "locality": "Home Park",
       "country": "United States",
-      "latitude": 33.7845,
-      "longitude": -84.4103,
+      "latitude": 33.784656,
+      "longitude": -84.405647,
       "wantToGo": true,
       "notes": "Wood-fired Neapolitan pizza at shared tables in the middle of the kitchen.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "ID969392F88C01372"
     },
     {
       "id": "guide:atlanta/krog-street-market",
@@ -156,11 +166,12 @@
       "address": "99 Krog St NE, Atlanta, GA 30307",
       "locality": "Inman Park",
       "country": "United States",
-      "latitude": 33.7572,
-      "longitude": -84.3639,
+      "latitude": 33.756528,
+      "longitude": -84.364018,
       "wantToGo": true,
       "notes": "A food hall in an old warehouse right on the BeltLine. Good when the group can't agree.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I620E088DD4380CC0"
     },
     {
       "id": "guide:atlanta/ticonderoga-club",
@@ -169,11 +180,12 @@
       "address": "99 Krog St NE, Atlanta, GA 30307",
       "locality": "Inman Park",
       "country": "United States",
-      "latitude": 33.757,
-      "longitude": -84.3641,
+      "latitude": 33.756592,
+      "longitude": -84.363976,
       "wantToGo": true,
       "notes": "A small cocktail bar tucked in the back of Krog Street Market, with a short, good food menu.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I55593108B076D3B"
     },
     {
       "id": "guide:atlanta/gunshow",
@@ -182,11 +194,12 @@
       "address": "924 Garrett St SE, Atlanta, GA 30316",
       "locality": "Glenwood Park",
       "country": "United States",
-      "latitude": 33.7404,
-      "longitude": -84.357,
+      "latitude": 33.740724,
+      "longitude": -84.357941,
       "wantToGo": true,
       "notes": "Kevin Gillespie's chefs bring dishes to your table and you say yes or no. Book ahead.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I61AFAAEEE1324F3E"
     },
     {
       "id": "guide:atlanta/bacchanalia",
@@ -195,11 +208,12 @@
       "address": "1460 Ellsworth Industrial Blvd NW, Atlanta, GA 30318",
       "locality": "Westside",
       "country": "United States",
-      "latitude": 33.801,
-      "longitude": -84.4249,
+      "latitude": 33.794642,
+      "longitude": -84.427318,
       "wantToGo": true,
       "notes": "The special-occasion dinner of the week: a long tasting menu from Anne Quatrano.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I9398FEF1BDDB915B"
     },
     {
       "id": "guide:atlanta/miller-union",
@@ -208,11 +222,12 @@
       "address": "999 Brady Ave NW, Atlanta, GA 30318",
       "locality": "Westside",
       "country": "United States",
-      "latitude": 33.7863,
-      "longitude": -84.4065,
+      "latitude": 33.781742,
+      "longitude": -84.413071,
       "wantToGo": true,
       "notes": "Seasonal Southern cooking from Steven Satterfield. The farm egg in celery cream is the one to order.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IFCFF8D408A4D86A6"
     },
     {
       "id": "guide:atlanta/talat-market",
@@ -221,11 +236,12 @@
       "address": "112 Ormond St SE, Atlanta, GA 30315",
       "locality": "Summerhill",
       "country": "United States",
-      "latitude": 33.7366,
-      "longitude": -84.3872,
+      "latitude": 33.7318,
+      "longitude": -84.383964,
       "wantToGo": true,
       "notes": "Thai cooking made with Georgia produce. Loud, fun, and spicy if you ask.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I22F51A36D5207928"
     },
     {
       "id": "guide:atlanta/sweet-auburn-curb-market",
@@ -234,11 +250,12 @@
       "address": "209 Edgewood Ave SE, Atlanta, GA 30303",
       "locality": "Sweet Auburn",
       "country": "United States",
-      "latitude": 33.7542,
-      "longitude": -84.3802,
+      "latitude": 33.754103,
+      "longitude": -84.379989,
       "wantToGo": true,
       "notes": "A city market since 1918. Lunch from the stalls before the King historic site, five minutes away.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I68DB311C0CCB8E89"
     },
     {
       "id": "guide:atlanta/lees-bakery",
@@ -247,11 +264,12 @@
       "address": "4005 Buford Hwy NE, Atlanta, GA 30345",
       "locality": "Buford Highway",
       "country": "United States",
-      "latitude": 33.8426,
-      "longitude": -84.3238,
+      "latitude": 33.860081,
+      "longitude": -84.308905,
       "wantToGo": true,
       "notes": "Banh mi on fresh baguettes, cheap and quick. A good first stop on Buford Highway.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I854CBFE7A6BFA6C2"
     },
     {
       "id": "guide:atlanta/desta",
@@ -260,11 +278,12 @@
       "address": "2566 Briarcliff Rd NE, Atlanta, GA 30329",
       "locality": "Druid Hills",
       "country": "United States",
-      "latitude": 33.8236,
-      "longitude": -84.333,
+      "latitude": 33.828515,
+      "longitude": -84.329461,
       "wantToGo": true,
       "notes": "Big platters of Ethiopian stews on injera, with a patio that's busy every night.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IC6B2E17817E3721A"
     },
     {
       "id": "guide:atlanta/kimball-house",
@@ -273,11 +292,12 @@
       "address": "303 E Howard Ave, Decatur, GA 30030",
       "locality": "Decatur",
       "country": "United States",
-      "latitude": 33.7718,
-      "longitude": -84.2918,
+      "latitude": 33.771585,
+      "longitude": -84.29227,
       "wantToGo": true,
       "notes": "Oysters and cocktails in Decatur's old train depot. Go for happy hour.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IB68861C89742B47E"
     },
     {
       "id": "guide:atlanta/bones",
@@ -286,11 +306,12 @@
       "address": "3130 Piedmont Rd NE, Atlanta, GA 30305",
       "locality": "Buckhead",
       "country": "United States",
-      "latitude": 33.8418,
-      "longitude": -84.3726,
+      "latitude": 33.842188,
+      "longitude": -84.370891,
       "wantToGo": true,
       "notes": "An old-school steakhouse open since 1979, with white tablecloths and a deep wine list.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I693D292EDBE048B9"
     },
     {
       "id": "guide:atlanta/mlk-park",
@@ -299,11 +320,12 @@
       "address": "450 Auburn Ave NE, Atlanta, GA 30312",
       "locality": "Sweet Auburn",
       "country": "United States",
-      "latitude": 33.7556,
-      "longitude": -84.3726,
+      "latitude": 33.756332,
+      "longitude": -84.373459,
       "wantToGo": true,
       "notes": "Dr. King's birth home, Ebenezer Baptist Church and his tomb, all on one street. Book the free birth home tour early in the day.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I20385057C4E173EE"
     },
     {
       "id": "guide:atlanta/civil-rights-center",
@@ -312,11 +334,12 @@
       "address": "100 Ivan Allen Jr Blvd NW, Atlanta, GA 30313",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 33.7634,
-      "longitude": -84.3935,
+      "latitude": 33.764039,
+      "longitude": -84.393086,
       "wantToGo": true,
       "notes": "The lunch counter simulation is hard to sit through, and that's the point. Allow two hours.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "ID92DB495CF14058C"
     },
     {
       "id": "guide:atlanta/georgia-aquarium",
@@ -325,11 +348,12 @@
       "address": "225 Baker St NW, Atlanta, GA 30313",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 33.7634,
-      "longitude": -84.3951,
+      "latitude": 33.76321,
+      "longitude": -84.395224,
       "wantToGo": true,
       "notes": "Whale sharks in one enormous tank. Go at opening to beat the school groups.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I88372CD245896F8F"
     },
     {
       "id": "guide:atlanta/world-of-coca-cola",
@@ -351,11 +375,12 @@
       "address": "1280 Peachtree St NE, Atlanta, GA 30309",
       "locality": "Midtown",
       "country": "United States",
-      "latitude": 33.7901,
-      "longitude": -84.3856,
+      "latitude": 33.790076,
+      "longitude": -84.385826,
       "wantToGo": true,
       "notes": "Richard Meier's white building holds a strong folk and self-taught art collection.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IFBECA464CA998EF0"
     },
     {
       "id": "guide:atlanta/fox-theatre",
@@ -364,11 +389,12 @@
       "address": "660 Peachtree St NE, Atlanta, GA 30308",
       "locality": "Midtown",
       "country": "United States",
-      "latitude": 33.7726,
-      "longitude": -84.3856,
+      "latitude": 33.772642,
+      "longitude": -84.385163,
       "wantToGo": true,
       "notes": "A 1929 movie palace with a starry ceiling. See a show, or take the daytime tour.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I7FDE814AAAD29304"
     },
     {
       "id": "guide:atlanta/atlanta-history-center",
@@ -377,11 +403,12 @@
       "address": "130 W Paces Ferry Rd NW, Atlanta, GA 30305",
       "locality": "Buckhead",
       "country": "United States",
-      "latitude": 33.8418,
-      "longitude": -84.3856,
+      "latitude": 33.841727,
+      "longitude": -84.385965,
       "wantToGo": true,
       "notes": "The Cyclorama, Swan House and 33 acres of gardens. Easily half a day.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I56A7D14199D878C"
     },
     {
       "id": "guide:atlanta/carter-center",
@@ -390,11 +417,12 @@
       "address": "441 John Lewis Freedom Pkwy NE, Atlanta, GA 30307",
       "locality": "Poncey-Highland",
       "country": "United States",
-      "latitude": 33.7667,
-      "longitude": -84.3561,
+      "latitude": 33.766305,
+      "longitude": -84.356246,
       "wantToGo": true,
       "notes": "A presidency and a long life after it. The Japanese garden out back is a calm stop.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I4A6A47435C78DE5"
     },
     {
       "id": "guide:atlanta/ponce-city-market",
@@ -403,11 +431,12 @@
       "address": "675 Ponce de Leon Ave NE, Atlanta, GA 30308",
       "locality": "Old Fourth Ward",
       "country": "United States",
-      "latitude": 33.7726,
-      "longitude": -84.3655,
+      "latitude": 33.772772,
+      "longitude": -84.365597,
       "wantToGo": true,
       "notes": "A huge old Sears building with a food hall, shops and a rooftop with skyline views and mini golf.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I38116F8C0FE98A34"
     },
     {
       "id": "guide:atlanta/oakland-cemetery",
@@ -416,11 +445,12 @@
       "address": "248 Oakland Ave SE, Atlanta, GA 30312",
       "locality": "Grant Park",
       "country": "United States",
-      "latitude": 33.7484,
-      "longitude": -84.372,
+      "latitude": 33.748995,
+      "longitude": -84.372704,
       "wantToGo": true,
       "notes": "Victorian gardens and Margaret Mitchell's grave, with the downtown skyline behind. Lovely at golden hour.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I52EFC3FE40491FD6"
     },
     {
       "id": "guide:atlanta/center-for-puppetry-arts",
@@ -429,11 +459,12 @@
       "address": "1404 Spring St NW, Atlanta, GA 30309",
       "locality": "Midtown",
       "country": "United States",
-      "latitude": 33.7929,
-      "longitude": -84.3893,
+      "latitude": 33.792776,
+      "longitude": -84.389827,
       "wantToGo": true,
       "notes": "Jim Henson's own Muppets, and puppets from around the world. Better for adults than it sounds.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I5BDAEE0E2C21BD2E"
     },
     {
       "id": "guide:atlanta/fernbank",
@@ -442,11 +473,12 @@
       "address": "767 Clifton Rd, Atlanta, GA 30307",
       "locality": "Druid Hills",
       "country": "United States",
-      "latitude": 33.7737,
-      "longitude": -84.328,
+      "latitude": 33.773939,
+      "longitude": -84.327627,
       "wantToGo": true,
       "notes": "Big dinosaurs inside, and a walk through an old-growth forest outside.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I70D3EE9189D10D5"
     },
     {
       "id": "guide:atlanta/delta-flight-museum",
@@ -455,11 +487,12 @@
       "address": "747 Woolman Pl, Atlanta, GA 30354",
       "locality": "Hapeville",
       "country": "United States",
-      "latitude": 33.6558,
-      "longitude": -84.422,
+      "latitude": 33.656292,
+      "longitude": -84.42214,
       "wantToGo": true,
       "notes": "Walk through a 747 in the old hangars next to the airport. Easy before an evening flight.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I4214051253E47562"
     },
     {
       "id": "guide:atlanta/zoo-atlanta",
@@ -468,11 +501,12 @@
       "address": "800 Cherokee Ave SE, Atlanta, GA 30315",
       "locality": "Grant Park",
       "country": "United States",
-      "latitude": 33.7341,
-      "longitude": -84.37,
+      "latitude": 33.732482,
+      "longitude": -84.371374,
       "wantToGo": true,
       "notes": "Gorillas and a leafy setting inside Grant Park. Pair it with Oakland Cemetery.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I764CD7FEC57F2ECF"
     },
     {
       "id": "guide:atlanta/buford-highway-farmers-market",
@@ -481,11 +515,12 @@
       "address": "5600 Buford Hwy NE, Doraville, GA 30340",
       "locality": "Doraville",
       "country": "United States",
-      "latitude": 33.896,
-      "longitude": -84.2863,
+      "latitude": 33.905658,
+      "longitude": -84.274042,
       "wantToGo": true,
       "notes": "An international grocery the size of a warehouse. Come hungry and wander the aisles.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I95584B0B16217550"
     },
     {
       "id": "guide:atlanta/piedmont-park",
@@ -494,11 +529,12 @@
       "address": "1320 Monroe Dr NE, Atlanta, GA 30306",
       "locality": "Midtown",
       "country": "United States",
-      "latitude": 33.7851,
-      "longitude": -84.3738,
+      "latitude": 33.78728,
+      "longitude": -84.372082,
       "wantToGo": true,
       "notes": "The city's big lawn, with skyline views over Lake Clara Meer. Pick up a picnic on the way.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I4C670C799ADD7DA4"
     },
     {
       "id": "guide:atlanta/botanical-garden",
@@ -507,11 +543,12 @@
       "address": "1345 Piedmont Ave NE, Atlanta, GA 30309",
       "locality": "Midtown",
       "country": "United States",
-      "latitude": 33.79,
-      "longitude": -84.373,
+      "latitude": 33.789957,
+      "longitude": -84.372601,
       "wantToGo": true,
       "notes": "The canopy walk through the treetops, and the orchid house. Check for evening events.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "IBFEF27FD3846AE92"
     },
     {
       "id": "guide:atlanta/beltline-eastside-trail",
@@ -520,11 +557,12 @@
       "address": "Atlanta, GA 30308",
       "locality": "Old Fourth Ward",
       "country": "United States",
-      "latitude": 33.77,
-      "longitude": -84.3629,
+      "latitude": 33.781878,
+      "longitude": -84.368465,
       "wantToGo": true,
       "notes": "Walk or rent a bike from Piedmont Park to Krog Street, past murals, patios and Ponce City Market.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I7524062F87BBEAAA"
     },
     {
       "id": "guide:atlanta/fourth-ward-park",
@@ -533,11 +571,12 @@
       "address": "695 Morgan St NE, Atlanta, GA 30308",
       "locality": "Old Fourth Ward",
       "country": "United States",
-      "latitude": 33.7688,
-      "longitude": -84.3644,
+      "latitude": 33.768021,
+      "longitude": -84.365116,
       "wantToGo": true,
       "notes": "A small park built around a stormwater lake, right off the BeltLine.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I1E6E8216D0CDE483"
     },
     {
       "id": "guide:atlanta/westside-park",
@@ -546,11 +585,12 @@
       "address": "1660 Johnson Rd NW, Atlanta, GA 30318",
       "locality": "Grove Park",
       "country": "United States",
-      "latitude": 33.79,
-      "longitude": -84.448,
+      "latitude": 33.785275,
+      "longitude": -84.442116,
       "wantToGo": true,
       "notes": "The city's largest park, opened as Westside Park, around an old quarry turned reservoir. Big views, few crowds.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "IAA99B57B2556B493"
     },
     {
       "id": "guide:atlanta/cochran-shoals",
@@ -559,8 +599,8 @@
       "address": "Interstate N Pkwy SE, Atlanta, GA 30339",
       "locality": "Chattahoochee River",
       "country": "United States",
-      "latitude": 33.901,
-      "longitude": -84.44,
+      "latitude": 33.911306,
+      "longitude": -84.448139,
       "wantToGo": true,
       "notes": "A flat loop along the Chattahoochee River, part of the national recreation area. Good for a morning run.",
       "section": "Outside"

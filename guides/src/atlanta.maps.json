@@ -1,0 +1,288 @@
+{
+  "antico": {
+    "address": "1093 Hemphill Ave NW, Atlanta, GA 30318, United States",
+    "appleMapsID": "ID969392F88C01372",
+    "latitude": 33.784656,
+    "longitude": -84.405647,
+    "name": "Antico Pizza Napoletana"
+  },
+  "atlanta-history-center": {
+    "address": "130 W Paces Ferry Rd NW, Atlanta, GA 30305, United States",
+    "appleMapsID": "I56A7D14199D878C",
+    "latitude": 33.841727,
+    "longitude": -84.385965,
+    "name": "Atlanta History Center"
+  },
+  "bacchanalia": {
+    "address": "1460 Ellsworth Industrial Blvd, Ste A, Atlanta, GA 30318, United States",
+    "appleMapsID": "I9398FEF1BDDB915B",
+    "latitude": 33.794642,
+    "longitude": -84.427318,
+    "name": "Bacchanalia"
+  },
+  "beltline-eastside-trail": {
+    "address": "Atlanta, GA 30306, United States",
+    "appleMapsID": "I7524062F87BBEAAA",
+    "latitude": 33.781878,
+    "longitude": -84.368465,
+    "name": "Atlanta Beltline Eastside Trail"
+  },
+  "bones": {
+    "address": "3130 Piedmont Rd NE, Atlanta, GA 30305, United States",
+    "appleMapsID": "I693D292EDBE048B9",
+    "latitude": 33.842188,
+    "longitude": -84.370891,
+    "name": "Bones"
+  },
+  "botanical-garden": {
+    "address": "1345 Piedmont Ave, Atlanta, GA 30309, United States",
+    "appleMapsID": "IBFEF27FD3846AE92",
+    "latitude": 33.789957,
+    "longitude": -84.372601,
+    "name": "Atlanta Botanical Garden"
+  },
+  "buford-highway-farmers-market": {
+    "address": "5600 Buford Hwy NE, Doraville, GA 30340, United States",
+    "appleMapsID": "I95584B0B16217550",
+    "latitude": 33.905658,
+    "longitude": -84.274042,
+    "name": "Buford Highway Farmers Market"
+  },
+  "busy-bee": {
+    "address": "810 Martin Luther King Jr Dr SW, Atlanta, GA 30314, United States",
+    "appleMapsID": "I10BBC5EB24528CCA",
+    "latitude": 33.754399,
+    "longitude": -84.41401,
+    "name": "The Busy Bee"
+  },
+  "candler-hotel": {
+    "address": "127 Peachtree St NE, Atlanta, GA 30303, United States",
+    "appleMapsID": "IC3AE5CDF5FE66A13",
+    "latitude": 33.756936,
+    "longitude": -84.38771,
+    "name": "The Candler Hotel Atlanta, Curio Collection by Hilton"
+  },
+  "carter-center": {
+    "address": "441 John Lewis Freedom Pkwy NE, Atlanta, GA 30307, United States",
+    "appleMapsID": "I4A6A47435C78DE5",
+    "latitude": 33.766305,
+    "longitude": -84.356246,
+    "name": "Jimmy Carter Presidential Library and Museum"
+  },
+  "center-for-puppetry-arts": {
+    "address": "1404 Spring St NW, Atlanta, GA 30309, United States",
+    "appleMapsID": "I5BDAEE0E2C21BD2E",
+    "latitude": 33.792776,
+    "longitude": -84.389827,
+    "name": "Center For Puppetry Arts"
+  },
+  "civil-rights-center": {
+    "address": "100 Ivan Allen Jr Blvd NW, Atlanta, GA 30313, United States",
+    "appleMapsID": "ID92DB495CF14058C",
+    "latitude": 33.764039,
+    "longitude": -84.393086,
+    "name": "National Center For Civil And Human Rights"
+  },
+  "cochran-shoals": {
+    "address": "Cochran Shoals-Trail System Trail, Marietta, GA 30067, United States",
+    "latitude": 33.911306,
+    "longitude": -84.448139,
+    "name": "Cochran Shoals-Trail System Trail"
+  },
+  "delta-flight-museum": {
+    "address": "747 Woolman Place, Atlanta, GA 30354, United States",
+    "appleMapsID": "I4214051253E47562",
+    "latitude": 33.656292,
+    "longitude": -84.42214,
+    "name": "Delta Flight Museum"
+  },
+  "desta": {
+    "address": "2566 Briarcliff Rd, Unit 101, Atlanta, GA 30329, United States",
+    "appleMapsID": "IC6B2E17817E3721A",
+    "latitude": 33.828515,
+    "longitude": -84.329461,
+    "name": "Desta Ethiopian Kitchen"
+  },
+  "fernbank": {
+    "address": "767 Clifton Rd NE, Atlanta, GA 30307, United States",
+    "appleMapsID": "I70D3EE9189D10D5",
+    "latitude": 33.773939,
+    "longitude": -84.327627,
+    "name": "Fernbank"
+  },
+  "fourth-ward-park": {
+    "address": "695 Morgan St NE, Atlanta, GA 30308, United States",
+    "appleMapsID": "I1E6E8216D0CDE483",
+    "latitude": 33.768021,
+    "longitude": -84.365116,
+    "name": "Historic Fourth Ward Park"
+  },
+  "fox-bros": {
+    "address": "1238 Dekalb Ave NE, Atlanta, GA 30307, United States",
+    "appleMapsID": "I970BE7854083846F",
+    "latitude": 33.760995,
+    "longitude": -84.347533,
+    "name": "Fox Bros. Bar-B-Q"
+  },
+  "fox-theatre": {
+    "address": "660 Peachtree St NE, Atlanta, GA 30308, United States",
+    "appleMapsID": "I7FDE814AAAD29304",
+    "latitude": 33.772642,
+    "longitude": -84.385163,
+    "name": "Fox Theatre"
+  },
+  "georgia-aquarium": {
+    "address": "225 Baker Street Northwest, Atlanta, GA 30313, United States",
+    "appleMapsID": "I88372CD245896F8F",
+    "latitude": 33.76321,
+    "longitude": -84.395224,
+    "name": "Georgia Aquarium"
+  },
+  "georgian-terrace": {
+    "address": "659 Peachtree St NE, Atlanta, GA 30308, United States",
+    "appleMapsID": "IEDA74EC106CF40D4",
+    "latitude": 33.77266,
+    "longitude": -84.384372,
+    "name": "The Georgian Terrace Hotel"
+  },
+  "gunshow": {
+    "address": "924 Garrett St SE, Atlanta, GA 30316, United States",
+    "appleMapsID": "I61AFAAEEE1324F3E",
+    "latitude": 33.740724,
+    "longitude": -84.357941,
+    "name": "Gunshow"
+  },
+  "high-museum": {
+    "address": "1280 Peachtree St NE, Atlanta, GA 30309, United States",
+    "appleMapsID": "IFBECA464CA998EF0",
+    "latitude": 33.790076,
+    "longitude": -84.385826,
+    "name": "High Museum of Art"
+  },
+  "hotel-clermont": {
+    "address": "789 Ponce de Leon Ave NE, Atlanta, GA 30306, United States",
+    "appleMapsID": "I892D84B84F4A4E21",
+    "latitude": 33.773497,
+    "longitude": -84.361443,
+    "name": "Hotel Clermont"
+  },
+  "kimball-house": {
+    "address": "303 E Howard Ave, Decatur, GA 30030, United States",
+    "appleMapsID": "IB68861C89742B47E",
+    "latitude": 33.771585,
+    "longitude": -84.29227,
+    "name": "Kimball House"
+  },
+  "krog-street-market": {
+    "address": "99 Krog St NE, Atlanta, GA 30307, United States",
+    "appleMapsID": "I620E088DD4380CC0",
+    "latitude": 33.756528,
+    "longitude": -84.364018,
+    "name": "Krog Street Market"
+  },
+  "lees-bakery": {
+    "address": "4005 Buford Hwy NE, Unit C, Atlanta, GA 30345, United States",
+    "appleMapsID": "I854CBFE7A6BFA6C2",
+    "latitude": 33.860081,
+    "longitude": -84.308905,
+    "name": "Lee's Bakery"
+  },
+  "mary-macs": {
+    "address": "224 Ponce de Leon Ave NE, Atlanta, GA 30308, United States",
+    "appleMapsID": "IAC11EB290A740387",
+    "latitude": 33.772755,
+    "longitude": -84.379906,
+    "name": "Mary Mac's Tea Room"
+  },
+  "miller-union": {
+    "address": "999 Brady Ave NW, Atlanta, GA 30318, United States",
+    "appleMapsID": "IFCFF8D408A4D86A6",
+    "latitude": 33.781742,
+    "longitude": -84.413071,
+    "name": "Miller Union"
+  },
+  "mlk-park": {
+    "address": "450 Auburn Ave NE, Atlanta, GA 30312, United States",
+    "appleMapsID": "I20385057C4E173EE",
+    "latitude": 33.756332,
+    "longitude": -84.373459,
+    "name": "Martin Luther King, Jr. National Historical Park"
+  },
+  "oakland-cemetery": {
+    "address": "248 Oakland Ave SE, Atlanta, GA 30312, United States",
+    "appleMapsID": "I52EFC3FE40491FD6",
+    "latitude": 33.748995,
+    "longitude": -84.372704,
+    "name": "Historic Oakland Cemetery"
+  },
+  "paschals": {
+    "address": "180 Northside Dr SW, Atlanta, GA 30313, United States",
+    "appleMapsID": "IC6BD7C3886FEA73A",
+    "latitude": 33.749424,
+    "longitude": -84.403839,
+    "name": "Paschal's"
+  },
+  "piedmont-park": {
+    "address": "1320 Monroe Dr NE, Atlanta, GA 30306, United States",
+    "appleMapsID": "I4C670C799ADD7DA4",
+    "latitude": 33.78728,
+    "longitude": -84.372082,
+    "name": "Piedmont Park"
+  },
+  "ponce-city-market": {
+    "address": "675 Ponce de Leon Ave NE, Atlanta, GA 30308, United States",
+    "appleMapsID": "I38116F8C0FE98A34",
+    "latitude": 33.772772,
+    "longitude": -84.365597,
+    "name": "Ponce City Market"
+  },
+  "st-regis": {
+    "address": "88 W Paces Ferry Rd NW, Atlanta, GA 30305, United States",
+    "appleMapsID": "I84CDA52B1D5F81DF",
+    "latitude": 33.839975,
+    "longitude": -84.382508,
+    "name": "The St. Regis Atlanta"
+  },
+  "sweet-auburn-curb-market": {
+    "address": "209 Edgewood Ave SE, Atlanta, GA 30303, United States",
+    "appleMapsID": "I68DB311C0CCB8E89",
+    "latitude": 33.754103,
+    "longitude": -84.379989,
+    "name": "The Municipal Market"
+  },
+  "talat-market": {
+    "address": "112 Ormond St SE, Atlanta, GA 30315, United States",
+    "appleMapsID": "I22F51A36D5207928",
+    "latitude": 33.7318,
+    "longitude": -84.383964,
+    "name": "Talat Market"
+  },
+  "the-varsity": {
+    "address": "61 North Ave NW, Atlanta, GA 30308, United States",
+    "appleMapsID": "IFCFBD333A85AEC11",
+    "latitude": 33.771498,
+    "longitude": -84.389276,
+    "name": "The Varsity"
+  },
+  "ticonderoga-club": {
+    "address": "99 Krog St NE, Unit W, Atlanta, GA 30307, United States",
+    "appleMapsID": "I55593108B076D3B",
+    "latitude": 33.756592,
+    "longitude": -84.363976,
+    "name": "Ticonderoga Club"
+  },
+  "westside-park": {
+    "address": "1660 Johnson Rd NW, Atlanta, GA 30318, United States",
+    "appleMapsID": "IAA99B57B2556B493",
+    "latitude": 33.785275,
+    "longitude": -84.442116,
+    "name": "Shirley Clarke Franklin Park"
+  },
+  "zoo-atlanta": {
+    "address": "800 Cherokee Ave SE, Atlanta, GA 30315, United States",
+    "appleMapsID": "I764CD7FEC57F2ECF",
+    "latitude": 33.732482,
+    "longitude": -84.371374,
+    "name": "Zoo Atlanta"
+  }
+}
