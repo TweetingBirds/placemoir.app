@@ -24,9 +24,11 @@ place already in someone's journal is matched by name within 150 m.
 `maps` needs APPLE_MAPS_KEY (the .p8 contents), APPLE_MAPS_KEY_ID and APPLE_TEAM_ID in the
 environment, and `pip install pyjwt cryptography`. It searches Apple Maps for each place near
 its coordinates and writes what it found to guides/src/<slug>.maps.json, which `build` reads
-for the Apple Maps place ID and the exact position. It exits 1 if a place isn't found, or is
-more than MOVED_METRES from where the source says. Set "mapsQuery" on a place to search for a
-different name (a trail, say), or "mapsSkip": "<reason>" to leave it out of the check.
+for the Apple Maps place ID and the exact position, so the source's coordinates only need to be
+close. A place matches when its name is alike and Apple Maps has the same street number and
+street; a place without a street number (a trail, a big park) needs a near-identical name. It
+exits 1 if any place isn't found. Set "mapsQuery" on a place to search for a different name, or
+"mapsSkip": "<reason>" to leave it out of the check.
 """
 import datetime
 import difflib
@@ -425,6 +427,35 @@ def search(token, place, country_code):
         return json.load(response).get("results", [])
 
 
+def one_line(lines):
+    """Apple's address lines, sometimes with line breaks inside them, as one line."""
+    text = ", ".join(lines)
+    return re.sub(r"\s*\n\s*", ", ", re.sub(r"[ \t]+", " ", text)).strip()
+
+
+def street(address):
+    """("659", "peachtree") from "659 Peachtree St NE, …", or None without a street number."""
+    match = re.match(r"\s*(\d+[a-z]?)\s+([\w.']+)", address.lower())
+    return (match.group(1), match.group(2).replace(".", "")) if match else None
+
+
+def judge(guide, place, result):
+    """How well an Apple Maps result fits a place: (fits, score, metres)."""
+    coordinate = result["coordinate"]
+    metres = distance(place["latitude"], place["longitude"], coordinate["latitude"], coordinate["longitude"])
+    score = similarity(place.get("mapsQuery") or place["name"], result.get("name", ""),
+                       city=guide["slug"].split("-"))
+    if metres > SEARCH_RADIUS_METRES or score < 0.6:
+        return False, score, metres
+    ours = street(place["address"])
+    if ours:
+        # A street address decides it: the same number on the same street, wherever the pin is.
+        # This keeps "Sweet Auburn Curb Market" from matching a train station of a similar name.
+        return street(one_line(result.get("formattedAddressLines", []))) == ours, score, metres
+    # No street number (a trail, a big park): only a close name will do.
+    return score >= 0.9, score, metres
+
+
 def maps(slugs):
     guides = [g for g in load_sources() if not slugs or g["slug"] in slugs]
     token = maps_token()
@@ -436,40 +467,37 @@ def maps(slugs):
             if place.get("mapsSkip"):
                 report.append(f"SKIP  {label}: {place['mapsSkip']}")
                 continue
-            best = None
+            best, seen = None, []
             for result in search(token, place, guide.get("countryCode", "US")):
-                coordinate = result.get("coordinate") or {}
-                if "latitude" not in coordinate:
+                if "latitude" not in (result.get("coordinate") or {}):
                     continue
-                metres = distance(place["latitude"], place["longitude"], coordinate["latitude"], coordinate["longitude"])
-                score = similarity(place.get("mapsQuery") or place["name"], result.get("name", ""),
-                                   city=guide["slug"].split("-"))
-                if metres <= SEARCH_RADIUS_METRES and score >= 0.6 and (best is None or (score, -metres) > best[0]):
+                fits, score, metres = judge(guide, place, result)
+                seen.append(f"{result.get('name', '?')} ({one_line(result.get('formattedAddressLines', []))}, "
+                            f"{round(metres)} m, name {score:.2f})")
+                if fits and (best is None or (score, -metres) > best[0]):
                     best = ((score, -metres), result, metres)
             if best is None:
-                failures.append(f"{label}: “{place['name']}” not found in Apple Maps near its coordinates")
-                report.append(f"MISS  {label}")
+                failures.append(f"{label}: “{place['name']}” at {place['address']} isn't in Apple Maps. "
+                                "Check it's open and the address is right")
+                report.append(f"MISS  {label}. Apple Maps offered: " + ("; ".join(seen[:4]) or "nothing"))
                 continue
             _, result, metres = best
             entry = {"name": result.get("name", ""),
                      "latitude": round(result["coordinate"]["latitude"], 6),
                      "longitude": round(result["coordinate"]["longitude"], 6),
-                     "address": ", ".join(result.get("formattedAddressLines", []))}
+                     "address": one_line(result.get("formattedAddressLines", []))}
             if result.get("id"):
                 entry["appleMapsID"] = result["id"]
             found[place["key"]] = entry
-            moved = f", {round(metres)} m from the source position" if metres > 25 else ""
+            moved = f", {round(metres)} m from the source position" if metres > MOVED_METRES else ""
             report.append(f"OK    {label} → {entry['name']} ({entry['address']}{moved})")
-            if metres > MOVED_METRES:
-                failures.append(f"{label}: Apple Maps has it {round(metres)} m away, at {entry['address']}. "
-                                f"Check the address, then update latitude and longitude in the source")
         lock = SRC / f"{guide['slug']}.maps.json"
         lock.write_text(json.dumps(found, indent=2, ensure_ascii=False, sort_keys=True) + "\n", encoding="utf-8")
     print("\n".join(report))
     if failures:
         print(f"\n{len(failures)} place(s) need a look:\n" + "\n".join(f"• {f}" for f in failures))
         sys.exit(1)
-    print(f"\nOK — every place found in Apple Maps.")
+    print("\nOK — every place found in Apple Maps.")
 
 
 if __name__ == "__main__":
