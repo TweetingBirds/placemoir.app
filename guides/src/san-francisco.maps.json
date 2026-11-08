@@ -1,0 +1,309 @@
+{
+  "alamo-square": {
+    "address": "Hayes St & Steiner St, San Francisco, CA 94117, United States",
+    "appleMapsID": "I547A7224AED2C54D",
+    "latitude": 37.776278,
+    "longitude": -122.434731,
+    "name": "Alamo Square"
+  },
+  "alcatraz": {
+    "address": "Alcatraz Island, San Francisco, CA, United States",
+    "appleMapsID": "IF27144A7CB336F58",
+    "latitude": 37.826842,
+    "longitude": -122.423066,
+    "name": "Alcatraz Island"
+  },
+  "asian-art-museum": {
+    "address": "200 Larkin St, San Francisco, CA 94102, United States",
+    "appleMapsID": "IB262B153BB40AD10",
+    "latitude": 37.780268,
+    "longitude": -122.416175,
+    "name": "Asian Art Museum"
+  },
+  "buena-vista": {
+    "address": "2765 Hyde St, San Francisco, CA 94109, United States",
+    "appleMapsID": "I401DD9EB34604FE7",
+    "latitude": 37.80652,
+    "longitude": -122.420719,
+    "name": "The Buena Vista"
+  },
+  "burma-superstar": {
+    "address": "309 Clement St, San Francisco, CA 94118, United States",
+    "appleMapsID": "ID9215EE3A87E9105",
+    "latitude": 37.782935,
+    "longitude": -122.462565,
+    "name": "Burma Superstar"
+  },
+  "cable-car-museum": {
+    "address": "1201 Mason St, San Francisco, CA 94108, United States",
+    "appleMapsID": "I4DDEB5ADF072808",
+    "latitude": 37.794641,
+    "longitude": -122.411596,
+    "name": "Cable Car Museum"
+  },
+  "cal-academy": {
+    "address": "Golden Gate Park, 55 Music Concourse Dr, San Francisco, CA 94118, United States",
+    "appleMapsID": "ICEF1966B7271B1E1",
+    "latitude": 37.769846,
+    "longitude": -122.46608,
+    "name": "California Academy of Sciences"
+  },
+  "coit-tower": {
+    "address": "1 Telegraph Hill Blvd, San Francisco, CA 94133, United States",
+    "appleMapsID": "IE9C565A395E9AAF2",
+    "latitude": 37.802337,
+    "longitude": -122.405838,
+    "name": "Coit Tower"
+  },
+  "crissy-field": {
+    "address": "Airstrip Overlook Trail, San Francisco, CA 94129, United States",
+    "appleMapsID": "ICC2B4BC7F92B48BA",
+    "latitude": 37.804088,
+    "longitude": -122.460179,
+    "name": "Crissy Field"
+  },
+  "de-young": {
+    "address": "50 Hagiwara Tea Garden Dr, San Francisco, CA 94118, United States",
+    "appleMapsID": "I82C2E8704783BEA7",
+    "latitude": 37.771524,
+    "longitude": -122.468678,
+    "name": "de Young museum"
+  },
+  "dolores-park": {
+    "address": "566 Dolores St, San Francisco, CA 94110, United States",
+    "appleMapsID": "I501E3D5FE2B085EF",
+    "latitude": 37.759765,
+    "longitude": -122.427108,
+    "name": "Mission Dolores Park"
+  },
+  "exploratorium": {
+    "address": "Pier 15, San Francisco, CA 94111, United States",
+    "appleMapsID": "IB078B25AD11AA610",
+    "latitude": 37.80152,
+    "longitude": -122.397629,
+    "name": "Exploratorium"
+  },
+  "fairmont": {
+    "address": "950 Mason St, San Francisco, CA 94108, United States",
+    "appleMapsID": "IF6AE9CFEF12F160C",
+    "latitude": 37.792359,
+    "longitude": -122.410589,
+    "name": "Fairmont San Francisco"
+  },
+  "ferry-building": {
+    "address": "1 Ferry Building, San Francisco, CA 94111, United States",
+    "appleMapsID": "IE88A5051BD94C84D",
+    "latitude": 37.795538,
+    "longitude": -122.393473,
+    "name": "Ferry Building Marketplace"
+  },
+  "fortune-cookie-factory": {
+    "address": "56 Ross Alley, San Francisco, CA 94133, United States",
+    "appleMapsID": "I9112F11B943F10C5",
+    "latitude": 37.795778,
+    "longitude": -122.407248,
+    "name": "Golden Gate Fortune Cookie Factory"
+  },
+  "golden-gate-bridge": {
+    "address": "Golden Gate Bridge, San Francisco CA, United States",
+    "appleMapsID": "I49027E1315A0E518",
+    "latitude": 37.818449,
+    "longitude": -122.478409,
+    "name": "Golden Gate Bridge"
+  },
+  "golden-gate-park": {
+    "address": "501 Stanyan St, San Francisco, CA 94117, United States",
+    "appleMapsID": "I6020DC87BCD3874B",
+    "latitude": 37.768552,
+    "longitude": -122.481616,
+    "name": "Golden Gate Park"
+  },
+  "good-mong-kok": {
+    "address": "1039 Stockton St, San Francisco, CA 94108, United States",
+    "appleMapsID": "I75DB2A99D66AE8CC",
+    "latitude": 37.795436,
+    "longitude": -122.408362,
+    "name": "Good Mong Kok Bakery"
+  },
+  "hog-island": {
+    "address": "The Ferry Building, 1 Ferry Building, Unit 11A, San Francisco, CA 94111, United States",
+    "appleMapsID": "ID583B3B9524D90F2",
+    "latitude": 37.7959,
+    "longitude": -122.393506,
+    "name": "Hog Island Oyster Co."
+  },
+  "hotel-drisco": {
+    "address": "2901 Pacific Ave, San Francisco, CA 94115, United States",
+    "appleMapsID": "I9A7EADDE2B893BCE",
+    "latitude": 37.792141,
+    "longitude": -122.443209,
+    "name": "Hotel Drisco Pacific Heights"
+  },
+  "hotel-zephyr": {
+    "address": "250 Beach St, San Francisco, CA 94133, United States",
+    "appleMapsID": "IF40892A008E9001E",
+    "latitude": 37.807763,
+    "longitude": -122.413222,
+    "name": "Hotel Zephyr"
+  },
+  "house-of-prime-rib": {
+    "address": "1906 Van Ness Ave, San Francisco, CA 94109, United States",
+    "appleMapsID": "I332069E2E0B8A9F4",
+    "latitude": 37.793389,
+    "longitude": -122.422672,
+    "name": "House of Prime Rib"
+  },
+  "japanese-tea-garden": {
+    "address": "75 Hagiwara Tea Garden Dr, San Francisco, CA 94118, United States",
+    "appleMapsID": "IB22A7EAED9B4189B",
+    "latitude": 37.770155,
+    "longitude": -122.470114,
+    "name": "Japanese Tea Garden"
+  },
+  "la-taqueria": {
+    "address": "2889 Mission St, San Francisco, CA 94110, United States",
+    "appleMapsID": "IF415A2190C229F5A",
+    "latitude": 37.7509,
+    "longitude": -122.41809,
+    "name": "La Taqueria"
+  },
+  "lands-end": {
+    "address": "680 Point Lobos Ave, San Francisco, CA 94121, United States",
+    "appleMapsID": "I10D53F156401DA00",
+    "latitude": 37.779712,
+    "longitude": -122.511592,
+    "name": "Lands End Lookout"
+  },
+  "legion-of-honor": {
+    "address": "100 34th Ave, San Francisco, CA 94121, United States",
+    "appleMapsID": "I5B011ED5F0A2D0A",
+    "latitude": 37.784488,
+    "longitude": -122.500785,
+    "name": "Legion of Honor"
+  },
+  "liguria-bakery": {
+    "address": "1700 Stockton St, San Francisco, CA 94133, United States",
+    "appleMapsID": "ID7618326C4C8CB46",
+    "latitude": 37.801523,
+    "longitude": -122.409233,
+    "name": "Liguria Bakery"
+  },
+  "mamas": {
+    "address": "1701 Stockton St, San Francisco, CA 94133, United States",
+    "appleMapsID": "I910B835D27FCB433",
+    "latitude": 37.801506,
+    "longitude": -122.409577,
+    "name": "Mama's on Washington Square"
+  },
+  "mission-dolores": {
+    "address": "Mission Dolores, San Francisco, CA, United States",
+    "latitude": 37.76316,
+    "longitude": -122.423945,
+    "name": "Mission Dolores"
+  },
+  "mitchells": {
+    "address": "688 San Jose Ave, San Francisco, CA 94110, United States",
+    "appleMapsID": "I8A643AF24A8CB2AD",
+    "latitude": 37.744223,
+    "longitude": -122.422817,
+    "name": "Mitchell's Ice Cream"
+  },
+  "muir-woods": {
+    "address": "1 Muir Woods Rd, Mill Valley, CA 94941, United States",
+    "appleMapsID": "I907589547EB05261",
+    "latitude": 37.892202,
+    "longitude": -122.574821,
+    "name": "Muir Woods National Monument"
+  },
+  "musee-mecanique": {
+    "address": "Pier 45, San Francisco, CA 94133, United States",
+    "appleMapsID": "I6C41128DC69F03DA",
+    "latitude": 37.8097,
+    "longitude": -122.416633,
+    "name": "Musée Mécanique"
+  },
+  "nopa": {
+    "address": "560 Divisadero St, San Francisco, CA 94117, United States",
+    "appleMapsID": "I1D3570E4C4A6A7CA",
+    "latitude": 37.774858,
+    "longitude": -122.437584,
+    "name": "Nopa"
+  },
+  "palace-hotel": {
+    "address": "2 New Montgomery St, San Francisco, CA 94105, United States",
+    "appleMapsID": "I7A26B3ADA891D4CB",
+    "latitude": 37.788259,
+    "longitude": -122.401777,
+    "name": "Palace Hotel, a Luxury Collection Hotel, San Francisco"
+  },
+  "sfmoma": {
+    "address": "151 3rd St, San Francisco, CA 94103, United States",
+    "appleMapsID": "IF3A992A676F00B04",
+    "latitude": 37.785745,
+    "longitude": -122.40109,
+    "name": "San Francisco Museum of Modern Art"
+  },
+  "sightglass": {
+    "address": "270 7th St, San Francisco, CA 94103, United States",
+    "appleMapsID": "I594FECA0B369D14A",
+    "latitude": 37.776974,
+    "longitude": -122.408529,
+    "name": "Sightglass Coffee"
+  },
+  "state-bird": {
+    "address": "1529 Fillmore St, San Francisco, CA 94115, United States",
+    "appleMapsID": "IBE393AA984248B7F",
+    "latitude": 37.783706,
+    "longitude": -122.433009,
+    "name": "State Bird"
+  },
+  "swan-oyster-depot": {
+    "address": "1517 Polk St, San Francisco, CA 94109, United States",
+    "appleMapsID": "I537FD9A0749CF025",
+    "latitude": 37.790942,
+    "longitude": -122.420899,
+    "name": "Swan Oyster Depot"
+  },
+  "tadich-grill": {
+    "address": "240 California St, San Francisco, CA 94111, United States",
+    "appleMapsID": "IA52384CB900A0F",
+    "latitude": 37.793425,
+    "longitude": -122.399465,
+    "name": "Tadich Grill"
+  },
+  "tartine-bakery": {
+    "address": "600 Guerrero St, San Francisco, CA 94110, United States",
+    "appleMapsID": "IC3CACACBE6503201",
+    "latitude": 37.761447,
+    "longitude": -122.423979,
+    "name": "Tartine Bakery"
+  },
+  "trick-dog": {
+    "address": "3010 20th St, San Francisco, CA 94110, United States",
+    "appleMapsID": "I59CA888BFC207298",
+    "latitude": 37.759277,
+    "longitude": -122.411201,
+    "name": "Trick Dog"
+  },
+  "twin-peaks": {
+    "address": "501 Twin Peaks Blvd, San Francisco, CA 94131, United States",
+    "appleMapsID": "IEBF4A980100C815B",
+    "latitude": 37.754829,
+    "longitude": -122.446661,
+    "name": "Twin Peaks Parking"
+  },
+  "vesuvio": {
+    "address": "255 Columbus Ave, San Francisco, CA 94133, United States",
+    "appleMapsID": "I8590BA798A7D05B7",
+    "latitude": 37.797501,
+    "longitude": -122.406401,
+    "name": "Vesuvio Cafe"
+  },
+  "zuni-cafe": {
+    "address": "1658 Market St, San Francisco, CA 94102, United States",
+    "appleMapsID": "IA6C2791E402C8955",
+    "latitude": 37.77359,
+    "longitude": -122.421669,
+    "name": "Zuni Café"
+  }
+}

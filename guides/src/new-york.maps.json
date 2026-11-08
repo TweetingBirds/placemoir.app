@@ -1,0 +1,316 @@
+{
+  "apollo-theater": {
+    "address": "253 W 125th St, New York, NY 10027, United States",
+    "appleMapsID": "I62E5D0690802CA0E",
+    "latitude": 40.81004,
+    "longitude": -73.95005,
+    "name": "Apollo Theater"
+  },
+  "arlo-soho": {
+    "address": "231 Hudson St, New York, NY 10013, United States",
+    "appleMapsID": "I92BF9AAE9BA82327",
+    "latitude": 40.724495,
+    "longitude": -74.007942,
+    "name": "Arlo SoHo"
+  },
+  "barney-greengrass": {
+    "address": "541 Amsterdam Ave, New York, NY 10024, United States",
+    "appleMapsID": "I8E08B5403AB40092",
+    "latitude": 40.787963,
+    "longitude": -73.974584,
+    "name": "Barney Greengrass"
+  },
+  "bemelmans": {
+    "address": "35 E 76th St, New York, NY 10021, United States",
+    "appleMapsID": "IF3F348B720DB1CE0",
+    "latitude": 40.774422,
+    "longitude": -73.963172,
+    "name": "Bemelmans Bar"
+  },
+  "brooklyn-bridge": {
+    "address": "Brooklyn Bridge, New York, NY 10002, United States",
+    "appleMapsID": "I5B6CB5FF251B122D",
+    "latitude": 40.705862,
+    "longitude": -73.996561,
+    "name": "Brooklyn Bridge"
+  },
+  "brooklyn-bridge-park": {
+    "address": "334 Furman St, Brooklyn, NY 11201, United States",
+    "appleMapsID": "IE748C902395FB16D",
+    "latitude": 40.702277,
+    "longitude": -73.996418,
+    "name": "Brooklyn Bridge Park"
+  },
+  "brooklyn-museum": {
+    "address": "200 Eastern Pkwy, Brooklyn, NY 11238, United States",
+    "appleMapsID": "IA098E17F54D6CBE0",
+    "latitude": 40.671098,
+    "longitude": -73.963539,
+    "name": "Brooklyn Museum"
+  },
+  "bryant-park": {
+    "address": "40th and 42nd Streets & Fifth and Sixth Avenues, New York, NY 10018, United States",
+    "appleMapsID": "I6A88EC7F96378C6F",
+    "latitude": 40.753767,
+    "longitude": -73.983581,
+    "name": "Bryant Park"
+  },
+  "central-park": {
+    "address": "Central Park, Manhattan, New York, NY, United States",
+    "latitude": 40.79432,
+    "longitude": -73.954808,
+    "name": "Central Park"
+  },
+  "chelsea-market": {
+    "address": "75 9th Ave, New York, NY 10011, United States",
+    "appleMapsID": "IF002523577FB67C6",
+    "latitude": 40.742485,
+    "longitude": -74.006111,
+    "name": "Chelsea Market"
+  },
+  "dead-rabbit": {
+    "address": "30 Water St, New York, NY 10004, United States",
+    "appleMapsID": "IB38797AB109DC79F",
+    "latitude": 40.703227,
+    "longitude": -74.011014,
+    "name": "The Dead Rabbit"
+  },
+  "di-fara": {
+    "address": "1424 Avenue J, Brooklyn, NY 11230, United States",
+    "appleMapsID": "I91F6EAA2C22F13B2",
+    "latitude": 40.625048,
+    "longitude": -73.961515,
+    "name": "Di Fara Pizza"
+  },
+  "empire-state": {
+    "address": "20 W 34th St, New York, NY 10118, United States",
+    "appleMapsID": "IB88D8A181823BB67",
+    "latitude": 40.748479,
+    "longitude": -73.985411,
+    "name": "Empire State Building"
+  },
+  "gramercy-tavern": {
+    "address": "42 E 20th St, New York, NY 10003, United States",
+    "appleMapsID": "I92363027EA758DCD",
+    "latitude": 40.738437,
+    "longitude": -73.988414,
+    "name": "Gramercy Tavern"
+  },
+  "grand-central": {
+    "address": "New York, NY, United States",
+    "appleMapsID": "IAFDA14B18B9C940F",
+    "latitude": 40.7528,
+    "longitude": -73.977152,
+    "name": "Grand Central Terminal"
+  },
+  "grand-central-oyster-bar": {
+    "address": "89 E 42nd St, New York, NY 10017, United States",
+    "appleMapsID": "IF36F8FBCBD7663B0",
+    "latitude": 40.752632,
+    "longitude": -73.97728,
+    "name": "Grand Central Oyster Bar & Restaurant"
+  },
+  "guggenheim": {
+    "address": "1071 Fifth Ave, New York, NY 10128, United States",
+    "appleMapsID": "IEBE304ADC2DE5A5B",
+    "latitude": 40.782925,
+    "longitude": -73.959002,
+    "name": "The Solomon R. Guggenheim Foundation"
+  },
+  "joes-pizza": {
+    "address": "7 Carmine St, New York, NY 10014, United States",
+    "appleMapsID": "IF34F9A0D388083E",
+    "latitude": 40.730582,
+    "longitude": -74.002096,
+    "name": "Joe's Pizza"
+  },
+  "katzs": {
+    "address": "205 E Houston St, New York, NY 10002, United States",
+    "appleMapsID": "IBB4C75E7EBE40E08",
+    "latitude": 40.722363,
+    "longitude": -73.987361,
+    "name": "Katz's Delicatessen"
+  },
+  "levain-bakery": {
+    "address": "167 W 74th St, New York, NY 10023, United States",
+    "appleMapsID": "I6899F9E86A9EEF0F",
+    "latitude": 40.779958,
+    "longitude": -73.980322,
+    "name": "Levain Bakery"
+  },
+  "little-island": {
+    "address": "Park West 13th Street, New York, NY 10014, United States",
+    "appleMapsID": "I563D04DA454AD7A4",
+    "latitude": 40.742006,
+    "longitude": -74.010616,
+    "name": "Little Island"
+  },
+  "mcsorleys": {
+    "address": "15 E Seventh St, New York, NY 10003, United States",
+    "appleMapsID": "IEA8602A26C7B4A3F",
+    "latitude": 40.728759,
+    "longitude": -73.989705,
+    "name": "McSorley’s Old Ale House"
+  },
+  "moma": {
+    "address": "11 W 53rd St, New York, NY 10019, United States",
+    "appleMapsID": "I65A54A72CE9E45D6",
+    "latitude": 40.761508,
+    "longitude": -73.977587,
+    "name": "The Museum of Modern Art"
+  },
+  "natural-history": {
+    "address": "200 Central Park W, New York, NY 10024, United States",
+    "appleMapsID": "IF149E70A3B3C4CB2",
+    "latitude": 40.781017,
+    "longitude": -73.973366,
+    "name": "American Museum of Natural History"
+  },
+  "nom-wah": {
+    "address": "13 Doyers St, New York, NY 10013, United States",
+    "appleMapsID": "I7DB0D7CAE7BA2049",
+    "latitude": 40.714484,
+    "longitude": -73.998199,
+    "name": "Nom Wah"
+  },
+  "nypl": {
+    "address": "5th Ave & W 42nd St, New York, NY 10018, United States",
+    "appleMapsID": "I185F01895594C3BD",
+    "latitude": 40.753233,
+    "longitude": -73.982201,
+    "name": "New York Public Library - Wertheim Study"
+  },
+  "peter-luger": {
+    "address": "178 Broadway, Brooklyn, NY 11211, United States",
+    "appleMapsID": "IA1A439A8B0CF04E9",
+    "latitude": 40.709808,
+    "longitude": -73.962514,
+    "name": "Peter Luger Steak House"
+  },
+  "pod-times-square": {
+    "address": "400 W 42nd St, New York, NY 10036, United States",
+    "appleMapsID": "ID49441248AC86FBC",
+    "latitude": 40.758386,
+    "longitude": -73.993158,
+    "name": "Pod Times Square"
+  },
+  "prospect-park": {
+    "address": "95 Prospect Park W, Brooklyn, NY 11215, United States",
+    "appleMapsID": "I750F359E0334826B",
+    "latitude": 40.661041,
+    "longitude": -73.968445,
+    "name": "Prospect Park"
+  },
+  "russ-and-daughters": {
+    "address": "179 E Houston St, New York, NY 10002, United States",
+    "appleMapsID": "I312876BA30FC9CE2",
+    "latitude": 40.722555,
+    "longitude": -73.988277,
+    "name": "Russ & Daughters"
+  },
+  "standard-high-line": {
+    "address": "848 Washington St, New York, NY 10014, United States",
+    "appleMapsID": "I986501DB4378C86C",
+    "latitude": 40.740825,
+    "longitude": -74.008085,
+    "name": "The Standard Highline"
+  },
+  "staten-island-ferry": {
+    "address": "New York, NY, United States",
+    "appleMapsID": "I43E943A8F369F65C",
+    "latitude": 40.700513,
+    "longitude": -74.013388,
+    "name": "Whitehall Terminal"
+  },
+  "statue-of-liberty": {
+    "address": "Liberty Island, New York, NY 10004, United States",
+    "appleMapsID": "I2C4C04802A9624C1",
+    "latitude": 40.689266,
+    "longitude": -74.044524,
+    "name": "Statue of Liberty"
+  },
+  "sylvias": {
+    "address": "328 Malcolm X Blvd, New York, NY 10027, United States",
+    "appleMapsID": "I6F3E2254751F99B3",
+    "latitude": 40.808661,
+    "longitude": -73.944541,
+    "name": "Sylvia’s"
+  },
+  "tenement-museum": {
+    "address": "103 Orchard St, New York, NY 10002, United States",
+    "appleMapsID": "ICC2A20F04E7D3532",
+    "latitude": 40.718807,
+    "longitude": -73.990074,
+    "name": "Tenement Museum"
+  },
+  "the-cloisters": {
+    "address": "99 Margaret Corbin Drive, New York, NY 10040, United States",
+    "appleMapsID": "I17009B518087B64A",
+    "latitude": 40.864791,
+    "longitude": -73.931723,
+    "name": "The Met Cloisters"
+  },
+  "the-high-line": {
+    "address": "820 Washington St, New York, NY 10014, United States",
+    "appleMapsID": "IB45082C74C2DB19A",
+    "latitude": 40.747398,
+    "longitude": -74.005123,
+    "name": "High Line"
+  },
+  "the-met": {
+    "address": "1000 Fifth Ave, New York, NY 10028, United States",
+    "appleMapsID": "I521E602783BA9605",
+    "latitude": 40.779115,
+    "longitude": -73.962613,
+    "name": "The Metropolitan Museum of Art"
+  },
+  "the-plaza": {
+    "address": "768 Fifth Ave, New York, NY 10019, United States",
+    "appleMapsID": "I80519967861DC56F",
+    "latitude": 40.764638,
+    "longitude": -73.97432,
+    "name": "The Plaza"
+  },
+  "top-of-the-rock": {
+    "address": "30 Rockefeller Plaza, New York, NY 10112, United States",
+    "appleMapsID": "I6D5259C3C02D1A84",
+    "latitude": 40.759093,
+    "longitude": -73.979423,
+    "name": "Top of the Rock"
+  },
+  "veselka": {
+    "address": "144 2nd Ave, New York, NY 10003, United States",
+    "appleMapsID": "I5002A25A0C8563A",
+    "latitude": 40.72895,
+    "longitude": -73.987051,
+    "name": "Veselka"
+  },
+  "washington-square": {
+    "address": "5 Ave, Waverly Pl., W. 4 St. and Macdougal St., New York, NY 10012, United States",
+    "appleMapsID": "I65F59D82BC27B347",
+    "latitude": 40.730877,
+    "longitude": -73.997603,
+    "name": "Washington Square Park"
+  },
+  "whitney": {
+    "address": "99 Gansevoort St, New York, NY 10014, United States",
+    "appleMapsID": "I23F4D25D49B39659",
+    "latitude": 40.739557,
+    "longitude": -74.009083,
+    "name": "Whitney Museum of American Art"
+  },
+  "wythe-hotel": {
+    "address": "80 Wythe Ave, Williamsburg, NY 11249, United States",
+    "appleMapsID": "I5FC6F5773B597598",
+    "latitude": 40.722004,
+    "longitude": -73.958032,
+    "name": "Wythe Hotel"
+  },
+  "xian-famous-foods": {
+    "address": "45 Bayard St, New York, NY 10013, United States",
+    "appleMapsID": "IFAA8741BEB13A07D",
+    "latitude": 40.715082,
+    "longitude": -73.997349,
+    "name": "Xi'an Famous Foods"
+  }
+}

@@ -8,7 +8,8 @@ script turns it into, for every guide:
     guides/<slug>/guide.json               the library file Placemoir 1.1 downloads
     guides/<slug>/<slug>.placemoirarchive  the same file zipped, which Placemoir 1.0 opens from Files
 
-plus guides/index.html (the list of guides) and the guides block in sitemap.xml.
+plus guides/index.html (the list of guides), guides/index.json (the same list for the app's
+Guides list) and the guides block in sitemap.xml.
 
     python3 tools/guides.py build          # write everything (standard library only)
     python3 tools/guides.py check          # validate the sources; fail if the built files are stale
@@ -384,11 +385,43 @@ def sitemap(guides, current):
     return text.replace("</urlset>", block + "</urlset>", 1)
 
 
+def catalog_json(guides):
+    """guides/index.json: the published guides, for the Guides list in the app.
+
+    The app fetches this one static file when someone opens the list, and nothing else until
+    they pick a guide, so the list needs no account and tells the site nothing about them.
+    """
+    published = sorted((g for g in guides if g["status"] == "published"), key=lambda g: g["title"])
+    entries = []
+    for guide in published:
+        points = [(guide["_maps"].get(p["key"], {}).get("latitude", p["latitude"]),
+                   guide["_maps"].get(p["key"], {}).get("longitude", p["longitude"])) for p in guide["places"]]
+        entries.append({
+            "slug": guide["slug"],
+            "title": guide["title"],
+            "summary": guide["summary"],
+            "author": guide["author"],
+            "language": guide["language"],
+            "country": guide.get("country", ""),
+            "sections": guide["sections"],
+            "placeCount": len(guide["places"]),
+            "latitude": round(sum(p[0] for p in points) / len(points), 4),
+            "longitude": round(sum(p[1] for p in points) / len(points), 4),
+            "updatedAt": guide["updatedAt"],
+            "url": page_url(guide),
+            "guideURL": f"{page_url(guide)}guide.json",
+            "archiveURL": f"{page_url(guide)}{guide['slug']}.placemoirarchive",
+        })
+    catalog = {"format": "placemoir-guides", "formatVersion": 1,
+               "updatedAt": max((g["updatedAt"] for g in published), default=""), "guides": entries}
+    return json.dumps(catalog, indent=2, ensure_ascii=False) + "\n"
+
+
 # MARK: Commands
 
 def outputs(guides):
     """Every built text file, by path. The archives are compared by their library.json."""
-    files = {OUT / "index.html": index_page(guides)}
+    files = {OUT / "index.html": index_page(guides), OUT / "index.json": catalog_json(guides)}
     for guide in guides:
         folder = OUT / guide["slug"]
         files[folder / "index.html"] = guide_page(guide)
@@ -487,10 +520,25 @@ def one_line(lines):
     return re.sub(r"\s*\n\s*", ", ", re.sub(r"[ \t]+", " ", text)).strip()
 
 
+ORDINALS = {"first": "1st", "second": "2nd", "third": "3rd", "fourth": "4th", "fifth": "5th", "sixth": "6th",
+            "seventh": "7th", "eighth": "8th", "ninth": "9th", "tenth": "10th"}
+DIRECTIONS = {"n", "s", "e", "w", "ne", "nw", "se", "sw", "north", "south", "east", "west"}
+
+
 def street(address):
-    """("659", "peachtree") from "659 Peachtree St NE, …", or None without a street number."""
-    match = re.match(r"\s*(\d+[a-z]?)\s+([\w.']+)", address.lower())
-    return (match.group(1), match.group(2).replace(".", "")) if match else None
+    """("659", "peachtree") from "659 Peachtree St NE, …", or None without a street number.
+
+    Looks at each part of the address, so "The Ferry Building, 1 Ferry Building" works, and
+    reads "1622.5 N 45th St" and "1000 Fifth Ave" as ("1622", "45th") and ("1000", "5th").
+    """
+    for part in address.lower().split(","):
+        match = re.match(r"\s*(\d+)[\d./-]*[a-z]?\s+(.+)", part)
+        if not match:
+            continue
+        words = [w.replace(".", "") for w in match.group(2).split()]
+        words = [w for w in words if w not in DIRECTIONS and w != "1/2"] or words
+        return match.group(1), ORDINALS.get(words[0], words[0])
+    return None
 
 
 def judge(guide, place, result):
@@ -502,12 +550,14 @@ def judge(guide, place, result):
     if score < 0.6:
         return False, score, metres
     ours = street(place["address"])
-    if ours and metres <= STREET_RADIUS_METRES:
+    theirs = street(one_line(result.get("formattedAddressLines", [])))
+    if ours and theirs and metres <= STREET_RADIUS_METRES:
         # A street address decides it: the same number on the same street, wherever the pin is.
         # This keeps "Sweet Auburn Curb Market" from matching a train station of a similar name.
-        return street(one_line(result.get("formattedAddressLines", []))) == ours, score, metres
-    # No street number (a trail, a big park): only a close name, near where the source says.
-    return not ours and score >= 0.9 and metres <= SEARCH_RADIUS_METRES, score, metres
+        return theirs == ours, score, metres
+    # No street number on one side (a trail, a big park, a station Apple lists without one):
+    # only a close name, near where the source says.
+    return score >= 0.9 and metres <= SEARCH_RADIUS_METRES, score, metres
 
 
 def maps(slugs):
@@ -526,8 +576,9 @@ def maps(slugs):
                 if "latitude" not in (result.get("coordinate") or {}):
                     continue
                 fits, score, metres = judge(guide, place, result)
+                coordinate = result["coordinate"]
                 seen.append(f"{result.get('name', '?')} ({one_line(result.get('formattedAddressLines', []))}, "
-                            f"{round(metres)} m, name {score:.2f})")
+                            f"{round(metres)} m, name {score:.2f}, at {coordinate['latitude']:.4f},{coordinate['longitude']:.4f})")
                 if fits and (best is None or (score, -metres) > best[0]):
                     best = ((score, -metres), result, metres)
             if best is None:
