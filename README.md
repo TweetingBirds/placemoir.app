@@ -57,7 +57,7 @@ python3 tools/i18n.py review /path/to/folder   # side-by-side English/translatio
 - After you change English copy on a translated page (only `index.html` for now), run `sync`, fill in the new strings, then `build`. A string without a translation falls back to English, and `check` lists it.
 - Each language file has `"status": "draft"` or `"reviewed"`. Draft pages are built and served, with `noindex`, so reviewers can read them on the live site, but they stay out of the language list, hreflang and the sitemap until a native speaker has checked them and the status is `reviewed`. With no reviewed language, the English pages show no language list or globe at all.
 - Translated pages keep US-only facts out: no US prices (the App Store shows the local one). Legal pages, the archive spec and other inner pages stay in English for now; translated pages link to them.
-- Japanese and Traditional Chinese use the system fonts (Hiragino, PingFang TC) and are never set in italic; see the end of `site.css`. The App Store badge is still the English one on every page.
+- Japanese and Traditional Chinese use the system fonts (Hiragino, PingFang TC) and are never set in italic; see the end of `site.css`. Each language uses Apple's own localized black badge from `images/badges/app-store-<lang>.svg` (from Apple's marketing badge kit, unaltered; Latin American Spanish uses Apple's Mexico badge). A language without one falls back to the English badge.
 - Don't edit inside the `<!-- i18n:... -->` markers in the English pages; `build` rewrites them.
 
 ## App Store links

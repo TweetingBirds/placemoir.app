@@ -1,0 +1,268 @@
+{
+  "acl-live": {
+    "address": "310 W Willie Nelson Blvd, Austin, TX 78701, United States",
+    "appleMapsID": "I85BE09F305F79B7B",
+    "latitude": 30.265273,
+    "longitude": -97.747102,
+    "name": "Austin City Limits Live at The Moody Theater"
+  },
+  "antones": {
+    "address": "305 E Fifth St, Austin, TX 78701, United States",
+    "appleMapsID": "I8363C3ABA06F553F",
+    "latitude": 30.2662,
+    "longitude": -97.740379,
+    "name": "Antone's Nightclub"
+  },
+  "austin-motel": {
+    "address": "1220 S Congress Ave, Austin, TX 78704, United States",
+    "appleMapsID": "I9F6F86C444EFF266",
+    "latitude": 30.251748,
+    "longitude": -97.749094,
+    "name": "Austin Motel"
+  },
+  "barton-springs": {
+    "address": "2131 William Barton Dr, Austin, TX 78746, United States",
+    "appleMapsID": "I8281EDAE093A6E36",
+    "latitude": 30.263752,
+    "longitude": -97.770671,
+    "name": "Barton Springs Pool"
+  },
+  "blanton": {
+    "address": "200 E Martin Luther King Jr Blvd, Austin, TX 78712, United States",
+    "appleMapsID": "I73544B43846AA2C6",
+    "latitude": 30.281006,
+    "longitude": -97.737706,
+    "name": "Blanton Museum of Art"
+  },
+  "broken-spoke": {
+    "address": "3201 S Lamar Blvd, Austin, TX 78704, United States",
+    "appleMapsID": "I45745517A8EECD98",
+    "latitude": 30.240865,
+    "longitude": -97.785179,
+    "name": "Broken Spoke"
+  },
+  "bullock-museum": {
+    "address": "1800 N Congress Ave, Austin, TX 78701, United States",
+    "appleMapsID": "ID2BFB5C33DD59EED",
+    "latitude": 30.280304,
+    "longitude": -97.73914,
+    "name": "Bullock Texas State History Museum"
+  },
+  "congress-bridge-bats": {
+    "address": "Congress Avenue, Austin, TX 78704, United States",
+    "appleMapsID": "IAB7822877235A890",
+    "latitude": 30.26131,
+    "longitude": -97.745297,
+    "name": "Ann W. Richards Congress Avenue Bridge"
+  },
+  "continental-club": {
+    "address": "1315 S Congress Ave, Austin, TX 78704, United States",
+    "appleMapsID": "I7A84901D6EA21240",
+    "latitude": 30.250516,
+    "longitude": -97.749076,
+    "name": "The Continental Club"
+  },
+  "cosmic-coffee": {
+    "address": "121 Pickle Rd, Ste 111, Austin, TX 78704, United States",
+    "appleMapsID": "IE02F63E157324283",
+    "latitude": 30.2268,
+    "longitude": -97.762538,
+    "name": "Cosmic"
+  },
+  "elisabet-ney": {
+    "address": "304 E 44th St, Austin, TX 78751, United States",
+    "appleMapsID": "IAF831277CA55722D",
+    "latitude": 30.306648,
+    "longitude": -97.726289,
+    "name": "Elisabet Ney Museum"
+  },
+  "franklin-bbq": {
+    "address": "900 E 11th St, Austin, TX 78702, United States",
+    "appleMapsID": "IAA409CDF9D3555A9",
+    "latitude": 30.270084,
+    "longitude": -97.731279,
+    "name": "Franklin Barbecue"
+  },
+  "hamilton-pool": {
+    "address": "24300 Hamilton Pool Road, Dripping Springs, TX 78620, United States",
+    "appleMapsID": "IA42AE1E29F930C82",
+    "latitude": 30.342687,
+    "longitude": -98.132388,
+    "name": "Hamilton Pool Preserve"
+  },
+  "harry-ransom-center": {
+    "address": "300 W 21st St, Austin, TX 78712, United States",
+    "appleMapsID": "I98D13E3D5196C718",
+    "latitude": 30.284245,
+    "longitude": -97.741092,
+    "name": "Harry Ransom Center"
+  },
+  "hotel-saint-cecilia": {
+    "address": "112 Academy Dr, Austin, TX 78704, United States",
+    "appleMapsID": "IA940825AF50DD077",
+    "latitude": 30.252078,
+    "longitude": -97.74727,
+    "name": "Hotel Saint Cecilia"
+  },
+  "hotel-san-jose": {
+    "address": "1316 S Congress Ave, Austin, TX 78704, United States",
+    "appleMapsID": "IC6FA461C56A1869B",
+    "latitude": 30.250608,
+    "longitude": -97.749548,
+    "name": "Hotel San José"
+  },
+  "joes-bakery": {
+    "address": "2305 E 7th St, Austin, TX 78702, United States",
+    "appleMapsID": "I9DB5C238BE320B0C",
+    "latitude": 30.261067,
+    "longitude": -97.716689,
+    "name": "Joe's Bakery & Coffee Shop"
+  },
+  "jos-coffee": {
+    "address": "1300 S Congress Ave, Austin, TX 78704, United States",
+    "appleMapsID": "I5E1BB5F180C48E9A",
+    "latitude": 30.251084,
+    "longitude": -97.749345,
+    "name": "Jo's Hot Coffee Good Food"
+  },
+  "juan-in-a-million": {
+    "address": "2300 E Cesar Chavez St, Austin, TX 78702, United States",
+    "appleMapsID": "I1EB279307D47B17E",
+    "latitude": 30.255311,
+    "longitude": -97.719148,
+    "name": "Juan In A Million"
+  },
+  "kerbey-lane": {
+    "address": "3704 Kerbey Ln, Austin, TX 78731, United States",
+    "appleMapsID": "I85B2292CC148DD58",
+    "latitude": 30.307898,
+    "longitude": -97.750476,
+    "name": "Kerbey Lane Cafe"
+  },
+  "la-barbecue": {
+    "address": "2401 E Cesar Chavez, Austin, TX 78702, United States",
+    "appleMapsID": "ID27477247784E9FB",
+    "latitude": 30.254485,
+    "longitude": -97.717601,
+    "name": "la Barbecue"
+  },
+  "lady-bird-trail": {
+    "address": "Austin, TX 78741, United States",
+    "appleMapsID": "I8DE9B8658328FA7E",
+    "latitude": 30.26592,
+    "longitude": -97.75896,
+    "name": "Ann and Roy Butler Hike-and-Bike Trail"
+  },
+  "lbj-library": {
+    "address": "2313 Red River St, Austin, TX 78705, United States",
+    "appleMapsID": "I5506F336B40B68AA",
+    "latitude": 30.285732,
+    "longitude": -97.72932,
+    "name": "LBJ Presidential Library"
+  },
+  "lick": {
+    "address": "1100 S Lamar Blvd, Austin, TX 78704, United States",
+    "appleMapsID": "I66D37E754CC0DF82",
+    "latitude": 30.255502,
+    "longitude": -97.762555,
+    "name": "Lick Honest Ice Creams"
+  },
+  "matts-el-rancho": {
+    "address": "2613 S Lamar Blvd, Austin, TX 78704, United States",
+    "appleMapsID": "I47AFBCD8424FAAAE",
+    "latitude": 30.245138,
+    "longitude": -97.77924,
+    "name": "Matt’s El Rancho"
+  },
+  "mckinney-falls": {
+    "address": "5808 McKinney Falls Pkwy, Austin, TX 78744, United States",
+    "appleMapsID": "I16A0B0F52E9D2F0D",
+    "latitude": 30.183504,
+    "longitude": -97.722176,
+    "name": "McKinney Falls State Park"
+  },
+  "mexic-arte": {
+    "address": "419 Congress Ave, Austin, TX 78701, United States",
+    "appleMapsID": "IC5C694B6709AE2C4",
+    "latitude": 30.26686,
+    "longitude": -97.742899,
+    "name": "Mexic-Arte Museum"
+  },
+  "mount-bonnell": {
+    "address": "3800 Mount Bonnell Rd, Austin, TX 78731, United States",
+    "appleMapsID": "I83ADFC4DE5AAF9C1",
+    "latitude": 30.321216,
+    "longitude": -97.773359,
+    "name": "Mount Bonnell"
+  },
+  "odd-duck": {
+    "address": "1201 S Lamar Blvd, Austin, TX 78704, United States",
+    "appleMapsID": "I4F9E8CBEF61773D2",
+    "latitude": 30.25467,
+    "longitude": -97.762012,
+    "name": "Odd Duck"
+  },
+  "state-capitol": {
+    "address": "1100 Congress Ave, Austin, TX 78701, United States",
+    "appleMapsID": "IDD1DFFF779F59C00",
+    "latitude": 30.274672,
+    "longitude": -97.740383,
+    "name": "Texas State Capitol"
+  },
+  "terry-blacks": {
+    "address": "1003 Barton Springs Rd, Austin, TX 78704, United States",
+    "appleMapsID": "I4E0FCE12CF3F918B",
+    "latitude": 30.259805,
+    "longitude": -97.754764,
+    "name": "Terry Black's BBQ"
+  },
+  "the-driskill": {
+    "address": "604 Brazos St, Austin, TX 78701, United States",
+    "appleMapsID": "I18E19B7BEF8E2462",
+    "latitude": 30.267975,
+    "longitude": -97.741655,
+    "name": "The Driskill"
+  },
+  "uchi": {
+    "address": "801 S Lamar Blvd, Austin, TX 78704, United States",
+    "appleMapsID": "I2E8A9418A5077CA5",
+    "latitude": 30.257541,
+    "longitude": -97.759796,
+    "name": "Uchi"
+  },
+  "umlauf": {
+    "address": "605 Azie Morton Rd, Austin, TX 78704, United States",
+    "appleMapsID": "I2DAC753482623D99",
+    "latitude": 30.263247,
+    "longitude": -97.766132,
+    "name": "The UMLAUF Sculpture Garden + Museum"
+  },
+  "veracruz": {
+    "address": "2505 Webberville Rd, Austin, TX 78702, United States",
+    "appleMapsID": "IE453BE05BB6824E4",
+    "latitude": 30.262927,
+    "longitude": -97.713776,
+    "name": "Veracruz All Natural"
+  },
+  "white-horse": {
+    "address": "500 Comal St, Austin, TX 79702, United States",
+    "appleMapsID": "I5D974761E7911C81",
+    "latitude": 30.262554,
+    "longitude": -97.727074,
+    "name": "The White Horse"
+  },
+  "wildflower-center": {
+    "address": "4801 La Crosse Ave, Austin, TX 78739, United States",
+    "appleMapsID": "I523ABBCC1383FF0C",
+    "latitude": 30.185858,
+    "longitude": -97.873314,
+    "name": "Lady Bird Johnson Wildflower Center"
+  },
+  "zilker-park": {
+    "address": "2100 Barton Springs Rd, Austin, TX 78704, United States",
+    "appleMapsID": "I72764CDFBAAD7344",
+    "latitude": 30.26611,
+    "longitude": -97.770939,
+    "name": "Zilker Metropolitan Park"
+  }
+}

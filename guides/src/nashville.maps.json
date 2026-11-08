@@ -1,0 +1,268 @@
+{
+  "arnolds": {
+    "address": "605 8th Ave S, Nashville, TN 37203, United States",
+    "appleMapsID": "IB4995143849FE3",
+    "latitude": 36.151403,
+    "longitude": -86.779415,
+    "name": "Arnold's Country Kitchen"
+  },
+  "barista-parlor": {
+    "address": "519B Gallatin Ave, Nashville, TN 37206, United States",
+    "appleMapsID": "IDEFECCB884D42BE3",
+    "latitude": 36.182356,
+    "longitude": -86.748513,
+    "name": "Barista Parlor"
+  },
+  "belle-meade": {
+    "address": "110 Leake Ave, Nashville, TN 37205, United States",
+    "appleMapsID": "I6A960F4788E1AED8",
+    "latitude": 36.104955,
+    "longitude": -86.864728,
+    "name": "Belle Meade Historic Site & Winery"
+  },
+  "bicentennial-mall": {
+    "address": "600 James Robertson Pkwy, Nashville, TN 37243, United States",
+    "appleMapsID": "I557DFECDA59ECBF2",
+    "latitude": 36.16865,
+    "longitude": -86.786001,
+    "name": "Bicentennial Capitol Mall State Park"
+  },
+  "biscuit-love": {
+    "address": "316 11th Ave S, Nashville, TN 37203, United States",
+    "appleMapsID": "I2ADE591F87DB6F1C",
+    "latitude": 36.153063,
+    "longitude": -86.783218,
+    "name": "Biscuit Love"
+  },
+  "bluebird-cafe": {
+    "address": "4104 Hillsboro Pike, Nashville, TN 37215, United States",
+    "appleMapsID": "IB6D1962DC7196976",
+    "latitude": 36.102111,
+    "longitude": -86.81691,
+    "name": "The Bluebird Cafe"
+  },
+  "boltons": {
+    "address": "624 Main St, Nashville, TN 37204, United States",
+    "appleMapsID": "IA0DA53E6B37DE28F",
+    "latitude": 36.174071,
+    "longitude": -86.761453,
+    "name": "Bolton's Famous Hot Chicken & Fish"
+  },
+  "centennial-park": {
+    "address": "2500 West End Ave, Nashville, TN 37203, United States",
+    "appleMapsID": "I5836BFAA5913199A",
+    "latitude": 36.14845,
+    "longitude": -86.812459,
+    "name": "Centennial Park"
+  },
+  "cheekwood": {
+    "address": "1200 Forrest Park Dr, Nashville, TN 37205, United States",
+    "appleMapsID": "I7682EA729FC900BB",
+    "latitude": 36.087302,
+    "longitude": -86.874646,
+    "name": "Cheekwood Estate & Gardens"
+  },
+  "country-music-hof": {
+    "address": "222 Rep John Lewis Way S, Nashville, TN 37203, United States",
+    "appleMapsID": "I9C15C4713101F754",
+    "latitude": 36.158096,
+    "longitude": -86.776087,
+    "name": "Country Music Hall of Fame and Museum"
+  },
+  "frist": {
+    "address": "919 Broadway, Nashville, TN 37203, United States",
+    "appleMapsID": "I58FFB9B33D9748CC",
+    "latitude": 36.157527,
+    "longitude": -86.783583,
+    "name": "Frist Art Museum"
+  },
+  "graduate-nashville": {
+    "address": "101 20th Ave N, Nashville, TN 37203, United States",
+    "appleMapsID": "I842E852066D28321",
+    "latitude": 36.151555,
+    "longitude": -86.799996,
+    "name": "Graduate by Hilton Nashville"
+  },
+  "grand-ole-opry": {
+    "address": "600 Opry Mills Dr, Nashville, TN 37214, United States",
+    "appleMapsID": "I9D7949CA040B58BD",
+    "latitude": 36.206832,
+    "longitude": -86.692203,
+    "name": "Opry"
+  },
+  "hattie-bs": {
+    "address": "112 19th Ave S, Nashville, TN 37203, United States",
+    "appleMapsID": "IF89047B9536E8901",
+    "latitude": 36.151402,
+    "longitude": -86.796569,
+    "name": "Hattie B's Hot Chicken"
+  },
+  "hermitage-hotel": {
+    "address": "231 Sixth Ave N, Nashville, TN 37219, United States",
+    "appleMapsID": "IDB92C9D497612B67",
+    "latitude": 36.16368,
+    "longitude": -86.78231,
+    "name": "The Hermitage Hotel"
+  },
+  "husk": {
+    "address": "37 Rutledge St, Nashville, TN 37210, United States",
+    "appleMapsID": "I42133447B34E7146",
+    "latitude": 36.155293,
+    "longitude": -86.769902,
+    "name": "Husk"
+  },
+  "johnny-cash-museum": {
+    "address": "119 3rd Ave S, Nashville, TN 37201, United States",
+    "appleMapsID": "I91E89FAE97C55B2C",
+    "latitude": 36.160833,
+    "longitude": -86.77584,
+    "name": "Johnny Cash Museum"
+  },
+  "loveless-cafe": {
+    "address": "8400 Highway 100, Nashville, TN 37221, United States",
+    "appleMapsID": "I7A8AABA6A56838CF",
+    "latitude": 36.035253,
+    "longitude": -86.972065,
+    "name": "The Loveless Cafe"
+  },
+  "martins-bbq": {
+    "address": "410 4th Ave S, Nashville, TN 37201, United States",
+    "appleMapsID": "I343CFC3D16EBB5AE",
+    "latitude": 36.156738,
+    "longitude": -86.774078,
+    "name": "Martin's Bar-B-Que Joint"
+  },
+  "mas-tacos": {
+    "address": "732 McFerrin Ave, Nashville, TN 37206, United States",
+    "appleMapsID": "I88D6362A122F2501",
+    "latitude": 36.184736,
+    "longitude": -86.754677,
+    "name": "Mas Tacos Por Favor"
+  },
+  "nmaam": {
+    "address": "510 Broadway, Nashville, TN 37203, United States",
+    "appleMapsID": "I6845DA94B19BEFE6",
+    "latitude": 36.160529,
+    "longitude": -86.779032,
+    "name": "National Museum of African American Music"
+  },
+  "noelle": {
+    "address": "200 Fourth Ave N, Nashville, TN 37219, United States",
+    "appleMapsID": "I1152BBF46E6A87C2",
+    "latitude": 36.163963,
+    "longitude": -86.778739,
+    "name": "Noelle"
+  },
+  "pancake-pantry": {
+    "address": "1796 21st Ave S, Nashville, TN 37212, United States",
+    "appleMapsID": "I64386B91A71A1802",
+    "latitude": 36.137017,
+    "longitude": -86.800635,
+    "name": "The Pancake Pantry"
+  },
+  "patterson-house": {
+    "address": "1711 Division St, Nashville, TN 37203, United States",
+    "appleMapsID": "I116A513CB5F0001C",
+    "latitude": 36.151279,
+    "longitude": -86.794065,
+    "name": "The Patterson House"
+  },
+  "pedestrian-bridge": {
+    "address": "American Prisoner of War Pathway, Nashville, TN 37201, United States",
+    "appleMapsID": "I5CB66A93AC1DFE42",
+    "latitude": 36.16227,
+    "longitude": -86.771918,
+    "name": "John Seigenthaler Pedestrian Bridge"
+  },
+  "princes": {
+    "address": "5814 Nolensville Pike, Nashville, TN 37211, United States",
+    "appleMapsID": "I15F9564808CD77CF",
+    "latitude": 36.043864,
+    "longitude": -86.712266,
+    "name": "Prince's Hot Chicken"
+  },
+  "radnor-lake": {
+    "address": "1160 Otter Creek Rd, Nashville, TN 37220, United States",
+    "appleMapsID": "I6BA913C29CA1C9CB",
+    "latitude": 36.063181,
+    "longitude": -86.809593,
+    "name": "Radnor Lake State Park"
+  },
+  "roberts-western-world": {
+    "address": "416 Broadway, Unit B, Nashville, TN 37203, United States",
+    "appleMapsID": "I71B27816BBA53A02",
+    "latitude": 36.160828,
+    "longitude": -86.777976,
+    "name": "Robert's Western World"
+  },
+  "rolf-and-daughters": {
+    "address": "700 Taylor St, Nashville, TN 37208, United States",
+    "appleMapsID": "ID7C41000B59A55C8",
+    "latitude": 36.177536,
+    "longitude": -86.792845,
+    "name": "Rolf and Daughters"
+  },
+  "ryman": {
+    "address": "116 Rep. John Lewis Way N, Nashville, TN 37219, United States",
+    "appleMapsID": "IDBB669433DEC1247",
+    "latitude": 36.161305,
+    "longitude": -86.778361,
+    "name": "Ryman Auditorium"
+  },
+  "shelby-bottoms": {
+    "address": "Nashville, TN 37206, United States",
+    "appleMapsID": "I4BC8672C9D8151D9",
+    "latitude": 36.165666,
+    "longitude": -86.723778,
+    "name": "Shelby Bottoms Greenway"
+  },
+  "state-capitol": {
+    "address": "600 Dr Martin L King Jr Blvd, Nashville, TN 37243, United States",
+    "appleMapsID": "IAF3EB025A656778B",
+    "latitude": 36.165791,
+    "longitude": -86.784057,
+    "name": "Tennessee State Capitol"
+  },
+  "station-inn": {
+    "address": "402 12th Ave S, Nashville, TN 37203, United States",
+    "appleMapsID": "IB55B41B46B3D36A5",
+    "latitude": 36.152515,
+    "longitude": -86.784598,
+    "name": "Station Inn"
+  },
+  "the-hermitage": {
+    "address": "4580 Rachels Ln, Nashville, TN 37076, United States",
+    "appleMapsID": "I9F549C05DEA48F29",
+    "latitude": 36.215012,
+    "longitude": -86.612992,
+    "name": "Andrew Jackson's Hermitage"
+  },
+  "the-parthenon": {
+    "address": "2500 West End Ave, Nashville, TN 37203, United States",
+    "appleMapsID": "I49923BC27532CD4F",
+    "latitude": 36.149662,
+    "longitude": -86.813439,
+    "name": "The Parthenon"
+  },
+  "tootsies": {
+    "address": "422 Broadway, Nashville, TN 37203, United States",
+    "appleMapsID": "IB72EF72C2E4EF8BF",
+    "latitude": 36.160792,
+    "longitude": -86.77821,
+    "name": "Tootsies Orchid Lounge"
+  },
+  "union-station-hotel": {
+    "address": "1001 Broadway, Nashville, TN 37203, United States",
+    "appleMapsID": "IFED20D5E7147209B",
+    "latitude": 36.157337,
+    "longitude": -86.784638,
+    "name": "The Union Station Nashville Yards, Autograph Collection"
+  },
+  "warner-parks": {
+    "address": "50 Vaughn Rd, Nashville, TN 37221, United States",
+    "appleMapsID": "I13E5B1F5DCB088B9",
+    "latitude": 36.068581,
+    "longitude": -86.885097,
+    "name": "Warner Parks"
+  }
+}
