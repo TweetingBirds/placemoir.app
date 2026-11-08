@@ -536,7 +536,7 @@ def street(address):
         if not match:
             continue
         words = [w.replace(".", "") for w in match.group(2).split()]
-        words = [w for w in words if w not in DIRECTIONS and w != "1/2"] or words
+        words = [w for w in words if w not in DIRECTIONS and w not in {"1/2", "&", "and"} and not w.isdigit()] or words
         return match.group(1), ORDINALS.get(words[0], words[0])
     return None
 

@@ -241,19 +241,6 @@
       "section": "Eat"
     },
     {
-      "id": "guide:orlando/courtesy-bar",
-      "name": "The Courtesy Bar",
-      "category": "bar",
-      "address": "114 N Orange Ave, Orlando, FL 32801",
-      "locality": "Downtown",
-      "country": "United States",
-      "latitude": 28.543,
-      "longitude": -81.379,
-      "wantToGo": true,
-      "notes": "Downtown's best cocktail bar, small and friendly.",
-      "section": "Eat"
-    },
-    {
       "id": "guide:orlando/wallys",
       "name": "Wally's Mills Ave Liquors",
       "category": "bar",
@@ -335,11 +322,11 @@
       "id": "guide:orlando/epic-universe",
       "name": "Universal Epic Universe",
       "category": "attraction",
-      "address": "Universal Blvd, Orlando, FL 32819",
+      "address": "1001 Epic Blvd, Orlando, FL 32819",
       "locality": "Universal",
       "country": "United States",
-      "latitude": 28.4734,
-      "longitude": -81.4448,
+      "latitude": 28.4403,
+      "longitude": -81.4478,
       "wantToGo": true,
       "notes": "Universal's newest park, with worlds for Nintendo, dragons and Harry Potter's Ministry of Magic.",
       "section": "See"
@@ -459,19 +446,6 @@
       "longitude": -81.3565,
       "wantToGo": true,
       "notes": "Fifty acres of camellias, roses and huge oaks draped in Spanish moss.",
-      "section": "Outside"
-    },
-    {
-      "id": "guide:orlando/central-park-winter-park",
-      "name": "Central Park",
-      "category": "park",
-      "address": "251 S Park Ave, Winter Park, FL 32789",
-      "locality": "Winter Park",
-      "country": "United States",
-      "latitude": 28.5975,
-      "longitude": -81.3515,
-      "wantToGo": true,
-      "notes": "A green square along Park Avenue, with the Amtrak trains rolling by. Saturday farmers market nearby.",
       "section": "Outside"
     },
     {

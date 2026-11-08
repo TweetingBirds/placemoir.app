@@ -46,16 +46,16 @@
       "section": "Stay"
     },
     {
-      "id": "guide:kansas-city/21c-kansas-city",
-      "name": "21c Museum Hotel Kansas City",
+      "id": "guide:kansas-city/the-fontaine",
+      "name": "The Fontaine",
       "category": "hotel",
-      "address": "219 W 9th St, Kansas City, MO 64105",
-      "locality": "Downtown",
+      "address": "901 W 48th St, Kansas City, MO 64112",
+      "locality": "Country Club Plaza",
       "country": "United States",
-      "latitude": 39.1036,
-      "longitude": -94.586,
+      "latitude": 39.0397,
+      "longitude": -94.5948,
       "wantToGo": true,
-      "notes": "A hotel with a free contemporary art museum inside, in the old Savoy building.",
+      "notes": "A modern hotel on the Plaza with a rooftop pool and bar looking over the fountains.",
       "section": "Stay"
     },
     {
@@ -140,11 +140,11 @@
       "id": "guide:kansas-city/lcs",
       "name": "LC's Bar-B-Q",
       "category": "restaurant",
-      "address": "5800 Blue Pkwy, Kansas City, MO 64129",
+      "address": "5800 Dr Martin Luther King Jr Blvd, Kansas City, MO 64129",
       "locality": "East Kansas City",
       "country": "United States",
-      "latitude": 39.0249,
-      "longitude": -94.5258,
+      "latitude": 39.0348,
+      "longitude": -94.5175,
       "wantToGo": true,
       "notes": "A smoky little room with a pit you can see from the door. Burnt ends on white bread.",
       "section": "Eat"
@@ -160,19 +160,6 @@
       "longitude": -94.5835,
       "wantToGo": true,
       "notes": "Japanese-influenced plates with live jazz in the supper club, or the tasting room for a splurge.",
-      "section": "Eat"
-    },
-    {
-      "id": "guide:kansas-city/bluestem",
-      "name": "Bluestem",
-      "category": "restaurant",
-      "address": "900 Westport Rd, Kansas City, MO 64111",
-      "locality": "Westport",
-      "country": "United States",
-      "latitude": 39.0533,
-      "longitude": -94.596,
-      "wantToGo": true,
-      "notes": "A long-running fine-dining spot in Westport. The lounge has a shorter menu for walk-ins.",
       "section": "Eat"
     },
     {
@@ -400,7 +387,7 @@
       "id": "guide:kansas-city/country-club-plaza",
       "name": "Country Club Plaza",
       "category": "attraction",
-      "address": "4745 Central St, Kansas City, MO 64112",
+      "address": "4706 Broadway Blvd, Kansas City, MO 64112",
       "locality": "Country Club Plaza",
       "country": "United States",
       "latitude": 39.0414,
@@ -426,7 +413,7 @@
       "id": "guide:kansas-city/truman-library",
       "name": "Harry S. Truman Library and Museum",
       "category": "museum",
-      "address": "500 W US Hwy 24, Independence, MO 64050",
+      "address": "500 W US-24, Independence, MO 64050",
       "locality": "Independence",
       "country": "United States",
       "latitude": 39.1042,
@@ -485,19 +472,6 @@
       "longitude": -94.587,
       "wantToGo": true,
       "notes": "Rolling lawns below the WWI memorial, with the best view of the downtown skyline.",
-      "section": "Outside"
-    },
-    {
-      "id": "guide:kansas-city/berkley-riverfront",
-      "name": "Berkley Riverfront Park",
-      "category": "park",
-      "address": "1300 Riverfront Dr, Kansas City, MO 64120",
-      "locality": "Riverfront",
-      "country": "United States",
-      "latitude": 39.117,
-      "longitude": -94.57,
-      "wantToGo": true,
-      "notes": "A riverside trail and dog park along the Missouri River, a short walk from River Market.",
       "section": "Outside"
     },
     {

@@ -112,7 +112,7 @@
     },
     {
       "id": "guide:boston/regina-pizzeria",
-      "name": "Pizzeria Regina",
+      "name": "Regina Pizzeria",
       "category": "restaurant",
       "address": "11 1/2 Thacher St, Boston, MA 02113",
       "locality": "North End",
@@ -173,19 +173,6 @@
       "longitude": -71.048,
       "wantToGo": true,
       "notes": "A working-class oyster bar in the Seaport, with a great beer list.",
-      "section": "Eat"
-    },
-    {
-      "id": "guide:boston/island-creek",
-      "name": "Island Creek Oyster Bar",
-      "category": "restaurant",
-      "address": "500 Commonwealth Ave, Boston, MA 02215",
-      "locality": "Kenmore",
-      "country": "United States",
-      "latitude": 42.3487,
-      "longitude": -71.0956,
-      "wantToGo": true,
-      "notes": "Oysters from the restaurant's own Duxbury farm. Handy before a Red Sox game.",
       "section": "Eat"
     },
     {
