@@ -2,7 +2,8 @@ name: Guides
 
 # Checks the Want to go guides in guides/src/ (see tools/guides.py):
 # - check: the sources are valid and the built pages and files are up to date.
-# - maps: every place is found in Apple Maps where the guide says it is. On a pull request, a
+# - maps: every place is found in Apple Maps where the guide says it is. A pull request or push looks
+#   up only the guides it changes (all of them if it changes tools/guides.py). On a pull request, a
 #   change to guides/src/<slug>.maps.json fails the job and is uploaded as an artifact to commit.
 #   Once a month the same check runs on main and opens an issue when a place has closed or moved.
 #
@@ -35,6 +36,7 @@ jobs:
     # Secrets aren't passed to pull requests from forks.
     if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-24.04
+    timeout-minutes: 20
     permissions:
       contents: read
       issues: write
@@ -44,14 +46,36 @@ jobs:
       APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID || vars.APPLE_TEAM_ID }}
     steps:
       - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      # A pull request or a push to main looks up only the guides it changes, unless it changes
+      # the matching itself (tools/guides.py); the monthly run looks up every guide.
+      - name: Choose guides to look up
+        id: which
+        run: |
+          case "${{ github.event_name }}" in
+            pull_request) changed=$(git diff --name-only "origin/${{ github.base_ref }}...HEAD") ;;
+            push) changed=$(git diff --name-only "${{ github.event.before }}" HEAD 2>/dev/null || echo tools/guides.py) ;;
+            *) echo "slugs=" >> "$GITHUB_OUTPUT"; echo "run=true" >> "$GITHUB_OUTPUT"; exit 0 ;;
+          esac
+          if echo "$changed" | grep -qx "tools/guides.py"; then
+            echo "slugs=" >> "$GITHUB_OUTPUT"; echo "run=true" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          slugs=$(echo "$changed" | sed -n 's#^guides/src/\([a-z0-9-]*\)\(\.maps\)\{0,1\}\.json$#\1#p' | sort -u | tr '\n' ' ')
+          for slug in $slugs; do [ -f "guides/src/$slug.json" ] || slugs=$(echo " $slugs " | sed "s/ $slug / /"); done
+          echo "slugs=$slugs" >> "$GITHUB_OUTPUT"
+          if [ -n "$(echo $slugs)" ]; then echo "run=true" >> "$GITHUB_OUTPUT"; else echo "run=false" >> "$GITHUB_OUTPUT"; fi
+          echo "Guides to look up: ${slugs:-none}"
       # A venv, because the runner's system Python refuses pip installs (PEP 668).
-      - name: Look up every place in Apple Maps
+      - name: Look up places in Apple Maps
         id: maps
+        if: steps.which.outputs.run == 'true'
+        timeout-minutes: 15
         run: |
           python3 -m venv "$RUNNER_TEMP/maps"
-          "$RUNNER_TEMP/maps/bin/pip" install --quiet pyjwt cryptography
+          "$RUNNER_TEMP/maps/bin/pip" install --quiet --timeout 30 pyjwt cryptography
           set -o pipefail
-          "$RUNNER_TEMP/maps/bin/python" tools/guides.py maps | tee maps-report.txt
+          "$RUNNER_TEMP/maps/bin/python" -u tools/guides.py maps ${{ steps.which.outputs.slugs }} | tee maps-report.txt
       - name: Lookups match guides/src/*.maps.json
         if: always() && steps.maps.outcome != 'skipped'
         run: |

@@ -47,6 +47,8 @@ import os
 import pathlib
 import re
 import sys
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 import zipfile
@@ -510,8 +512,17 @@ def search(token, place, country_code):
         query["limitToCountries"] = country_code
     request = urllib.request.Request("https://maps-api.apple.com/v1/search?" + urllib.parse.urlencode(query),
                                      headers={"Authorization": f"Bearer {token}"})
-    with urllib.request.urlopen(request, timeout=30) as response:
-        return json.load(response).get("results", [])
+    # Apple sometimes answers slowly or with 429 when asked many times in a row: wait and try
+    # again a few times, so one slow answer doesn't fail (or hold up) the whole check.
+    for attempt in range(4):
+        try:
+            with urllib.request.urlopen(request, timeout=15) as response:
+                return json.load(response).get("results", [])
+        except (urllib.error.URLError, TimeoutError) as error:
+            status = getattr(error, "code", None)
+            if attempt == 3 or (status is not None and status != 429 and status < 500):
+                raise
+            time.sleep(2 ** attempt)
 
 
 def one_line(lines):
@@ -565,10 +576,15 @@ def judge(guide, place, result):
 
 def maps(slugs):
     guides = [g for g in load_sources() if not slugs or g["slug"] in slugs]
-    token = maps_token()
+    unknown = slugs - {g["slug"] for g in load_sources()}
+    if unknown:
+        sys.exit("No guide called " + ", ".join(sorted(unknown)))
     failures, report = [], []
     for guide in guides:
+        # A fresh token per guide, so a long run never outlives one (they last 30 minutes).
+        token = maps_token()
         found = {}
+        start = len(report)
         for place in guide["places"]:
             label = f"{guide['slug']}/{place['key']}"
             if place.get("mapsSkip"):
@@ -601,7 +617,8 @@ def maps(slugs):
             report.append(f"OK    {label} → {entry['name']} ({entry['address']}{moved})")
         lock = SRC / f"{guide['slug']}.maps.json"
         lock.write_text(json.dumps(found, indent=2, ensure_ascii=False, sort_keys=True) + "\n", encoding="utf-8")
-    print("\n".join(report))
+        # Print as each guide finishes, so a long run shows its progress.
+        print("\n".join(report[start:]), flush=True)
     if failures:
         print(f"\n{len(failures)} place(s) need a look:\n" + "\n".join(f"• {f}" for f in failures))
         sys.exit(1)

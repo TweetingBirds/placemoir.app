@@ -1,0 +1,268 @@
+{
+  "arabia-steamboat": {
+    "address": "400 Grand Blvd, Kansas City, MO 64106, United States",
+    "appleMapsID": "I59037405747A5A8F",
+    "latitude": 39.10937,
+    "longitude": -94.581415,
+    "name": "The Arabia Steamboat Museum"
+  },
+  "arrowhead": {
+    "address": "1 Arrowhead Dr, Kansas City, MO 64129, United States",
+    "appleMapsID": "IF0B10C4441259C2A",
+    "latitude": 39.048915,
+    "longitude": -94.484031,
+    "name": "Arrowhead Stadium"
+  },
+  "arthur-bryants": {
+    "address": "1727 Brooklyn Ave, Kansas City, MO 64127, United States",
+    "appleMapsID": "ID8E354089866D8AC",
+    "latitude": 39.091476,
+    "longitude": -94.556321,
+    "name": "Arthur Bryant's Barbeque"
+  },
+  "betty-raes": {
+    "address": "7140 Wornall Rd, Kansas City, MO 64114, United States",
+    "appleMapsID": "I6E73278E9ADC9129",
+    "latitude": 38.998191,
+    "longitude": -94.59422,
+    "name": "Betty Rae's Ice Cream"
+  },
+  "boulevard-brewing": {
+    "address": "2501 Southwest Blvd, Kansas City, MO 64108, United States",
+    "appleMapsID": "I3DEE16D8F015CD8",
+    "latitude": 39.082181,
+    "longitude": -94.596605,
+    "name": "Boulevard Brewing Co"
+  },
+  "christopher-elbow": {
+    "address": "1819 McGee St, Kansas City, MO 64108, United States",
+    "appleMapsID": "I80C05DFA4D7C8CBC",
+    "latitude": 39.091025,
+    "longitude": -94.579839,
+    "name": "Christopher Elbow Chocolates"
+  },
+  "city-market": {
+    "address": "20 E Fifth St, Unit 201, Kansas City, MO 64106, United States",
+    "appleMapsID": "I314BD2C9EB3CF667",
+    "latitude": 39.108676,
+    "longitude": -94.582077,
+    "name": "City Market"
+  },
+  "corvino": {
+    "address": "1830 Walnut St, Kansas City, MO 64108, United States",
+    "appleMapsID": "I4F193AE87516295F",
+    "latitude": 39.090617,
+    "longitude": -94.582812,
+    "name": "Corvino Supper Club & Tasting Room"
+  },
+  "country-club-plaza": {
+    "address": "4706 Broadway Blvd, Kansas City, MO 64112, United States",
+    "appleMapsID": "I30015A7783E1B4CD",
+    "latitude": 39.041611,
+    "longitude": -94.592768,
+    "name": "Country Club Plaza"
+  },
+  "crossroads-hotel": {
+    "address": "2101 Central St, Kansas City, MO 64108, United States",
+    "appleMapsID": "I219125293719548D",
+    "latitude": 39.087997,
+    "longitude": -94.587234,
+    "name": "Crossroads Hotel"
+  },
+  "gates": {
+    "address": "3205 Main St, Kansas City, MO 64111, United States",
+    "appleMapsID": "I20D5FDCF431462FB",
+    "latitude": 39.068895,
+    "longitude": -94.585117,
+    "name": "Gates Bar-B-Q"
+  },
+  "green-lady-lounge": {
+    "address": "1809 Grand Blvd, Kansas City, MO 64108, United States",
+    "appleMapsID": "IAB6D6A045A2F65E",
+    "latitude": 39.091367,
+    "longitude": -94.580994,
+    "name": "Green Lady Lounge"
+  },
+  "hotel-kansas-city": {
+    "address": "1228 Baltimore Ave, Kansas City, MO 64105, United States",
+    "appleMapsID": "I1AC7C816357801EF",
+    "latitude": 39.09884,
+    "longitude": -94.584726,
+    "name": "Hotel Kansas City - The Unbound Collection by Hyatt"
+  },
+  "jack-stack": {
+    "address": "101 W 22nd St, Unit 300, Kansas City, MO 64108, United States",
+    "appleMapsID": "IE7743EAFEA3453B8",
+    "latitude": 39.087207,
+    "longitude": -94.585891,
+    "name": "Jack Stack Barbecue"
+  },
+  "jazz-museum": {
+    "address": "1616 E 18th St, Kansas City, MO 64108, United States",
+    "appleMapsID": "I422A4FD5966070C5",
+    "latitude": 39.091451,
+    "longitude": -94.562727,
+    "name": "American Jazz Museum"
+  },
+  "joes-kc": {
+    "address": "3002 West 47th Ave, Kansas City, KS 66103, United States",
+    "appleMapsID": "I82353EF5E4FD744",
+    "latitude": 39.044448,
+    "longitude": -94.620761,
+    "name": "Joe's Kansas City Bar-B-Que"
+  },
+  "kauffman-center": {
+    "address": "1601 Broadway Blvd, Kansas City, MO 64108, United States",
+    "appleMapsID": "I73A60DCFC6A05A52",
+    "latitude": 39.093998,
+    "longitude": -94.587677,
+    "name": "Kauffman Center for the Performing Arts"
+  },
+  "kauffman-stadium": {
+    "address": "1 Royal Way, Kansas City, MO 64129, United States",
+    "appleMapsID": "IA12E066DD2001976",
+    "latitude": 39.051602,
+    "longitude": -94.480233,
+    "name": "Kauffman Stadium"
+  },
+  "kemper-museum": {
+    "address": "4420 Warwick Blvd, Kansas City, MO 64111, United States",
+    "appleMapsID": "IC90CF75C1516E5BA",
+    "latitude": 39.046388,
+    "longitude": -94.585153,
+    "name": "Kemper Museum of Contemporary Art"
+  },
+  "lcs": {
+    "address": "5800 Dr Martin Luther King Jr Blvd, Kansas City, MO 64129, United States",
+    "appleMapsID": "ID462393096422EDA",
+    "latitude": 39.034817,
+    "longitude": -94.517505,
+    "name": "LC's Bar-B-Q"
+  },
+  "loose-park": {
+    "address": "5200 Wornall, Kansas City, MO 64112, United States",
+    "appleMapsID": "IE56483296F1D385E",
+    "latitude": 39.032268,
+    "longitude": -94.594285,
+    "name": "Loose Park"
+  },
+  "messenger-coffee": {
+    "address": "1624 Grand Blvd, Kansas City, MO 64108, United States",
+    "appleMapsID": "I178D68F3BF24333A",
+    "latitude": 39.093514,
+    "longitude": -94.58143,
+    "name": "Messenger Coffee"
+  },
+  "mutual-musicians": {
+    "address": "1823 Highland Ave, Kansas City, MO 64108, United States",
+    "appleMapsID": "I9641265D67BF2DAF",
+    "latitude": 39.090261,
+    "longitude": -94.562013,
+    "name": "Mutual Musicians Foundation International"
+  },
+  "negro-leagues-museum": {
+    "address": "1616 E 18th St, Kansas City, MO 64108, United States",
+    "appleMapsID": "I98C24B8BDF2F068D",
+    "latitude": 39.091445,
+    "longitude": -94.562602,
+    "name": "Negro Leagues Baseball Museum"
+  },
+  "nelson-atkins": {
+    "address": "4525 Oak St, Kansas City, MO 64111, United States",
+    "appleMapsID": "I90C7D0FD5383F477",
+    "latitude": 39.044919,
+    "longitude": -94.580902,
+    "name": "The Nelson-Atkins Museum of Art"
+  },
+  "overland-park-arboretum": {
+    "address": "8909 W 179th St, Bucyrus, KS 66013, United States",
+    "appleMapsID": "I3699CFE63EA63249",
+    "latitude": 38.801785,
+    "longitude": -94.689306,
+    "name": "Overland Park Arboretum & Botanical Gardens"
+  },
+  "penn-valley-park": {
+    "address": "400 W 29 St, Kansas City, MO 64108, United States",
+    "appleMapsID": "IC4C6E673611E9882",
+    "latitude": 39.077003,
+    "longitude": -94.589116,
+    "name": "Penn Valley Park"
+  },
+  "q39": {
+    "address": "1000 W 39th St, Kansas City, MO 64111, United States",
+    "appleMapsID": "I3F40111CBCB6EC53",
+    "latitude": 39.057384,
+    "longitude": -94.598201,
+    "name": "Q39"
+  },
+  "shawnee-mission-park": {
+    "address": "7900 Renner Rd, Lenexa, KS 66219, United States",
+    "appleMapsID": "IB141BBA31256AF86",
+    "latitude": 38.985667,
+    "longitude": -94.782057,
+    "name": "Shawnee Mission Park"
+  },
+  "swope-park": {
+    "address": "Swope Pkwy & E Meyer Blvd, Kansas City, MO 64132, United States",
+    "appleMapsID": "IF4D1D5746A7B8249",
+    "latitude": 39.000543,
+    "longitude": -94.522548,
+    "name": "Swope Park"
+  },
+  "the-fontaine": {
+    "address": "901 W 48th St, Kansas City, MO 64112, United States",
+    "appleMapsID": "I9C6F6FE48847C66",
+    "latitude": 39.039953,
+    "longitude": -94.598347,
+    "name": "The Fontaine"
+  },
+  "the-raphael": {
+    "address": "325 Ward Pkwy, Kansas City, MO 64112, United States",
+    "appleMapsID": "IF820767D70435D27",
+    "latitude": 39.039541,
+    "longitude": -94.591259,
+    "name": "The Raphael Hotel, Autograph Collection"
+  },
+  "the-rieger": {
+    "address": "1924 Main St, Kansas City, MO 64108, United States",
+    "appleMapsID": "ID992CA16CA19F74A",
+    "latitude": 39.08944,
+    "longitude": -94.584056,
+    "name": "The Rieger Hotel"
+  },
+  "toms-town": {
+    "address": "1701 Main St, Kansas City, MO 64108, United States",
+    "appleMapsID": "I6A0D9D68FA86D52C",
+    "latitude": 39.093293,
+    "longitude": -94.58321,
+    "name": "Tom's Town Distilling Co."
+  },
+  "town-topic": {
+    "address": "2021 Broadway Blvd, Kansas City, MO 64108, United States",
+    "appleMapsID": "IEF404056B61A3E02",
+    "latitude": 39.088465,
+    "longitude": -94.588802,
+    "name": "Town - Topic Hamburgers"
+  },
+  "truman-library": {
+    "address": "500 W US-24, Independence, MO 64050, United States",
+    "appleMapsID": "IB5A6F44DDB3928FD",
+    "latitude": 39.103152,
+    "longitude": -94.420964,
+    "name": "Harry S. Truman Presidential Library & Museum"
+  },
+  "union-station": {
+    "address": "30 W Pershing Rd,, Kansas City, MO 64108, United States",
+    "appleMapsID": "I5BD0433A86E492B1",
+    "latitude": 39.085313,
+    "longitude": -94.585859,
+    "name": "Union Station"
+  },
+  "wwi-museum": {
+    "address": "2 Memorial Dr, Kansas City, MO 64108, United States",
+    "appleMapsID": "I7CE26B291A26FAC3",
+    "latitude": 39.080673,
+    "longitude": -94.58608,
+    "name": "National WWI Museum and Memorial"
+  }
+}

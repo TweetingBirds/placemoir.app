@@ -1,0 +1,281 @@
+{
+  "air-and-space": {
+    "address": "650 Jefferson Dr SW, Washington, DC 20565, United States",
+    "appleMapsID": "IEB511C0735EB8437",
+    "latitude": 38.887868,
+    "longitude": -77.019771,
+    "name": "National Air and Space Museum"
+  },
+  "arlington-cemetery": {
+    "address": "1 Memorial Ave, Arlington, VA 22211, United States",
+    "appleMapsID": "I814534F8F0401AFC",
+    "latitude": 38.882918,
+    "longitude": -77.065703,
+    "name": "Arlington National Cemetery"
+  },
+  "baked-and-wired": {
+    "address": "1052 Thomas Jefferson St NW, Washington, DC 20007, United States",
+    "appleMapsID": "I68E138286ACBDB64",
+    "latitude": 38.904024,
+    "longitude": -77.060333,
+    "name": "Baked & Wired"
+  },
+  "bens-chili-bowl": {
+    "address": "1213 U St NW, Washington, DC 20009, United States",
+    "appleMapsID": "IDE99580BE9C44822",
+    "latitude": 38.917189,
+    "longitude": -77.028743,
+    "name": "Ben's Chili Bowl"
+  },
+  "botanic-garden": {
+    "address": "100 Maryland Ave SW, Washington, DC 20001, United States",
+    "appleMapsID": "I3A5D7A1A2C56D0BB",
+    "latitude": 38.887914,
+    "longitude": -77.012926,
+    "name": "United States Botanic Garden"
+  },
+  "call-your-mother": {
+    "address": "3428 O St NW, Washington, DC 20007, United States",
+    "appleMapsID": "I4CC174960F08825B",
+    "latitude": 38.907618,
+    "longitude": -77.068896,
+    "name": "Call Your Mother"
+  },
+  "compass-rose": {
+    "address": "1346 T St NW, Washington, DC 20009, United States",
+    "appleMapsID": "I21A2DE26B462BBC8",
+    "latitude": 38.915352,
+    "longitude": -77.031548,
+    "name": "Compass Rose Bar + Kitchen"
+  },
+  "dumbarton-oaks": {
+    "address": "1703 32nd St NW, Washington, DC 20007, United States",
+    "appleMapsID": "IC6A708AB6A2BB29B",
+    "latitude": 38.914161,
+    "longitude": -77.062497,
+    "name": "Dumbarton Oaks Gardens"
+  },
+  "eastern-market": {
+    "address": "225 Seventh St SE, Washington, DC 20003, United States",
+    "appleMapsID": "I894CEC18BCB2CCE7",
+    "latitude": 38.886421,
+    "longitude": -76.996471,
+    "name": "Eastern Market"
+  },
+  "fords-theatre": {
+    "address": "511 Tenth St NW, Washington, DC 20004, United States",
+    "appleMapsID": "I100AA271655C8A48",
+    "latitude": 38.896825,
+    "longitude": -77.025766,
+    "name": "Ford's Theatre"
+  },
+  "founding-farmers": {
+    "address": "1924 Pennsylvania Ave NW, Washington, DC 20006, United States",
+    "appleMapsID": "IA1678D775CB658A0",
+    "latitude": 38.900201,
+    "longitude": -77.044458,
+    "name": "Founding Farmers"
+  },
+  "georgetown-waterfront": {
+    "address": "Wisconsin and K St NW, Washington, DC 20007, United States",
+    "appleMapsID": "I6D6220BF769BA30A",
+    "latitude": 38.902655,
+    "longitude": -77.064433,
+    "name": "Georgetown Waterfront Park"
+  },
+  "hay-adams": {
+    "address": "800 16th St NW, Washington, DC 20006, United States",
+    "appleMapsID": "I22DBA3D6D8ACFB4C",
+    "latitude": 38.900427,
+    "longitude": -77.03697,
+    "name": "The Hay-Adams"
+  },
+  "holocaust-museum": {
+    "address": "100 Raoul Wallenberg Place SW, Washington, DC 20024, United States",
+    "appleMapsID": "I301B93903977411D",
+    "latitude": 38.886657,
+    "longitude": -77.032784,
+    "name": "United States Holocaust Memorial Museum"
+  },
+  "hotel-hive": {
+    "address": "2224 F St NW, Washington, DC 20037, United States",
+    "appleMapsID": "I85941B7830A93C95",
+    "latitude": 38.89718,
+    "longitude": -77.0497,
+    "name": "Hotel Hive"
+  },
+  "hotel-monaco": {
+    "address": "700 F St NW, Washington, DC 20004, United States",
+    "appleMapsID": "ICD76F6850FED096E",
+    "latitude": 38.896999,
+    "longitude": -77.022454,
+    "name": "Kimpton Hotel Monaco Washington DC"
+  },
+  "kramers": {
+    "address": "1517 Connecticut Ave NW, Washington, DC 20036, United States",
+    "appleMapsID": "I59B00E1A49D44405",
+    "latitude": 38.910829,
+    "longitude": -77.043767,
+    "name": "Kramers"
+  },
+  "le-diplomate": {
+    "address": "1601 14th St NW, Washington, DC 20009, United States",
+    "appleMapsID": "I9648F01D87885D8C",
+    "latitude": 38.911367,
+    "longitude": -77.031577,
+    "name": "Le Diplomate"
+  },
+  "library-of-congress": {
+    "address": "101 Independence Ave SE, Washington, DC 20543, United States",
+    "appleMapsID": "I7B7AFC42594ADFBB",
+    "latitude": 38.888653,
+    "longitude": -77.004654,
+    "name": "Library of Congress"
+  },
+  "lincoln-memorial": {
+    "address": "2 Lincoln Memorial Cir NW, Washington, DC 20037, United States",
+    "appleMapsID": "IABDC1C050860E598",
+    "latitude": 38.889218,
+    "longitude": -77.050178,
+    "name": "Lincoln Memorial"
+  },
+  "martins-tavern": {
+    "address": "1264 Wisconsin Ave NW, Washington, DC 20007, United States",
+    "appleMapsID": "I9820299FFFB5D5DD",
+    "latitude": 38.906764,
+    "longitude": -77.063131,
+    "name": "Martin's Tavern"
+  },
+  "mlk-memorial": {
+    "address": "1850 W Basin Dr SW, Washington, DC 20024, United States",
+    "appleMapsID": "IE0173B2C5B10F273",
+    "latitude": 38.886218,
+    "longitude": -77.04422,
+    "name": "Martin Luther King, Jr. Memorial"
+  },
+  "national-cathedral": {
+    "address": "3101 Wisconsin Ave NW, Washington, DC 20016, United States",
+    "appleMapsID": "I59ECD0C31EEAD5CB",
+    "latitude": 38.930619,
+    "longitude": -77.070687,
+    "name": "Washington National Cathedral"
+  },
+  "national-gallery": {
+    "address": "6th and Constitution Ave NW, Washington, DC 20565, United States",
+    "appleMapsID": "IBE85DE67D296A4F4",
+    "latitude": 38.891342,
+    "longitude": -77.019835,
+    "name": "National Gallery of Art"
+  },
+  "national-mall": {
+    "address": "2 15th St NW, Washington, DC 20024, United States",
+    "appleMapsID": "IE2999112F0B0134B",
+    "latitude": 38.889956,
+    "longitude": -77.022209,
+    "name": "National Mall and Memorial Parks"
+  },
+  "natural-history": {
+    "address": "10th St. & Constitution Ave NW, Washington, DC 20560, United States",
+    "appleMapsID": "I56501AF1E3BDE48E",
+    "latitude": 38.891252,
+    "longitude": -77.025963,
+    "name": "National Museum of Natural History Library"
+  },
+  "nmaahc": {
+    "address": "1400 Constitution Ave NW, Washington, DC 20560, United States",
+    "appleMapsID": "I9BA5064AACA4FA46",
+    "latitude": 38.89125,
+    "longitude": -77.032485,
+    "name": "National Museum of African American History and Culture"
+  },
+  "old-ebbitt": {
+    "address": "675 15th St NW, Washington, DC 20005, United States",
+    "appleMapsID": "IF5E58479347AD710",
+    "latitude": 38.897953,
+    "longitude": -77.033334,
+    "name": "Old Ebbitt Grill"
+  },
+  "portrait-gallery": {
+    "address": "8th and G Streets NW, Washington, DC 20001, United States",
+    "appleMapsID": "IE1D032F49802BB6D",
+    "latitude": 38.897888,
+    "longitude": -77.022904,
+    "name": "National Portrait Gallery"
+  },
+  "rasika": {
+    "address": "633 D St NW, Washington, DC 20004, United States",
+    "appleMapsID": "IA31D2C0DEF77AAF7",
+    "latitude": 38.894949,
+    "longitude": -77.0213,
+    "name": "Rasika"
+  },
+  "rock-creek-park": {
+    "address": "5200 Glover Rd NW, Washington, DC 20015, United States",
+    "appleMapsID": "I50405AA2E52DD412",
+    "latitude": 38.955368,
+    "longitude": -77.048855,
+    "name": "Rock Creek Park"
+  },
+  "roosevelt-island": {
+    "address": "Washington, DC, United States",
+    "appleMapsID": "I918665ACBD25DFA0",
+    "latitude": 38.897522,
+    "longitude": -77.063022,
+    "name": "Theodore Roosevelt Island"
+  },
+  "round-robin": {
+    "address": "1401 Pennsylvania Ave NW, Washington, DC 20004, United States",
+    "appleMapsID": "I7CE03299C56FC86F",
+    "latitude": 38.896477,
+    "longitude": -77.032152,
+    "name": "Round Robin Bar"
+  },
+  "the-jefferson": {
+    "address": "1200 16th St NW, Washington, DC 20036, United States",
+    "appleMapsID": "I15F196BFF44D2740",
+    "latitude": 38.906002,
+    "longitude": -77.036976,
+    "name": "The Jefferson"
+  },
+  "tidal-basin": {
+    "address": "Washington, DC, United States",
+    "latitude": 38.884335,
+    "longitude": -77.039111,
+    "name": "Tidal Basin"
+  },
+  "union-market": {
+    "address": "1309 Fifth St NE, Washington, DC 20002, United States",
+    "appleMapsID": "I77000221F244E92B",
+    "latitude": 38.908724,
+    "longitude": -76.997653,
+    "name": "Union Market District"
+  },
+  "us-capitol": {
+    "address": "Washington, DC 20510, United States",
+    "appleMapsID": "I5349E2714C6E0F36",
+    "latitude": 38.889797,
+    "longitude": -77.009026,
+    "name": "United States Capitol"
+  },
+  "washington-monument": {
+    "address": "2 15th St NW, Washington, DC 20024, United States",
+    "appleMapsID": "I4C540881DB54489",
+    "latitude": 38.88943,
+    "longitude": -77.035396,
+    "name": "Washington Monument"
+  },
+  "white-house": {
+    "address": "1600 Pennsylvania Ave NW, Washington, DC 20500, United States",
+    "appleMapsID": "I39B435BC2539FE89",
+    "latitude": 38.897682,
+    "longitude": -77.036588,
+    "name": "The White House"
+  },
+  "zaytinya": {
+    "address": "701 9th St NW, Washington, DC 20001, United States",
+    "appleMapsID": "I7D8E1B6C9DD23ED4",
+    "latitude": 38.898784,
+    "longitude": -77.023719,
+    "name": "Zaytinya"
+  }
+}

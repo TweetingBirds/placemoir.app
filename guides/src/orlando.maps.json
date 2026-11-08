@@ -1,0 +1,261 @@
+{
+  "alfond-inn": {
+    "address": "300 E New England Ave, Winter Park, FL 32789, United States",
+    "appleMapsID": "I4EE2564F3695A0B5",
+    "latitude": 28.595723,
+    "longitude": -81.347773,
+    "name": "The Alfond Inn"
+  },
+  "animal-kingdom": {
+    "address": "2901 Osceola Pkwy, Lake Buena Vista, FL 32830, United States",
+    "appleMapsID": "IDA32D7CF7CFFA988",
+    "latitude": 28.355368,
+    "longitude": -81.590422,
+    "name": "Disney's Animal Kingdom Theme Park"
+  },
+  "black-bean-deli": {
+    "address": "1835 E Colonial Dr, Orlando, FL 32803, United States",
+    "appleMapsID": "I1EF7DEA6C5BF7B70",
+    "latitude": 28.553453,
+    "longitude": -81.357442,
+    "name": "Black Bean Deli"
+  },
+  "blue-spring": {
+    "address": "2100 W French Ave, Orange City, FL 32763, United States",
+    "appleMapsID": "I1B7EE64CBE9E2872",
+    "latitude": 28.944167,
+    "longitude": -81.337109,
+    "name": "Blue Spring State Park"
+  },
+  "bok-tower": {
+    "address": "1151 Tower Blvd, Lake Wales, FL 33853, United States",
+    "appleMapsID": "I6D8E85C6350189D3",
+    "latitude": 27.937564,
+    "longitude": -81.576034,
+    "name": "Bok Tower Gardens"
+  },
+  "dandelion-communitea": {
+    "address": "618 N Thornton Ave, Orlando, FL 32803, United States",
+    "appleMapsID": "I427669865B281C22",
+    "latitude": 28.552039,
+    "longitude": -81.365714,
+    "name": "Dandelion Community Café"
+  },
+  "disney-springs": {
+    "address": "1486 E Buena Vista Dr, Lake Buena Vista, Orlando, FL 32830, United States",
+    "appleMapsID": "IB9A694A18384E77E",
+    "latitude": 28.370279,
+    "longitude": -81.522097,
+    "name": "Disney Springs"
+  },
+  "east-end-market": {
+    "address": "3201 Corrine Dr, Orlando, FL 32803, United States",
+    "appleMapsID": "I9B6392FF27B0C8C8",
+    "latitude": 28.568298,
+    "longitude": -81.343759,
+    "name": "East End Market"
+  },
+  "epcot": {
+    "address": "200 Epcot Center Dr, Orlando, FL 32830, United States",
+    "appleMapsID": "I4F3C06D9F9BB721A",
+    "latitude": 28.375307,
+    "longitude": -81.549411,
+    "name": "EPCOT"
+  },
+  "epic-universe": {
+    "address": "1001 Epic Blvd, Orlando, FL 32819, United States",
+    "appleMapsID": "I398497B955362659",
+    "latitude": 28.440336,
+    "longitude": -81.447839,
+    "name": "Universal Epic Universe"
+  },
+  "gatorland": {
+    "address": "14501 S Orange Blossom Trail, Orlando, FL 32837, United States",
+    "appleMapsID": "IAE8D2A94707BACC1",
+    "latitude": 28.355708,
+    "longitude": -81.402222,
+    "name": "Gatorland"
+  },
+  "grand-floridian": {
+    "address": "4401 Floridian Way, Lake Buena Vista, FL 32830, United States",
+    "appleMapsID": "I583D3097126D5B95",
+    "latitude": 28.410908,
+    "longitude": -81.587793,
+    "name": "Disney's Grand Floridian Resort & Spa"
+  },
+  "hawkers": {
+    "address": "1103 N Mills Ave, Orlando, FL 32803, United States",
+    "appleMapsID": "I3A9B457F6CE5315",
+    "latitude": 28.560709,
+    "longitude": -81.364191,
+    "name": "Hawkers Asian Street Food"
+  },
+  "islands-of-adventure": {
+    "address": "6000 Universal Blvd, Orlando, FL 32819, United States",
+    "appleMapsID": "IEC7500CBA20AED74",
+    "latitude": 28.471001,
+    "longitude": -81.46994,
+    "name": "Universal Islands of Adventure"
+  },
+  "kennedy-space-center": {
+    "address": "Space Commerce Way, Merritt Island, FL 32953, United States",
+    "appleMapsID": "IB8B130FD285B6A59",
+    "latitude": 28.523333,
+    "longitude": -80.68162,
+    "name": "Kennedy Space Center Visitor Complex"
+  },
+  "kraft-azalea-garden": {
+    "address": "1365 Alabama Dr, Winter Park, FL 32789, United States",
+    "appleMapsID": "I7F7F9F41339AA3B5",
+    "latitude": 28.6111,
+    "longitude": -81.345005,
+    "name": "Kraft Azalea Garden"
+  },
+  "kres-chophouse": {
+    "address": "17 W Church St, Orlando, FL 32801, United States",
+    "appleMapsID": "IE009F6B913DFE64D",
+    "latitude": 28.540528,
+    "longitude": -81.379489,
+    "name": "Kres Chophouse"
+  },
+  "lake-eola": {
+    "address": "512 East Washington Street, Orlando, FL 32801, United States",
+    "appleMapsID": "IE346F31B2D564A07",
+    "latitude": 28.543268,
+    "longitude": -81.370819,
+    "name": "Lake Eola Park"
+  },
+  "leu-gardens": {
+    "address": "1920 N Forest Ave, Orlando, FL 32803, United States",
+    "appleMapsID": "ID457A0EE124D624A",
+    "latitude": 28.569737,
+    "longitude": -81.356478,
+    "name": "Harry P Leu Gardens"
+  },
+  "magic-kingdom": {
+    "address": "1180 Seven Seas Dr, Lake Buena Vista, FL 32830, United States",
+    "appleMapsID": "ID33503C1FB00459",
+    "latitude": 28.418738,
+    "longitude": -81.581204,
+    "name": "Magic Kingdom Park"
+  },
+  "morse-museum": {
+    "address": "445 N Park Ave, Winter Park, FL 32789, United States",
+    "appleMapsID": "I1A3DFF58820FF0DA",
+    "latitude": 28.600958,
+    "longitude": -81.351248,
+    "name": "Morse Museum"
+  },
+  "orlando-museum-of-art": {
+    "address": "2416 N Mills Ave, Orlando, FL 32803, United States",
+    "appleMapsID": "I12D739E927C47079",
+    "latitude": 28.572858,
+    "longitude": -81.365063,
+    "name": "Orlando Museum of Art"
+  },
+  "orlando-science-center": {
+    "address": "777 E. Princeton St, Orlando, FL 32803, United States",
+    "appleMapsID": "I850F2A2BCB86B81E",
+    "latitude": 28.57237,
+    "longitude": -81.36834,
+    "name": "Orlando Science Center"
+  },
+  "pho-88": {
+    "address": "730 N Mills Ave, Orlando, FL 32803, United States",
+    "appleMapsID": "I3F47A73C470B294C",
+    "latitude": 28.55429,
+    "longitude": -81.364669,
+    "name": "Pho 88 Restaurant"
+  },
+  "pop-century": {
+    "address": "1050 Century Dr, Lake Buena Vista, FL 32830, United States",
+    "appleMapsID": "I701DEAAC35283B6F",
+    "latitude": 28.35041,
+    "longitude": -81.542846,
+    "name": "Disney's Pop Century Resort"
+  },
+  "prato": {
+    "address": "124 N Park Ave, Winter Park, FL 32789, United States",
+    "appleMapsID": "I30B4847DCBF9F20B",
+    "latitude": 28.598249,
+    "longitude": -81.350848,
+    "name": "Prato"
+  },
+  "raglan-road": {
+    "address": "1640 E Buena Vista Dr, Orlando, FL 32830, United States",
+    "appleMapsID": "IB95A051EAACDD746",
+    "latitude": 28.371111,
+    "longitude": -81.517729,
+    "name": "Raglan Road Irish Restaurant & Pub"
+  },
+  "ravenous-pig": {
+    "address": "565 W Fairbanks Ave, Winter Park, FL 32789, United States",
+    "appleMapsID": "I3EDB66EB2A69FDFE",
+    "latitude": 28.5933,
+    "longitude": -81.35595,
+    "name": "The Ravenous Pig"
+  },
+  "royal-pacific": {
+    "address": "6300 Hollywood Way, Orlando, FL 32819, United States",
+    "appleMapsID": "I9106EF81E9E4A478",
+    "latitude": 28.468366,
+    "longitude": -81.467142,
+    "name": "Loews Royal Pacific Resort"
+  },
+  "sanaa": {
+    "address": "3701 Osceola Pkwy, Orlando, FL 32830, United States",
+    "appleMapsID": "I1F5AB617BDDD3226",
+    "latitude": 28.35404,
+    "longitude": -81.605517,
+    "name": "Sanaa"
+  },
+  "scenic-boat-tour": {
+    "address": "312 E Morse Blvd, Winter Park, FL 32789, United States",
+    "appleMapsID": "I7E99C262854BED10",
+    "latitude": 28.597915,
+    "longitude": -81.346823,
+    "name": "Scenic Boat Tour"
+  },
+  "se7en-bites": {
+    "address": "617 N Primrose Dr, Orlando, FL 32803, United States",
+    "appleMapsID": "I83079EA7885721D7",
+    "latitude": 28.551816,
+    "longitude": -81.347161,
+    "name": "Se7enBites"
+  },
+  "the-boathouse": {
+    "address": "1620 Buena Vista Dr, Eustis, FL 32726, United States",
+    "appleMapsID": "I4085537880AF8DA0",
+    "latitude": 28.371814,
+    "longitude": -81.518047,
+    "name": "The Boathouse"
+  },
+  "universal-studios": {
+    "address": "6000 Universal Blvd, Orlando, FL 32819, United States",
+    "appleMapsID": "ICD5FB2D71886A2CB",
+    "latitude": 28.475347,
+    "longitude": -81.466675,
+    "name": "Universal Studios Florida"
+  },
+  "victoria-and-alberts": {
+    "address": "4401 Floridian Way, Orlando, FL 32830, United States",
+    "appleMapsID": "I26B4FD0797D1365A",
+    "latitude": 28.411307,
+    "longitude": -81.587614,
+    "name": "The Dining Room at Victoria & Albert’s"
+  },
+  "wallys": {
+    "address": "1001 N Mills Ave, Orlando, FL 32803, United States",
+    "appleMapsID": "IDA01B79125A56D97",
+    "latitude": 28.558766,
+    "longitude": -81.364325,
+    "name": "Wally's Bar and Liquors"
+  },
+  "wekiwa-springs": {
+    "address": "1800 Wekiwa Cir, Apopka, FL 32712, United States",
+    "appleMapsID": "I8EE106C7FACF635E",
+    "latitude": 28.73805,
+    "longitude": -81.482524,
+    "name": "Wekiwa Springs State Park"
+  }
+}
