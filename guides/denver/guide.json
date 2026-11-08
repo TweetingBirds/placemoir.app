@@ -46,8 +46,8 @@
       "section": "Stay"
     },
     {
-      "id": "guide:denver/hotel-born",
-      "name": "Hotel Born",
+      "id": "guide:denver/limelight-denver",
+      "name": "Limelight Hotel Denver",
       "category": "hotel",
       "address": "1600 Wewatta St, Denver, CO 80202",
       "locality": "LoDo",
@@ -55,7 +55,7 @@
       "latitude": 39.7532,
       "longitude": -105.0021,
       "wantToGo": true,
-      "notes": "A calm, modern hotel next to Union Station, with mountain views from the upper floors.",
+      "notes": "A calm, modern hotel next to Union Station, with mountain views from the upper floors and a lively lobby bar.",
       "section": "Stay"
     },
     {
@@ -88,13 +88,13 @@
       "id": "guide:denver/biker-jims",
       "name": "Biker Jim's Gourmet Dogs",
       "category": "restaurant",
-      "address": "2148 Larimer St, Denver, CO 80205",
-      "locality": "Ballpark",
+      "address": "16th Street Mall & Stout St, Denver, CO 80202",
+      "locality": "Downtown",
       "country": "United States",
-      "latitude": 39.7546,
-      "longitude": -104.9897,
+      "latitude": 39.747,
+      "longitude": -104.993,
       "wantToGo": true,
-      "notes": "Reindeer, elk and rattlesnake sausages with cream cheese and onions. Good before a Rockies game.",
+      "notes": "Reindeer, elk and rattlesnake sausages with cream cheese and caramelized onions.",
       "section": "Eat"
     },
     {
@@ -238,19 +238,6 @@
       "longitude": -105.0067,
       "wantToGo": true,
       "notes": "Denver's oldest bar, with no sign out front and classical music on. Order a JCB burger.",
-      "section": "Eat"
-    },
-    {
-      "id": "guide:denver/great-divide",
-      "name": "Great Divide Brewing Co.",
-      "category": "bar",
-      "address": "2201 Arapahoe St, Denver, CO 80205",
-      "locality": "Ballpark",
-      "country": "United States",
-      "latitude": 39.7537,
-      "longitude": -104.9888,
-      "wantToGo": true,
-      "notes": "The original taproom of one of Colorado's best breweries. Try the Yeti stout.",
       "section": "Eat"
     },
     {
@@ -465,7 +452,7 @@
       "id": "guide:denver/confluence-park",
       "name": "Confluence Park",
       "category": "park",
-      "address": "2250 15th St, Denver, CO 80202",
+      "address": "2200 15th St, Denver, CO 80202",
       "locality": "LoDo",
       "country": "United States",
       "latitude": 39.7547,
