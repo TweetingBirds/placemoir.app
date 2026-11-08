@@ -114,23 +114,33 @@ jobs:
           npm init -y >/dev/null && npm install --silent --no-audit --no-fund playwright-core@1
           cat > shot.mjs <<'JS'
           import { chromium } from "playwright-core";
-          const browser = await chromium.launch({ channel: "chrome" });
-          const problems = [];
-          for (const [name, scheme] of [["light", "light"], ["dark", "dark"]]) {
+          import { appendFileSync } from "node:fs";
+          const out = `${process.env.GITHUB_WORKSPACE}/map-console.txt`;
+          const log = line => { const text = `${new Date().toISOString().slice(11, 19)} ${line}`; console.log(text); appendFileSync(out, text + "\n"); };
+          setTimeout(() => { log("gave up after 120 s"); process.exit(1); }, 120000);
+          log("launching Chrome");
+          const browser = await chromium.launch({ channel: "chrome", timeout: 30000 });
+          let shown = false;
+          for (const scheme of ["light", "dark"]) {
             const page = await browser.newPage({ viewport: { width: 1280, height: 1000 }, colorScheme: scheme });
-            page.on("console", m => { if (["error", "warning", "info"].includes(m.type())) problems.push(`${name} ${m.type()}: ${m.text()}`); });
-            page.on("pageerror", e => problems.push(`${name} pageerror: ${e.message}`));
-            await page.goto("http://127.0.0.1:8811/guides/atlanta/", { waitUntil: "domcontentloaded", timeout: 30000 });
+            page.setDefaultTimeout(20000);
+            page.on("console", m => log(`${scheme} console ${m.type()}: ${m.text()}`));
+            page.on("pageerror", e => log(`${scheme} pageerror: ${e.message}`));
+            page.on("requestfailed", r => log(`${scheme} failed: ${r.url().slice(0, 120)} ${r.failure()?.errorText}`));
+            log(`${scheme}: opening the page`);
+            await page.goto("http://127.0.0.1:8811/guides/atlanta/", { waitUntil: "domcontentloaded" });
             await page.waitForTimeout(8000);
-            const shown = await page.evaluate(() => !document.getElementById("guide-map").hidden);
-            problems.push(`${name}: map shown = ${shown}`);
-            await page.screenshot({ path: `${process.env.GITHUB_WORKSPACE}/map-${name}.png` });
+            const visible = await page.evaluate(() => !document.getElementById("guide-map").hidden);
+            log(`${scheme}: map shown = ${visible}`);
+            if (scheme === "light") shown = visible;
+            await page.locator(visible ? "#guide-map" : "main").screenshot({ path: `${process.env.GITHUB_WORKSPACE}/map-${scheme}.png`, animations: "disabled", timeout: 20000 })
+              .then(() => log(`${scheme}: screenshot saved`), e => log(`${scheme}: screenshot failed: ${e.message.split("\n")[0]}`));
+            await page.close();
           }
           await browser.close();
-          console.log(problems.join("\n"));
+          process.exit(shown ? 0 : 1);
           JS
-          node shot.mjs | tee "$GITHUB_WORKSPACE/map-console.txt"
-          grep -q "light: map shown = true" "$GITHUB_WORKSPACE/map-console.txt"
+          node shot.mjs
       - uses: actions/upload-artifact@v7
         if: always()
         with:
