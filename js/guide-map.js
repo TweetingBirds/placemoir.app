@@ -56,13 +56,23 @@
             var pin = new mapkit.MarkerAnnotation(new mapkit.Coordinate(place.latitude, place.longitude), {
                 title: place.name,
                 subtitle: place.section,
-                glyphText: (place.section || "").charAt(0),
+                // Names show on a picked pin only, and pins close together merge into a count,
+                // so the busy middle of a city stays readable.
+                titleVisibility: mapkit.FeatureVisibility.Hidden,
+                subtitleVisibility: mapkit.FeatureVisibility.Hidden,
+                clusteringIdentifier: "places",
                 accessibilityLabel: place.name + ", " + place.section
             });
             pin.sectionIndex = index;
             pin.color = COLOURS[isDark() ? "dark" : "light"][index];
             return pin;
         });
+        map.annotationForCluster = function (cluster) {
+            cluster.color = isDark() ? "#E8E6DF" : "#2A3540";
+            cluster.titleVisibility = mapkit.FeatureVisibility.Hidden;
+            cluster.subtitleVisibility = mapkit.FeatureVisibility.Hidden;
+            return cluster;
+        };
         map.showItems(pins, { padding: new mapkit.Padding(48, 32, 32, 32) });
 
         // Picking a pin brings its card into view and marks it.

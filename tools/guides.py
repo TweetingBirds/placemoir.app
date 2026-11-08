@@ -222,7 +222,7 @@ def page(title, description, canonical, body, prefix, noindex, app_argument=None
     head, foot = template()
     if with_map:
         head = with_mapkit_csp(head)
-        head = head.replace("</head>", '    <script src="js/guide-map.js?v=20261108.1" defer></script>\n</head>', 1)
+        head = head.replace("</head>", '    <script src="js/guide-map.js?v=20261108.2" defer></script>\n</head>', 1)
     head = head.replace("<title>Privacy Policy · Placemoir</title>", f"<title>{html.escape(title)} · Placemoir</title>")
     head = head.replace('href="https://placemoir.app/privacy.html"', f'href="{canonical}"')
     head = head.replace('content="Privacy Policy · Placemoir"', f'content="{html.escape(title)} · Placemoir"')
