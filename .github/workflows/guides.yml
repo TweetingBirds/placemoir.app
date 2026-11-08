@@ -1,6 +1,6 @@
 name: Guides
 
-# Checks the Want to go guides in guides/src/ (see tools/guides.py):
+# Checks the Field Guides in guides/src/ (see tools/guides.py):
 # - check: the sources are valid and the built pages and files are up to date.
 # - maps: every place is found in Apple Maps where the guide says it is. A pull request or push looks
 #   up only the guides it changes (all of them if it changes tools/guides.py). On a pull request, a
