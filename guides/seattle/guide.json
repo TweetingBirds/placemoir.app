@@ -26,11 +26,12 @@
       "address": "411 University St, Seattle, WA 98101",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 47.6083,
-      "longitude": -122.3343,
+      "latitude": 47.608013,
+      "longitude": -122.33387,
       "wantToGo": true,
       "notes": "Seattle's grand 1924 hotel. Classic rooms and an easy walk to the market and the art museum.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "I1577CBDFC9E90446"
     },
     {
       "id": "guide:seattle/inn-at-the-market",
@@ -39,11 +40,12 @@
       "address": "86 Pine St, Seattle, WA 98101",
       "locality": "Pike Place Market",
       "country": "United States",
-      "latitude": 47.61,
-      "longitude": -122.3424,
+      "latitude": 47.609903,
+      "longitude": -122.3414,
       "wantToGo": true,
       "notes": "A small hotel right at the market. Book a room facing Elliott Bay.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "I4DA7E82229B55C1F"
     },
     {
       "id": "guide:seattle/the-edgewater",
@@ -52,11 +54,12 @@
       "address": "2411 Alaskan Way, Seattle, WA 98121",
       "locality": "Waterfront",
       "country": "United States",
-      "latitude": 47.6125,
-      "longitude": -122.353,
+      "latitude": 47.612507,
+      "longitude": -122.352902,
       "wantToGo": true,
       "notes": "Built on a pier over Elliott Bay, where the Beatles once fished from their window.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "I1ED83AEA2CFE2B10"
     },
     {
       "id": "guide:seattle/ace-hotel",
@@ -65,11 +68,12 @@
       "address": "2423 1st Ave, Seattle, WA 98121",
       "locality": "Belltown",
       "country": "United States",
-      "latitude": 47.6145,
-      "longitude": -122.3481,
+      "latitude": 47.614379,
+      "longitude": -122.348816,
       "wantToGo": true,
       "notes": "Simple, stylish rooms in Belltown, some with a shared bath. The budget pick.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "I9104B3ACFEF42BBC"
     },
     {
       "id": "guide:seattle/pike-place-chowder",
@@ -78,11 +82,12 @@
       "address": "1530 Post Alley, Seattle, WA 98101",
       "locality": "Pike Place Market",
       "country": "United States",
-      "latitude": 47.6091,
-      "longitude": -122.3412,
+      "latitude": 47.60938,
+      "longitude": -122.341111,
       "wantToGo": true,
       "notes": "Award-winning chowders in a tiny spot off Post Alley. Get the New England in a bread bowl.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IC2AFF4C07697858C"
     },
     {
       "id": "guide:seattle/piroshky-piroshky",
@@ -91,11 +96,12 @@
       "address": "1908 Pike Pl, Seattle, WA 98101",
       "locality": "Pike Place Market",
       "country": "United States",
-      "latitude": 47.6101,
-      "longitude": -122.3422,
+      "latitude": 47.609922,
+      "longitude": -122.34242,
       "wantToGo": true,
       "notes": "Russian hand pies baked all day. The smoked salmon pâté one is the classic.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I4C611F6C896FDE01"
     },
     {
       "id": "guide:seattle/beechers",
@@ -104,11 +110,12 @@
       "address": "1600 Pike Pl, Seattle, WA 98101",
       "locality": "Pike Place Market",
       "country": "United States",
-      "latitude": 47.6096,
-      "longitude": -122.3417,
+      "latitude": 47.609606,
+      "longitude": -122.341862,
       "wantToGo": true,
       "notes": "Watch cheese being made through the window, then get the mac and cheese.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I3F6FBBE157B3F9D4"
     },
     {
       "id": "guide:seattle/matts-in-the-market",
@@ -117,11 +124,12 @@
       "address": "94 Pike St, Seattle, WA 98101",
       "locality": "Pike Place Market",
       "country": "United States",
-      "latitude": 47.6087,
-      "longitude": -122.3405,
+      "latitude": 47.608886,
+      "longitude": -122.340607,
       "wantToGo": true,
       "notes": "Seasonal Northwest dinners upstairs in the market, looking out at the famous clock.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I934E8C0702A6E98E"
     },
     {
       "id": "guide:seattle/the-pink-door",
@@ -130,11 +138,12 @@
       "address": "1919 Post Alley, Seattle, WA 98101",
       "locality": "Pike Place Market",
       "country": "United States",
-      "latitude": 47.6103,
-      "longitude": -122.3425,
+      "latitude": 47.610341,
+      "longitude": -122.342587,
       "wantToGo": true,
       "notes": "Italian-American food behind an unmarked pink door, with a deck over the bay.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IDBBE5B8049C2CFA4"
     },
     {
       "id": "guide:seattle/elliotts-oyster-house",
@@ -143,11 +152,12 @@
       "address": "1201 Alaskan Way, Seattle, WA 98101",
       "locality": "Waterfront",
       "country": "United States",
-      "latitude": 47.6055,
-      "longitude": -122.3405,
+      "latitude": 47.605312,
+      "longitude": -122.340512,
       "wantToGo": true,
       "notes": "Dozens of Northwest oysters on Pier 56. Come for the afternoon oyster happy hour.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I8DBF2E9BBF84F76A"
     },
     {
       "id": "guide:seattle/taylor-shellfish",
@@ -156,11 +166,12 @@
       "address": "1521 Melrose Ave, Seattle, WA 98122",
       "locality": "Capitol Hill",
       "country": "United States",
-      "latitude": 47.6143,
-      "longitude": -122.3279,
+      "latitude": 47.614578,
+      "longitude": -122.328087,
       "wantToGo": true,
       "notes": "A shellfish farm's own oyster bar. Geoduck if you're brave, Kumamotos if you're not.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IC406D377F1199C2B"
     },
     {
       "id": "guide:seattle/salumi",
@@ -169,11 +180,12 @@
       "address": "404 Occidental Ave S, Seattle, WA 98104",
       "locality": "Pioneer Square",
       "country": "United States",
-      "latitude": 47.5999,
-      "longitude": -122.333,
+      "latitude": 47.598969,
+      "longitude": -122.332677,
       "wantToGo": true,
       "notes": "Cured meat sandwiches in Pioneer Square. The porchetta is worth the lunch line.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IF4CF0B38C6BCD79F"
     },
     {
       "id": "guide:seattle/canlis",
@@ -182,11 +194,12 @@
       "address": "2576 Aurora Ave N, Seattle, WA 98109",
       "locality": "Queen Anne",
       "country": "United States",
-      "latitude": 47.643,
-      "longitude": -122.3468,
+      "latitude": 47.643122,
+      "longitude": -122.346768,
       "wantToGo": true,
       "notes": "The special night out since 1950, with a glass dining room above Lake Union. Book well ahead.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I186FC2F850FBF83F"
     },
     {
       "id": "guide:seattle/paseo",
@@ -195,11 +208,12 @@
       "address": "4225 Fremont Ave N, Seattle, WA 98103",
       "locality": "Fremont",
       "country": "United States",
-      "latitude": 47.6585,
-      "longitude": -122.3502,
+      "latitude": 47.658499,
+      "longitude": -122.350279,
       "wantToGo": true,
       "notes": "Caribbean roast pork sandwiches dripping with caramelized onions. Grab extra napkins.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IEBA5E4B20ADCB775"
     },
     {
       "id": "guide:seattle/un-bien",
@@ -208,11 +222,12 @@
       "address": "7302 15th Ave NW, Seattle, WA 98117",
       "locality": "Ballard",
       "country": "United States",
-      "latitude": 47.6823,
-      "longitude": -122.3765,
+      "latitude": 47.681663,
+      "longitude": -122.376516,
       "wantToGo": true,
       "notes": "The Paseo family's own sandwich shack in Ballard. Pair it with a walk at the Locks.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I5525C8FCAE0CBD3B"
     },
     {
       "id": "guide:seattle/dicks-drive-in",
@@ -221,11 +236,12 @@
       "address": "111 NE 45th St, Seattle, WA 98105",
       "locality": "Wallingford",
       "country": "United States",
-      "latitude": 47.6613,
-      "longitude": -122.3271,
+      "latitude": 47.661131,
+      "longitude": -122.327778,
       "wantToGo": true,
       "notes": "Cheap burgers, hand-cut fries and shakes since 1954. A Seattle rite of passage.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I5E7B48FF512FE971"
     },
     {
       "id": "guide:seattle/molly-moons",
@@ -234,11 +250,12 @@
       "address": "1622 N 45th St, Seattle, WA 98103",
       "locality": "Wallingford",
       "country": "United States",
-      "latitude": 47.6612,
-      "longitude": -122.3376,
+      "latitude": 47.66159,
+      "longitude": -122.338155,
       "wantToGo": true,
       "notes": "Local ice cream with a line even in the rain. Salted caramel is the bestseller.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I4BFB14E704DF8001"
     },
     {
       "id": "guide:seattle/caffe-vita",
@@ -247,11 +264,12 @@
       "address": "1005 E Pike St, Seattle, WA 98122",
       "locality": "Capitol Hill",
       "country": "United States",
-      "latitude": 47.6141,
-      "longitude": -122.3192,
+      "latitude": 47.613962,
+      "longitude": -122.319084,
       "wantToGo": true,
       "notes": "The Capitol Hill roastery behind a lot of Seattle's coffee. Strong espresso, no fuss.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I7DCC1E8D0C41123A"
     },
     {
       "id": "guide:seattle/zig-zag-cafe",
@@ -260,11 +278,12 @@
       "address": "1501 Western Ave, Seattle, WA 98101",
       "locality": "Pike Place Market",
       "country": "United States",
-      "latitude": 47.6085,
-      "longitude": -122.3418,
+      "latitude": 47.608389,
+      "longitude": -122.341583,
       "wantToGo": true,
       "notes": "A cocktail bar tucked down the market stairs. It revived the Last Word, so order one.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IBDEAE2E54938179A"
     },
     {
       "id": "guide:seattle/fremont-brewing",
@@ -273,11 +292,12 @@
       "address": "1050 N 34th St, Seattle, WA 98103",
       "locality": "Fremont",
       "country": "United States",
-      "latitude": 47.649,
-      "longitude": -122.3444,
+      "latitude": 47.649153,
+      "longitude": -122.344416,
       "wantToGo": true,
       "notes": "A family-friendly beer garden near the canal. Try the Interurban IPA.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I6AECA3AEE7F8AD15"
     },
     {
       "id": "guide:seattle/pike-place-market",
@@ -286,11 +306,12 @@
       "address": "85 Pike St, Seattle, WA 98101",
       "locality": "Pike Place Market",
       "country": "United States",
-      "latitude": 47.6097,
-      "longitude": -122.3422,
+      "latitude": 47.608703,
+      "longitude": -122.340546,
       "wantToGo": true,
       "notes": "Fish throwers, flower stalls and the gum wall. Come early on a weekday before the crowds.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I56290F158FD27932"
     },
     {
       "id": "guide:seattle/space-needle",
@@ -299,11 +320,12 @@
       "address": "400 Broad St, Seattle, WA 98109",
       "locality": "Seattle Center",
       "country": "United States",
-      "latitude": 47.6205,
-      "longitude": -122.3493,
+      "latitude": 47.620505,
+      "longitude": -122.349313,
       "wantToGo": true,
       "notes": "The 1962 World's Fair tower, with a rotating glass floor. Go on a clear day for Mount Rainier.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IF245760929E407CF"
     },
     {
       "id": "guide:seattle/chihuly-garden",
@@ -312,11 +334,12 @@
       "address": "305 Harrison St, Seattle, WA 98109",
       "locality": "Seattle Center",
       "country": "United States",
-      "latitude": 47.6206,
-      "longitude": -122.3505,
+      "latitude": 47.62054,
+      "longitude": -122.35035,
       "wantToGo": true,
       "notes": "Dale Chihuly's glass art in galleries, a glasshouse and a garden. Stunning at dusk.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IEB9814A3E3B68927"
     },
     {
       "id": "guide:seattle/mopop",
@@ -325,11 +348,12 @@
       "address": "325 5th Ave N, Seattle, WA 98109",
       "locality": "Seattle Center",
       "country": "United States",
-      "latitude": 47.6215,
-      "longitude": -122.3481,
+      "latitude": 47.621472,
+      "longitude": -122.348169,
       "wantToGo": true,
       "notes": "Jimi Hendrix, Nirvana and sci-fi, in Frank Gehry's crumpled metal building.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IB2D84A8FB5077CE5"
     },
     {
       "id": "guide:seattle/seattle-art-museum",
@@ -338,11 +362,12 @@
       "address": "1300 1st Ave, Seattle, WA 98101",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 47.6073,
-      "longitude": -122.3381,
+      "latitude": 47.607365,
+      "longitude": -122.337967,
       "wantToGo": true,
       "notes": "Strong Northwest Coast Native art, and the giant Hammering Man out front.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I6FFD99868133B381"
     },
     {
       "id": "guide:seattle/central-library",
@@ -351,11 +376,12 @@
       "address": "1000 4th Ave, Seattle, WA 98104",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 47.6067,
-      "longitude": -122.3325,
+      "latitude": 47.606674,
+      "longitude": -122.332752,
       "wantToGo": true,
       "notes": "Rem Koolhaas's glass-and-steel library. Ride to the tenth floor and spiral down.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IA395437869C14F42"
     },
     {
       "id": "guide:seattle/seattle-aquarium",
@@ -364,11 +390,12 @@
       "address": "1483 Alaskan Way, Seattle, WA 98101",
       "locality": "Waterfront",
       "country": "United States",
-      "latitude": 47.6075,
-      "longitude": -122.343,
+      "latitude": 47.607393,
+      "longitude": -122.343149,
       "wantToGo": true,
       "notes": "Sea otters, octopus and the creatures of Puget Sound, on Pier 59.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I20BF407F1F572389"
     },
     {
       "id": "guide:seattle/klondike-gold-rush",
@@ -377,11 +404,12 @@
       "address": "319 2nd Ave S, Seattle, WA 98104",
       "locality": "Pioneer Square",
       "country": "United States",
-      "latitude": 47.6002,
-      "longitude": -122.3321,
+      "latitude": 47.599334,
+      "longitude": -122.331835,
       "wantToGo": true,
       "notes": "A free museum on how Seattle outfitted the 1897 gold rush. Good with a Pioneer Square walk.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "ID7997EC5763A7419"
     },
     {
       "id": "guide:seattle/wing-luke",
@@ -390,11 +418,12 @@
       "address": "719 S King St, Seattle, WA 98104",
       "locality": "Chinatown-International District",
       "country": "United States",
-      "latitude": 47.598,
-      "longitude": -122.3227,
+      "latitude": 47.598222,
+      "longitude": -122.322913,
       "wantToGo": true,
       "notes": "Asian Pacific American history in an old hotel. Take the tour of the restored rooms.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I91C5978A01A38833"
     },
     {
       "id": "guide:seattle/ferry-terminal",
@@ -403,11 +432,12 @@
       "address": "801 Alaskan Way, Seattle, WA 98104",
       "locality": "Waterfront",
       "country": "United States",
-      "latitude": 47.6025,
-      "longitude": -122.3384,
+      "latitude": 47.602035,
+      "longitude": -122.339793,
       "wantToGo": true,
       "notes": "Ride the ferry to Bainbridge Island for the cheapest skyline cruise in town.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I5D2229CFCC2159AF"
     },
     {
       "id": "guide:seattle/mohai",
@@ -416,11 +446,12 @@
       "address": "860 Terry Ave N, Seattle, WA 98109",
       "locality": "South Lake Union",
       "country": "United States",
-      "latitude": 47.6275,
-      "longitude": -122.3365,
+      "latitude": 47.627586,
+      "longitude": -122.336617,
       "wantToGo": true,
       "notes": "Seattle's story from logging to Boeing to grunge, in an old naval armory on Lake Union.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IE41B38DA3DB22DA1"
     },
     {
       "id": "guide:seattle/ballard-locks",
@@ -429,11 +460,12 @@
       "address": "3015 NW 54th St, Seattle, WA 98107",
       "locality": "Ballard",
       "country": "United States",
-      "latitude": 47.6655,
-      "longitude": -122.3972,
+      "latitude": 47.66559,
+      "longitude": -122.39741,
       "wantToGo": true,
       "notes": "Watch boats rise and fall, and salmon climb the fish ladder from July to September.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I8C893FBA1B5FCC3B"
     },
     {
       "id": "guide:seattle/fremont-troll",
@@ -442,11 +474,12 @@
       "address": "N 36th St, Seattle, WA 98103",
       "locality": "Fremont",
       "country": "United States",
-      "latitude": 47.651,
-      "longitude": -122.3473,
+      "latitude": 47.6511,
+      "longitude": -122.347321,
       "wantToGo": true,
       "notes": "A giant troll crushing a real Volkswagen under the Aurora Bridge. Climb on for a photo.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I2A7C4E8575E2313D"
     },
     {
       "id": "guide:seattle/burke-museum",
@@ -455,11 +488,12 @@
       "address": "4303 Memorial Way NE, Seattle, WA 98195",
       "locality": "University District",
       "country": "United States",
-      "latitude": 47.6606,
-      "longitude": -122.3115,
+      "latitude": 47.660132,
+      "longitude": -122.311427,
       "wantToGo": true,
       "notes": "Natural history and Native culture, with working labs you can watch through the glass.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I7E834E1FCCDD93CD"
     },
     {
       "id": "guide:seattle/museum-of-flight",
@@ -468,11 +502,12 @@
       "address": "9404 E Marginal Way S, Seattle, WA 98108",
       "locality": "Boeing Field",
       "country": "United States",
-      "latitude": 47.518,
-      "longitude": -122.2964,
+      "latitude": 47.517871,
+      "longitude": -122.29643,
       "wantToGo": true,
       "notes": "Walk through a Concorde and Air Force One. Worth half a day.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I3046B6104B966454"
     },
     {
       "id": "guide:seattle/discovery-park",
@@ -481,11 +516,12 @@
       "address": "3801 Discovery Park Blvd, Seattle, WA 98199",
       "locality": "Magnolia",
       "country": "United States",
-      "latitude": 47.6573,
-      "longitude": -122.4057,
+      "latitude": 47.659375,
+      "longitude": -122.417307,
       "wantToGo": true,
       "notes": "The city's biggest park. Walk the loop trail down to the beach and the West Point lighthouse.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "IB0D64B34819EFF19"
     },
     {
       "id": "guide:seattle/kerry-park",
@@ -494,11 +530,12 @@
       "address": "211 W Highland Dr, Seattle, WA 98119",
       "locality": "Queen Anne",
       "country": "United States",
-      "latitude": 47.6295,
-      "longitude": -122.3599,
+      "latitude": 47.629248,
+      "longitude": -122.360122,
       "wantToGo": true,
       "notes": "The postcard view of the Space Needle and Mount Rainier. Best at sunset.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "IAD1E47FDB9237222"
     },
     {
       "id": "guide:seattle/gas-works-park",
@@ -507,11 +544,12 @@
       "address": "2101 N Northlake Way, Seattle, WA 98103",
       "locality": "Wallingford",
       "country": "United States",
-      "latitude": 47.6456,
-      "longitude": -122.3344,
+      "latitude": 47.645774,
+      "longitude": -122.334974,
       "wantToGo": true,
       "notes": "An old gas plant turned park on Lake Union. Fly a kite and watch the seaplanes land.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I1BD003094F16B228"
     },
     {
       "id": "guide:seattle/olympic-sculpture-park",
@@ -520,11 +558,12 @@
       "address": "2901 Western Ave, Seattle, WA 98121",
       "locality": "Belltown",
       "country": "United States",
-      "latitude": 47.6166,
-      "longitude": -122.3553,
+      "latitude": 47.616607,
+      "longitude": -122.355047,
       "wantToGo": true,
       "notes": "Free outdoor sculpture zigzagging down to the water, with the Olympics across the Sound.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "IB041235FBEE5D757"
     },
     {
       "id": "guide:seattle/volunteer-park",
@@ -533,11 +572,12 @@
       "address": "1247 15th Ave E, Seattle, WA 98112",
       "locality": "Capitol Hill",
       "country": "United States",
-      "latitude": 47.6302,
-      "longitude": -122.315,
+      "latitude": 47.630371,
+      "longitude": -122.315584,
       "wantToGo": true,
       "notes": "A Victorian conservatory, a water tower to climb and the Asian Art Museum.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I47654A60CF3D7178"
     },
     {
       "id": "guide:seattle/arboretum",
@@ -546,11 +586,12 @@
       "address": "2300 Arboretum Dr E, Seattle, WA 98112",
       "locality": "Montlake",
       "country": "United States",
-      "latitude": 47.6398,
-      "longitude": -122.2945,
+      "latitude": 47.636131,
+      "longitude": -122.296286,
       "wantToGo": true,
       "notes": "Miles of trails through trees from around the world, and a lovely Japanese garden.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I432DB780DE241DA"
     },
     {
       "id": "guide:seattle/alki-beach",
@@ -559,11 +600,12 @@
       "address": "2665 Alki Ave SW, Seattle, WA 98116",
       "locality": "West Seattle",
       "country": "United States",
-      "latitude": 47.5794,
-      "longitude": -122.41,
+      "latitude": 47.58026,
+      "longitude": -122.408391,
       "wantToGo": true,
       "notes": "A long sandy beach with skyline views. Take the water taxi over from downtown.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I3EF17CF4F5367A16"
     }
   ]
 }

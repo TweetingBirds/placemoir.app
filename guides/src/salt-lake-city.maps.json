@@ -1,0 +1,274 @@
+{
+  "antelope-island": {
+    "address": "Antelope Island, UT, United States",
+    "latitude": 40.953125,
+    "longitude": -112.209976,
+    "name": "Antelope Island"
+  },
+  "beehive-house": {
+    "address": "67 E South Temple St, Salt Lake City, UT 84103, United States",
+    "appleMapsID": "I186E5273F3E710EA",
+    "latitude": 40.769789,
+    "longitude": -111.88858,
+    "name": "Beehive House"
+  },
+  "beer-bar": {
+    "address": "161 E 200 S, Salt Lake City, UT 84111, United States",
+    "appleMapsID": "I4BC2D9AFA9503F3D",
+    "latitude": 40.76518,
+    "longitude": -111.886159,
+    "name": "Beer Bar"
+  },
+  "caputos": {
+    "address": "314 W Broadway, Salt Lake City, UT 84101, United States",
+    "appleMapsID": "I4E0C41F7DC22D93E",
+    "latitude": 40.763299,
+    "longitude": -111.900477,
+    "name": "Caputo's"
+  },
+  "cathedral-madeleine": {
+    "address": "331 E South Temple St, Salt Lake City, UT 84111, United States",
+    "appleMapsID": "I181D4C0E02358AF",
+    "latitude": 40.769894,
+    "longitude": -111.881665,
+    "name": "The Cathedral of the Madeleine"
+  },
+  "clark-planetarium": {
+    "address": "110 S 400 W, Salt Lake City, UT 84101, United States",
+    "appleMapsID": "IFF6823110D7EDACE",
+    "latitude": 40.766896,
+    "longitude": -111.903019,
+    "name": "Clark Planetarium"
+  },
+  "copper-onion": {
+    "address": "111 East Broadway, Unit 170, Salt Lake City, UT 84111, United States",
+    "appleMapsID": "IC2EC4DB7AF3499B8",
+    "latitude": 40.763101,
+    "longitude": -111.887175,
+    "name": "The Copper Onion"
+  },
+  "donut-falls": {
+    "address": "Jordan Pines Connector, Brighton, UT 84121, United States",
+    "appleMapsID": "I142674B28318791",
+    "latitude": 40.647571,
+    "longitude": -111.648031,
+    "name": "Donut Falls Trail"
+  },
+  "ensign-peak": {
+    "address": "1002 N Ensign Vista Dr, Salt Lake City, UT 84103, United States",
+    "appleMapsID": "I9E79A22456B53F23",
+    "latitude": 40.794026,
+    "longitude": -111.890559,
+    "name": "Ensign Peak Nature Park"
+  },
+  "evas-bakery": {
+    "address": "155 S Main St, Salt Lake City, UT 84101, United States",
+    "appleMapsID": "I80D4722B40BDF853",
+    "latitude": 40.765747,
+    "longitude": -111.890826,
+    "name": "Eva's Bakery"
+  },
+  "feldmans": {
+    "address": "2005 E 2700 S, Ste D, Salt Lake City, UT 84109, United States",
+    "appleMapsID": "IA81FEF9BBB0A71D1",
+    "latitude": 40.712898,
+    "longitude": -111.833662,
+    "name": "Feldman's Deli"
+  },
+  "gilgal-garden": {
+    "address": "749 E 500 S, Salt Lake City, UT 84102, United States",
+    "appleMapsID": "IA6EB643CDA14B948",
+    "latitude": 40.759533,
+    "longitude": -111.869123,
+    "name": "Gilgal Sculpture Garden"
+  },
+  "grand-america": {
+    "address": "555 S Main St, Salt Lake City, UT 84111, United States",
+    "appleMapsID": "I5D4DAA3345E10CB2",
+    "latitude": 40.757367,
+    "longitude": -111.89063,
+    "name": "The Grand America Hotel"
+  },
+  "hogle-zoo": {
+    "address": "2600 E Sunnyside Ave, Salt Lake City, UT 84108, United States",
+    "appleMapsID": "I7201DCA3AEA9C3B0",
+    "latitude": 40.750336,
+    "longitude": -111.814115,
+    "name": "Utah's Hogle Zoo"
+  },
+  "hotel-monaco": {
+    "address": "15 W 200 S, Salt Lake City, UT 84101, United States",
+    "appleMapsID": "IDEF90EBBD4738B06",
+    "latitude": 40.76472,
+    "longitude": -111.89213,
+    "name": "Kimpton Hotel Monaco Salt Lake City"
+  },
+  "hsl": {
+    "address": "418 E 200 S, Salt Lake City, UT 84111, United States",
+    "appleMapsID": "IBDC04537B12E5844",
+    "latitude": 40.764701,
+    "longitude": -111.878843,
+    "name": "HSL"
+  },
+  "inn-on-the-hill": {
+    "address": "225 N State St, Salt Lake City, UT 84103, United States",
+    "appleMapsID": "I1264C00538C026CA",
+    "latitude": 40.773908,
+    "longitude": -111.888569,
+    "name": "Inn On the Hill"
+  },
+  "laziz-kitchen": {
+    "address": "912 S Jefferson St, Salt Lake City, UT 84101, United States",
+    "appleMapsID": "I98A513CE33261DA",
+    "latitude": 40.749425,
+    "longitude": -111.895591,
+    "name": "Laziz Kitchen"
+  },
+  "liberty-park": {
+    "address": "600 Harvey Milk Blvd, Salt Lake City, UT 84105, United States",
+    "appleMapsID": "I18DF58F4F0C95AA8",
+    "latitude": 40.745672,
+    "longitude": -111.87393,
+    "name": "Liberty Park"
+  },
+  "little-america": {
+    "address": "500 S Main St, Salt Lake City, UT 84101, United States",
+    "appleMapsID": "IB2AF52AD4C46AE65",
+    "latitude": 40.75758,
+    "longitude": -111.891784,
+    "name": "Little America Hotel"
+  },
+  "lucky-13": {
+    "address": "135 W 1300 S, Salt Lake City, UT 84115, United States",
+    "appleMapsID": "I38F181C41AF48FF0",
+    "latitude": 40.741416,
+    "longitude": -111.895135,
+    "name": "Lucky 13"
+  },
+  "main-library": {
+    "address": "210 E 400 S, Salt Lake City, UT 84111, United States",
+    "appleMapsID": "IDEDBDE8D65B3FD27",
+    "latitude": 40.759976,
+    "longitude": -111.884605,
+    "name": "Salt Lake City Public Library"
+  },
+  "memory-grove": {
+    "address": "300 N Canyon Rd, Salt Lake City, UT 84103, United States",
+    "appleMapsID": "I5D12E7BEBE86A8AA",
+    "latitude": 40.782621,
+    "longitude": -111.883221,
+    "name": "Memory Grove Park"
+  },
+  "natural-history-museum": {
+    "address": "301 Wakara Way, Salt Lake City, UT 84108, United States",
+    "appleMapsID": "I1F3B485AA343F186",
+    "latitude": 40.76403,
+    "longitude": -111.8226,
+    "name": "Natural History Museum of Utah"
+  },
+  "publik-coffee": {
+    "address": "975 S West Temple St, Salt Lake City, UT 84101, United States",
+    "appleMapsID": "I8D79F3F789D9887E",
+    "latitude": 40.747889,
+    "longitude": -111.893505,
+    "name": "Publik Coffee Roasters"
+  },
+  "red-butte-garden": {
+    "address": "300 S Wakara Way, Salt Lake City, UT 84108, United States",
+    "appleMapsID": "I96C15CF78FE1D30F",
+    "latitude": 40.766926,
+    "longitude": -111.823582,
+    "name": "Red Butte Garden & Arboretum"
+  },
+  "red-iguana": {
+    "address": "736 W North Temple, Salt Lake City, UT 84116, United States",
+    "appleMapsID": "IE9324B5F5047E14",
+    "latitude": 40.771768,
+    "longitude": -111.912484,
+    "name": "Red Iguana"
+  },
+  "ruths-diner": {
+    "address": "4160 E Emigration Canyon Rd, Salt Lake City, UT 84108, United States",
+    "appleMapsID": "I624414CB544A45B6",
+    "latitude": 40.761736,
+    "longitude": -111.780631,
+    "name": "Ruth's Diner"
+  },
+  "squatters": {
+    "address": "147 W Broadway, Salt Lake City, UT 84101, United States",
+    "appleMapsID": "IFFCBA8F48AD55D59",
+    "latitude": 40.762602,
+    "longitude": -111.895703,
+    "name": "Squatters Pub Brewery"
+  },
+  "sugar-house-park": {
+    "address": "1300 E 2100 S, Salt Lake City, UT 84106, United States",
+    "appleMapsID": "I5004AB17DB6F213C",
+    "latitude": 40.722447,
+    "longitude": -111.84799,
+    "name": "Sugar House Park"
+  },
+  "takashi": {
+    "address": "18 W Market St, Salt Lake City, UT 84101, United States",
+    "appleMapsID": "IDE617F24AE906CC2",
+    "latitude": 40.761868,
+    "longitude": -111.891822,
+    "name": "Takashi"
+  },
+  "temple-square": {
+    "address": "50 N West Temple, Salt Lake City, UT 84101, United States",
+    "appleMapsID": "IAA0AEB0B553AE7A",
+    "latitude": 40.771251,
+    "longitude": -111.893092,
+    "name": "Temple Square"
+  },
+  "the-leonardo": {
+    "address": "209 E 500 S, Salt Lake City, UT 84111, United States",
+    "appleMapsID": "I77F9D3712D10EB1C",
+    "latitude": 40.758937,
+    "longitude": -111.88459,
+    "name": "The Leonardo"
+  },
+  "this-is-the-place": {
+    "address": "2601 E Sunnyside Ave, Salt Lake City, UT 84108, United States",
+    "appleMapsID": "I12DE2EE65423FEB4",
+    "latitude": 40.752166,
+    "longitude": -111.816278,
+    "name": "This Is The Place Heritage Park"
+  },
+  "tracy-aviary": {
+    "address": "589 E 1300 South, Salt Lake City, UT 84105, United States",
+    "appleMapsID": "I7FC22CF700D14338",
+    "latitude": 40.743867,
+    "longitude": -111.875164,
+    "name": "Tracy Aviary"
+  },
+  "tulie-bakery": {
+    "address": "863 E 700 S, Salt Lake City, UT 84102, United States",
+    "appleMapsID": "I3FD724949B78BB45",
+    "latitude": 40.754368,
+    "longitude": -111.866055,
+    "name": "Tulie Bakery"
+  },
+  "umfa": {
+    "address": "410 Campus Center Dr, Salt Lake City, UT 84112, United States",
+    "appleMapsID": "I51808B8EB092B41D",
+    "latitude": 40.760399,
+    "longitude": -111.843452,
+    "name": "Utah Museum of Fine Arts"
+  },
+  "utah-state-capitol": {
+    "address": "350 N State St, Salt Lake City, UT 84114, United States",
+    "appleMapsID": "IEA59B4510893041E",
+    "latitude": 40.777716,
+    "longitude": -111.888291,
+    "name": "Utah State Capitol Building"
+  },
+  "water-witch": {
+    "address": "163 W 900 S, Salt Lake City, UT 84101, United States",
+    "appleMapsID": "I7D97A33E6DBC042A",
+    "latitude": 40.749555,
+    "longitude": -111.895834,
+    "name": "Water Witch"
+  }
+}

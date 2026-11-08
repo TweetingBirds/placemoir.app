@@ -1,0 +1,296 @@
+{
+  "ace-hotel": {
+    "address": "2423 1st Ave, Seattle, WA 98121, United States",
+    "appleMapsID": "I9104B3ACFEF42BBC",
+    "latitude": 47.614379,
+    "longitude": -122.348816,
+    "name": "Ace Hotel"
+  },
+  "alki-beach": {
+    "address": "2665 Alki Ave SW, Seattle, WA 98116, United States",
+    "appleMapsID": "I3EF17CF4F5367A16",
+    "latitude": 47.58026,
+    "longitude": -122.408391,
+    "name": "Alki Beach Park"
+  },
+  "arboretum": {
+    "address": "2300 Arboretum Dr E, Seattle, WA 98112, United States",
+    "appleMapsID": "I432DB780DE241DA",
+    "latitude": 47.636131,
+    "longitude": -122.296286,
+    "name": "Washington Park Arboretum"
+  },
+  "ballard-locks": {
+    "address": "3015 NW 54th St, Ballard, WA 98107, United States",
+    "appleMapsID": "I8C893FBA1B5FCC3B",
+    "latitude": 47.66559,
+    "longitude": -122.39741,
+    "name": "Hiram M. Chittenden Ballard Locks"
+  },
+  "beechers": {
+    "address": "1600 Pike Pl, Seattle, WA 98101, United States",
+    "appleMapsID": "I3F6FBBE157B3F9D4",
+    "latitude": 47.609606,
+    "longitude": -122.341862,
+    "name": "Beecher's Handmade Cheese"
+  },
+  "burke-museum": {
+    "address": "4303 Memorial Way, Seattle, WA 98195, United States",
+    "appleMapsID": "I7E834E1FCCDD93CD",
+    "latitude": 47.660132,
+    "longitude": -122.311427,
+    "name": "Burke Museum"
+  },
+  "caffe-vita": {
+    "address": "1005 E Pike St, Seattle, WA 98122, United States",
+    "appleMapsID": "I7DCC1E8D0C41123A",
+    "latitude": 47.613962,
+    "longitude": -122.319084,
+    "name": "Caffe Vita"
+  },
+  "canlis": {
+    "address": "2576 Aurora Ave N, Seattle, WA 98109, United States",
+    "appleMapsID": "I186FC2F850FBF83F",
+    "latitude": 47.643122,
+    "longitude": -122.346768,
+    "name": "Canlis"
+  },
+  "central-library": {
+    "address": "1000 4th Ave, Seattle, WA 98104, United States",
+    "appleMapsID": "IA395437869C14F42",
+    "latitude": 47.606674,
+    "longitude": -122.332752,
+    "name": "Seattle Public Library"
+  },
+  "chihuly-garden": {
+    "address": "305 Harrison St, Seattle, WA 98109, United States",
+    "appleMapsID": "IEB9814A3E3B68927",
+    "latitude": 47.62054,
+    "longitude": -122.35035,
+    "name": "Chihuly Garden and Glass"
+  },
+  "dicks-drive-in": {
+    "address": "111 NE 45th St, Seattle, WA 98105, United States",
+    "appleMapsID": "I5E7B48FF512FE971",
+    "latitude": 47.661131,
+    "longitude": -122.327778,
+    "name": "Dick's Drive-In"
+  },
+  "discovery-park": {
+    "address": "3801 Discovery Park Blvd, Seattle, WA 98199, United States",
+    "appleMapsID": "IB0D64B34819EFF19",
+    "latitude": 47.659375,
+    "longitude": -122.417307,
+    "name": "Discovery Park"
+  },
+  "elliotts-oyster-house": {
+    "address": "1201 Alaskan Way, Seattle, WA 98101, United States",
+    "appleMapsID": "I8DBF2E9BBF84F76A",
+    "latitude": 47.605312,
+    "longitude": -122.340512,
+    "name": "Elliott's Oyster House"
+  },
+  "fairmont-olympic": {
+    "address": "411 University St, Seattle, WA 98101, United States",
+    "appleMapsID": "I1577CBDFC9E90446",
+    "latitude": 47.608013,
+    "longitude": -122.33387,
+    "name": "Fairmont Olympic Hotel, Seattle"
+  },
+  "ferry-terminal": {
+    "address": "Seattle, WA, United States",
+    "appleMapsID": "I5D2229CFCC2159AF",
+    "latitude": 47.602035,
+    "longitude": -122.339793,
+    "name": "Seattle Ferry Terminal"
+  },
+  "fremont-brewing": {
+    "address": "1050 N 34th St, Seattle, WA 98103, United States",
+    "appleMapsID": "I6AECA3AEE7F8AD15",
+    "latitude": 47.649153,
+    "longitude": -122.344416,
+    "name": "Fremont Brewing"
+  },
+  "fremont-troll": {
+    "address": "880 N 36th St, Seattle, WA 98103, United States",
+    "appleMapsID": "I2A7C4E8575E2313D",
+    "latitude": 47.6511,
+    "longitude": -122.347321,
+    "name": "Fremont Troll"
+  },
+  "gas-works-park": {
+    "address": "2101 N Northlake Way, Seattle, WA 98103, United States",
+    "appleMapsID": "I1BD003094F16B228",
+    "latitude": 47.645774,
+    "longitude": -122.334974,
+    "name": "Gas Works Park"
+  },
+  "inn-at-the-market": {
+    "address": "86 Pine St, Seattle, WA 98101, United States",
+    "appleMapsID": "I4DA7E82229B55C1F",
+    "latitude": 47.609903,
+    "longitude": -122.3414,
+    "name": "Inn at the Market"
+  },
+  "kerry-park": {
+    "address": "211 W Highland Dr, Seattle, WA 98119, United States",
+    "appleMapsID": "IAD1E47FDB9237222",
+    "latitude": 47.629248,
+    "longitude": -122.360122,
+    "name": "Kerry Park"
+  },
+  "klondike-gold-rush": {
+    "address": "319 2nd Ave S, Seattle, WA 98104, United States",
+    "appleMapsID": "ID7997EC5763A7419",
+    "latitude": 47.599334,
+    "longitude": -122.331835,
+    "name": "Klondike Gold Rush National Historical Park"
+  },
+  "matts-in-the-market": {
+    "address": "94 Pike St, Unit 32, Seattle, WA 98101, United States",
+    "appleMapsID": "I934E8C0702A6E98E",
+    "latitude": 47.608886,
+    "longitude": -122.340607,
+    "name": "Matt's in the Market"
+  },
+  "mohai": {
+    "address": "860 Terry Ave N, Seattle, WA 98109, United States",
+    "appleMapsID": "IE41B38DA3DB22DA1",
+    "latitude": 47.627586,
+    "longitude": -122.336617,
+    "name": "Museum of History & Industry"
+  },
+  "molly-moons": {
+    "address": "1622.5 N 45th St, Seattle, WA 98103, United States",
+    "appleMapsID": "I4BFB14E704DF8001",
+    "latitude": 47.66159,
+    "longitude": -122.338155,
+    "name": "Molly Moon's"
+  },
+  "mopop": {
+    "address": "325 5th Avenue N, Seattle, WA 98109, United States",
+    "appleMapsID": "IB2D84A8FB5077CE5",
+    "latitude": 47.621472,
+    "longitude": -122.348169,
+    "name": "Museum of Pop Culture"
+  },
+  "museum-of-flight": {
+    "address": "9404 E Marginal Way S, Seattle, WA 98108, United States",
+    "appleMapsID": "I3046B6104B966454",
+    "latitude": 47.517871,
+    "longitude": -122.29643,
+    "name": "The Museum of Flight"
+  },
+  "olympic-sculpture-park": {
+    "address": "2901 Western Ave, Seattle, WA 98121, United States",
+    "appleMapsID": "IB041235FBEE5D757",
+    "latitude": 47.616607,
+    "longitude": -122.355047,
+    "name": "Olympic Sculpture Park"
+  },
+  "paseo": {
+    "address": "4225 Fremont Ave N, Seattle, WA 98103, United States",
+    "appleMapsID": "IEBA5E4B20ADCB775",
+    "latitude": 47.658499,
+    "longitude": -122.350279,
+    "name": "Paseo"
+  },
+  "pike-place-chowder": {
+    "address": "1530 Post Alley, Seattle, WA 98101, United States",
+    "appleMapsID": "IC2AFF4C07697858C",
+    "latitude": 47.60938,
+    "longitude": -122.341111,
+    "name": "Pike Place Chowder"
+  },
+  "pike-place-market": {
+    "address": "85 Pike St, Seattle, WA 98101, United States",
+    "appleMapsID": "I56290F158FD27932",
+    "latitude": 47.608703,
+    "longitude": -122.340546,
+    "name": "Pike Place Market"
+  },
+  "piroshky-piroshky": {
+    "address": "1908 Pike Pl, Seattle, WA 98101, United States",
+    "appleMapsID": "I4C611F6C896FDE01",
+    "latitude": 47.609922,
+    "longitude": -122.34242,
+    "name": "Piroshky Piroshky"
+  },
+  "salumi": {
+    "address": "404 Occidental Ave S, Seattle, WA 98104, United States",
+    "appleMapsID": "IF4CF0B38C6BCD79F",
+    "latitude": 47.598969,
+    "longitude": -122.332677,
+    "name": "Salumi"
+  },
+  "seattle-aquarium": {
+    "address": "1483 Alaskan Way, Seattle, WA 98101, United States",
+    "appleMapsID": "I20BF407F1F572389",
+    "latitude": 47.607393,
+    "longitude": -122.343149,
+    "name": "Seattle Aquarium"
+  },
+  "seattle-art-museum": {
+    "address": "1300 1st Ave, Seattle, WA 98101, United States",
+    "appleMapsID": "I6FFD99868133B381",
+    "latitude": 47.607365,
+    "longitude": -122.337967,
+    "name": "Seattle Art Museum"
+  },
+  "space-needle": {
+    "address": "400 Broad St, Seattle, WA 98109, United States",
+    "appleMapsID": "IF245760929E407CF",
+    "latitude": 47.620505,
+    "longitude": -122.349313,
+    "name": "Space Needle"
+  },
+  "taylor-shellfish": {
+    "address": "1521 Melrose Ave, Seattle, WA 98122, United States",
+    "appleMapsID": "IC406D377F1199C2B",
+    "latitude": 47.614578,
+    "longitude": -122.328087,
+    "name": "Taylor Shellfish Farms"
+  },
+  "the-edgewater": {
+    "address": "2411 Alaskan Way, Seattle, WA 98121, United States",
+    "appleMapsID": "I1ED83AEA2CFE2B10",
+    "latitude": 47.612507,
+    "longitude": -122.352902,
+    "name": "The Edgewater Hotel"
+  },
+  "the-pink-door": {
+    "address": "1919 Post Alley, Seattle, WA 98101, United States",
+    "appleMapsID": "IDBBE5B8049C2CFA4",
+    "latitude": 47.610341,
+    "longitude": -122.342587,
+    "name": "The Pink Door"
+  },
+  "un-bien": {
+    "address": "7302 15th Ave NW, Seattle, WA 98117, United States",
+    "appleMapsID": "I5525C8FCAE0CBD3B",
+    "latitude": 47.681663,
+    "longitude": -122.376516,
+    "name": "Un Bien"
+  },
+  "volunteer-park": {
+    "address": "1247 15th Ave E, Seattle, WA 98112, United States",
+    "appleMapsID": "I47654A60CF3D7178",
+    "latitude": 47.630371,
+    "longitude": -122.315584,
+    "name": "Volunteer Park"
+  },
+  "wing-luke": {
+    "address": "719 S King St, Seattle, WA 98104, United States",
+    "appleMapsID": "I91C5978A01A38833",
+    "latitude": 47.598222,
+    "longitude": -122.322913,
+    "name": "Wing Luke Museum"
+  },
+  "zig-zag-cafe": {
+    "address": "1501 Western Ave, Unit 202, Seattle, WA 98101, United States",
+    "appleMapsID": "IBDEAE2E54938179A",
+    "latitude": 47.608389,
+    "longitude": -122.341583,
+    "name": "Zig Zag Café"
+  }
+}

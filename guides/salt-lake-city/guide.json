@@ -26,11 +26,12 @@
       "address": "15 W 200 S, Salt Lake City, UT 84101",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 40.7651,
-      "longitude": -111.8917,
+      "latitude": 40.76472,
+      "longitude": -111.89213,
       "wantToGo": true,
       "notes": "A 1924 bank building turned playful hotel, a block from the light rail and the Gateway.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "IDEF90EBBD4738B06"
     },
     {
       "id": "guide:salt-lake-city/grand-america",
@@ -39,11 +40,12 @@
       "address": "555 S Main St, Salt Lake City, UT 84111",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 40.7584,
-      "longitude": -111.8913,
+      "latitude": 40.757367,
+      "longitude": -111.89063,
       "wantToGo": true,
       "notes": "The splurge. Marble, gardens and a proper afternoon tea, and an easy drive up to the canyons.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "I5D4DAA3345E10CB2"
     },
     {
       "id": "guide:salt-lake-city/little-america",
@@ -52,11 +54,12 @@
       "address": "500 S Main St, Salt Lake City, UT 84101",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 40.759,
-      "longitude": -111.8888,
+      "latitude": 40.75758,
+      "longitude": -111.891784,
       "wantToGo": true,
       "notes": "The Grand America's friendlier sibling across the street, with big rooms and a big pool.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "IB2AF52AD4C46AE65"
     },
     {
       "id": "guide:salt-lake-city/inn-on-the-hill",
@@ -65,11 +68,12 @@
       "address": "225 N State St, Salt Lake City, UT 84103",
       "locality": "Capitol Hill",
       "country": "United States",
-      "latitude": 40.7726,
-      "longitude": -111.8878,
+      "latitude": 40.773908,
+      "longitude": -111.888569,
       "wantToGo": true,
       "notes": "A 1906 mansion turned bed and breakfast below the Capitol, with valley views and a cooked breakfast.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "I1264C00538C026CA"
     },
     {
       "id": "guide:salt-lake-city/red-iguana",
@@ -78,11 +82,12 @@
       "address": "736 W North Temple, Salt Lake City, UT 84116",
       "locality": "Fairpark",
       "country": "United States",
-      "latitude": 40.7719,
-      "longitude": -111.9118,
+      "latitude": 40.771768,
+      "longitude": -111.912484,
       "wantToGo": true,
       "notes": "Seven kinds of mole and a line out the door since 1985. Ask for the mole sampler.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IE9324B5F5047E14"
     },
     {
       "id": "guide:salt-lake-city/copper-onion",
@@ -91,11 +96,12 @@
       "address": "111 E Broadway, Salt Lake City, UT 84111",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 40.7634,
-      "longitude": -111.8866,
+      "latitude": 40.763101,
+      "longitude": -111.887175,
       "wantToGo": true,
       "notes": "Seasonal American cooking downtown. The ricotta dumplings and the burger are the regulars' picks.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IC2EC4DB7AF3499B8"
     },
     {
       "id": "guide:salt-lake-city/takashi",
@@ -104,11 +110,12 @@
       "address": "18 W Market St, Salt Lake City, UT 84101",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 40.7637,
-      "longitude": -111.8918,
+      "latitude": 40.761868,
+      "longitude": -111.891822,
       "wantToGo": true,
       "notes": "The city's best-loved sushi bar. No reservations, so come early.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IDE617F24AE906CC2"
     },
     {
       "id": "guide:salt-lake-city/lucky-13",
@@ -117,11 +124,12 @@
       "address": "135 W 1300 S, Salt Lake City, UT 84115",
       "locality": "Ballpark",
       "country": "United States",
-      "latitude": 40.7393,
-      "longitude": -111.8946,
+      "latitude": 40.741416,
+      "longitude": -111.895135,
       "wantToGo": true,
       "notes": "Huge burgers with house-smoked bacon. Bring an appetite and a 21-plus ID.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I38F181C41AF48FF0"
     },
     {
       "id": "guide:salt-lake-city/ruths-diner",
@@ -130,11 +138,12 @@
       "address": "4160 Emigration Canyon Rd, Salt Lake City, UT 84108",
       "locality": "Emigration Canyon",
       "country": "United States",
-      "latitude": 40.772,
-      "longitude": -111.79,
+      "latitude": 40.761736,
+      "longitude": -111.780631,
       "wantToGo": true,
       "notes": "Breakfast in a trolley car up Emigration Canyon. Order the mile-high biscuits.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I624414CB544A45B6"
     },
     {
       "id": "guide:salt-lake-city/caputos",
@@ -143,11 +152,12 @@
       "address": "314 W Broadway, Salt Lake City, UT 84101",
       "locality": "Pioneer Park",
       "country": "United States",
-      "latitude": 40.7632,
-      "longitude": -111.9002,
+      "latitude": 40.763299,
+      "longitude": -111.900477,
       "wantToGo": true,
       "notes": "Italian deli and a famous chocolate room. Grab sandwiches for a picnic.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I4E0C41F7DC22D93E"
     },
     {
       "id": "guide:salt-lake-city/feldmans",
@@ -156,11 +166,12 @@
       "address": "2005 E 2700 S, Salt Lake City, UT 84109",
       "locality": "Sugar House",
       "country": "United States",
-      "latitude": 40.7135,
-      "longitude": -111.8337,
+      "latitude": 40.712898,
+      "longitude": -111.833662,
       "wantToGo": true,
       "notes": "A New Jersey-style Jewish deli. Pastrami on rye and a black-and-white cookie.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IA81FEF9BBB0A71D1"
     },
     {
       "id": "guide:salt-lake-city/laziz-kitchen",
@@ -169,11 +180,12 @@
       "address": "912 S Jefferson St, Salt Lake City, UT 84101",
       "locality": "Central Ninth",
       "country": "United States",
-      "latitude": 40.7495,
-      "longitude": -111.8995,
+      "latitude": 40.749425,
+      "longitude": -111.895591,
       "wantToGo": true,
       "notes": "Lebanese small plates and fresh hummus, in the small Central Ninth neighborhood.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I98A513CE33261DA"
     },
     {
       "id": "guide:salt-lake-city/hsl",
@@ -182,11 +194,12 @@
       "address": "418 E 200 S, Salt Lake City, UT 84111",
       "locality": "Central City",
       "country": "United States",
-      "latitude": 40.7651,
-      "longitude": -111.8784,
+      "latitude": 40.764701,
+      "longitude": -111.878843,
       "wantToGo": true,
       "notes": "Thoughtful seasonal dinners in a warm, wood-lined room. Book a table on a weekend.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IBDC04537B12E5844"
     },
     {
       "id": "guide:salt-lake-city/evas-bakery",
@@ -195,11 +208,12 @@
       "address": "155 S Main St, Salt Lake City, UT 84111",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 40.7666,
-      "longitude": -111.8909,
+      "latitude": 40.765747,
+      "longitude": -111.890826,
       "wantToGo": true,
       "notes": "French pastries and good coffee on Main Street. Easy breakfast before Temple Square.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I80D4722B40BDF853"
     },
     {
       "id": "guide:salt-lake-city/tulie-bakery",
@@ -208,11 +222,12 @@
       "address": "863 E 700 S, Salt Lake City, UT 84102",
       "locality": "East Central",
       "country": "United States",
-      "latitude": 40.7547,
-      "longitude": -111.8664,
+      "latitude": 40.754368,
+      "longitude": -111.866055,
       "wantToGo": true,
       "notes": "A neighborhood bakery known for its croissants and seasonal fruit tarts.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I3FD724949B78BB45"
     },
     {
       "id": "guide:salt-lake-city/publik-coffee",
@@ -221,11 +236,12 @@
       "address": "975 S West Temple, Salt Lake City, UT 84101",
       "locality": "Ballpark",
       "country": "United States",
-      "latitude": 40.7469,
-      "longitude": -111.896,
+      "latitude": 40.747889,
+      "longitude": -111.893505,
       "wantToGo": true,
       "notes": "A big, bright roastery with good toast. A fine place to plan the day.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I8D79F3F789D9887E"
     },
     {
       "id": "guide:salt-lake-city/squatters",
@@ -234,11 +250,12 @@
       "address": "147 W Broadway, Salt Lake City, UT 84101",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 40.7637,
-      "longitude": -111.896,
+      "latitude": 40.762602,
+      "longitude": -111.895703,
       "wantToGo": true,
       "notes": "Salt Lake's original brewpub, open since 1989. Try the Emigration Amber.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IFFCBA8F48AD55D59"
     },
     {
       "id": "guide:salt-lake-city/beer-bar",
@@ -247,11 +264,12 @@
       "address": "161 E 200 S, Salt Lake City, UT 84111",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 40.7654,
-      "longitude": -111.8851,
+      "latitude": 40.76518,
+      "longitude": -111.886159,
       "wantToGo": true,
       "notes": "Long tables, bratwurst and Belgian frites, with a deep list of local and imported beer.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I4BC2D9AFA9503F3D"
     },
     {
       "id": "guide:salt-lake-city/water-witch",
@@ -260,11 +278,12 @@
       "address": "163 W 900 S, Salt Lake City, UT 84101",
       "locality": "Central Ninth",
       "country": "United States",
-      "latitude": 40.7505,
-      "longitude": -111.896,
+      "latitude": 40.749555,
+      "longitude": -111.895834,
       "wantToGo": true,
       "notes": "A tiny cocktail bar with no menu. Tell them what you like and they'll make it.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I7D97A33E6DBC042A"
     },
     {
       "id": "guide:salt-lake-city/temple-square",
@@ -273,11 +292,12 @@
       "address": "50 N West Temple, Salt Lake City, UT 84150",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 40.7704,
-      "longitude": -111.892,
+      "latitude": 40.771251,
+      "longitude": -111.893092,
       "wantToGo": true,
       "notes": "The heart of the city since 1847. Walk the gardens and hear the Tabernacle organ at noon.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IAA0AEB0B553AE7A"
     },
     {
       "id": "guide:salt-lake-city/beehive-house",
@@ -286,11 +306,12 @@
       "address": "67 E South Temple, Salt Lake City, UT 84111",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 40.7697,
-      "longitude": -111.8883,
+      "latitude": 40.769789,
+      "longitude": -111.88858,
       "wantToGo": true,
       "notes": "Brigham Young's 1854 home, with free guided tours of the family rooms.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I186E5273F3E710EA"
     },
     {
       "id": "guide:salt-lake-city/utah-state-capitol",
@@ -299,11 +320,12 @@
       "address": "350 State St, Salt Lake City, UT 84103",
       "locality": "Capitol Hill",
       "country": "United States",
-      "latitude": 40.7774,
-      "longitude": -111.8882,
+      "latitude": 40.777716,
+      "longitude": -111.888291,
       "wantToGo": true,
       "notes": "Free tours of a grand 1916 capitol, and a sweeping view of the valley from the steps.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IEA59B4510893041E"
     },
     {
       "id": "guide:salt-lake-city/cathedral-madeleine",
@@ -312,11 +334,12 @@
       "address": "331 E South Temple, Salt Lake City, UT 84111",
       "locality": "The Avenues",
       "country": "United States",
-      "latitude": 40.7704,
-      "longitude": -111.881,
+      "latitude": 40.769894,
+      "longitude": -111.881665,
       "wantToGo": true,
       "notes": "A 1909 cathedral with painted walls and stained glass. Free choir concerts in season.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I181D4C0E02358AF"
     },
     {
       "id": "guide:salt-lake-city/natural-history-museum",
@@ -325,11 +348,12 @@
       "address": "301 Wakara Way, Salt Lake City, UT 84108",
       "locality": "University",
       "country": "United States",
-      "latitude": 40.7643,
-      "longitude": -111.8227,
+      "latitude": 40.76403,
+      "longitude": -111.8226,
       "wantToGo": true,
       "notes": "A wall of dinosaurs and great Native American galleries, in a building set into the foothills.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I1F3B485AA343F186"
     },
     {
       "id": "guide:salt-lake-city/umfa",
@@ -338,11 +362,12 @@
       "address": "410 Campus Center Dr, Salt Lake City, UT 84112",
       "locality": "University",
       "country": "United States",
-      "latitude": 40.7621,
-      "longitude": -111.8435,
+      "latitude": 40.760399,
+      "longitude": -111.843452,
       "wantToGo": true,
       "notes": "A broad collection on the University of Utah campus, with strong Western American galleries.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I51808B8EB092B41D"
     },
     {
       "id": "guide:salt-lake-city/the-leonardo",
@@ -351,11 +376,12 @@
       "address": "209 E 500 S, Salt Lake City, UT 84111",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 40.7587,
-      "longitude": -111.8847,
+      "latitude": 40.758937,
+      "longitude": -111.88459,
       "wantToGo": true,
       "notes": "Science, art and tinkering under one roof, in the old city library. Good on a rainy day.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I77F9D3712D10EB1C"
     },
     {
       "id": "guide:salt-lake-city/clark-planetarium",
@@ -364,11 +390,12 @@
       "address": "110 S 400 W, Salt Lake City, UT 84101",
       "locality": "Gateway",
       "country": "United States",
-      "latitude": 40.7668,
-      "longitude": -111.9025,
+      "latitude": 40.766896,
+      "longitude": -111.903019,
       "wantToGo": true,
       "notes": "Free exhibits and a dome theater at the Gateway. The Foucault pendulum is mesmerizing.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IFF6823110D7EDACE"
     },
     {
       "id": "guide:salt-lake-city/main-library",
@@ -377,11 +404,12 @@
       "address": "210 E 400 S, Salt Lake City, UT 84111",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 40.7602,
-      "longitude": -111.8845,
+      "latitude": 40.759976,
+      "longitude": -111.884605,
       "wantToGo": true,
       "notes": "A curving glass library with a rooftop garden. Climb the walkway for views of the mountains.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IDEDBDE8D65B3FD27"
     },
     {
       "id": "guide:salt-lake-city/gilgal-garden",
@@ -390,11 +418,12 @@
       "address": "749 E 500 S, Salt Lake City, UT 84102",
       "locality": "East Central",
       "country": "United States",
-      "latitude": 40.7577,
-      "longitude": -111.8702,
+      "latitude": 40.759533,
+      "longitude": -111.869123,
       "wantToGo": true,
       "notes": "A strange little garden of stone sculptures, including a sphinx with Joseph Smith's face.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IA6EB643CDA14B948"
     },
     {
       "id": "guide:salt-lake-city/tracy-aviary",
@@ -403,11 +432,12 @@
       "address": "589 E 1300 S, Salt Lake City, UT 84105",
       "locality": "Liberty Park",
       "country": "United States",
-      "latitude": 40.7442,
-      "longitude": -111.8735,
+      "latitude": 40.743867,
+      "longitude": -111.875164,
       "wantToGo": true,
       "notes": "Hundreds of birds inside Liberty Park, from bald eagles to flamingos.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I7FC22CF700D14338"
     },
     {
       "id": "guide:salt-lake-city/this-is-the-place",
@@ -416,11 +446,12 @@
       "address": "2601 Sunnyside Ave S, Salt Lake City, UT 84108",
       "locality": "Emigration Canyon",
       "country": "United States",
-      "latitude": 40.7527,
-      "longitude": -111.8158,
+      "latitude": 40.752166,
+      "longitude": -111.816278,
       "wantToGo": true,
       "notes": "A living history village where Brigham Young first saw the valley in 1847.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I12DE2EE65423FEB4"
     },
     {
       "id": "guide:salt-lake-city/hogle-zoo",
@@ -429,11 +460,12 @@
       "address": "2600 Sunnyside Ave S, Salt Lake City, UT 84108",
       "locality": "Emigration Canyon",
       "country": "United States",
-      "latitude": 40.7503,
-      "longitude": -111.8143,
+      "latitude": 40.750336,
+      "longitude": -111.814115,
       "wantToGo": true,
       "notes": "A hillside zoo across from the heritage park. Polar bears and a fine African savanna.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I7201DCA3AEA9C3B0"
     },
     {
       "id": "guide:salt-lake-city/red-butte-garden",
@@ -442,11 +474,12 @@
       "address": "300 Wakara Way, Salt Lake City, UT 84108",
       "locality": "University",
       "country": "United States",
-      "latitude": 40.7666,
-      "longitude": -111.8248,
+      "latitude": 40.766926,
+      "longitude": -111.823582,
       "wantToGo": true,
       "notes": "Botanic gardens and trails in the foothills, with summer concerts in the amphitheater.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I96C15CF78FE1D30F"
     },
     {
       "id": "guide:salt-lake-city/liberty-park",
@@ -455,11 +488,12 @@
       "address": "600 E Harvey Milk Blvd, Salt Lake City, UT 84105",
       "locality": "Liberty Wells",
       "country": "United States",
-      "latitude": 40.7457,
-      "longitude": -111.8746,
+      "latitude": 40.745672,
+      "longitude": -111.87393,
       "wantToGo": true,
       "notes": "The city's big central park, with a pond, paddle boats and a long walking loop.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I18DF58F4F0C95AA8"
     },
     {
       "id": "guide:salt-lake-city/memory-grove",
@@ -468,11 +502,12 @@
       "address": "300 N Canyon Rd, Salt Lake City, UT 84103",
       "locality": "Capitol Hill",
       "country": "United States",
-      "latitude": 40.7766,
-      "longitude": -111.8872,
+      "latitude": 40.782621,
+      "longitude": -111.883221,
       "wantToGo": true,
       "notes": "A quiet green ravine below the Capitol, leading up into City Creek Canyon.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I5D12E7BEBE86A8AA"
     },
     {
       "id": "guide:salt-lake-city/ensign-peak",
@@ -481,11 +516,12 @@
       "address": "1002 N Ensign Vista Dr, Salt Lake City, UT 84103",
       "locality": "Capitol Hill",
       "country": "United States",
-      "latitude": 40.7921,
-      "longitude": -111.8888,
+      "latitude": 40.794026,
+      "longitude": -111.890559,
       "wantToGo": true,
       "notes": "A short, steep climb to the best view of the city. Go at sunset.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I9E79A22456B53F23"
     },
     {
       "id": "guide:salt-lake-city/sugar-house-park",
@@ -494,11 +530,12 @@
       "address": "1300 E 2100 S, Salt Lake City, UT 84106",
       "locality": "Sugar House",
       "country": "United States",
-      "latitude": 40.7238,
-      "longitude": -111.8483,
+      "latitude": 40.722447,
+      "longitude": -111.84799,
       "wantToGo": true,
       "notes": "Rolling lawns and a pond with mountain views. Pair it with lunch in Sugar House.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I5004AB17DB6F213C"
     },
     {
       "id": "guide:salt-lake-city/donut-falls",
@@ -507,11 +544,12 @@
       "address": "Big Cottonwood Canyon Rd, Brighton, UT 84121",
       "locality": "Big Cottonwood Canyon",
       "country": "United States",
-      "latitude": 40.6476,
-      "longitude": -111.648,
+      "latitude": 40.647571,
+      "longitude": -111.648031,
       "wantToGo": true,
       "notes": "An easy canyon hike to a waterfall that pours through a hole in the rock. Best in summer.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I142674B28318791"
     },
     {
       "id": "guide:salt-lake-city/antelope-island",
@@ -520,8 +558,8 @@
       "address": "4528 W 1700 S, Syracuse, UT 84075",
       "locality": "Great Salt Lake",
       "country": "United States",
-      "latitude": 40.9457,
-      "longitude": -112.2061,
+      "latitude": 40.953125,
+      "longitude": -112.209976,
       "wantToGo": true,
       "notes": "A causeway out into the Great Salt Lake, with bison, salt beaches and huge sunsets.",
       "section": "Outside"
