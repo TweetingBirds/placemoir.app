@@ -16,6 +16,9 @@ on:
   pull_request:
     branches: [main]
   workflow_dispatch:
+  # Redeploys on the 1st of each month, so the guide maps' 90-day MapKit token never runs out.
+  schedule:
+    - cron: "41 8 1 * *"
 
 permissions:
   contents: read
@@ -31,6 +34,18 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v7
+      # The guide pages' Apple Maps map needs a MapKit JS token for placemoir.app. It's written
+      # at deploy time, never committed, and the monthly run below keeps it from expiring.
+      - name: MapKit JS token for the guide maps
+        if: github.event_name != 'pull_request'
+        env:
+          APPLE_MAPS_KEY: ${{ secrets.APPLE_MAPS_KEY || vars.APPLE_MAPS_KEY }}
+          APPLE_MAPS_KEY_ID: ${{ secrets.APPLE_MAPS_KEY_ID || vars.APPLE_MAPS_KEY_ID }}
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID || vars.APPLE_TEAM_ID }}
+        run: |
+          python3 -m venv "$RUNNER_TEMP/token"
+          "$RUNNER_TEMP/token/bin/pip" install --quiet pyjwt cryptography
+          "$RUNNER_TEMP/token/bin/python" tools/guides.py token https://placemoir.app 90
       - uses: actions/upload-pages-artifact@v5
         with:
           path: .

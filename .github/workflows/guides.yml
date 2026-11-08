@@ -12,7 +12,7 @@ name: Guides
 on:
   pull_request:
     branches: [main]
-    paths: ["guides/**", "tools/guides.py", "sitemap.xml", "privacy.html", ".github/workflows/guides.yml"]
+    paths: ["guides/**", "tools/guides.py", "sitemap.xml", "privacy.html", "js/guide-map.js", "css/site.css", ".github/workflows/guides.yml"]
   push:
     branches: [main]
     paths: ["guides/**", "tools/guides.py", "sitemap.xml", "privacy.html"]
@@ -86,3 +86,53 @@ jobs:
             echo "Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           } > "$RUNNER_TEMP/issue.md"
           gh issue create --title "Guides: places to check ($(date +%Y-%m))" --body-file "$RUNNER_TEMP/issue.md"
+
+  # Draws the Atlanta page with its map in a real browser, with a token for the local server,
+  # and keeps the screenshots and any console errors (such as a blocked request) as an artifact.
+  map-preview:
+    needs: check
+    if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-24.04
+    env:
+      APPLE_MAPS_KEY: ${{ secrets.APPLE_MAPS_KEY || vars.APPLE_MAPS_KEY }}
+      APPLE_MAPS_KEY_ID: ${{ secrets.APPLE_MAPS_KEY_ID || vars.APPLE_MAPS_KEY_ID }}
+      APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID || vars.APPLE_TEAM_ID }}
+    steps:
+      - uses: actions/checkout@v7
+      - name: Token for the local server
+        run: |
+          python3 -m venv "$RUNNER_TEMP/token"
+          "$RUNNER_TEMP/token/bin/pip" install --quiet pyjwt cryptography
+          "$RUNNER_TEMP/token/bin/python" tools/guides.py token http://127.0.0.1:8811 1
+      - name: Screenshot the guide map
+        run: |
+          python3 -m http.server 8811 --bind 127.0.0.1 >/dev/null 2>&1 &
+          mkdir -p "$RUNNER_TEMP/pw" && cd "$RUNNER_TEMP/pw"
+          npm init -y >/dev/null && npm install --silent playwright@1 >/dev/null
+          npx playwright install --with-deps chromium >/dev/null
+          cat > shot.mjs <<'JS'
+          import { chromium } from "playwright";
+          const browser = await chromium.launch();
+          const problems = [];
+          for (const [name, scheme] of [["light", "light"], ["dark", "dark"]]) {
+            const page = await browser.newPage({ viewport: { width: 1280, height: 1000 }, colorScheme: scheme });
+            page.on("console", m => { if (["error", "warning", "info"].includes(m.type())) problems.push(`${name} ${m.type()}: ${m.text()}`); });
+            page.on("pageerror", e => problems.push(`${name} pageerror: ${e.message}`));
+            await page.goto("http://127.0.0.1:8811/guides/atlanta/");
+            await page.waitForTimeout(8000);
+            const shown = await page.evaluate(() => !document.getElementById("guide-map").hidden);
+            problems.push(`${name}: map shown = ${shown}`);
+            await page.screenshot({ path: `${process.env.GITHUB_WORKSPACE}/map-${name}.png` });
+          }
+          await browser.close();
+          console.log(problems.join("\n"));
+          JS
+          node shot.mjs | tee "$GITHUB_WORKSPACE/map-console.txt"
+          grep -q "light: map shown = true" "$GITHUB_WORKSPACE/map-console.txt"
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: map-preview
+          path: |
+            map-*.png
+            map-console.txt
