@@ -238,9 +238,11 @@ def page(title, description, canonical, body, prefix, noindex, app_argument=None
 
 
 # Apple's MapKit JS, on guide pages only: its script, tiles and data come from Apple. The rest of
-# the site keeps its stricter policy. Styles stay 'self': MapKit sets styles through the DOM.
+# the site keeps its stricter policy. MapKit injects its own style sheet, which needs
+# 'unsafe-inline' for styles (scripts stay strict).
 MAPKIT_CSP = {
     "script-src": ["https://cdn.apple-mapkit.com"],
+    "style-src": ["'unsafe-inline'"],
     "img-src": ["https://*.apple-mapkit.com", "https://*.ls.apple.com", "blob:"],
     "connect-src": ["https://*.apple-mapkit.com", "https://*.ls.apple.com", "https://*.apple.com"],
     "worker-src": ["blob:"],

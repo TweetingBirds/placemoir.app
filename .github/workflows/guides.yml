@@ -119,18 +119,21 @@ jobs:
           const log = line => { const text = `${new Date().toISOString().slice(11, 19)} ${line}`; console.log(text); appendFileSync(out, text + "\n"); };
           setTimeout(() => { log("gave up after 120 s"); process.exit(1); }, 120000);
           log("launching Chrome");
-          const browser = await chromium.launch({ channel: "chrome", timeout: 30000 });
+          // The runner has no GPU; MapKit draws with WebGL, so give Chrome its software renderer.
+          const browser = await chromium.launch({ channel: "chrome", timeout: 30000,
+            args: ["--use-gl=angle", "--use-angle=swiftshader", "--enable-unsafe-swiftshader", "--ignore-gpu-blocklist"] });
           let shown = false;
           for (const scheme of ["light", "dark"]) {
-            const page = await browser.newPage({ viewport: { width: 1280, height: 1000 }, colorScheme: scheme });
+            const page = await browser.newPage({ viewport: { width: 1100, height: 900 }, colorScheme: scheme });
             page.setDefaultTimeout(20000);
             page.on("console", m => log(`${scheme} console ${m.type()}: ${m.text()}`));
             page.on("pageerror", e => log(`${scheme} pageerror: ${e.message}`));
-            page.on("requestfailed", r => log(`${scheme} failed: ${r.url().slice(0, 120)} ${r.failure()?.errorText}`));
+            page.on("requestfailed", r => { if (r.failure()?.errorText !== "net::ERR_ABORTED") log(`${scheme} failed: ${r.url().slice(0, 120)} ${r.failure()?.errorText}`); });
             log(`${scheme}: opening the page`);
             await page.goto("http://127.0.0.1:8811/guides/atlanta/", { waitUntil: "domcontentloaded" });
-            await page.waitForTimeout(8000);
-            const visible = await page.evaluate(() => !document.getElementById("guide-map").hidden);
+            const visible = await page.waitForFunction(() => !document.getElementById("guide-map").hidden, null, { timeout: 15000 })
+              .then(() => true, () => false);
+            await page.waitForTimeout(4000);
             log(`${scheme}: map shown = ${visible}`);
             if (scheme === "light") shown = visible;
             await page.locator(visible ? "#guide-map" : "main").screenshot({ path: `${process.env.GITHUB_WORKSPACE}/map-${scheme}.png`, animations: "disabled", timeout: 20000 })
