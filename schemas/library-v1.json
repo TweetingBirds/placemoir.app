@@ -29,6 +29,9 @@
       "items": {
         "$ref": "#/$defs/place"
       }
+    },
+    "guide": {
+      "$ref": "#/$defs/guide"
     }
   },
   "$defs": {
@@ -65,6 +68,7 @@
             "park",
             "museum",
             "attraction",
+            "airport",
             "other"
           ],
           "description": "Write one of these, in lowercase. Placemoir also accepts other case, and imports unknown values as other."
@@ -100,6 +104,16 @@
         },
         "createdAt": {
           "$ref": "#/$defs/date"
+        },
+        "section": {
+          "type": "string",
+          "minLength": 1,
+          "description": "In a guide, the section this place is listed under. One of guide.sections."
+        },
+        "appleMapsID": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Apple Maps place ID (MKMapItem.Identifier), when known."
         },
         "visits": {
           "type": "array",
@@ -248,6 +262,50 @@
         "assetIdentifier": {
           "type": "string",
           "description": "The Photos library id it was imported from, per device. Leave it out in hand-written files."
+        }
+      }
+    },
+    "guide": {
+      "type": "object",
+      "description": "A published list of places to try, such as a city guide. Placemoir 1.0 ignores it.",
+      "required": [
+        "slug",
+        "title"
+      ],
+      "properties": {
+        "slug": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "author": {
+          "type": "string"
+        },
+        "language": {
+          "type": "string",
+          "description": "BCP 47 tag, e.g. \"en\" or \"pt-BR\"."
+        },
+        "summary": {
+          "type": "string"
+        },
+        "sections": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "updatedAt": {
+          "$ref": "#/$defs/date"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
         }
       }
     }
