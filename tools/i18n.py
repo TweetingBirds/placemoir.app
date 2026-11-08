@@ -364,8 +364,24 @@ def splice(source, edits):
     return "".join(out)
 
 
+BADGE = "images/app-store-badge.svg"
+
+
+def badge(lang):
+    """Apple's localized "Download on the App Store" badge, if images/badges/ has one."""
+    path = f"images/badges/app-store-{lang['code']}.svg"
+    return path if (ROOT / path).exists() else None
+
+
+def badge_width(path):
+    match = re.search(r'viewBox="0 0 ([\d.]+) ([\d.]+)"', (ROOT / path).read_text(encoding="utf-8"))
+    return round(float(match.group(1)) / float(match.group(2)) * 40)
+
+
 def relink(url, lang):
     """Make a root-relative link work from inside a language folder."""
+    if url == BADGE and badge(lang):
+        return "../" + badge(lang)
     if not url or url.startswith(("#", "/", "http:", "https:", "mailto:", "data:", "tel:", "../")):
         return url
     path, sep, frag = url.partition("#")
@@ -454,6 +470,9 @@ def translate_page(page, lang, strings, missing):
             if node.tag == "link" and dict(node.attrs).get("rel") in ("canonical", "alternate"):
                 continue
             new = re.sub(r'(\s%s)="([^"]*)"' % name, repl, new)
+        if node.tag == "img" and dict(node.attrs).get("src") == BADGE and badge(lang):
+            # Localized badges differ in width; keep the width attribute true to the art.
+            new = re.sub(r'width="\d+"', f'width="{badge_width(badge(lang))}"', new)
         if new != tag:
             links.append((node.start, node.start_end, new))
         for child in node.children:
