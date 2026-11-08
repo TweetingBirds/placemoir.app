@@ -228,19 +228,6 @@
       "section": "Eat"
     },
     {
-      "id": "guide:atlanta/home-grown",
-      "name": "Home grown",
-      "category": "restaurant",
-      "address": "968 Memorial Dr SE, Atlanta, GA 30316",
-      "locality": "Reynoldstown",
-      "country": "United States",
-      "latitude": 33.7469,
-      "longitude": -84.3549,
-      "wantToGo": true,
-      "notes": "Breakfast with a side of thrift-store decor. Order the Comfy Chicken Biscuit.",
-      "section": "Eat"
-    },
-    {
       "id": "guide:atlanta/sweet-auburn-curb-market",
       "name": "Sweet Auburn Curb Market",
       "category": "restaurant",
@@ -465,7 +452,7 @@
       "id": "guide:atlanta/delta-flight-museum",
       "name": "Delta Flight Museum",
       "category": "museum",
-      "address": "1060 Delta Blvd, Atlanta, GA 30354",
+      "address": "747 Woolman Pl, Atlanta, GA 30354",
       "locality": "Hapeville",
       "country": "United States",
       "latitude": 33.6558,
@@ -504,7 +491,7 @@
       "id": "guide:atlanta/piedmont-park",
       "name": "Piedmont Park",
       "category": "park",
-      "address": "400 Park Dr NE, Atlanta, GA 30306",
+      "address": "1320 Monroe Dr NE, Atlanta, GA 30306",
       "locality": "Midtown",
       "country": "United States",
       "latitude": 33.7851,
@@ -543,7 +530,7 @@
       "id": "guide:atlanta/fourth-ward-park",
       "name": "Historic Fourth Ward Park",
       "category": "park",
-      "address": "680 Dallas St NE, Atlanta, GA 30308",
+      "address": "695 Morgan St NE, Atlanta, GA 30308",
       "locality": "Old Fourth Ward",
       "country": "United States",
       "latitude": 33.7688,
@@ -554,7 +541,7 @@
     },
     {
       "id": "guide:atlanta/westside-park",
-      "name": "Westside Park",
+      "name": "Shirley Clarke Franklin Park",
       "category": "park",
       "address": "1660 Johnson Rd NW, Atlanta, GA 30318",
       "locality": "Grove Park",
@@ -562,7 +549,7 @@
       "latitude": 33.79,
       "longitude": -84.448,
       "wantToGo": true,
-      "notes": "The city's largest park, around an old quarry turned reservoir. Big views, few crowds.",
+      "notes": "The city's largest park, opened as Westside Park, around an old quarry turned reservoir. Big views, few crowds.",
       "section": "Outside"
     },
     {

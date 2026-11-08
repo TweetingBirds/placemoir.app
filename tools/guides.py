@@ -62,6 +62,7 @@ PLACE_KEYS = {"key", "name", "category", "section", "address", "locality", "lati
               "longitude", "notes", "mapsQuery", "mapsSkip"}
 MOVED_METRES = 300
 SEARCH_RADIUS_METRES = 2000
+STREET_RADIUS_METRES = 5000
 NOTES_MAX = 300
 
 
@@ -445,15 +446,15 @@ def judge(guide, place, result):
     metres = distance(place["latitude"], place["longitude"], coordinate["latitude"], coordinate["longitude"])
     score = similarity(place.get("mapsQuery") or place["name"], result.get("name", ""),
                        city=guide["slug"].split("-"))
-    if metres > SEARCH_RADIUS_METRES or score < 0.6:
+    if score < 0.6:
         return False, score, metres
     ours = street(place["address"])
-    if ours:
+    if ours and metres <= STREET_RADIUS_METRES:
         # A street address decides it: the same number on the same street, wherever the pin is.
         # This keeps "Sweet Auburn Curb Market" from matching a train station of a similar name.
         return street(one_line(result.get("formattedAddressLines", []))) == ours, score, metres
-    # No street number (a trail, a big park): only a close name will do.
-    return score >= 0.9, score, metres
+    # No street number (a trail, a big park): only a close name, near where the source says.
+    return not ours and score >= 0.9 and metres <= SEARCH_RADIUS_METRES, score, metres
 
 
 def maps(slugs):
