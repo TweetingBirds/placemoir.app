@@ -1,0 +1,22 @@
+name: placemoir.com Worker
+
+# Tests the placemoir.com Worker (apple-app-site-association and the /g/ guide links).
+# Deploying it stays a manual `npx wrangler deploy`; see workers/placemoir-com/README.md.
+
+on:
+  push:
+    branches: [main]
+    paths: ["workers/**", ".github/workflows/worker.yml"]
+  pull_request:
+    paths: ["workers/**", ".github/workflows/worker.yml"]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      # The runner image's own Node (20 or later) is enough: the test needs no packages.
+      - run: node --test workers/placemoir-com/worker.test.mjs
