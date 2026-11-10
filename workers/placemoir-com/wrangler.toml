@@ -1,0 +1,12 @@
+# Cloudflare Worker for placemoir.com. Deploy from this folder with `npx wrangler deploy`
+# (see README.md). The routes cover the bare domain and www, so this Worker answers every
+# request to placemoir.com and the old redirect rule can go.
+name = "placemoir-com"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+workers_dev = false
+
+routes = [
+  { pattern = "placemoir.com/*", zone_name = "placemoir.com" },
+  { pattern = "www.placemoir.com/*", zone_name = "placemoir.com" },
+]
