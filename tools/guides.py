@@ -60,9 +60,7 @@ BASE_URL = "https://placemoir.app"
 APP_STORE = "https://apps.apple.com/app/placemoir/id6829224969"
 
 # Turn on with Placemoir 1.1: the button then opens the app through the universal link on
-# placemoir.com, and the file download becomes the small-print fallback. Only once 1.1 is on
-# the App Store and the placemoir.com Worker (workers/placemoir-com/) is live: before that,
-# the link just redirects back to the same page.
+# placemoir.com, and the file download becomes the small-print fallback.
 ONE_TAP = False
 SHORT_LINK = "https://placemoir.com/g/{slug}"
 

@@ -38,3 +38,7 @@ curl -sI https://placemoir.com/.well-known/apple-app-site-association   # 200, a
 curl -sI https://placemoir.com/g/atlanta                                  # 302 to placemoir.app/guides/atlanta/
 curl -s  https://app-site-association.cdn-apple.com/a/v1/placemoir.com    # Apple's cached copy, can lag a day
 ```
+
+## Turning on one-tap guide links
+
+Once Placemoir 1.1 is on the App Store and this Worker is live, set `ONE_TAP = True` in `tools/guides.py` and run `python3 tools/guides.py build`. The guide pages' **Add to Placemoir** button then points at `placemoir.com/g/<slug>`. Not before: on 1.0, or without the Worker, that link just comes back to the same page.
