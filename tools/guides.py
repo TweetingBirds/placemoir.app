@@ -59,9 +59,11 @@ OUT = SITE / "guides"
 BASE_URL = "https://placemoir.app"
 APP_STORE = "https://apps.apple.com/app/placemoir/id6829224969"
 
-# Turn on with Placemoir 1.1: the button then opens the app through the universal link on
-# placemoir.com, and the file download becomes the small-print fallback.
-ONE_TAP = False
+# On: the button opens Placemoir through the universal link on placemoir.com (served by
+# workers/placemoir-com/), and the file download is the small-print fallback. The link opens
+# the app only with Placemoir 1.1 or later installed and the Worker live; otherwise the
+# Worker sends it back to the guide page, where the download link still works.
+ONE_TAP = True
 SHORT_LINK = "https://placemoir.com/g/{slug}"
 
 CATEGORIES = {"restaurant": "Restaurant", "cafe": "Café", "bar": "Bar", "hotel": "Hotel",
@@ -301,7 +303,7 @@ def guide_page(guide):
     updated = datetime.date.fromisoformat(guide["updatedAt"]).strftime("%B %-d, %Y")
     if ONE_TAP:
         actions = f'''<a class="btn btn-moss" href="{SHORT_LINK.format(slug=slug)}">Add to Placemoir</a>
-                    <p class="cta-note">Opens Placemoir, where you pick the places you want. <a href="{archive}" download="{e(archive_name)}">Download the file</a> instead.</p>'''
+                    <p class="cta-note">Opens Placemoir, where you pick the places you want. If it doesn’t open, <a href="{archive}" download="{e(archive_name)}">download the guide</a> and open it from Files.</p>'''
     else:
         actions = f'''<a class="btn btn-moss" href="{archive}" download="{e(archive_name)}">Add to Placemoir</a>
                     <p class="cta-note">Downloads the guide. Open it from Files, or in Placemoir under You › Import an archive.</p>'''

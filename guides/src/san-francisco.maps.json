@@ -86,8 +86,8 @@
   "fairmont": {
     "address": "950 Mason St, San Francisco, CA 94108, United States",
     "appleMapsID": "IF6AE9CFEF12F160C",
-    "latitude": 37.792359,
-    "longitude": -122.410589,
+    "latitude": 37.792353,
+    "longitude": -122.410602,
     "name": "Fairmont San Francisco"
   },
   "ferry-building": {
@@ -100,8 +100,8 @@
   "fortune-cookie-factory": {
     "address": "56 Ross Alley, San Francisco, CA 94133, United States",
     "appleMapsID": "I9112F11B943F10C5",
-    "latitude": 37.795778,
-    "longitude": -122.407248,
+    "latitude": 37.795766,
+    "longitude": -122.407253,
     "name": "Golden Gate Fortune Cookie Factory"
   },
   "golden-gate-bridge": {

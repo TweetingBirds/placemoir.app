@@ -208,12 +208,12 @@
       "address": "75 9th Ave, New York, NY 10011",
       "locality": "Chelsea",
       "country": "United States",
-      "latitude": 40.742638,
-      "longitude": -74.006044,
+      "latitude": 40.742485,
+      "longitude": -74.006111,
       "wantToGo": true,
       "notes": "A food hall in the old Nabisco factory. Tacos, lobster and doughnuts before a High Line walk.",
       "section": "Eat",
-      "appleMapsID": "I310857CBE806F364"
+      "appleMapsID": "IF002523577FB67C6"
     },
     {
       "id": "guide:new-york/barney-greengrass",
