@@ -100,7 +100,8 @@
       "longitude": -104.995659,
       "wantToGo": true,
       "notes": "Reindeer, elk and rattlesnake sausages with cream cheese and caramelized onions.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IE96755DC82228ABE"
     },
     {
       "id": "guide:denver/denver-central-market",
