@@ -396,7 +396,7 @@ def catalog_json(guides):
     The app fetches this one static file when someone opens the list, and nothing else until
     they pick a guide, so the list needs no account and tells the site nothing about them.
     """
-    published = sorted((g for g in guides if g["status"] == "published"), key=lambda g: g["title"])
+    published = sorted((g for g in guides if g["status"] == "published"), key=lambda g: g["slug"])
     entries = []
     for guide in published:
         points = [(guide["_maps"].get(p["key"], {}).get("latitude", p["latitude"]),
