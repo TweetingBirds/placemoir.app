@@ -5,7 +5,7 @@
   "guides": [
     {
       "slug": "atlanta",
-      "title": "A week in Atlanta",
+      "title": "Atlanta from Mary Mac's to the BeltLine",
       "summary": "Seven days of civil rights history, Southern cooking, BeltLine walks and a few places to stay, from Sweet Auburn to the Westside.",
       "author": "friends of Placemoir",
       "language": "en",
@@ -26,7 +26,7 @@
     },
     {
       "slug": "austin",
-      "title": "A week in Austin",
+      "title": "Live music and swimming holes in Austin",
       "summary": "Seven days of brisket and breakfast tacos, live music every night, spring-fed swimming holes and bats over Lady Bird Lake.",
       "author": "friends of Placemoir",
       "language": "en",
@@ -47,7 +47,7 @@
     },
     {
       "slug": "boston",
-      "title": "A week in Boston",
+      "title": "Boston on foot",
       "summary": "Seven days of the Freedom Trail and the North End, oysters and cannoli, great museums, Fenway and walks along the Charles.",
       "author": "friends of Placemoir",
       "language": "en",
@@ -68,7 +68,7 @@
     },
     {
       "slug": "chicago",
-      "title": "A week in Chicago",
+      "title": "Chicago by the lake",
       "summary": "Seven days of architecture by boat, deep dish and Italian beef, the Art Institute and the lakefront, blues bars and a game at Wrigley.",
       "author": "friends of Placemoir",
       "language": "en",
@@ -89,7 +89,7 @@
     },
     {
       "slug": "denver",
-      "title": "A week in Denver",
+      "title": "A mile high in Denver",
       "summary": "Seven days of mountain views and red rocks, green chile and craft beer, great museums and murals, with a day up in the foothills.",
       "author": "friends of Placemoir",
       "language": "en",
@@ -110,7 +110,7 @@
     },
     {
       "slug": "kansas-city",
-      "title": "A week in Kansas City",
+      "title": "Barbecue and jazz in Kansas City",
       "summary": "Seven days of barbecue and jazz, fountains and boulevards, the WWI museum and the Nelson-Atkins, with a Chiefs or Royals game if you can.",
       "author": "friends of Placemoir",
       "language": "en",
@@ -131,7 +131,7 @@
     },
     {
       "slug": "nashville",
-      "title": "A week in Nashville",
+      "title": "Nashville beyond Broadway",
       "summary": "Seven days of hot chicken and meat-and-threes, honky-tonks and the Opry, songwriter nights, and green trails just outside town.",
       "author": "friends of Placemoir",
       "language": "en",
@@ -152,7 +152,7 @@
     },
     {
       "slug": "new-york",
-      "title": "A week in New York",
+      "title": "New York by ferry and on foot",
       "summary": "Seven days of museums and delis, bridges and harbor ferries, Central Park and the High Line, across Manhattan and Brooklyn.",
       "author": "friends of Placemoir",
       "language": "en",
@@ -173,7 +173,7 @@
     },
     {
       "slug": "orlando",
-      "title": "A week in Orlando",
+      "title": "Theme parks and springs in Orlando",
       "summary": "Seven days of theme parks and the space coast, springs and manatees, and the quieter, tree-lined side of Orlando and Winter Park.",
       "author": "friends of Placemoir",
       "language": "en",
@@ -194,7 +194,7 @@
     },
     {
       "slug": "portland",
-      "title": "A week in Portland",
+      "title": "Portland rain or shine",
       "summary": "Seven days of food carts and doughnuts, roses and a Japanese garden, books and coffee, and waterfalls in the Columbia River Gorge.",
       "author": "friends of Placemoir",
       "language": "en",
@@ -215,7 +215,7 @@
     },
     {
       "slug": "salt-lake-city",
-      "title": "A week in Salt Lake City",
+      "title": "Salt Lake City under the Wasatch",
       "summary": "Seven days of mountain trails, pioneer history, mole and fry sauce, and a day out on the Great Salt Lake, with the Wasatch always in view.",
       "author": "friends of Placemoir",
       "language": "en",
@@ -236,7 +236,7 @@
     },
     {
       "slug": "san-francisco",
-      "title": "A week in San Francisco",
+      "title": "San Francisco in the fog",
       "summary": "Seven days of cable cars and fog, dim sum and burritos, bay crossings and big parks, from the Ferry Building to Lands End.",
       "author": "friends of Placemoir",
       "language": "en",
@@ -257,7 +257,7 @@
     },
     {
       "slug": "seattle",
-      "title": "A week in Seattle",
+      "title": "Seattle by the Sound",
       "summary": "Seven days of Pike Place, ferries and salmon, glass art and rock history, and green parks with views of the Sound and the mountains.",
       "author": "friends of Placemoir",
       "language": "en",
@@ -278,7 +278,7 @@
     },
     {
       "slug": "washington-dc",
-      "title": "A week in Washington, DC",
+      "title": "Free museums and half-smokes in DC",
       "summary": "Seven days of free museums and monuments, half-smokes and Ethiopian dinners, Georgetown walks and cherry trees on the Tidal Basin.",
       "author": "friends of Placemoir",
       "language": "en",
