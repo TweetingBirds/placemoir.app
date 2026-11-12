@@ -1,7 +1,8 @@
 name: placemoir.com Worker
 
-# Tests the placemoir.com Worker (apple-app-site-association and the /g/ guide links).
-# Deploying it stays a manual `npx wrangler deploy`; see workers/placemoir-com/README.md.
+# Tests the Cloudflare Workers: placemoir.com (apple-app-site-association and the /g/ guide
+# links) and the Field Guide suggestions form. Deploying them stays a manual `npx wrangler
+# deploy`; see each Worker's README.md.
 
 on:
   push:
@@ -19,4 +20,4 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       # The runner image's own Node (20 or later) is enough: the test needs no packages.
-      - run: node --test workers/placemoir-com/worker.test.mjs
+      - run: node --test workers/placemoir-com/worker.test.mjs workers/place-suggestions/worker.test.mjs

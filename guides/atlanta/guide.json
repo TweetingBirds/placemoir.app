@@ -306,12 +306,12 @@
       "address": "3130 Piedmont Rd NE, Atlanta, GA 30305",
       "locality": "Buckhead",
       "country": "United States",
-      "latitude": 33.842188,
-      "longitude": -84.370891,
+      "latitude": 33.842121,
+      "longitude": -84.371079,
       "wantToGo": true,
       "notes": "An old-school steakhouse open since 1979, with white tablecloths and a deep wine list.",
       "section": "Eat",
-      "appleMapsID": "I693D292EDBE048B9"
+      "appleMapsID": "I7256B4B8BA7C4A56"
     },
     {
       "id": "guide:atlanta/mlk-park",

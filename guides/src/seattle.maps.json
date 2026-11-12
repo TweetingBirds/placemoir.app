@@ -37,8 +37,8 @@
   "burke-museum": {
     "address": "4303 Memorial Way, Seattle, WA 98195, United States",
     "appleMapsID": "I7E834E1FCCDD93CD",
-    "latitude": 47.660132,
-    "longitude": -122.311427,
+    "latitude": 47.660134,
+    "longitude": -122.311452,
     "name": "Burke Museum"
   },
   "caffe-vita": {
@@ -58,8 +58,8 @@
   "central-library": {
     "address": "1000 4th Ave, Seattle, WA 98104, United States",
     "appleMapsID": "IA395437869C14F42",
-    "latitude": 47.606674,
-    "longitude": -122.332752,
+    "latitude": 47.606462,
+    "longitude": -122.332809,
     "name": "Seattle Public Library"
   },
   "chihuly-garden": {
