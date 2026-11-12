@@ -71,5 +71,4 @@ Placemoir 1.0 went live on the App Store on November 6, 2026 (app ID `6829224969
 
 ## Still open
 
-- Legal pages: open items are marked `TODO` in HTML comments (the developer address and the `feedback@placemoir.app` mailbox).
 - Press kit: add tester quotes and rebuild the ZIP with the final App Store screenshots. Items are marked `TODO` in `press.html`.
