@@ -52,7 +52,7 @@
             <header class="page-head">
                 <p class="eyebrow moss">Privacy Policy</p>
                 <h1>Your journal stays yours.</h1>
-                <p class="meta">Effective October 30, 2026 · Last updated November 11, 2026</p>
+                <p class="meta">Effective October 30, 2026 · Last updated November 12, 2026</p>
             </header>
         </div>
         <div class="wrap page-body">
@@ -63,8 +63,9 @@
                         <li>Your journal stays on your devices and, if iCloud is on, in your personal iCloud account, which we can't see</li>
                         <li>There's no account, no ads, no tracking, and no analytics in the app</li>
                         <li>The app doesn't send us crash reports or usage data</li>
-                        <li>To find places and fill in the weather, the app sends a search or an approximate location to Apple Maps and Apple Weather. It never sends your notes, ratings, photos or memos</li>
+                        <li>To find places, show times on a place's own clock and fill in the weather, the app sends a search or a location to Apple Maps, and an approximate location to Apple Weather. It never sends your notes, ratings, photos or memos</li>
                         <li>Importing from Photos or from a Google Maps export happens on your device. Only place lookups go to Apple Maps</li>
+                        <li>Field Guides in the app are downloaded from placemoir.app. The request carries nothing that identifies you, though like any web host, ours sees your IP address and the file requested</li>
                         <li>The app uses your location, camera, microphone and photo library only when you choose a feature that needs them, and only after you allow it</li>
                         <li>Face ID is handled by Apple on your device. We never receive your face data</li>
                         <li>If you email us for help, we see your email address and your message</li>
@@ -91,17 +92,18 @@
                 <h2 id="information-leaving">Information that leaves your device</h2>
                 <p>The App does not collect information that identifies you. A few features need to ask an outside service for help, and this is the complete list of what is sent:</p>
                 <ul>
-                    <li><strong>Place search and suggestions (Apple Maps):</strong> when you search for a place, or let the App suggest the place you're standing in, the App sends your search text or your current location to Apple Maps and shows the results. Maps also load map tiles for the area you're viewing. Apple handles these requests under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>, and we do not receive them.</li>
+                    <li><strong>Place search, suggestions and time zones (Apple Maps):</strong> when you search for a place, or let the App suggest the place you're standing in, the App sends your search text or your current location to Apple Maps and shows the results. Maps also load map tiles for the area you're viewing. To show a journal entry's time on the clock of the place it was at, the App asks Apple Maps which time zone that place is in, sending the place's location rounded to two decimal places of latitude and longitude (roughly a kilometer). It does this when an entry's date or time at that place is on screen, when you write an entry there, or when you import photos, and each device remembers the answer so an area is normally asked about once. Apple handles these requests under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>, and we do not receive them.</li>
                     <li><strong>Weather (Apple Weather):</strong> when Fill in weather is on, the App asks Apple Weather, through Apple's WeatherKit service, for the conditions at a place on the date and hour of your journal entry. The request carries only that place's coordinates, rounded to about 100 meters, and the date. It does not carry your notes, your rating, the name of the place, or anything that identifies you to us. Apple handles these requests under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>, and we do not receive them. The App shows the Apple Weather mark and a link to <a href="https://weatherkit.apple.com/legal-attribution.html">Apple Weather's data sources</a> wherever weather appears. You can turn this off in <b>You › Fill in weather</b>.</li>
                     <li><strong>iCloud sync:</strong> if iCloud is on for Placemoir, your journal syncs through your personal iCloud account, managed by Apple. See <a href="#storage">Data storage and security</a>.</li>
                     <li><strong>Purchases:</strong> if you buy anything in the App, Apple processes the transaction through the App Store. We do not receive your name, Apple Account or payment information.</li>
+                    <li><strong>Field Guides (placemoir.app):</strong> when you open the Guides tab, the App downloads the list of guides from placemoir.app, and when you open a guide it downloads that guide's file. The request carries no cookies and nothing that identifies you. Like any web host, GitHub and Cloudflare receive your IP address and the file requested (see <a href="#server-logs">Server logs</a>). Nothing is reported back when you add a guide's places to your journal.</li>
                 </ul>
                 <p>Nothing else leaves your device unless you choose to send it, for example by exporting your journal or sharing a file.</p>
 
                 <h2 id="imports">Importing places</h2>
                 <ul>
                     <li><strong>Import from Photos:</strong> when you pick photos to import, the App reads the location and time stored in those photos, on your device, to suggest places and journal entry dates. It reads only the photos you pick, and nothing from them is sent to us. To name a place, the App may look up its coordinates in Apple Maps, as described above.</li>
-                    <li><strong>Import an archive:</strong> when you open a Placemoir archive, or pick one under Import an archive, the App reads it on your device and adds what's new to your journal. The file is not uploaded anywhere, and the App doesn't look anything up to import it.</li>
+                    <li><strong>Import an archive:</strong> when you open a Placemoir archive, or pick one under Import an archive, the App reads it on your device and adds what's new to your journal. The file is not uploaded anywhere, and the App doesn't look anything up to import it. When you later view the imported entries, the App may ask Apple Maps for each place's time zone, as described above.</li>
                     <li><strong>Import from Google Maps:</strong> when you pick the files from a Google Takeout export, the App reads your saved and visited places from them on your device. The files are not uploaded anywhere. The App looks each place up in Apple Maps to match it, which sends that place's name or coordinates to Apple, and we do not receive them. The App does not connect to your Google account.</li>
                 </ul>
 
@@ -112,7 +114,7 @@
                 <p>The App asks for these permissions only when you first use a feature that needs one, and you can change your answer at any time in your device's Settings:</p>
                 <ul>
                     <li><strong>Notifications:</strong> to remind you to finish an entry you started with quick capture. Reminders are scheduled on your device.</li>
-                    <li><strong>Location (while using the App):</strong> to suggest the place you're standing in and fill in its weather. The App never tracks your location in the background, and it does not keep a history of where you've been beyond the places you choose to save.</li>
+                    <li><strong>Location (while using the App):</strong> to show your journal entries from where you are, suggest the place you're standing in and fill in its weather. The App never tracks your location in the background, and it does not keep a history of where you've been beyond the places you choose to save.</li>
                     <li><strong>Camera:</strong> to take photos of the places you visit.</li>
                     <li><strong>Microphone:</strong> to record voice memos for your entries.</li>
                     <li><strong>Photo library:</strong> to add photos you choose to an entry, or to import places from the location and time stored in photos you pick.</li>
@@ -138,7 +140,7 @@
                 <ol>
                     <li><strong>Your journal:</strong> stored on your device to provide the App's features</li>
                     <li><strong>iCloud sync:</strong> kept in step across your devices through your personal iCloud account</li>
-                    <li><strong>Place search, weather and imports:</strong> used only to answer the request you made</li>
+                    <li><strong>Place search, time zones, weather, imports and Field Guides:</strong> used only to answer the request the App made for you</li>
                     <li><strong>Support:</strong> emails you send are used only to answer you</li>
                 </ol>
                 <p>We do not use any information for advertising, to build a profile of you, or to make automated decisions about you.</p>
@@ -173,14 +175,14 @@
                 <h3>Web analytics</h3>
                 <p>The website uses <strong>Cloudflare Web Analytics</strong> to count page views, so we can see which pages people find useful. It sets no cookies, does not fingerprint your browser for advertising, does not track you across other sites, and gives us only aggregate numbers, such as visits per page. It cannot identify you, and we couldn't use it to do so if we wanted to. See <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare's Privacy Policy</a>. The App does not use it.</p>
                 <p>The <a href="guides/">Field Guides</a> show a map from <strong>Apple Maps</strong> (MapKit JS). On those pages only, your browser loads the map's code, tiles and place details directly from Apple, so Apple receives your IP address and the area of the map you look at, under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>. We don't send Apple anything about you, and the map sets no cookies for us. Other pages of this website load nothing from Apple.</p>
-                <h3>Server logs</h3>
-                <p>Like any web host, GitHub and Cloudflare receive standard request information when you load a page (such as your IP address, the time and the page requested) and keep it in their server logs as part of running their services, under <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's Privacy Statement</a> and <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare's Privacy Policy</a>. We have no access to these logs and do not use them to identify or track visitors.</p>
+                <h3 id="server-logs">Server logs</h3>
+                <p>Like any web host, GitHub and Cloudflare receive standard request information when you load a page, or when the App downloads a Field Guide (such as your IP address, the time and the page or file requested), and keep it in their server logs as part of running their services, under <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's Privacy Statement</a> and <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare's Privacy Policy</a>. We have no access to these logs and do not use them to identify or track visitors.</p>
 
                 <h2 id="children">Children's privacy</h2>
                 <p>Placemoir is not directed to children under 13. We do not knowingly collect personal information from children under 13 (or the higher age set by the law where you live). If you believe a child has sent us personal information, for example by emailing us, contact us at <a href="mailto:feedback@placemoir.app">feedback@placemoir.app</a> and we will delete it.</p>
 
                 <h2 id="service-providers">Service providers</h2>
-                <p>The companies involved in running Placemoir are Apple (App Store, iCloud, Apple Maps, Apple Weather and Face ID) and GitHub and Cloudflare (hosting and delivering this website, and Cloudflare's cookieless website analytics). Each receives only what it needs to provide its service. We may also disclose information if the law requires it, to protect our rights or the safety of others, or to a successor if Tweeting Birds or the App is transferred, in which case this policy will continue to apply to that information.</p>
+                <p>The companies involved in running Placemoir are Apple (App Store, iCloud, Apple Maps, Apple Weather and Face ID) and GitHub and Cloudflare (hosting and delivering this website and the Field Guides the App downloads from it, and Cloudflare's cookieless website analytics). Each receives only what it needs to provide its service. We may also disclose information if the law requires it, to protect our rights or the safety of others, or to a successor if Tweeting Birds or the App is transferred, in which case this policy will continue to apply to that information.</p>
 
                 <h2 id="retention">Data retention</h2>
                 <ul>
