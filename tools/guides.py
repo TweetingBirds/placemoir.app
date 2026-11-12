@@ -9,7 +9,8 @@ script turns it into, for every guide:
     guides/<slug>/<slug>.placemoirarchive  the same file zipped, which Placemoir 1.0 opens from Files
 
 plus guides/index.html (the list of guides), guides/index.json (the same list for the app's
-Guides list) and the guides block in sitemap.xml.
+Guides list), guides/suggest/index.html (the Suggest a place form, see TURNSTILE_SITE_KEY) and
+the guides block in sitemap.xml.
 
     python3 tools/guides.py build          # write everything (standard library only)
     python3 tools/guides.py check          # validate the sources; fail if the built files are stale
@@ -65,6 +66,20 @@ APP_STORE = "https://apps.apple.com/app/placemoir/id6829224969"
 # Worker sends it back to the guide page, where the download link still works.
 ONE_TAP = True
 SHORT_LINK = "https://placemoir.com/g/{slug}"
+
+# The "Suggest a place" form (guides/suggest/), which posts to workers/place-suggestions/.
+# Paste the Turnstile widget's site key here (it's public) once that Worker is deployed, then
+# build. Until then the page says suggestions aren't open yet, has noindex and isn't linked.
+TURNSTILE_SITE_KEY = ""
+SUGGEST_ENDPOINT = "/api/field-guide-suggestions"
+SUGGEST_URL = f"{BASE_URL}/guides/suggest/"
+# Cloudflare Turnstile, on the suggestion page only: its script and its check run in a frame.
+TURNSTILE_CSP = {
+    "script-src": ["https://challenges.cloudflare.com"],
+    "frame-src": ["https://challenges.cloudflare.com"],
+}
+# City names for the form, where the slug alone doesn't give them.
+CITY_NAMES = {"washington-dc": "Washington, DC"}
 
 CATEGORIES = {"restaurant": "Restaurant", "cafe": "Café", "bar": "Bar", "hotel": "Hotel",
               "park": "Park", "museum": "Museum", "attraction": "Attraction",
@@ -223,10 +238,15 @@ def relink(text, prefix):
     return re.sub(r'\b(href|src)="([^"]*)"', fix, text)
 
 
-def page(title, description, canonical, body, prefix, noindex, app_argument=None, image=None, with_map=False):
+def page(title, description, canonical, body, prefix, noindex, app_argument=None, image=None, with_map=False,
+         with_turnstile=False):
     head, foot = template()
+    if with_turnstile:
+        head = with_csp(head, TURNSTILE_CSP)
+        head = head.replace("</head>", '    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>\n'
+                                       '    <script src="js/suggest.js?v=20261112.1" defer></script>\n</head>', 1)
     if with_map:
-        head = with_mapkit_csp(head)
+        head = with_csp(head, MAPKIT_CSP)
         head = head.replace("</head>", '    <script src="js/guide-map.js?v=20261108.3" defer></script>\n</head>', 1)
     head = head.replace("<title>Privacy Policy · Placemoir</title>", f"<title>{html.escape(title)} · Placemoir</title>")
     head = head.replace('href="https://placemoir.app/privacy.html"', f'href="{canonical}"')
@@ -255,11 +275,11 @@ MAPKIT_CSP = {
 }
 
 
-def with_mapkit_csp(head):
+def with_csp(head, extra):
     match = re.search(r'(<meta http-equiv="Content-Security-Policy" content=")([^"]*)(")', head)
     directives = [d.strip() for d in match.group(2).split(";") if d.strip()]
     names = [d.split()[0] for d in directives]
-    for name, sources in MAPKIT_CSP.items():
+    for name, sources in extra.items():
         if name in names:
             i = names.index(name)
             directives[i] += " " + " ".join(sources)
@@ -372,10 +392,161 @@ def index_page(guides):
             </header>
         </div>
         <div class="wrap page-body">
-{listing}
+{listing}{suggest_card()}
         </div>'''
     return page("Field Guides", "Placemoir Field Guides: city guides you can add to your Want to go list.",
                 f"{BASE_URL}/guides/", body, "../", noindex=not published)
+
+
+def suggest_card(prefix=""):
+    if not TURNSTILE_SITE_KEY:
+        return ""
+    return f'''
+            <div class="contact-card card">
+                <p class="eyebrow plum">Suggest a place</p>
+                <h2>Know a place that belongs here?</h2>
+                <p>Tell us about a place you'd send a friend to, in one of these cities or a new one. We read every suggestion.</p>
+                <a class="btn btn-moss" href="{prefix}suggest/">Suggest a place</a>
+            </div>'''
+
+
+def city_name(slug):
+    return CITY_NAMES.get(slug) or " ".join(w.capitalize() for w in slug.split("-"))
+
+
+def suggest_page(guides):
+    """guides/suggest/index.html: the form that sends a place to workers/place-suggestions/."""
+    e = html.escape
+    head = f'''        <div class="wrap">
+            <header class="page-head">
+                <p class="eyebrow moss">Field Guides</p>
+                <h1>Suggest a place.</h1>
+                <p>Know a place that belongs in a Field Guide? A restaurant you'd send a friend to, a park worth the drive, a hotel you'd stay at again. Tell us about it, and if we add it, you can be thanked by name.</p>
+            </header>
+        </div>'''
+    if not TURNSTILE_SITE_KEY:
+        body = f'''{head}
+        <div class="wrap page-body">
+            <div class="contact-card card">
+                <h2>Suggestions open soon.</h2>
+                <p>The form isn't open yet. Until it is, you can email a place to <a href="mailto:feedback@placemoir.app?subject=Field%20Guide%20suggestion">feedback@placemoir.app</a>.</p>
+                <a class="btn btn-moss" href="../">See the Field Guides</a>
+            </div>
+        </div>'''
+        return page("Suggest a place", "Suggest a place for a Placemoir Field Guide.", SUGGEST_URL, body, "../../",
+                    noindex=True)
+
+    cities = sorted({city_name(g["slug"]) for g in guides if g["status"] == "published"})
+    city_options = "\n".join(f'                            <option>{e(c)}</option>' for c in cities)
+    kinds = [("restaurant", "Restaurant"), ("cafe", "Café or bakery"), ("bar", "Bar"), ("hotel", "Place to stay"),
+             ("museum", "Museum"), ("attraction", "Something to see or do"), ("park", "Park or outdoors"),
+             ("other", "Something else")]
+    kind_options = "\n".join(f'                            <option value="{k}">{e(label)}</option>' for k, label in kinds)
+    went = [("month", "In the last month"), ("6-months", "In the last 6 months"), ("year", "In the last year"),
+            ("2-years", "1 to 2 years ago"), ("older", "More than 2 years ago")]
+    went_options = "\n".join(f'                            <option value="{k}">{e(label)}</option>' for k, label in went)
+    body = f'''{head}
+        <div class="wrap page-body">
+            <form class="suggest-form card" id="suggestForm" action="{SUGGEST_ENDPOINT}" method="post" novalidate>
+                <noscript><p class="form-note">This form needs JavaScript. You can also email a place to <a href="mailto:feedback@placemoir.app?subject=Field%20Guide%20suggestion">feedback@placemoir.app</a>.</p></noscript>
+                <fieldset>
+                    <legend>The place</legend>
+                    <div class="field">
+                        <label for="city">City</label>
+                        <select id="city" name="city" required aria-describedby="city-error">
+                            <option value="" selected disabled>Choose a city</option>
+{city_options}
+                            <option value="other">Another city</option>
+                        </select>
+                        <p class="field-error" id="city-error" hidden></p>
+                    </div>
+                    <div class="field" id="otherCityField" hidden>
+                        <label for="otherCity">Which city?</label>
+                        <input id="otherCity" name="otherCity" type="text" maxlength="60" autocomplete="address-level2" aria-describedby="otherCity-error">
+                        <p class="field-error" id="otherCity-error" hidden></p>
+                    </div>
+                    <div class="field">
+                        <label for="place">Name of the place</label>
+                        <input id="place" name="place" type="text" required maxlength="120" aria-describedby="place-error">
+                        <p class="field-error" id="place-error" hidden></p>
+                    </div>
+                    <div class="field">
+                        <label for="kind">What kind of place?</label>
+                        <select id="kind" name="kind" required aria-describedby="kind-error">
+                            <option value="" selected disabled>Choose one</option>
+{kind_options}
+                        </select>
+                        <p class="field-error" id="kind-error" hidden></p>
+                    </div>
+                    <div class="field">
+                        <label for="address">Address <span class="optional">or a link below</span></label>
+                        <input id="address" name="address" type="text" maxlength="200" autocomplete="off" aria-describedby="address-hint address-error">
+                        <p class="field-hint" id="address-hint">So we find the right one. A street and neighborhood is plenty.</p>
+                        <p class="field-error" id="address-error" hidden></p>
+                    </div>
+                    <div class="field">
+                        <label for="link">Link <span class="optional">optional</span></label>
+                        <input id="link" name="link" type="url" inputmode="url" maxlength="500" placeholder="https://" autocomplete="off" aria-describedby="link-hint link-error">
+                        <p class="field-hint" id="link-hint">Its Apple Maps or Google Maps link, or its own website.</p>
+                        <p class="field-error" id="link-error" hidden></p>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Why it belongs</legend>
+                    <div class="field">
+                        <label for="tip">What should people get, see or do there?</label>
+                        <textarea id="tip" name="tip" rows="3" required maxlength="500" aria-describedby="tip-error"></textarea>
+                        <p class="field-error" id="tip-error" hidden></p>
+                    </div>
+                    <div class="field">
+                        <label for="why">Why does it belong in a Field Guide?</label>
+                        <textarea id="why" name="why" rows="5" required minlength="10" maxlength="1500" aria-describedby="why-error"></textarea>
+                        <p class="field-error" id="why-error" hidden></p>
+                    </div>
+                    <div class="field">
+                        <label for="lastWent">When did you last go?</label>
+                        <select id="lastWent" name="lastWent" required aria-describedby="lastWent-error">
+                            <option value="" selected disabled>Choose one</option>
+{went_options}
+                        </select>
+                        <p class="field-error" id="lastWent-error" hidden></p>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Thanks</legend>
+                    <p class="field-hint">If we add your place, we can thank you in our posts about the guide and on the guide's page. Never in the place's notes.</p>
+                    <div class="radio-list" role="radiogroup" aria-label="How to thank you">
+                        <label class="radio"><input type="radio" name="credit" value="none" checked> Don't name me</label>
+                        <label class="radio"><input type="radio" name="credit" value="first-name"> Thank me by first name</label>
+                        <label class="radio"><input type="radio" name="credit" value="handle"> Thank me by social handle</label>
+                    </div>
+                    <div class="field" id="creditNameField" hidden>
+                        <label for="creditName" id="creditNameLabel" data-label-first-name="Your first name" data-label-handle="Your handle, and where (e.g. @name on Instagram)">Your first name</label>
+                        <input id="creditName" name="creditName" type="text" maxlength="60" autocomplete="off" aria-describedby="creditName-error">
+                        <p class="field-error" id="creditName-error" hidden></p>
+                    </div>
+                </fieldset>
+                <div class="hp" aria-hidden="true">
+                    <label for="website">Leave this empty</label>
+                    <input id="website" name="website" type="text" tabindex="-1" autocomplete="off">
+                </div>
+                <div class="cf-turnstile" data-sitekey="{e(TURNSTILE_SITE_KEY)}" data-action="suggest-place" data-theme="auto" data-size="flexible" data-language="en"></div>
+                <p class="form-note">Please don't include anyone's email or phone number. By sending, you agree that Tweeting Birds may use, edit and publish your suggestion in Field Guides and in posts about them. We don't ask for your email. See the <a href="../../privacy.html#suggestions">Privacy Policy</a>.</p>
+                <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+                <button class="btn btn-moss" type="submit">Send suggestion</button>
+            </form>
+            <div class="contact-card card" id="suggestThanks" hidden tabindex="-1">
+                <p class="eyebrow plum">Thank you</p>
+                <h2>Got it. Thanks for the tip.</h2>
+                <p>We read every suggestion. If it makes it into a Field Guide, you'll see it there.</p>
+                <div class="thanks-actions">
+                    <button class="btn btn-moss" type="button" id="suggestAnother">Suggest another place</button>
+                    <a class="btn btn-soft" href="../">See the Field Guides</a>
+                </div>
+            </div>
+        </div>'''
+    return page("Suggest a place", "Suggest a place for a Placemoir Field Guide: a restaurant, park, hotel or sight you'd send a friend to.",
+                SUGGEST_URL, body, "../../", noindex=False, with_turnstile=True)
 
 
 def sitemap(guides, current):
@@ -386,6 +557,8 @@ def sitemap(guides, current):
     newest = max(g["updatedAt"] for g in published)
     urls = [f"  <url><loc>{BASE_URL}/guides/</loc><lastmod>{newest}</lastmod></url>"]
     urls += [f"  <url><loc>{page_url(g)}</loc><lastmod>{g['updatedAt']}</lastmod></url>" for g in published]
+    if TURNSTILE_SITE_KEY:
+        urls.append(f"  <url><loc>{SUGGEST_URL}</loc><lastmod>{newest}</lastmod></url>")
     block = "  <!-- guides:sitemap -->\n" + "\n".join(urls) + "\n  <!-- /guides:sitemap -->\n"
     return text.replace("</urlset>", block + "</urlset>", 1)
 
@@ -426,7 +599,8 @@ def catalog_json(guides):
 
 def outputs(guides):
     """Every built text file, by path. The archives are compared by their library.json."""
-    files = {OUT / "index.html": index_page(guides), OUT / "index.json": catalog_json(guides)}
+    files = {OUT / "index.html": index_page(guides), OUT / "index.json": catalog_json(guides),
+             OUT / "suggest" / "index.html": suggest_page(guides)}
     for guide in guides:
         folder = OUT / guide["slug"]
         files[folder / "index.html"] = guide_page(guide)
