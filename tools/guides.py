@@ -70,7 +70,7 @@ SHORT_LINK = "https://placemoir.com/g/{slug}"
 # The "Suggest a place" form (guides/suggest/), which posts to workers/place-suggestions/.
 # Paste the Turnstile widget's site key here (it's public) once that Worker is deployed, then
 # build. Until then the page says suggestions aren't open yet, has noindex and isn't linked.
-TURNSTILE_SITE_KEY = ""
+TURNSTILE_SITE_KEY = "0x4AAAAAAF-W8noK39RV6gFc"
 SUGGEST_ENDPOINT = "/api/field-guide-suggestions"
 SUGGEST_URL = f"{BASE_URL}/guides/suggest/"
 # Cloudflare Turnstile, on the suggestion page only: its script and its check run in a frame.
