@@ -1,7 +1,7 @@
 /* Placemoir · Field Journal. Tokens mirror brand/tokens.css in placemoir-marketing.
    Light by default; dark follows the system unless the visitor picks a theme (html[data-theme]). */
 :root {
-  --paper: #F1F2EC; --page: #FBFBF7; --ink: #1D2733; --pencil: #5A6470; --faint: #8A929A;
+  --paper: #F1F2EC; --page: #FBFBF7; --ink: #1D2733; --pencil: #5A6470; --faint: #666E77;
   --moss: #3F6B4A; --on-moss: #FFFFFF; --plum: #8C3B5E; --ochre: #9C6A12;
   --line: #D9DCD2; --line-soft: #E6E8E0;
   --sea: #BCD0D6; --park: #D3DFCB; --street: #FBFBF7; --land: #E7E9E1;
@@ -18,7 +18,7 @@
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --paper: #13191F; --page: #1B232B; --ink: #E6E8E1; --pencil: #A0A9B1; --faint: #6E7882;
+    --paper: #13191F; --page: #1B232B; --ink: #E6E8E1; --pencil: #A0A9B1; --faint: #848D96;
     --moss: #8DBB97; --on-moss: #13191F; --plum: #E295B6; --ochre: #D9A441;
     --line: #2A343D; --line-soft: #20292F;
     --sea: #20323A; --park: #1F2D26; --street: #26313A; --land: #182027;
@@ -30,7 +30,7 @@
   }
 }
 :root[data-theme="dark"] {
-  --paper: #13191F; --page: #1B232B; --ink: #E6E8E1; --pencil: #A0A9B1; --faint: #6E7882;
+  --paper: #13191F; --page: #1B232B; --ink: #E6E8E1; --pencil: #A0A9B1; --faint: #848D96;
   --moss: #8DBB97; --on-moss: #13191F; --plum: #E295B6; --ochre: #D9A441;
   --line: #2A343D; --line-soft: #20292F;
   --sea: #20323A; --park: #1F2D26; --street: #26313A; --land: #182027;
