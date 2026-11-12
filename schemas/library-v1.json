@@ -198,7 +198,9 @@
               ]
             },
             "temperatureCelsius": {
-              "type": "number"
+              "type": "number",
+              "minimum": -100,
+              "maximum": 100
             }
           }
         },
@@ -254,7 +256,8 @@
         "duration": {
           "type": "number",
           "minimum": 0,
-          "description": "Seconds, for audio."
+          "maximum": 86400,
+          "description": "Seconds, for audio. At most a day."
         },
         "createdAt": {
           "$ref": "#/$defs/date"

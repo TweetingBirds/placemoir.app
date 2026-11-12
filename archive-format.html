@@ -118,7 +118,7 @@
 <li>The file MUST be a ZIP archive (PKWARE APPNOTE 6.3). Entries MUST be stored (method 0) or deflated (method 8), and MUST NOT be encrypted. ZIP64 is supported. Names SHOULD be UTF-8.</li>
 <li><code>library.json</code> MUST be at the top level. Placemoir also accepts it inside a single top-level folder (<code>Lisbon/library.json</code>), which is what Finder's Compress makes; then every <code>path</code> is relative to that folder. <code>__MACOSX/</code> entries are ignored.</li>
 <li>Placemoir writes each attachment stored (photos and audio are already compressed) at <code>media/&lt;attachment id&gt;/&lt;file name&gt;</code>, and then <code>library.json</code> last, deflated, listing only the attachments it wrote. Readers MUST NOT depend on that order or layout.</li>
-<li>No attachment may be larger than 200 MB, and <code>library.json</code> no larger than 256 MB (in a zip or on its own). One visit's attachments may add up to at most 1 GB. All attachments together may unpack to at most 64 GB, no more than the free space on the device, and no more than 50 times the archive's own size plus 100 MB (photos and audio barely compress, so far more means a damaged or malicious file). Two attachments MUST NOT share one <code>path</code>: each becomes its own copy in the journal.</li>
+<li>No attachment may be larger than 200 MB, and <code>library.json</code> no larger than 32 MB (in a zip or on its own; inside a zip also no more than 200 times the archive's own size plus 1 MB). A library may hold at most 100,000 places and 100,000 visits. One visit's attachments may add up to at most 1 GB. All attachments together may unpack to at most 64 GB, no more than the free space on the device, and no more than 50 times the archive's own size plus 100 MB (photos and audio barely compress, so far more means a damaged or malicious file). Two attachments MUST NOT share one <code>path</code>: each becomes its own copy in the journal.</li>
 </ul>
 <h3 id="without-a-zip">Without a zip</h3>
 <p>A <code>library.json</code> on its own (any file name ending in <code>.json</code>) also imports, from You › Import an archive. It can't carry attachments, so it MUST NOT list any. This is the easiest shape for a script or an AI assistant that can't make a zip.</p>
@@ -298,7 +298,7 @@
 <tr>
 <td><code>weather</code></td>
 <td>object</td>
-<td><code>summary</code> (string, "Partly cloudy"), <code>symbol</code> (string, an <a href="https://developer.apple.com/sf-symbols/">SF Symbols</a> name such as <code>cloud.sun</code>), <code>code</code> (string, WeatherKit's <a href="https://developer.apple.com/documentation/weatherkit/weathercondition"><code>WeatherCondition</code></a> name such as <code>partlyCloudy</code>, which Placemoir shows in the reader's language; a code it doesn't know falls back to <code>summary</code>) and <code>temperatureCelsius</code> (number). All optional.</td>
+<td><code>summary</code> (string, "Partly cloudy"), <code>symbol</code> (string, an <a href="https://developer.apple.com/sf-symbols/">SF Symbols</a> name such as <code>cloud.sun</code>), <code>code</code> (string, WeatherKit's <a href="https://developer.apple.com/documentation/weatherkit/weathercondition"><code>WeatherCondition</code></a> name such as <code>partlyCloudy</code>, which Placemoir shows in the reader's language; a code it doesn't know falls back to <code>summary</code>) and <code>temperatureCelsius</code> (number, -100 to 100; a value outside that is an error). All optional.</td>
 </tr>
 <tr>
 <td><code>isDraft</code></td>
@@ -361,7 +361,7 @@
 <tr>
 <td><code>duration</code></td>
 <td>number</td>
-<td>Seconds, for audio.</td>
+<td>Seconds, for audio: 0 to 86400 (a day). A value outside that is an error.</td>
 </tr>
 <tr>
 <td><code>createdAt</code></td>
@@ -477,7 +477,7 @@
 • places[2].visits[0].attachments[0].path: “media/IMG_0042.jpg” isn’t in the archive.
 </code></pre>
 <p>Some damage only shows while importing, such as an attachment whose bytes fail their checksum. Each visit goes in whole, with all its attachments, or not at all, so the import stops at the damaged visit and keeps the complete visits before it. Importing the repaired file again skips those and adds the rest.</p>
-<p>Placemoir checks its own exports the same way before writing them, and refuses to write one that wouldn't import.</p>
+<p>Placemoir checks its own exports the same way before writing them, and refuses to write one that wouldn't import. That includes the size limits above: an attachment over 200 MB, a visit whose attachments add up to more than 1 GB, attachments over 64 GB in all, or a <code>library.json</code> over 32 MB stops the export with a message naming what is too large. (Free space is checked on the device that imports.) It also stops, rather than writing a partial archive, if something is deleted from the journal while the export is running.</p>
 <h2 id="versions">Versions</h2>
 <p><code>formatVersion</code> changes only when a file written to the new version would be misread by an app that reads the old one. Adding an optional field doesn't change it; readers ignore fields they don't know. Placemoir refuses a file with a <code>formatVersion</code> newer than it supports and asks you to update the app.</p>
 <div class="table-scroll"><table>
