@@ -10,6 +10,28 @@
         if (saved === 'light' || saved === 'dark') root.setAttribute('data-theme', saved);
     } catch (e) { /* storage blocked: follow the system */ }
 
+    // A saved theme has to reach each dark <source> before its <img> picks one, or an eager
+    // image (the hero) is chosen by the system appearance and swapped at DOMContentLoaded.
+    // This script runs before the body is parsed, so watch the parser add sources and pin each
+    // as it lands. The browser's preload scanner can still fetch the system's choice early;
+    // what's shown is right from the first paint.
+    var pinning = null;
+    if (root.hasAttribute('data-theme') && window.MutationObserver) {
+        pinning = new MutationObserver(function (records) {
+            var dark = current() === 'dark';
+            for (var r = 0; r < records.length; r++) {
+                var added = records[r].addedNodes;
+                for (var n = 0; n < added.length; n++) {
+                    var node = added[n];
+                    if (node.nodeName === 'SOURCE' && node.hasAttribute('data-theme-dark')) {
+                        node.media = dark ? 'all' : 'not all';
+                    }
+                }
+            }
+        });
+        pinning.observe(root, { childList: true, subtree: true });
+    }
+
     function current() {
         return root.getAttribute('data-theme') || (system.matches ? 'dark' : 'light');
     }
@@ -44,6 +66,7 @@
     }
 
     document.addEventListener('DOMContentLoaded', function () {
+        if (pinning) pinning.disconnect();
         syncPictures();
         label();
 
