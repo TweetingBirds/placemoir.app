@@ -1,7 +1,7 @@
 // Run with `node --test workers/place-suggestions/worker.test.mjs` (Node 20 or later, no packages).
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { handle, validate, issue, inert, inertTitle, clean, PATH, LABEL, LIMITS } from "./worker.js";
+import { handle, validate, issue, inert, inertTitle, clean, creditLine, PATH, LABEL, LIMITS } from "./worker.js";
 
 const ENV = {
   GITHUB_TOKEN: "github-token",
@@ -22,6 +22,7 @@ const GOOD = {
   lastWent: "year",
   credit: "none",
   creditName: "",
+  creditLocation: "",
   website: "",
   "cf-turnstile-response": "token",
 };
@@ -201,6 +202,32 @@ test("keeps the issue readable", () => {
   assert.match(body, /\*\*City:\*\* Decatur \(no Field Guide yet\)/);
   assert.match(body, /\*\*Link:\*\* `https:\/\/maps\.apple\.com\/place\?q=Mary%60Mac`/);
   assert.match(body, /Great\\\.\n\nGo early\\\./);
-  assert.match(body, /Credit them by first name: Dana/);
+  assert.match(body, /Thank them by name: Dana\n\nNo location given\./, "the old first-name choice still works");
   assert.match(body, /on 2026-11-12\./);
+});
+
+test("thanks by name, with a location when one is given", () => {
+  const check = (fields) => validate(new URLSearchParams({ ...GOOD, ...fields }));
+  const named = check({ credit: "name", creditName: " Nate  B. ", creditLocation: "Canton, GA" }).value;
+  assert.equal(named.creditName, "Nate B.");
+  assert.equal(named.creditLocation, "Canton, GA");
+  assert.equal(creditLine(named), "Nate B. from Canton, GA");
+  assert.match(issue(named).body, /Thank them by name: Nate B\\\. from Canton\\, GA/);
+
+  const noPlace = check({ credit: "name", creditName: "Zoë O'Brien-Smith", creditLocation: "" }).value;
+  assert.equal(creditLine(noPlace), "Zoë O'Brien-Smith");
+  assert.ok(check({ credit: "name", creditName: "Ana", creditLocation: "São Paulo (Brasil)" }).value);
+
+  assert.ok(check({ credit: "name", creditName: "" }).errors.creditName);
+  assert.ok(check({ credit: "name", creditName: "@nate" }).errors.creditName, "a handle isn't a name");
+  assert.ok(check({ credit: "name", creditName: "Nate https://x.example" }).errors.creditName);
+  assert.ok(check({ credit: "name", creditName: "Nate 2" }).errors.creditName);
+  assert.ok(check({ credit: "name", creditName: "x".repeat(LIMITS.personName + 1) }).errors.creditName);
+  assert.ok(check({ credit: "name", creditName: "Nate", creditLocation: "@canton" }).errors.creditLocation);
+  assert.ok(check({ credit: "name", creditName: "Nate", creditLocation: "x".repeat(LIMITS.creditLocation + 1) }).errors.creditLocation);
+
+  assert.equal(check({ credit: "handle", creditName: "@nate", creditLocation: "Canton, GA" }).value.creditLocation, "",
+    "a location only goes with a name");
+  assert.equal(check({ credit: "none", creditLocation: "Canton, GA" }).value.creditLocation, "");
+  assert.equal(creditLine(check({ credit: "handle", creditName: "@nate on Instagram" }).value), "@nate on Instagram");
 });

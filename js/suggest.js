@@ -12,6 +12,12 @@
   var otherCityField = document.getElementById('otherCityField');
   var creditField = document.getElementById('creditNameField');
   var creditLabel = document.getElementById('creditNameLabel');
+  var creditHint = document.getElementById('creditName-hint');
+  var locationField = document.getElementById('creditLocationField');
+
+  // The same patterns as the Worker's NAME and LOCATION.
+  var NAME = /^[\p{L}\p{M}][\p{L}\p{M} .'\u2019-]*$/u;
+  var LOCATION = /^[\p{L}\p{M}\p{N}][\p{L}\p{M}\p{N} .,'\u2019()-]*$/u;
 
   function credit() { return form.querySelector('input[name="credit"]:checked').value; }
 
@@ -21,7 +27,11 @@
     var choice = credit();
     creditField.hidden = choice === 'none';
     form.elements.creditName.required = choice !== 'none';
-    if (choice !== 'none') creditLabel.textContent = creditLabel.getAttribute('data-label-' + choice);
+    locationField.hidden = choice !== 'name';
+    if (choice !== 'none') {
+      creditLabel.textContent = creditLabel.getAttribute('data-label-' + choice);
+      creditHint.textContent = creditHint.getAttribute('data-hint-' + choice);
+    }
   }
   form.addEventListener('change', sync);
   sync();
@@ -64,6 +74,8 @@
     if (value('why').length < 10) errors.why = 'Tell us a little more about why it belongs.';
     if (!form.elements.lastWent.value) errors.lastWent = 'Pick when you last went.';
     if (credit() !== 'none' && !value('creditName')) errors.creditName = 'Add the name to thank, or choose not to be named.';
+    if (credit() === 'name' && value('creditName') && !NAME.test(value('creditName'))) errors.creditName = 'Use letters only, like Dana R.';
+    if (credit() === 'name' && value('creditLocation') && !LOCATION.test(value('creditLocation'))) errors.creditLocation = 'Use a city and state or country, like Decatur, GA.';
     return errors;
   }
 

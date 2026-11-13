@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="../../css/site.css?v=20261112.2">
     <script src="../../js/theme.js?v=20261112.1"></script>
     <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-    <script src="../../js/suggest.js?v=20261112.1" defer></script>
+    <script src="../../js/suggest.js?v=20261113.1" defer></script>
 </head>
 <body>
     <a class="skip" href="#main">Skip to content</a>
@@ -153,13 +153,20 @@
                     <p class="field-hint">If we add your place, we can thank you in our posts about the guide and on the guide's page. Never in the place's notes.</p>
                     <div class="radio-list" role="radiogroup" aria-label="How to thank you">
                         <label class="radio"><input type="radio" name="credit" value="none" checked> Don't name me</label>
-                        <label class="radio"><input type="radio" name="credit" value="first-name"> Thank me by first name</label>
+                        <label class="radio"><input type="radio" name="credit" value="name"> Thank me by name</label>
                         <label class="radio"><input type="radio" name="credit" value="handle"> Thank me by social handle</label>
                     </div>
                     <div class="field" id="creditNameField" hidden>
-                        <label for="creditName" id="creditNameLabel" data-label-first-name="Your first name" data-label-handle="Your handle, and where (e.g. @name on Instagram)">Your first name</label>
-                        <input id="creditName" name="creditName" type="text" maxlength="60" autocomplete="off" aria-describedby="creditName-error">
+                        <label for="creditName" id="creditNameLabel" data-label-name="Name" data-label-handle="Your handle, and where (e.g. @name on Instagram)">Name</label>
+                        <input id="creditName" name="creditName" type="text" maxlength="40" autocomplete="off" aria-describedby="creditName-hint creditName-error">
+                        <p class="field-hint" id="creditName-hint" data-hint-name="Your first name and last initial is plenty, like Dana R." data-hint-handle="We'll use it to thank you in our posts about the guide.">Your first name and last initial is plenty, like Dana R.</p>
                         <p class="field-error" id="creditName-error" hidden></p>
+                    </div>
+                    <div class="field" id="creditLocationField" hidden>
+                        <label for="creditLocation">Location <span class="optional">optional</span></label>
+                        <input id="creditLocation" name="creditLocation" type="text" maxlength="60" autocomplete="off" aria-describedby="creditLocation-hint creditLocation-error">
+                        <p class="field-hint" id="creditLocation-hint">Where you live, like Decatur, GA. We'd thank you as “Dana R. from Decatur, GA”, which tells readers a real person picked it.</p>
+                        <p class="field-error" id="creditLocation-error" hidden></p>
                     </div>
                 </fieldset>
                 <div class="hp" aria-hidden="true">

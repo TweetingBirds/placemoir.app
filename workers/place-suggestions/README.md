@@ -1,6 +1,6 @@
 # Field Guide suggestions Worker
 
-The **Suggest a place** form at [placemoir.app/guides/suggest/](https://placemoir.app/guides/suggest/) posts to this Cloudflare Worker, which turns each suggestion into an issue labelled `field-guide-suggestion` in the private repo **TweetingBirds/placemoir-suggestions**. The repo is private because suggestions can hold a person's name or handle, and nothing there should be public until it's been reviewed and used.
+The **Suggest a place** form at [placemoir.app/guides/suggest/](https://placemoir.app/guides/suggest/) posts to this Cloudflare Worker, which turns each suggestion into an issue labelled `field-guide-suggestion` in the private repo **TweetingBirds/placemoir-suggestions**. The repo is private because suggestions can hold a person's name, where they live, or their handle, and nothing there should be public until it's been reviewed and used.
 
 The Worker answers one path, `POST https://placemoir.app/api/field-guide-suggestions`. Everything else on placemoir.app stays on GitHub Pages. A suggestion only becomes an issue when it:
 
@@ -49,4 +49,4 @@ Then send a real suggestion from the page and look for the issue in placemoir-su
 
 ## Using the suggestions
 
-The suggestion form tells people that Tweeting Birds may use and edit what they send for Field Guides and in posts about them, and the privacy policy says how. A credit (first name or handle) goes only in posts and on a guide page's Thanks line, never in place notes, and only when they chose one; the default is no credit. Close or delete an issue once it's been used or turned down, and delete it if the person asks.
+The suggestion form tells people that Tweeting Birds may use and edit what they send for Field Guides and in posts about them, and the privacy policy says how. A credit goes only in posts and on a guide page's Thanks line, never in place notes, and only when they chose one; the default is no credit. There are two kinds: **by name**, a name (letters only, first name and last initial suggested) plus an optional location, used as “Nate B. from Canton, GA” or just “Nate B.”; and **by social handle**. The issue's Credit section shows the line ready to use. Close or delete an issue once it's been used or turned down, and delete it if the person asks.
