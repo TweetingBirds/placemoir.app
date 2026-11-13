@@ -501,12 +501,12 @@
       "address": "476 5th Ave, New York, NY 10018",
       "locality": "Midtown",
       "country": "United States",
-      "latitude": 40.753233,
-      "longitude": -73.982201,
+      "latitude": 40.753184,
+      "longitude": -73.982253,
       "wantToGo": true,
       "notes": "The Rose Main Reading Room, guarded by the lions Patience and Fortitude. Free.",
       "section": "See",
-      "appleMapsID": "I185F01895594C3BD"
+      "appleMapsID": "I88F02FEA4499C61D"
     },
     {
       "id": "guide:new-york/the-cloisters",

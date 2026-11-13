@@ -174,11 +174,11 @@
     "name": "Nom Wah"
   },
   "nypl": {
-    "address": "5th Ave & W 42nd St, New York, NY 10018, United States",
-    "appleMapsID": "I185F01895594C3BD",
-    "latitude": 40.753233,
-    "longitude": -73.982201,
-    "name": "New York Public Library - Wertheim Study"
+    "address": "Fifth Avenue and 42nd Street, New York, NY 10018, United States",
+    "appleMapsID": "I88F02FEA4499C61D",
+    "latitude": 40.753184,
+    "longitude": -73.982253,
+    "name": "New York Public Library"
   },
   "peter-luger": {
     "address": "178 Broadway, Brooklyn, NY 11211, United States",

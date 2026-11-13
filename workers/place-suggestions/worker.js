@@ -50,9 +50,18 @@ export const LAST_WENT = {
 
 export const CREDIT = {
   none: "Don't credit them",
-  "first-name": "Credit them by first name",
-  handle: "Credit them by social handle",
+  name: "Thank them by name",
+  handle: "Thank them by social handle",
 };
+
+// The form offered "first-name" until Nov 13, 2026; a page loaded before then still sends it.
+const OLD_CREDIT = { "first-name": "name" };
+
+// A name to thank: letters (any language), spaces, periods, apostrophes and hyphens, like "Nate B."
+// or "Zoë O'Brien-Smith". No digits, "@" or links, so it can't pass for a handle or a URL.
+export const NAME = /^[\p{L}\p{M}][\p{L}\p{M} .'\u2019-]*$/u;
+// Where they're from: also digits, commas and brackets, like "Canton, GA" or "Paris (14e)".
+export const LOCATION = /^[\p{L}\p{M}\p{N}][\p{L}\p{M}\p{N} .,'\u2019()-]*$/u;
 
 /** Longest value for each field, in characters. The form's maxlength values match. */
 export const LIMITS = {
@@ -63,6 +72,8 @@ export const LIMITS = {
   tip: 500,
   why: 1500,
   creditName: 60,
+  personName: 40,
+  creditLocation: 60,
 };
 
 // Invisible and direction-changing characters, which could hide or reorder text.
@@ -171,14 +182,33 @@ export function validate(form) {
   if (!Object.hasOwn(LAST_WENT, value.lastWent)) errors.lastWent = "Pick when you last went.";
 
   value.credit = get("credit") || "none";
+  if (Object.hasOwn(OLD_CREDIT, value.credit)) value.credit = OLD_CREDIT[value.credit];
   if (!Object.hasOwn(CREDIT, value.credit)) value.credit = "none";
   value.creditName = value.credit === "none" ? "" : get("creditName");
+  // A location only goes with a name, and is dropped for the other choices.
+  value.creditLocation = value.credit === "name" ? get("creditLocation") : "";
   if (value.credit !== "none") {
-    if (!value.creditName) errors.creditName = "Add the name to credit, or choose not to be credited.";
-    else tooLong("creditName", value.creditName);
+    if (!value.creditName) errors.creditName = "Add the name to thank, or choose not to be named.";
+    else if (value.credit === "name") {
+      tooLong("personName", value.creditName, "creditName");
+      if (!errors.creditName && !NAME.test(value.creditName)) errors.creditName = "Use letters only, like Dana R.";
+    } else tooLong("creditName", value.creditName);
+  }
+  if (value.creditLocation) {
+    tooLong("creditLocation", value.creditLocation);
+    if (!errors.creditLocation && !LOCATION.test(value.creditLocation)) {
+      errors.creditLocation = "Use a city and state or country, like Decatur, GA.";
+    }
   }
 
   return Object.keys(errors).length ? { errors } : { value };
+}
+
+/** How a suggestion would be thanked, as typed: "Nate B. from Canton, GA", "@nate on Instagram", or "". */
+export function creditLine(s) {
+  if (s.credit === "none") return "";
+  if (s.credit === "name" && s.creditLocation) return `${s.creditName} from ${s.creditLocation}`;
+  return s.creditName;
 }
 
 /** The issue for a checked suggestion. */
@@ -195,7 +225,11 @@ export function issue(s, date = new Date()) {
   lines.push("", "### What to get, see or do", "", inert(s.tip));
   lines.push("", "### Why it belongs", "", inert(s.why));
   lines.push("", "### Credit", "");
-  lines.push(s.credit === "none" ? "Don't credit (the default)." : `${CREDIT[s.credit]}: ${inert(s.creditName)}`);
+  if (s.credit === "none") lines.push("Don't credit (the default).");
+  else {
+    lines.push(`${CREDIT[s.credit]}: ${inert(creditLine(s))}`);
+    if (s.credit === "name" && !s.creditLocation) lines.push("", "No location given.");
+  }
   lines.push(
     "",
     "---",
