@@ -1,0 +1,489 @@
+{
+  "type": "FeatureCollection",
+  "placemoirGuide": "0.1",
+  "guide": {
+    "id": "spring-wildflowers-southeast",
+    "status": "draft",
+    "kind": "season",
+    "name": "Southern Spring Wildflowers from the Smokies to the Lowcountry",
+    "description": "Spring ephemeral trails in the Great Smoky Mountains, mountain and Piedmont gardens, state parks with rare blooms, and azalea gardens on the coast, running from the mountains down to the Lowcountry.",
+    "author": {
+      "name": "friends of Placemoir"
+    },
+    "inLanguage": "en",
+    "dateModified": "2026-11-14",
+    "region": "Tennessee, North Carolina, Georgia and South Carolina",
+    "countries": [
+      "US"
+    ],
+    "season": {
+      "text": "Late March to May",
+      "months": [
+        3,
+        4,
+        5
+      ]
+    },
+    "sections": [
+      {
+        "id": "great-smoky-mountains",
+        "name": "Great Smoky Mountains · Tennessee and North Carolina"
+      },
+      {
+        "id": "asheville",
+        "name": "Asheville · North Carolina"
+      },
+      {
+        "id": "east-and-middle-tennessee",
+        "name": "East and Middle Tennessee"
+      },
+      {
+        "id": "georgia",
+        "name": "Georgia"
+      },
+      {
+        "id": "the-carolinas-piedmont-and-coast",
+        "name": "The Carolinas Piedmont and Coast"
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "chestnut-top-trail",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7093,
+          35.6603
+        ]
+      },
+      "properties": {
+        "name": "Chestnut Top Trail",
+        "category": "park",
+        "section": "great-smoky-mountains",
+        "notes": "Starts across the road from the Townsend Wye parking area and climbs a sunny slope that is thick with spring flowers in its first half mile. Many people walk that stretch and turn around. A park parking tag is needed.",
+        "address": "Townsend Wye, Little River Rd, Townsend, TN 37882",
+        "locality": "Townsend"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "little-river-trail-elkmont",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5796,
+          35.6533
+        ]
+      },
+      "properties": {
+        "name": "Little River Trail",
+        "category": "park",
+        "section": "great-smoky-mountains",
+        "notes": "A nearly flat old logging road along the river above Elkmont, an easy walk past trillium, phlox and old summer-cabin sites. Good for anyone who wants flowers without a climb.",
+        "address": "Elkmont Rd, Gatlinburg, TN 37738",
+        "locality": "Elkmont"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "porters-creek-trail",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.388,
+          35.6969
+        ]
+      },
+      "properties": {
+        "name": "Porters Creek Trail",
+        "category": "park",
+        "section": "great-smoky-mountains",
+        "notes": "One of the best-known spring ephemeral walks in the park, with whole hillsides of white fringed phacelia and trillium past an old farmstead with a barn and springhouse. The Greenbrier road is gravel at the end and sometimes closes after floods, so check park conditions first.",
+        "address": "Greenbrier Rd, Gatlinburg, TN 37738",
+        "locality": "Greenbrier"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sugarlands-visitor-center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5366,
+          35.6857
+        ]
+      },
+      "properties": {
+        "name": "Sugarlands Visitor Center",
+        "category": "visitor-center",
+        "section": "great-smoky-mountains",
+        "notes": "Ask rangers which trails are blooming that week, pick up a wildflower guide and walk the short nature trail out back. A parking tag is required anywhere in the park for stays over 15 minutes.",
+        "address": "1420 Fighting Creek Gap Rd, Gatlinburg, TN 37738",
+        "locality": "Gatlinburg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "deep-creek-trail",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4347,
+          35.4643
+        ]
+      },
+      "properties": {
+        "name": "Deep Creek Trail",
+        "category": "park",
+        "section": "great-smoky-mountains",
+        "notes": "On the North Carolina side just outside Bryson City, a loop from the trailhead at the end of Deep Creek Road passes three waterfalls, with wildflowers along the creek banks. Easy to combine with a meal in town.",
+        "address": "Deep Creek Rd, Bryson City, NC 28713",
+        "locality": "Bryson City"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "leconte-lodge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4412,
+          35.6549
+        ]
+      },
+      "properties": {
+        "name": "LeConte Lodge",
+        "category": "lodge",
+        "section": "great-smoky-mountains",
+        "notes": "Rustic cabins near the summit of Mount Le Conte, reachable only on foot, with family-style dinner and breakfast. The lodge opens in late March, and the climb passes through several bloom stages. Reservations go fast; check the official site.",
+        "address": "Mount Le Conte, Gatlinburg, TN 37738",
+        "locality": "Mount Le Conte"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nc-arboretum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6083,
+          35.4985
+        ]
+      },
+      "properties": {
+        "name": "The North Carolina Arboretum",
+        "category": "garden",
+        "section": "asheville",
+        "notes": "Formal gardens, a bonsai collection and native plant displays at the edge of Pisgah National Forest. Some outer trails were still being restored after Hurricane Helene, so check the official site for what is open.",
+        "address": "100 Frederick Law Olmsted Way, Asheville, NC 28806",
+        "locality": "Asheville"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "botanical-gardens-asheville",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5682,
+          35.6134
+        ]
+      },
+      "properties": {
+        "name": "The Botanical Gardens at Asheville",
+        "category": "garden",
+        "section": "asheville",
+        "notes": "A small, free garden devoted to plants native to the Southern Appalachians, beside the UNC Asheville campus. In April the woodland paths along the creek are full of trillium and other spring ephemerals.",
+        "address": "151 W T Weaver Blvd, Asheville, NC 28804",
+        "locality": "Asheville"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biltmore-estate",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5532,
+          35.5408
+        ]
+      },
+      "properties": {
+        "name": "Biltmore Estate",
+        "category": "museum",
+        "section": "asheville",
+        "notes": "The Olmsted-designed grounds are at their most colorful in spring, with tulips in the walled garden and azaleas in the Azalea Garden below. Tickets are timed for the house; book on the official site.",
+        "address": "1 Lodge St, Asheville, NC 28803",
+        "locality": "Asheville"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "omni-grove-park-inn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5419,
+          35.6202
+        ]
+      },
+      "properties": {
+        "name": "The Omni Grove Park Inn",
+        "category": "inn",
+        "section": "asheville",
+        "notes": "A 1913 stone lodge on Sunset Mountain with huge fireplaces and long views over Asheville. Even if you stay elsewhere, the terrace is a good spot for a drink at sunset.",
+        "address": "290 Macon Ave, Asheville, NC 28804",
+        "locality": "Asheville"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "frozen-head-state-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5045,
+          36.1255
+        ]
+      },
+      "properties": {
+        "name": "Frozen Head State Park",
+        "category": "state-park",
+        "section": "east-and-middle-tennessee",
+        "notes": "A Cumberland Mountains park known among Tennessee botanists for its April wildflowers. The Panther Branch and Judge Branch trails from the visitor center area are good places to start. Has a campground.",
+        "address": "964 Flat Fork Rd, Wartburg, TN 37887",
+        "locality": "Wartburg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "reflection-riding",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3648,
+          35.0101
+        ]
+      },
+      "properties": {
+        "name": "Reflection Riding Arboretum & Nature Center",
+        "category": "garden",
+        "section": "east-and-middle-tennessee",
+        "notes": "A naturalistic arboretum and native plant garden at the foot of Lookout Mountain, with walking trails, a wetland boardwalk and a nursery selling native plants.",
+        "address": "400 Garden Rd, Chattanooga, TN 37419",
+        "locality": "Chattanooga"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "radnor-lake-state-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8106,
+          36.0633
+        ]
+      },
+      "properties": {
+        "name": "Radnor Lake State Park",
+        "category": "state-park",
+        "section": "east-and-middle-tennessee",
+        "notes": "A protected lake and wooded ridges in south Nashville where the hillsides come alive with spring wildflowers. Trails are for walking only, and the parking lots fill fast on spring weekends.",
+        "address": "1160 Otter Creek Rd, Nashville, TN 37220",
+        "locality": "Nashville"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cheekwood",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.872,
+          36.086
+        ]
+      },
+      "properties": {
+        "name": "Cheekwood Estate & Gardens",
+        "category": "garden",
+        "section": "east-and-middle-tennessee",
+        "notes": "A 1930s country estate turned art museum and botanical garden, best known in spring for tens of thousands of tulips and other bulbs. A wooded trail on the grounds adds sculpture to the walk.",
+        "address": "1200 Forrest Park Dr, Nashville, TN 37205",
+        "locality": "Nashville"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gibbs-gardens",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2802,
+          34.3793
+        ]
+      },
+      "properties": {
+        "name": "Gibbs Gardens",
+        "category": "garden",
+        "section": "georgia",
+        "notes": "Rolling hills north of Atlanta planted with millions of daffodils that usually peak by early April, followed by azaleas, dogwoods and a large Japanese garden. Tickets are sold online; check the official site.",
+        "address": "1987 Gibbs Dr, Ball Ground, GA 30107",
+        "locality": "Ball Ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "atlanta-botanical-garden",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3732,
+          33.7911
+        ]
+      },
+      "properties": {
+        "name": "Atlanta Botanical Garden",
+        "category": "garden",
+        "section": "georgia",
+        "notes": "Spring brings big bulb displays and a canopy walk through the Storza Woods next to Piedmont Park. An easy half day if you are flying in or out of Atlanta.",
+        "address": "1345 Piedmont Ave NE, Atlanta, GA 30309",
+        "locality": "Atlanta"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "panola-mountain-state-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1716,
+          33.6258
+        ]
+      },
+      "properties": {
+        "name": "Panola Mountain State Park",
+        "category": "state-park",
+        "section": "georgia",
+        "notes": "A granite dome east of Atlanta where tiny red diamorpha fills shallow rock pools in late March and early April. The summit is protected and open only on ranger-led hikes, so sign up through the park.",
+        "address": "2620 GA-155 SW, Stockbridge, GA 30281",
+        "locality": "Stockbridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "state-botanical-garden-georgia",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.384,
+          33.9013
+        ]
+      },
+      "properties": {
+        "name": "State Botanical Garden of Georgia",
+        "category": "garden",
+        "section": "georgia",
+        "notes": "The University of Georgia's free garden, with trails through hardwood forest along the Middle Oconee River and display beds of native and heritage plants near the conservatory.",
+        "address": "2450 S Milledge Ave, Athens, GA 30605",
+        "locality": "Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "callaway-gardens",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8562,
+          32.8298
+        ]
+      },
+      "properties": {
+        "name": "Callaway Gardens",
+        "category": "garden",
+        "section": "georgia",
+        "notes": "A large garden resort in west Georgia known for native and hybrid azaleas that usually peak from late March into April. Bike or drive the loop road between the azalea bowl, lakes and woodland trails.",
+        "address": "17800 US-27, Pine Mountain, GA 31822",
+        "locality": "Pine Mountain"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "callaway-lodge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.854,
+          32.8474
+        ]
+      },
+      "properties": {
+        "name": "The Lodge and Spa at Callaway Gardens",
+        "category": "lodge",
+        "section": "georgia",
+        "notes": "The resort's main hotel, close to the garden gates. Spring weekends book up early; cottages and villas on the grounds are another option.",
+        "address": "4500 Southern Pine Dr, Pine Mountain, GA 31822",
+        "locality": "Pine Mountain"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sarah-p-duke-gardens",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9328,
+          36.0024
+        ]
+      },
+      "properties": {
+        "name": "Sarah P. Duke Gardens",
+        "category": "garden",
+        "section": "the-carolinas-piedmont-and-coast",
+        "notes": "Free gardens on the Duke campus. Skip straight to the Blomquist Garden of Native Plants in April for trillium, wild ginger and woodland phlox, then wander the terraces.",
+        "address": "420 Anderson St, Durham, NC 27708",
+        "locality": "Durham"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airlie-gardens",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.8279,
+          34.2151
+        ]
+      },
+      "properties": {
+        "name": "Airlie Gardens",
+        "category": "garden",
+        "section": "the-carolinas-piedmont-and-coast",
+        "notes": "A coastal garden near Wrightsville Beach with thousands of azaleas, lakes and a live oak that is centuries old. Azaleas usually peak in early April.",
+        "address": "300 Airlie Rd, Wilmington, NC 28403",
+        "locality": "Wilmington"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "middleton-place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1365,
+          32.8998
+        ]
+      },
+      "properties": {
+        "name": "Middleton Place",
+        "category": "museum",
+        "section": "the-carolinas-piedmont-and-coast",
+        "notes": "Formal 18th-century terraced gardens on the Ashley River, with azaleas, camellias and spring bulbs. The site also tells the history of the people enslaved there, and that part of the visit is worth the time.",
+        "address": "4300 Ashley River Rd, Charleston, SC 29414",
+        "locality": "Charleston"
+      }
+    }
+  ]
+}

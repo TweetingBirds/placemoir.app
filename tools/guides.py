@@ -144,7 +144,7 @@ PLACE_FIELDS = {"featureType", "name", "category", "section", "position", "notes
                 "countryCode", "ids", "match", "sources", "lastVerified"}
 ROUTE_FIELDS = {"featureType", "name", "mode", "section", "stops", "distanceKm", "notes", "sources",
                 "lastVerified"}
-SLUG = re.compile(r"[a-z0-9]+(-[a-z0-9]+)*")
+SLUG = re.compile(r"(?=.{1,80}\Z)[a-z0-9]+(-[a-z0-9]+)*")
 DAY = re.compile(r"\d{4}-\d{2}-\d{2}")
 
 
@@ -356,6 +356,8 @@ def validate(doc, stem):
             problems.append(f"{where}.locality: text")
         if "countryCode" in props and not (isinstance(props["countryCode"], str) and re.fullmatch(r"[A-Z]{2}", props["countryCode"])):
             problems.append(f"{where}.countryCode: a two-letter country code")
+        elif "countryCode" in props and props["countryCode"] not in COUNTRY_NAMES:
+            problems.append(f"{where}.countryCode: add {props['countryCode']} to COUNTRY_NAMES in tools/guides.py")
         place_ids_ = props.get("ids", {})
         if not isinstance(place_ids_, dict) or unknown(place_ids_, {"apple", "wikidata", "overture", "osm"}) \
                 or any(k.startswith("x-") for k in place_ids_) or not all(text(v) for v in place_ids_.values()):
@@ -393,14 +395,20 @@ def validate(doc, stem):
             problems.append(f"{g}.sections: “{section}” has no places")
     if problems:
         return problems
-    if guide["kind"] != "route" and len(places) > 2:
+    # A city, park or food guide fits in about 300 km, so a place far from the rest is a typo. Wider
+    # guides (routes, seasons, themes, weekends) only flag a place whose swapped coordinates would fit.
+    if len(places) > 2:
         lons = sorted(f["geometry"]["coordinates"][0] for _, f in places)
         lats = sorted(f["geometry"]["coordinates"][1] for _, f in places)
         mid_lon, mid_lat = lons[len(lons) // 2], lats[len(lats) // 2]
+        compact = guide["kind"] in ("city", "park", "food")
         for where, f in places:
             lon, lat = f["geometry"]["coordinates"][:2]
-            if abs(lon - mid_lon) > 3 or abs(lat - mid_lat) > 3:
+            far = abs(lon - mid_lon) > 3 or abs(lat - mid_lat) > 3
+            if far and compact:
                 problems.append(f"{where}: more than ~300 km from the guide's other places (latitude and longitude swapped?)")
+            elif far and abs(lat - mid_lon) <= 3 and abs(lon - mid_lat) <= 3:
+                problems.append(f"{where}: latitude and longitude look swapped")
     return problems
 
 
@@ -458,7 +466,7 @@ def library(guide):
             "category": place["category"],
             "address": place["address"],
             "locality": place.get("locality", ""),
-            "country": guide.get("country", ""),
+            "country": COUNTRY_NAMES.get(place["countryCode"], guide.get("country", "")),
             "latitude": found.get("latitude", place["latitude"]),
             "longitude": found.get("longitude", place["longitude"]),
             "wantToGo": True,

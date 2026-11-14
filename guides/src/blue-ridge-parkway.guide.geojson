@@ -1,0 +1,1352 @@
+{
+  "type": "FeatureCollection",
+  "placemoirGuide": "0.1",
+  "guide": {
+    "id": "blue-ridge-parkway",
+    "status": "draft",
+    "kind": "route",
+    "name": "The Blue Ridge Parkway from Shenandoah to Cherokee",
+    "description": "Five days down all 469 miles of the parkway, from Rockfish Gap in Virginia to the Great Smoky Mountains, with overlooks, short hikes, old mills and lodges. Sections close for weather and repairs; check NPS road status.",
+    "author": {
+      "name": "friends of Placemoir"
+    },
+    "inLanguage": "en",
+    "dateModified": "2026-11-14",
+    "region": "Virginia and North Carolina",
+    "countries": [
+      "US"
+    ],
+    "ordered": true,
+    "sections": [
+      {
+        "id": "day-1",
+        "name": "Day 1 · Rockfish Gap to Peaks of Otter · 86 mi"
+      },
+      {
+        "id": "day-2",
+        "name": "Day 2 · Peaks of Otter to Mabry Mill · 90 mi"
+      },
+      {
+        "id": "day-3",
+        "name": "Day 3 · Mabry Mill to Blowing Rock · 116 mi"
+      },
+      {
+        "id": "day-4",
+        "name": "Day 4 · Blowing Rock to Asheville · 90 mi"
+      },
+      {
+        "id": "day-5",
+        "name": "Day 5 · Asheville to Cherokee · 87 mi"
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "humpback-rocks",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8967,
+          37.9685
+        ]
+      },
+      "properties": {
+        "name": "Humpback Rocks",
+        "category": "park",
+        "section": "day-1",
+        "position": 1,
+        "notes": "The first real climb south of Rockfish Gap: a short, steep trail from Humpback Gap to a bare rock summit over the Shenandoah Valley. The visitor center and pioneer farm buildings are just up the road at milepost 5.8.",
+        "address": "Blue Ridge Pkwy, Milepost 6, Lyndhurst, VA 22952",
+        "locality": "Humpback Gap",
+        "match": {
+          "query": "Humpback Rocks Trailhead"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ravens-roost-overlook",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9529,
+          37.9337
+        ]
+      },
+      "properties": {
+        "name": "Ravens Roost Overlook",
+        "category": "viewpoint",
+        "section": "day-1",
+        "position": 2,
+        "notes": "A cliff-edge pullout facing west over the Shenandoah Valley and Torry Mountain. Rock climbers use the ledge; everyone else comes for the late-afternoon light.",
+        "address": "Blue Ridge Pkwy, Milepost 10.7, Lyndhurst, VA 22952",
+        "locality": "Augusta County"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "devils-backbone-basecamp",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9186,
+          37.8713
+        ]
+      },
+      "properties": {
+        "name": "Devils Backbone Basecamp Brewpub",
+        "category": "brewery",
+        "section": "day-1",
+        "position": 3,
+        "notes": "A big timber-frame brewpub in the Rockfish Valley, down VA-664 from Reeds Gap. A good lunch or dinner stop, with a lawn out back and a campground nearby run by the same brewery.",
+        "address": "200 Crandall Run, Roseland, VA 22967",
+        "locality": "Roseland"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crabtree-falls-va",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0797,
+          37.8511
+        ]
+      },
+      "properties": {
+        "name": "Crabtree Falls",
+        "category": "waterfall",
+        "section": "day-1",
+        "position": 4,
+        "notes": "A string of cascades dropping more than 1,000 feet, reached by a short detour down VA-56 from milepost 27. The lower overlook is a few minutes from the lot; the full climb to the top takes a couple of hours round trip.",
+        "address": "11581 Crabtree Falls Hwy, Tyro, VA 22976",
+        "locality": "Tyro"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "yankee-horse-ridge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.1796,
+          37.8094
+        ]
+      },
+      "properties": {
+        "name": "Yankee Horse Ridge",
+        "category": "park",
+        "section": "day-1",
+        "position": 5,
+        "notes": "A pullout with a rebuilt stretch of narrow-gauge logging railroad and a short walk to Wigwam Falls. A quick leg-stretch on the way down to the James River.",
+        "address": "Blue Ridge Pkwy, Milepost 34.4, Vesuvius, VA 24483",
+        "locality": "Rockbridge County"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "natural-bridge-state-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5452,
+          37.6289
+        ]
+      },
+      "properties": {
+        "name": "Natural Bridge State Park",
+        "category": "state-park",
+        "section": "day-1",
+        "position": 6,
+        "notes": "A 200-foot limestone arch over Cedar Creek, about a half-hour off the parkway near the James River crossing. The creekside trail runs under the bridge past Saltpeter Cave to Lace Falls. Worth the detour if you have a spare afternoon.",
+        "address": "6477 S Lee Hwy, Natural Bridge, VA 24578",
+        "locality": "Natural Bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "james-river-visitor-center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3659,
+          37.5552
+        ]
+      },
+      "properties": {
+        "name": "James River Visitor Center",
+        "category": "visitor-center",
+        "section": "day-1",
+        "position": 7,
+        "notes": "The parkway's lowest point, where it crosses the James. A footbridge under the road leads to a restored lock from the old James River and Kanawha Canal. Bridge repair work has brought detours here; check NPS road status.",
+        "address": "Blue Ridge Pkwy, Milepost 63.6, Big Island, VA 24526",
+        "locality": "Big Island"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sunset-field-overlook",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5239,
+          37.5076
+        ]
+      },
+      "properties": {
+        "name": "Sunset Field Overlook",
+        "category": "viewpoint",
+        "section": "day-1",
+        "position": 8,
+        "notes": "Trailhead for Apple Orchard Falls, a 200-foot falls reached by a steep descent through a hardwood cove. Plan on a couple of hours and save energy for the climb back up.",
+        "address": "Blue Ridge Pkwy, Milepost 78.4, Buchanan, VA 24066",
+        "locality": "Botetourt County"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "peaks-of-otter-visitor-center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.61,
+          37.4456
+        ]
+      },
+      "properties": {
+        "name": "Peaks of Otter Visitor Center",
+        "category": "visitor-center",
+        "section": "day-1",
+        "position": 9,
+        "notes": "Ranger desk and exhibits at the foot of Sharp Top. From here you can walk to the restored Johnson Farm or loop around Abbott Lake.",
+        "address": "85919 Blue Ridge Pkwy, Bedford, VA 24523",
+        "locality": "Peaks of Otter"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sharp-top-trail",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6093,
+          37.4429
+        ]
+      },
+      "properties": {
+        "name": "Sharp Top Trail",
+        "category": "park",
+        "section": "day-1",
+        "position": 10,
+        "notes": "A stiff climb up stone steps to the rocky summit of Sharp Top, with a full circle of views across the Piedmont and the ridges. Start early on fall weekends, when the lot fills.",
+        "address": "Blue Ridge Pkwy, Milepost 86, Bedford, VA 24523",
+        "locality": "Peaks of Otter"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "peaks-of-otter-lodge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6046,
+          37.4481
+        ]
+      },
+      "properties": {
+        "name": "Peaks of Otter Lodge",
+        "category": "lodge",
+        "section": "day-1",
+        "position": 11,
+        "notes": "The only lodge on the Virginia side of the parkway, set on Abbott Lake with every room facing the water and Sharp Top. The dining room is the one sit-down meal for miles. Seasonal; book well ahead for October.",
+        "address": "85554 Blue Ridge Pkwy, Bedford, VA 24523",
+        "locality": "Peaks of Otter"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "explore-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.852,
+          37.2383
+        ]
+      },
+      "properties": {
+        "name": "Explore Park",
+        "category": "park",
+        "section": "day-2",
+        "position": 12,
+        "notes": "A county park along the Roanoke River at milepost 115 with a parkway visitor center, trails, river access, and cabins, yurts and campsites for an inexpensive night near the road.",
+        "address": "56 Roanoke River Pkwy, Roanoke, VA 24014",
+        "locality": "Roanoke"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mill-mountain-star",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9325,
+          37.2511
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Star",
+        "category": "attraction",
+        "section": "day-2",
+        "position": 13,
+        "notes": "Roanoke's giant neon star on Mill Mountain, reached by a spur road from milepost 120. The overlook takes in the whole city; come back after dark to see it lit.",
+        "address": "2000 JP Fishburn Pkwy, Roanoke, VA 24014",
+        "locality": "Roanoke"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel-roanoke",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9398,
+          37.2745
+        ]
+      },
+      "properties": {
+        "name": "The Hotel Roanoke & Conference Center",
+        "category": "hotel",
+        "section": "day-2",
+        "position": 14,
+        "notes": "The Tudor-style railroad hotel across the tracks from downtown, built in the 1880s and still the city's grand old address. A pedestrian bridge leads straight into the Market district.",
+        "address": "110 Shenandoah Ave NW, Roanoke, VA 24016",
+        "locality": "Roanoke"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "texas-tavern",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9431,
+          37.2705
+        ]
+      },
+      "properties": {
+        "name": "Texas Tavern",
+        "category": "restaurant",
+        "section": "day-2",
+        "position": 15,
+        "notes": "A ten-stool hot dog and chili counter that has been feeding downtown Roanoke since 1930. Order a cheesy western and a bowl of chili, and expect to wait for a seat.",
+        "address": "114 W Church Ave, Roanoke, VA 24011",
+        "locality": "Roanoke"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "floyd-country-store",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.3202,
+          36.9104
+        ]
+      },
+      "properties": {
+        "name": "Floyd Country Store",
+        "category": "attraction",
+        "section": "day-2",
+        "position": 16,
+        "notes": "Old-time and bluegrass music hub in the town of Floyd, about six miles off the parkway on VA-8. Weekend shows pack the floor with flatfoot dancers; check the official site for the music calendar.",
+        "address": "206 S Locust St, Floyd, VA 24091",
+        "locality": "Floyd"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel-floyd",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.3186,
+          36.9103
+        ]
+      },
+      "properties": {
+        "name": "Hotel Floyd",
+        "category": "hotel",
+        "section": "day-2",
+        "position": 17,
+        "notes": "A small hotel built with green materials a short walk from the Country Store, with rooms named for and furnished by local artists and craftspeople. Handy if you want to stay for a night of music.",
+        "address": "300 Rick Lewis Way, Floyd, VA 24091",
+        "locality": "Floyd"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rock-castle-gorge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.3459,
+          36.8122
+        ]
+      },
+      "properties": {
+        "name": "Rock Castle Gorge Trail",
+        "category": "park",
+        "section": "day-2",
+        "position": 18,
+        "notes": "A long, demanding loop that drops from the open meadows of Rocky Knob into a deep gorge and climbs back. For a shorter outing, walk only the grassy ridgetop stretch along the parkway.",
+        "address": "Blue Ridge Pkwy, Milepost 167, Floyd, VA 24091",
+        "locality": "Rocky Knob"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "chateau-morrisette",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.3939,
+          36.7938
+        ]
+      },
+      "properties": {
+        "name": "Chateau Morrisette",
+        "category": "bar",
+        "section": "day-2",
+        "position": 19,
+        "notes": "A winery just off milepost 171.5 in a big timber-frame building, with a restaurant and tastings. Reservations are a good idea for a meal.",
+        "address": "291 Winery Rd SW, Floyd, VA 24091",
+        "locality": "Floyd"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mabry-mill",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.406,
+          36.7509
+        ]
+      },
+      "properties": {
+        "name": "Mabry Mill",
+        "category": "attraction",
+        "section": "day-2",
+        "position": 20,
+        "notes": "The gristmill on a millpond that ends up on half the parkway postcards. A short path passes a blacksmith shop and other farm buildings. The parkside restaurant has been closed for renovation; check before counting on a meal here.",
+        "address": "266 Mabry Mill Rd SE, Meadows of Dan, VA 24120",
+        "locality": "Meadows of Dan"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "puckett-cabin",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.5473,
+          36.6433
+        ]
+      },
+      "properties": {
+        "name": "Puckett Cabin",
+        "category": "museum",
+        "section": "day-3",
+        "position": 21,
+        "notes": "The log cabin of Orelena Puckett, a midwife who delivered babies across these hills into the 1930s. A two-minute stop with a good story attached.",
+        "address": "Blue Ridge Pkwy, Milepost 189.9, Meadows of Dan, VA 24120",
+        "locality": "Carroll County"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "blue-ridge-music-center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8501,
+          36.5734
+        ]
+      },
+      "properties": {
+        "name": "Blue Ridge Music Center",
+        "category": "attraction",
+        "section": "day-3",
+        "position": 22,
+        "notes": "Exhibits on the fiddle and banjo traditions of the region, with local musicians often playing on the breezeway and an outdoor amphitheater for summer concerts. Check the official site for the schedule.",
+        "address": "700 Foothills Rd, Galax, VA 24333",
+        "locality": "Galax"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cumberland-knob",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.9069,
+          36.5541
+        ]
+      },
+      "properties": {
+        "name": "Cumberland Knob",
+        "category": "park",
+        "section": "day-3",
+        "position": 23,
+        "notes": "Just past the North Carolina line, the first recreation area built on the parkway. An easy loop climbs to the knob, and the Gully Creek trail drops into a ravine for something harder.",
+        "address": "Blue Ridge Pkwy, Milepost 217.5, Ennice, NC 28623",
+        "locality": "Surry County"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "brinegar-cabin",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1457,
+          36.4187
+        ]
+      },
+      "properties": {
+        "name": "Brinegar Cabin",
+        "category": "museum",
+        "section": "day-3",
+        "position": 24,
+        "notes": "A homestead cabin and garden at Doughton Park, where the meadows open up on both sides of the road. Good place to watch for deer at dusk.",
+        "address": "Blue Ridge Pkwy, Milepost 238.5, Laurel Springs, NC 28644",
+        "locality": "Doughton Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-bluffs-restaurant",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1708,
+          36.4018
+        ]
+      },
+      "properties": {
+        "name": "The Bluffs Restaurant",
+        "category": "restaurant",
+        "section": "day-3",
+        "position": 25,
+        "notes": "A parkway coffee shop dating to 1949, with a curved counter and country cooking, reopened with help from the Blue Ridge Parkway Foundation. It is seasonal and has run on limited days, so check its site before planning lunch around it.",
+        "address": "45338 Blue Ridge Pkwy, Laurel Springs, NC 28644",
+        "locality": "Doughton Park",
+        "match": {
+          "query": "The Bluffs Restaurant"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "eb-jeffress-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4614,
+          36.2478
+        ]
+      },
+      "properties": {
+        "name": "E. B. Jeffress Park",
+        "category": "park",
+        "section": "day-3",
+        "position": 26,
+        "notes": "Trailhead for the Cascades, a short loop through rhododendron to viewing platforms beside a long slide of water down a rock face. Stay behind the railings; the rock is slick.",
+        "address": "Blue Ridge Pkwy, Milepost 271.9, Deep Gap, NC 28618",
+        "locality": "Deep Gap"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-blowing-rock",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6603,
+          36.1144
+        ]
+      },
+      "properties": {
+        "name": "The Blowing Rock",
+        "category": "attraction",
+        "section": "day-3",
+        "position": 27,
+        "notes": "The cliff that gave the town its name, where updrafts out of the Johns River Gorge can push light objects back up. Privately run since the 1930s, with a view to Grandfather Mountain.",
+        "address": "432 Rock Rd, Blowing Rock, NC 28605",
+        "locality": "Blowing Rock"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "blowing-rock-art-history-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6793,
+          36.1304
+        ]
+      },
+      "properties": {
+        "name": "Blowing Rock Art & History Museum",
+        "category": "museum",
+        "section": "day-3",
+        "position": 28,
+        "notes": "A compact museum just off Main Street with rotating shows of Appalachian art and the town's history as a mountain resort. A good rainy-day stop.",
+        "address": "159 Ginny Stevens Ln, Blowing Rock, NC 28605",
+        "locality": "Blowing Rock",
+        "match": {
+          "query": "Blowing Rock Art and History Museum"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "speckled-trout",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6781,
+          36.1352
+        ]
+      },
+      "properties": {
+        "name": "The Speckled Trout",
+        "category": "restaurant",
+        "section": "day-3",
+        "position": 29,
+        "notes": "A long-running Main Street restaurant where mountain trout is the dish to order. Easy to walk to from most of the town's inns.",
+        "address": "922 Main St, Blowing Rock, NC 28605",
+        "locality": "Blowing Rock"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "green-park-inn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6604,
+          36.1186
+        ]
+      },
+      "properties": {
+        "name": "Green Park Inn",
+        "category": "inn",
+        "section": "day-3",
+        "position": 30,
+        "notes": "A white clapboard hotel from the late 1800s sitting right on the Eastern Continental Divide. Old-fashioned rooms, a wide porch and the Divide Tavern, which straddles the line.",
+        "address": "9239 Valley Blvd, Blowing Rock, NC 28605",
+        "locality": "Blowing Rock"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "chetola-resort",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6718,
+          36.1366
+        ]
+      },
+      "properties": {
+        "name": "Chetola Resort",
+        "category": "hotel",
+        "section": "day-3",
+        "position": 31,
+        "notes": "A lakeside resort on an old estate at the edge of town, a short walk from Main Street and a few minutes from Moses Cone. The splurge stay of the trip.",
+        "address": "185 Chetola Lake Dr, Blowing Rock, NC 28605",
+        "locality": "Blowing Rock"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "flat-top-manor",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6929,
+          36.1491
+        ]
+      },
+      "properties": {
+        "name": "Moses H. Cone Memorial Park",
+        "category": "museum",
+        "section": "day-4",
+        "position": 32,
+        "notes": "Flat Top Manor, a 1901 summer house with a long porch facing Bass Lake, now holds a craft shop of the Southern Highland Craft Guild. Miles of old carriage roads wind around the estate for walking or riding.",
+        "address": "Blue Ridge Pkwy, Milepost 294, Blowing Rock, NC 28605",
+        "locality": "Blowing Rock",
+        "match": {
+          "query": "Moses Cone Manor"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "price-lake",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7354,
+          36.1356
+        ]
+      },
+      "properties": {
+        "name": "Price Lake",
+        "category": "park",
+        "section": "day-4",
+        "position": 33,
+        "notes": "A still mountain lake with Grandfather Mountain reflected in it on calm mornings. A flat trail loops all the way around the shore.",
+        "address": "Blue Ridge Pkwy, Milepost 297, Blowing Rock, NC 28605",
+        "locality": "Julian Price Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "price-park-campground",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7391,
+          36.1404
+        ]
+      },
+      "properties": {
+        "name": "Julian Price Park Campground",
+        "category": "park",
+        "section": "day-4",
+        "position": 34,
+        "notes": "The parkway's biggest campground, with lakeside tent sites and an easy walk to Price Lake. The budget way to sleep near Blowing Rock; reserve through Recreation.gov.",
+        "address": "Blue Ridge Pkwy, Milepost 297, Blowing Rock, NC 28605",
+        "locality": "Julian Price Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "linn-cove-viaduct",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.813,
+          36.0934
+        ]
+      },
+      "properties": {
+        "name": "Linn Cove Viaduct",
+        "category": "attraction",
+        "section": "day-4",
+        "position": 35,
+        "notes": "The S-curved concrete bridge that wraps the side of Grandfather Mountain, the last piece of the parkway finished, in 1987. The Tanawha Trail passes underneath for the classic view from below.",
+        "address": "Blue Ridge Pkwy, Milepost 304, Linville, NC 28646",
+        "locality": "Grandfather Mountain"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "grandfather-mountain",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8465,
+          36.085
+        ]
+      },
+      "properties": {
+        "name": "Grandfather Mountain",
+        "category": "attraction",
+        "section": "day-4",
+        "position": 36,
+        "notes": "Privately run nature park with the Mile High Swinging Bridge, wildlife habitats and steep trails along the ridge. The entrance is on US-221 about a mile south of milepost 305. Wind and ice can close the mountain; check the official site.",
+        "address": "2050 Blowing Rock Hwy, Linville, NC 28646",
+        "locality": "Linville"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "linville-falls",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9281,
+          35.9554
+        ]
+      },
+      "properties": {
+        "name": "Linville Falls",
+        "category": "waterfall",
+        "section": "day-4",
+        "position": 37,
+        "notes": "The falls where the Linville River drops into Linville Gorge. The spur road and trails have reopened after Helene, but some facilities nearby, including the campground and picnic area, remain closed; check the NPS site.",
+        "address": "Linville Falls Spur Rd, Linville Falls, NC 28647",
+        "locality": "Linville Falls",
+        "match": {
+          "query": "Linville Falls Visitor Center"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "famous-louises-rock-house",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9431,
+          35.9589
+        ]
+      },
+      "properties": {
+        "name": "Famous Louise's Rock House Restaurant",
+        "category": "restaurant",
+        "section": "day-4",
+        "position": 38,
+        "notes": "A 1930s stone tavern where three counties meet, serving country breakfasts, ribs and homemade pies. A short hop from the Linville Falls exit.",
+        "address": "23175 Linville Falls Hwy, Linville Falls, NC 28647",
+        "locality": "Linville Falls"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "switzerland-inn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0907,
+          35.8502
+        ]
+      },
+      "properties": {
+        "name": "Switzerland Inn",
+        "category": "inn",
+        "section": "day-4",
+        "position": 39,
+        "notes": "A Swiss-chalet style inn in the old resort village of Little Switzerland, reached from milepost 334, with rooms looking off the edge of the ridge. South of here the parkway has had long Helene repair closures; check NPS road status for the detour.",
+        "address": "86 High Ridge Rd, Little Switzerland, NC 28749",
+        "locality": "Little Switzerland"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mount-mitchell-state-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2737,
+          35.7528
+        ]
+      },
+      "properties": {
+        "name": "Mount Mitchell State Park",
+        "category": "state-park",
+        "section": "day-4",
+        "position": 40,
+        "notes": "The highest summit east of the Mississippi, reached by NC-128 from milepost 355. A short paved path climbs from the summit lot to an observation deck. The park closes often in winter, and the top can be much colder than the valleys.",
+        "address": "2388 NC-128, Burnsville, NC 28714",
+        "locality": "Black Mountains"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "craggy-gardens",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3796,
+          35.7003
+        ]
+      },
+      "properties": {
+        "name": "Craggy Gardens Visitor Center",
+        "category": "visitor-center",
+        "section": "day-4",
+        "position": 41,
+        "notes": "Grassy balds covered in rhododendron. A trail from the visitor center climbs to the bald, and the Craggy Pinnacle trail starts from a lot just north for a ring of views. Some trails and the picnic area may be closed; check the NPS site.",
+        "address": "Blue Ridge Pkwy, Milepost 364.5, Barnardsville, NC 28709",
+        "locality": "Craggy Gardens"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "folk-art-center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4817,
+          35.5927
+        ]
+      },
+      "properties": {
+        "name": "Folk Art Center",
+        "category": "museum",
+        "section": "day-4",
+        "position": 42,
+        "notes": "Home of the Southern Highland Craft Guild, with a gallery of historic Appalachian crafts and a shop selling work by guild members. Craftspeople often demonstrate in the lobby.",
+        "address": "382 Blue Ridge Pkwy, Asheville, NC 28805",
+        "locality": "Asheville"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "omni-grove-park-inn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5419,
+          35.6202
+        ]
+      },
+      "properties": {
+        "name": "The Omni Grove Park Inn",
+        "category": "inn",
+        "section": "day-4",
+        "position": 43,
+        "notes": "The granite-boulder resort from 1913 on Sunset Mountain, with fireplaces big enough to stand in and a terrace looking over the city to the Blue Ridge. Stop in for a drink at sunset even if you sleep elsewhere.",
+        "address": "290 Macon Ave, Asheville, NC 28804",
+        "locality": "Asheville"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "curate",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5518,
+          35.5942
+        ]
+      },
+      "properties": {
+        "name": "Cúrate",
+        "category": "restaurant",
+        "section": "day-4",
+        "position": 44,
+        "notes": "Downtown Spanish tapas bar with a long counter facing the kitchen. Book ahead, or try for a seat at the bar.",
+        "address": "13 Biltmore Ave, Asheville, NC 28801",
+        "locality": "Asheville"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "french-broad-chocolate-lounge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5509,
+          35.5949
+        ]
+      },
+      "properties": {
+        "name": "French Broad Chocolate Lounge",
+        "category": "cafe",
+        "section": "day-4",
+        "position": 45,
+        "notes": "Truffles, cakes and drinking chocolate on Pack Square. The line moves faster than it looks.",
+        "address": "10 S Pack Sq, Asheville, NC 28801",
+        "locality": "Asheville"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sunny-point-cafe",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5889,
+          35.5786
+        ]
+      },
+      "properties": {
+        "name": "Sunny Point Café",
+        "category": "restaurant",
+        "section": "day-4",
+        "position": 46,
+        "notes": "West Asheville's breakfast institution, with a kitchen garden out front and biscuits worth the wait. Fuel up here before the last day.",
+        "address": "626 Haywood Rd, Asheville, NC 28806",
+        "locality": "West Asheville",
+        "match": {
+          "query": "Sunny Point Cafe"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "brp-visitor-center-asheville",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4863,
+          35.5658
+        ]
+      },
+      "properties": {
+        "name": "Blue Ridge Parkway Visitor Center",
+        "category": "visitor-center",
+        "section": "day-5",
+        "position": 47,
+        "notes": "The parkway's main visitor center at milepost 384, with a long wall map of the whole road and rangers who know current closures. Good place to plan the final stretch.",
+        "address": "195 Hemphill Knob Rd, Asheville, NC 28803",
+        "locality": "Asheville"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nc-arboretum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6101,
+          35.4987
+        ]
+      },
+      "properties": {
+        "name": "The North Carolina Arboretum",
+        "category": "garden",
+        "section": "day-5",
+        "position": 48,
+        "notes": "Gardens, a bonsai collection and miles of trails in Bent Creek, right off milepost 393. Easy to spend a morning.",
+        "address": "100 Frederick Law Olmsted Way, Asheville, NC 28806",
+        "locality": "Bent Creek"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mount-pisgah-trail",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.748,
+          35.4187
+        ]
+      },
+      "properties": {
+        "name": "Mount Pisgah Trail",
+        "category": "park",
+        "section": "day-5",
+        "position": 49,
+        "notes": "A rocky, steepening climb of about a mile and a half from the Mount Pisgah parking area to the summit beside the broadcast tower. Views reach back toward Asheville across land George Vanderbilt once owned.",
+        "address": "Blue Ridge Pkwy, Milepost 407.6, Canton, NC 28716",
+        "locality": "Mount Pisgah",
+        "match": {
+          "query": "Mount Pisgah Trailhead"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pisgah-inn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7538,
+          35.4029
+        ]
+      },
+      "properties": {
+        "name": "Pisgah Inn",
+        "category": "inn",
+        "section": "day-5",
+        "position": 50,
+        "notes": "A ridgetop motor inn whose rooms look east over the Pisgah forest, with a restaurant facing the same view. Open spring through fall; meals need reservations, so book early.",
+        "address": "Blue Ridge Pkwy, Milepost 408.6, Canton, NC 28716",
+        "locality": "Mount Pisgah"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "looking-glass-rock-overlook",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.828,
+          35.3218
+        ]
+      },
+      "properties": {
+        "name": "Looking Glass Rock Overlook",
+        "category": "viewpoint",
+        "section": "day-5",
+        "position": 51,
+        "notes": "A pullout facing the bare granite dome of Looking Glass Rock, which shines when wet. One of the easiest big views of the day.",
+        "address": "Blue Ridge Pkwy, Milepost 417, Brevard, NC 28712",
+        "locality": "Pisgah National Forest"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "graveyard-fields",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8473,
+          35.3202
+        ]
+      },
+      "properties": {
+        "name": "Graveyard Fields",
+        "category": "park",
+        "section": "day-5",
+        "position": 52,
+        "notes": "A high valley of blueberry thickets and waterfalls, with a short walk to Second Falls and a longer one to Upper Falls. The lot overflows on fall weekends; arrive early or late.",
+        "address": "Blue Ridge Pkwy, Milepost 418.8, Canton, NC 28716",
+        "locality": "Pisgah National Forest",
+        "match": {
+          "query": "Graveyard Fields Overlook"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "devils-courthouse",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8955,
+          35.3028
+        ]
+      },
+      "properties": {
+        "name": "Devil's Courthouse",
+        "category": "park",
+        "section": "day-5",
+        "position": 53,
+        "notes": "A short, steep paved trail to a rock summit where you can see into four states on a clear day. Peregrine falcons nest on the cliffs, so parts may close in spring.",
+        "address": "Blue Ridge Pkwy, Milepost 422.4, Brevard, NC 28712",
+        "locality": "Pisgah National Forest"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "richland-balsam-overlook",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9922,
+          35.363
+        ]
+      },
+      "properties": {
+        "name": "Richland Balsam Overlook",
+        "category": "viewpoint",
+        "section": "day-5",
+        "position": 54,
+        "notes": "The highest point on the whole parkway, just over 6,000 feet. The self-guiding trail from the Haywood-Jackson Overlook just north loops through spruce-fir forest that feels more like New England than North Carolina.",
+        "address": "Blue Ridge Pkwy, Milepost 431.4, Sylva, NC 28779",
+        "locality": "Jackson County"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "waterrock-knob",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1405,
+          35.461
+        ]
+      },
+      "properties": {
+        "name": "Waterrock Knob Visitor Center",
+        "category": "visitor-center",
+        "section": "day-5",
+        "position": 55,
+        "notes": "A small visitor center with one of the widest views on the road, looking toward the Great Smoky Mountains. A short, steep trail climbs to the summit.",
+        "address": "Blue Ridge Pkwy, Milepost 451.2, Waynesville, NC 28786",
+        "locality": "Plott Balsams"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "oconaluftee-visitor-center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3061,
+          35.5131
+        ]
+      },
+      "properties": {
+        "name": "Oconaluftee Visitor Center",
+        "category": "visitor-center",
+        "section": "day-5",
+        "position": 56,
+        "notes": "Just past the parkway's end at milepost 469, the Great Smoky Mountains entrance. Next door the Mountain Farm Museum gathers log farm buildings, and elk often graze the fields at dawn and dusk.",
+        "address": "1194 Newfound Gap Rd, Cherokee, NC 28719",
+        "locality": "Great Smoky Mountains"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "museum-of-the-cherokee-people",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3164,
+          35.4845
+        ]
+      },
+      "properties": {
+        "name": "Museum of the Cherokee People",
+        "category": "museum",
+        "section": "day-5",
+        "position": 57,
+        "notes": "The Eastern Band of Cherokee Indians' museum, telling the tribe's history in its own voice, from early life in these mountains through removal and the present. Formerly the Museum of the Cherokee Indian.",
+        "address": "589 Tsali Blvd, Cherokee, NC 28719",
+        "locality": "Cherokee"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "native-brews-tap-grill",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3063,
+          35.5004
+        ]
+      },
+      "properties": {
+        "name": "Native Brews Tap & Grill",
+        "category": "restaurant",
+        "section": "day-5",
+        "position": 58,
+        "notes": "A Native-owned grill on the main road through Cherokee, with burgers, trout and beer on tap. A relaxed dinner at the end of the road.",
+        "address": "1897 Tsali Blvd, Cherokee, NC 28719",
+        "locality": "Cherokee"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-day-1",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Day 1 · Rockfish Gap to Peaks of Otter · 86 mi",
+        "mode": "drive",
+        "section": "day-1",
+        "stops": [
+          "humpback-rocks",
+          "ravens-roost-overlook",
+          "devils-backbone-basecamp",
+          "crabtree-falls-va",
+          "yankee-horse-ridge",
+          "natural-bridge-state-park",
+          "james-river-visitor-center",
+          "sunset-field-overlook",
+          "peaks-of-otter-visitor-center",
+          "sharp-top-trail",
+          "peaks-of-otter-lodge"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-day-2",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Day 2 · Peaks of Otter to Mabry Mill · 90 mi",
+        "mode": "drive",
+        "section": "day-2",
+        "stops": [
+          "explore-park",
+          "mill-mountain-star",
+          "hotel-roanoke",
+          "texas-tavern",
+          "floyd-country-store",
+          "hotel-floyd",
+          "rock-castle-gorge",
+          "chateau-morrisette",
+          "mabry-mill"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-day-3",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Day 3 · Mabry Mill to Blowing Rock · 116 mi",
+        "mode": "drive",
+        "section": "day-3",
+        "stops": [
+          "puckett-cabin",
+          "blue-ridge-music-center",
+          "cumberland-knob",
+          "brinegar-cabin",
+          "the-bluffs-restaurant",
+          "eb-jeffress-park",
+          "the-blowing-rock",
+          "blowing-rock-art-history-museum",
+          "speckled-trout",
+          "green-park-inn",
+          "chetola-resort"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-day-4",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Day 4 · Blowing Rock to Asheville · 90 mi",
+        "mode": "drive",
+        "section": "day-4",
+        "stops": [
+          "flat-top-manor",
+          "price-lake",
+          "price-park-campground",
+          "linn-cove-viaduct",
+          "grandfather-mountain",
+          "linville-falls",
+          "famous-louises-rock-house",
+          "switzerland-inn",
+          "mount-mitchell-state-park",
+          "craggy-gardens",
+          "folk-art-center",
+          "omni-grove-park-inn",
+          "curate",
+          "french-broad-chocolate-lounge",
+          "sunny-point-cafe"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-day-5",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Day 5 · Asheville to Cherokee · 87 mi",
+        "mode": "drive",
+        "section": "day-5",
+        "stops": [
+          "brp-visitor-center-asheville",
+          "nc-arboretum",
+          "mount-pisgah-trail",
+          "pisgah-inn",
+          "looking-glass-rock-overlook",
+          "graveyard-fields",
+          "devils-courthouse",
+          "richland-balsam-overlook",
+          "waterrock-knob",
+          "oconaluftee-visitor-center",
+          "museum-of-the-cherokee-people",
+          "native-brews-tap-grill"
+        ]
+      }
+    }
+  ]
+}

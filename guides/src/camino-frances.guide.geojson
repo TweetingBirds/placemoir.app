@@ -1,0 +1,2545 @@
+{
+  "type": "FeatureCollection",
+  "placemoirGuide": "0.1",
+  "guide": {
+    "id": "camino-frances",
+    "status": "draft",
+    "kind": "route",
+    "name": "The Camino Francés from Saint-Jean-Pied-de-Port to Santiago de Compostela",
+    "description": "The classic 780 km pilgrim route across northern Spain in 33 stages, from the Pyrenees over the meseta to Galicia, with a place to sleep at the end of each day and the sights and meals worth stopping for.",
+    "author": {
+      "name": "friends of Placemoir"
+    },
+    "inLanguage": "en",
+    "dateModified": "2026-11-14",
+    "region": "France, Navarre, La Rioja, Castile and León, Galicia",
+    "countries": [
+      "ES",
+      "FR"
+    ],
+    "ordered": true,
+    "sections": [
+      {
+        "id": "stage-1",
+        "name": "Stage 1 · Saint-Jean-Pied-de-Port to Roncesvalles · 25 km"
+      },
+      {
+        "id": "stage-2",
+        "name": "Stage 2 · Roncesvalles to Zubiri · 22 km"
+      },
+      {
+        "id": "stage-3",
+        "name": "Stage 3 · Zubiri to Pamplona · 21 km"
+      },
+      {
+        "id": "stage-4",
+        "name": "Stage 4 · Pamplona to Puente la Reina · 24 km"
+      },
+      {
+        "id": "stage-5",
+        "name": "Stage 5 · Puente la Reina to Estella · 22 km"
+      },
+      {
+        "id": "stage-6",
+        "name": "Stage 6 · Estella to Los Arcos · 21 km"
+      },
+      {
+        "id": "stage-7",
+        "name": "Stage 7 · Los Arcos to Logroño · 28 km"
+      },
+      {
+        "id": "stage-8",
+        "name": "Stage 8 · Logroño to Nájera · 29 km"
+      },
+      {
+        "id": "stage-9",
+        "name": "Stage 9 · Nájera to Santo Domingo de la Calzada · 21 km"
+      },
+      {
+        "id": "stage-10",
+        "name": "Stage 10 · Santo Domingo de la Calzada to Belorado · 23 km"
+      },
+      {
+        "id": "stage-11",
+        "name": "Stage 11 · Belorado to San Juan de Ortega · 24 km"
+      },
+      {
+        "id": "stage-12",
+        "name": "Stage 12 · San Juan de Ortega to Burgos · 26 km"
+      },
+      {
+        "id": "stage-13",
+        "name": "Stage 13 · Burgos to Hornillos del Camino · 21 km"
+      },
+      {
+        "id": "stage-14",
+        "name": "Stage 14 · Hornillos del Camino to Castrojeriz · 20 km"
+      },
+      {
+        "id": "stage-15",
+        "name": "Stage 15 · Castrojeriz to Frómista · 25 km"
+      },
+      {
+        "id": "stage-16",
+        "name": "Stage 16 · Frómista to Carrión de los Condes · 19 km"
+      },
+      {
+        "id": "stage-17",
+        "name": "Stage 17 · Carrión de los Condes to Terradillos de los Templarios · 27 km"
+      },
+      {
+        "id": "stage-18",
+        "name": "Stage 18 · Terradillos de los Templarios to El Burgo Ranero · 30 km"
+      },
+      {
+        "id": "stage-19",
+        "name": "Stage 19 · El Burgo Ranero to Mansilla de las Mulas · 19 km"
+      },
+      {
+        "id": "stage-20",
+        "name": "Stage 20 · Mansilla de las Mulas to León · 19 km"
+      },
+      {
+        "id": "stage-21",
+        "name": "Stage 21 · León to Hospital de Órbigo · 32 km"
+      },
+      {
+        "id": "stage-22",
+        "name": "Stage 22 · Hospital de Órbigo to Astorga · 17 km"
+      },
+      {
+        "id": "stage-23",
+        "name": "Stage 23 · Astorga to Rabanal del Camino · 20 km"
+      },
+      {
+        "id": "stage-24",
+        "name": "Stage 24 · Rabanal del Camino to Molinaseca · 25 km"
+      },
+      {
+        "id": "stage-25",
+        "name": "Stage 25 · Molinaseca to Villafranca del Bierzo · 31 km"
+      },
+      {
+        "id": "stage-26",
+        "name": "Stage 26 · Villafranca del Bierzo to O Cebreiro · 28 km"
+      },
+      {
+        "id": "stage-27",
+        "name": "Stage 27 · O Cebreiro to Triacastela · 21 km"
+      },
+      {
+        "id": "stage-28",
+        "name": "Stage 28 · Triacastela to Sarria via Samos · 25 km"
+      },
+      {
+        "id": "stage-29",
+        "name": "Stage 29 · Sarria to Portomarín · 22 km"
+      },
+      {
+        "id": "stage-30",
+        "name": "Stage 30 · Portomarín to Palas de Rei · 25 km"
+      },
+      {
+        "id": "stage-31",
+        "name": "Stage 31 · Palas de Rei to Arzúa · 29 km"
+      },
+      {
+        "id": "stage-32",
+        "name": "Stage 32 · Arzúa to O Pedrouzo · 19 km"
+      },
+      {
+        "id": "stage-33",
+        "name": "Stage 33 · O Pedrouzo to Santiago de Compostela · 20 km"
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "accueil-des-pelerins-saint-jean",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2358,
+          43.1635
+        ]
+      },
+      "properties": {
+        "name": "Accueil des Pèlerins",
+        "category": "attraction",
+        "section": "stage-1",
+        "position": 1,
+        "notes": "The volunteer pilgrim office on the cobbled main street. Pick up a credential and the first stamp, and ask about conditions on the Route Napoléon before setting out, since the high pass can close in bad weather.",
+        "address": "39 Rue de la Citadelle, 64220 Saint-Jean-Pied-de-Port, France",
+        "locality": "Saint-Jean-Pied-de-Port",
+        "countryCode": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "refuge-orisson",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2393,
+          43.1088
+        ]
+      },
+      "properties": {
+        "name": "Refuge Orisson",
+        "category": "hotel",
+        "section": "stage-1",
+        "position": 2,
+        "notes": "A mountain refuge about 8 km up the climb, for those who want to split the Pyrenees crossing in two. Shared dinner on a terrace with a long view back over the valley. Open roughly April to mid-October; check the official site for booking.",
+        "address": "12 Route Napoléon, 64220 Uhart-Cize, France",
+        "locality": "Orisson",
+        "countryCode": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-de-roncesvalles",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3193,
+          43.0104
+        ]
+      },
+      "properties": {
+        "name": "Albergue de Roncesvalles",
+        "category": "albergue",
+        "section": "stage-1",
+        "position": 3,
+        "notes": "The big pilgrim hostel in the restored monastery buildings, run by the Colegiata. Bunks are in tidy cubicles and nearly everyone starting in Saint-Jean sleeps here the first night.",
+        "address": "Calle Única s/n, 31650 Roncesvalles, Navarra",
+        "locality": "Roncesvalles"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "colegiata-de-roncesvalles",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3198,
+          43.0095
+        ]
+      },
+      "properties": {
+        "name": "Real Colegiata de Santa María de Roncesvalles",
+        "category": "attraction",
+        "section": "stage-1",
+        "position": 4,
+        "notes": "A Gothic church and cloister that have sheltered pilgrims for about nine centuries. The evening pilgrim Mass with a blessing in several languages is a good way to end the first day.",
+        "address": "Calle Única s/n, 31650 Roncesvalles, Navarra",
+        "locality": "Roncesvalles"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hostal-burguete",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.335,
+          42.9907
+        ]
+      },
+      "properties": {
+        "name": "Hostal Burguete",
+        "category": "hotel",
+        "section": "stage-2",
+        "position": 5,
+        "notes": "An old family inn on the main street of Burguete, 3 km past Roncesvalles, where Hemingway stayed in the 1920s and wrote it into The Sun Also Rises. A comfortable private room after the first night in a dorm.",
+        "address": "Calle San Nicolás 71, 31640 Burguete, Navarra",
+        "locality": "Burguete"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "puente-de-la-rabia",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5033,
+          42.9299
+        ]
+      },
+      "properties": {
+        "name": "Puente de la Rabia",
+        "category": "attraction",
+        "section": "stage-2",
+        "position": 6,
+        "notes": "The medieval bridge over the Arga that leads into Zubiri. Local lore said walking an animal around its central pillar cured rabies. Most pilgrims cool their feet in the river below.",
+        "address": "Puente de la Rabia, 31630 Zubiri, Navarra",
+        "locality": "Zubiri"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-jesus-y-maria",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6418,
+          42.819
+        ]
+      },
+      "properties": {
+        "name": "Albergue Jesús y María",
+        "category": "albergue",
+        "section": "stage-3",
+        "position": 7,
+        "notes": "The municipal pilgrim hostel inside a former Jesuit church in the old town, a few steps from the cathedral. Big, well run and central. It can close for stretches of the year, notably around San Fermín in July, so check before you go.",
+        "address": "Calle Compañía 4, 31001 Pamplona, Navarra",
+        "locality": "Pamplona"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cafe-iruna",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6432,
+          42.8175
+        ]
+      },
+      "properties": {
+        "name": "Café Iruña",
+        "category": "cafe",
+        "section": "stage-3",
+        "position": 8,
+        "notes": "A grand 1888 café on Plaza del Castillo with mirrors, marble and a long bar. Stop for coffee or pintxos and look for the Hemingway statue in the side room.",
+        "address": "Plaza del Castillo 44, 31001 Pamplona, Navarra",
+        "locality": "Pamplona"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "catedral-de-pamplona",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6412,
+          42.8194
+        ]
+      },
+      "properties": {
+        "name": "Catedral de Pamplona",
+        "category": "attraction",
+        "section": "stage-3",
+        "position": 9,
+        "notes": "Behind a neoclassical front is a Gothic church with one of the finest cloisters in Spain. The visit includes the old kitchen and a museum of Navarrese religious art.",
+        "address": "Calle Dormitalería 1, 31001 Pamplona, Navarra",
+        "locality": "Pamplona",
+        "match": {
+          "query": "Catedral de Santa María la Real Pamplona"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "alto-del-perdon",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7425,
+          42.7359
+        ]
+      },
+      "properties": {
+        "name": "Alto del Perdón",
+        "category": "park",
+        "section": "stage-4",
+        "position": 10,
+        "notes": "The windmill ridge about 13 km out of Pamplona, where iron silhouettes of medieval pilgrims on foot and horseback line the crest. Take the descent slowly; the loose stones are hard on knees.",
+        "address": "Carretera del Alto del Perdón, 31190 Astráin, Navarra",
+        "locality": "Alto del Perdón"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "santa-maria-de-eunate",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7615,
+          42.6722
+        ]
+      },
+      "properties": {
+        "name": "Santa María de Eunate",
+        "category": "attraction",
+        "section": "stage-4",
+        "position": 11,
+        "notes": "An octagonal Romanesque church alone in the fields, ringed by an arcade. It is a short detour off the main route before Obanos; ask locally whether it is open before you go.",
+        "address": "Carretera NA-601 s/n, 31152 Muruzábal, Navarra",
+        "locality": "Muruzábal",
+        "match": {
+          "query": "Ermita de Santa María de Eunate"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-padres-reparadores",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8103,
+          42.6734
+        ]
+      },
+      "properties": {
+        "name": "Albergue Padres Reparadores",
+        "category": "albergue",
+        "section": "stage-4",
+        "position": 12,
+        "notes": "A parish-style hostel run by a religious order at the entrance to town, beside the Church of the Crucifix. A garden out back for drying laundry and resting feet.",
+        "address": "Calle Crucifijo 1, 31100 Puente la Reina, Navarra",
+        "locality": "Puente la Reina"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "puente-la-reina-bridge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8188,
+          42.6711
+        ]
+      },
+      "properties": {
+        "name": "Puente Románico de Puente la Reina",
+        "category": "attraction",
+        "section": "stage-4",
+        "position": 13,
+        "notes": "The six-arched 11th-century bridge built for pilgrims over the Arga, at the end of the long main street. Cross it at dusk, then look back from the riverbank.",
+        "address": "Calle Mayor, 31100 Puente la Reina, Navarra",
+        "locality": "Puente la Reina"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "san-pedro-de-la-rua",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0292,
+          42.6689
+        ]
+      },
+      "properties": {
+        "name": "Iglesia de San Pedro de la Rúa",
+        "category": "attraction",
+        "section": "stage-5",
+        "position": 14,
+        "notes": "A Romanesque church up a long stair above the Rúa, with a carved doorway and a partly surviving cloister. Visits are often by guided tour from the tourist office.",
+        "address": "Calle San Pedro de la Rúa, 31200 Estella, Navarra",
+        "locality": "Estella"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-municipal-estella",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0276,
+          42.6697
+        ]
+      },
+      "properties": {
+        "name": "Albergue Municipal de Peregrinos de Estella",
+        "category": "albergue",
+        "section": "stage-5",
+        "position": 15,
+        "notes": "The public hostel on the old pilgrim street, right on the route as you come into town and close to San Pedro de la Rúa.",
+        "address": "Calle La Rúa 50, 31200 Estella, Navarra",
+        "locality": "Estella"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fuente-del-vino-irache",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0437,
+          42.6509
+        ]
+      },
+      "properties": {
+        "name": "Fuente del Vino de Irache",
+        "category": "attraction",
+        "section": "stage-6",
+        "position": 16,
+        "notes": "A winery's free wine tap set into a wall beside the trail just past Estella, with a water tap next to it. A small glass is the custom, not a bottle refill.",
+        "address": "Camino de Santiago, 31240 Ayegui, Navarra",
+        "locality": "Ayegui",
+        "match": {
+          "query": "Bodegas Irache Fuente del Vino"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iglesia-de-santa-maria-los-arcos",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1928,
+          42.5689
+        ]
+      },
+      "properties": {
+        "name": "Iglesia de Santa María de Los Arcos",
+        "category": "attraction",
+        "section": "stage-6",
+        "position": 17,
+        "notes": "A plain outside hides a lavish Baroque interior and a quiet Gothic cloister. Many pilgrims time their evening around the Mass and blessing.",
+        "address": "Plaza Santa María, 31210 Los Arcos, Navarra",
+        "locality": "Los Arcos"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-isaac-santiago",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1943,
+          42.5691
+        ]
+      },
+      "properties": {
+        "name": "Albergue Isaac Santiago",
+        "category": "albergue",
+        "section": "stage-6",
+        "position": 18,
+        "notes": "The municipal hostel at the far edge of Los Arcos, run by volunteers. A walled patio for stretching out after the long, dry walk from Villamayor.",
+        "address": "Calle San Lázaro s/n, 31210 Los Arcos, Navarra",
+        "locality": "Los Arcos"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-municipal-logrono",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4447,
+          42.4682
+        ]
+      },
+      "properties": {
+        "name": "Albergue Municipal de Peregrinos de Logroño",
+        "category": "albergue",
+        "section": "stage-7",
+        "position": 19,
+        "notes": "The city's public hostel in the old quarter, a short walk from the tapas streets. A shaded courtyard and plenty of beds.",
+        "address": "Rúa Vieja 32, 26001 Logroño, La Rioja",
+        "locality": "Logroño"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "calle-del-laurel",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4484,
+          42.4655
+        ]
+      },
+      "properties": {
+        "name": "Calle del Laurel",
+        "category": "attraction",
+        "section": "stage-7",
+        "position": 20,
+        "notes": "A narrow old-town street packed with small bars, each known for one pincho, from grilled mushrooms to fried peppers, with a glass of Rioja. Go bar to bar rather than settling in one.",
+        "address": "Calle del Laurel, 26001 Logroño, La Rioja",
+        "locality": "Logroño"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iglesia-de-la-asuncion-navarrete",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5613,
+          42.4296
+        ]
+      },
+      "properties": {
+        "name": "Iglesia de la Asunción de Navarrete",
+        "category": "attraction",
+        "section": "stage-8",
+        "position": 21,
+        "notes": "A 16th-century church with an enormous gilded Baroque altarpiece, in a hill town known for pottery. A good rest stop about 12 km into the day.",
+        "address": "Calle La Cuesta, 26370 Navarrete, La Rioja",
+        "locality": "Navarrete"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "santa-maria-la-real-najera",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7357,
+          42.4164
+        ]
+      },
+      "properties": {
+        "name": "Monasterio de Santa María la Real",
+        "category": "attraction",
+        "section": "stage-8",
+        "position": 22,
+        "notes": "Built into the red cliff at the edge of town, with royal tombs of Navarre, a carved choir and a lacy Gothic cloister. The cave where the church was founded is at the back.",
+        "address": "Plaza Santa María 1, 26300 Nájera, La Rioja",
+        "locality": "Nájera"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-municipal-najera",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7342,
+          42.4151
+        ]
+      },
+      "properties": {
+        "name": "Albergue Municipal de Nájera",
+        "category": "albergue",
+        "section": "stage-8",
+        "position": 23,
+        "notes": "A large public hostel run by volunteers just across the river in the old town, steps from the monastery.",
+        "address": "Plaza de Santiago s/n, 26300 Nájera, La Rioja",
+        "locality": "Nájera"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "catedral-santo-domingo-calzada",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9537,
+          42.4411
+        ]
+      },
+      "properties": {
+        "name": "Catedral de Santo Domingo de la Calzada",
+        "category": "attraction",
+        "section": "stage-9",
+        "position": 24,
+        "notes": "A live rooster and hen are kept in an ornate coop inside the cathedral, recalling the legend of the hanged pilgrim. Tradition says it is good luck if the rooster crows while you are inside.",
+        "address": "Plaza del Santo 4, 26250 Santo Domingo de la Calzada, La Rioja",
+        "locality": "Santo Domingo de la Calzada"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "parador-santo-domingo",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9542,
+          42.4407
+        ]
+      },
+      "properties": {
+        "name": "Parador de Santo Domingo de la Calzada",
+        "category": "hotel",
+        "section": "stage-9",
+        "position": 25,
+        "notes": "A state-run hotel in the medieval pilgrim hospital founded by the saint himself, facing the cathedral. Stone arches in the lobby and a quiet night if you want a break from bunks.",
+        "address": "Plaza del Santo 3, 26250 Santo Domingo de la Calzada, La Rioja",
+        "locality": "Santo Domingo de la Calzada"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-casa-del-santo",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9525,
+          42.4409
+        ]
+      },
+      "properties": {
+        "name": "Albergue Casa del Santo",
+        "category": "albergue",
+        "section": "stage-9",
+        "position": 26,
+        "notes": "The confraternity's hostel on the main street, with a big kitchen and a yard where some of the cathedral's chickens are kept between shifts.",
+        "address": "Calle Mayor 42, 26250 Santo Domingo de la Calzada, La Rioja",
+        "locality": "Santo Domingo de la Calzada"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-parroquial-granon",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.027,
+          42.4503
+        ]
+      },
+      "properties": {
+        "name": "Albergue Parroquial San Juan Bautista",
+        "category": "albergue",
+        "section": "stage-10",
+        "position": 27,
+        "notes": "Pilgrims sleep on mats in the loft of the parish church, cook and eat together, and pay by donation. No reservations. A night many remember long after the walk.",
+        "address": "Plaza de la Iglesia, 26259 Grañón, La Rioja",
+        "locality": "Grañón"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-cuatro-cantones",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1906,
+          42.4212
+        ]
+      },
+      "properties": {
+        "name": "Albergue Cuatro Cantones",
+        "category": "albergue",
+        "section": "stage-10",
+        "position": 28,
+        "notes": "A family-run private hostel on the way into Belorado with a pool, a garden and a dining room serving pilgrim dinners.",
+        "address": "Calle Hipólito López Bernal 10, 09250 Belorado, Burgos",
+        "locality": "Belorado"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel-san-anton-abad",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.31,
+          42.3886
+        ]
+      },
+      "properties": {
+        "name": "Hotel San Antón Abad",
+        "category": "hotel",
+        "section": "stage-11",
+        "position": 29,
+        "notes": "A hotel in a 14th-century pilgrim hospital at the foot of the Oca hills, with private rooms and a separate pilgrim dorm. A good place to rest or stop for the night before the climb through the oak and pine forest.",
+        "address": "Calle Hospital 4, 09257 Villafranca Montes de Oca, Burgos",
+        "locality": "Villafranca Montes de Oca"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "monasterio-san-juan-de-ortega",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4371,
+          42.3762
+        ]
+      },
+      "properties": {
+        "name": "Monasterio de San Juan de Ortega",
+        "category": "attraction",
+        "section": "stage-11",
+        "position": 30,
+        "notes": "A monastery church in a clearing in the oak forest, with the saint's tomb and a capital lit by the sun at the equinoxes. The pilgrim hostel is in the old monastery buildings next door.",
+        "address": "Calle de la Iglesia, 09199 San Juan de Ortega, Burgos",
+        "locality": "San Juan de Ortega"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-casa-del-cubo",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7039,
+          42.3424
+        ]
+      },
+      "properties": {
+        "name": "Albergue Municipal Casa del Cubo",
+        "category": "albergue",
+        "section": "stage-12",
+        "position": 31,
+        "notes": "The city's public hostel in a restored town house right behind the cathedral. Large, modern and as central as it gets.",
+        "address": "Calle Fernán González 28, 09003 Burgos",
+        "locality": "Burgos"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "catedral-de-burgos",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7046,
+          42.3407
+        ]
+      },
+      "properties": {
+        "name": "Catedral de Burgos",
+        "category": "attraction",
+        "section": "stage-12",
+        "position": 32,
+        "notes": "One of the great Gothic cathedrals of Europe, with spires that look like stone lace and chapels that could each fill an afternoon. Pilgrims with a credential can ask about a reduced ticket.",
+        "address": "Plaza de Santa María, 09003 Burgos",
+        "locality": "Burgos",
+        "match": {
+          "query": "Catedral de Santa María Burgos"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cerveceria-morito",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.703,
+          42.3407
+        ]
+      },
+      "properties": {
+        "name": "Cervecería Morito",
+        "category": "bar",
+        "section": "stage-12",
+        "position": 33,
+        "notes": "A crowded tapas bar near the cathedral, known for generous plates of morcilla, croquetas and grilled mushrooms. Expect to wait for a spot at the bar.",
+        "address": "Calle Diego Porcelos 1, 09003 Burgos",
+        "locality": "Burgos"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ermita-virgen-de-monasterio",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8381,
+          42.3402
+        ]
+      },
+      "properties": {
+        "name": "Ermita de Nuestra Señora de Monasterio",
+        "category": "attraction",
+        "section": "stage-13",
+        "position": 34,
+        "notes": "A small chapel at the end of Rabé where a local woman has long offered pilgrims a blessing and a medal. The open meseta begins just beyond.",
+        "address": "Camino de Santiago, 09130 Rabé de las Calzadas, Burgos",
+        "locality": "Rabé de las Calzadas"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-municipal-hornillos",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.926,
+          42.3387
+        ]
+      },
+      "properties": {
+        "name": "Albergue Municipal de Hornillos del Camino",
+        "category": "albergue",
+        "section": "stage-13",
+        "position": 35,
+        "notes": "A small public hostel beside the church in a one-street village on the meseta. Fills early, so carry on to the private hostels in the same street if it is full.",
+        "address": "Plaza de la Iglesia s/n, 09230 Hornillos del Camino, Burgos",
+        "locality": "Hornillos del Camino"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "convento-de-san-anton",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0991,
+          42.2926
+        ]
+      },
+      "properties": {
+        "name": "Ruinas del Convento de San Antón",
+        "category": "attraction",
+        "section": "stage-14",
+        "position": 36,
+        "notes": "The road runs straight under the Gothic arches of a ruined 14th-century monastery, once a hospital for pilgrims. Volunteers run a simple candlelit hostel inside in the warmer months.",
+        "address": "Carretera BU-P-4013, 09110 Castrojeriz, Burgos",
+        "locality": "Castrojeriz"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "castillo-de-castrojeriz",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.1362,
+          42.2916
+        ]
+      },
+      "properties": {
+        "name": "Castillo de Castrojeriz",
+        "category": "attraction",
+        "section": "stage-14",
+        "position": 37,
+        "notes": "The ruined castle on the hill above town. A steep half-hour climb in the evening gives the best view over the meseta and tomorrow's ridge, Alto de Mostelares.",
+        "address": "Subida al Castillo, 09110 Castrojeriz, Burgos",
+        "locality": "Castrojeriz"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-san-esteban-castrojeriz",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.1405,
+          42.2889
+        ]
+      },
+      "properties": {
+        "name": "Albergue de Peregrinos San Esteban",
+        "category": "albergue",
+        "section": "stage-14",
+        "position": 38,
+        "notes": "The municipal hostel in an old building on the main square, run on donations. Basic and friendly, in the middle of the long single street of Castrojeriz.",
+        "address": "Plaza Mayor 16, 09110 Castrojeriz, Burgos",
+        "locality": "Castrojeriz"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ermita-san-nicolas-puente-fitero",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2433,
+          42.2789
+        ]
+      },
+      "properties": {
+        "name": "Ermita de San Nicolás",
+        "category": "attraction",
+        "section": "stage-15",
+        "position": 39,
+        "notes": "A 13th-century chapel by the bridge over the Pisuerga, run by an Italian confraternity as a summer-only hostel with no electricity, where hosts wash pilgrims' feet before dinner.",
+        "address": "Puente Fitero, 09107 Itero del Castillo, Burgos",
+        "locality": "Itero del Castillo"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-en-el-camino-boadilla",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3466,
+          42.2585
+        ]
+      },
+      "properties": {
+        "name": "Albergue En El Camino",
+        "category": "albergue",
+        "section": "stage-15",
+        "position": 40,
+        "notes": "A private hostel with a big lawn, a pool and art on the walls, beside the old stone justice column in Boadilla. A good place to stop short of Frómista.",
+        "address": "Calle Rosario 1, 34468 Boadilla del Camino, Palencia",
+        "locality": "Boadilla del Camino",
+        "match": {
+          "query": "Albergue En El Camino Boadilla"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iglesia-de-san-martin-fromista",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.4069,
+          42.2667
+        ]
+      },
+      "properties": {
+        "name": "Iglesia de San Martín de Frómista",
+        "category": "attraction",
+        "section": "stage-15",
+        "position": 41,
+        "notes": "A small, almost perfect Romanesque church from the 11th century. Walk around the outside to see more than 300 carved corbels under the eaves.",
+        "address": "Plaza de San Martín, 34440 Frómista, Palencia",
+        "locality": "Frómista"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "santa-maria-la-blanca-villalcazar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.5425,
+          42.3168
+        ]
+      },
+      "properties": {
+        "name": "Iglesia de Santa María la Blanca",
+        "category": "attraction",
+        "section": "stage-16",
+        "position": 42,
+        "notes": "A fortress-like Templar church in a tiny village, with painted royal tombs and a Virgin celebrated for miracles in medieval song.",
+        "address": "Plaza Mayor, 34449 Villalcázar de Sirga, Palencia",
+        "locality": "Villalcázar de Sirga"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel-real-monasterio-san-zoilo",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.6114,
+          42.3394
+        ]
+      },
+      "properties": {
+        "name": "Hotel Real Monasterio de San Zoilo",
+        "category": "hotel",
+        "section": "stage-16",
+        "position": 43,
+        "notes": "A hotel in a Benedictine monastery across the river from Carrión, with a Renaissance cloister open to visitors. A quiet, comfortable splurge on the meseta.",
+        "address": "Calle Obispo Soto Vizoso s/n, 34120 Carrión de los Condes, Palencia",
+        "locality": "Carrión de los Condes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-parroquial-santa-maria-carrion",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.6017,
+          42.3378
+        ]
+      },
+      "properties": {
+        "name": "Albergue Parroquial de Santa María",
+        "category": "albergue",
+        "section": "stage-16",
+        "position": 44,
+        "notes": "The parish hostel run by the Augustinian sisters, known for an evening of singing and conversation with pilgrims before Mass.",
+        "address": "Calle Clérigo Pastor 2, 34120 Carrión de los Condes, Palencia",
+        "locality": "Carrión de los Condes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-jacques-de-molay",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.8906,
+          42.3626
+        ]
+      },
+      "properties": {
+        "name": "Albergue Jacques de Molay",
+        "category": "albergue",
+        "section": "stage-17",
+        "position": 45,
+        "notes": "A family-run hostel in the village center with dorms, private rooms and a set dinner. Before Calzadilla de la Cueza there is a 17 km stretch with no services, so carry water.",
+        "address": "Calle Iglesia 18, 34349 Terradillos de los Templarios, Palencia",
+        "locality": "Terradillos de los Templarios"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-los-templarios",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.8847,
+          42.3645
+        ]
+      },
+      "properties": {
+        "name": "Albergue Los Templarios",
+        "category": "albergue",
+        "section": "stage-17",
+        "position": 46,
+        "notes": "A large brick hostel just before the village, with a lawn, private rooms and a restaurant. The second solid choice in this one-street hamlet.",
+        "address": "Carretera N-120 s/n, 34349 Terradillos de los Templarios, Palencia",
+        "locality": "Terradillos de los Templarios"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "arco-de-san-benito-sahagun",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.0335,
+          42.371
+        ]
+      },
+      "properties": {
+        "name": "Arco de San Benito",
+        "category": "attraction",
+        "section": "stage-18",
+        "position": 47,
+        "notes": "A Baroque gate that is nearly all that survives of the once-powerful Benedictine monastery of Sahagún. The brick Mudéjar churches nearby are the town's real character.",
+        "address": "Avenida Doctores Bermejo y Calderón, 24320 Sahagún, León",
+        "locality": "Sahagún"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "santuario-de-la-peregrina",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.0324,
+          42.3678
+        ]
+      },
+      "properties": {
+        "name": "Santuario de la Peregrina",
+        "category": "museum",
+        "section": "stage-18",
+        "position": 48,
+        "notes": "A restored Franciscan convent on the hill, with Mudéjar plasterwork and a museum. Ask here for the certificate marking the halfway point of the Camino.",
+        "address": "Calle Arco de San Francisco, 24320 Sahagún, León",
+        "locality": "Sahagún"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-domenico-laffi",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.2186,
+          42.4234
+        ]
+      },
+      "properties": {
+        "name": "Albergue Municipal Domenico Laffi",
+        "category": "albergue",
+        "section": "stage-18",
+        "position": 49,
+        "notes": "A small adobe hostel built in the traditional style, named for a 17th-century Italian pilgrim who wrote about the route. Donation-based and run by volunteers.",
+        "address": "Calle Fray Pedro del Burgo 3, 24343 El Burgo Ranero, León",
+        "locality": "El Burgo Ranero"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "museo-de-los-pueblos-leoneses",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.4204,
+          42.4983
+        ]
+      },
+      "properties": {
+        "name": "Museo de los Pueblos Leoneses",
+        "category": "museum",
+        "section": "stage-19",
+        "position": 50,
+        "notes": "An ethnographic museum in an old Augustinian convent, with costume, farm tools and village crafts from across León province. A good rest stop on an easy day.",
+        "address": "Calle San Agustín, 24210 Mansilla de las Mulas, León",
+        "locality": "Mansilla de las Mulas"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-municipal-mansilla",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.4185,
+          42.4998
+        ]
+      },
+      "properties": {
+        "name": "Albergue Municipal de Mansilla de las Mulas",
+        "category": "albergue",
+        "section": "stage-19",
+        "position": 51,
+        "notes": "The public hostel inside the medieval walls, with a courtyard full of drying laundry. A short walk from the stretch of town wall above the river.",
+        "address": "Calle del Puente 5, 24210 Mansilla de las Mulas, León",
+        "locality": "Mansilla de las Mulas"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "catedral-de-leon",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.5667,
+          42.5995
+        ]
+      },
+      "properties": {
+        "name": "Catedral de León",
+        "category": "attraction",
+        "section": "stage-20",
+        "position": 52,
+        "notes": "A Gothic cathedral that is more glass than wall, with nearly 1,800 square meters of medieval stained glass. Visit on a sunny morning when the color falls across the floor.",
+        "address": "Plaza de Regla, 24003 León",
+        "locality": "León",
+        "match": {
+          "query": "Catedral de León"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "real-colegiata-san-isidoro",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.5707,
+          42.6008
+        ]
+      },
+      "properties": {
+        "name": "Real Colegiata de San Isidoro",
+        "category": "museum",
+        "section": "stage-20",
+        "position": 53,
+        "notes": "The Romanesque royal church of León, where the Pantheon of Kings has 12th-century painted vaults in almost perfect condition. Some call it the Sistine Chapel of Romanesque art.",
+        "address": "Plaza de San Isidoro 4, 24003 León",
+        "locality": "León",
+        "match": {
+          "query": "Museo de San Isidoro"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-benedictinas-leon",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.5682,
+          42.5951
+        ]
+      },
+      "properties": {
+        "name": "Albergue de las Benedictinas Santa María de Carbajal",
+        "category": "albergue",
+        "section": "stage-20",
+        "position": 54,
+        "notes": "A convent hostel run by Benedictine nuns in the old town, a few minutes' walk from the cathedral. Pilgrims are invited to the sisters' evening prayer and blessing.",
+        "address": "Plaza de Santa María del Camino 7, 24003 León",
+        "locality": "León",
+        "match": {
+          "query": "Albergue de las Carbajalas"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "parador-de-leon",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.5823,
+          42.6017
+        ]
+      },
+      "properties": {
+        "name": "Parador de León",
+        "category": "hotel",
+        "section": "stage-20",
+        "position": 55,
+        "notes": "The vast Renaissance convent of San Marcos, once a pilgrim hospital and now a state hotel with a famous plateresque facade. Even if you do not stay, look into the cloister.",
+        "address": "Plaza de San Marcos 7, 24001 León",
+        "locality": "León"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "barrio-humedo-leon",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.5676,
+          42.5968
+        ]
+      },
+      "properties": {
+        "name": "Barrio Húmedo",
+        "category": "attraction",
+        "section": "stage-20",
+        "position": 56,
+        "notes": "The old-town knot of streets around Plaza de San Martín, packed with bars that still serve a free tapa with each drink. Try morcilla and cecina, the cured beef of León.",
+        "address": "Plaza de San Martín, 24003 León",
+        "locality": "León",
+        "match": {
+          "query": "Plaza de San Martín León"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "basilica-virgen-del-camino",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.6413,
+          42.5801
+        ]
+      },
+      "properties": {
+        "name": "Basílica de la Virgen del Camino",
+        "category": "attraction",
+        "section": "stage-21",
+        "position": 57,
+        "notes": "A striking 1960s sanctuary on the edge of León, with the twelve apostles and the Virgin cast in bronze across its tall front. An unexpected modern church on an old road.",
+        "address": "Avenida de Astorga 87, 24198 La Virgen del Camino, León",
+        "locality": "La Virgen del Camino"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "puente-de-orbigo",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8794,
+          42.464
+        ]
+      },
+      "properties": {
+        "name": "Puente de Órbigo",
+        "category": "attraction",
+        "section": "stage-21",
+        "position": 58,
+        "notes": "One of the longest medieval bridges in Spain, about 20 arches, where a knight held a famous jousting challenge in 1434. A tournament is still staged in the fields below each summer.",
+        "address": "Puente de Órbigo, 24286 Hospital de Órbigo, León",
+        "locality": "Hospital de Órbigo"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-karl-leisner",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8837,
+          42.4639
+        ]
+      },
+      "properties": {
+        "name": "Albergue Parroquial Karl Leisner",
+        "category": "albergue",
+        "section": "stage-21",
+        "position": 59,
+        "notes": "The parish hostel in an old house with a leafy courtyard, on the main street just past the bridge.",
+        "address": "Calle Álvarez Vega 32, 24286 Hospital de Órbigo, León",
+        "locality": "Hospital de Órbigo"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "palacio-de-gaudi-astorga",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0559,
+          42.4578
+        ]
+      },
+      "properties": {
+        "name": "Palacio de Gaudí",
+        "category": "museum",
+        "section": "stage-22",
+        "position": 60,
+        "notes": "A fairytale bishop's palace by Antoni Gaudí, now the Museum of the Ways, with Camino history inside. One of only three Gaudí buildings outside Catalonia.",
+        "address": "Plaza Eduardo de Castro 15, 24700 Astorga, León",
+        "locality": "Astorga",
+        "match": {
+          "query": "Palacio Episcopal de Astorga"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-siervas-de-maria",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0513,
+          42.4529
+        ]
+      },
+      "properties": {
+        "name": "Albergue Siervas de María",
+        "category": "albergue",
+        "section": "stage-22",
+        "position": 61,
+        "notes": "The big association-run hostel at the top of the steep climb into Astorga, right on the route. A terrace with a view toward the Montes de León.",
+        "address": "Plaza de San Francisco 3, 24700 Astorga, León",
+        "locality": "Astorga"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cuca-la-vaina",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1277,
+          42.4648
+        ]
+      },
+      "properties": {
+        "name": "Hostería Cuca la Vaina",
+        "category": "restaurant",
+        "section": "stage-23",
+        "position": 62,
+        "notes": "A short detour to a stone village built by muleteers, where this inn serves cocido maragato, a stew eaten backward, meats first and soup last. Plan on a big lunch and a short afternoon.",
+        "address": "Calle Jardín s/n, 24718 Castrillo de los Polvazares, León",
+        "locality": "Castrillo de los Polvazares"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "refugio-gaucelmo",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2848,
+          42.4821
+        ]
+      },
+      "properties": {
+        "name": "Refugio Gaucelmo",
+        "category": "hotel",
+        "section": "stage-23",
+        "position": 63,
+        "notes": "A volunteer-run hostel in a restored priest's house with a walled garden, set up by the UK-based Confraternity of Saint James. Open April to October, with afternoon tea and the monks' sung prayers at the church next door.",
+        "address": "Calle del Calvario 4, 24722 Rabanal del Camino, León",
+        "locality": "Rabanal del Camino"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cruz-de-ferro",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.3615,
+          42.4889
+        ]
+      },
+      "properties": {
+        "name": "Cruz de Ferro",
+        "category": "attraction",
+        "section": "stage-24",
+        "position": 64,
+        "notes": "A small iron cross on a tall wooden pole near the highest point of the Camino, on a mound of stones carried by pilgrims from home. Bring one and leave it with whatever it stands for.",
+        "address": "Camino de Santiago, LE-142, 24722 Foncebadón, León",
+        "locality": "Foncebadón"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "puente-de-los-peregrinos-molinaseca",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.5196,
+          42.5378
+        ]
+      },
+      "properties": {
+        "name": "Puente de los Peregrinos",
+        "category": "attraction",
+        "section": "stage-24",
+        "position": 65,
+        "notes": "A medieval bridge over the Meruelo into Molinaseca, with a river pool below where tired walkers soak after the long descent from the mountains.",
+        "address": "Calle Real, 24413 Molinaseca, León",
+        "locality": "Molinaseca",
+        "match": {
+          "query": "Puente Romano Molinaseca"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hostal-el-palacio-molinaseca",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.519,
+          42.5378
+        ]
+      },
+      "properties": {
+        "name": "Hostal El Palacio",
+        "category": "hotel",
+        "section": "stage-24",
+        "position": 66,
+        "notes": "A small family hostal at the end of the bridge, with a terrace restaurant over the river. Private rooms for a night off from bunks.",
+        "address": "Calle El Palacio 19, 24413 Molinaseca, León",
+        "locality": "Molinaseca"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "castillo-de-ponferrada",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.5935,
+          42.544
+        ]
+      },
+      "properties": {
+        "name": "Castillo de los Templarios",
+        "category": "museum",
+        "section": "stage-25",
+        "position": 67,
+        "notes": "A great Templar castle in the middle of Ponferrada, with towers, walls and a library of facsimile medieval books inside. Give it an hour on the way through.",
+        "address": "Avenida del Castillo, 24401 Ponferrada, León",
+        "locality": "Ponferrada",
+        "match": {
+          "query": "Castillo de Ponferrada"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iglesia-de-santiago-villafranca",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.8078,
+          42.604
+        ]
+      },
+      "properties": {
+        "name": "Iglesia de Santiago",
+        "category": "attraction",
+        "section": "stage-25",
+        "position": 68,
+        "notes": "A Romanesque church with the Puerta del Perdón, where sick medieval pilgrims who could go no farther could receive the same pardon as at Santiago.",
+        "address": "Calle Santiago, 24500 Villafranca del Bierzo, León",
+        "locality": "Villafranca del Bierzo",
+        "match": {
+          "query": "Iglesia de Santiago Apóstol Villafranca del Bierzo"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-ave-fenix",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.8081,
+          42.6039
+        ]
+      },
+      "properties": {
+        "name": "Albergue Ave Fénix",
+        "category": "albergue",
+        "section": "stage-25",
+        "position": 69,
+        "notes": "A long-running private hostel beside the church of Santiago, built and rebuilt by the Jato family. Rustic, with a communal dinner and a lot of Camino history.",
+        "address": "Calle Santiago 10, 24500 Villafranca del Bierzo, León",
+        "locality": "Villafranca del Bierzo",
+        "match": {
+          "query": "Refugio Ave Fénix"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "santa-maria-a-real-cebreiro",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0433,
+          42.7079
+        ]
+      },
+      "properties": {
+        "name": "Santuario de Santa María a Real do Cebreiro",
+        "category": "attraction",
+        "section": "stage-26",
+        "position": 70,
+        "notes": "One of the oldest churches on the Camino, pre-Romanesque in origin, with the chalice of a medieval Eucharistic miracle. The parish priest here painted the first yellow arrows.",
+        "address": "O Cebreiro, 27671 Pedrafita do Cebreiro, Lugo",
+        "locality": "O Cebreiro",
+        "match": {
+          "query": "Iglesia de Santa María la Real O Cebreiro"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-do-cebreiro",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0461,
+          42.7078
+        ]
+      },
+      "properties": {
+        "name": "Albergue de Peregrinos do Cebreiro",
+        "category": "albergue",
+        "section": "stage-26",
+        "position": 71,
+        "notes": "The Xunta's public hostel at the top of the village, with views over the Galician hills on a clear evening. Popular, so arrive early in season.",
+        "address": "O Cebreiro, 27670 Pedrafita do Cebreiro, Lugo",
+        "locality": "O Cebreiro"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pallozas-o-cebreiro",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0436,
+          42.7076
+        ]
+      },
+      "properties": {
+        "name": "Conxunto Etnográfico do Cebreiro",
+        "category": "museum",
+        "section": "stage-26",
+        "position": 72,
+        "notes": "Round stone houses with thatched roofs, a style of mountain dwelling older than the Romans. One palloza is kept as a small museum of village life.",
+        "address": "O Cebreiro, 27671 Pedrafita do Cebreiro, Lugo",
+        "locality": "O Cebreiro",
+        "match": {
+          "query": "Palloza O Cebreiro"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "alto-de-san-roque",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0848,
+          42.6995
+        ]
+      },
+      "properties": {
+        "name": "Monumento ao Peregrino",
+        "category": "attraction",
+        "section": "stage-27",
+        "position": 73,
+        "notes": "A large bronze pilgrim leaning into the wind, hat clamped down, at a pass about 4 km past O Cebreiro. The best photo stop of the morning.",
+        "address": "LU-633, Alto de San Roque, 27671 Pedrafita do Cebreiro, Lugo",
+        "locality": "Alto de San Roque",
+        "match": {
+          "query": "Alto de San Roque"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-triacastela",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2355,
+          42.7553
+        ]
+      },
+      "properties": {
+        "name": "Albergue de Peregrinos de Triacastela",
+        "category": "albergue",
+        "section": "stage-27",
+        "position": 74,
+        "notes": "The Xunta hostel in a meadow at the entrance to the village after the long descent. Triacastela's cafés and its pilgrim menus are a short walk away.",
+        "address": "Rúa do Peregrino, 27630 Triacastela, Lugo",
+        "locality": "Triacastela"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosteiro-de-samos",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3255,
+          42.7321
+        ]
+      },
+      "properties": {
+        "name": "Mosteiro de Samos",
+        "category": "attraction",
+        "section": "stage-28",
+        "position": 75,
+        "notes": "One of the oldest monasteries in Spain, still home to Benedictine monks, at the bottom of a green river valley. Take the Samos route out of Triacastela for this; the monks lead guided visits.",
+        "address": "Rúa Compostela, 27620 Samos, Lugo",
+        "locality": "Samos",
+        "match": {
+          "query": "Monasterio de Samos"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-de-sarria",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4136,
+          42.7774
+        ]
+      },
+      "properties": {
+        "name": "Albergue de Peregrinos de Sarria",
+        "category": "albergue",
+        "section": "stage-28",
+        "position": 76,
+        "notes": "The Xunta hostel on the old main street up the hill. Sarria is the start for many walkers aiming for the last 100 km, so the trail gets busier from here.",
+        "address": "Rúa Maior 79, 27600 Sarria, Lugo",
+        "locality": "Sarria"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iglesia-san-nicolas-portomarin",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.6156,
+          42.8076
+        ]
+      },
+      "properties": {
+        "name": "Igrexa de San Nicolás de Portomarín",
+        "category": "attraction",
+        "section": "stage-29",
+        "position": 77,
+        "notes": "A fortified Romanesque church moved stone by stone up the hill in the 1960s when the old town was flooded for a reservoir. The numbers on the stones are still visible.",
+        "address": "Praza Conde de Fenosa, 27170 Portomarín, Lugo",
+        "locality": "Portomarín",
+        "match": {
+          "query": "Iglesia de San Juan Portomarín"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-de-portomarin",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.615,
+          42.8084
+        ]
+      },
+      "properties": {
+        "name": "Albergue de Peregrinos de Portomarín",
+        "category": "albergue",
+        "section": "stage-29",
+        "position": 78,
+        "notes": "The public hostel in the upper town near the church. Cross the long bridge over the Miño reservoir and climb the stairs to reach it.",
+        "address": "Rúa Fraga Iribarne, 27170 Portomarín, Lugo",
+        "locality": "Portomarín"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "castro-de-castromaior",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.7198,
+          42.8332
+        ]
+      },
+      "properties": {
+        "name": "Castro de Castromaior",
+        "category": "museum",
+        "section": "stage-30",
+        "position": 79,
+        "notes": "An Iron Age hill fort beside the trail with the stone footings of round houses inside its rings of walls. Free to wander, and almost no one stops.",
+        "address": "LU-633, Castromaior, 27188 Portomarín, Lugo",
+        "locality": "Castromaior"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-palas-de-rei",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.8689,
+          42.8731
+        ]
+      },
+      "properties": {
+        "name": "Albergue de Peregrinos de Palas de Rei",
+        "category": "albergue",
+        "section": "stage-30",
+        "position": 80,
+        "notes": "The Xunta hostel on the main road in the middle of town, close to cafés and shops.",
+        "address": "Avenida de Compostela 19, 27200 Palas de Rei, Lugo",
+        "locality": "Palas de Rei"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pulperia-ezequiel",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.0125,
+          42.9134
+        ]
+      },
+      "properties": {
+        "name": "Pulpería Ezequiel",
+        "category": "restaurant",
+        "section": "stage-31",
+        "position": 81,
+        "notes": "Melide is the octopus town of the Camino, and this long hall of shared tables is the classic stop for pulpo á feira on wooden plates with bread and young white wine.",
+        "address": "Avenida de Lugo, 15800 Melide, A Coruña",
+        "locality": "Melide",
+        "match": {
+          "query": "Pulpería Ezequiel Melide"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-municipal-arzua",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1625,
+          42.9263
+        ]
+      },
+      "properties": {
+        "name": "Albergue Municipal de Arzúa",
+        "category": "albergue",
+        "section": "stage-31",
+        "position": 82,
+        "notes": "The Xunta hostel in an old stone building on the main square of Arzúa. Pick up some of the local soft cheese for tomorrow's lunch.",
+        "address": "Rúa Cima do Lugar 6, 15810 Arzúa, A Coruña",
+        "locality": "Arzúa"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-arca-o-pino",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.3588,
+          42.9071
+        ]
+      },
+      "properties": {
+        "name": "Albergue de Peregrinos de Arca do Pino",
+        "category": "albergue",
+        "section": "stage-32",
+        "position": 83,
+        "notes": "The Xunta hostel on the main road through O Pedrouzo, the last night for most pilgrims before Santiago.",
+        "address": "Avenida de Lugo 30, 15821 O Pedrouzo, A Coruña",
+        "locality": "O Pedrouzo"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "igrexa-de-santa-eulalia-de-arca",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.3633,
+          42.9016
+        ]
+      },
+      "properties": {
+        "name": "Igrexa de Santa Eulalia de Arca",
+        "category": "attraction",
+        "section": "stage-32",
+        "position": 84,
+        "notes": "The parish church of Arca, just off the main road through O Pedrouzo. Many pilgrims go to the evening Mass here on their last night before Santiago.",
+        "address": "A Igrexa, Arca, 15821 O Pino, A Coruña",
+        "locality": "O Pedrouzo",
+        "match": {
+          "query": "Iglesia de Santa Eulalia de Arca"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "monte-do-gozo",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.4935,
+          42.888
+        ]
+      },
+      "properties": {
+        "name": "Monte do Gozo",
+        "category": "park",
+        "section": "stage-33",
+        "position": 85,
+        "notes": "The hill where pilgrims got their first view of the cathedral spires, marked by a monument for the 1989 papal visit and statues of two pilgrims pointing west. About 5 km to go.",
+        "address": "Monte do Gozo, 15892 Santiago de Compostela, A Coruña",
+        "locality": "Santiago de Compostela"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "catedral-de-santiago",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5446,
+          42.8804
+        ]
+      },
+      "properties": {
+        "name": "Catedral de Santiago de Compostela",
+        "category": "attraction",
+        "section": "stage-33",
+        "position": 86,
+        "notes": "The end of the road: the Portico of Glory, the tomb of Saint James and the hug of the apostle's statue behind the altar. Check the official site for the pilgrim Mass and when the botafumeiro swings.",
+        "address": "Praza do Obradoiro, 15704 Santiago de Compostela, A Coruña",
+        "locality": "Santiago de Compostela"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "oficina-del-peregrino",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.547,
+          42.8818
+        ]
+      },
+      "properties": {
+        "name": "Oficina del Peregrino",
+        "category": "attraction",
+        "section": "stage-33",
+        "position": 87,
+        "notes": "Where pilgrims who have walked at least the last 100 km with a stamped credential receive the Compostela. Register online before you arrive to skip much of the line.",
+        "address": "Rúa das Carretas 33, 15705 Santiago de Compostela, A Coruña",
+        "locality": "Santiago de Compostela",
+        "match": {
+          "query": "Oficina de Acogida al Peregrino"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "parador-hostal-dos-reis-catolicos",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5459,
+          42.8815
+        ]
+      },
+      "properties": {
+        "name": "Parador Hostal dos Reis Católicos",
+        "category": "hotel",
+        "section": "stage-33",
+        "position": 88,
+        "notes": "A royal pilgrim hospital from 1499 on the cathedral square, now a state hotel with four cloisters. A traditional splurge for the last night.",
+        "address": "Praza do Obradoiro 1, 15705 Santiago de Compostela, A Coruña",
+        "locality": "Santiago de Compostela"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "albergue-seminario-menor",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5371,
+          42.8766
+        ]
+      },
+      "properties": {
+        "name": "Albergue Seminario Menor",
+        "category": "albergue",
+        "section": "stage-33",
+        "position": 89,
+        "notes": "A huge former seminary turned hostel on a hill above the old town, with dorms and simple private rooms. A good base for a couple of days in the city.",
+        "address": "Avenida de Quiroga Palacios 2, 15703 Santiago de Compostela, A Coruña",
+        "locality": "Santiago de Compostela"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mercado-de-abastos-santiago",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5412,
+          42.88
+        ]
+      },
+      "properties": {
+        "name": "Mercado de Abastos",
+        "category": "attraction",
+        "section": "stage-33",
+        "position": 90,
+        "notes": "Santiago's stone food market, with fish, shellfish, cheese and produce from Galician farms. Some stalls will cook what you buy at a counter nearby.",
+        "address": "Rúa das Ameas s/n, 15704 Santiago de Compostela, A Coruña",
+        "locality": "Santiago de Compostela"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-1",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 1 · Saint-Jean-Pied-de-Port to Roncesvalles · 25 km",
+        "mode": "walk",
+        "section": "stage-1",
+        "stops": [
+          "accueil-des-pelerins-saint-jean",
+          "refuge-orisson",
+          "albergue-de-roncesvalles",
+          "colegiata-de-roncesvalles"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-2",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 2 · Roncesvalles to Zubiri · 22 km",
+        "mode": "walk",
+        "section": "stage-2",
+        "stops": [
+          "hostal-burguete",
+          "puente-de-la-rabia"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-3",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 3 · Zubiri to Pamplona · 21 km",
+        "mode": "walk",
+        "section": "stage-3",
+        "stops": [
+          "albergue-jesus-y-maria",
+          "cafe-iruna",
+          "catedral-de-pamplona"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-4",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 4 · Pamplona to Puente la Reina · 24 km",
+        "mode": "walk",
+        "section": "stage-4",
+        "stops": [
+          "alto-del-perdon",
+          "santa-maria-de-eunate",
+          "albergue-padres-reparadores",
+          "puente-la-reina-bridge"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-5",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 5 · Puente la Reina to Estella · 22 km",
+        "mode": "walk",
+        "section": "stage-5",
+        "stops": [
+          "san-pedro-de-la-rua",
+          "albergue-municipal-estella"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-6",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 6 · Estella to Los Arcos · 21 km",
+        "mode": "walk",
+        "section": "stage-6",
+        "stops": [
+          "fuente-del-vino-irache",
+          "iglesia-de-santa-maria-los-arcos",
+          "albergue-isaac-santiago"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-7",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 7 · Los Arcos to Logroño · 28 km",
+        "mode": "walk",
+        "section": "stage-7",
+        "stops": [
+          "albergue-municipal-logrono",
+          "calle-del-laurel"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-8",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 8 · Logroño to Nájera · 29 km",
+        "mode": "walk",
+        "section": "stage-8",
+        "stops": [
+          "iglesia-de-la-asuncion-navarrete",
+          "santa-maria-la-real-najera",
+          "albergue-municipal-najera"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-9",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 9 · Nájera to Santo Domingo de la Calzada · 21 km",
+        "mode": "walk",
+        "section": "stage-9",
+        "stops": [
+          "catedral-santo-domingo-calzada",
+          "parador-santo-domingo",
+          "albergue-casa-del-santo"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-10",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 10 · Santo Domingo de la Calzada to Belorado · 23 km",
+        "mode": "walk",
+        "section": "stage-10",
+        "stops": [
+          "albergue-parroquial-granon",
+          "albergue-cuatro-cantones"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-11",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 11 · Belorado to San Juan de Ortega · 24 km",
+        "mode": "walk",
+        "section": "stage-11",
+        "stops": [
+          "hotel-san-anton-abad",
+          "monasterio-san-juan-de-ortega"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-12",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 12 · San Juan de Ortega to Burgos · 26 km",
+        "mode": "walk",
+        "section": "stage-12",
+        "stops": [
+          "albergue-casa-del-cubo",
+          "catedral-de-burgos",
+          "cerveceria-morito"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-13",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 13 · Burgos to Hornillos del Camino · 21 km",
+        "mode": "walk",
+        "section": "stage-13",
+        "stops": [
+          "ermita-virgen-de-monasterio",
+          "albergue-municipal-hornillos"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-14",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 14 · Hornillos del Camino to Castrojeriz · 20 km",
+        "mode": "walk",
+        "section": "stage-14",
+        "stops": [
+          "convento-de-san-anton",
+          "castillo-de-castrojeriz",
+          "albergue-san-esteban-castrojeriz"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-15",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 15 · Castrojeriz to Frómista · 25 km",
+        "mode": "walk",
+        "section": "stage-15",
+        "stops": [
+          "ermita-san-nicolas-puente-fitero",
+          "albergue-en-el-camino-boadilla",
+          "iglesia-de-san-martin-fromista"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-16",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 16 · Frómista to Carrión de los Condes · 19 km",
+        "mode": "walk",
+        "section": "stage-16",
+        "stops": [
+          "santa-maria-la-blanca-villalcazar",
+          "hotel-real-monasterio-san-zoilo",
+          "albergue-parroquial-santa-maria-carrion"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-17",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 17 · Carrión de los Condes to Terradillos de los Templarios · 27 km",
+        "mode": "walk",
+        "section": "stage-17",
+        "stops": [
+          "albergue-jacques-de-molay",
+          "albergue-los-templarios"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-18",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 18 · Terradillos de los Templarios to El Burgo Ranero · 30 km",
+        "mode": "walk",
+        "section": "stage-18",
+        "stops": [
+          "arco-de-san-benito-sahagun",
+          "santuario-de-la-peregrina",
+          "albergue-domenico-laffi"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-19",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 19 · El Burgo Ranero to Mansilla de las Mulas · 19 km",
+        "mode": "walk",
+        "section": "stage-19",
+        "stops": [
+          "museo-de-los-pueblos-leoneses",
+          "albergue-municipal-mansilla"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-20",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 20 · Mansilla de las Mulas to León · 19 km",
+        "mode": "walk",
+        "section": "stage-20",
+        "stops": [
+          "catedral-de-leon",
+          "real-colegiata-san-isidoro",
+          "albergue-benedictinas-leon",
+          "parador-de-leon",
+          "barrio-humedo-leon"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-21",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 21 · León to Hospital de Órbigo · 32 km",
+        "mode": "walk",
+        "section": "stage-21",
+        "stops": [
+          "basilica-virgen-del-camino",
+          "puente-de-orbigo",
+          "albergue-karl-leisner"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-22",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 22 · Hospital de Órbigo to Astorga · 17 km",
+        "mode": "walk",
+        "section": "stage-22",
+        "stops": [
+          "palacio-de-gaudi-astorga",
+          "albergue-siervas-de-maria"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-23",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 23 · Astorga to Rabanal del Camino · 20 km",
+        "mode": "walk",
+        "section": "stage-23",
+        "stops": [
+          "cuca-la-vaina",
+          "refugio-gaucelmo"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-24",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 24 · Rabanal del Camino to Molinaseca · 25 km",
+        "mode": "walk",
+        "section": "stage-24",
+        "stops": [
+          "cruz-de-ferro",
+          "puente-de-los-peregrinos-molinaseca",
+          "hostal-el-palacio-molinaseca"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-25",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 25 · Molinaseca to Villafranca del Bierzo · 31 km",
+        "mode": "walk",
+        "section": "stage-25",
+        "stops": [
+          "castillo-de-ponferrada",
+          "iglesia-de-santiago-villafranca",
+          "albergue-ave-fenix"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-26",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 26 · Villafranca del Bierzo to O Cebreiro · 28 km",
+        "mode": "walk",
+        "section": "stage-26",
+        "stops": [
+          "santa-maria-a-real-cebreiro",
+          "albergue-do-cebreiro",
+          "pallozas-o-cebreiro"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-27",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 27 · O Cebreiro to Triacastela · 21 km",
+        "mode": "walk",
+        "section": "stage-27",
+        "stops": [
+          "alto-de-san-roque",
+          "albergue-triacastela"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-28",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 28 · Triacastela to Sarria via Samos · 25 km",
+        "mode": "walk",
+        "section": "stage-28",
+        "stops": [
+          "mosteiro-de-samos",
+          "albergue-de-sarria"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-29",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 29 · Sarria to Portomarín · 22 km",
+        "mode": "walk",
+        "section": "stage-29",
+        "stops": [
+          "iglesia-san-nicolas-portomarin",
+          "albergue-de-portomarin"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-30",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 30 · Portomarín to Palas de Rei · 25 km",
+        "mode": "walk",
+        "section": "stage-30",
+        "stops": [
+          "castro-de-castromaior",
+          "albergue-palas-de-rei"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-31",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 31 · Palas de Rei to Arzúa · 29 km",
+        "mode": "walk",
+        "section": "stage-31",
+        "stops": [
+          "pulperia-ezequiel",
+          "albergue-municipal-arzua"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-32",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 32 · Arzúa to O Pedrouzo · 19 km",
+        "mode": "walk",
+        "section": "stage-32",
+        "stops": [
+          "albergue-arca-o-pino",
+          "igrexa-de-santa-eulalia-de-arca"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-stage-33",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Stage 33 · O Pedrouzo to Santiago de Compostela · 20 km",
+        "mode": "walk",
+        "section": "stage-33",
+        "stops": [
+          "monte-do-gozo",
+          "catedral-de-santiago",
+          "oficina-del-peregrino",
+          "parador-hostal-dos-reis-catolicos",
+          "albergue-seminario-menor",
+          "mercado-de-abastos-santiago"
+        ]
+      }
+    }
+  ]
+}

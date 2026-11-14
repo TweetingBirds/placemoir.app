@@ -1,0 +1,1612 @@
+{
+  "type": "FeatureCollection",
+  "placemoirGuide": "0.1",
+  "guide": {
+    "id": "route-66",
+    "status": "draft",
+    "kind": "route",
+    "name": "Route 66 from Chicago to Santa Monica",
+    "description": "Nine days on the old Mother Road across eight states, with diners, neon motels, roadside giants and Route 66 museums from the Begin sign in Chicago to the end of the pier in Santa Monica.",
+    "author": {
+      "name": "friends of Placemoir"
+    },
+    "inLanguage": "en",
+    "dateModified": "2026-11-14",
+    "region": "Illinois to California",
+    "countries": [
+      "US"
+    ],
+    "ordered": true,
+    "sections": [
+      {
+        "id": "day-1",
+        "name": "Day 1 · Chicago to Springfield, Illinois · 200 mi"
+      },
+      {
+        "id": "day-2",
+        "name": "Day 2 · Springfield, Illinois to Cuba, Missouri · 180 mi"
+      },
+      {
+        "id": "day-3",
+        "name": "Day 3 · Cuba, Missouri to Tulsa, Oklahoma · 290 mi"
+      },
+      {
+        "id": "day-4",
+        "name": "Day 4 · Tulsa to Elk City, Oklahoma · 210 mi"
+      },
+      {
+        "id": "day-5",
+        "name": "Day 5 · Elk City to Tucumcari, New Mexico · 260 mi"
+      },
+      {
+        "id": "day-6",
+        "name": "Day 6 · Tucumcari to Gallup, New Mexico · 310 mi"
+      },
+      {
+        "id": "day-7",
+        "name": "Day 7 · Gallup to Flagstaff, Arizona · 190 mi"
+      },
+      {
+        "id": "day-8",
+        "name": "Day 8 · Flagstaff to Barstow, California · 390 mi"
+      },
+      {
+        "id": "day-9",
+        "name": "Day 9 · Barstow to Santa Monica · 140 mi"
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "begin-route-66-sign",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6245,
+          41.8794
+        ]
+      },
+      "properties": {
+        "name": "Historic Route 66 Begin Sign",
+        "category": "attraction",
+        "section": "day-1",
+        "position": 1,
+        "notes": "The road starts on Adams Street across from the Art Institute, where a brown Begin sign marks mile zero. Westbound traffic leaves on Adams; the matching End sign is a block south on Jackson.",
+        "address": "E Adams St & S Michigan Ave, Chicago, IL 60603",
+        "locality": "The Loop",
+        "match": {
+          "query": "Route 66 Begin Sign"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lou-mitchells",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6421,
+          41.8778
+        ]
+      },
+      "properties": {
+        "name": "Lou Mitchell's",
+        "category": "restaurant",
+        "section": "day-1",
+        "position": 2,
+        "notes": "A diner since 1923, a few blocks from the start of the road. Big omelets, double-yolk eggs and a free donut hole while you wait in line.",
+        "address": "565 W Jackson Blvd, Chicago, IL 60661",
+        "locality": "West Loop"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dell-rheas-chicken-basket",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9392,
+          41.7456
+        ]
+      },
+      "properties": {
+        "name": "Dell Rhea's Chicken Basket",
+        "category": "restaurant",
+        "section": "day-1",
+        "position": 3,
+        "notes": "A roadhouse serving fried chicken on this stretch of old 66 since the 1940s, now listed on the National Register of Historic Places.",
+        "address": "645 Joliet Rd, Willowbrook, IL 60527",
+        "locality": "Willowbrook"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "launching-pad-gemini-giant",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1497,
+          41.3061
+        ]
+      },
+      "properties": {
+        "name": "Launching Pad Drive-In",
+        "category": "attraction",
+        "section": "day-1",
+        "position": 4,
+        "notes": "Home of the Gemini Giant, a fiberglass spaceman holding a rocket since the 1960s. The old drive-in building has been restored as a stop with food and Route 66 souvenirs.",
+        "address": "810 E Baltimore St, Wilmington, IL 60481",
+        "locality": "Wilmington",
+        "match": {
+          "query": "Launching Pad Gemini Giant"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "polk-a-dot-drive-in",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.21,
+          41.2653
+        ]
+      },
+      "properties": {
+        "name": "Polk-a-Dot Drive In",
+        "category": "restaurant",
+        "section": "day-1",
+        "position": 5,
+        "notes": "A 1950s burger stand with fiberglass statues of Elvis, Marilyn Monroe and the Blues Brothers out front. Order a malt and pose for the photo.",
+        "address": "222 N Front St, Braidwood, IL 60408",
+        "locality": "Braidwood"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "illinois-route-66-hall-of-fame-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.629,
+          40.8809
+        ]
+      },
+      "properties": {
+        "name": "Illinois Route 66 Hall of Fame & Museum",
+        "category": "museum",
+        "section": "day-1",
+        "position": 6,
+        "notes": "A free museum in Pontiac's old firehouse, with road artist Bob Waldmire's converted school bus and VW van parked out back. Look for the murals around the courthouse square.",
+        "address": "110 W Howard St, Pontiac, IL 61764",
+        "locality": "Pontiac"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "funks-grove-pure-maple-sirup",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1176,
+          40.3565
+        ]
+      },
+      "properties": {
+        "name": "Funks Grove Pure Maple Sirup",
+        "category": "attraction",
+        "section": "day-1",
+        "position": 7,
+        "notes": "A family that has tapped these maples since the 1800s and spells it sirup the old way. The shop keeps limited, seasonal hours, so check before you count on it.",
+        "address": "5257 Old Route 66, Shirley, IL 61772",
+        "locality": "Funks Grove"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cozy-dog-drive-in",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6488,
+          39.7624
+        ]
+      },
+      "properties": {
+        "name": "Cozy Dog Drive In",
+        "category": "restaurant",
+        "section": "day-1",
+        "position": 8,
+        "notes": "The family that claims the corn dog on a stick still runs this Springfield counter. The walls are covered with Route 66 memorabilia.",
+        "address": "2935 S 6th St, Springfield, IL 62703",
+        "locality": "Springfield"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lincoln-home-national-historic-site",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6451,
+          39.7976
+        ]
+      },
+      "properties": {
+        "name": "Lincoln Home National Historic Site",
+        "category": "museum",
+        "section": "day-1",
+        "position": 9,
+        "notes": "The only house Abraham Lincoln ever owned, set in four restored blocks of his old neighborhood. Free ranger-led tours start at the visitor center.",
+        "address": "413 S 8th St, Springfield, IL 62701",
+        "locality": "Springfield"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ariston-cafe",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.667,
+          39.1775
+        ]
+      },
+      "properties": {
+        "name": "Ariston Cafe",
+        "category": "restaurant",
+        "section": "day-2",
+        "position": 10,
+        "notes": "A dining room in a 1935 brick building that has served travelers on the road since the 1920s. Good for a sit-down lunch between Springfield and St. Louis.",
+        "address": "413 Old Route 66 N, Litchfield, IL 62056",
+        "locality": "Litchfield"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "old-chain-of-rocks-bridge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1777,
+          38.7616
+        ]
+      },
+      "properties": {
+        "name": "Old Chain of Rocks Bridge",
+        "category": "park",
+        "section": "day-2",
+        "position": 11,
+        "notes": "A mile-long former Route 66 bridge over the Mississippi, with a 22-degree bend in the middle, now open only to walkers and cyclists. Park on the Illinois side.",
+        "address": "Chain of Rocks Rd, Granite City, IL 62040",
+        "locality": "Mississippi River"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gateway-arch-national-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1857,
+          38.6245
+        ]
+      },
+      "properties": {
+        "name": "Gateway Arch National Park",
+        "category": "national-park",
+        "section": "day-2",
+        "position": 12,
+        "notes": "The 630-foot stainless steel arch on the riverfront, with a museum underneath and small tram pods to the top. Book tram times ahead on the official site.",
+        "address": "11 N 4th St, St. Louis, MO 63102",
+        "locality": "St. Louis"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ted-drewes-frozen-custard",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3076,
+          38.5894
+        ]
+      },
+      "properties": {
+        "name": "Ted Drewes Frozen Custard",
+        "category": "cafe",
+        "section": "day-2",
+        "position": 13,
+        "notes": "A walk-up custard stand on Chippewa Street, an old 66 alignment, since 1941. Order a concrete, so thick it is handed over upside down. Closed for part of the winter.",
+        "address": "6726 Chippewa St, St. Louis, MO 63109",
+        "locality": "St. Louis"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "meramec-caverns",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.0922,
+          38.2411
+        ]
+      },
+      "properties": {
+        "name": "Meramec Caverns",
+        "category": "attraction",
+        "section": "day-2",
+        "position": 14,
+        "notes": "The cave that painted its name on barn roofs all along the road. Guided tours walk through large lit chambers along the Meramec River.",
+        "address": "1135 Hwy W, Sullivan, MO 63080",
+        "locality": "Stanton"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "wagon-wheel-motel",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.3963,
+          38.0651
+        ]
+      },
+      "properties": {
+        "name": "Wagon Wheel Motel",
+        "category": "hotel",
+        "section": "day-2",
+        "position": 15,
+        "notes": "Stone cottages from the 1930s, restored with modern rooms and a working neon sign. Cuba's downtown murals are a short walk away.",
+        "address": "901 E Washington St, Cuba, MO 65453",
+        "locality": "Cuba"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "missouri-hick-bar-b-que",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.3945,
+          38.0648
+        ]
+      },
+      "properties": {
+        "name": "Missouri Hick Bar-B-Que",
+        "category": "restaurant",
+        "section": "day-2",
+        "position": 16,
+        "notes": "Barbecue smoked over hickory in a big log building next door to the Wagon Wheel. Easy dinner without moving the car.",
+        "address": "913 E Washington St, Cuba, MO 65453",
+        "locality": "Cuba"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "devils-elbow-bridge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.0623,
+          37.8483
+        ]
+      },
+      "properties": {
+        "name": "Devil's Elbow Bridge",
+        "category": "park",
+        "section": "day-3",
+        "position": 17,
+        "notes": "A 1923 steel truss bridge over a tight bend of the Big Piney River on a bypassed loop of old 66. Pull off for the bluffs and the quiet.",
+        "address": "Teardrop Rd, Devils Elbow, MO 65457",
+        "locality": "Devils Elbow"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "66-drive-in-theatre",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3689,
+          37.1742
+        ]
+      },
+      "properties": {
+        "name": "66 Drive-In Theatre",
+        "category": "theater",
+        "section": "day-3",
+        "position": 18,
+        "notes": "A 1949 drive-in movie screen still showing films on the old highway west of Carthage. It runs from spring to fall only; check the schedule.",
+        "address": "17231 Old 66 Blvd, Carthage, MO 64836",
+        "locality": "Carthage"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cars-on-the-route",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.6389,
+          37.0804
+        ]
+      },
+      "properties": {
+        "name": "Cars on the Route",
+        "category": "attraction",
+        "section": "day-3",
+        "position": 19,
+        "notes": "A restored 1930s Kan-O-Tex service station on Kansas's short stretch of 66. The rusty tow truck out front helped inspire Mater in Cars.",
+        "address": "119 N Main St, Galena, KS 66739",
+        "locality": "Galena"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rainbow-bridge-riverton",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.7408,
+          37.0735
+        ]
+      },
+      "properties": {
+        "name": "Rainbow Bridge",
+        "category": "park",
+        "section": "day-3",
+        "position": 20,
+        "notes": "The last surviving concrete Marsh arch bridge on Route 66, built in 1923 over Brush Creek. A newer road now runs alongside, so pull off and walk across for the photo.",
+        "address": "SE Beasley Rd, Riverton, KS 66770",
+        "locality": "Riverton",
+        "match": {
+          "query": "Rainbow Bridge Route 66"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coleman-theatre",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.8779,
+          36.8765
+        ]
+      },
+      "properties": {
+        "name": "Coleman Theatre",
+        "category": "theater",
+        "section": "day-3",
+        "position": 21,
+        "notes": "A 1929 Spanish Revival vaudeville house on Main Street with its original theater organ. Volunteers lead tours on most days; check the theater's site.",
+        "address": "103 N Main St, Miami, OK 74354",
+        "locality": "Miami"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "blue-whale-of-catoosa",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.7329,
+          36.1938
+        ]
+      },
+      "properties": {
+        "name": "Blue Whale of Catoosa",
+        "category": "attraction",
+        "section": "day-3",
+        "position": 22,
+        "notes": "A grinning 80-foot concrete whale built in the early 1970s as an anniversary gift, sitting in a spring-fed pond. A free photo stop.",
+        "address": "2600 N Hwy 66, Catoosa, OK 74015",
+        "locality": "Catoosa"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cyrus-avery-centennial-plaza",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.0049,
+          36.1428
+        ]
+      },
+      "properties": {
+        "name": "Cyrus Avery Route 66 Memorial Bridge and Centennial Plaza",
+        "category": "park",
+        "section": "day-3",
+        "position": 23,
+        "notes": "A plaza at the old 11th Street bridge honoring Tulsa's Cyrus Avery, who helped create Route 66, with a large bronze of a family car meeting a horse-drawn wagon.",
+        "address": "1324 Southwest Blvd, Tulsa, OK 74119",
+        "locality": "Tulsa",
+        "match": {
+          "query": "Cyrus Avery Centennial Plaza"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "campbell-hotel",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9521,
+          36.1476
+        ]
+      },
+      "properties": {
+        "name": "The Campbell Hotel",
+        "category": "hotel",
+        "section": "day-3",
+        "position": 24,
+        "notes": "A 1927 building on 11th Street, Tulsa's stretch of Route 66, restored as a boutique hotel with individually themed rooms.",
+        "address": "2636 E 11th St, Tulsa, OK 74104",
+        "locality": "Tulsa"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "tallys-good-food-cafe",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9218,
+          36.1489
+        ]
+      },
+      "properties": {
+        "name": "Tally's Good Food Cafe",
+        "category": "restaurant",
+        "section": "day-3",
+        "position": 25,
+        "notes": "A neon-lit diner on 11th Street with chicken-fried steak, cinnamon rolls the size of a plate and breakfast all day.",
+        "address": "1102 S Yale Ave, Tulsa, OK 74112",
+        "locality": "Tulsa"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rock-cafe-stroud",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6544,
+          35.7488
+        ]
+      },
+      "properties": {
+        "name": "Rock Cafe",
+        "category": "restaurant",
+        "section": "day-4",
+        "position": 26,
+        "notes": "A 1939 cafe built from sandstone dug up during road construction. Order a burger or the chicken-fried steak at the counter.",
+        "address": "114 W Main St, Stroud, OK 74079",
+        "locality": "Stroud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "arcadia-round-barn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.326,
+          35.6624
+        ]
+      },
+      "properties": {
+        "name": "Arcadia Round Barn",
+        "category": "attraction",
+        "section": "day-4",
+        "position": 27,
+        "notes": "A big round red barn from 1898, restored by local volunteers, with a small museum downstairs and a dance loft upstairs.",
+        "address": "107 OK-66, Arcadia, OK 73007",
+        "locality": "Arcadia"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pops-66",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3355,
+          35.6581
+        ]
+      },
+      "properties": {
+        "name": "POP's 66",
+        "category": "restaurant",
+        "section": "day-4",
+        "position": 28,
+        "notes": "A modern gas station and diner under a 66-foot steel soda bottle that lights up at night. Inside, coolers hold hundreds of different sodas.",
+        "address": "660 W Highway 66, Arcadia, OK 73007",
+        "locality": "Arcadia",
+        "match": {
+          "query": "POPS 66 Soda Ranch"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lucilles-service-station",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5885,
+          35.537
+        ]
+      },
+      "properties": {
+        "name": "Lucille's Service Station",
+        "category": "attraction",
+        "section": "day-4",
+        "position": 29,
+        "notes": "A 1929 two-story gas station where Lucille Hamons sold gas and kindness to travelers for decades. Now preserved as a roadside stop on the old road.",
+        "address": "Route 66, Hydro, OK 73048",
+        "locality": "Hydro",
+        "match": {
+          "query": "Lucille's Historic Highway Gas Station"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "oklahoma-route-66-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.9869,
+          35.5065
+        ]
+      },
+      "properties": {
+        "name": "Oklahoma Route 66 Museum",
+        "category": "museum",
+        "section": "day-4",
+        "position": 30,
+        "notes": "A state-run museum with rooms that walk through the road decade by decade, from the Dust Bowl exodus to the neon motel era. Plan an hour or more.",
+        "address": "2229 W Gary Blvd, Clinton, OK 73601",
+        "locality": "Clinton"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "national-route-66-transportation-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.438,
+          35.4117
+        ]
+      },
+      "properties": {
+        "name": "National Route 66 & Transportation Museum",
+        "category": "museum",
+        "section": "day-4",
+        "position": 31,
+        "notes": "A museum complex with a re-created old town, a farm and transportation museum, and a giant Route 66 sign for photos.",
+        "address": "2717 W 3rd St, Elk City, OK 73644",
+        "locality": "Elk City"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "u-drop-inn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.2487,
+          35.2267
+        ]
+      },
+      "properties": {
+        "name": "U-Drop Inn",
+        "category": "attraction",
+        "section": "day-5",
+        "position": 32,
+        "notes": "A 1936 Art Deco gas station and cafe, now the town visitor center. Come back after dark when the green and pink neon is on.",
+        "address": "1242 N Main St, Shamrock, TX 79079",
+        "locality": "Shamrock"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "big-texan-steak-ranch",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.755,
+          35.1938
+        ]
+      },
+      "properties": {
+        "name": "The Big Texan Steak Ranch",
+        "category": "restaurant",
+        "section": "day-5",
+        "position": 33,
+        "notes": "The home of the 72-ounce steak challenge, with a motel and brewery on the same lot. Loud and kitschy, and that is the point.",
+        "address": "7701 I-40 E, Amarillo, TX 79118",
+        "locality": "Amarillo"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadillac-ranch",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.9871,
+          35.1872
+        ]
+      },
+      "properties": {
+        "name": "Cadillac Ranch",
+        "category": "attraction",
+        "section": "day-5",
+        "position": 34,
+        "notes": "Ten Cadillacs buried nose-down in a field west of Amarillo by the Ant Farm art collective in 1974. Bring spray paint; everyone adds a layer.",
+        "address": "13651 I-40 Frontage Rd, Amarillo, TX 79124",
+        "locality": "Amarillo"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-66-midpoint",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.6729,
+          35.2707
+        ]
+      },
+      "properties": {
+        "name": "Route 66 Midpoint",
+        "category": "attraction",
+        "section": "day-5",
+        "position": 35,
+        "notes": "A sign in tiny Adrian marks the halfway point: 1,139 miles to Chicago and 1,139 to Los Angeles.",
+        "address": "305 W Historic Route 66, Adrian, TX 79001",
+        "locality": "Adrian",
+        "match": {
+          "query": "Route 66 Midpoint Sign"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "blue-swallow-motel",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.7164,
+          35.172
+        ]
+      },
+      "properties": {
+        "name": "Blue Swallow Motel",
+        "category": "hotel",
+        "section": "day-5",
+        "position": 36,
+        "notes": "A 1939 motor court with a garage beside each room and one of the best neon signs on the road. Book ahead in summer.",
+        "address": "815 E Route 66 Blvd, Tucumcari, NM 88401",
+        "locality": "Tucumcari"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "motel-safari",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.7178,
+          35.1714
+        ]
+      },
+      "properties": {
+        "name": "Motel Safari",
+        "category": "hotel",
+        "section": "day-5",
+        "position": 37,
+        "notes": "A 1959 motel restored with clean mid-century rooms and a camel on the sign. A good second choice if the Blue Swallow is full.",
+        "address": "722 E Route 66 Blvd, Tucumcari, NM 88401",
+        "locality": "Tucumcari"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "tee-pee-curios",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.7148,
+          35.1716
+        ]
+      },
+      "properties": {
+        "name": "Tee Pee Curios",
+        "category": "attraction",
+        "section": "day-5",
+        "position": 38,
+        "notes": "A 1940s gift shop with a concrete tepee entrance and a neon sign that lights the street at night.",
+        "address": "924 E Route 66 Blvd, Tucumcari, NM 88401",
+        "locality": "Tucumcari"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dels-restaurant",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.7119,
+          35.1715
+        ]
+      },
+      "properties": {
+        "name": "Del's Restaurant",
+        "category": "restaurant",
+        "section": "day-5",
+        "position": 39,
+        "notes": "A family restaurant under a neon cow sign, serving New Mexican plates with red or green chile since 1956.",
+        "address": "1202 E Route 66 Blvd, Tucumcari, NM 88401",
+        "locality": "Tucumcari"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "blue-hole-santa-rosa",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.6733,
+          34.9405
+        ]
+      },
+      "properties": {
+        "name": "Blue Hole",
+        "category": "park",
+        "section": "day-6",
+        "position": 40,
+        "notes": "A clear, cold artesian spring about 80 feet deep, popular with scuba divers and for a bracing swim on a hot day.",
+        "address": "1085 Blue Hole Rd, Santa Rosa, NM 88435",
+        "locality": "Santa Rosa"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-66-auto-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.6545,
+          34.9462
+        ]
+      },
+      "properties": {
+        "name": "Route 66 Auto Museum",
+        "category": "museum",
+        "section": "day-6",
+        "position": 41,
+        "notes": "Rows of hot rods, classic cars and road signs in a big shed on the east side of town.",
+        "address": "2436 Historic Route 66, Santa Rosa, NM 88435",
+        "locality": "Santa Rosa"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "66-diner-albuquerque",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.6307,
+          35.0822
+        ]
+      },
+      "properties": {
+        "name": "66 Diner",
+        "category": "restaurant",
+        "section": "day-6",
+        "position": 42,
+        "notes": "A 1950s-style diner on Central Avenue, Albuquerque's long stretch of 66, with burgers, green chile and thick shakes.",
+        "address": "1405 Central Ave NE, Albuquerque, NM 87106",
+        "locality": "Albuquerque"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kimo-theatre",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.6526,
+          35.0848
+        ]
+      },
+      "properties": {
+        "name": "KiMo Theatre",
+        "category": "theater",
+        "section": "day-6",
+        "position": 43,
+        "notes": "A 1927 theater in the Pueblo Deco style, with painted ceilings and steer-skull light fixtures. The city runs shows and occasional tours.",
+        "address": "423 Central Ave NW, Albuquerque, NM 87102",
+        "locality": "Albuquerque"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "richardsons-trading-post",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.7442,
+          35.5278
+        ]
+      },
+      "properties": {
+        "name": "Richardson's Trading Company",
+        "category": "attraction",
+        "section": "day-6",
+        "position": 44,
+        "notes": "A trading post in business since 1913, with rooms full of Navajo rugs, Zuni jewelry and pawn.",
+        "address": "222 W Historic Hwy 66, Gallup, NM 87301",
+        "locality": "Gallup"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "el-rancho-hotel",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.7281,
+          35.5296
+        ]
+      },
+      "properties": {
+        "name": "El Rancho Hotel",
+        "category": "hotel",
+        "section": "day-6",
+        "position": 45,
+        "notes": "A 1937 hotel built for movie crews shooting westerns nearby. Rooms are named for the stars who stayed, and signed photos line the lobby balcony.",
+        "address": "1000 E Hwy 66, Gallup, NM 87301",
+        "locality": "Gallup"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "petrified-forest-national-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.7809,
+          35.0658
+        ]
+      },
+      "properties": {
+        "name": "Petrified Forest National Park",
+        "category": "national-park",
+        "section": "day-7",
+        "position": 46,
+        "notes": "The only national park that Route 66 crossed; an old Studebaker marks the alignment. Drive the park road from the Painted Desert to the log fields and exit to Holbrook.",
+        "address": "1 Park Rd, Petrified Forest National Park, AZ 86028",
+        "locality": "Petrified Forest"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "wigwam-motel-holbrook",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.1688,
+          34.9026
+        ]
+      },
+      "properties": {
+        "name": "Wigwam Motel",
+        "category": "hotel",
+        "section": "day-7",
+        "position": 47,
+        "notes": "Fifteen concrete tepees from 1950, each with a vintage car parked out front. Book directly with the motel.",
+        "address": "811 W Hopi Dr, Holbrook, AZ 86025",
+        "locality": "Holbrook"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "standin-on-the-corner-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.6983,
+          35.0237
+        ]
+      },
+      "properties": {
+        "name": "Standin' on the Corner Park",
+        "category": "park",
+        "section": "day-7",
+        "position": 48,
+        "notes": "A street corner in Winslow made famous by the Eagles song, with a statue and a mural of a flatbed Ford.",
+        "address": "100 E 2nd St, Winslow, AZ 86047",
+        "locality": "Winslow"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "la-posada-hotel",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.6952,
+          35.0217
+        ]
+      },
+      "properties": {
+        "name": "La Posada Hotel",
+        "category": "hotel",
+        "section": "day-7",
+        "position": 49,
+        "notes": "Mary Colter's 1930 railroad hotel, rescued and restored with gardens and art-filled halls. Trains still roll past the back door.",
+        "address": "303 E 2nd St, Winslow, AZ 86047",
+        "locality": "Winslow"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "turquoise-room",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.6947,
+          35.0215
+        ]
+      },
+      "properties": {
+        "name": "The Turquoise Room",
+        "category": "restaurant",
+        "section": "day-7",
+        "position": 50,
+        "notes": "The dining room at La Posada, cooking Southwestern food with local lamb and heirloom corn.",
+        "address": "305 E 2nd St, Winslow, AZ 86047",
+        "locality": "Winslow",
+        "match": {
+          "query": "The Turquoise Room at La Posada"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "meteor-crater",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.0225,
+          35.031
+        ]
+      },
+      "properties": {
+        "name": "Meteor Crater",
+        "category": "attraction",
+        "section": "day-7",
+        "position": 51,
+        "notes": "A crater almost a mile wide left by an impact about 50,000 years ago. A visitor center and observation decks sit on the rim, six miles south of the interstate.",
+        "address": "Interstate 40, Exit 233, Winslow, AZ 86047",
+        "locality": "Winslow"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lowell-observatory",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6653,
+          35.2017
+        ]
+      },
+      "properties": {
+        "name": "Lowell Observatory",
+        "category": "museum",
+        "section": "day-7",
+        "position": 52,
+        "notes": "The observatory on Mars Hill where Pluto was found in 1930. Come at night for telescope viewing under Flagstaff's dark skies.",
+        "address": "1400 W Mars Hill Rd, Flagstaff, AZ 86001",
+        "locality": "Flagstaff"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel-monte-vista",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6474,
+          35.1983
+        ]
+      },
+      "properties": {
+        "name": "Hotel Monte Vista",
+        "category": "hotel",
+        "section": "day-7",
+        "position": 53,
+        "notes": "A 1927 downtown hotel with a long list of movie-star guests and ghost stories. A block from the old 66 and the railroad.",
+        "address": "100 N San Francisco St, Flagstaff, AZ 86001",
+        "locality": "Flagstaff"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "grand-canyon-railway-depot",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.1911,
+          35.2513
+        ]
+      },
+      "properties": {
+        "name": "Grand Canyon Railway Depot",
+        "category": "attraction",
+        "section": "day-8",
+        "position": 54,
+        "notes": "The 1908 depot where trains leave for the South Rim. Williams was the last Route 66 town bypassed by the interstate, and its main street still has the neon.",
+        "address": "233 N Grand Canyon Blvd, Williams, AZ 86046",
+        "locality": "Williams",
+        "match": {
+          "query": "Grand Canyon Railway Williams Depot"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "delgadillos-snow-cap",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.879,
+          35.3256
+        ]
+      },
+      "properties": {
+        "name": "Delgadillo's Snow Cap",
+        "category": "restaurant",
+        "section": "day-8",
+        "position": 55,
+        "notes": "A burger stand opened in 1953 by Juan Delgadillo, known for its pranks: fake mustard bottles and a menu of jokes. The family still runs it.",
+        "address": "301 E Chino Ave, Seligman, AZ 86337",
+        "locality": "Seligman"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "angel-vilma-delgadillos-gift-shop",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.8754,
+          35.3258
+        ]
+      },
+      "properties": {
+        "name": "Angel & Vilma Delgadillo's Original Route 66 Gift Shop",
+        "category": "attraction",
+        "section": "day-8",
+        "position": 56,
+        "notes": "The former barbershop of Angel Delgadillo, who led the campaign to have the old road named a historic highway. Busy with souvenirs and stories.",
+        "address": "22265 W Historic Route 66, Seligman, AZ 86337",
+        "locality": "Seligman"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hackberry-general-store",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.7227,
+          35.3749
+        ]
+      },
+      "properties": {
+        "name": "Hackberry General Store",
+        "category": "attraction",
+        "section": "day-8",
+        "position": 57,
+        "notes": "A roadside store stacked with old gas pumps, signs and a red Corvette, on the long empty stretch between Peach Springs and Kingman.",
+        "address": "11255 E Hwy 66, Hackberry, AZ 86411",
+        "locality": "Hackberry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "arizona-route-66-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.059,
+          35.1891
+        ]
+      },
+      "properties": {
+        "name": "Arizona Route 66 Museum",
+        "category": "museum",
+        "section": "day-8",
+        "position": 58,
+        "notes": "A museum inside the 1907 Kingman powerhouse, covering the road from wagon trails to the motel era. The visitor center is in the same building.",
+        "address": "120 W Andy Devine Ave, Kingman, AZ 86401",
+        "locality": "Kingman"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mr-dz-route-66-diner",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0573,
+          35.1893
+        ]
+      },
+      "properties": {
+        "name": "Mr. D'z Route 66 Diner",
+        "category": "restaurant",
+        "section": "day-8",
+        "position": 59,
+        "notes": "A turquoise and pink diner across from the powerhouse, serving burgers, root beer and breakfast.",
+        "address": "105 E Andy Devine Ave, Kingman, AZ 86401",
+        "locality": "Kingman"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "oatman-hotel",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.3834,
+          35.0264
+        ]
+      },
+      "properties": {
+        "name": "Oatman Hotel",
+        "category": "restaurant",
+        "section": "day-8",
+        "position": 60,
+        "notes": "A 1902 adobe in an old gold-mining town where wild burros wander the street. The bar walls are papered with signed dollar bills. Expect sharp switchbacks over Sitgreaves Pass to get here.",
+        "address": "181 Main St, Oatman, AZ 86433",
+        "locality": "Oatman"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "roys-motel-and-cafe",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.7436,
+          34.5588
+        ]
+      },
+      "properties": {
+        "name": "Roy's Motel and Café",
+        "category": "attraction",
+        "section": "day-8",
+        "position": 61,
+        "notes": "A 1959 boomerang sign in the Mojave, at a stop with a small store and gas. Parts of National Trails Highway close for repairs; check San Bernardino County road status.",
+        "address": "87520 National Trails Hwy, Amboy, CA 92304",
+        "locality": "Amboy"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "elmers-bottle-tree-ranch",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3396,
+          34.6903
+        ]
+      },
+      "properties": {
+        "name": "Elmer's Bottle Tree Ranch",
+        "category": "attraction",
+        "section": "day-9",
+        "position": 62,
+        "notes": "A field of welded metal trees hung with colored glass bottles, built by Elmer Long. Free to wander; stay on the paths.",
+        "address": "24266 National Trails Hwy, Oro Grande, CA 92368",
+        "locality": "Oro Grande"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "california-route-66-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2944,
+          34.5371
+        ]
+      },
+      "properties": {
+        "name": "California Route 66 Museum",
+        "category": "museum",
+        "section": "day-9",
+        "position": 63,
+        "notes": "A small volunteer-run museum on old 66 in Victorville with a VW hippie van, signs and road memorabilia.",
+        "address": "16825 D St, Victorville, CA 92395",
+        "locality": "Victorville"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "wigwam-motel-san-bernardino",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.35,
+          34.1072
+        ]
+      },
+      "properties": {
+        "name": "Wigwam Motel",
+        "category": "hotel",
+        "section": "day-9",
+        "position": 64,
+        "notes": "The 1949 California sibling of the Holbrook motel: concrete tepees around a pool on Foothill Boulevard, the old 66.",
+        "address": "2728 W Foothill Blvd, San Bernardino, CA 92410",
+        "locality": "Rialto"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fair-oaks-pharmacy",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1505,
+          34.116
+        ]
+      },
+      "properties": {
+        "name": "Fair Oaks Pharmacy",
+        "category": "cafe",
+        "section": "day-9",
+        "position": 65,
+        "notes": "A 1915 drugstore with a restored soda fountain on the old route through South Pasadena. Phosphates, malts and egg creams at the counter.",
+        "address": "1526 Mission St, South Pasadena, CA 91030",
+        "locality": "South Pasadena"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "barneys-beanery",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3747,
+          34.0908
+        ]
+      },
+      "properties": {
+        "name": "Barney's Beanery",
+        "category": "bar",
+        "section": "day-9",
+        "position": 66,
+        "notes": "A roadhouse on Santa Monica Boulevard, the last leg of Route 66, at this spot since 1927. Chili, pool tables and license plates on the ceiling.",
+        "address": "8447 Santa Monica Blvd, West Hollywood, CA 90069",
+        "locality": "West Hollywood"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "santa-monica-pier-end-of-trail",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4974,
+          34.0089
+        ]
+      },
+      "properties": {
+        "name": "Santa Monica Pier",
+        "category": "attraction",
+        "section": "day-9",
+        "position": 67,
+        "notes": "The end of the road. The Route 66 End of the Trail sign stands on the pier, past the carousel; walk out for the ocean and the Ferris wheel.",
+        "address": "200 Santa Monica Pier, Santa Monica, CA 90401",
+        "locality": "Santa Monica"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-day-1",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Day 1 · Chicago to Springfield, Illinois · 200 mi",
+        "mode": "drive",
+        "section": "day-1",
+        "stops": [
+          "begin-route-66-sign",
+          "lou-mitchells",
+          "dell-rheas-chicken-basket",
+          "launching-pad-gemini-giant",
+          "polk-a-dot-drive-in",
+          "illinois-route-66-hall-of-fame-museum",
+          "funks-grove-pure-maple-sirup",
+          "cozy-dog-drive-in",
+          "lincoln-home-national-historic-site"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-day-2",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Day 2 · Springfield, Illinois to Cuba, Missouri · 180 mi",
+        "mode": "drive",
+        "section": "day-2",
+        "stops": [
+          "ariston-cafe",
+          "old-chain-of-rocks-bridge",
+          "gateway-arch-national-park",
+          "ted-drewes-frozen-custard",
+          "meramec-caverns",
+          "wagon-wheel-motel",
+          "missouri-hick-bar-b-que"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-day-3",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Day 3 · Cuba, Missouri to Tulsa, Oklahoma · 290 mi",
+        "mode": "drive",
+        "section": "day-3",
+        "stops": [
+          "devils-elbow-bridge",
+          "66-drive-in-theatre",
+          "cars-on-the-route",
+          "rainbow-bridge-riverton",
+          "coleman-theatre",
+          "blue-whale-of-catoosa",
+          "cyrus-avery-centennial-plaza",
+          "campbell-hotel",
+          "tallys-good-food-cafe"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-day-4",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Day 4 · Tulsa to Elk City, Oklahoma · 210 mi",
+        "mode": "drive",
+        "section": "day-4",
+        "stops": [
+          "rock-cafe-stroud",
+          "arcadia-round-barn",
+          "pops-66",
+          "lucilles-service-station",
+          "oklahoma-route-66-museum",
+          "national-route-66-transportation-museum"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-day-5",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Day 5 · Elk City to Tucumcari, New Mexico · 260 mi",
+        "mode": "drive",
+        "section": "day-5",
+        "stops": [
+          "u-drop-inn",
+          "big-texan-steak-ranch",
+          "cadillac-ranch",
+          "route-66-midpoint",
+          "blue-swallow-motel",
+          "motel-safari",
+          "tee-pee-curios",
+          "dels-restaurant"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-day-6",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Day 6 · Tucumcari to Gallup, New Mexico · 310 mi",
+        "mode": "drive",
+        "section": "day-6",
+        "stops": [
+          "blue-hole-santa-rosa",
+          "route-66-auto-museum",
+          "66-diner-albuquerque",
+          "kimo-theatre",
+          "richardsons-trading-post",
+          "el-rancho-hotel"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-day-7",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Day 7 · Gallup to Flagstaff, Arizona · 190 mi",
+        "mode": "drive",
+        "section": "day-7",
+        "stops": [
+          "petrified-forest-national-park",
+          "wigwam-motel-holbrook",
+          "standin-on-the-corner-park",
+          "la-posada-hotel",
+          "turquoise-room",
+          "meteor-crater",
+          "lowell-observatory",
+          "hotel-monte-vista"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-day-8",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Day 8 · Flagstaff to Barstow, California · 390 mi",
+        "mode": "drive",
+        "section": "day-8",
+        "stops": [
+          "grand-canyon-railway-depot",
+          "delgadillos-snow-cap",
+          "angel-vilma-delgadillos-gift-shop",
+          "hackberry-general-store",
+          "arizona-route-66-museum",
+          "mr-dz-route-66-diner",
+          "oatman-hotel",
+          "roys-motel-and-cafe"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-day-9",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Day 9 · Barstow to Santa Monica · 140 mi",
+        "mode": "drive",
+        "section": "day-9",
+        "stops": [
+          "elmers-bottle-tree-ranch",
+          "california-route-66-museum",
+          "wigwam-motel-san-bernardino",
+          "fair-oaks-pharmacy",
+          "barneys-beanery",
+          "santa-monica-pier-end-of-trail"
+        ]
+      }
+    }
+  ]
+}

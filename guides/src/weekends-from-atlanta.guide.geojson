@@ -1,0 +1,751 @@
+{
+  "type": "FeatureCollection",
+  "placemoirGuide": "0.1",
+  "guide": {
+    "id": "weekends-from-atlanta",
+    "status": "draft",
+    "kind": "weekend",
+    "name": "Atlanta Weekends from Dahlonega to Savannah",
+    "description": "Six weekend trips from Atlanta, from the North Georgia mountains and Athens to Chattanooga, Highlands and Savannah, each with a place to stay, two places to eat and a few things to do.",
+    "author": {
+      "name": "friends of Placemoir"
+    },
+    "inLanguage": "en",
+    "dateModified": "2026-11-14",
+    "region": "Georgia, Tennessee and North Carolina",
+    "countries": [
+      "US"
+    ],
+    "sections": [
+      {
+        "id": "dahlonega-georgia",
+        "name": "Dahlonega, Georgia · 1 hr 15 min"
+      },
+      {
+        "id": "athens-georgia",
+        "name": "Athens, Georgia · 1 hr 30 min"
+      },
+      {
+        "id": "blue-ridge-georgia",
+        "name": "Blue Ridge, Georgia · 1 hr 45 min"
+      },
+      {
+        "id": "chattanooga-tennessee",
+        "name": "Chattanooga, Tennessee · 2 hr"
+      },
+      {
+        "id": "highlands-north-carolina",
+        "name": "Highlands, North Carolina · 2 hr 45 min"
+      },
+      {
+        "id": "savannah-georgia",
+        "name": "Savannah, Georgia · 3 hr 45 min"
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "hall-house-hotel",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9853,
+          34.5329
+        ]
+      },
+      "properties": {
+        "name": "Hall House Hotel",
+        "category": "hotel",
+        "section": "dahlonega-georgia",
+        "notes": "A small hotel in an 1880s building right on the town square, so everything in Dahlonega is a short walk. Rooms are upstairs over the shops and restaurants.",
+        "address": "90 Public Square North, Dahlonega, GA 30533",
+        "locality": "Dahlonega"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "amicalola-falls-lodge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2427,
+          34.5654
+        ]
+      },
+      "properties": {
+        "name": "Amicalola Falls Lodge",
+        "category": "lodge",
+        "section": "dahlonega-georgia",
+        "notes": "The state park lodge sits on the mountain above the falls, about half an hour west of Dahlonega. Walk out the door to the trails and the long view toward Atlanta.",
+        "address": "418 Amicalola Falls Lodge Road, Dawsonville, GA 30534",
+        "locality": "Dawsonville"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "back-porch-oyster-bar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.986,
+          34.533
+        ]
+      },
+      "properties": {
+        "name": "Back Porch Oyster Bar",
+        "category": "restaurant",
+        "section": "dahlonega-georgia",
+        "notes": "Oysters, shrimp and seafood pastas a few steps off the square. Ask for the porch when the weather is good.",
+        "address": "19 N Chestatee St, Dahlonega, GA 30533",
+        "locality": "Dahlonega"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "montaluce-winery",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0682,
+          34.5629
+        ]
+      },
+      "properties": {
+        "name": "Montaluce Winery & Restaurant",
+        "category": "winery",
+        "section": "dahlonega-georgia",
+        "notes": "A Tuscan-style winery a few miles outside town with a tasting room and a restaurant overlooking the vines. Book ahead for weekend brunch or dinner.",
+        "address": "501 Hightower Church Road, Dahlonega, GA 30533",
+        "locality": "Dahlonega"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dahlonega-gold-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9849,
+          34.5326
+        ]
+      },
+      "properties": {
+        "name": "Dahlonega Gold Museum State Historic Site",
+        "category": "museum",
+        "section": "dahlonega-georgia",
+        "notes": "The 1836 courthouse in the middle of the square tells the story of the 1829 gold rush and the branch mint that once struck coins in town.",
+        "address": "1 Public Square North, Dahlonega, GA 30533",
+        "locality": "Dahlonega"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "amicalola-falls",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2443,
+          34.5674
+        ]
+      },
+      "properties": {
+        "name": "Amicalola Falls State Park",
+        "category": "state-park",
+        "section": "dahlonega-georgia",
+        "notes": "One of the tallest waterfalls in the Southeast, with a staircase climb beside it and an approach trail to the start of the Appalachian Trail. Parking fees apply; check the official site.",
+        "address": "418 Amicalola Falls Lodge Road, Dawsonville, GA 30534",
+        "locality": "Dawsonville"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rivet-house",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3916,
+          33.971
+        ]
+      },
+      "properties": {
+        "name": "Rivet House",
+        "category": "hotel",
+        "section": "athens-georgia",
+        "notes": "A boutique hotel in a converted factory building at the old Southern Mill complex, northwest of downtown, with an Italian restaurant and a small spa on site. Downtown is a short drive or ride-share away.",
+        "address": "355 Oneta St, Athens, GA 30601",
+        "locality": "Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "five-and-ten",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3875,
+          33.9413
+        ]
+      },
+      "properties": {
+        "name": "Five & Ten",
+        "category": "restaurant",
+        "section": "athens-georgia",
+        "notes": "A long-running Athens dinner spot in a house on Milledge Avenue, cooking Southern food with local farm produce. Save it for a Saturday night and reserve ahead.",
+        "address": "1073 S Milledge Ave, Athens, GA 30605",
+        "locality": "Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-national",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3796,
+          33.9595
+        ]
+      },
+      "properties": {
+        "name": "The National",
+        "category": "restaurant",
+        "section": "athens-georgia",
+        "notes": "A downtown neighborhood restaurant with Mediterranean-leaning plates, a good bar and a patio. Easy for lunch between walks around campus.",
+        "address": "232 W Hancock Ave, Athens, GA 30601",
+        "locality": "Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "state-botanical-garden-of-georgia",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.384,
+          33.9013
+        ]
+      },
+      "properties": {
+        "name": "State Botanical Garden of Georgia",
+        "category": "garden",
+        "section": "athens-georgia",
+        "notes": "The university's garden south of town, with a glass conservatory, themed gardens and miles of wooded trails along the Middle Oconee River.",
+        "address": "2450 S Milledge Ave, Athens, GA 30605",
+        "locality": "Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "georgia-museum-of-art",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3698,
+          33.9412
+        ]
+      },
+      "properties": {
+        "name": "Georgia Museum of Art",
+        "category": "museum",
+        "section": "athens-georgia",
+        "notes": "The official state art museum, on the university's east campus, with a strong collection of American paintings and decorative arts from the South.",
+        "address": "90 Carlton St, Athens, GA 30602",
+        "locality": "Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "blue-ridge-inn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3262,
+          34.8658
+        ]
+      },
+      "properties": {
+        "name": "Blue Ridge Inn Bed & Breakfast",
+        "category": "inn",
+        "section": "blue-ridge-georgia",
+        "notes": "An 1890 Victorian house a block from downtown, with a wraparound porch and a cooked breakfast. A good alternative to renting a cabin up a mountain road.",
+        "address": "477 W First St, Blue Ridge, GA 30513",
+        "locality": "Blue Ridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "harvest-on-main",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3231,
+          34.867
+        ]
+      },
+      "properties": {
+        "name": "Harvest on Main",
+        "category": "restaurant",
+        "section": "blue-ridge-georgia",
+        "notes": "A Main Street dinner and lunch spot built around local sourcing: grass-fed beef from nearby farms, seasonal vegetables and North Georgia trout, with a long wine list.",
+        "address": "576 E Main St, Blue Ridge, GA 30513",
+        "locality": "Blue Ridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "black-sheep-blue-ridge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3278,
+          34.863
+        ]
+      },
+      "properties": {
+        "name": "Black Sheep Restaurant",
+        "category": "restaurant",
+        "section": "blue-ridge-georgia",
+        "notes": "Dinner and weekend brunch in an old house with a big covered patio and outdoor bar under the oaks.",
+        "address": "480 W Main St, Blue Ridge, GA 30513",
+        "locality": "Blue Ridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "blue-ridge-scenic-railway",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3249,
+          34.8654
+        ]
+      },
+      "properties": {
+        "name": "Blue Ridge Scenic Railway",
+        "category": "attraction",
+        "section": "blue-ridge-georgia",
+        "notes": "A train from the downtown depot along the Toccoa River to McCaysville, where you can step across the Tennessee line before riding back. Book ahead for fall color weekends.",
+        "address": "241 Depot St, Blue Ridge, GA 30513",
+        "locality": "Blue Ridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mercier-orchards",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3389,
+          34.8864
+        ]
+      },
+      "properties": {
+        "name": "Mercier Orchards",
+        "category": "attraction",
+        "section": "blue-ridge-georgia",
+        "notes": "A family orchard north of town with a big market, a bakery known for fried pies, hard cider and pick-your-own seasons for berries and apples.",
+        "address": "8660 Blue Ridge Dr, Blue Ridge, GA 30513",
+        "locality": "Blue Ridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toccoa-river-swinging-bridge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1671,
+          34.7368
+        ]
+      },
+      "properties": {
+        "name": "Toccoa River Swinging Bridge",
+        "category": "park",
+        "section": "blue-ridge-georgia",
+        "notes": "A long suspension footbridge over the Toccoa on the Benton MacKaye Trail, a short walk from a gravel forest road lot. The road is rough, so higher clearance helps.",
+        "address": "Forest Service Road 816, off Aska Road, Blue Ridge, GA 30513",
+        "locality": "Chattahoochee National Forest"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-read-house",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3115,
+          35.0458
+        ]
+      },
+      "properties": {
+        "name": "The Read House",
+        "category": "hotel",
+        "section": "chattanooga-tennessee",
+        "notes": "Chattanooga's grand 1920s hotel downtown, restored with a dark-wood lobby bar and a steakhouse. Walkable to the Southside and a short ride to the river.",
+        "address": "107 W M L King Blvd, Chattanooga, TN 37402",
+        "locality": "Chattanooga"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-dwell-hotel",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3083,
+          35.0444
+        ]
+      },
+      "properties": {
+        "name": "The Dwell Hotel",
+        "category": "hotel",
+        "section": "chattanooga-tennessee",
+        "notes": "A small hotel in an early 1900s building downtown, with each room decorated differently and a bright solarium cafe downstairs.",
+        "address": "120 E 10th St, Chattanooga, TN 37402",
+        "locality": "Chattanooga"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "main-street-meats",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3051,
+          35.0354
+        ]
+      },
+      "properties": {
+        "name": "Main Street Meats",
+        "category": "restaurant",
+        "section": "chattanooga-tennessee",
+        "notes": "A Southside butcher shop with a restaurant attached, known for its burger, house charcuterie and steaks cut in-house.",
+        "address": "217 E Main St, Chattanooga, TN 37408",
+        "locality": "Southside"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "st-johns-restaurant",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3117,
+          35.0479
+        ]
+      },
+      "properties": {
+        "name": "St. John's Restaurant",
+        "category": "restaurant",
+        "section": "chattanooga-tennessee",
+        "notes": "Chattanooga's longtime special-occasion dinner, cooking regional American food with local ingredients. It has moved downtown to Chestnut Street, so ignore older listings on Market Street.",
+        "address": "729 Chestnut St, Chattanooga, TN 37402",
+        "locality": "Chattanooga"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "tennessee-aquarium",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.311,
+          35.0559
+        ]
+      },
+      "properties": {
+        "name": "Tennessee Aquarium",
+        "category": "attraction",
+        "section": "chattanooga-tennessee",
+        "notes": "Two buildings on the riverfront: one follows a raindrop from the Appalachian headwaters down the Tennessee River, the other covers the oceans. Give it half a day.",
+        "address": "1 Broad St, Chattanooga, TN 37402",
+        "locality": "Chattanooga"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "walnut-street-bridge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3073,
+          35.0585
+        ]
+      },
+      "properties": {
+        "name": "Walnut Street Bridge",
+        "category": "attraction",
+        "section": "chattanooga-tennessee",
+        "notes": "An 1890s truss bridge now open only to people on foot and bikes, linking downtown with the North Shore's shops and Coolidge Park. Best at sunset.",
+        "address": "Walnut St & Riverfront Pkwy, Chattanooga, TN 37402",
+        "locality": "Chattanooga"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rock-city",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3507,
+          34.9739
+        ]
+      },
+      "properties": {
+        "name": "Rock City Gardens",
+        "category": "attraction",
+        "section": "chattanooga-tennessee",
+        "notes": "The old roadside attraction on top of Lookout Mountain, just over the Georgia line: a path through sandstone formations, a swinging bridge and Lover's Leap with its view across several states.",
+        "address": "1400 Patten Rd, Lookout Mountain, GA 30750",
+        "locality": "Lookout Mountain"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "old-edwards-inn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1968,
+          35.0524
+        ]
+      },
+      "properties": {
+        "name": "Old Edwards Inn and Spa",
+        "category": "inn",
+        "section": "highlands-north-carolina",
+        "notes": "The splurge stay in Highlands, a restored 1870s inn on Main Street with a full spa and rooms spread across several buildings in town.",
+        "address": "445 Main St, Highlands, NC 28741",
+        "locality": "Highlands"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "highlander-mountain-house",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1996,
+          35.0536
+        ]
+      },
+      "properties": {
+        "name": "Highlander Mountain House",
+        "category": "hotel",
+        "section": "highlands-north-carolina",
+        "notes": "A relaxed, more affordable stay on Main Street styled like an English country house, with fires in the common rooms, a pet-friendly bunkhouse out back and a tavern for dinner.",
+        "address": "270 Main St, Highlands, NC 28741",
+        "locality": "Highlands"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "madisons-restaurant",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1969,
+          35.0522
+        ]
+      },
+      "properties": {
+        "name": "Madison's Restaurant",
+        "category": "restaurant",
+        "section": "highlands-north-carolina",
+        "notes": "The dining room off the Old Edwards lobby, cooking with produce from the inn's own farm. Worth a dinner even if you stay elsewhere; reserve ahead.",
+        "address": "445 Main St, Highlands, NC 28741",
+        "locality": "Highlands"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mountain-fresh-grocery",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1953,
+          35.0516
+        ]
+      },
+      "properties": {
+        "name": "Mountain Fresh Grocery",
+        "category": "cafe",
+        "section": "highlands-north-carolina",
+        "notes": "A grocery, deli, bakery and coffee bar where you can grab breakfast or build a trail lunch before heading out to the overlooks.",
+        "address": "521 E Main St, Highlands, NC 28741",
+        "locality": "Highlands"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "whiteside-mountain",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1441,
+          35.0805
+        ]
+      },
+      "properties": {
+        "name": "Whiteside Mountain Trail",
+        "category": "park",
+        "section": "highlands-north-carolina",
+        "notes": "A two-mile loop to the top of sheer granite cliffs, with long views over the Chattooga valley. There is a small parking fee at the trailhead.",
+        "address": "Whiteside Mountain Rd, Highlands, NC 28741",
+        "locality": "Nantahala National Forest"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dry-falls",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.239,
+          35.0686
+        ]
+      },
+      "properties": {
+        "name": "Dry Falls",
+        "category": "waterfall",
+        "section": "highlands-north-carolina",
+        "notes": "A short paved path and stairs lead behind a waterfall in the Cullasaja Gorge, so you can stand under the overhang and stay mostly dry. Check the Forest Service site for closures.",
+        "address": "US Highway 64, Highlands, NC 28741",
+        "locality": "Cullasaja Gorge"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "marshall-house",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0906,
+          32.0786
+        ]
+      },
+      "properties": {
+        "name": "The Marshall House",
+        "category": "hotel",
+        "section": "savannah-georgia",
+        "notes": "An 1850s hotel on Broughton Street with iron balconies, a central location between the river and the squares, and plenty of ghost stories.",
+        "address": "123 E Broughton St, Savannah, GA 31401",
+        "locality": "Savannah"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "thunderbird-inn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0995,
+          32.0788
+        ]
+      },
+      "properties": {
+        "name": "The Thunderbird Inn",
+        "category": "inn",
+        "section": "savannah-georgia",
+        "notes": "A 1960s motor inn redone in retro colors at the west edge of the historic district. The budget pick, with parking and an easy walk to City Market.",
+        "address": "611 W Oglethorpe Ave, Savannah, GA 31401",
+        "locality": "Savannah"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mrs-wilkes-dining-room",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0956,
+          32.0727
+        ]
+      },
+      "properties": {
+        "name": "Mrs. Wilkes' Dining Room",
+        "category": "restaurant",
+        "section": "savannah-georgia",
+        "notes": "Weekday lunch served family-style at shared tables, bowls of fried chicken and Southern sides passed around with strangers. Expect a line, bring cash, and note the winter break.",
+        "address": "107 W Jones St, Savannah, GA 31401",
+        "locality": "Savannah"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-grey",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0975,
+          32.0798
+        ]
+      },
+      "properties": {
+        "name": "The Grey",
+        "category": "restaurant",
+        "section": "savannah-georgia",
+        "notes": "A restored 1938 Greyhound bus station where the kitchen cooks Southern food through a Savannah port-city lens. Reserve well ahead for dinner.",
+        "address": "109 Martin Luther King Jr Blvd, Savannah, GA 31401",
+        "locality": "Savannah"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "forsyth-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0966,
+          32.0667
+        ]
+      },
+      "properties": {
+        "name": "Forsyth Park",
+        "category": "park",
+        "section": "savannah-georgia",
+        "notes": "The big green at the south end of the historic district, with its fountain, live oaks and a Saturday farmers market. Walk up through the squares to get there.",
+        "address": "Gaston St & Whitaker St, Savannah, GA 31401",
+        "locality": "Savannah"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bonaventure-cemetery",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0468,
+          32.0443
+        ]
+      },
+      "properties": {
+        "name": "Bonaventure Cemetery",
+        "category": "attraction",
+        "section": "savannah-georgia",
+        "notes": "A Victorian cemetery on a bluff over the Wilmington River, with moss-draped oaks and carved monuments. Pick up a map at the gate and go early in the day.",
+        "address": "330 Bonaventure Rd, Savannah, GA 31404",
+        "locality": "Savannah"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "wormsloe",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0705,
+          31.9822
+        ]
+      },
+      "properties": {
+        "name": "Wormsloe State Historic Site",
+        "category": "museum",
+        "section": "savannah-georgia",
+        "notes": "A long avenue of live oaks leads to the tabby ruins of an 18th-century colonial estate, with marsh trails and a small museum.",
+        "address": "7601 Skidaway Rd, Savannah, GA 31406",
+        "locality": "Isle of Hope"
+      }
+    }
+  ]
+}

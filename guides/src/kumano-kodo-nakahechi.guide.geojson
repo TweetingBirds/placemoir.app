@@ -1,0 +1,1025 @@
+{
+  "type": "FeatureCollection",
+  "placemoirGuide": "0.1",
+  "guide": {
+    "id": "kumano-kodo-nakahechi",
+    "status": "draft",
+    "kind": "route",
+    "name": "The Kumano Kodo Nakahechi from Takijiri-oji to Nachi Falls",
+    "description": "The classic pilgrim trail through the Kii mountains: three or four walking days from Takijiri-oji to Kumano Hongu Taisha, then hot spring villages, Shingu and the falls at Nachi, with an inn at each stop.",
+    "author": {
+      "name": "friends of Placemoir"
+    },
+    "inLanguage": "en",
+    "dateModified": "2026-11-14",
+    "region": "Wakayama",
+    "countries": [
+      "JP"
+    ],
+    "ordered": true,
+    "sections": [
+      {
+        "id": "tanabe",
+        "name": "Tanabe · Gateway town on the coast"
+      },
+      {
+        "id": "day-1",
+        "name": "Day 1 · Takijiri-oji to Takahara · about 4 km"
+      },
+      {
+        "id": "day-2",
+        "name": "Day 2 · Takahara to Chikatsuyu · about 10 km"
+      },
+      {
+        "id": "day-3",
+        "name": "Day 3 · Chikatsuyu to Kumano Hongu Taisha · about 25 km"
+      },
+      {
+        "id": "day-4",
+        "name": "Day 4 · Kumano Hongu Taisha and Oyunohara"
+      },
+      {
+        "id": "day-5",
+        "name": "Day 5 · Dainichi-goe to Yunomine and Kawayu onsen · about 3.5 km"
+      },
+      {
+        "id": "day-6",
+        "name": "Day 6 · Down the Kumano River to Shingu"
+      },
+      {
+        "id": "day-7",
+        "name": "Day 7 · Daimon-zaka to Nachi Falls and Katsuura"
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "tanabe-tourist-information-center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.3844,
+          33.7328
+        ]
+      },
+      "properties": {
+        "name": "Tanabe Tourist Information Center",
+        "category": "attraction",
+        "section": "tanabe",
+        "position": 1,
+        "notes": "Right beside Kii-Tanabe Station, where the buses to Takijiri leave. Pick up trail maps and timetables here. Village lodging and luggage transfer fill early in spring and fall, so book well ahead through the Tanabe City Kumano Tourism Bureau.",
+        "address": "Minato, Tanabe, Wakayama 646-0031",
+        "locality": "Tanabe"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "tokei-jinja",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.384,
+          33.7297
+        ]
+      },
+      "properties": {
+        "name": "Tokei-jinja Shrine",
+        "category": "attraction",
+        "section": "tanabe",
+        "position": 2,
+        "notes": "An old branch of Hongu where pilgrims once prayed before heading into the mountains, set in a grove a short walk from the station. A good first stop to get the feel of a Kumano shrine before the trail.",
+        "address": "1-1 Toyo, Tanabe, Wakayama 646-0029",
+        "locality": "Tanabe",
+        "match": {
+          "query": "Tokei Shrine"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "miyoshiya-ryokan",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.3857,
+          33.7307
+        ]
+      },
+      "properties": {
+        "name": "Miyoshiya Ryokan",
+        "category": "hotel",
+        "section": "tanabe",
+        "position": 3,
+        "notes": "A plain, friendly family ryokan a few minutes from Kii-Tanabe Station, set up for walkers catching the early bus to Takijiri. Tatami rooms, shared baths and the Ajikoji bar lanes close by for dinner.",
+        "address": "31-2 Minato, Tanabe, Wakayama 646-0031",
+        "locality": "Tanabe"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "tsuji-no-mochi",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.379,
+          33.7336
+        ]
+      },
+      "properties": {
+        "name": "Tsuji-no-Mochi",
+        "category": "cafe",
+        "section": "tanabe",
+        "position": 4,
+        "notes": "A long-running sweets shop known for soft mochi topped with a stripe of red bean paste. Pick up a few as trail snacks for the first day.",
+        "address": "1 Kitashinmachi, Tanabe, Wakayama 646-0041",
+        "locality": "Tanabe"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kumano-kodo-kan-pilgrimage-center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5037,
+          33.7748
+        ]
+      },
+      "properties": {
+        "name": "Kumano Kodo Kan Pilgrimage Center",
+        "category": "museum",
+        "section": "day-1",
+        "position": 5,
+        "notes": "The octagonal visitor center at the Takijiri bus stop, a few steps from the shrine. Look at the exhibits on the old pilgrimage, use the toilets and fill your water bottles before the steep climb.",
+        "address": "1222-1 Kurisugawa, Nakahechi-cho, Tanabe, Wakayama 646-1421",
+        "locality": "Takijiri",
+        "match": {
+          "query": "Kumano Kodokan"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "takijiri-oji",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5037,
+          33.7755
+        ]
+      },
+      "properties": {
+        "name": "Takijiri-oji",
+        "category": "attraction",
+        "section": "day-1",
+        "position": 6,
+        "notes": "The traditional entrance to the sacred mountains of Kumano, where two rivers meet. Stamp your pilgrim credential here, then start straight up the stone steps behind the shrine; the first hour is the steepest of the day.",
+        "address": "Kurisugawa, Nakahechi-cho, Tanabe, Wakayama 646-1421",
+        "locality": "Takijiri"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "takahara-kumano-jinja",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5293,
+          33.7943
+        ]
+      },
+      "properties": {
+        "name": "Takahara Kumano-jinja",
+        "category": "attraction",
+        "section": "day-1",
+        "position": 7,
+        "notes": "One of the oldest shrine buildings on the route, painted in faded colors and shaded by huge camphor trees. It sits right on the trail as you enter Takahara.",
+        "address": "1120 Takahara, Nakahechi-cho, Tanabe, Wakayama 646-1416",
+        "locality": "Takahara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kiri-no-sato-takahara-lodge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5322,
+          33.796
+        ]
+      },
+      "properties": {
+        "name": "Kiri-no-Sato Takahara Lodge",
+        "category": "lodge",
+        "section": "day-1",
+        "position": 8,
+        "notes": "A wooden ridge-top lodge with wide views over the Hatenashi range, where morning mist often fills the valley below. Meals lean on local produce; book early through the Tanabe City Kumano Tourism Bureau.",
+        "address": "826 Takahara, Nakahechi-cho, Tanabe, Wakayama 646-1416",
+        "locality": "Takahara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "jujo-oji",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5597,
+          33.8006
+        ]
+      },
+      "properties": {
+        "name": "Jujo-oji",
+        "category": "attraction",
+        "section": "day-2",
+        "position": 9,
+        "notes": "A rebuilt oji in the cedar forest roughly halfway through the day, with a rest hut and toilets nearby. There are no shops between Takahara and Chikatsuyu, so carry lunch and water.",
+        "address": "Kumano Kodo, Nakahechi-cho, Tanabe, Wakayama 646-1402",
+        "locality": "Nakahechi"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gyuba-doji-statue",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.6013,
+          33.811
+        ]
+      },
+      "properties": {
+        "name": "Gyuba-doji Statue",
+        "category": "attraction",
+        "section": "day-2",
+        "position": 10,
+        "notes": "A tiny stone figure riding a horse and an ox, said to recall the retired emperor Kazan on his pilgrimage. From here it is a short descent into Chikatsuyu.",
+        "address": "Kumano Kodo, Chikatsuyu, Nakahechi-cho, Tanabe, Wakayama 646-1402",
+        "locality": "Chikatsuyu",
+        "match": {
+          "query": "Gyubadoji"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "chikatsuyu-oji",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.6057,
+          33.8144
+        ]
+      },
+      "properties": {
+        "name": "Chikatsuyu-oji",
+        "category": "attraction",
+        "section": "day-2",
+        "position": 11,
+        "notes": "The oji where pilgrims purified themselves in the Hiki River before the walk to Hongu. It sits by the bridge in the middle of the village, near the bus stop.",
+        "address": "Chikatsuyu, Nakahechi-cho, Tanabe, Wakayama 646-1402",
+        "locality": "Chikatsuyu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "minshuku-chikatsuyu",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.6056,
+          33.817
+        ]
+      },
+      "properties": {
+        "name": "Minshuku Chikatsuyu",
+        "category": "hotel",
+        "section": "day-2",
+        "position": 12,
+        "notes": "A family-run riverside inn with its own hot spring bath next door and a dining room looking onto the water. Long a walker favorite, so it fills early in peak months.",
+        "address": "401-12 Chikatsuyu, Nakahechi-cho, Tanabe, Wakayama 646-1402",
+        "locality": "Chikatsuyu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "guesthouse-sora-chikatsuyu",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.6036,
+          33.8166
+        ]
+      },
+      "properties": {
+        "name": "Guesthouse SORA Chikatsuyu",
+        "category": "hotel",
+        "section": "day-2",
+        "position": 13,
+        "notes": "A homestay with three tatami rooms run by a retired couple, with shared bath and a home-cooked dinner. A quiet alternative to the larger inns.",
+        "address": "614 Chikatsuyu, Nakahechi-cho, Tanabe, Wakayama 646-1402",
+        "locality": "Chikatsuyu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cabelo-coffee",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.6063,
+          33.8146
+        ]
+      },
+      "properties": {
+        "name": "CABELO Coffee",
+        "category": "cafe",
+        "section": "day-2",
+        "position": 14,
+        "notes": "A tiny roaster in the center of the village with a short menu and good coffee. Open only part of the week, so treat it as a bonus.",
+        "address": "909-6 Chikatsuyu, Nakahechi-cho, Tanabe, Wakayama 646-1402",
+        "locality": "Chikatsuyu",
+        "match": {
+          "query": "Cabelo"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "tsugizakura-oji",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.6341,
+          33.8285
+        ]
+      },
+      "properties": {
+        "name": "Tsugizakura-oji",
+        "category": "attraction",
+        "section": "day-3",
+        "position": 15,
+        "notes": "A ridge-top shrine under enormous old cedars, an hour or two past Chikatsuyu. Take the steps down to Nonaka-no-Shimizu, a spring pilgrims have drunk from for centuries.",
+        "address": "Nonaka, Nakahechi-cho, Tanabe, Wakayama 646-1401",
+        "locality": "Nonaka"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toganoki-jaya",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.6346,
+          33.8283
+        ]
+      },
+      "properties": {
+        "name": "Toganoki-jaya Teahouse",
+        "category": "attraction",
+        "section": "day-3",
+        "position": 16,
+        "notes": "A thatched teahouse with an open hearth next to Tsugizakura-oji. Sometimes a local volunteer is pouring tea; either way it is a good place to sit for a few minutes.",
+        "address": "Nonaka, Nakahechi-cho, Tanabe, Wakayama 646-1401",
+        "locality": "Nonaka",
+        "match": {
+          "query": "Toganoki Chaya"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kumano-kodo-inn-hagi",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.6293,
+          33.8244
+        ]
+      },
+      "properties": {
+        "name": "Kumano Kodo Inn Hagi",
+        "category": "inn",
+        "section": "day-3",
+        "position": 17,
+        "notes": "An old village shop turned into a small inn near Tsugizakura-oji. Staying in Nonaka shortens the long walk to Hongu the next day.",
+        "address": "1068 Nonaka, Nakahechi-cho, Tanabe, Wakayama 646-1401",
+        "locality": "Nonaka"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosshinmon-oji",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7206,
+          33.8618
+        ]
+      },
+      "properties": {
+        "name": "Hosshinmon-oji",
+        "category": "attraction",
+        "section": "day-3",
+        "position": 18,
+        "notes": "The gate of awakening, once the outer entrance to Hongu's sacred precinct. Many walkers ride the bus here and walk the last 7 km to Hongu past farms and small oji; check the bus timetable with the Tanabe City Kumano Tourism Bureau.",
+        "address": "Mikoshi, Hongu-cho, Tanabe, Wakayama",
+        "locality": "Hongu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fushiogami-oji",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7568,
+          33.8602
+        ]
+      },
+      "properties": {
+        "name": "Fushiogami-oji",
+        "category": "attraction",
+        "section": "day-3",
+        "position": 19,
+        "notes": "The viewpoint where tired pilgrims first saw Oyunohara far below and knelt to bow. A teahouse and rest area sit beside it, about an hour above Hongu.",
+        "address": "Fushiogami, Hongu-cho, Tanabe, Wakayama",
+        "locality": "Hongu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kumano-hongu-taisha",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7736,
+          33.8404
+        ]
+      },
+      "properties": {
+        "name": "Kumano Hongu Taisha",
+        "category": "attraction",
+        "section": "day-4",
+        "position": 20,
+        "notes": "The head shrine of the Kumano faith, reached at the end of the Nakahechi by a stone stairway lined with banners. The cypress-bark roofs and the quiet main courtyard are worth a slow look; stamp your credential at the shrine office.",
+        "address": "1110 Hongu, Hongu-cho, Tanabe, Wakayama 647-1731",
+        "locality": "Hongu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "oyunohara",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.774,
+          33.835
+        ]
+      },
+      "properties": {
+        "name": "Oyunohara",
+        "category": "park",
+        "section": "day-4",
+        "position": 21,
+        "notes": "The river flat where the shrine stood until an 1889 flood, now a sacred grove behind a giant torii gate. Walk through the rice fields to the gate late in the day, when the crowds are gone.",
+        "address": "Hongu, Hongu-cho, Tanabe, Wakayama 647-1731",
+        "locality": "Hongu",
+        "match": {
+          "query": "Oyunohara Torii"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kumano-hongu-heritage-center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7756,
+          33.8386
+        ]
+      },
+      "properties": {
+        "name": "Kumano Hongu Heritage Center",
+        "category": "museum",
+        "section": "day-4",
+        "position": 22,
+        "notes": "A free exhibition hall across the road from the shrine with clear displays on the World Heritage routes, plus restrooms and tourist information in English.",
+        "address": "100-1 Hongu, Hongu-cho, Tanabe, Wakayama 647-1731",
+        "locality": "Hongu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cafe-alma",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7742,
+          33.8388
+        ]
+      },
+      "properties": {
+        "name": "cafe alma",
+        "category": "cafe",
+        "section": "day-4",
+        "position": 23,
+        "notes": "A small coffee stop in the Karasuya building at the foot of the shrine stairs. A good place to sit after arriving, with outdoor tables.",
+        "address": "195-3 Hongu, Hongu-cho, Tanabe, Wakayama 647-1731",
+        "locality": "Hongu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "blue-sky-guesthouse",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7707,
+          33.8345
+        ]
+      },
+      "properties": {
+        "name": "Blue Sky Guesthouse",
+        "category": "hotel",
+        "section": "day-4",
+        "position": 24,
+        "notes": "A small, spotless guesthouse in a side valley of Hongu village, a short walk from both the shrine and Oyunohara. Private rooms and a hearty breakfast; it books out early.",
+        "address": "1526 Hongu, Hongu-cho, Tanabe, Wakayama 647-1731",
+        "locality": "Hongu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dainichi-goe",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.762,
+          33.8316
+        ]
+      },
+      "properties": {
+        "name": "Dainichi-goe Trail",
+        "category": "park",
+        "section": "day-5",
+        "position": 25,
+        "notes": "A short, steep forest trail over a ridge between Oyunohara and Yunomine, the way pilgrims went to bathe before visiting the shrine. Allow about 90 minutes and bring a light rain layer.",
+        "address": "Yunomine, Hongu-cho, Tanabe, Wakayama 647-1732",
+        "locality": "Yunomine"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "tsuboyu",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7577,
+          33.8292
+        ]
+      },
+      "properties": {
+        "name": "Tsuboyu",
+        "category": "attraction",
+        "section": "day-5",
+        "position": 26,
+        "notes": "A one-room stone bath in a wooden hut by the creek, the only hot spring bath that is part of a World Heritage site. Take a numbered ticket at the public bath counter and wait your turn; it is private for one or two people.",
+        "address": "Yunomine, Hongu-cho, Tanabe, Wakayama 647-1732",
+        "locality": "Yunomine"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "j-hoppers-kumano-yunomine",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7582,
+          33.8297
+        ]
+      },
+      "properties": {
+        "name": "J-Hoppers Kumano Yunomine Guesthouse",
+        "category": "hotel",
+        "section": "day-5",
+        "position": 27,
+        "notes": "A hostel in an old minshuku with dorm beds and private tatami rooms, plus hot spring baths you can book for yourself. The budget choice in Yunomine.",
+        "address": "161 Yunomine, Hongu-cho, Tanabe, Wakayama 647-1732",
+        "locality": "Yunomine"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ryokan-adumaya",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7572,
+          33.8287
+        ]
+      },
+      "properties": {
+        "name": "Ryokan Adumaya",
+        "category": "hotel",
+        "section": "day-5",
+        "position": 28,
+        "notes": "A traditional inn founded by a shrine priest in the 1700s, with wooden baths fed by the village spring and a kaiseki dinner. The splurge night of the trip for many walkers.",
+        "address": "122 Yunomine, Hongu-cho, Tanabe, Wakayama 647-1732",
+        "locality": "Yunomine"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "yoshinoya-ryokan",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7576,
+          33.8291
+        ]
+      },
+      "properties": {
+        "name": "Yoshinoya Ryokan",
+        "category": "hotel",
+        "section": "day-5",
+        "position": 29,
+        "notes": "A family inn beside Tsuboyu with a private outdoor bath in a small garden and rooms overlooking the creek. Mid-range and well placed for an early soak.",
+        "address": "359 Yunomine, Hongu-cho, Tanabe, Wakayama 647-1732",
+        "locality": "Yunomine"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kawayu-onsen",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7744,
+          33.8128
+        ]
+      },
+      "properties": {
+        "name": "Kawayu Onsen",
+        "category": "park",
+        "section": "day-5",
+        "position": 30,
+        "notes": "A riverside village where hot water seeps up through the gravel of the Oto River, so you can dig your own bath on the bank. In winter the town builds a huge open-air pool in the river; check the Kumano Tourism Bureau for dates.",
+        "address": "Kawayu, Hongu-cho, Tanabe, Wakayama 647-1717",
+        "locality": "Kawayu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fujiya-ryokan",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7753,
+          33.813
+        ]
+      },
+      "properties": {
+        "name": "Fujiya Ryokan",
+        "category": "hotel",
+        "section": "day-5",
+        "position": 31,
+        "notes": "One of the larger inns in Kawayu, at the east end of the village facing the river. Guests can borrow a shovel to dig a bath in the gravel bank, which feels like a treat after several nights in small inns.",
+        "address": "1452 Kawayu, Hongu-cho, Tanabe, Wakayama 647-1717",
+        "locality": "Kawayu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kumano-hayatama-taisha",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.9837,
+          33.7323
+        ]
+      },
+      "properties": {
+        "name": "Kumano Hayatama Taisha",
+        "category": "attraction",
+        "section": "day-6",
+        "position": 32,
+        "notes": "The second of the three grand shrines, bright vermilion against a forested hill near the mouth of the Kumano River. Look for the giant nagi tree in the courtyard and the treasure hall of old offerings.",
+        "address": "1 Shingu, Shingu, Wakayama 647-0081",
+        "locality": "Shingu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kamikura-jinja",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.9841,
+          33.7243
+        ]
+      },
+      "properties": {
+        "name": "Kamikura-jinja",
+        "category": "attraction",
+        "section": "day-6",
+        "position": 33,
+        "notes": "A small shrine wedged under a huge boulder high above town, reached by more than 500 rough stone steps. The first stretch is close to a scramble; the view over Shingu and the sea is the reward.",
+        "address": "1-13-8 Kamikura, Shingu, Wakayama 647-0015",
+        "locality": "Shingu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "guesthouse-yuzu-shingu",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.9854,
+          33.7315
+        ]
+      },
+      "properties": {
+        "name": "guesthouse YUZU",
+        "category": "hotel",
+        "section": "day-6",
+        "position": 34,
+        "notes": "A restored old house a minute's walk from Hayatama Taisha, with a display of children's portable shrines from the neighborhood festival. A calm base for the coast end of the trip.",
+        "address": "1-1-4 Kamihonmachi, Shingu, Wakayama 647-0003",
+        "locality": "Shingu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "daimon-zaka",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.8965,
+          33.6706
+        ]
+      },
+      "properties": {
+        "name": "Daimon-zaka",
+        "category": "park",
+        "section": "day-7",
+        "position": 35,
+        "notes": "A moss-edged stone stairway climbing about 600 m through huge old cedars to the Nachi shrine and temple, starting at the twin Meoto-sugi trees by the bus stop. Go early in the morning to have it mostly to yourself.",
+        "address": "Nachisan, Nachikatsuura, Higashimuro District, Wakayama 649-5301",
+        "locality": "Nachi",
+        "match": {
+          "query": "Daimonzaka"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kumano-nachi-taisha",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.8904,
+          33.6684
+        ]
+      },
+      "properties": {
+        "name": "Kumano Nachi Taisha",
+        "category": "attraction",
+        "section": "day-7",
+        "position": 36,
+        "notes": "The third grand shrine, high on the mountainside facing the falls, its worship tied to the waterfall itself. Stamp your credential here to complete the three shrines.",
+        "address": "1 Nachisan, Nachikatsuura, Higashimuro District, Wakayama 649-5301",
+        "locality": "Nachi"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "seiganto-ji",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.8899,
+          33.6693
+        ]
+      },
+      "properties": {
+        "name": "Seiganto-ji",
+        "category": "attraction",
+        "section": "day-7",
+        "position": 37,
+        "notes": "A Buddhist temple next door to the shrine and the first stop on the Saigoku Kannon pilgrimage. The three-story vermilion pagoda with Nachi Falls behind it is the view most people come for.",
+        "address": "8 Nachisan, Nachikatsuura, Higashimuro District, Wakayama 649-5301",
+        "locality": "Nachi"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nachi-falls",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.8877,
+          33.675
+        ]
+      },
+      "properties": {
+        "name": "Nachi Falls",
+        "category": "waterfall",
+        "section": "day-7",
+        "position": 38,
+        "notes": "Japan's tallest single-drop waterfall, worshipped as a deity at Hiro-jinja at its base. Walk down the cedar-lined steps from the road for the closest view.",
+        "address": "Nachisan, Nachikatsuura, Higashimuro District, Wakayama 649-5301",
+        "locality": "Nachi"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "katsuura-fish-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.9439,
+          33.6266
+        ]
+      },
+      "properties": {
+        "name": "Katsuura Gyoko Nigiwai Ichiba",
+        "category": "attraction",
+        "section": "day-7",
+        "position": 39,
+        "notes": "The harbor market in Kii-Katsuura, a major tuna port, with stalls and simple counters serving fresh maguro. A good last meal before the train out.",
+        "address": "7-106-3 Tsukiji, Nachikatsuura, Higashimuro District, Wakayama 649-5335",
+        "locality": "Katsuura",
+        "match": {
+          "query": "Katsuura Fish Market"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel-urashima",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.9508,
+          33.6249
+        ]
+      },
+      "properties": {
+        "name": "Hotel Urashima",
+        "category": "hotel",
+        "section": "day-7",
+        "position": 40,
+        "notes": "A sprawling onsen hotel on a peninsula in Katsuura Bay, reached by its own shuttle boat, with cave baths open to the Pacific. Busy and a bit dated, but the baths are memorable.",
+        "address": "1165-2 Katsuura, Nachikatsuura, Higashimuro District, Wakayama 649-5334",
+        "locality": "Katsuura"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-tanabe",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Tanabe · Gateway town on the coast",
+        "mode": "walk",
+        "section": "tanabe",
+        "stops": [
+          "tanabe-tourist-information-center",
+          "tokei-jinja",
+          "miyoshiya-ryokan",
+          "tsuji-no-mochi"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-day-1",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Day 1 · Takijiri-oji to Takahara · about 4 km",
+        "mode": "walk",
+        "section": "day-1",
+        "stops": [
+          "kumano-kodo-kan-pilgrimage-center",
+          "takijiri-oji",
+          "takahara-kumano-jinja",
+          "kiri-no-sato-takahara-lodge"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-day-2",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Day 2 · Takahara to Chikatsuyu · about 10 km",
+        "mode": "walk",
+        "section": "day-2",
+        "stops": [
+          "jujo-oji",
+          "gyuba-doji-statue",
+          "chikatsuyu-oji",
+          "minshuku-chikatsuyu",
+          "guesthouse-sora-chikatsuyu",
+          "cabelo-coffee"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-day-3",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Day 3 · Chikatsuyu to Kumano Hongu Taisha · about 25 km",
+        "mode": "walk",
+        "section": "day-3",
+        "stops": [
+          "tsugizakura-oji",
+          "toganoki-jaya",
+          "kumano-kodo-inn-hagi",
+          "hosshinmon-oji",
+          "fushiogami-oji"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-day-4",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Day 4 · Kumano Hongu Taisha and Oyunohara",
+        "mode": "walk",
+        "section": "day-4",
+        "stops": [
+          "kumano-hongu-taisha",
+          "oyunohara",
+          "kumano-hongu-heritage-center",
+          "cafe-alma",
+          "blue-sky-guesthouse"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-day-5",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Day 5 · Dainichi-goe to Yunomine and Kawayu onsen · about 3.5 km",
+        "mode": "walk",
+        "section": "day-5",
+        "stops": [
+          "dainichi-goe",
+          "tsuboyu",
+          "j-hoppers-kumano-yunomine",
+          "ryokan-adumaya",
+          "yoshinoya-ryokan",
+          "kawayu-onsen",
+          "fujiya-ryokan"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-day-6",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Day 6 · Down the Kumano River to Shingu",
+        "mode": "walk",
+        "section": "day-6",
+        "stops": [
+          "kumano-hayatama-taisha",
+          "kamikura-jinja",
+          "guesthouse-yuzu-shingu"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-day-7",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Day 7 · Daimon-zaka to Nachi Falls and Katsuura",
+        "mode": "walk",
+        "section": "day-7",
+        "stops": [
+          "daimon-zaka",
+          "kumano-nachi-taisha",
+          "seiganto-ji",
+          "nachi-falls",
+          "katsuura-fish-market",
+          "hotel-urashima"
+        ]
+      }
+    }
+  ]
+}
