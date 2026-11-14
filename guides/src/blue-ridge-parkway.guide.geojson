@@ -270,7 +270,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.852,
+          -79.8518,
           37.2383
         ]
       },
@@ -413,8 +413,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.3939,
-          36.7938
+          -80.3934,
+          36.7944
         ]
       },
       "properties": {
@@ -442,7 +442,7 @@
         "category": "attraction",
         "section": "day-2",
         "position": 20,
-        "notes": "The gristmill on a millpond that ends up on half the parkway postcards. A short path passes a blacksmith shop and other farm buildings, and the restaurant next door is known for its buckwheat pancakes.",
+        "notes": "The gristmill on a millpond that ends up on half the parkway postcards. A short path passes a blacksmith shop and other farm buildings. The restaurant and gift shop have closed, so plan to eat elsewhere.",
         "address": "266 Mabry Mill Rd SE, Meadows of Dan, VA 24120",
         "locality": "Meadows of Dan"
       }
@@ -785,8 +785,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -81.9281,
-          35.9554
+          -81.9277,
+          35.9545
         ]
       },
       "properties": {
