@@ -272,7 +272,10 @@
         "notes": "Laziz Kitchen's counter inside the Sugar House Station food hall, with the hummus, mezze and wraps the local brand is known for. Easy for a group, with other stalls around it.",
         "address": "2155 S Highland Dr, Salt Lake City, UT 84106",
         "locality": "Sugar House",
-        "lastVerified": "2026-11-14"
+        "lastVerified": "2026-11-14",
+        "match": {
+          "skip": "A counter inside Sugar House Station; Apple Maps lists only the closed Central Ninth restaurant (checked Nov 14, 2026)"
+        }
       }
     },
     {
