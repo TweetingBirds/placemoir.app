@@ -1123,13 +1123,19 @@ def maps(slugs):
         # A fresh token per guide, so a long run never outlives one (they last 30 minutes).
         token = maps_token()
         found = {}
+        lock = SRC / f"{guide['slug']}.maps.json"
+        # The lookups already committed. Apple's results for the same search vary from run to run
+        # (wording, language, which of two nearby listings comes back), so a place keeps its
+        # committed listing while that listing still fits.
+        committed = json.loads(lock.read_text(encoding="utf-8")) if lock.exists() else {}
         start = len(report)
         for place in guide["places"]:
             label = f"{guide['slug']}/{place['key']}"
             if place.get("mapsSkip"):
                 report.append(f"SKIP  {label}: {place['mapsSkip']}")
                 continue
-            best, seen = None, []
+            best, seen, kept = None, [], None
+            previous = committed.get(place["key"], {})
             for result in search(token, place, place.get("countryCode") or guide.get("countryCode", "US")):
                 if "latitude" not in (result.get("coordinate") or {}):
                     continue
@@ -1139,22 +1145,26 @@ def maps(slugs):
                             f"{round(metres)} m, name {score:.2f}, at {coordinate['latitude']:.4f},{coordinate['longitude']:.4f})")
                 if fits and (best is None or (score, -metres) > best[0]):
                     best = ((score, -metres), result, metres)
+                if fits and previous.get("appleMapsID") and result.get("id") == previous["appleMapsID"]:
+                    kept = (result, metres)
             if best is None:
                 failures.append(f"{label}: “{place['name']}” at {place['address']} isn't in Apple Maps. "
                                 "Check it's open and the address is right")
                 report.append(f"MISS  {label}. Apple Maps offered: " + ("; ".join(seen[:4]) or "nothing"))
                 continue
-            _, result, metres = best
-            entry = {"name": result.get("name", ""),
-                     "latitude": round(result["coordinate"]["latitude"], 6),
-                     "longitude": round(result["coordinate"]["longitude"], 6),
-                     "address": one_line(result.get("formattedAddressLines", []))}
-            if result.get("id"):
-                entry["appleMapsID"] = result["id"]
+            if kept:
+                (result, metres), entry = kept, previous
+            else:
+                _, result, metres = best
+                entry = {"name": result.get("name", ""),
+                         "latitude": round(result["coordinate"]["latitude"], 6),
+                         "longitude": round(result["coordinate"]["longitude"], 6),
+                         "address": one_line(result.get("formattedAddressLines", []))}
+                if result.get("id"):
+                    entry["appleMapsID"] = result["id"]
             found[place["key"]] = entry
             moved = f", {round(metres)} m from the source position" if metres > MOVED_METRES else ""
             report.append(f"OK    {label} → {entry['name']} ({entry['address']}{moved})")
-        lock = SRC / f"{guide['slug']}.maps.json"
         lock.write_text(json.dumps(found, indent=2, ensure_ascii=False, sort_keys=True) + "\n", encoding="utf-8")
         # Print as each guide finishes, so a long run shows its progress.
         print("\n".join(report[start:]), flush=True)
