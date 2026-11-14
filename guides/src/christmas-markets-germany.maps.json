@@ -1,10 +1,4 @@
 {
-  "aachen-christmas-market": {
-    "address": "Markt, 52062 Aachen, Germany",
-    "latitude": 50.776307,
-    "longitude": 6.083174,
-    "name": "Markt"
-  },
   "apfelwein-wagner": {
     "address": "Schweizer Straße 71, 60594 Frankfurt, Germany",
     "appleMapsID": "I295A264FB62B0C80",
@@ -40,48 +34,12 @@
     "longitude": 6.085459,
     "name": "Café van den Daele"
   },
-  "cologne-cathedral-christmas-market": {
-    "address": "Roncalliplatz, 50667 Cologne, Germany",
-    "latitude": 50.940276,
-    "longitude": 6.958957,
-    "name": "Roncalliplatz"
-  },
-  "cologne-heinzels-wintermaerchen": {
-    "address": "Alter Markt, Cologne, North Rhine-Westphalia, Germany",
-    "latitude": 50.938648,
-    "longitude": 6.960068,
-    "name": "Alter Markt"
-  },
-  "cologne-markt-der-engel": {
-    "address": "Neumarkt, 50667 Cologne, Germany",
-    "latitude": 50.93566,
-    "longitude": 6.947521,
-    "name": "Neumarkt"
-  },
   "dresden-stallhof-medieval-market": {
     "address": "Augustusstraße 1, 01067 Dresden, Germany",
     "appleMapsID": "I24C758C98BEBE17A",
     "latitude": 51.052572,
     "longitude": 13.73926,
     "name": "Stallhof"
-  },
-  "dresden-striezelmarkt": {
-    "address": "Altmarkt, 01067 Dresden, Germany",
-    "latitude": 51.049201,
-    "longitude": 13.737864,
-    "name": "Altmarkt"
-  },
-  "erfurt-christmas-market": {
-    "address": "Domplatz, 99084 Erfurt, Germany",
-    "latitude": 50.977708,
-    "longitude": 11.024465,
-    "name": "Domplatz"
-  },
-  "esslingen-medieval-christmas-market": {
-    "address": "Marktplatz, Esslingen am Neckar, Baden-Württemberg, Germany",
-    "latitude": 48.74281,
-    "longitude": 9.306069,
-    "name": "Marktplatz"
   },
   "excelsior-hotel-ernst": {
     "address": "Trankgasse 1, 50667 Cologne, Germany",
@@ -160,24 +118,6 @@
     "longitude": 11.581512,
     "name": "Hotel Torbräu"
   },
-  "luebeck-christmas-market": {
-    "address": "Markt, Lübeck, Schleswig-Holstein, Germany",
-    "latitude": 53.866598,
-    "longitude": 10.684814,
-    "name": "Markt"
-  },
-  "munich-christkindlmarkt": {
-    "address": "Marienplatz, 80331 Munich, Germany",
-    "latitude": 48.137073,
-    "longitude": 11.576002,
-    "name": "Marienplatz"
-  },
-  "nuremberg-christkindlesmarkt": {
-    "address": "Hauptmarkt, 90403 Nuremberg, Germany",
-    "latitude": 49.45417,
-    "longitude": 11.077365,
-    "name": "Hauptmarkt"
-  },
   "pulverturm-dresden": {
     "address": "An der Frauenkirche 12, 01067 Dresden, Germany",
     "appleMapsID": "I20C16E99A7D9D8A0",
@@ -198,12 +138,6 @@
     "latitude": 49.014448,
     "longitude": 12.092256,
     "name": "Thurn and Taxis Castle"
-  },
-  "rothenburg-reiterlesmarkt": {
-    "address": "Marktplatz, 91541 Rothenburg ob der Tauber, Germany",
-    "latitude": 49.377138,
-    "longitude": 10.1792,
-    "name": "Marktplatz"
   },
   "stuttgart-christmas-market": {
     "address": "Schillerplatz, 70173 Stuttgart, Germany",

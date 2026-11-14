@@ -75,11 +75,12 @@
       "address": "201 Bridge St, Wilmington, IL 60481",
       "locality": "Wilmington",
       "country": "United States",
-      "latitude": 41.3061,
-      "longitude": -88.1497,
+      "latitude": 41.306217,
+      "longitude": -88.149679,
       "wantToGo": true,
       "notes": "The Gemini Giant, a fiberglass spaceman holding a rocket since the 1960s, now stands at the entrance to South Island Park after the old Launching Pad Drive-In closed. A small seasonal souvenir shop sits nearby.",
-      "section": "Day 1 · Chicago to Springfield, Illinois · 200 mi"
+      "section": "Day 1 · Chicago to Springfield, Illinois · 200 mi",
+      "appleMapsID": "I9DA007C0E1773F84"
     },
     {
       "id": "guide:route-66/polk-a-dot-drive-in",

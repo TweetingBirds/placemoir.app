@@ -230,6 +230,13 @@
     "longitude": -110.695096,
     "name": "La Posada"
   },
+  "launching-pad-gemini-giant": {
+    "address": "201 Bridge St, Wilmington, IL 60481, United States",
+    "appleMapsID": "I9DA007C0E1773F84",
+    "latitude": 41.306217,
+    "longitude": -88.149679,
+    "name": "Gemini Giant"
+  },
   "lincoln-home-national-historic-site": {
     "address": "426 S. 7th Street, Springfield, IL 62701, United States",
     "appleMapsID": "IF8CC3FDA9BD1BE09",

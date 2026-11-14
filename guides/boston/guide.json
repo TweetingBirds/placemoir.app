@@ -418,12 +418,12 @@
       "address": "206 Clarendon St, Boston, MA 02116",
       "locality": "Back Bay",
       "country": "United States",
-      "latitude": 42.349848,
-      "longitude": -71.075101,
+      "latitude": 42.349985,
+      "longitude": -71.075326,
       "wantToGo": true,
       "notes": "H.H. Richardson's 1877 church on Copley Square, glowing inside with murals and stained glass.",
       "section": "See",
-      "appleMapsID": "I3F62AC27B42DC59C"
+      "appleMapsID": "I3CA31AC21D532B2B"
     },
     {
       "id": "guide:boston/fenway-park",

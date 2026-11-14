@@ -117,10 +117,11 @@
     "name": "Albergue de Peregrinos"
   },
   "albergue-municipal-mansilla": {
-    "address": "Mansilla de las Mulas, León, Spain",
-    "latitude": 42.496833,
-    "longitude": -5.417184,
-    "name": "Mansilla de las Mulas"
+    "address": "Avenida Picos de Europa, 32A, 24210 Mansilla de las Mulas, León, Spain",
+    "appleMapsID": "ICB52050D7B258D4B",
+    "latitude": 42.499328,
+    "longitude": -5.412439,
+    "name": "Albergue De Peregrinos Municipal"
   },
   "albergue-municipal-najera": {
     "address": "Plaza de Santiago, 26300 Nájera, Rioja, Spain",
@@ -445,13 +446,6 @@
     "latitude": 42.930136,
     "longitude": -1.504219,
     "name": "Calle del Puente de la Rabia"
-  },
-  "puente-de-los-peregrinos-molinaseca": {
-    "address": "Calle la Presa, 3, 24413 Molinaseca, León, Spain",
-    "appleMapsID": "I266EB8146AE51B93",
-    "latitude": 42.537468,
-    "longitude": -6.518897,
-    "name": "Meson Puente Romano"
   },
   "puente-de-orbigo": {
     "address": "Puente de Órbigo, Hospital de Órbigo, León, Spain",

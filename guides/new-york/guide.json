@@ -557,11 +557,12 @@
       "address": "Central Park, New York, NY 10024",
       "locality": "Central Park",
       "country": "United States",
-      "latitude": 40.79432,
-      "longitude": -73.954808,
+      "latitude": 40.768895,
+      "longitude": -73.971156,
       "wantToGo": true,
       "notes": "Start at the gazebo near the Pond, then walk to Bethesda Terrace and the Ramble, or rent a rowboat at the Loeb Boathouse.",
-      "section": "Outside"
+      "section": "Outside",
+      "appleMapsID": "I1D3B0A32290BE199"
     },
     {
       "id": "guide:new-york/the-high-line",

@@ -259,11 +259,11 @@
     "name": "Toro"
   },
   "trinity-church": {
-    "address": "Boston, MA, United States",
-    "appleMapsID": "I3F62AC27B42DC59C",
-    "latitude": 42.349848,
-    "longitude": -71.075101,
-    "name": "Boston, MA - Copley Square (Corner of Clarendon St. & St. James Ave. in front of Trinity Church) Stop"
+    "address": "206 Clarendon St, Boston, MA 02116, United States",
+    "appleMapsID": "I3CA31AC21D532B2B",
+    "latitude": 42.349985,
+    "longitude": -71.075326,
+    "name": "Trinity Church Boston"
   },
   "union-oyster-house": {
     "address": "41 Union St, Boston, MA 02108, United States",

@@ -743,11 +743,12 @@
       "address": "Avenida Picos de Europa, s/n, 24210 Mansilla de las Mulas, León",
       "locality": "Mansilla de las Mulas",
       "country": "Spain",
-      "latitude": 42.496833,
-      "longitude": -5.417184,
+      "latitude": 42.499328,
+      "longitude": -5.412439,
       "wantToGo": true,
       "notes": "While the historic municipal albergue on Calle del Puente is being rebuilt, the town runs a simple provisional albergue in the CICA building, staffed by volunteer hospitaleros. Beds go first come, first served.",
-      "section": "Stage 19 · El Burgo Ranero to Mansilla de las Mulas · 19 km"
+      "section": "Stage 19 · El Burgo Ranero to Mansilla de las Mulas · 19 km",
+      "appleMapsID": "ICB52050D7B258D4B"
     },
     {
       "id": "guide:camino-frances/catedral-de-leon",
@@ -935,12 +936,11 @@
       "address": "Calle Real, 24413 Molinaseca, León",
       "locality": "Molinaseca",
       "country": "Spain",
-      "latitude": 42.537468,
-      "longitude": -6.518897,
+      "latitude": 42.5378,
+      "longitude": -6.5196,
       "wantToGo": true,
       "notes": "A medieval bridge over the Meruelo into Molinaseca, with a river pool below where tired walkers soak after the long descent from the mountains.",
-      "section": "Stage 24 · Rabanal del Camino to Molinaseca · 25 km",
-      "appleMapsID": "I266EB8146AE51B93"
+      "section": "Stage 24 · Rabanal del Camino to Molinaseca · 25 km"
     },
     {
       "id": "guide:camino-frances/hostal-el-palacio-molinaseca",
