@@ -1,0 +1,919 @@
+{
+  "type": "FeatureCollection",
+  "placemoirGuide": "0.1",
+  "guide": {
+    "id": "san-francisco",
+    "status": "published",
+    "kind": "city",
+    "name": "San Francisco in the fog",
+    "description": "Seven days of cable cars and fog, dim sum and burritos, bay crossings and big parks, from the Ferry Building to Lands End.",
+    "author": {
+      "name": "friends of Placemoir"
+    },
+    "inLanguage": "en",
+    "dateModified": "2026-11-08",
+    "countries": [
+      "US"
+    ],
+    "sections": [
+      {
+        "id": "stay",
+        "name": "Stay"
+      },
+      {
+        "id": "eat",
+        "name": "Eat"
+      },
+      {
+        "id": "see",
+        "name": "See"
+      },
+      {
+        "id": "outside",
+        "name": "Outside"
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "fairmont",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4102,
+          37.7924
+        ]
+      },
+      "properties": {
+        "name": "Fairmont San Francisco",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "The grand hotel on top of Nob Hill, with cable cars at the door and a tiki bar in the basement.",
+        "address": "950 Mason St, San Francisco, CA 94108",
+        "locality": "Nob Hill",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "palace-hotel",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.402,
+          37.7881
+        ]
+      },
+      "properties": {
+        "name": "Palace Hotel",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "Have a drink under the glass dome of the Garden Court, even if you stay somewhere else.",
+        "address": "2 New Montgomery St, San Francisco, CA 94105",
+        "locality": "SoMa",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel-drisco",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.443,
+          37.7922
+        ]
+      },
+      "properties": {
+        "name": "Hotel Drisco",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A quiet 1903 hotel in Pacific Heights, with breakfast and views over the bay.",
+        "address": "2901 Pacific Ave, San Francisco, CA 94115",
+        "locality": "Pacific Heights",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel-zephyr",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.413,
+          37.808
+        ]
+      },
+      "properties": {
+        "name": "Hotel Zephyr",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A playful nautical hotel at the wharf, handy for the Alcatraz ferry and the cable cars.",
+        "address": "250 Beach St, San Francisco, CA 94133",
+        "locality": "Fisherman's Wharf",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "swan-oyster-depot",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4205,
+          37.7904
+        ]
+      },
+      "properties": {
+        "name": "Swan Oyster Depot",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A marble counter, a few stools and the best crab and oysters in town. Lunch only, cash only, always a line.",
+        "address": "1517 Polk St, San Francisco, CA 94109",
+        "locality": "Nob Hill",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "tadich-grill",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.399,
+          37.7935
+        ]
+      },
+      "properties": {
+        "name": "Tadich Grill",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Open since 1849. Sit at the counter and order the cioppino.",
+        "address": "240 California St, San Francisco, CA 94111",
+        "locality": "Financial District",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hog-island",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3934,
+          37.7956
+        ]
+      },
+      "properties": {
+        "name": "Hog Island Oyster Co.",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Tomales Bay oysters with a view of the Bay Bridge. Get there before noon.",
+        "address": "1 Ferry Building, San Francisco, CA 94111",
+        "locality": "Embarcadero",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "la-taqueria",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4182,
+          37.7509
+        ]
+      },
+      "properties": {
+        "name": "La Taqueria",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "The Mission burrito, no rice. Order it dorado style, crisped on the grill.",
+        "address": "2889 Mission St, San Francisco, CA 94110",
+        "locality": "Mission",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "tartine-bakery",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4241,
+          37.7614
+        ]
+      },
+      "properties": {
+        "name": "Tartine Bakery",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "Morning buns and country bread worth the queue. Then carry them to Dolores Park.",
+        "address": "600 Guerrero St, San Francisco, CA 94110",
+        "locality": "Mission",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "zuni-cafe",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4215,
+          37.7737
+        ]
+      },
+      "properties": {
+        "name": "Zuni Café",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "The roast chicken with bread salad takes an hour, so order it when you sit down.",
+        "address": "1658 Market St, San Francisco, CA 94102",
+        "locality": "Hayes Valley",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "house-of-prime-rib",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4225,
+          37.7935
+        ]
+      },
+      "properties": {
+        "name": "House of Prime Rib",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Prime rib carved tableside from silver carts since 1949. Book ahead.",
+        "address": "1906 Van Ness Ave, San Francisco, CA 94109",
+        "locality": "Nob Hill",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "state-bird",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4329,
+          37.7837
+        ]
+      },
+      "properties": {
+        "name": "State Bird Provisions",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Small plates rolled past on carts, dim sum style. Fun, and different every night.",
+        "address": "1529 Fillmore St, San Francisco, CA 94115",
+        "locality": "Western Addition",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nopa",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4377,
+          37.7747
+        ]
+      },
+      "properties": {
+        "name": "Nopa",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A big, lively room serving wood-fired California food late into the night.",
+        "address": "560 Divisadero St, San Francisco, CA 94117",
+        "locality": "NoPa",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "good-mong-kok",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4077,
+          37.7951
+        ]
+      },
+      "properties": {
+        "name": "Good Mong Kok Bakery",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Takeout dim sum by the box. Har gow and pork buns for a few dollars.",
+        "address": "1039 Stockton St, San Francisco, CA 94108",
+        "locality": "Chinatown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mamas",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4097,
+          37.8005
+        ]
+      },
+      "properties": {
+        "name": "Mama's on Washington Square",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A North Beach breakfast institution. The line moves, and the French toast is worth it.",
+        "address": "1701 Stockton St, San Francisco, CA 94133",
+        "locality": "North Beach",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "liguria-bakery",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4093,
+          37.8013
+        ]
+      },
+      "properties": {
+        "name": "Liguria Bakery",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "Focaccia only, since 1911, until it sells out. Go before 11.",
+        "address": "1700 Stockton St, San Francisco, CA 94133",
+        "locality": "North Beach",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "burma-superstar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4625,
+          37.783
+        ]
+      },
+      "properties": {
+        "name": "Burma Superstar",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Burmese food on Clement Street. The tea leaf salad is a must.",
+        "address": "309 Clement St, San Francisco, CA 94118",
+        "locality": "Inner Richmond",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mitchells",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4228,
+          37.7442
+        ]
+      },
+      "properties": {
+        "name": "Mitchell's Ice Cream",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "Tropical flavors like ube and mango since 1953. Take a number.",
+        "address": "688 San Jose Ave, San Francisco, CA 94110",
+        "locality": "Bernal Heights",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sightglass",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4083,
+          37.7766
+        ]
+      },
+      "properties": {
+        "name": "Sightglass Coffee",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "A big, airy roastery in SoMa. Watch the roasting from the mezzanine.",
+        "address": "270 7th St, San Francisco, CA 94103",
+        "locality": "SoMa",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vesuvio",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4065,
+          37.7976
+        ]
+      },
+      "properties": {
+        "name": "Vesuvio Cafe",
+        "category": "bar",
+        "section": "eat",
+        "notes": "The Beat poets' bar, across Jack Kerouac Alley from City Lights Books.",
+        "address": "255 Columbus Ave, San Francisco, CA 94133",
+        "locality": "North Beach",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "buena-vista",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4209,
+          37.8065
+        ]
+      },
+      "properties": {
+        "name": "The Buena Vista",
+        "category": "bar",
+        "section": "eat",
+        "notes": "Where Irish coffee came to America. Watch the bartenders line up a dozen at a time.",
+        "address": "2765 Hyde St, San Francisco, CA 94109",
+        "locality": "Fisherman's Wharf",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trick-dog",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4112,
+          37.759
+        ]
+      },
+      "properties": {
+        "name": "Trick Dog",
+        "category": "bar",
+        "section": "eat",
+        "notes": "Inventive cocktails in the Mission, with a menu that changes theme twice a year.",
+        "address": "3010 20th St, San Francisco, CA 94110",
+        "locality": "Mission",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "alcatraz",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.423,
+          37.8267
+        ]
+      },
+      "properties": {
+        "name": "Alcatraz Island",
+        "category": "attraction",
+        "section": "see",
+        "notes": "The audio tour of the old prison is excellent. Book the ferry from Pier 33 weeks ahead.",
+        "address": "Alcatraz Island, San Francisco, CA 94133",
+        "locality": "San Francisco Bay",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "golden-gate-bridge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4783,
+          37.8199
+        ]
+      },
+      "properties": {
+        "name": "Golden Gate Bridge",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Walk or bike across, at least to the first tower. Bring a jacket, whatever the season.",
+        "address": "Golden Gate Bridge, San Francisco, CA 94129",
+        "locality": "Presidio",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ferry-building",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3937,
+          37.7955
+        ]
+      },
+      "properties": {
+        "name": "Ferry Building Marketplace",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Local food under one roof. Come on a Saturday morning for the farmers market.",
+        "address": "1 Ferry Building, San Francisco, CA 94111",
+        "locality": "Embarcadero",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cable-car-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4115,
+          37.7946
+        ]
+      },
+      "properties": {
+        "name": "Cable Car Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "A free museum inside the working powerhouse that pulls every cable car in the city.",
+        "address": "1201 Mason St, San Francisco, CA 94108",
+        "locality": "Nob Hill",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coit-tower",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4058,
+          37.8024
+        ]
+      },
+      "properties": {
+        "name": "Coit Tower",
+        "category": "attraction",
+        "section": "see",
+        "notes": "1930s murals and a 360-degree view. Walk down the Filbert Steps afterwards.",
+        "address": "1 Telegraph Hill Blvd, San Francisco, CA 94133",
+        "locality": "Telegraph Hill",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sfmoma",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4011,
+          37.7857
+        ]
+      },
+      "properties": {
+        "name": "San Francisco Museum of Modern Art",
+        "category": "museum",
+        "section": "see",
+        "notes": "Seven floors of modern art. The ground floor galleries are free.",
+        "address": "151 3rd St, San Francisco, CA 94103",
+        "locality": "SoMa",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "asian-art-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4161,
+          37.7802
+        ]
+      },
+      "properties": {
+        "name": "Asian Art Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "One of the largest collections of Asian art in the West, in the old main library.",
+        "address": "200 Larkin St, San Francisco, CA 94102",
+        "locality": "Civic Center",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "de-young",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4687,
+          37.7715
+        ]
+      },
+      "properties": {
+        "name": "de Young Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "American art and textiles in Golden Gate Park. The tower's observation floor is free.",
+        "address": "50 Hagiwara Tea Garden Dr, San Francisco, CA 94118",
+        "locality": "Golden Gate Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cal-academy",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4661,
+          37.7699
+        ]
+      },
+      "properties": {
+        "name": "California Academy of Sciences",
+        "category": "museum",
+        "section": "see",
+        "notes": "A rainforest, an aquarium and a planetarium under a living roof.",
+        "address": "55 Music Concourse Dr, San Francisco, CA 94118",
+        "locality": "Golden Gate Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "legion-of-honor",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5008,
+          37.7845
+        ]
+      },
+      "properties": {
+        "name": "Legion of Honor",
+        "category": "museum",
+        "section": "see",
+        "notes": "European art and Rodin's Thinker, on a cliff above the Golden Gate.",
+        "address": "100 34th Ave, San Francisco, CA 94121",
+        "locality": "Lincoln Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "exploratorium",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3973,
+          37.8017
+        ]
+      },
+      "properties": {
+        "name": "Exploratorium",
+        "category": "museum",
+        "section": "see",
+        "notes": "Hundreds of hands-on science exhibits on a pier. Thursday nights are adults only.",
+        "address": "Pier 15, The Embarcadero, San Francisco, CA 94111",
+        "locality": "Embarcadero",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "musee-mecanique",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4159,
+          37.8094
+        ]
+      },
+      "properties": {
+        "name": "Musée Mécanique",
+        "category": "attraction",
+        "section": "see",
+        "notes": "A free hall of antique arcade machines. Bring quarters.",
+        "address": "Pier 45, San Francisco, CA 94133",
+        "locality": "Fisherman's Wharf",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mission-dolores",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4269,
+          37.7643
+        ]
+      },
+      "properties": {
+        "name": "Mission Dolores",
+        "category": "attraction",
+        "section": "see",
+        "notes": "The oldest building in the city, finished in 1791, with a small cemetery and garden.",
+        "address": "3321 16th St, San Francisco, CA 94114",
+        "locality": "Mission",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fortune-cookie-factory",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4074,
+          37.7945
+        ]
+      },
+      "properties": {
+        "name": "Golden Gate Fortune Cookie Factory",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Watch fortune cookies folded by hand in a narrow Chinatown alley. Bring cash.",
+        "address": "56 Ross Alley, San Francisco, CA 94108",
+        "locality": "Chinatown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "golden-gate-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4862,
+          37.7694
+        ]
+      },
+      "properties": {
+        "name": "Golden Gate Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "Three miles of gardens, lakes and bison. Rent a bike and ride it all the way to the ocean.",
+        "address": "Golden Gate Park, San Francisco, CA 94122",
+        "locality": "Golden Gate Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "japanese-tea-garden",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4703,
+          37.7701
+        ]
+      },
+      "properties": {
+        "name": "Japanese Tea Garden",
+        "category": "park",
+        "section": "outside",
+        "notes": "The oldest public Japanese garden in the country. Go early, and have tea in the teahouse.",
+        "address": "75 Hagiwara Tea Garden Dr, San Francisco, CA 94118",
+        "locality": "Golden Gate Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lands-end",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5115,
+          37.7797
+        ]
+      },
+      "properties": {
+        "name": "Lands End Lookout",
+        "category": "park",
+        "section": "outside",
+        "notes": "A coastal trail with views of the Golden Gate, ending at the ruins of the Sutro Baths.",
+        "address": "680 Point Lobos Ave, San Francisco, CA 94121",
+        "locality": "Outer Richmond",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crissy-field",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4648,
+          37.8039
+        ]
+      },
+      "properties": {
+        "name": "Crissy Field",
+        "category": "park",
+        "section": "outside",
+        "notes": "A flat bayside walk from the Marina to the foot of the Golden Gate Bridge.",
+        "address": "Crissy Field, San Francisco, CA 94129",
+        "locality": "Presidio",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dolores-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4269,
+          37.7596
+        ]
+      },
+      "properties": {
+        "name": "Mission Dolores Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "The city's favorite lawn on a sunny afternoon, with a skyline view from the top.",
+        "address": "Dolores St, San Francisco, CA 94114",
+        "locality": "Mission",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "alamo-square",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4346,
+          37.7764
+        ]
+      },
+      "properties": {
+        "name": "Alamo Square",
+        "category": "park",
+        "section": "outside",
+        "notes": "The Painted Ladies with downtown behind them. Bring a picnic.",
+        "address": "Hayes St, San Francisco, CA 94117",
+        "locality": "Alamo Square",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "twin-peaks",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4477,
+          37.7544
+        ]
+      },
+      "properties": {
+        "name": "Twin Peaks",
+        "category": "park",
+        "section": "outside",
+        "notes": "The whole city at your feet. Go on a clear morning before the fog rolls in.",
+        "address": "501 Twin Peaks Blvd, San Francisco, CA 94114",
+        "locality": "Twin Peaks",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "muir-woods",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5811,
+          37.897
+        ]
+      },
+      "properties": {
+        "name": "Muir Woods National Monument",
+        "category": "park",
+        "section": "outside",
+        "notes": "Old-growth redwoods half an hour north. Parking or shuttle must be booked ahead.",
+        "address": "1 Muir Woods Rd, Mill Valley, CA 94941",
+        "locality": "Marin County",
+        "lastVerified": "2026-11-07"
+      }
+    }
+  ]
+}

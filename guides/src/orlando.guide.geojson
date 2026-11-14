@@ -1,0 +1,779 @@
+{
+  "type": "FeatureCollection",
+  "placemoirGuide": "0.1",
+  "guide": {
+    "id": "orlando",
+    "status": "published",
+    "kind": "city",
+    "name": "Theme parks and springs in Orlando",
+    "description": "Seven days of theme parks and the space coast, springs and manatees, and the quieter, tree-lined side of Orlando and Winter Park.",
+    "author": {
+      "name": "friends of Placemoir"
+    },
+    "inLanguage": "en",
+    "dateModified": "2026-11-08",
+    "countries": [
+      "US"
+    ],
+    "sections": [
+      {
+        "id": "stay",
+        "name": "Stay"
+      },
+      {
+        "id": "eat",
+        "name": "Eat"
+      },
+      {
+        "id": "see",
+        "name": "See"
+      },
+      {
+        "id": "outside",
+        "name": "Outside"
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "grand-floridian",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5878,
+          28.411
+        ]
+      },
+      "properties": {
+        "name": "Disney's Grand Floridian Resort & Spa",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "Disney's grandest hotel, one monorail stop from the Magic Kingdom. Watch the fireworks from the beach.",
+        "address": "4401 Floridian Way, Lake Buena Vista, FL 32830",
+        "locality": "Walt Disney World",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pop-century",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5455,
+          28.3555
+        ]
+      },
+      "properties": {
+        "name": "Disney's Pop Century Resort",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "The budget Disney pick, with the Skyliner gondola to EPCOT and Hollywood Studios.",
+        "address": "1050 Century Dr, Lake Buena Vista, FL 32830",
+        "locality": "Walt Disney World",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "royal-pacific",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4675,
+          28.4673
+        ]
+      },
+      "properties": {
+        "name": "Loews Royal Pacific Resort",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A South Seas-style hotel with a short boat ride to Universal. A stay includes Universal Express passes.",
+        "address": "6300 Hollywood Way, Orlando, FL 32819",
+        "locality": "Universal",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "alfond-inn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3487,
+          28.5965
+        ]
+      },
+      "properties": {
+        "name": "The Alfond Inn",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A calm hotel full of contemporary art, a walk from Park Avenue. A good base away from the parks.",
+        "address": "300 E New England Ave, Winter Park, FL 32789",
+        "locality": "Winter Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "victoria-and-alberts",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5878,
+          28.411
+        ]
+      },
+      "properties": {
+        "name": "Victoria & Albert's",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Disney's tasting-menu splurge, in the Grand Floridian. Dress up and book months ahead.",
+        "address": "4401 Floridian Way, Lake Buena Vista, FL 32830",
+        "locality": "Walt Disney World",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sanaa",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6037,
+          28.3524
+        ]
+      },
+      "properties": {
+        "name": "Sanaa",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "African-Indian cooking with giraffes and zebras outside the window. Order the bread service.",
+        "address": "3701 Osceola Pkwy, Bay Lake, FL 32830",
+        "locality": "Walt Disney World",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "raglan-road",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5172,
+          28.3712
+        ]
+      },
+      "properties": {
+        "name": "Raglan Road Irish Pub",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Irish food, live music and dancers every night at Disney Springs.",
+        "address": "1640 E Buena Vista Dr, Lake Buena Vista, FL 32830",
+        "locality": "Disney Springs",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-boathouse",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5165,
+          28.3713
+        ]
+      },
+      "properties": {
+        "name": "The Boathouse",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Steaks and seafood on the water, with vintage amphicar rides out front.",
+        "address": "1620 E Buena Vista Dr, Lake Buena Vista, FL 32830",
+        "locality": "Disney Springs",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ravenous-pig",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3602,
+          28.5933
+        ]
+      },
+      "properties": {
+        "name": "The Ravenous Pig",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Winter Park's gastropub, with house-made charcuterie and its own beer.",
+        "address": "565 W Fairbanks Ave, Winter Park, FL 32789",
+        "locality": "Winter Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "prato",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.351,
+          28.5985
+        ]
+      },
+      "properties": {
+        "name": "Prato",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Wood-fired pizza and pasta on Park Avenue. Sit on the sidewalk.",
+        "address": "124 N Park Ave, Winter Park, FL 32789",
+        "locality": "Winter Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hawkers",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3646,
+          28.5559
+        ]
+      },
+      "properties": {
+        "name": "Hawkers Asian Street Food",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Small plates from across Asia. The roti canai and the curry laksa are favorites.",
+        "address": "1103 N Mills Ave, Orlando, FL 32803",
+        "locality": "Mills 50",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pho-88",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3647,
+          28.553
+        ]
+      },
+      "properties": {
+        "name": "Pho 88",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Huge bowls of pho in Orlando's Vietnamese district, cheap and quick.",
+        "address": "730 N Mills Ave, Orlando, FL 32803",
+        "locality": "Mills 50",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "se7en-bites",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3495,
+          28.5512
+        ]
+      },
+      "properties": {
+        "name": "Se7en Bites",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "A Southern bake shop with giant breakfasts and slices of pie.",
+        "address": "617 N Primrose Dr, Orlando, FL 32803",
+        "locality": "Milk District",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "black-bean-deli",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3535,
+          28.553
+        ]
+      },
+      "properties": {
+        "name": "Black Bean Deli",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Cuban sandwiches and plantains in a converted gas station.",
+        "address": "1835 E Colonial Dr, Orlando, FL 32803",
+        "locality": "Mills 50",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kres-chophouse",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3795,
+          28.5408
+        ]
+      },
+      "properties": {
+        "name": "Kres Chophouse",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A dark, handsome downtown steakhouse in a 1930s dime store.",
+        "address": "17 W Church St, Orlando, FL 32801",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-end-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3462,
+          28.5713
+        ]
+      },
+      "properties": {
+        "name": "East End Market",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A small market hall with good coffee at Lineage and ramen at Domu.",
+        "address": "3201 Corrine Dr, Orlando, FL 32803",
+        "locality": "Audubon Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dandelion-communitea",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3627,
+          28.5512
+        ]
+      },
+      "properties": {
+        "name": "Dandelion Communitea Café",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "A vegetarian café in an old house, with a porch and a long tea list.",
+        "address": "618 N Thornton Ave, Orlando, FL 32803",
+        "locality": "Thornton Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "wallys",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3646,
+          28.555
+        ]
+      },
+      "properties": {
+        "name": "Wally's Mills Ave Liquors",
+        "category": "bar",
+        "section": "eat",
+        "notes": "A 1950s dive bar with vintage pin-up wallpaper and cheap, strong drinks.",
+        "address": "1001 N Mills Ave, Orlando, FL 32803",
+        "locality": "Mills 50",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "magic-kingdom",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5812,
+          28.4177
+        ]
+      },
+      "properties": {
+        "name": "Magic Kingdom Park",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Rope drop for the big rides, a break at midday, then back for the fireworks.",
+        "address": "1180 Seven Seas Dr, Lake Buena Vista, FL 32830",
+        "locality": "Walt Disney World",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "epcot",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5494,
+          28.3747
+        ]
+      },
+      "properties": {
+        "name": "EPCOT",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Eat your way around the World Showcase lake, one country at a time.",
+        "address": "200 Epcot Center Dr, Orlando, FL 32821",
+        "locality": "Walt Disney World",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "animal-kingdom",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5901,
+          28.3553
+        ]
+      },
+      "properties": {
+        "name": "Disney's Animal Kingdom Theme Park",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Do the safari early, while the animals are awake, and Pandora at night.",
+        "address": "2901 Osceola Pkwy, Bay Lake, FL 32830",
+        "locality": "Walt Disney World",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "universal-studios",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4685,
+          28.4794
+        ]
+      },
+      "properties": {
+        "name": "Universal Studios Florida",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Ride the Hogwarts Express over to Islands of Adventure with a park-to-park ticket.",
+        "address": "6000 Universal Blvd, Orlando, FL 32819",
+        "locality": "Universal",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "islands-of-adventure",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4716,
+          28.4711
+        ]
+      },
+      "properties": {
+        "name": "Universal Islands of Adventure",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Hogsmeade, Hagrid's coaster and the VelociCoaster. Go early for Hagrid's.",
+        "address": "6000 Universal Blvd, Orlando, FL 32819",
+        "locality": "Universal",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "epic-universe",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4478,
+          28.4403
+        ]
+      },
+      "properties": {
+        "name": "Universal Epic Universe",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Universal's newest park, with worlds for Nintendo, dragons and Harry Potter's Ministry of Magic.",
+        "address": "1001 Epic Blvd, Orlando, FL 32819",
+        "locality": "Universal",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kennedy-space-center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.6819,
+          28.5235
+        ]
+      },
+      "properties": {
+        "name": "Kennedy Space Center Visitor Complex",
+        "category": "attraction",
+        "section": "see",
+        "notes": "An hour east. Stand under a Saturn V and walk past Space Shuttle Atlantis. Check the launch schedule.",
+        "address": "Space Commerce Way, Merritt Island, FL 32953",
+        "locality": "Space Coast",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "morse-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.351,
+          28.6002
+        ]
+      },
+      "properties": {
+        "name": "Charles Hosmer Morse Museum of American Art",
+        "category": "museum",
+        "section": "see",
+        "notes": "The world's largest Tiffany collection, including a whole chapel. Free on Friday evenings in winter.",
+        "address": "445 N Park Ave, Winter Park, FL 32789",
+        "locality": "Winter Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "orlando-museum-of-art",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3655,
+          28.5726
+        ]
+      },
+      "properties": {
+        "name": "Orlando Museum of Art",
+        "category": "museum",
+        "section": "see",
+        "notes": "A compact art museum in Loch Haven Park, next to the science center.",
+        "address": "2416 N Mills Ave, Orlando, FL 32803",
+        "locality": "Loch Haven Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "orlando-science-center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3681,
+          28.5724
+        ]
+      },
+      "properties": {
+        "name": "Orlando Science Center",
+        "category": "museum",
+        "section": "see",
+        "notes": "Four floors of hands-on science and a giant dome theater. Good with kids on a park-off day.",
+        "address": "777 E Princeton St, Orlando, FL 32803",
+        "locality": "Loch Haven Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "scenic-boat-tour",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.346,
+          28.5995
+        ]
+      },
+      "properties": {
+        "name": "Scenic Boat Tour",
+        "category": "attraction",
+        "section": "see",
+        "notes": "An hour on pontoon boats through Winter Park's lakes and narrow canals, past lakeside mansions.",
+        "address": "312 E Morse Blvd, Winter Park, FL 32789",
+        "locality": "Winter Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gatorland",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4022,
+          28.3557
+        ]
+      },
+      "properties": {
+        "name": "Gatorland",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Old Florida at its most fun: thousands of alligators, a zip line and a gator-wrestling show.",
+        "address": "14501 S Orange Blossom Trl, Orlando, FL 32837",
+        "locality": "South Orlando",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "disney-springs",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.519,
+          28.371
+        ]
+      },
+      "properties": {
+        "name": "Disney Springs",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Disney's free shopping and dining district. Good on an evening off from the parks.",
+        "address": "1486 Buena Vista Dr, Lake Buena Vista, FL 32830",
+        "locality": "Disney Springs",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-eola",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.373,
+          28.5432
+        ]
+      },
+      "properties": {
+        "name": "Lake Eola Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "A loop around the lake and its fountain, with swans and swan boats. Sunday has a farmers market.",
+        "address": "512 E Washington St, Orlando, FL 32801",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "leu-gardens",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3565,
+          28.5697
+        ]
+      },
+      "properties": {
+        "name": "Harry P. Leu Gardens",
+        "category": "park",
+        "section": "outside",
+        "notes": "Fifty acres of camellias, roses and huge oaks draped in Spanish moss.",
+        "address": "1920 N Forest Ave, Orlando, FL 32803",
+        "locality": "Audubon Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kraft-azalea-garden",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3305,
+          28.6082
+        ]
+      },
+      "properties": {
+        "name": "Kraft Azalea Garden",
+        "category": "park",
+        "section": "outside",
+        "notes": "Cypress trees and a lakeside exedra. Quiet, and lovely at sunset.",
+        "address": "1365 Alabama Dr, Winter Park, FL 32789",
+        "locality": "Winter Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "wekiwa-springs",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.46,
+          28.712
+        ]
+      },
+      "properties": {
+        "name": "Wekiwa Springs State Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "A cold, clear spring for swimming, and a river to paddle. Arrive early, as it fills up.",
+        "address": "1800 Wekiwa Cir, Apopka, FL 32712",
+        "locality": "Apopka",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "blue-spring",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3399,
+          28.9473
+        ]
+      },
+      "properties": {
+        "name": "Blue Spring State Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "Hundreds of manatees shelter in the spring run from November to March.",
+        "address": "2100 W French Ave, Orange City, FL 32763",
+        "locality": "Orange City",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bok-tower",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5759,
+          27.9356
+        ]
+      },
+      "properties": {
+        "name": "Bok Tower Gardens",
+        "category": "park",
+        "section": "outside",
+        "notes": "A singing carillon tower in hilltop gardens an hour south. Time your visit for a recital.",
+        "address": "1151 Tower Blvd, Lake Wales, FL 33853",
+        "locality": "Lake Wales",
+        "lastVerified": "2026-11-07"
+      }
+    }
+  ]
+}

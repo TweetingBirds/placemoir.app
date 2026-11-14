@@ -1,0 +1,968 @@
+{
+  "type": "FeatureCollection",
+  "placemoirGuide": "0.1",
+  "guide": {
+    "id": "new-york",
+    "status": "published",
+    "kind": "city",
+    "name": "New York by ferry and on foot",
+    "description": "Seven days of museums and delis, bridges and harbor ferries, Central Park and the High Line, across Manhattan and Brooklyn.",
+    "author": {
+      "name": "friends of Placemoir"
+    },
+    "inLanguage": "en",
+    "dateModified": "2026-11-08",
+    "countries": [
+      "US"
+    ],
+    "sections": [
+      {
+        "id": "stay",
+        "name": "Stay"
+      },
+      {
+        "id": "eat",
+        "name": "Eat"
+      },
+      {
+        "id": "see",
+        "name": "See"
+      },
+      {
+        "id": "outside",
+        "name": "Outside"
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "the-plaza",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9744,
+          40.7646
+        ]
+      },
+      "properties": {
+        "name": "The Plaza",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "The 1907 landmark on Central Park South. Have tea in the Palm Court even if you don't stay.",
+        "address": "768 5th Ave, New York, NY 10019",
+        "locality": "Midtown",
+        "lastVerified": "2026-11-07",
+        "match": {
+          "query": "The Plaza Hotel"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "standard-high-line",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0081,
+          40.7409
+        ]
+      },
+      "properties": {
+        "name": "The Standard, High Line",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "Floor-to-ceiling windows straddling the High Line, with river or skyline views.",
+        "address": "848 Washington St, New York, NY 10014",
+        "locality": "Meatpacking District",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "arlo-soho",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0081,
+          40.7238
+        ]
+      },
+      "properties": {
+        "name": "Arlo SoHo",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "Small, smart rooms at a fair price, between SoHo and Tribeca.",
+        "address": "231 Hudson St, New York, NY 10013",
+        "locality": "Hudson Square",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "wythe-hotel",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.958,
+          40.722
+        ]
+      },
+      "properties": {
+        "name": "Wythe Hotel",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A 1901 factory turned hotel in Williamsburg, with a rooftop bar facing Manhattan.",
+        "address": "80 Wythe Ave, Brooklyn, NY 11249",
+        "locality": "Williamsburg",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pod-times-square",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9929,
+          40.7586
+        ]
+      },
+      "properties": {
+        "name": "Pod Times Square",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "Tiny, clever rooms near the theaters. The budget pick, with a rooftop.",
+        "address": "400 W 42nd St, New York, NY 10036",
+        "locality": "Hell's Kitchen",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "katzs",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9874,
+          40.7223
+        ]
+      },
+      "properties": {
+        "name": "Katz's Delicatessen",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Pastrami on rye since 1888. Keep your ticket, and tip the carver for a taste.",
+        "address": "205 E Houston St, New York, NY 10002",
+        "locality": "Lower East Side",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "russ-and-daughters",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9883,
+          40.7224
+        ]
+      },
+      "properties": {
+        "name": "Russ & Daughters",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Smoked fish and bagels from a family shop open since 1914. Take a number.",
+        "address": "179 E Houston St, New York, NY 10002",
+        "locality": "Lower East Side",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "joes-pizza",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0021,
+          40.7305
+        ]
+      },
+      "properties": {
+        "name": "Joe's Pizza",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "The classic New York slice, folded and eaten standing up.",
+        "address": "7 Carmine St, New York, NY 10014",
+        "locality": "Greenwich Village",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nom-wah",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9982,
+          40.7144
+        ]
+      },
+      "properties": {
+        "name": "Nom Wah Tea Parlor",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Dim sum on Chinatown's crooked Doyers Street since 1920.",
+        "address": "13 Doyers St, New York, NY 10013",
+        "locality": "Chinatown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "xian-famous-foods",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9973,
+          40.7151
+        ]
+      },
+      "properties": {
+        "name": "Xi'an Famous Foods",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Hand-pulled noodles with spicy cumin lamb. Cheap and fiery.",
+        "address": "45 Bayard St, New York, NY 10013",
+        "locality": "Chinatown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "veselka",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9871,
+          40.729
+        ]
+      },
+      "properties": {
+        "name": "Veselka",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Ukrainian pierogi and borscht, open late, in the East Village since 1954.",
+        "address": "144 2nd Ave, New York, NY 10003",
+        "locality": "East Village",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gramercy-tavern",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9885,
+          40.7385
+        ]
+      },
+      "properties": {
+        "name": "Gramercy Tavern",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Seasonal American cooking. The front tavern room takes walk-ins.",
+        "address": "42 E 20th St, New York, NY 10003",
+        "locality": "Flatiron",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "grand-central-oyster-bar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9772,
+          40.7524
+        ]
+      },
+      "properties": {
+        "name": "Grand Central Oyster Bar",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Oysters and pan roasts under the tiled vaults of Grand Central since 1913.",
+        "address": "89 E 42nd St, New York, NY 10017",
+        "locality": "Midtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "chelsea-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0061,
+          40.7424
+        ]
+      },
+      "properties": {
+        "name": "Chelsea Market",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A food hall in the old Nabisco factory. Tacos, lobster and doughnuts before a High Line walk.",
+        "address": "75 9th Ave, New York, NY 10011",
+        "locality": "Chelsea",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "barney-greengrass",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9745,
+          40.7882
+        ]
+      },
+      "properties": {
+        "name": "Barney Greengrass",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "The Sturgeon King since 1908. Eggs with lox and onions for a weekend breakfast.",
+        "address": "541 Amsterdam Ave, New York, NY 10024",
+        "locality": "Upper West Side",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "levain-bakery",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9805,
+          40.7799
+        ]
+      },
+      "properties": {
+        "name": "Levain Bakery",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "Six-ounce chocolate chip walnut cookies, warm from the oven. One is plenty for two.",
+        "address": "167 W 74th St, New York, NY 10023",
+        "locality": "Upper West Side",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sylvias",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9446,
+          40.8089
+        ]
+      },
+      "properties": {
+        "name": "Sylvia's Restaurant",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Harlem's soul food landmark since 1962. Fried chicken and waffles, and a gospel brunch on Sundays.",
+        "address": "328 Malcolm X Blvd, New York, NY 10027",
+        "locality": "Harlem",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "peter-luger",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9623,
+          40.7099
+        ]
+      },
+      "properties": {
+        "name": "Peter Luger Steak House",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Porterhouse for two and creamed spinach since 1887. Book well ahead.",
+        "address": "178 Broadway, Brooklyn, NY 11211",
+        "locality": "Williamsburg",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "di-fara",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9615,
+          40.625
+        ]
+      },
+      "properties": {
+        "name": "Di Fara Pizza",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A Brooklyn pizza legend, worth the subway ride and the wait.",
+        "address": "1424 Avenue J, Brooklyn, NY 11230",
+        "locality": "Midwood",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mcsorleys",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9897,
+          40.7286
+        ]
+      },
+      "properties": {
+        "name": "McSorley's Old Ale House",
+        "category": "bar",
+        "section": "eat",
+        "notes": "Light or dark ale, sawdust on the floor and history on every wall since 1854.",
+        "address": "15 E 7th St, New York, NY 10003",
+        "locality": "East Village",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bemelmans",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9632,
+          40.7745
+        ]
+      },
+      "properties": {
+        "name": "Bemelmans Bar",
+        "category": "bar",
+        "section": "eat",
+        "notes": "Live piano and murals by the author of Madeline, in the Carlyle Hotel.",
+        "address": "35 E 76th St, New York, NY 10021",
+        "locality": "Upper East Side",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dead-rabbit",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0112,
+          40.7034
+        ]
+      },
+      "properties": {
+        "name": "The Dead Rabbit",
+        "category": "bar",
+        "section": "eat",
+        "notes": "An Irish pub downstairs and award-winning cocktails upstairs, near the Staten Island ferry.",
+        "address": "30 Water St, New York, NY 10004",
+        "locality": "Financial District",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-met",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9632,
+          40.7794
+        ]
+      },
+      "properties": {
+        "name": "The Metropolitan Museum of Art",
+        "category": "museum",
+        "section": "see",
+        "notes": "Plan for a full day, or pick two wings. The rooftop garden is open in summer.",
+        "address": "1000 5th Ave, New York, NY 10028",
+        "locality": "Upper East Side",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "moma",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9776,
+          40.7614
+        ]
+      },
+      "properties": {
+        "name": "The Museum of Modern Art",
+        "category": "museum",
+        "section": "see",
+        "notes": "Van Gogh's Starry Night, Monet's water lilies and much more. Book a timed ticket.",
+        "address": "11 W 53rd St, New York, NY 10019",
+        "locality": "Midtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "guggenheim",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.959,
+          40.783
+        ]
+      },
+      "properties": {
+        "name": "Solomon R. Guggenheim Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "Frank Lloyd Wright's spiral. Ride to the top and walk down the ramp.",
+        "address": "1071 5th Ave, New York, NY 10128",
+        "locality": "Upper East Side",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "natural-history",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.7813
+        ]
+      },
+      "properties": {
+        "name": "American Museum of Natural History",
+        "category": "museum",
+        "section": "see",
+        "notes": "Dinosaurs, the blue whale and the planetarium, right on Central Park.",
+        "address": "200 Central Park W, New York, NY 10024",
+        "locality": "Upper West Side",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "whitney",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0089,
+          40.7396
+        ]
+      },
+      "properties": {
+        "name": "Whitney Museum of American Art",
+        "category": "museum",
+        "section": "see",
+        "notes": "American art with terraces over the Hudson, at the south end of the High Line.",
+        "address": "99 Gansevoort St, New York, NY 10014",
+        "locality": "Meatpacking District",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "tenement-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99,
+          40.7188
+        ]
+      },
+      "properties": {
+        "name": "Tenement Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "Guided tours of real immigrant apartments. Book ahead, then eat at Katz's.",
+        "address": "103 Orchard St, New York, NY 10002",
+        "locality": "Lower East Side",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "911-memorial",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0134,
+          40.7115
+        ]
+      },
+      "properties": {
+        "name": "9/11 Memorial & Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "The reflecting pools are free. Give the museum a few quiet hours.",
+        "address": "180 Greenwich St, New York, NY 10007",
+        "locality": "Financial District",
+        "lastVerified": "2026-11-07",
+        "match": {
+          "skip": "Apple Maps lists it at 842 Greenwich St; 180 Greenwich St is the museum's own address"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "statue-of-liberty",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0445,
+          40.6892
+        ]
+      },
+      "properties": {
+        "name": "Statue of Liberty",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Book the ferry from Battery Park early, with pedestal or crown tickets, and include Ellis Island.",
+        "address": "Liberty Island, New York, NY 10004",
+        "locality": "New York Harbor",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "staten-island-ferry",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0131,
+          40.7013
+        ]
+      },
+      "properties": {
+        "name": "Staten Island Ferry",
+        "category": "attraction",
+        "section": "see",
+        "notes": "A free harbor cruise past the Statue of Liberty. Stand on the right side going out.",
+        "address": "4 South St, New York, NY 10004",
+        "locality": "Financial District",
+        "lastVerified": "2026-11-07",
+        "match": {
+          "query": "Whitehall Terminal"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "empire-state",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9857,
+          40.7484
+        ]
+      },
+      "properties": {
+        "name": "Empire State Building",
+        "category": "attraction",
+        "section": "see",
+        "notes": "The 86th-floor open-air deck. Go late at night for fewer people and city lights.",
+        "address": "20 W 34th St, New York, NY 10001",
+        "locality": "Midtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "top-of-the-rock",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9794,
+          40.7593
+        ]
+      },
+      "properties": {
+        "name": "Top of the Rock",
+        "category": "attraction",
+        "section": "see",
+        "notes": "The best view of the Empire State Building, with Central Park on the other side.",
+        "address": "30 Rockefeller Plaza, New York, NY 10112",
+        "locality": "Midtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "grand-central",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9772,
+          40.7527
+        ]
+      },
+      "properties": {
+        "name": "Grand Central Terminal",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Look up at the starry ceiling, and try the whispering gallery by the Oyster Bar.",
+        "address": "89 E 42nd St, New York, NY 10017",
+        "locality": "Midtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nypl",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9822,
+          40.7532
+        ]
+      },
+      "properties": {
+        "name": "New York Public Library",
+        "category": "attraction",
+        "section": "see",
+        "notes": "The Rose Main Reading Room, guarded by the lions Patience and Fortitude. Free.",
+        "address": "476 5th Ave, New York, NY 10018",
+        "locality": "Midtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-cloisters",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9319,
+          40.8649
+        ]
+      },
+      "properties": {
+        "name": "The Met Cloisters",
+        "category": "museum",
+        "section": "see",
+        "notes": "Medieval art in a reassembled monastery high above the Hudson. The unicorn tapestries are the star.",
+        "address": "99 Margaret Corbin Dr, New York, NY 10040",
+        "locality": "Fort Tryon Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "apollo-theater",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95,
+          40.81
+        ]
+      },
+      "properties": {
+        "name": "Apollo Theater",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Ella Fitzgerald started here. Wednesday's Amateur Night is still a show.",
+        "address": "253 W 125th St, New York, NY 10027",
+        "locality": "Harlem",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "brooklyn-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9636,
+          40.6712
+        ]
+      },
+      "properties": {
+        "name": "Brooklyn Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "Egyptian art and Judy Chicago's Dinner Party. The Botanic Garden is next door.",
+        "address": "200 Eastern Pkwy, Brooklyn, NY 11238",
+        "locality": "Prospect Heights",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "central-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9654,
+          40.7829
+        ]
+      },
+      "properties": {
+        "name": "Central Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "Walk from the Pond to Bethesda Terrace and the Ramble, or rent a rowboat at the Loeb Boathouse.",
+        "address": "Central Park, New York, NY 10024",
+        "locality": "Central Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-high-line",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0048,
+          40.748
+        ]
+      },
+      "properties": {
+        "name": "The High Line",
+        "category": "park",
+        "section": "outside",
+        "notes": "An old freight line turned garden walk. Start at Gansevoort St and head north to Hudson Yards.",
+        "address": "High Line, New York, NY 10011",
+        "locality": "Chelsea",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "brooklyn-bridge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9969,
+          40.7061
+        ]
+      },
+      "properties": {
+        "name": "Brooklyn Bridge",
+        "category": "park",
+        "section": "outside",
+        "notes": "Walk across from Brooklyn toward Manhattan for the skyline. Early morning is quietest.",
+        "address": "Brooklyn Bridge, New York, NY 10038",
+        "locality": "Lower Manhattan",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "brooklyn-bridge-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9967,
+          40.7003
+        ]
+      },
+      "properties": {
+        "name": "Brooklyn Bridge Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "Piers turned parks along the East River, with Jane's Carousel and the best Manhattan view.",
+        "address": "334 Furman St, Brooklyn, NY 11201",
+        "locality": "Brooklyn Heights",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "little-island",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0103,
+          40.742
+        ]
+      },
+      "properties": {
+        "name": "Little Island",
+        "category": "park",
+        "section": "outside",
+        "notes": "A garden floating on tulip-shaped pillars in the Hudson. Lovely at sunset.",
+        "address": "Pier 55, Hudson River Park, New York, NY 10014",
+        "locality": "Meatpacking District",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "washington-square",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9973,
+          40.7308
+        ]
+      },
+      "properties": {
+        "name": "Washington Square Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "The arch, the fountain, street musicians and chess players. The heart of the Village.",
+        "address": "Washington Square, New York, NY 10012",
+        "locality": "Greenwich Village",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bryant-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9832,
+          40.7536
+        ]
+      },
+      "properties": {
+        "name": "Bryant Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "A green lawn behind the library, with an ice rink and holiday market in winter.",
+        "address": "Bryant Park, New York, NY 10018",
+        "locality": "Midtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "prospect-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.6602
+        ]
+      },
+      "properties": {
+        "name": "Prospect Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "Olmsted's Brooklyn masterpiece, quieter than Central Park. Walk the Long Meadow and around the lake.",
+        "address": "Prospect Park, Brooklyn, NY 11225",
+        "locality": "Prospect Park",
+        "lastVerified": "2026-11-07"
+      }
+    }
+  ]
+}
