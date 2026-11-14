@@ -37,6 +37,7 @@ export const KINDS = {
   museum: "Museum",
   attraction: "Something to see or do",
   park: "Park or outdoors",
+  trail: "Trail or hike",
   other: "Something else",
 };
 
@@ -137,12 +138,13 @@ export function validate(form) {
     if (length(text) > LIMITS[field]) errors[errorField] = `Keep this under ${LIMITS[field]} characters.`;
   };
 
-  // The city list holds the cities with a guide; "other" means the visitor typed one in.
+  // The form's "city" list holds the published guides by title (cities, parks, trips…); "other"
+  // means a new guide idea the visitor typed in. The field names predate parks and trips.
   const cityChoice = get("city");
   const cityField = cityChoice === "other" ? "otherCity" : "city";
   value.city = cityChoice === "other" ? get("otherCity") : cityChoice;
   value.hasGuide = cityChoice !== "other";
-  if (!value.city) errors[cityField] = "Pick the city, or type it in.";
+  if (!value.city) errors[cityField] = "Pick a guide, or type in a new guide idea.";
   else tooLong("city", value.city, cityField);
 
   value.place = get("place");
@@ -216,7 +218,7 @@ export function issue(s, date = new Date()) {
   const title = [...inertTitle(`${s.place} (${s.city})`)].slice(0, 200).join("");
   const lines = [
     `**Place:** ${inert(s.place)}  `,
-    `**City:** ${inert(s.city)}${s.hasGuide ? "" : " (no Field Guide yet)"}  `,
+    `**Guide:** ${inert(s.city)}${s.hasGuide ? "" : " (new guide idea)"}  `,
     `**Kind:** ${KINDS[s.kind]}  `,
   ];
   if (s.address) lines.push(`**Address:** ${inert(s.address)}  `);

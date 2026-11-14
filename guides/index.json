@@ -1,7 +1,7 @@
 {
   "format": "placemoir-guides",
   "formatVersion": 1,
-  "updatedAt": "2026-11-08",
+  "updatedAt": "2026-11-14",
   "guides": [
     {
       "slug": "atlanta",
@@ -107,6 +107,29 @@
       "url": "https://placemoir.app/guides/denver/",
       "guideURL": "https://placemoir.app/guides/denver/guide.json",
       "archiveURL": "https://placemoir.app/guides/denver/denver.placemoirarchive"
+    },
+    {
+      "slug": "great-smoky-mountains",
+      "title": "Great Smoky Mountains from Cades Cove to Kuwohi",
+      "summary": "Three or four days in the country's most visited national park: a hike-in lodge, waterfall walks, old farm valleys full of deer and elk, and pancakes in the towns at either end.",
+      "author": "friends of Placemoir",
+      "language": "en",
+      "country": "United States",
+      "kind": "park",
+      "region": "Tennessee and North Carolina",
+      "sections": [
+        "Stay",
+        "Eat",
+        "See",
+        "Hike"
+      ],
+      "placeCount": 29,
+      "latitude": 35.6111,
+      "longitude": -83.4847,
+      "updatedAt": "2026-11-14",
+      "url": "https://placemoir.app/guides/great-smoky-mountains/",
+      "guideURL": "https://placemoir.app/guides/great-smoky-mountains/guide.json",
+      "archiveURL": "https://placemoir.app/guides/great-smoky-mountains/great-smoky-mountains.placemoirarchive"
     },
     {
       "slug": "kansas-city",

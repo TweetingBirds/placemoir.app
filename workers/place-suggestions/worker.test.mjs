@@ -146,6 +146,8 @@ test("validates every field", () => {
     assert.ok(check({ link }).errors?.link, link);
   }
   assert.ok(check({ city: "" }).errors.city);
+  assert.equal(check({ city: "Great Smoky Mountains from Cades Cove to Kuwohi" }).value.hasGuide, true, "a guide title");
+  assert.equal(check({ kind: "trail" }).value.kind, "trail");
   assert.ok(check({ city: "other", otherCity: "" }).errors.otherCity);
   assert.equal(check({ city: "other", otherCity: "Savannah" }).value.hasGuide, false);
   assert.ok(check({ city: "other", otherCity: "x".repeat(LIMITS.city + 1) }).errors.otherCity);
@@ -199,7 +201,7 @@ test("keeps the issue readable", () => {
   }));
   const { title, body } = issue(value, new Date("2026-11-12T10:00:00Z"));
   assert.equal(title, "Mary Mac's Tea Room (Decatur)");
-  assert.match(body, /\*\*City:\*\* Decatur \(no Field Guide yet\)/);
+  assert.match(body, /\*\*Guide:\*\* Decatur \(new guide idea\)/);
   assert.match(body, /\*\*Link:\*\* `https:\/\/maps\.apple\.com\/place\?q=Mary%60Mac`/);
   assert.match(body, /Great\\\.\n\nGo early\\\./);
   assert.match(body, /Thank them by name: Dana\n\nNo location given\./, "the old first-name choice still works");

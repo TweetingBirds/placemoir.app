@@ -17,7 +17,8 @@ the guides block in sitemap.xml.
     python3 tools/guides.py maps [slug…]   # look every place up in Apple Maps (see below)
     python3 tools/guides.py token <origin> [days]  # write guides/mapkit-token.json for the map
 
-A source can set "kind" (city, the default; park; state-parks; route) and "region" (the states
+A source can set "kind" (city, the default; park; state-parks; route; food; theme; season;
+weekend) and "region" (the states
 or provinces a park or route covers, shown under the title). Both go into guide.json and
 index.json only when set. Guides that aren't city guides get a not-affiliated and check-before-
 you-go line, and the guides list groups by kind once more than one kind is published.
@@ -54,6 +55,7 @@ import pathlib
 import re
 import sys
 import time
+import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -83,15 +85,14 @@ TURNSTILE_CSP = {
     "script-src": ["https://challenges.cloudflare.com"],
     "frame-src": ["https://challenges.cloudflare.com"],
 }
-# City names for the form, where the slug alone doesn't give them.
-CITY_NAMES = {"washington-dc": "Washington, DC"}
 
 CATEGORIES = {"restaurant": "Restaurant", "cafe": "Café", "bar": "Bar", "hotel": "Hotel",
               "park": "Park", "museum": "Museum", "attraction": "Attraction",
               "airport": "Airport", "other": "Place"}
 # What a guide covers. "city" is the default when a source leaves "kind" out; the guides
 # list groups by kind, in this order, once more than one kind is published.
-KINDS = {"city": "Cities", "park": "National parks", "state-parks": "State parks", "route": "Trips"}
+KINDS = {"city": "Cities", "park": "National parks", "state-parks": "State parks", "route": "Trips",
+         "food": "Food", "theme": "Themed lists", "season": "Seasons", "weekend": "Weekends and day trips"}
 PLACE_KEYS = {"key", "name", "category", "section", "address", "locality", "latitude",
               "longitude", "notes", "mapsQuery", "mapsSkip"}
 MOVED_METRES = 300
@@ -257,12 +258,14 @@ def relink(text, prefix):
 
 
 def page(title, description, canonical, body, prefix, noindex, app_argument=None, image=None, with_map=False,
-         with_turnstile=False):
+         with_turnstile=False, with_list=False):
     head, foot = template()
+    if with_list:
+        head = head.replace("</head>", '    <script src="js/guides-list.js?v=20261114.1" defer></script>\n</head>', 1)
     if with_turnstile:
         head = with_csp(head, TURNSTILE_CSP)
         head = head.replace("</head>", '    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>\n'
-                                       '    <script src="js/suggest.js?v=20261113.1" defer></script>\n</head>', 1)
+                                       '    <script src="js/suggest.js?v=20261114.1" defer></script>\n</head>', 1)
     if with_map:
         head = with_csp(head, MAPKIT_CSP)
         head = head.replace("</head>", '    <script src="js/guide-map.js?v=20261108.3" defer></script>\n</head>', 1)
@@ -396,23 +399,55 @@ def guide_page(guide):
                 noindex=guide["status"] != "published", app_argument=page_url(guide), with_map=True)
 
 
+def search_text(guide):
+    """What the guides list's search looks in: title, summary, region and place names, lowercased
+    and without accents, the same way js/guides-list.js folds what's typed."""
+    words = [guide["title"], guide["summary"], guide.get("region", "")] + [p["name"] for p in guide["places"]]
+    text = unicodedata.normalize("NFD", " ".join(w for w in words if w).lower())
+    return " ".join("".join(c for c in text if not unicodedata.combining(c)).split())
+
+
 def index_page(guides):
     e = html.escape
     published = [g for g in guides if g["status"] == "published"]
     kinds = [k for k in KINDS if any(g.get("kind", "city") == k for g in published)]
+    controls = ""
     if published:
         def grid(group):
-            cards = "\n".join(f'''                <article class="prompt-card card">
+            cards = "\n".join(f'''                <article class="prompt-card card" data-kind="{e(g.get('kind', 'city'))}" data-search="{e(search_text(g))}">
                     <p class="meta">{len(g['places'])} places</p>
                     <h3><a href="{g['slug']}/">{e(g['title'])}</a></h3>
                     <p>{e(g['summary'])}</p>
                 </article>''' for g in group)
             return f'            <div class="prompt-grid">\n{cards}\n            </div>'
         if len(kinds) > 1:
-            listing = "\n".join(f'''            <h2 class="press-h2" id="{k}">{KINDS[k]}</h2>
-{grid([g for g in published if g.get("kind", "city") == k])}''' for k in kinds)
+            listing = "\n".join(f'''            <section class="guide-group" data-kind="{k}" aria-labelledby="{k}">
+            <h2 class="press-h2" id="{k}">{KINDS[k]}</h2>
+{grid([g for g in published if g.get("kind", "city") == k])}
+            </section>''' for k in kinds)
         else:
             listing = grid(published)
+        # Rendered hidden: js/guides-list.js shows them, so without JavaScript the list is as it was.
+        filters = ""
+        if len(kinds) > 1:
+            buttons = "\n".join(f'                    <button class="filter-chip" type="button" data-kind="{k}" aria-pressed="false">{KINDS[k]}</button>'
+                                for k in kinds)
+            filters = f'''
+                <div class="guide-filters" role="group" aria-label="Show guides by type">
+                    <button class="filter-chip" type="button" data-kind="" aria-pressed="true">All</button>
+{buttons}
+                </div>'''
+        no_match = ('No guides match. Try another word, or <a href="suggest/">suggest a place</a>.' if TURNSTILE_SITE_KEY
+                    else "No guides match. Try another word.")
+        controls = f'''
+            <div class="guide-controls" id="guideControls" hidden>
+                <div class="field guide-search">
+                    <label for="guideSearch">Search guides</label>
+                    <input id="guideSearch" type="search" autocomplete="off" spellcheck="false">
+                </div>{filters}
+                <p class="guide-count" id="guideCount" aria-live="polite"></p>
+                <template id="guideNoMatch">{no_match}</template>
+            </div>'''
     else:
         listing = '            <p class="press-lede">The first guides are on their way.</p>'
     intro = ("A week of places to stay, eat, see and walk in a city" if kinds in ([], ["city"])
@@ -424,11 +459,13 @@ def index_page(guides):
                 <p>{intro}, picked by people who've been. Add a Field Guide to your Want to go list in Placemoir, then rate each place once you've gone.</p>
             </header>
         </div>
-        <div class="wrap page-body">
-{listing}{suggest_card()}
+        <div class="wrap page-body">{controls}
+            <div id="guideList">
+{listing}
+            </div>{suggest_card()}
         </div>'''
     return page("Field Guides", "Placemoir Field Guides: city guides you can add to your Want to go list.",
-                f"{BASE_URL}/guides/", body, "../", noindex=not published)
+                f"{BASE_URL}/guides/", body, "../", noindex=not published, with_list=bool(published))
 
 
 def suggest_card(prefix=""):
@@ -438,13 +475,9 @@ def suggest_card(prefix=""):
             <div class="contact-card card">
                 <p class="eyebrow plum">Suggest a place</p>
                 <h2>Know a place that belongs here?</h2>
-                <p>Tell us about a place you'd send a friend to, in one of these cities or a new one. We read every suggestion.</p>
+                <p>Tell us about a place you'd send a friend to, for one of these guides or a new one. We read every suggestion.</p>
                 <a class="btn btn-moss" href="{prefix}suggest/">Suggest a place</a>
             </div>'''
-
-
-def city_name(slug):
-    return CITY_NAMES.get(slug) or " ".join(w.capitalize() for w in slug.split("-"))
 
 
 def suggest_page(guides):
@@ -469,11 +502,18 @@ def suggest_page(guides):
         return page("Suggest a place", "Suggest a place for a Placemoir Field Guide.", SUGGEST_URL, body, "../../",
                     noindex=True)
 
-    cities = sorted({city_name(g["slug"]) for g in guides if g["status"] == "published"})
-    city_options = "\n".join(f'                            <option>{e(c)}</option>' for c in cities)
+    # The guide's title is what the Worker files the suggestion under, so the issue names the guide.
+    published = [g for g in guides if g["status"] == "published"]
+    groups = []
+    for kind, label in KINDS.items():
+        titles = sorted(g["title"] for g in published if g.get("kind", "city") == kind)
+        if titles:
+            options = "\n".join(f'                                <option>{e(t)}</option>' for t in titles)
+            groups.append(f'                            <optgroup label="{e(label)}">\n{options}\n                            </optgroup>')
+    city_options = "\n".join(groups)
     kinds = [("restaurant", "Restaurant"), ("cafe", "Café or bakery"), ("bar", "Bar"), ("hotel", "Place to stay"),
              ("museum", "Museum"), ("attraction", "Something to see or do"), ("park", "Park or outdoors"),
-             ("other", "Something else")]
+             ("trail", "Trail or hike"), ("other", "Something else")]
     kind_options = "\n".join(f'                            <option value="{k}">{e(label)}</option>' for k, label in kinds)
     went = [("month", "In the last month"), ("6-months", "In the last 6 months"), ("year", "In the last year"),
             ("2-years", "1 to 2 years ago"), ("older", "More than 2 years ago")]
@@ -485,17 +525,17 @@ def suggest_page(guides):
                 <fieldset>
                     <legend>The place</legend>
                     <div class="field">
-                        <label for="city">City</label>
+                        <label for="city">Which guide?</label>
                         <select id="city" name="city" required aria-describedby="city-error">
-                            <option value="" selected disabled>Choose a city</option>
+                            <option value="" selected disabled>Choose a guide</option>
 {city_options}
-                            <option value="other">Another city</option>
+                            <option value="other">A new guide idea</option>
                         </select>
                         <p class="field-error" id="city-error" hidden></p>
                     </div>
                     <div class="field" id="otherCityField" hidden>
-                        <label for="otherCity">Which city?</label>
-                        <input id="otherCity" name="otherCity" type="text" maxlength="60" autocomplete="address-level2" aria-describedby="otherCity-error">
+                        <label for="otherCity">Which city, park or trip?</label>
+                        <input id="otherCity" name="otherCity" type="text" maxlength="60" autocomplete="off" aria-describedby="otherCity-error">
                         <p class="field-error" id="otherCity-error" hidden></p>
                     </div>
                     <div class="field">

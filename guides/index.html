@@ -18,8 +18,9 @@
     <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64.png">
     <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
     <link rel="stylesheet" href="../css/fonts.css?v=20261103.2">
-    <link rel="stylesheet" href="../css/site.css?v=20261112.2">
+    <link rel="stylesheet" href="../css/site.css?v=20261114.1">
     <script src="../js/theme.js?v=20261112.1"></script>
+    <script src="../js/guides-list.js?v=20261114.1" defer></script>
 </head>
 <body>
     <a class="skip" href="#main">Skip to content</a>
@@ -53,86 +54,114 @@
             <header class="page-head">
                 <p class="eyebrow moss">Field Guides</p>
                 <h1>Places worth the trip.</h1>
-                <p>A week of places to stay, eat, see and walk in a city, picked by people who've been. Add a Field Guide to your Want to go list in Placemoir, then rate each place once you've gone.</p>
+                <p>Places to stay, eat, see and walk, in a city or out on the trail, picked by people who've been. Add a Field Guide to your Want to go list in Placemoir, then rate each place once you've gone.</p>
             </header>
         </div>
         <div class="wrap page-body">
+            <div class="guide-controls" id="guideControls" hidden>
+                <div class="field guide-search">
+                    <label for="guideSearch">Search guides</label>
+                    <input id="guideSearch" type="search" autocomplete="off" spellcheck="false">
+                </div>
+                <div class="guide-filters" role="group" aria-label="Show guides by type">
+                    <button class="filter-chip" type="button" data-kind="" aria-pressed="true">All</button>
+                    <button class="filter-chip" type="button" data-kind="city" aria-pressed="false">Cities</button>
+                    <button class="filter-chip" type="button" data-kind="park" aria-pressed="false">National parks</button>
+                </div>
+                <p class="guide-count" id="guideCount" aria-live="polite"></p>
+                <template id="guideNoMatch">No guides match. Try another word, or <a href="suggest/">suggest a place</a>.</template>
+            </div>
+            <div id="guideList">
+            <section class="guide-group" data-kind="city" aria-labelledby="city">
+            <h2 class="press-h2" id="city">Cities</h2>
             <div class="prompt-grid">
-                <article class="prompt-card card">
+                <article class="prompt-card card" data-kind="city" data-search="atlanta from mary mac&#x27;s to the beltline seven days of civil rights history, southern cooking, beltline walks and a few places to stay, from sweet auburn to the westside. the georgian terrace hotel hotel clermont the candler hotel atlanta the st. regis atlanta mary mac&#x27;s tea room the varsity busy bee cafe paschal&#x27;s fox bros. bar-b-q antico pizza napoletana krog street market ticonderoga club gunshow bacchanalia miller union talat market sweet auburn curb market lee&#x27;s bakery desta ethiopian kitchen kimball house bones martin luther king, jr. national historical park national center for civil and human rights georgia aquarium world of coca-cola high museum of art fox theatre atlanta history center jimmy carter presidential library and museum ponce city market historic oakland cemetery center for puppetry arts fernbank museum delta flight museum zoo atlanta buford highway farmers market piedmont park atlanta botanical garden atlanta beltline eastside trail historic fourth ward park shirley clarke franklin park cochran shoals">
                     <p class="meta">42 places</p>
                     <h3><a href="atlanta/">Atlanta from Mary Mac&#x27;s to the BeltLine</a></h3>
                     <p>Seven days of civil rights history, Southern cooking, BeltLine walks and a few places to stay, from Sweet Auburn to the Westside.</p>
                 </article>
-                <article class="prompt-card card">
+                <article class="prompt-card card" data-kind="city" data-search="live music and swimming holes in austin seven days of brisket and breakfast tacos, live music every night, spring-fed swimming holes and bats over lady bird lake. the driskill hotel san jose hotel saint cecilia austin motel franklin barbecue la barbecue terry black&#x27;s barbecue veracruz all natural joe&#x27;s bakery &amp; coffee shop juan in a million matt&#x27;s el rancho uchi odd duck kerbey lane cafe jo&#x27;s coffee lick honest ice creams the continental club broken spoke the white horse antone&#x27;s nightclub cosmic coffee + beer garden texas state capitol bullock texas state history museum blanton museum of art lbj presidential library harry ransom center ann w. richards congress avenue bridge mexic-arte museum umlauf sculpture garden &amp; museum elisabet ney museum acl live at the moody theater barton springs pool zilker metropolitan park ann and roy butler hike-and-bike trail mount bonnell lady bird johnson wildflower center mckinney falls state park hamilton pool preserve">
                     <p class="meta">38 places</p>
                     <h3><a href="austin/">Live music and swimming holes in Austin</a></h3>
                     <p>Seven days of brisket and breakfast tacos, live music every night, spring-fed swimming holes and bats over Lady Bird Lake.</p>
                 </article>
-                <article class="prompt-card card">
+                <article class="prompt-card card" data-kind="city" data-search="boston on foot seven days of the freedom trail and the north end, oysters and cannoli, great museums, fenway and walks along the charles. omni parker house the liberty, a luxury collection hotel fairmont copley plaza the verb hotel neptune oyster union oyster house giacomo&#x27;s regina pizzeria mike&#x27;s pastry modern pastry quincy market row 34 toro myers + chang flour bakery + cafe tatte bakery &amp; cafe santarpio&#x27;s pizza sullivan&#x27;s castle island bell in hand tavern bleacher bar paul revere house old north church faneuil hall massachusetts state house uss constitution museum museum of fine arts, boston isabella stewart gardner museum boston public library trinity church fenway park new england aquarium john f. kennedy presidential library and museum institute of contemporary art harvard yard mit museum boston common boston public garden charles river esplanade rose kennedy greenway arnold arboretum castle island">
                     <p class="meta">41 places</p>
                     <h3><a href="boston/">Boston on foot</a></h3>
                     <p>Seven days of the Freedom Trail and the North End, oysters and cannoli, great museums, Fenway and walks along the Charles.</p>
                 </article>
-                <article class="prompt-card card">
+                <article class="prompt-card card" data-kind="city" data-search="chicago by the lake seven days of architecture by boat, deep dish and italian beef, the art institute and the lakefront, blues bars and a game at wrigley. the drake hotel chicago athletic association the langham, chicago freehand chicago portillo&#x27;s mr. beef on orleans lou malnati&#x27;s pizzeria pequod&#x27;s pizza au cheval girl &amp; the goat frontera grill kasama alinea lou mitchell&#x27;s manny&#x27;s cafeteria &amp; delicatessen superdawg drive-in intelligentsia coffee the green mill kingston mines the violet hour billy goat tavern art institute of chicago chicago architecture center skydeck chicago field museum shedd aquarium adler planetarium museum of science and industry frederick c. robie house frank lloyd wright home and studio chicago cultural center museum of contemporary art chicago wrigley field navy pier 360 chicago millennium park maggie daley park chicago riverwalk lincoln park zoo lincoln park conservatory north avenue beach the 606 garfield park conservatory">
                     <p class="meta">43 places</p>
                     <h3><a href="chicago/">Chicago by the lake</a></h3>
                     <p>Seven days of architecture by boat, deep dish and Italian beef, the Art Institute and the lakefront, blues bars and a game at Wrigley.</p>
                 </article>
-                <article class="prompt-card card">
+                <article class="prompt-card card" data-kind="city" data-search="a mile high in denver seven days of mountain views and red rocks, green chile and craft beer, great museums and murals, with a day up in the foothills. the brown palace hotel and spa the crawford hotel limelight hotel denver the ramble hotel snooze, an a.m. eatery biker jim&#x27;s gourmet dogs denver central market work &amp; class rioja tavernetta buckhorn exchange sam&#x27;s no. 3 el taco de mexico rosenberg&#x27;s bagels &amp; delicatessen little man ice cream williams &amp; graham my brother&#x27;s bar wynkoop brewing company denver union station denver art museum clyfford still museum history colorado center colorado state capitol molly brown house museum larimer square meow wolf convergence station denver museum of nature &amp; science united states mint at denver coors field red rocks park and amphitheatre denver botanic gardens city park washington park confluence park chautauqua park buffalo bill museum and grave">
                     <p class="meta">36 places</p>
                     <h3><a href="denver/">A mile high in Denver</a></h3>
                     <p>Seven days of mountain views and red rocks, green chile and craft beer, great museums and murals, with a day up in the foothills.</p>
                 </article>
-                <article class="prompt-card card">
+                <article class="prompt-card card" data-kind="city" data-search="barbecue and jazz in kansas city seven days of barbecue and jazz, fountains and boulevards, the wwi museum and the nelson-atkins, with a chiefs or royals game if you can. hotel kansas city the raphael hotel the fontaine crossroads hotel joe&#x27;s kansas city bar-b-que arthur bryant&#x27;s barbeque gates bar-b-q q39 jack stack barbecue lc&#x27;s bar-b-q corvino supper club the rieger town topic hamburgers city market messenger coffee christopher elbow chocolates betty rae&#x27;s ice cream tom&#x27;s town distilling co. green lady lounge boulevard brewing co. national wwi museum and memorial nelson-atkins museum of art kemper museum of contemporary art american jazz museum negro leagues baseball museum mutual musicians foundation union station kansas city arabia steamboat museum country club plaza kauffman center for the performing arts harry s. truman library and museum geha field at arrowhead stadium kauffman stadium loose park penn valley park swope park overland park arboretum and botanical gardens shawnee mission park">
                     <p class="meta">38 places</p>
                     <h3><a href="kansas-city/">Barbecue and jazz in Kansas City</a></h3>
                     <p>Seven days of barbecue and jazz, fountains and boulevards, the WWI museum and the Nelson-Atkins, with a Chiefs or Royals game if you can.</p>
                 </article>
-                <article class="prompt-card card">
+                <article class="prompt-card card" data-kind="city" data-search="nashville beyond broadway seven days of hot chicken and meat-and-threes, honky-tonks and the opry, songwriter nights, and green trails just outside town. the hermitage hotel the union station nashville yards noelle graduate nashville prince&#x27;s hot chicken shack hattie b&#x27;s hot chicken bolton&#x27;s spicy chicken &amp; fish arnold&#x27;s country kitchen loveless cafe pancake pantry biscuit love martin&#x27;s bar-b-que joint husk rolf and daughters mas tacos por favor barista parlor the patterson house robert&#x27;s western world tootsie&#x27;s orchid lounge the station inn ryman auditorium country music hall of fame and museum johnny cash museum national museum of african american music frist art museum grand ole opry the bluebird cafe the parthenon tennessee state capitol the hermitage belle meade historic site &amp; winery centennial park cheekwood estate &amp; gardens john seigenthaler pedestrian bridge bicentennial capitol mall state park shelby bottoms greenway radnor lake state park warner parks">
                     <p class="meta">38 places</p>
                     <h3><a href="nashville/">Nashville beyond Broadway</a></h3>
                     <p>Seven days of hot chicken and meat-and-threes, honky-tonks and the Opry, songwriter nights, and green trails just outside town.</p>
                 </article>
-                <article class="prompt-card card">
+                <article class="prompt-card card" data-kind="city" data-search="new york by ferry and on foot seven days of museums and delis, bridges and harbor ferries, central park and the high line, across manhattan and brooklyn. the plaza the standard, high line arlo soho wythe hotel pod times square katz&#x27;s delicatessen russ &amp; daughters joe&#x27;s pizza nom wah tea parlor xi&#x27;an famous foods veselka gramercy tavern grand central oyster bar chelsea market barney greengrass levain bakery sylvia&#x27;s restaurant peter luger steak house di fara pizza mcsorley&#x27;s old ale house bemelmans bar the dead rabbit the metropolitan museum of art the museum of modern art solomon r. guggenheim museum american museum of natural history whitney museum of american art tenement museum 9/11 memorial &amp; museum statue of liberty staten island ferry empire state building top of the rock grand central terminal new york public library the met cloisters apollo theater brooklyn museum central park the high line brooklyn bridge brooklyn bridge park little island washington square park bryant park prospect park">
                     <p class="meta">46 places</p>
                     <h3><a href="new-york/">New York by ferry and on foot</a></h3>
                     <p>Seven days of museums and delis, bridges and harbor ferries, Central Park and the High Line, across Manhattan and Brooklyn.</p>
                 </article>
-                <article class="prompt-card card">
+                <article class="prompt-card card" data-kind="city" data-search="theme parks and springs in orlando seven days of theme parks and the space coast, springs and manatees, and the quieter, tree-lined side of orlando and winter park. disney&#x27;s grand floridian resort &amp; spa disney&#x27;s pop century resort loews royal pacific resort the alfond inn victoria &amp; albert&#x27;s sanaa raglan road irish pub the boathouse the ravenous pig prato hawkers asian street food pho 88 se7en bites black bean deli kres chophouse east end market dandelion communitea cafe wally&#x27;s mills ave liquors magic kingdom park epcot disney&#x27;s animal kingdom theme park universal studios florida universal islands of adventure universal epic universe kennedy space center visitor complex charles hosmer morse museum of american art orlando museum of art orlando science center scenic boat tour gatorland disney springs lake eola park harry p. leu gardens kraft azalea garden wekiwa springs state park blue spring state park bok tower gardens">
                     <p class="meta">37 places</p>
                     <h3><a href="orlando/">Theme parks and springs in Orlando</a></h3>
                     <p>Seven days of theme parks and the space coast, springs and manatees, and the quieter, tree-lined side of Orlando and Winter Park.</p>
                 </article>
-                <article class="prompt-card card">
+                <article class="prompt-card card" data-kind="city" data-search="portland rain or shine seven days of food carts and doughnuts, roses and a japanese garden, books and coffee, and waterfalls in the columbia river gorge. the benson portland hotel deluxe the hoxton, portland jupiter hotel le pigeon canard screen door kachka nong&#x27;s khao man gai ken&#x27;s artisan pizza ava gene&#x27;s tusk lardo voodoo doughnut blue star donuts salt &amp; straw stumptown coffee roasters coava coffee roasters multnomah whiskey library deschutes brewery portland public house powell&#x27;s city of books lan su chinese garden portland art museum oregon museum of science and industry pittock mansion portland saturday market pioneer courthouse square portland aerial tram portland japanese garden international rose test garden forest park tom mccall waterfront park mt. tabor park laurelhurst park multnomah falls haystack rock">
                     <p class="meta">36 places</p>
                     <h3><a href="portland/">Portland rain or shine</a></h3>
                     <p>Seven days of food carts and doughnuts, roses and a Japanese garden, books and coffee, and waterfalls in the Columbia River Gorge.</p>
                 </article>
-                <article class="prompt-card card">
+                <article class="prompt-card card" data-kind="city" data-search="salt lake city under the wasatch seven days of mountain trails, pioneer history, mole and fry sauce, and a day out on the great salt lake, with the wasatch always in view. kimpton hotel monaco salt lake city the grand america hotel little america hotel inn on the hill red iguana the copper onion takashi lucky 13 bar and grill ruth&#x27;s diner caputo&#x27;s market &amp; deli feldman&#x27;s deli laziz kitchen hsl eva&#x27;s bakery tulie bakery publik coffee roasters squatters pub brewery beer bar water witch temple square beehive house utah state capitol cathedral of the madeleine natural history museum of utah utah museum of fine arts the leonardo clark planetarium salt lake city public library gilgal sculpture garden tracy aviary this is the place heritage park utah&#x27;s hogle zoo red butte garden liberty park memory grove park ensign peak nature park sugar house park donut falls trailhead antelope island state park">
                     <p class="meta">39 places</p>
                     <h3><a href="salt-lake-city/">Salt Lake City under the Wasatch</a></h3>
                     <p>Seven days of mountain trails, pioneer history, mole and fry sauce, and a day out on the Great Salt Lake, with the Wasatch always in view.</p>
                 </article>
-                <article class="prompt-card card">
+                <article class="prompt-card card" data-kind="city" data-search="san francisco in the fog seven days of cable cars and fog, dim sum and burritos, bay crossings and big parks, from the ferry building to lands end. fairmont san francisco palace hotel hotel drisco hotel zephyr swan oyster depot tadich grill hog island oyster co. la taqueria tartine bakery zuni cafe house of prime rib state bird provisions nopa good mong kok bakery mama&#x27;s on washington square liguria bakery burma superstar mitchell&#x27;s ice cream sightglass coffee vesuvio cafe the buena vista trick dog alcatraz island golden gate bridge ferry building marketplace cable car museum coit tower san francisco museum of modern art asian art museum de young museum california academy of sciences legion of honor exploratorium musee mecanique mission dolores golden gate fortune cookie factory golden gate park japanese tea garden lands end lookout crissy field mission dolores park alamo square twin peaks muir woods national monument">
                     <p class="meta">44 places</p>
                     <h3><a href="san-francisco/">San Francisco in the fog</a></h3>
                     <p>Seven days of cable cars and fog, dim sum and burritos, bay crossings and big parks, from the Ferry Building to Lands End.</p>
                 </article>
-                <article class="prompt-card card">
+                <article class="prompt-card card" data-kind="city" data-search="seattle by the sound seven days of pike place, ferries and salmon, glass art and rock history, and green parks with views of the sound and the mountains. fairmont olympic hotel inn at the market the edgewater ace hotel seattle pike place chowder piroshky piroshky beecher&#x27;s handmade cheese matt&#x27;s in the market the pink door elliott&#x27;s oyster house taylor shellfish oyster bar salumi canlis paseo un bien dick&#x27;s drive-in molly moon&#x27;s homemade ice cream caffe vita zig zag cafe fremont brewing pike place market space needle chihuly garden and glass museum of pop culture seattle art museum seattle central library seattle aquarium klondike gold rush national historical park wing luke museum seattle ferry terminal museum of history &amp; industry hiram m. chittenden locks fremont troll burke museum the museum of flight discovery park kerry park gas works park olympic sculpture park volunteer park washington park arboretum alki beach park">
                     <p class="meta">42 places</p>
                     <h3><a href="seattle/">Seattle by the Sound</a></h3>
                     <p>Seven days of Pike Place, ferries and salmon, glass art and rock history, and green parks with views of the Sound and the mountains.</p>
                 </article>
-                <article class="prompt-card card">
+                <article class="prompt-card card" data-kind="city" data-search="free museums and half-smokes in dc seven days of free museums and monuments, half-smokes and ethiopian dinners, georgetown walks and cherry trees on the tidal basin. the hay-adams the jefferson kimpton hotel monaco washington dc hotel hive ben&#x27;s chili bowl old ebbitt grill rasika zaytinya le diplomate compass rose founding farmers martin&#x27;s tavern union market eastern market call your mother baked &amp; wired kramers round robin bar lincoln memorial washington monument united states capitol library of congress the white house national museum of african american history and culture national air and space museum national museum of natural history national gallery of art national portrait gallery united states holocaust memorial museum ford&#x27;s theatre washington national cathedral arlington national cemetery national mall tidal basin martin luther king jr. memorial united states botanic garden georgetown waterfront park dumbarton oaks rock creek park theodore roosevelt island">
                     <p class="meta">40 places</p>
                     <h3><a href="washington-dc/">Free museums and half-smokes in DC</a></h3>
                     <p>Seven days of free museums and monuments, half-smokes and Ethiopian dinners, Georgetown walks and cherry trees on the Tidal Basin.</p>
                 </article>
             </div>
+            </section>
+            <section class="guide-group" data-kind="park" aria-labelledby="park">
+            <h2 class="press-h2" id="park">National parks</h2>
+            <div class="prompt-grid">
+                <article class="prompt-card card" data-kind="park" data-search="great smoky mountains from cades cove to kuwohi three or four days in the country&#x27;s most visited national park: a hike-in lodge, waterfall walks, old farm valleys full of deer and elk, and pancakes in the towns at either end. tennessee and north carolina leconte lodge buckhorn inn dancing bear lodge fryemont inn elkmont campground cades cove campground the pancake pantry wild plum tea room the greenbrier restaurant peter&#x27;s pancakes &amp; waffles nantahala brewing sugarlands visitor center oconaluftee visitor center cades cove kuwohi newfound gap roaring fork motor nature trail mingus mill cataloochee valley museum of the cherokee people great smoky mountains heritage center alum cave trailhead chimney tops trailhead grotto falls abrams falls trailhead andrews bald charlies bunion porters creek trail deep creek trailhead">
+                    <p class="meta">29 places</p>
+                    <h3><a href="great-smoky-mountains/">Great Smoky Mountains from Cades Cove to Kuwohi</a></h3>
+                    <p>Three or four days in the country&#x27;s most visited national park: a hike-in lodge, waterfall walks, old farm valleys full of deer and elk, and pancakes in the towns at either end.</p>
+                </article>
+            </div>
+            </section>
+            </div>
             <div class="contact-card card">
                 <p class="eyebrow plum">Suggest a place</p>
                 <h2>Know a place that belongs here?</h2>
-                <p>Tell us about a place you'd send a friend to, in one of these cities or a new one. We read every suggestion.</p>
+                <p>Tell us about a place you'd send a friend to, for one of these guides or a new one. We read every suggestion.</p>
                 <a class="btn btn-moss" href="suggest/">Suggest a place</a>
             </div>
         </div>
