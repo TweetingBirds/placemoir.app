@@ -1051,17 +1051,23 @@ def search(token, place, country_code):
         query["limitToCountries"] = country_code
     request = urllib.request.Request("https://maps-api.apple.com/v1/search?" + urllib.parse.urlencode(query),
                                      headers={"Authorization": f"Bearer {token}"})
-    # Apple sometimes answers slowly or with 429 when asked many times in a row: wait and try
-    # again a few times, so one slow answer doesn't fail (or hold up) the whole check.
-    for attempt in range(4):
+    # Apple sometimes answers slowly, or with 429 when asked many times in a row (two checks
+    # running at once are enough): wait longer each time, as Retry-After asks when Apple sends
+    # it, so one busy minute doesn't fail the whole check.
+    attempts = 7
+    for attempt in range(attempts):
         try:
             with urllib.request.urlopen(request, timeout=15) as response:
                 return json.load(response).get("results", [])
         except (urllib.error.URLError, TimeoutError) as error:
             status = getattr(error, "code", None)
-            if attempt == 3 or (status is not None and status != 429 and status < 500):
+            if attempt == attempts - 1 or (status is not None and status != 429 and status < 500):
                 raise
-            time.sleep(2 ** attempt)
+            wait = min(2 ** (attempt + 1), 60)
+            retry_after = getattr(error, "headers", None) and error.headers.get("Retry-After")
+            if retry_after and retry_after.isdigit():
+                wait = min(max(wait, int(retry_after)), 120)
+            time.sleep(wait)
 
 
 def one_line(lines):
