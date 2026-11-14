@@ -660,7 +660,10 @@
         "locality": "Northwest",
         "lastVerified": "2026-11-14",
         "match": {
-          "skip": "Apple Maps has no listing for the Forest Park Ridge Trail; pin is the trailhead"
+          "query": "Forest Park - Ridge Trail"
+        },
+        "ids": {
+          "apple": "I92578B5CA761C8FE"
         }
       }
     },
