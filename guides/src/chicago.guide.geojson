@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "placemoirGuide": "0.1",
+  "placemoirGuide": "0.2",
   "guide": {
     "id": "chicago",
     "status": "published",
@@ -527,7 +527,7 @@
       },
       "properties": {
         "name": "Shedd Aquarium",
-        "category": "attraction",
+        "category": "aquarium",
         "section": "see",
         "notes": "Belugas, sea otters and a Caribbean reef, with the lake outside the windows.",
         "address": "1200 S DuSable Lake Shore Dr, Chicago, IL 60605",
@@ -787,7 +787,7 @@
       },
       "properties": {
         "name": "Lincoln Park Zoo",
-        "category": "park",
+        "category": "zoo",
         "section": "outside",
         "notes": "A free zoo in the city's biggest park, open every day of the year.",
         "address": "2400 N Cannon Dr, Chicago, IL 60614",

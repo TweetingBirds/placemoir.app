@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Builds the Field Guides (city, park and trip guides for the Want to go list) from guides/src/<slug>.guide.geojson.
 
-Each source file is one guide in the Field Guide format 0.1 (spec, schema and tools in the
+Each source file is one guide in the Field Guide format 0.2 (spec, schema and tools in the
 private repo natebird/placemoir-guide-spec): a GeoJSON FeatureCollection with a `guide`
 object (id, status, kind, name, description, author, inLanguage, dateModified, countries,
 sections, and optional region, ordered, season, related, sources, license), one Point feature
@@ -108,12 +108,12 @@ NOTES_MAX = 300
 
 # MARK: Sources
 
-# Field Guide format 0.1: each source is guides/src/<slug>.guide.geojson, a GeoJSON
+# Field Guide format 0.2: each source is guides/src/<slug>.guide.geojson, a GeoJSON
 # FeatureCollection with a `guide` object, one Point feature per place and optional route
 # lines. The spec lives in the private repo natebird/placemoir-guide-spec; this file checks the
 # same rules with the standard library and turns each source into the shape the rest of the
 # script builds from.
-FORMAT_VERSION = "0.1"
+FORMAT_VERSION = "0.2"
 STATUSES = ("draft", "published", "retired")
 # Guide categories, and the Placemoir category each one imports as (category-map.json in the spec).
 SPEC_CATEGORIES = {
@@ -126,7 +126,8 @@ SPEC_CATEGORIES = {
     "museum": "museum", "gallery": "museum",
     "attraction": "attraction", "landmark": "attraction", "historic-site": "attraction",
     "visitor-center": "attraction", "stadium": "attraction", "theater": "attraction", "market": "attraction",
-    "shop": "attraction", "zoo": "attraction",
+    "shop": "attraction", "zoo": "attraction", "aquarium": "attraction", "amusement-park": "attraction",
+    "place-of-worship": "attraction", "spa": "other",
     "airport": "airport",
     "station": "other", "other": "other",
 }
@@ -188,7 +189,7 @@ def is_position(value):
 
 
 def validate(doc, stem):
-    """The Field Guide 0.1 rules: the spec's JSON Schema plus the checks a schema can't express."""
+    """The Field Guide 0.2 rules: the spec's JSON Schema plus the checks a schema can't express."""
     problems = []
     if not isinstance(doc, dict) or doc.get("type") != "FeatureCollection":
         return ["type: must be \"FeatureCollection\""]
@@ -413,7 +414,7 @@ def validate(doc, stem):
 
 
 def from_source(doc):
-    """A 0.1 source as the dict the pages, library files and Apple Maps check are built from."""
+    """A 0.2 source as the dict the pages, library files and Apple Maps check are built from."""
     g = doc["guide"]
     names = {s["id"]: s["name"] for s in g["sections"]}
     guide = {

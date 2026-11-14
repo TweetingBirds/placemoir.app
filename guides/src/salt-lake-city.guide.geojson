@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "placemoirGuide": "0.1",
+  "placemoirGuide": "0.2",
   "guide": {
     "id": "salt-lake-city",
     "status": "published",
@@ -430,7 +430,7 @@
       },
       "properties": {
         "name": "Temple Square",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "see",
         "notes": "The heart of the city since 1847. Walk the gardens and hear the Tabernacle organ at noon.",
         "address": "50 N West Temple, Salt Lake City, UT 84150",
@@ -490,7 +490,7 @@
       },
       "properties": {
         "name": "Cathedral of the Madeleine",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "see",
         "notes": "A 1909 cathedral with painted walls and stained glass. Free choir concerts in season.",
         "address": "331 E South Temple, Salt Lake City, UT 84111",
@@ -650,7 +650,7 @@
       },
       "properties": {
         "name": "Utah's Hogle Zoo",
-        "category": "attraction",
+        "category": "zoo",
         "section": "see",
         "notes": "A hillside zoo across from the heritage park. Polar bears and a fine African savanna.",
         "address": "2600 Sunnyside Ave S, Salt Lake City, UT 84108",

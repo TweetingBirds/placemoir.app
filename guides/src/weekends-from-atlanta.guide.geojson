@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "placemoirGuide": "0.1",
+  "placemoirGuide": "0.2",
   "guide": {
     "id": "weekends-from-atlanta",
     "status": "draft",
@@ -455,7 +455,7 @@
       },
       "properties": {
         "name": "Tennessee Aquarium",
-        "category": "attraction",
+        "category": "aquarium",
         "section": "chattanooga-tennessee",
         "notes": "Two buildings on the riverfront: one follows a raindrop from the Appalachian headwaters down the Tennessee River, the other covers the oceans. Give it half a day.",
         "address": "1 Broad St, Chattanooga, TN 37402",

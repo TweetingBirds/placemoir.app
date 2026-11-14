@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "placemoirGuide": "0.1",
+  "placemoirGuide": "0.2",
   "guide": {
     "id": "atlanta",
     "status": "published",
@@ -510,7 +510,7 @@
       },
       "properties": {
         "name": "Georgia Aquarium",
-        "category": "attraction",
+        "category": "aquarium",
         "section": "see",
         "notes": "Whale sharks in one enormous tank. Go at opening to beat the school groups.",
         "address": "225 Baker St NW, Atlanta, GA 30313",
@@ -733,7 +733,7 @@
       },
       "properties": {
         "name": "Zoo Atlanta",
-        "category": "attraction",
+        "category": "zoo",
         "section": "see",
         "notes": "Gorillas and a leafy setting inside Grant Park. Pair it with Oakland Cemetery.",
         "address": "800 Cherokee Ave SE, Atlanta, GA 30315",

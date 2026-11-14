@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "placemoirGuide": "0.1",
+  "placemoirGuide": "0.2",
   "guide": {
     "id": "boston",
     "status": "published",
@@ -467,7 +467,7 @@
       },
       "properties": {
         "name": "Old North Church",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "see",
         "notes": "Where the two lanterns hung in 1775. The behind-the-scenes tour goes into the crypt.",
         "address": "193 Salem St, Boston, MA 02113",
@@ -607,7 +607,7 @@
       },
       "properties": {
         "name": "Trinity Church",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "see",
         "notes": "H.H. Richardson's 1877 church on Copley Square, glowing inside with murals and stained glass.",
         "address": "206 Clarendon St, Boston, MA 02116",
@@ -650,7 +650,7 @@
       },
       "properties": {
         "name": "New England Aquarium",
-        "category": "attraction",
+        "category": "aquarium",
         "section": "see",
         "notes": "A four-story ocean tank with sea turtles, and whale-watching boats leaving from the wharf.",
         "address": "1 Central Wharf, Boston, MA 02110",

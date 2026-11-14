@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "placemoirGuide": "0.1",
+  "placemoirGuide": "0.2",
   "guide": {
     "id": "seattle",
     "status": "published",
@@ -567,7 +567,7 @@
       },
       "properties": {
         "name": "Seattle Aquarium",
-        "category": "attraction",
+        "category": "aquarium",
         "section": "see",
         "notes": "Sea otters, octopus and the creatures of Puget Sound, on Pier 59.",
         "address": "1483 Alaskan Way, Seattle, WA 98101",

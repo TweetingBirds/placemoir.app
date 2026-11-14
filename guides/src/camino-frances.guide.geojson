@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "placemoirGuide": "0.1",
+  "placemoirGuide": "0.2",
   "guide": {
     "id": "camino-frances",
     "status": "draft",
@@ -228,7 +228,7 @@
       },
       "properties": {
         "name": "Real Colegiata de Santa María de Roncesvalles",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "stage-1",
         "position": 4,
         "notes": "A Gothic church and cloister that have sheltered pilgrims for about nine centuries. The evening pilgrim Mass with a blessing in several languages is a good way to end the first day.",
@@ -328,7 +328,7 @@
       },
       "properties": {
         "name": "Catedral de Pamplona",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "stage-3",
         "position": 9,
         "notes": "Behind a neoclassical front is a Gothic church with one of the finest cloisters in Spain. The visit includes the old kitchen and a museum of Navarrese religious art.",
@@ -371,7 +371,7 @@
       },
       "properties": {
         "name": "Santa María de Eunate",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "stage-4",
         "position": 11,
         "notes": "An octagonal Romanesque church alone in the fields, ringed by an arcade. It is a short detour off the main route before Obanos; ask locally whether it is open before you go.",
@@ -437,7 +437,7 @@
       },
       "properties": {
         "name": "Iglesia de San Pedro de la Rúa",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "stage-5",
         "position": 14,
         "notes": "A Romanesque church up a long stair above the Rúa, with a carved doorway and a partly surviving cloister. Visits are often by guided tour from the tourist office.",
@@ -584,7 +584,7 @@
       },
       "properties": {
         "name": "Iglesia de la Asunción de Navarrete",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "stage-8",
         "position": 21,
         "notes": "A 16th-century church with an enormous gilded Baroque altarpiece, in a hill town known for pottery. A good rest stop about 12 km into the day.",
@@ -604,7 +604,7 @@
       },
       "properties": {
         "name": "Monasterio de Santa María la Real",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "stage-8",
         "position": 22,
         "notes": "Built into the red cliff at the edge of town, with royal tombs of Navarre, a carved choir and a lacy Gothic cloister. The cave where the church was founded is at the back.",
@@ -647,7 +647,7 @@
       },
       "properties": {
         "name": "Catedral de Santo Domingo de la Calzada",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "stage-9",
         "position": 24,
         "notes": "A live rooster and hen are kept in an ornate coop inside the cathedral, recalling the legend of the hanged pilgrim. Tradition says it is good luck if the rooster crows while you are inside.",
@@ -770,7 +770,7 @@
       },
       "properties": {
         "name": "Monasterio de San Juan de Ortega",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "stage-11",
         "position": 30,
         "notes": "A monastery church in a clearing in the oak forest, with the saint's tomb and a capital lit by the sun at the equinoxes. The pilgrim hostel is in the old monastery buildings next door.",
@@ -813,7 +813,7 @@
       },
       "properties": {
         "name": "Catedral de Burgos",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "stage-12",
         "position": 32,
         "notes": "One of the great Gothic cathedrals of Europe, with spires that look like stone lace and chapels that could each fill an afternoon. Pilgrims with a credential can ask about a reduced ticket.",
@@ -856,7 +856,7 @@
       },
       "properties": {
         "name": "Ermita de Nuestra Señora de Monasterio",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "stage-13",
         "position": 34,
         "notes": "A small chapel at the end of Rabé where a local woman has long offered pilgrims a blessing and a medal. The open meseta begins just beyond.",
@@ -1008,7 +1008,7 @@
       },
       "properties": {
         "name": "Iglesia de San Martín de Frómista",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "stage-15",
         "position": 41,
         "notes": "A small, almost perfect Romanesque church from the 11th century. Walk around the outside to see more than 300 carved corbels under the eaves.",
@@ -1028,7 +1028,7 @@
       },
       "properties": {
         "name": "Iglesia de Santa María la Blanca",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "stage-16",
         "position": 42,
         "notes": "A fortress-like Templar church in a tiny village, with painted royal tombs and a Virgin celebrated for miracles in medieval song.",
@@ -1234,7 +1234,7 @@
       },
       "properties": {
         "name": "Catedral de León",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "stage-20",
         "position": 52,
         "notes": "A Gothic cathedral that is more glass than wall, with nearly 1,800 square meters of medieval stained glass. Visit on a sunny morning when the color falls across the floor.",
@@ -1346,7 +1346,7 @@
       },
       "properties": {
         "name": "Basílica de la Virgen del Camino",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "stage-21",
         "position": 57,
         "notes": "A striking 1960s sanctuary on the edge of León, with the twelve apostles and the Virgin cast in bronze across its tall front. An unexpected modern church on an old road.",
@@ -1578,7 +1578,7 @@
       },
       "properties": {
         "name": "Iglesia de Santiago",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "stage-25",
         "position": 68,
         "notes": "A Romanesque church with the Puerta del Perdón, where sick medieval pilgrims who could go no farther could receive the same pardon as at Santiago.",
@@ -1625,7 +1625,7 @@
       },
       "properties": {
         "name": "Santuario de Santa María a Real do Cebreiro",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "stage-26",
         "position": 70,
         "notes": "One of the oldest churches on the Camino, pre-Romanesque in origin, with the chalice of a medieval Eucharistic miracle. The parish priest here painted the first yellow arrows.",
@@ -1735,7 +1735,7 @@
       },
       "properties": {
         "name": "Mosteiro de Samos",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "stage-28",
         "position": 75,
         "notes": "One of the oldest monasteries in Spain, still home to Benedictine monks, at the bottom of a green river valley. Take the Samos route out of Triacastela for this; the monks lead guided visits.",
@@ -1781,7 +1781,7 @@
       },
       "properties": {
         "name": "Igrexa de San Nicolás de Portomarín",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "stage-29",
         "position": 77,
         "notes": "A fortified Romanesque church moved stone by stone up the hill in the 1960s when the old town was flooded for a reservoir. The numbers on the stones are still visible.",
@@ -1930,7 +1930,7 @@
       },
       "properties": {
         "name": "Igrexa de Santa Eulalia de Arca",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "stage-32",
         "position": 84,
         "notes": "The parish church of Arca, just off the main road through O Pedrouzo. Many pilgrims go to the evening Mass here on their last night before Santiago.",

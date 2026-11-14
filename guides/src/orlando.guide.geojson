@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "placemoirGuide": "0.1",
+  "placemoirGuide": "0.2",
   "guide": {
     "id": "orlando",
     "status": "published",
@@ -387,7 +387,7 @@
       },
       "properties": {
         "name": "Magic Kingdom Park",
-        "category": "attraction",
+        "category": "amusement-park",
         "section": "see",
         "notes": "Rope drop for the big rides, a break at midday, then back for the fireworks.",
         "address": "1180 Seven Seas Dr, Lake Buena Vista, FL 32830",
@@ -407,7 +407,7 @@
       },
       "properties": {
         "name": "EPCOT",
-        "category": "attraction",
+        "category": "amusement-park",
         "section": "see",
         "notes": "Eat your way around the World Showcase lake, one country at a time.",
         "address": "200 Epcot Center Dr, Orlando, FL 32821",
@@ -427,7 +427,7 @@
       },
       "properties": {
         "name": "Disney's Animal Kingdom Theme Park",
-        "category": "attraction",
+        "category": "amusement-park",
         "section": "see",
         "notes": "Do the safari early, while the animals are awake, and Pandora at night.",
         "address": "2901 Osceola Pkwy, Bay Lake, FL 32830",
@@ -447,7 +447,7 @@
       },
       "properties": {
         "name": "Universal Studios Florida",
-        "category": "attraction",
+        "category": "amusement-park",
         "section": "see",
         "notes": "Ride the Hogwarts Express over to Islands of Adventure with a park-to-park ticket.",
         "address": "6000 Universal Blvd, Orlando, FL 32819",
@@ -467,7 +467,7 @@
       },
       "properties": {
         "name": "Universal Islands of Adventure",
-        "category": "attraction",
+        "category": "amusement-park",
         "section": "see",
         "notes": "Hogsmeade, Hagrid's coaster and the VelociCoaster. Go early for Hagrid's.",
         "address": "6000 Universal Blvd, Orlando, FL 32819",
@@ -487,7 +487,7 @@
       },
       "properties": {
         "name": "Universal Epic Universe",
-        "category": "attraction",
+        "category": "amusement-park",
         "section": "see",
         "notes": "Universal's newest park, with worlds for Nintendo, dragons and Harry Potter's Ministry of Magic.",
         "address": "1001 Epic Blvd, Orlando, FL 32819",

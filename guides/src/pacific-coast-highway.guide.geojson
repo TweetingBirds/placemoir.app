@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "placemoirGuide": "0.1",
+  "placemoirGuide": "0.2",
   "guide": {
     "id": "pacific-coast-highway",
     "status": "draft",
@@ -220,7 +220,7 @@
       },
       "properties": {
         "name": "Santa Cruz Beach Boardwalk",
-        "category": "attraction",
+        "category": "amusement-park",
         "section": "day-1",
         "position": 9,
         "notes": "A seaside amusement park running since 1907, with the wooden Giant Dipper coaster and a 1911 Looff carousel. Rides run on a reduced schedule outside summer.",
@@ -280,7 +280,7 @@
       },
       "properties": {
         "name": "Monterey Bay Aquarium",
-        "category": "attraction",
+        "category": "aquarium",
         "section": "day-2",
         "position": 12,
         "notes": "Built inside an old sardine cannery at the end of Cannery Row, with a three-story kelp forest and a huge open-ocean tank. Book timed tickets ahead in summer and on holidays.",
@@ -343,7 +343,7 @@
       },
       "properties": {
         "name": "Carmel Mission Basilica",
-        "category": "museum",
+        "category": "place-of-worship",
         "section": "day-2",
         "position": 15,
         "notes": "Mission San Carlos Borromeo, founded in 1771 and the headquarters of the California missions under Junípero Serra. The museum rooms and gardens take about an hour.",
@@ -755,7 +755,7 @@
       },
       "properties": {
         "name": "Mission San Luis Obispo de Tolosa",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "day-4",
         "position": 35,
         "notes": "Founded in 1772, the mission faces a plaza on San Luis Obispo Creek at the edge of downtown. The creekside walk leads to the shops on Higuera Street.",
@@ -815,7 +815,7 @@
       },
       "properties": {
         "name": "Old Mission Santa Barbara",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "day-4",
         "position": 38,
         "notes": "The twin-towered mission above town, with a self-guided tour through the museum, cemetery and gardens. The rose garden across the street is free.",

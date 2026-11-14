@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "placemoirGuide": "0.1",
+  "placemoirGuide": "0.2",
   "guide": {
     "id": "kumano-kodo-nakahechi",
     "status": "draft",
@@ -85,7 +85,7 @@
       },
       "properties": {
         "name": "Tokei-jinja Shrine",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "tanabe",
         "position": 2,
         "notes": "An old branch of Hongu where pilgrims once prayed before heading into the mountains, set in a grove a short walk from the station. A good first stop to get the feel of a Kumano shrine before the trail.",
@@ -177,7 +177,7 @@
       },
       "properties": {
         "name": "Takijiri-oji",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "day-1",
         "position": 6,
         "notes": "The traditional entrance to the sacred mountains of Kumano, where two rivers meet. Stamp your pilgrim credential here, then start straight up the stone steps behind the shrine; the first hour is the steepest of the day.",
@@ -200,7 +200,7 @@
       },
       "properties": {
         "name": "Takahara Kumano-jinja",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "day-1",
         "position": 7,
         "notes": "One of the oldest shrine buildings on the route, painted in faded colors and shaded by huge camphor trees. It sits right on the trail as you enter Takahara.",
@@ -363,7 +363,7 @@
       },
       "properties": {
         "name": "Tsugizakura-oji",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "day-3",
         "position": 14,
         "notes": "A ridge-top shrine under enormous old cedars, an hour or two past Chikatsuyu. Take the steps down to Nonaka-no-Shimizu, a spring pilgrims have drunk from for centuries.",
@@ -452,7 +452,7 @@
       },
       "properties": {
         "name": "Kumano Hongu Taisha",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "day-4",
         "position": 18,
         "notes": "The head shrine of the Kumano faith, reached at the end of the Nakahechi by a stone stairway lined with banners. The cypress-bark roofs and the quiet main courtyard are worth a slow look; stamp your credential at the shrine office.",
@@ -585,7 +585,7 @@
       },
       "properties": {
         "name": "Tsuboyu",
-        "category": "attraction",
+        "category": "spa",
         "section": "day-5",
         "position": 24,
         "notes": "A one-room stone bath in a wooden hut by the creek, the only hot spring bath that is part of a World Heritage site. Take a numbered ticket at the public bath counter and wait your turn; it is private for one or two people.",
@@ -717,7 +717,7 @@
       },
       "properties": {
         "name": "Kumano Hayatama Taisha",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "day-6",
         "position": 30,
         "notes": "The second of the three grand shrines, bright vermilion against a forested hill near the mouth of the Kumano River. Look for the giant nagi tree in the courtyard and the treasure hall of old offerings.",
@@ -737,7 +737,7 @@
       },
       "properties": {
         "name": "Kamikura-jinja",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "day-6",
         "position": 31,
         "notes": "A small shrine wedged under a huge boulder high above town, reached by more than 500 rough stone steps. The first stretch is close to a scramble; the view over Shingu and the sea is the reward.",
@@ -804,7 +804,7 @@
       },
       "properties": {
         "name": "Kumano Nachi Taisha",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "day-7",
         "position": 34,
         "notes": "The third grand shrine, high on the mountainside facing the falls, its worship tied to the waterfall itself. Stamp your credential here to complete the three shrines.",
@@ -824,7 +824,7 @@
       },
       "properties": {
         "name": "Seiganto-ji",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "day-7",
         "position": 35,
         "notes": "A Buddhist temple next door to the shrine and the first stop on the Saigoku Kannon pilgrimage. The three-story vermilion pagoda with Nachi Falls behind it is the view most people come for.",

@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "placemoirGuide": "0.1",
+  "placemoirGuide": "0.2",
   "guide": {
     "id": "san-francisco",
     "status": "published",
@@ -727,7 +727,7 @@
       },
       "properties": {
         "name": "Mission Dolores",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "see",
         "notes": "The oldest building in the city, finished in 1791, with a small cemetery and garden.",
         "address": "3321 16th St, San Francisco, CA 94114",

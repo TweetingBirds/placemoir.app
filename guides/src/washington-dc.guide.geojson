@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "placemoirGuide": "0.1",
+  "placemoirGuide": "0.2",
   "guide": {
     "id": "washington-dc",
     "status": "published",
@@ -647,7 +647,7 @@
       },
       "properties": {
         "name": "Washington National Cathedral",
-        "category": "attraction",
+        "category": "place-of-worship",
         "section": "see",
         "notes": "Gothic arches, a Darth Vader gargoyle and views from the tower. Look for the moon rock in the space window.",
         "address": "3101 Wisconsin Ave NW, Washington, DC 20016",
