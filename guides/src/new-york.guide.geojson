@@ -810,18 +810,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9654,
-          40.7829
+          -73.971156,
+          40.768895
         ]
       },
       "properties": {
         "name": "Central Park",
         "category": "park",
         "section": "outside",
-        "notes": "Walk from the Pond to Bethesda Terrace and the Ramble, or rent a rowboat at the Loeb Boathouse.",
+        "notes": "Start at the gazebo near the Pond, then walk to Bethesda Terrace and the Ramble, or rent a rowboat at the Loeb Boathouse.",
         "address": "Central Park, New York, NY 10024",
         "locality": "Central Park",
-        "lastVerified": "2026-11-07"
+        "lastVerified": "2026-11-14",
+        "match": {
+          "query": "Central Park Gazebo"
+        }
       }
     },
     {
