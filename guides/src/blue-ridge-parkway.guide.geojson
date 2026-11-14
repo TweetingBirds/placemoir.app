@@ -533,8 +533,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -81.1708,
-          36.4018
+          -81.1773,
+          36.434
         ]
       },
       "properties": {
@@ -628,7 +628,7 @@
         "category": "restaurant",
         "section": "day-3",
         "position": 29,
-        "notes": "A long-running Main Street restaurant where mountain trout is the dish to order. Easy to walk to from most of the town's inns.",
+        "notes": "A Main Street restaurant and bottle shop serving seasonal Appalachian food, about a mile from the parkway. Closed midweek, so check the days before you go.",
         "address": "922 Main St, Blowing Rock, NC 28605",
         "locality": "Blowing Rock"
       }
@@ -808,18 +808,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -81.9431,
+          -81.9428,
           35.9589
         ]
       },
       "properties": {
-        "name": "Famous Louise's Rock House Restaurant",
+        "name": "Famous Rock House Restaurant",
         "category": "restaurant",
         "section": "day-4",
         "position": 38,
-        "notes": "A 1930s stone tavern where three counties meet, serving country breakfasts, ribs and homemade pies. A short hop from the Linville Falls exit.",
-        "address": "23175 Linville Falls Hwy, Linville Falls, NC 28647",
-        "locality": "Linville Falls"
+        "notes": "A 1936 stone tavern where three counties meet, now under new owners, serving country breakfasts, livermush and pie. It may close for winter, so check before you go.",
+        "address": "23175 Linville Falls Hwy, Newland, NC 28657",
+        "locality": "Linville Falls",
+        "match": {
+          "query": "Famous Louise's Rock House"
+        }
       }
     },
     {
@@ -1160,8 +1163,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.1405,
-          35.461
+          -83.141,
+          35.4602
         ]
       },
       "properties": {
@@ -1229,7 +1232,7 @@
         "category": "restaurant",
         "section": "day-5",
         "position": 58,
-        "notes": "A Native-owned grill on the main road through Cherokee, with burgers, trout and beer on tap. A relaxed dinner at the end of the road.",
+        "notes": "A Native- and women-owned grill on the main road through Cherokee, with burgers, peanut-crusted trout and house beers on tap. A relaxed dinner at the end of the road.",
         "address": "1897 Tsali Blvd, Cherokee, NC 28719",
         "locality": "Cherokee"
       }

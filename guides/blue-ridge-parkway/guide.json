@@ -422,7 +422,7 @@
       "latitude": 36.135169,
       "longitude": -81.678052,
       "wantToGo": true,
-      "notes": "A long-running Main Street restaurant where mountain trout is the dish to order. Easy to walk to from most of the town's inns.",
+      "notes": "A Main Street restaurant and bottle shop serving seasonal Appalachian food, about a mile from the parkway. Closed midweek, so check the days before you go.",
       "section": "Day 3 · Mabry Mill to Blowing Rock · 116 mi",
       "appleMapsID": "I449C12F26D06EB8B"
     },
@@ -538,15 +538,15 @@
     },
     {
       "id": "guide:blue-ridge-parkway/famous-louises-rock-house",
-      "name": "Famous Louise's Rock House Restaurant",
+      "name": "Famous Rock House Restaurant",
       "category": "restaurant",
-      "address": "23175 Linville Falls Hwy, Linville Falls, NC 28647",
+      "address": "23175 Linville Falls Hwy, Newland, NC 28657",
       "locality": "Linville Falls",
       "country": "United States",
       "latitude": 35.958843,
       "longitude": -81.942772,
       "wantToGo": true,
-      "notes": "A 1930s stone tavern where three counties meet, serving country breakfasts, ribs and homemade pies. A short hop from the Linville Falls exit.",
+      "notes": "A 1936 stone tavern where three counties meet, now under new owners, serving country breakfasts, livermush and pie. It may close for winter, so check before you go.",
       "section": "Day 4 · Blowing Rock to Asheville · 90 mi",
       "appleMapsID": "I570613E91B3D52B5"
     },
@@ -825,7 +825,7 @@
       "latitude": 35.50038,
       "longitude": -83.306261,
       "wantToGo": true,
-      "notes": "A Native-owned grill on the main road through Cherokee, with burgers, trout and beer on tap. A relaxed dinner at the end of the road.",
+      "notes": "A Native- and women-owned grill on the main road through Cherokee, with burgers, peanut-crusted trout and house beers on tap. A relaxed dinner at the end of the road.",
       "section": "Day 5 · Asheville to Cherokee · 87 mi",
       "appleMapsID": "I9A89E14D28A8F9DC"
     }
