@@ -404,7 +404,10 @@
         "position": 18,
         "notes": "A long, demanding loop that drops from the open meadows of Rocky Knob into a deep gorge and climbs back. For a shorter outing, walk only the grassy ridgetop stretch along the parkway.",
         "address": "Blue Ridge Pkwy, Milepost 167, Floyd, VA 24091",
-        "locality": "Rocky Knob"
+        "locality": "Rocky Knob",
+        "match": {
+          "skip": "Apple Maps has no listing for the Rock Castle Gorge Trail; nearest is the Rocky Knob Connector trail 489 m away"
+        }
       }
     },
     {
