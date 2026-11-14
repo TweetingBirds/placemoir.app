@@ -780,11 +780,12 @@
       "address": "68 Seven Springs Dr, Balsam, NC 28707",
       "locality": "Balsam",
       "country": "United States",
-      "latitude": 35.4265,
-      "longitude": -83.0872,
+      "latitude": 35.426509,
+      "longitude": -83.087214,
       "wantToGo": true,
       "notes": "An early-1900s railroad hotel with long double porches, a few minutes off the parkway near Balsam Gap. A quiet last night before the drive down to Cherokee.",
-      "section": "Day 5 · Asheville to Cherokee · 87 mi"
+      "section": "Day 5 · Asheville to Cherokee · 87 mi",
+      "appleMapsID": "I5957E592CE2A73D1"
     },
     {
       "id": "guide:blue-ridge-parkway/waterrock-knob",
