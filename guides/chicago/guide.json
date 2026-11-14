@@ -286,20 +286,6 @@
       "appleMapsID": "I88D26825ECE1704A"
     },
     {
-      "id": "guide:chicago/violet-hour",
-      "name": "The Violet Hour",
-      "category": "bar",
-      "address": "1520 N Damen Ave, Chicago, IL 60622",
-      "locality": "Wicker Park",
-      "country": "United States",
-      "latitude": 41.909048,
-      "longitude": -87.677631,
-      "wantToGo": true,
-      "notes": "A hidden, candlelit cocktail bar behind a mural-covered wall. No phones at the bar.",
-      "section": "Eat",
-      "appleMapsID": "I21FA8A3C52E1A0F5"
-    },
-    {
       "id": "guide:chicago/billy-goat",
       "name": "Billy Goat Tavern",
       "category": "bar",
@@ -554,7 +540,7 @@
     {
       "id": "guide:chicago/lincoln-park-zoo",
       "name": "Lincoln Park Zoo",
-      "category": "park",
+      "category": "attraction",
       "address": "2400 N Cannon Dr, Chicago, IL 60614",
       "locality": "Lincoln Park",
       "country": "United States",

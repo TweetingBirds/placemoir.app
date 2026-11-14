@@ -117,13 +117,6 @@
     "longitude": -111.888569,
     "name": "Inn On the Hill"
   },
-  "laziz-kitchen": {
-    "address": "912 S Jefferson St, Salt Lake City, UT 84101, United States",
-    "appleMapsID": "I98A513CE33261DA",
-    "latitude": 40.749425,
-    "longitude": -111.895591,
-    "name": "Laziz Kitchen"
-  },
   "liberty-park": {
     "address": "600 Harvey Milk Blvd, Salt Lake City, UT 84105, United States",
     "appleMapsID": "I18DF58F4F0C95AA8",
@@ -221,13 +214,6 @@
     "latitude": 40.771251,
     "longitude": -111.893092,
     "name": "Temple Square"
-  },
-  "the-leonardo": {
-    "address": "209 E 500 S, Salt Lake City, UT 84111, United States",
-    "appleMapsID": "I77F9D3712D10EB1C",
-    "latitude": 40.758937,
-    "longitude": -111.88459,
-    "name": "The Leonardo"
   },
   "this-is-the-place": {
     "address": "2601 E Sunnyside Ave, Salt Lake City, UT 84108, United States",

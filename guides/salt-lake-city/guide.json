@@ -174,18 +174,17 @@
       "appleMapsID": "IA81FEF9BBB0A71D1"
     },
     {
-      "id": "guide:salt-lake-city/laziz-kitchen",
-      "name": "Laziz Kitchen",
+      "id": "guide:salt-lake-city/laziz-kitchen-sugar-house",
+      "name": "Laziz Kitchen at Sugar House Station",
       "category": "restaurant",
-      "address": "912 S Jefferson St, Salt Lake City, UT 84101",
-      "locality": "Central Ninth",
+      "address": "2155 S Highland Dr, Salt Lake City, UT 84106",
+      "locality": "Sugar House",
       "country": "United States",
-      "latitude": 40.749425,
-      "longitude": -111.895591,
+      "latitude": 40.7243,
+      "longitude": -111.8591,
       "wantToGo": true,
-      "notes": "Lebanese small plates and fresh hummus, in the small Central Ninth neighborhood.",
-      "section": "Eat",
-      "appleMapsID": "I98A513CE33261DA"
+      "notes": "Laziz Kitchen's counter inside the Sugar House Station food hall, with the hummus, mezze and wraps the local brand is known for. Easy for a group, with other stalls around it.",
+      "section": "Eat"
     },
     {
       "id": "guide:salt-lake-city/hsl",
@@ -368,20 +367,6 @@
       "notes": "A broad collection on the University of Utah campus, with strong Western American galleries.",
       "section": "See",
       "appleMapsID": "I51808B8EB092B41D"
-    },
-    {
-      "id": "guide:salt-lake-city/the-leonardo",
-      "name": "The Leonardo",
-      "category": "museum",
-      "address": "209 E 500 S, Salt Lake City, UT 84111",
-      "locality": "Downtown",
-      "country": "United States",
-      "latitude": 40.758937,
-      "longitude": -111.88459,
-      "wantToGo": true,
-      "notes": "Science, art and tinkering under one roof, in the old city library. Good on a rainy day.",
-      "section": "See",
-      "appleMapsID": "I77F9D3712D10EB1C"
     },
     {
       "id": "guide:salt-lake-city/clark-planetarium",

@@ -1,0 +1,170 @@
+{
+  "amicalola-falls-lodge": {
+    "address": "418 Amicalola Falls Road, Dawsonville, GA 30534, United States",
+    "appleMapsID": "I7DB2851DBA4880CD",
+    "latitude": 34.56537,
+    "longitude": -84.242751,
+    "name": "Amicalola Falls State Park & Lodge"
+  },
+  "amicalola-falls-state-park": {
+    "address": "166 Amicalola Falls State Park Rd, Dawsonville, GA 30534, United States",
+    "appleMapsID": "I4F187C4A7E8967C3",
+    "latitude": 34.565479,
+    "longitude": -84.242683,
+    "name": "Amicalola Falls State Park"
+  },
+  "bald-river-falls": {
+    "address": "Bald River Trail, Tellico Plains, TN 37385, United States",
+    "appleMapsID": "IBDDAA7ED1B234C9F",
+    "latitude": 35.324261,
+    "longitude": -84.177727,
+    "name": "Bald River Falls"
+  },
+  "black-rock-mountain-state-park": {
+    "address": "3085 Black Rock Mountain Pkwy, Mountain City, GA 30562, United States",
+    "appleMapsID": "IC83679312466CDA3",
+    "latitude": 34.911693,
+    "longitude": -83.412719,
+    "name": "Black Rock Mountain"
+  },
+  "brasstown-bald": {
+    "address": "Towns County, GA, United States",
+    "appleMapsID": "I9EA56B9608FF7875",
+    "latitude": 34.87427,
+    "longitude": -83.81063,
+    "name": "Brasstown Bald"
+  },
+  "brasstown-valley-resort": {
+    "address": "6321 Highway 76, Young Harris, GA 30582, United States",
+    "appleMapsID": "IA2AB2A079BA9B96E",
+    "latitude": 34.953117,
+    "longitude": -83.838364,
+    "name": "Brasstown Valley Resort & Spa"
+  },
+  "carvers-gap": {
+    "address": "Mitchell County, NC, United States",
+    "appleMapsID": "IE8B889D44665A7A8",
+    "latitude": 36.10642,
+    "longitude": -82.11094,
+    "name": "Carvers Gap"
+  },
+  "cherohala-skyway-visitor-center": {
+    "address": "225 Cherohala Skyway, Tellico Plains, TN 37385, United States",
+    "appleMapsID": "I76A87D73097AE4ED",
+    "latitude": 35.366901,
+    "longitude": -84.297388,
+    "name": "Cherohala Skyway"
+  },
+  "dillard-house": {
+    "address": "768 Franklin St, Dillard, GA 30537, United States",
+    "appleMapsID": "I463A37862F6EE02B",
+    "latitude": 34.966622,
+    "longitude": -83.383549,
+    "name": "The Dillard House"
+  },
+  "dry-falls": {
+    "address": "Highlands Rd, Highlands, NC 28741, United States",
+    "appleMapsID": "ID821C8A94C66C4E6",
+    "latitude": 35.068835,
+    "longitude": -83.238964,
+    "name": "Dry Falls"
+  },
+  "fort-mountain-state-park": {
+    "address": "181 Fort Mountain Park Rd, Chatsworth, GA 30705, United States",
+    "appleMapsID": "I1877530C58BE97BD",
+    "latitude": 34.76527,
+    "longitude": -84.6983,
+    "name": "Fort Mountain State Park"
+  },
+  "grayson-highlands-state-park": {
+    "address": "829 Grayson Highland Ln, Mouth of Wilson, VA 24363, United States",
+    "appleMapsID": "I3C978A08C10B0439",
+    "latitude": 36.629328,
+    "longitude": -81.498409,
+    "name": "Grayson Highlands State Park"
+  },
+  "high-hampton": {
+    "address": "1525 Highway 107 South, Cashiers, NC 28717, United States",
+    "appleMapsID": "I3BA06F0529122927",
+    "latitude": 35.098884,
+    "longitude": -83.081789,
+    "name": "High Hampton"
+  },
+  "huckleberry-knob": {
+    "address": "Graham County, NC, United States",
+    "appleMapsID": "I336F1A0139FB60DC",
+    "latitude": 35.32204,
+    "longitude": -83.9935,
+    "name": "Huckleberry Knob"
+  },
+  "joyce-kilmer-memorial-forest": {
+    "address": "Joyce Kilmer-National Recreation Trail, Robbinsville, NC 28771, United States",
+    "appleMapsID": "IBC18E7D3766F129A",
+    "latitude": 35.357497,
+    "longitude": -83.931846,
+    "name": "Joyce Kilmer Memorial Forest"
+  },
+  "martha-washington-hotel": {
+    "address": "150 W Main St, Abingdon, VA 24210, United States",
+    "appleMapsID": "I6A1928ADED4FB5D7",
+    "latitude": 36.709811,
+    "longitude": -81.975597,
+    "name": "The Martha Washington Inn & Spa"
+  },
+  "massie-gap": {
+    "address": "Grayson County, VA, United States",
+    "appleMapsID": "IAD02BAC120EB8DCF",
+    "latitude": 36.63962,
+    "longitude": -81.50758,
+    "name": "Massie Gap"
+  },
+  "roan-mountain-state-park": {
+    "address": "1015 Roan Rd, Roan Mountain, TN 37687, United States",
+    "appleMapsID": "I6864DEC3DD8368CB",
+    "latitude": 36.17048,
+    "longitude": -82.10039,
+    "name": "Roan Mountain State Park"
+  },
+  "sunset-rock-highlands": {
+    "address": "Highlands, NC, United States",
+    "appleMapsID": "I52777155C99DCEC7",
+    "latitude": 35.047019,
+    "longitude": -83.187296,
+    "name": "Sunset Rock"
+  },
+  "tallulah-gorge-state-park": {
+    "address": "338 Jane Hurt Yarn Dr, Tallulah Falls, GA 30573, United States",
+    "appleMapsID": "I98CB02D71812ECB6",
+    "latitude": 34.73981,
+    "longitude": -83.390613,
+    "name": "Tallulah Gorge State Park"
+  },
+  "tellico-grains-bakery": {
+    "address": "105 Depot St, Tellico Plains, TN 37385, United States",
+    "appleMapsID": "IE15F0357DDA36819",
+    "latitude": 35.363613,
+    "longitude": -84.295031,
+    "name": "Tellico Grains Bakery"
+  },
+  "vogel-state-park": {
+    "address": "405 Vogel State Park Rd, Blairsville, GA 30512, United States",
+    "appleMapsID": "I10237D1BE7EE6566",
+    "latitude": 34.765634,
+    "longitude": -83.924211,
+    "name": "Vogel State Park"
+  },
+  "whiteside-mountain": {
+    "address": "Highlands, NC 28741, United States",
+    "appleMapsID": "I6E3DEAF7CAC7D51E",
+    "latitude": 35.080514,
+    "longitude": -83.144048,
+    "name": "Whiteside Mountain Trail"
+  },
+  "whitewater-falls": {
+    "address": "Cashiers, NC 28717, United States",
+    "appleMapsID": "I17831DD86E771106",
+    "latitude": 35.031938,
+    "longitude": -83.016472,
+    "name": "Upper Whitewater Falls"
+  }
+}

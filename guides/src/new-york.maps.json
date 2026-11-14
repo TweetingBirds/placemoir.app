@@ -56,10 +56,11 @@
     "name": "Bryant Park"
   },
   "central-park": {
-    "address": "Central Park, Manhattan, New York, NY, United States",
-    "latitude": 40.79432,
-    "longitude": -73.954808,
-    "name": "Central Park"
+    "address": "E 66th St, New York, NY 10019, United States",
+    "appleMapsID": "I1D3B0A32290BE199",
+    "latitude": 40.768895,
+    "longitude": -73.971156,
+    "name": "Central Park Gazebo"
   },
   "chelsea-market": {
     "address": "75 9th Ave, New York, NY 10011, United States",

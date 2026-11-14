@@ -244,22 +244,8 @@
       "appleMapsID": "I9B6392FF27B0C8C8"
     },
     {
-      "id": "guide:orlando/dandelion-communitea",
-      "name": "Dandelion Communitea Café",
-      "category": "cafe",
-      "address": "618 N Thornton Ave, Orlando, FL 32803",
-      "locality": "Thornton Park",
-      "country": "United States",
-      "latitude": 28.552039,
-      "longitude": -81.365714,
-      "wantToGo": true,
-      "notes": "A vegetarian café in an old house, with a porch and a long tea list.",
-      "section": "Eat",
-      "appleMapsID": "I427669865B281C22"
-    },
-    {
       "id": "guide:orlando/wallys",
-      "name": "Wally's Mills Ave Liquors",
+      "name": "Wally's Bar & Liquors",
       "category": "bar",
       "address": "1001 N Mills Ave, Orlando, FL 32803",
       "locality": "Mills 50",

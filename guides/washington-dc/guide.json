@@ -146,18 +146,18 @@
       "appleMapsID": "I9648F01D87885D8C"
     },
     {
-      "id": "guide:washington-dc/compass-rose",
-      "name": "Compass Rose",
-      "category": "restaurant",
+      "id": "guide:washington-dc/sook",
+      "name": "Sook",
+      "category": "cafe",
       "address": "1346 T St NW, Washington, DC 20009",
       "locality": "U Street",
       "country": "United States",
-      "latitude": 38.915352,
-      "longitude": -77.031548,
+      "latitude": 38.915358,
+      "longitude": -77.031553,
       "wantToGo": true,
-      "notes": "Street food from around the world in a cozy rowhouse. Order the khachapuri.",
+      "notes": "An all-day cafe and wine bar in the old Compass Rose rowhouse, from the same owner. Coffee and pastries by day, natural wine at night, and the khachapuri is still on the menu.",
       "section": "Eat",
-      "appleMapsID": "I21A2DE26B462BBC8"
+      "appleMapsID": "IA118107D1D29F0E9"
     },
     {
       "id": "guide:washington-dc/founding-farmers",
@@ -457,7 +457,7 @@
       "id": "guide:washington-dc/arlington-cemetery",
       "name": "Arlington National Cemetery",
       "category": "attraction",
-      "address": "Arlington, VA 22211",
+      "address": "1 Memorial Ave, Arlington, VA 22211",
       "locality": "Arlington",
       "country": "United States",
       "latitude": 38.882918,
@@ -488,8 +488,8 @@
       "address": "Tidal Basin, Washington, DC 20024",
       "locality": "National Mall",
       "country": "United States",
-      "latitude": 38.884335,
-      "longitude": -77.039111,
+      "latitude": 38.88361,
+      "longitude": -77.042369,
       "wantToGo": true,
       "notes": "The cherry trees in early spring, and the Jefferson and MLK memorials all year. Rent a paddle boat.",
       "section": "Outside"

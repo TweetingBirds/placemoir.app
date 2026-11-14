@@ -160,20 +160,6 @@
       "appleMapsID": "ID462393096422EDA"
     },
     {
-      "id": "guide:kansas-city/corvino",
-      "name": "Corvino Supper Club",
-      "category": "restaurant",
-      "address": "1830 Walnut St, Kansas City, MO 64108",
-      "locality": "Crossroads",
-      "country": "United States",
-      "latitude": 39.090617,
-      "longitude": -94.582812,
-      "wantToGo": true,
-      "notes": "Japanese-influenced plates with live jazz in the supper club, or the tasting room for a splurge.",
-      "section": "Eat",
-      "appleMapsID": "I4F193AE87516295F"
-    },
-    {
       "id": "guide:kansas-city/the-rieger",
       "name": "The Rieger",
       "category": "restaurant",
@@ -281,7 +267,7 @@
       "latitude": 39.091367,
       "longitude": -94.580994,
       "wantToGo": true,
-      "notes": "Live jazz every night, no cover, in a dark red room.",
+      "notes": "Live jazz every night, no cover, in a dark red room. It has been closed for repairs after a fire, so check before you go; its sister club Black Dolphin is next door.",
       "section": "Eat",
       "appleMapsID": "IAB6D6A045A2F65E"
     },

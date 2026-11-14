@@ -445,11 +445,12 @@
       "address": "Forest Park, Portland, OR 97210",
       "locality": "Northwest",
       "country": "United States",
-      "latitude": 45.57269,
-      "longitude": -122.79676,
+      "latitude": 45.582424,
+      "longitude": -122.768015,
       "wantToGo": true,
-      "notes": "Over 80 miles of trails in one of the largest urban forests in the country. Start on the Lower Macleay Trail.",
-      "section": "Outside"
+      "notes": "Start on the Ridge Trail, one of over 80 miles of trails in one of the largest urban forests in the country.",
+      "section": "Outside",
+      "appleMapsID": "I92578B5CA761C8FE"
     },
     {
       "id": "guide:portland/waterfront-park",

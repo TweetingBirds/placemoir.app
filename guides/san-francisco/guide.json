@@ -502,11 +502,12 @@
       "address": "3321 16th St, San Francisco, CA 94114",
       "locality": "Mission",
       "country": "United States",
-      "latitude": 37.76316,
-      "longitude": -122.423945,
+      "latitude": 37.764343,
+      "longitude": -122.427459,
       "wantToGo": true,
       "notes": "The oldest building in the city, finished in 1791, with a small cemetery and garden.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IA3EBAB2D686D4F96"
     },
     {
       "id": "guide:san-francisco/fortune-cookie-factory",

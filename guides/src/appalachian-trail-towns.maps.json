@@ -1,0 +1,343 @@
+{
+  "amicalola-falls-lodge": {
+    "address": "418 Amicalola Falls Road, Dawsonville, GA 30534, United States",
+    "appleMapsID": "I7DB2851DBA4880CD",
+    "latitude": 34.56537,
+    "longitude": -84.242751,
+    "name": "Amicalola Falls State Park & Lodge"
+  },
+  "amicalola-falls-state-park": {
+    "address": "166 Amicalola Falls State Park Rd, Dawsonville, GA 30534, United States",
+    "appleMapsID": "I4F187C4A7E8967C3",
+    "latitude": 34.565479,
+    "longitude": -84.242683,
+    "name": "Amicalola Falls State Park"
+  },
+  "angels-rest-hikers-haven": {
+    "address": "204 Douglas Ln, Pearisburg, VA 24134, United States",
+    "appleMapsID": "I264E058DFB6BC136",
+    "latitude": 37.332814,
+    "longitude": -80.734367,
+    "name": "Angels Rest Hikers Haven"
+  },
+  "appalachian-trail-hostel-outfitters": {
+    "address": "33 Penobscot Ave, Millinocket, ME 04462, United States",
+    "appleMapsID": "I8995CDEDE3A7BCF3",
+    "latitude": 45.653345,
+    "longitude": -68.708705,
+    "name": "Appalachian Trail Hostel & Outfitters"
+  },
+  "appalachian-trail-museum": {
+    "address": "1120 Pine Grove Rd, Gardners, PA 17324, United States",
+    "appleMapsID": "I3C3A33D28A5380EB",
+    "latitude": 40.032608,
+    "longitude": -77.305643,
+    "name": "Appalachian Trail Museum"
+  },
+  "atc-harpers-ferry": {
+    "address": "799 W Washington St, Harpers Ferry, WV 25425, United States",
+    "appleMapsID": "I110AC00C69D58223",
+    "latitude": 39.325392,
+    "longitude": -77.740443,
+    "name": "Appalachian Trail Conservancy Harpers Ferry Visitor Center"
+  },
+  "bear-mountain-state-park": {
+    "address": "Palisades Parkway, Bear Mountain, NY 10911, United States",
+    "appleMapsID": "ICBC95CBB371F177E",
+    "latitude": 41.311124,
+    "longitude": -73.993167,
+    "name": "Bear Mountain State Park"
+  },
+  "blood-mountain": {
+    "address": "Union County, GA, United States",
+    "appleMapsID": "I7BEEC35764933184",
+    "latitude": 34.73979,
+    "longitude": -83.93697,
+    "name": "Blood Mountain"
+  },
+  "bluff-mountain-outfitters": {
+    "address": "88 Bridge St, Hot Springs, NC 28743, United States",
+    "appleMapsID": "I3EECBDD531BC4330",
+    "latitude": 35.892333,
+    "longitude": -82.827835,
+    "name": "Bluff Mountain Outfitters"
+  },
+  "carvers-gap": {
+    "address": "Mitchell County, NC, United States",
+    "appleMapsID": "IE8B889D44665A7A8",
+    "latitude": 36.10642,
+    "longitude": -82.11094,
+    "name": "Carvers Gap"
+  },
+  "church-of-the-mountain-hostel": {
+    "address": "106 Church Ln, Stroudsburg, PA 18327, United States",
+    "appleMapsID": "I45319644F84CF543",
+    "latitude": 40.986508,
+    "longitude": -75.148094,
+    "name": "Presbyterian Church of the Mountain"
+  },
+  "colonial-fort-inn": {
+    "address": "370 Main St, Gorham, NH 03581, United States",
+    "appleMapsID": "I72A2F0668EFA036B",
+    "latitude": 44.398006,
+    "longitude": -71.194506,
+    "name": "Colonial Fort Inn"
+  },
+  "damascus-diner": {
+    "address": "103 S Shady Ave, Damascus, VA 24236, United States",
+    "appleMapsID": "I773EC722F5695BEC",
+    "latitude": 36.634675,
+    "longitude": -81.788863,
+    "name": "Damascus Diner"
+  },
+  "damascus-old-mill-inn": {
+    "address": "215 West Imboden Street, Damascus, VA 24236, United States",
+    "appleMapsID": "I2EA8D32E7DEFE619",
+    "latitude": 36.636352,
+    "longitude": -81.789827,
+    "name": "Damascus Old Mill Inn"
+  },
+  "deer-head-inn": {
+    "address": "5 Main St, Delaware Water Gap, PA 18327, United States",
+    "appleMapsID": "I416AA95078288B91",
+    "latitude": 40.982952,
+    "longitude": -75.140798,
+    "name": "Deer Head Inn"
+  },
+  "dicks-creek-gap": {
+    "address": "Towns County, GA, United States",
+    "appleMapsID": "I8C7FF8AAAC7A7FC5",
+    "latitude": 34.9115,
+    "longitude": -83.61844,
+    "name": "Dicks Creek Gap"
+  },
+  "doyle-hotel": {
+    "address": "7 N Market St, Duncannon, PA 17020, United States",
+    "appleMapsID": "IF4FDE74B45CE2231",
+    "latitude": 40.390309,
+    "longitude": -77.030441,
+    "name": "The Doyle Hotel"
+  },
+  "fife-n-drum": {
+    "address": "53 Main St, Kent, CT 06757, United States",
+    "appleMapsID": "I1F74C1F0084718BB",
+    "latitude": 41.728001,
+    "longitude": -73.474747,
+    "name": "Fife ‘n Drum Restaurant, Inn & Gift Shop"
+  },
+  "fontana-dam": {
+    "address": "71 Fontana Dam Rd, Fontana Dam, NC 28733, United States",
+    "appleMapsID": "I5D8F892E7C729A02",
+    "latitude": 35.45207,
+    "longitude": -83.805213,
+    "name": "Fontana Dam"
+  },
+  "fontana-lodge": {
+    "address": "300 Woods Rd, Fontana Dam, NC 28733, United States",
+    "appleMapsID": "I51389A3E9B87D1CA",
+    "latitude": 35.434873,
+    "longitude": -83.825571,
+    "name": "Fontana Village Resort"
+  },
+  "grayson-highlands-state-park": {
+    "address": "829 Grayson Highland Ln, Mouth of Wilson, VA 24363, United States",
+    "appleMapsID": "I3C978A08C10B0439",
+    "latitude": 36.629328,
+    "longitude": -81.498409,
+    "name": "Grayson Highlands State Park"
+  },
+  "hanover-inn": {
+    "address": "2 E Wheelock, Hanover, NH 03755, United States",
+    "appleMapsID": "I2AD84560DD02DFC4",
+    "latitude": 43.702227,
+    "longitude": -72.288798,
+    "name": "Hanover Inn Dartmouth"
+  },
+  "hot-springs-resort-spa": {
+    "address": "315 Bridge St, Hot Springs, NC 28743, United States",
+    "appleMapsID": "I94E93CDA0E98BA7E",
+    "latitude": 35.896321,
+    "longitude": -82.826276,
+    "name": "Hot Springs Resort & Spa"
+  },
+  "inn-at-long-trail": {
+    "address": "709 US-4, Killington, VT 05751, United States",
+    "appleMapsID": "IC9ECFA004D8DA67B",
+    "latitude": 43.66407,
+    "longitude": -72.833259,
+    "name": "Inn at Long Trail"
+  },
+  "jefferson-rock": {
+    "address": "575 Shenandoah St, Harpers Ferry, WV 25425, United States",
+    "appleMapsID": "I64E5A305E0A99933",
+    "latitude": 39.322697,
+    "longitude": -77.733315,
+    "name": "Jefferson Rock"
+  },
+  "katahdin": {
+    "address": "Piscataquis County, ME, United States",
+    "appleMapsID": "I882B044B3C98B88C",
+    "latitude": 45.90439,
+    "longitude": -68.92148,
+    "name": "Mount Katahdin"
+  },
+  "katahdin-stream-campground": {
+    "address": "Lily Bay, ME 04441, United States",
+    "appleMapsID": "IF7FB01847B494BA3",
+    "latitude": 45.887073,
+    "longitude": -68.999484,
+    "name": "Katahdin Stream Campground"
+  },
+  "kent-falls-state-park": {
+    "address": "462 Kent Cornwall Rd, Kent, CT 06757, United States",
+    "appleMapsID": "I4BFB8BC35F3BE019",
+    "latitude": 41.776329,
+    "longitude": -73.418059,
+    "name": "Kent Falls State Park"
+  },
+  "kuwohi": {
+    "address": "Kuwohi Trail, Gatlinburg, NC 37738, United States",
+    "latitude": 35.562986,
+    "longitude": -83.498588,
+    "name": "Kuwohi Trail"
+  },
+  "lazy-hiker-brewing": {
+    "address": "188 W Main St, Franklin, NC 28734, United States",
+    "appleMapsID": "IF2B460DEFBD17E10",
+    "latitude": 35.180814,
+    "longitude": -83.384213,
+    "name": "Lazy Hiker Brewing Company"
+  },
+  "lous-restaurant-bakery": {
+    "address": "30 S Main St, Hanover, NH 03755, United States",
+    "appleMapsID": "IF656607334FED263",
+    "latitude": 43.701536,
+    "longitude": -72.289161,
+    "name": "Lou's Restaurant & Bakery"
+  },
+  "max-patch": {
+    "address": "Hot Springs, TN 28743, United States",
+    "appleMapsID": "I655F3BF524BFE3C5",
+    "latitude": 35.796383,
+    "longitude": -82.962624,
+    "name": "Max Patch"
+  },
+  "mcafee-knob-trailhead": {
+    "address": "Catawba Valley Dr & Old Catawba Rd, Catawba, VA 24070, United States",
+    "appleMapsID": "I289B33E3AB98E12D",
+    "latitude": 37.380428,
+    "longitude": -80.088383,
+    "name": "McAfee Knob Trailhead"
+  },
+  "mount-tammany": {
+    "address": "Warren County, NJ, United States",
+    "appleMapsID": "IDD1DD09A59909D1D",
+    "latitude": 40.96948,
+    "longitude": -75.111,
+    "name": "Mount Tammany"
+  },
+  "mountain-crossings": {
+    "address": "12471 Gainesville Hwy, Blairsville, GA 30512, United States",
+    "appleMapsID": "I8F8757FC76A9A1E6",
+    "latitude": 34.73503,
+    "longitude": -83.917737,
+    "name": "Mountain Crossings"
+  },
+  "mountain-harbour": {
+    "address": "9151 Highway 19 E, Roan Mountain, TN 37687, United States",
+    "appleMapsID": "I3D5E47330DB04F34",
+    "latitude": 36.179444,
+    "longitude": -82.016338,
+    "name": "Mountain Harbour"
+  },
+  "nantahala-outdoor-center": {
+    "address": "13077 US-19 W, Bryson City, NC 28713, United States",
+    "appleMapsID": "I4F2B7512C7AC969F",
+    "latitude": 35.331336,
+    "longitude": -83.591685,
+    "name": "Nantahala Outdoor Center"
+  },
+  "newfound-gap": {
+    "address": "Sevier County, TN, United States",
+    "appleMapsID": "ID6AB37429F2D0674",
+    "latitude": 35.6111,
+    "longitude": -83.42532,
+    "name": "Newfound Gap"
+  },
+  "outdoor-76": {
+    "address": "35 E Main St, Franklin, NC 28734, United States",
+    "appleMapsID": "I760EBD0813247227",
+    "latitude": 35.182165,
+    "longitude": -83.380676,
+    "name": "Outdoor 76"
+  },
+  "pancake-pantry": {
+    "address": "628 Parkway, Gatlinburg, TN 37738, United States",
+    "appleMapsID": "I541D9BD129A6C2CC",
+    "latitude": 35.712541,
+    "longitude": -83.514231,
+    "name": "Pancake Pantry"
+  },
+  "pinkham-notch-visitor-center": {
+    "address": "361 NH-16, Jackson, NH 03846, United States",
+    "appleMapsID": "I56F4CE42AD74080B",
+    "latitude": 44.257481,
+    "longitude": -71.253113,
+    "name": "AMC Pinkham Notch Visitor Center"
+  },
+  "shaws-hiker-hostel": {
+    "address": "17 Pleasant St, Blanchard Twp, ME 04464, United States",
+    "appleMapsID": "I12A1EB6D45C93241",
+    "latitude": 45.286755,
+    "longitude": -69.50297,
+    "name": "Shaw's Lodging"
+  },
+  "smoky-mountain-diner": {
+    "address": "70 Lance Ave, Hot Springs, NC 28743, United States",
+    "appleMapsID": "I2CE7652AC21582BC",
+    "latitude": 35.891719,
+    "longitude": -82.830348,
+    "name": "Smoky Mountain Diner"
+  },
+  "spring-creek-tavern": {
+    "address": "145 Bridge St, Hot Springs, NC 28743, United States",
+    "appleMapsID": "IC73E01EF6FCE7183",
+    "latitude": 35.893036,
+    "longitude": -82.827174,
+    "name": "Spring Creek Tavern & Inn"
+  },
+  "steel-rails-coffee-house": {
+    "address": "117 N Main Ave, Erwin, TN 37650, United States",
+    "appleMapsID": "I87AC2317CE2FBD0E",
+    "latitude": 36.145772,
+    "longitude": -82.416271,
+    "name": "Steel Rails Coffee House"
+  },
+  "sugarlands-visitor-center": {
+    "address": "1420 Fighting Creek Gap Rd, Gatlinburg, TN 37738, United States",
+    "appleMapsID": "ID62E8ADC6DD0041E",
+    "latitude": 35.685654,
+    "longitude": -83.536631,
+    "name": "Sugarlands Visitor Center"
+  },
+  "the-towns-inn": {
+    "address": "179 High St, Harpers Ferry, WV 25425, United States",
+    "appleMapsID": "I6680A4E6F343B4DD",
+    "latitude": 39.323794,
+    "longitude": -77.731743,
+    "name": "The Town's Inn"
+  },
+  "village-farmer-bakery": {
+    "address": "13 Broad St, Delaware Water Gap, PA 18327, United States",
+    "appleMapsID": "IFC523B7A5235F2D7",
+    "latitude": 40.98565,
+    "longitude": -75.144599,
+    "name": "Village Farmer and Bakery"
+  },
+  "virginia-creeper-trail-damascus": {
+    "address": "Virginia Creeper Trail, Damascus, VA 24236, United States",
+    "latitude": 36.634406,
+    "longitude": -81.792136,
+    "name": "Virginia Creeper Trail"
+  }
+}

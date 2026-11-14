@@ -41,13 +41,6 @@
     "longitude": -77.068896,
     "name": "Call Your Mother"
   },
-  "compass-rose": {
-    "address": "1346 T St NW, Washington, DC 20009, United States",
-    "appleMapsID": "I21A2DE26B462BBC8",
-    "latitude": 38.915352,
-    "longitude": -77.031548,
-    "name": "Compass Rose Bar + Kitchen"
-  },
   "dumbarton-oaks": {
     "address": "1703 32nd St NW, Washington, DC 20007, United States",
     "appleMapsID": "IC6A708AB6A2BB29B",
@@ -230,6 +223,13 @@
     "longitude": -77.032152,
     "name": "Round Robin Bar"
   },
+  "sook": {
+    "address": "1346 T St NW, Washington, DC 20009, United States",
+    "appleMapsID": "IA118107D1D29F0E9",
+    "latitude": 38.915358,
+    "longitude": -77.031553,
+    "name": "Sook"
+  },
   "the-jefferson": {
     "address": "1200 16th St NW, Washington, DC 20036, United States",
     "appleMapsID": "I15F196BFF44D2740",
@@ -238,10 +238,10 @@
     "name": "The Jefferson"
   },
   "tidal-basin": {
-    "address": "Washington, DC, United States",
-    "latitude": 38.884335,
-    "longitude": -77.039111,
-    "name": "Tidal Basin"
+    "address": "Tidal Basin Loop Trail, Washington, DC 20024, United States",
+    "latitude": 38.88361,
+    "longitude": -77.042369,
+    "name": "Tidal Basin Loop Trail"
   },
   "union-market": {
     "address": "1309 Fifth St NE, Washington, DC 20002, United States",

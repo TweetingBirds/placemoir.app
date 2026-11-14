@@ -196,10 +196,11 @@
     "name": "Mama's on Washington Square"
   },
   "mission-dolores": {
-    "address": "Mission Dolores, San Francisco, CA, United States",
-    "latitude": 37.76316,
-    "longitude": -122.423945,
-    "name": "Mission Dolores"
+    "address": "3321 16th St, San Francisco, CA 94114, United States",
+    "appleMapsID": "IA3EBAB2D686D4F96",
+    "latitude": 37.764343,
+    "longitude": -122.427459,
+    "name": "Mission Dolores Basilica"
   },
   "mitchells": {
     "address": "688 San Jose Ave, San Francisco, CA 94110, United States",

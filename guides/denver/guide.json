@@ -90,20 +90,6 @@
       "appleMapsID": "I8E338349ADBCB5F8"
     },
     {
-      "id": "guide:denver/biker-jims",
-      "name": "Biker Jim's Gourmet Dogs",
-      "category": "restaurant",
-      "address": "16th Street Mall & Stout St, Denver, CO 80202",
-      "locality": "Downtown",
-      "country": "United States",
-      "latitude": 39.748048,
-      "longitude": -104.995659,
-      "wantToGo": true,
-      "notes": "Reindeer, elk and rattlesnake sausages with cream cheese and caramelized onions.",
-      "section": "Eat",
-      "appleMapsID": "IE96755DC82228ABE"
-    },
-    {
       "id": "guide:denver/denver-central-market",
       "name": "Denver Central Market",
       "category": "restaurant",
