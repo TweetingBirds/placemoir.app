@@ -54,8 +54,8 @@
       "address": "7140 E Lamar Alexander Pkwy, Townsend, TN 37882",
       "locality": "Townsend",
       "country": "United States",
-      "latitude": 35.666,
-      "longitude": -83.728,
+      "latitude": 35.6782,
+      "longitude": -83.7821,
       "wantToGo": true,
       "notes": "Cabins in the woods in Townsend, the quiet side of the Smokies, about twenty minutes from Cades Cove.",
       "section": "Stay"
@@ -152,29 +152,16 @@
       "section": "Eat"
     },
     {
-      "id": "guide:great-smoky-mountains/cork-and-bean",
-      "name": "The Cork & Bean",
-      "category": "cafe",
-      "address": "16 Everett St, Bryson City, NC 28713",
-      "locality": "Bryson City",
-      "country": "United States",
-      "latitude": 35.4307,
-      "longitude": -83.4475,
-      "wantToGo": true,
-      "notes": "Coffee, crêpes and wine on Bryson City's main street. Easy breakfast before Deep Creek, easy glass after.",
-      "section": "Eat"
-    },
-    {
       "id": "guide:great-smoky-mountains/nantahala-brewing",
       "name": "Nantahala Brewing",
       "category": "bar",
-      "address": "61 Depot St, Bryson City, NC 28713",
+      "address": "500 Veterans Blvd, Bryson City, NC 28713",
       "locality": "Bryson City",
       "country": "United States",
-      "latitude": 35.431,
-      "longitude": -83.446,
+      "latitude": 35.4208,
+      "longitude": -83.444,
       "wantToGo": true,
-      "notes": "A brewery in an old Quonset hut by the train depot, full of muddy boots and paddlers at the end of the day.",
+      "notes": "Bryson City's own brewery, full of muddy boots and paddlers at the end of the day.",
       "section": "Eat"
     },
     {
@@ -327,8 +314,8 @@
       "address": "Newfound Gap Rd, Gatlinburg, TN 37738",
       "locality": "Newfound Gap Road",
       "country": "United States",
-      "latitude": 35.636,
-      "longitude": -83.493,
+      "latitude": 35.6354,
+      "longitude": -83.4698,
       "wantToGo": true,
       "notes": "A short, steep climb to a viewpoint facing the Chimney Tops. The rock summit has been closed since the 2016 fire, and the view from the end of the trail is still the reward.",
       "section": "Hike"
