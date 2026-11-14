@@ -28,11 +28,12 @@
       "address": "Mount Le Conte, Gatlinburg, TN 37738",
       "locality": "Mount Le Conte",
       "country": "United States",
-      "latitude": 35.6544,
-      "longitude": -83.4382,
+      "latitude": 35.654887,
+      "longitude": -83.441059,
       "wantToGo": true,
       "notes": "Rustic cabins near the top of Mount Le Conte, reached only on foot. Dinner and breakfast are included, there's no electricity in the rooms, and the sunrise from Myrtle Point is the reason to go. Rooms go fast, so book as early as they allow.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "I2F2711F804FE78AE"
     },
     {
       "id": "guide:great-smoky-mountains/buckhorn-inn",
@@ -41,11 +42,12 @@
       "address": "2140 Tudor Mountain Rd, Gatlinburg, TN 37738",
       "locality": "Gatlinburg",
       "country": "United States",
-      "latitude": 35.7206,
-      "longitude": -83.4285,
+      "latitude": 35.744784,
+      "longitude": -83.428178,
       "wantToGo": true,
       "notes": "A quiet 1938 inn on the Greenbrier side of Gatlinburg, looking straight at Mount Le Conte. Far enough from the Parkway to hear the creek, close enough for an early start.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "I3DBEF5BBA1794A0E"
     },
     {
       "id": "guide:great-smoky-mountains/dancing-bear-lodge",
@@ -54,11 +56,12 @@
       "address": "7140 E Lamar Alexander Pkwy, Townsend, TN 37882",
       "locality": "Townsend",
       "country": "United States",
-      "latitude": 35.6782,
-      "longitude": -83.7821,
+      "latitude": 35.678228,
+      "longitude": -83.782127,
       "wantToGo": true,
       "notes": "Cabins in the woods in Townsend, the quiet side of the Smokies, about twenty minutes from Cades Cove.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "I832D2551C1DD6C26"
     },
     {
       "id": "guide:great-smoky-mountains/fryemont-inn",
@@ -67,11 +70,12 @@
       "address": "245 Fryemont St, Bryson City, NC 28713",
       "locality": "Bryson City",
       "country": "United States",
-      "latitude": 35.4317,
-      "longitude": -83.4489,
+      "latitude": 35.424388,
+      "longitude": -83.445166,
       "wantToGo": true,
       "notes": "A 1920s bark-covered lodge above Bryson City, with a big stone fireplace and porch rockers. Handy for Deep Creek and the North Carolina side.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "I3679EC9FF69F4A65"
     },
     {
       "id": "guide:great-smoky-mountains/elkmont-campground",
@@ -80,11 +84,12 @@
       "address": "434 Elkmont Rd, Gatlinburg, TN 37738",
       "locality": "Elkmont",
       "country": "United States",
-      "latitude": 35.663,
-      "longitude": -83.587,
+      "latitude": 35.660376,
+      "longitude": -83.583805,
       "wantToGo": true,
       "notes": "The park's biggest campground, along the Little River near the old Elkmont summer cabins. In early June it's the heart of the synchronous firefly season. Viewing is by lottery, so check the park site.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "IB4759AB409EA7450"
     },
     {
       "id": "guide:great-smoky-mountains/cades-cove-campground",
@@ -93,11 +98,12 @@
       "address": "10035 Campground Dr, Townsend, TN 37882",
       "locality": "Cades Cove",
       "country": "United States",
-      "latitude": 35.6037,
-      "longitude": -83.7737,
+      "latitude": 35.603631,
+      "longitude": -83.77617,
       "wantToGo": true,
       "notes": "Camp at the mouth of the cove and you can be on the loop road at first light, before the cars, when the deer and bears are out.",
-      "section": "Stay"
+      "section": "Stay",
+      "appleMapsID": "IC1EAF7CD35011E2A"
     },
     {
       "id": "guide:great-smoky-mountains/pancake-pantry",
@@ -106,11 +112,12 @@
       "address": "628 Parkway, Gatlinburg, TN 37738",
       "locality": "Gatlinburg",
       "country": "United States",
-      "latitude": 35.7128,
-      "longitude": -83.518,
+      "latitude": 35.712541,
+      "longitude": -83.514231,
       "wantToGo": true,
       "notes": "Gatlinburg's pancake house since 1960. There's usually a line, and it moves. Go early on a hiking day.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I541D9BD129A6C2CC"
     },
     {
       "id": "guide:great-smoky-mountains/wild-plum-tea-room",
@@ -119,11 +126,12 @@
       "address": "555 Buckhorn Rd, Gatlinburg, TN 37738",
       "locality": "Arts & Crafts Community",
       "country": "United States",
-      "latitude": 35.719,
-      "longitude": -83.46,
+      "latitude": 35.751659,
+      "longitude": -83.436218,
       "wantToGo": true,
       "notes": "Lunch in a little cabin in the woods off the Arts and Crafts loop. Save room for dessert.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "IC215DE22EE581EA2"
     },
     {
       "id": "guide:great-smoky-mountains/greenbrier-restaurant",
@@ -132,11 +140,12 @@
       "address": "370 Newman Rd, Gatlinburg, TN 37738",
       "locality": "Gatlinburg",
       "country": "United States",
-      "latitude": 35.722,
-      "longitude": -83.471,
+      "latitude": 35.72481,
+      "longitude": -83.484571,
       "wantToGo": true,
       "notes": "Steaks and trout in an old log lodge up the hill from Gatlinburg. The dinner to book after a long hike.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I74CCFFF454662976"
     },
     {
       "id": "guide:great-smoky-mountains/peters-pancakes",
@@ -145,11 +154,12 @@
       "address": "1384 Tsali Blvd, Cherokee, NC 28719",
       "locality": "Cherokee",
       "country": "United States",
-      "latitude": 35.49,
-      "longitude": -83.313,
+      "latitude": 35.496404,
+      "longitude": -83.312804,
       "wantToGo": true,
       "notes": "A big breakfast by the Oconaluftee River in Cherokee before you drive up Newfound Gap Road.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I60F7ED9B8174F54F"
     },
     {
       "id": "guide:great-smoky-mountains/nantahala-brewing",
@@ -158,11 +168,12 @@
       "address": "500 Veterans Blvd, Bryson City, NC 28713",
       "locality": "Bryson City",
       "country": "United States",
-      "latitude": 35.4208,
-      "longitude": -83.444,
+      "latitude": 35.42081,
+      "longitude": -83.443962,
       "wantToGo": true,
       "notes": "Bryson City's own brewery, full of muddy boots and paddlers at the end of the day.",
-      "section": "Eat"
+      "section": "Eat",
+      "appleMapsID": "I6077206C95EB8C30"
     },
     {
       "id": "guide:great-smoky-mountains/sugarlands-visitor-center",
@@ -171,11 +182,12 @@
       "address": "1420 Fighting Creek Gap Rd, Gatlinburg, TN 37738",
       "locality": "Gatlinburg entrance",
       "country": "United States",
-      "latitude": 35.6853,
-      "longitude": -83.5367,
+      "latitude": 35.685654,
+      "longitude": -83.536631,
       "wantToGo": true,
       "notes": "Start here on the Tennessee side for maps, ranger advice and the day's road closures. You need a parking tag to park anywhere in the park for more than a few minutes, and they sell them here.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "ID62E8ADC6DD0041E"
     },
     {
       "id": "guide:great-smoky-mountains/oconaluftee-visitor-center",
@@ -184,11 +196,12 @@
       "address": "1194 Newfound Gap Rd, Cherokee, NC 28719",
       "locality": "Cherokee entrance",
       "country": "United States",
-      "latitude": 35.513,
-      "longitude": -83.3069,
+      "latitude": 35.513024,
+      "longitude": -83.30615,
       "wantToGo": true,
       "notes": "The North Carolina side's visitor center, next to the Mountain Farm Museum's log buildings. Elk often graze the fields here at dusk.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I1B3A0E3027645A8B"
     },
     {
       "id": "guide:great-smoky-mountains/cades-cove",
@@ -197,11 +210,12 @@
       "address": "Cades Cove Loop Rd, Townsend, TN 37882",
       "locality": "Cades Cove",
       "country": "United States",
-      "latitude": 35.5905,
-      "longitude": -83.81,
+      "latitude": 35.599043,
+      "longitude": -83.809633,
       "wantToGo": true,
       "notes": "An eleven-mile one-way loop through an old farming valley, past log churches, cabins and Cable Mill. Go at sunrise for deer and bears, and check the park site for car-free mornings, when it's all bikes.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IA0177CB1F00BFBC7"
     },
     {
       "id": "guide:great-smoky-mountains/kuwohi",
@@ -210,11 +224,12 @@
       "address": "Clingmans Dome Rd, Bryson City, NC 28713",
       "locality": "Kuwohi",
       "country": "United States",
-      "latitude": 35.5628,
-      "longitude": -83.4985,
+      "latitude": 35.5629,
+      "longitude": -83.49842,
       "wantToGo": true,
       "notes": "The highest point in the park, once called Clingmans Dome, renamed with its Cherokee name in 2024. A steep paved half mile leads to the observation tower. The road closes in winter.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I7CE3005D17B8F334"
     },
     {
       "id": "guide:great-smoky-mountains/newfound-gap",
@@ -223,11 +238,12 @@
       "address": "Newfound Gap Rd, Gatlinburg, TN 37738",
       "locality": "Newfound Gap",
       "country": "United States",
-      "latitude": 35.611,
-      "longitude": -83.425,
+      "latitude": 35.6111,
+      "longitude": -83.42532,
       "wantToGo": true,
       "notes": "The pass on the state line, where the Appalachian Trail crosses the road and Roosevelt dedicated the park in 1940. Cold and windy most of the year, so bring a layer.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "ID6AB37429F2D0674"
     },
     {
       "id": "guide:great-smoky-mountains/roaring-fork",
@@ -236,11 +252,12 @@
       "address": "Roaring Fork Motor Nature Trail, Gatlinburg, TN 37738",
       "locality": "Roaring Fork",
       "country": "United States",
-      "latitude": 35.695,
-      "longitude": -83.488,
+      "latitude": 35.678555,
+      "longitude": -83.481289,
       "wantToGo": true,
       "notes": "A slow, narrow one-way drive past old homesteads, mossy boulders and the Place of a Thousand Drips after rain. Closed in winter.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IED4DEE3056938579"
     },
     {
       "id": "guide:great-smoky-mountains/mingus-mill",
@@ -249,11 +266,12 @@
       "address": "Newfound Gap Rd, Cherokee, NC 28719",
       "locality": "Cherokee entrance",
       "country": "United States",
-      "latitude": 35.52,
-      "longitude": -83.31,
+      "latitude": 35.520116,
+      "longitude": -83.30978,
       "wantToGo": true,
       "notes": "An 1886 mill that still grinds corn with a water turbine. A five-minute stop just up the road from Oconaluftee.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "IF73E861EF9711854"
     },
     {
       "id": "guide:great-smoky-mountains/cataloochee-valley",
@@ -262,11 +280,12 @@
       "address": "Cataloochee Entrance Rd, Waynesville, NC 28785",
       "locality": "Cataloochee",
       "country": "United States",
-      "latitude": 35.638,
-      "longitude": -83.075,
+      "latitude": 35.640662,
+      "longitude": -83.079472,
       "wantToGo": true,
       "notes": "A remote valley at the end of a winding gravel road, with old frame houses and the park's best elk watching at dawn and dusk. Worth the detour, and far quieter than Cades Cove.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I20A466E017D881FC"
     },
     {
       "id": "guide:great-smoky-mountains/museum-of-the-cherokee-people",
@@ -275,11 +294,12 @@
       "address": "589 Tsali Blvd, Cherokee, NC 28719",
       "locality": "Cherokee",
       "country": "United States",
-      "latitude": 35.484,
-      "longitude": -83.317,
+      "latitude": 35.484327,
+      "longitude": -83.316203,
       "wantToGo": true,
       "notes": "The story of the Cherokee in these mountains, told by the Eastern Band, from long before the park to the Trail of Tears and today.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "ID2CD297ED304764"
     },
     {
       "id": "guide:great-smoky-mountains/heritage-center",
@@ -288,11 +308,12 @@
       "address": "123 Cromwell Dr, Townsend, TN 37882",
       "locality": "Townsend",
       "country": "United States",
-      "latitude": 35.672,
-      "longitude": -83.712,
+      "latitude": 35.676232,
+      "longitude": -83.722337,
       "wantToGo": true,
       "notes": "Mountain life before the park, with moved-in cabins and farm buildings out back. A good rainy-morning stop on the way to Cades Cove.",
-      "section": "See"
+      "section": "See",
+      "appleMapsID": "I6BABB152FBE80C44"
     },
     {
       "id": "guide:great-smoky-mountains/alum-cave",
@@ -301,11 +322,12 @@
       "address": "Newfound Gap Rd, Gatlinburg, TN 37738",
       "locality": "Newfound Gap Road",
       "country": "United States",
-      "latitude": 35.629,
-      "longitude": -83.451,
+      "latitude": 35.629542,
+      "longitude": -83.451443,
       "wantToGo": true,
       "notes": "The classic Smokies hike: Arch Rock, Inspiration Point and the Alum Cave Bluffs, about five miles round trip. Keep going to LeConte Lodge if you've booked a night. The lot fills by mid-morning.",
-      "section": "Hike"
+      "section": "Hike",
+      "appleMapsID": "ICBB1E716D519FA01"
     },
     {
       "id": "guide:great-smoky-mountains/chimney-tops",
@@ -314,11 +336,12 @@
       "address": "Newfound Gap Rd, Gatlinburg, TN 37738",
       "locality": "Newfound Gap Road",
       "country": "United States",
-      "latitude": 35.6354,
-      "longitude": -83.4698,
+      "latitude": 35.635438,
+      "longitude": -83.469758,
       "wantToGo": true,
       "notes": "A short, steep climb to a viewpoint facing the Chimney Tops. The rock summit has been closed since the 2016 fire, and the view from the end of the trail is still the reward.",
-      "section": "Hike"
+      "section": "Hike",
+      "appleMapsID": "IF5C5FE50A0D1E063"
     },
     {
       "id": "guide:great-smoky-mountains/grotto-falls",
@@ -327,11 +350,12 @@
       "address": "Roaring Fork Motor Nature Trail, Gatlinburg, TN 37738",
       "locality": "Roaring Fork",
       "country": "United States",
-      "latitude": 35.681,
-      "longitude": -83.463,
+      "latitude": 35.680321,
+      "longitude": -83.463498,
       "wantToGo": true,
       "notes": "An easy walk through old hemlock forest to the one waterfall in the park you can walk behind. Start from the Trillium Gap trailhead on Roaring Fork.",
-      "section": "Hike"
+      "section": "Hike",
+      "appleMapsID": "IE22F0FD507C80BCE"
     },
     {
       "id": "guide:great-smoky-mountains/abrams-falls",
@@ -340,11 +364,12 @@
       "address": "Cades Cove Loop Rd, Townsend, TN 37882",
       "locality": "Cades Cove",
       "country": "United States",
-      "latitude": 35.591,
-      "longitude": -83.852,
+      "latitude": 35.591291,
+      "longitude": -83.852487,
       "wantToGo": true,
       "notes": "Five miles round trip along Abrams Creek to a short, wide waterfall and a deep pool. Pair it with the Cades Cove loop. Don't swim near the falls, where the current is strong.",
-      "section": "Hike"
+      "section": "Hike",
+      "appleMapsID": "ICC6D42937ADE5B56"
     },
     {
       "id": "guide:great-smoky-mountains/andrews-bald",
@@ -353,11 +378,12 @@
       "address": "Clingmans Dome Rd, Bryson City, NC 28713",
       "locality": "Kuwohi",
       "country": "United States",
-      "latitude": 35.539,
-      "longitude": -83.495,
+      "latitude": 35.5418,
+      "longitude": -83.4933,
       "wantToGo": true,
       "notes": "A grassy mountaintop meadow with flame azaleas in June, down the Forney Ridge Trail from the Kuwohi parking area. Easy going down, a real climb coming back.",
-      "section": "Hike"
+      "section": "Hike",
+      "appleMapsID": "I59C8F4113160D23A"
     },
     {
       "id": "guide:great-smoky-mountains/charlies-bunion",
@@ -366,11 +392,12 @@
       "address": "Appalachian Trail, Gatlinburg, TN 37738",
       "locality": "Newfound Gap",
       "country": "United States",
-      "latitude": 35.637,
-      "longitude": -83.376,
+      "latitude": 35.6393,
+      "longitude": -83.3719,
       "wantToGo": true,
       "notes": "A rocky knob with a huge view, about eight miles round trip on the Appalachian Trail from Newfound Gap. Start early, as the gap's lot fills fast.",
-      "section": "Hike"
+      "section": "Hike",
+      "appleMapsID": "IE18BB9D1476D5F3E"
     },
     {
       "id": "guide:great-smoky-mountains/porters-creek",
@@ -379,11 +406,12 @@
       "address": "Greenbrier Rd, Gatlinburg, TN 37738",
       "locality": "Greenbrier",
       "country": "United States",
-      "latitude": 35.682,
-      "longitude": -83.388,
+      "latitude": 35.696772,
+      "longitude": -83.388242,
       "wantToGo": true,
       "notes": "The spring wildflower walk, along a creek past an old farm site and a cantilevered barn in the quiet Greenbrier corner of the park.",
-      "section": "Hike"
+      "section": "Hike",
+      "appleMapsID": "I73C3F80C5DB6A3CA"
     },
     {
       "id": "guide:great-smoky-mountains/deep-creek",
@@ -392,11 +420,12 @@
       "address": "Deep Creek Rd, Bryson City, NC 28713",
       "locality": "Bryson City",
       "country": "United States",
-      "latitude": 35.464,
-      "longitude": -83.434,
+      "latitude": 35.46476,
+      "longitude": -83.433695,
       "wantToGo": true,
       "notes": "Three waterfalls on an easy loop a few minutes from Bryson City. In summer the creek is full of people on inner tubes, rented at the outfitters by the entrance.",
-      "section": "Hike"
+      "section": "Hike",
+      "appleMapsID": "I284ADB8F449BCC70"
     }
   ]
 }
