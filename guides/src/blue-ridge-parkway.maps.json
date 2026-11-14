@@ -1,0 +1,391 @@
+{
+  "blowing-rock-art-history-museum": {
+    "address": "159 Ginny Stevens Ln, Blowing Rock, NC 28605, United States",
+    "appleMapsID": "IF3A0B81DA5195287",
+    "latitude": 36.130379,
+    "longitude": -81.679466,
+    "name": "Blowing Rock Art & History Museum"
+  },
+  "blue-ridge-music-center": {
+    "address": "Music Center Road, Galax, VA 24333, United States",
+    "appleMapsID": "IB9B31B098849FCE9",
+    "latitude": 36.57319,
+    "longitude": -80.849998,
+    "name": "Blue Ridge Music Center"
+  },
+  "brinegar-cabin": {
+    "address": "42728 Blue Ridge Pkwy, Hays, NC 28635, United States",
+    "appleMapsID": "I946C2DB960B25ADF",
+    "latitude": 36.418333,
+    "longitude": -81.145556,
+    "name": "Brinegar Cabin"
+  },
+  "brp-visitor-center-asheville": {
+    "address": "195 Hemphill Knob Rd, Asheville, NC 28803, United States",
+    "appleMapsID": "I850DE65D1314040B",
+    "latitude": 35.565784,
+    "longitude": -82.486404,
+    "name": "Blue Ridge Parkway Visitor Center"
+  },
+  "chateau-morrisette": {
+    "address": "291 Winery Rd SW, Floyd, VA 24091, United States",
+    "appleMapsID": "IB515C88CA9CC0CDE",
+    "latitude": 36.79382,
+    "longitude": -80.39508,
+    "name": "Chateau Morrisette Winery"
+  },
+  "chetola-resort": {
+    "address": "185 Chetola Lake Dr, Blowing Rock, NC 28605, United States",
+    "appleMapsID": "I21E4B82EEB542727",
+    "latitude": 36.139595,
+    "longitude": -81.67323,
+    "name": "Chetola Resort & Spa"
+  },
+  "crabtree-falls-va": {
+    "address": "Montebello, VA 24464, United States",
+    "appleMapsID": "I9178083A43E82B97",
+    "latitude": 37.850792,
+    "longitude": -79.079109,
+    "name": "Crabtree Falls Trail"
+  },
+  "craggy-gardens": {
+    "address": "3645 Blue Ridge Pkwy, Barnardsville, NC 28709, United States",
+    "appleMapsID": "I81A21F38B2E4B43E",
+    "latitude": 35.700266,
+    "longitude": -82.379644,
+    "name": "Craggy Gardens Visitor Center"
+  },
+  "cumberland-knob": {
+    "address": "Alleghany County, NC, United States",
+    "appleMapsID": "IA606937F0016C1E3",
+    "latitude": 36.5505,
+    "longitude": -80.90874,
+    "name": "Cumberland Knob"
+  },
+  "curate": {
+    "address": "13 Biltmore Ave, Asheville, NC 28801, United States",
+    "appleMapsID": "I1CB9D8047ECFB978",
+    "latitude": 35.59407,
+    "longitude": -82.551699,
+    "name": "Cúrate"
+  },
+  "devils-backbone-basecamp": {
+    "address": "200 Crandall Run, Roseland, VA 22967, United States",
+    "appleMapsID": "ID0DFABF5D84FDB41",
+    "latitude": 37.87125,
+    "longitude": -78.918618,
+    "name": "Devils Backbone Brewing Company"
+  },
+  "devils-courthouse": {
+    "address": "Balsam Grove, NC 28708, United States",
+    "appleMapsID": "IA3E2216125F0811F",
+    "latitude": 35.30526,
+    "longitude": -82.89927,
+    "name": "Devil's Courthouse"
+  },
+  "eb-jeffress-park": {
+    "address": "Cascade Falls Loop Trail, Purlear, NC 28665, United States",
+    "appleMapsID": "IA4D02E3320C928",
+    "latitude": 36.247371,
+    "longitude": -81.4568,
+    "name": "E. B. Jeffress Park"
+  },
+  "explore-park": {
+    "address": "3900 Rutrough Rd, Vinton, VA 24014, United States",
+    "appleMapsID": "IB26EBB0CE3639C6D",
+    "latitude": 37.238305,
+    "longitude": -79.851763,
+    "name": "Explore Park"
+  },
+  "famous-louises-rock-house": {
+    "address": "23175 Linville Falls Hwy, Marion, NC 28647, United States",
+    "appleMapsID": "I570613E91B3D52B5",
+    "latitude": 35.958843,
+    "longitude": -81.942772,
+    "name": "Famous Louise's Rockhouse Restaurant"
+  },
+  "flat-top-manor": {
+    "address": "Figure Eight Outer Loop, Blowing Rock, NC 28605, United States",
+    "appleMapsID": "IA51566D47915DDB2",
+    "latitude": 36.1492,
+    "longitude": -81.692959,
+    "name": "Moses Cone Manor House"
+  },
+  "floyd-country-store": {
+    "address": "206 S Locust St, Floyd, VA 24091, United States",
+    "appleMapsID": "I75B5FF46D473E31",
+    "latitude": 36.910365,
+    "longitude": -80.320289,
+    "name": "Floyd Country Store"
+  },
+  "folk-art-center": {
+    "address": "382 Blue Ridge Pkwy, Asheville, NC 28805, United States",
+    "appleMapsID": "I1C3DCC8EDA3AD846",
+    "latitude": 35.592857,
+    "longitude": -82.482184,
+    "name": "The Folk Art Center"
+  },
+  "french-broad-chocolate-lounge": {
+    "address": "10 S Pack Square, Asheville, NC 28801, United States",
+    "appleMapsID": "IE18E2AEEEE9D5DA8",
+    "latitude": 35.594864,
+    "longitude": -82.550926,
+    "name": "French Broad Chocolate Lounge"
+  },
+  "graveyard-fields": {
+    "address": "MTS Access Graveyard Fields Trail, Canton, NC 28716, United States",
+    "appleMapsID": "I563FC5BB45FFEF8",
+    "latitude": 35.3202,
+    "longitude": -82.847193,
+    "name": "Graveyard Fields Overlook"
+  },
+  "green-park-inn": {
+    "address": "9239 Valley Blvd, Blowing Rock, NC 28605, United States",
+    "appleMapsID": "I1FDC31DBE6992FE7",
+    "latitude": 36.118442,
+    "longitude": -81.660143,
+    "name": "Green Park Inn"
+  },
+  "hotel-floyd": {
+    "address": "300 Rick Lewis Way, Floyd, VA 24091, United States",
+    "appleMapsID": "I7EC113D2AA3CDAE",
+    "latitude": 36.910305,
+    "longitude": -80.318226,
+    "name": "Hotel Floyd"
+  },
+  "hotel-roanoke": {
+    "address": "110 Shenandoah Avenue, Roanoke, VA 24016, United States",
+    "appleMapsID": "I2AB1566B26F2F5D3",
+    "latitude": 37.274847,
+    "longitude": -79.940012,
+    "name": "The Hotel Roanoke & Conference Center, Curio Collection by Hilton"
+  },
+  "humpback-rocks": {
+    "address": "Virginia, United States",
+    "appleMapsID": "ID6EB2E240910E224",
+    "latitude": 37.968298,
+    "longitude": -78.896563,
+    "name": "Humpback Rocks Trail"
+  },
+  "james-river-visitor-center": {
+    "address": "63629 Blue Ridge Parkway, Big Island, VA 24574, United States",
+    "appleMapsID": "I4FD4AEECFCEC7317",
+    "latitude": 37.555152,
+    "longitude": -79.365886,
+    "name": "James River Visitors Center"
+  },
+  "linn-cove-viaduct": {
+    "address": "Blue Ridge Pkwy, Linville, NC 28646, United States",
+    "appleMapsID": "I4FCD873C75EC9BD2",
+    "latitude": 36.093158,
+    "longitude": -81.81318,
+    "name": "Linn Cove Viaduct"
+  },
+  "linville-falls": {
+    "address": "Warrior Lane, Marion, NC 28752, United States",
+    "appleMapsID": "I3983A7BD8492B324",
+    "latitude": 35.954535,
+    "longitude": -81.927742,
+    "name": "Linville Falls Visitor Center"
+  },
+  "mabry-mill": {
+    "address": "Mabry Mill, Meadows Of Dan, VA, United States",
+    "latitude": 36.750136,
+    "longitude": -80.404785,
+    "name": "Mabry Mill"
+  },
+  "mill-mountain-star": {
+    "address": "2404 Prospect Rd SE, Roanoke, VA 24014, United States",
+    "appleMapsID": "I41296020D033298",
+    "latitude": 37.250866,
+    "longitude": -79.932302,
+    "name": "The Roanoke Star"
+  },
+  "mount-mitchell-state-park": {
+    "address": "2388 NC-128, Burnsville, NC 28714, United States",
+    "appleMapsID": "I3BFB9F8557554FC2",
+    "latitude": 35.77095,
+    "longitude": -82.263178,
+    "name": "Mount Mitchell State Park"
+  },
+  "mount-pisgah-trail": {
+    "address": "Canton, NC 28716, United States",
+    "appleMapsID": "IB88F87CDA3C10971",
+    "latitude": 35.425564,
+    "longitude": -82.756777,
+    "name": "Mount Pisgah"
+  },
+  "museum-of-the-cherokee-people": {
+    "address": "589 Tsali Blvd, Cherokee, NC 28719, United States",
+    "appleMapsID": "ID2CD297ED304764",
+    "latitude": 35.484327,
+    "longitude": -83.316203,
+    "name": "Museum of the Cherokee People"
+  },
+  "native-brews-tap-grill": {
+    "address": "1897 Tsali Blvd, Cherokee, NC 28719, United States",
+    "appleMapsID": "I9A89E14D28A8F9DC",
+    "latitude": 35.50038,
+    "longitude": -83.306261,
+    "name": "Native Brews Tap & Grill"
+  },
+  "natural-bridge-state-park": {
+    "address": "6477 South Lee Highway, Natural Bridge, VA 24578, United States",
+    "appleMapsID": "I5297A871B5D1B936",
+    "latitude": 37.62844,
+    "longitude": -79.543505,
+    "name": "Natural Bridge State Park"
+  },
+  "nc-arboretum": {
+    "address": "20 Fredrick Law Olmsted Way, Asheville, NC 28806, United States",
+    "appleMapsID": "IA4AAAC6FAF9BD29B",
+    "latitude": 35.496753,
+    "longitude": -82.606759,
+    "name": "The North Carolina Arboretum"
+  },
+  "oconaluftee-visitor-center": {
+    "address": "1194 Newfound Gap Rd, Cherokee, NC 28719, United States",
+    "appleMapsID": "I1B3A0E3027645A8B",
+    "latitude": 35.513024,
+    "longitude": -83.30615,
+    "name": "Oconaluftee Visitor Center"
+  },
+  "omni-grove-park-inn": {
+    "address": "290 Macon Ave, Asheville, NC 28804, United States",
+    "appleMapsID": "I7298D5F03006FF9A",
+    "latitude": 35.620638,
+    "longitude": -82.542298,
+    "name": "The Omni Grove Park Inn & Spa"
+  },
+  "peaks-of-otter-lodge": {
+    "address": "85554 Blue Ridge Pkwy, Bedford, VA 24523, United States",
+    "appleMapsID": "IA841ADCC926BF4CF",
+    "latitude": 37.448068,
+    "longitude": -79.60456,
+    "name": "Peaks of Otter Lodge"
+  },
+  "peaks-of-otter-visitor-center": {
+    "address": "85919 Blue Ridge Pkwy, Bedford, VA 24523, United States",
+    "appleMapsID": "ICC2F89F804DD97F8",
+    "latitude": 37.445619,
+    "longitude": -79.609887,
+    "name": "Peaks of Otter Visitor Center"
+  },
+  "pisgah-inn": {
+    "address": "408 Blue Ridge Pkwy, Pisgah Forest, NC 28716, United States",
+    "appleMapsID": "IBBF2784F54882AEE",
+    "latitude": 35.402867,
+    "longitude": -82.753837,
+    "name": "Pisgah Inn"
+  },
+  "price-lake": {
+    "address": "Watauga County, NC, United States",
+    "latitude": 36.136193,
+    "longitude": -81.734019,
+    "name": "Price Lake"
+  },
+  "price-park-campground": {
+    "address": "5580 Shulls Mill Rd, Blowing Rock, NC 28605, United States",
+    "appleMapsID": "IF8646C8A08AB874",
+    "latitude": 36.138886,
+    "longitude": -81.737059,
+    "name": "Julian Price Campground"
+  },
+  "puckett-cabin": {
+    "address": "Blue Ridge Pkwy, Hillsville, VA 24343, United States",
+    "appleMapsID": "I9FA0E2BAD90C799A",
+    "latitude": 36.642963,
+    "longitude": -80.54682,
+    "name": "Puckett Cabin"
+  },
+  "ravens-roost-overlook": {
+    "address": "Blue Ridge Pkwy, Roseland, VA 22967, United States",
+    "appleMapsID": "I78A2EAD521561C95",
+    "latitude": 37.933704,
+    "longitude": -78.95278,
+    "name": "Ravens Roost Overlook"
+  },
+  "richland-balsam-overlook": {
+    "address": "Blue Ridge Pkwy, Cullowhee, NC 28723, United States",
+    "appleMapsID": "IDA5767476381090E",
+    "latitude": 35.362933,
+    "longitude": -82.992304,
+    "name": "Richland Balsam Overlook"
+  },
+  "rock-castle-gorge": {
+    "address": "Rock Castle Gorge, Floyd, VA 24091, United States",
+    "latitude": 36.818543,
+    "longitude": -80.342822,
+    "name": "Rock Castle Gorge"
+  },
+  "sharp-top-trail": {
+    "address": "Bedford, VA 24523, United States",
+    "appleMapsID": "I4C66241A5F2EC46F",
+    "latitude": 37.443211,
+    "longitude": -79.609305,
+    "name": "Sharp Top Trail"
+  },
+  "speckled-trout": {
+    "address": "922 Main St, Blowing Rock, NC 28605, United States",
+    "appleMapsID": "I449C12F26D06EB8B",
+    "latitude": 36.135169,
+    "longitude": -81.678052,
+    "name": "The Speckled Trout Restaurant & Bottle Shop"
+  },
+  "sunny-point-cafe": {
+    "address": "626 Haywood Rd, Asheville, NC 28806, United States",
+    "appleMapsID": "IFED1142486887A97",
+    "latitude": 35.578553,
+    "longitude": -82.588869,
+    "name": "Sunny Point Café"
+  },
+  "sunset-field-overlook": {
+    "address": "Apple Orchard Falls Trail, Buchanan, VA 24066, United States",
+    "appleMapsID": "I94BD4A935F0CAE5E",
+    "latitude": 37.507703,
+    "longitude": -79.523953,
+    "name": "Sunset Field Overlook"
+  },
+  "switzerland-inn": {
+    "address": "86 High Ridge Rd, Little Switzerland, NC 28749, United States",
+    "appleMapsID": "IA07FC5A386F601C0",
+    "latitude": 35.849873,
+    "longitude": -82.090896,
+    "name": "Switzerland Inn"
+  },
+  "texas-tavern": {
+    "address": "114 Church Ave SW, Roanoke, VA 24011, United States",
+    "appleMapsID": "I50E0D03E58A3EF88",
+    "latitude": 37.270343,
+    "longitude": -79.943035,
+    "name": "Texas Tavern"
+  },
+  "the-blowing-rock": {
+    "address": "432 The Rock Rd, Blowing Rock, NC 28605, United States",
+    "appleMapsID": "IE7B0CD63FBA83C91",
+    "latitude": 36.113978,
+    "longitude": -81.660599,
+    "name": "The Blowing Rock"
+  },
+  "the-bluffs-restaurant": {
+    "address": "45338 Blue Ridge Pkwy, Laurel Springs, NC 28644, United States",
+    "appleMapsID": "I52187657D239E304",
+    "latitude": 36.433978,
+    "longitude": -81.177268,
+    "name": "The Bluffs Restaurant"
+  },
+  "waterrock-knob": {
+    "address": "Water Rock Knob Trail, Maggie Valley, NC 28751, United States",
+    "appleMapsID": "I4EE9419744D6DA4C",
+    "latitude": 35.46018,
+    "longitude": -83.14102,
+    "name": "Waterrock Knob Visitor Center"
+  },
+  "yankee-horse-ridge": {
+    "address": "Yankee Horse Loop Trail, Vesuvius, VA 24483, United States",
+    "appleMapsID": "IA4AD58C426C2FA3D",
+    "latitude": 37.809364,
+    "longitude": -79.179741,
+    "name": "Yankee Horse Ridge"
+  }
+}

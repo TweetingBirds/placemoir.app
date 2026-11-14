@@ -1,0 +1,296 @@
+{
+  "american-coney-island": {
+    "address": "114 W Lafayette Blvd, Detroit, MI 48226, United States",
+    "appleMapsID": "I1B68AB2DA0A83EFD",
+    "latitude": 42.331559,
+    "longitude": -83.048619,
+    "name": "American Coney Island"
+  },
+  "american-family-field": {
+    "address": "1 Brewers Way, Milwaukee, WI 53214, United States",
+    "appleMapsID": "IB951F7513169270E",
+    "latitude": 43.028154,
+    "longitude": -87.972061,
+    "name": "American Family Field"
+  },
+  "angel-stadium": {
+    "address": "2000 Gene Autry Way, Anaheim, CA 92806, United States",
+    "appleMapsID": "I1652BA6DD14B569D",
+    "latitude": 33.800198,
+    "longitude": -117.882759,
+    "name": "Angel Stadium"
+  },
+  "arnolds-bar-and-grill": {
+    "address": "210 Eighth St E, Cincinnati, OH 45202, United States",
+    "appleMapsID": "IC9020018CC16CC2B",
+    "latitude": 39.105095,
+    "longitude": -84.510104,
+    "name": "Arnold's Bar and Grill"
+  },
+  "bens-chili-bowl": {
+    "address": "1213 U St NW, Washington, DC 20009, United States",
+    "appleMapsID": "IDE99580BE9C44822",
+    "latitude": 38.917189,
+    "longitude": -77.028743,
+    "name": "Ben's Chili Bowl"
+  },
+  "busch-stadium": {
+    "address": "700 Clark Street, St. Louis, MO 63102, United States",
+    "appleMapsID": "IBC7534C4B78B84DB",
+    "latitude": 38.622504,
+    "longitude": -90.192797,
+    "name": "Busch Stadium"
+  },
+  "camden-yards": {
+    "address": "333 W Camden St, Baltimore, MD 21201, United States",
+    "appleMapsID": "I74E681546C1A4CB1",
+    "latitude": 39.283925,
+    "longitude": -76.621635,
+    "name": "Oriole Park at Camden Yards"
+  },
+  "cask-n-flagon": {
+    "address": "62 Brookline Ave, Boston, MA 02215, United States",
+    "appleMapsID": "IDDBC42281B66F136",
+    "latitude": 42.347307,
+    "longitude": -71.098141,
+    "name": "Cask'n Flagon"
+  },
+  "chase-field": {
+    "address": "401 E Jefferson St, Phoenix, AZ 85004, United States",
+    "appleMapsID": "I9A7ED80FDA638880",
+    "latitude": 33.445551,
+    "longitude": -112.066716,
+    "name": "Chase Field"
+  },
+  "citi-field": {
+    "address": "41 Seaver Way, Flushing, NY 11368, United States",
+    "appleMapsID": "I113617765FB06FB5",
+    "latitude": 40.757075,
+    "longitude": -73.845806,
+    "name": "Citi Field"
+  },
+  "citizens-bank-park": {
+    "address": "One Citizens Bank Way, Philadelphia, PA 19148, United States",
+    "appleMapsID": "IE909DF335018E9B5",
+    "latitude": 39.90602,
+    "longitude": -75.166499,
+    "name": "Citizens Bank Park"
+  },
+  "comerica-park": {
+    "address": "2100 Woodward Ave, Detroit, MI 48201, United States",
+    "appleMapsID": "IB301C7E12E939DBE",
+    "latitude": 42.338927,
+    "longitude": -83.048648,
+    "name": "Comerica Park"
+  },
+  "coors-field": {
+    "address": "2001 Blake St, Unit A, Denver, CO 80205, United States",
+    "appleMapsID": "I9614832ACD05FD99",
+    "latitude": 39.755855,
+    "longitude": -104.99423,
+    "name": "Coors Field"
+  },
+  "daikin-park": {
+    "address": "501 Crawford St, Houston, TX 77002, United States",
+    "appleMapsID": "IF61FFD06C05AA9E4",
+    "latitude": 29.75715,
+    "longitude": -95.355256,
+    "name": "Daikin Park"
+  },
+  "dodger-stadium": {
+    "address": "1000 Vin Scully Ave, Los Angeles, CA 90012, United States",
+    "appleMapsID": "IEF9F7C11119158BE",
+    "latitude": 34.073822,
+    "longitude": -118.239992,
+    "name": "Dodger Stadium"
+  },
+  "fenway-park": {
+    "address": "4 Jersey St, Boston, MA 02215, United States",
+    "appleMapsID": "I9DB342A7B1DB6672",
+    "latitude": 42.346505,
+    "longitude": -71.097323,
+    "name": "Fenway Park"
+  },
+  "globe-life-field": {
+    "address": "734 Stadium Dr, Arlington, TX 76011, United States",
+    "appleMapsID": "I4407EB65C7F4FBD3",
+    "latitude": 32.747498,
+    "longitude": -97.084057,
+    "name": "Globe Life Field"
+  },
+  "great-american-ball-park": {
+    "address": "100 Joe Nuxhall Way, Cincinnati, OH 45202, United States",
+    "appleMapsID": "I8D60B3CD6E7D5971",
+    "latitude": 39.097314,
+    "longitude": -84.507089,
+    "name": "Great American Ball Park"
+  },
+  "great-lakes-brewing": {
+    "address": "2516 Market Ave, Cleveland, OH 44113, United States",
+    "appleMapsID": "ID0E64D21248B94E4",
+    "latitude": 41.484424,
+    "longitude": -81.704339,
+    "name": "Great Lakes Brewing Company"
+  },
+  "kauffman-stadium": {
+    "address": "1 Royal Way, Kansas City, MO 64129, United States",
+    "appleMapsID": "IA12E066DD2001976",
+    "latitude": 39.051602,
+    "longitude": -94.480233,
+    "name": "Kauffman Stadium"
+  },
+  "loandepot-park": {
+    "address": "501 Marlins Way, Miami, FL 33125, United States",
+    "appleMapsID": "IA96DD4A08E81A6D3",
+    "latitude": 25.77831,
+    "longitude": -80.21969,
+    "name": "loanDepot park"
+  },
+  "murphys-bleachers": {
+    "address": "3655 N Sheffield Ave, Chicago, IL 60613, United States",
+    "appleMapsID": "IB7767517AF177781",
+    "latitude": 41.948923,
+    "longitude": -87.654179,
+    "name": "Murphy's Bleachers"
+  },
+  "nationals-park": {
+    "address": "1500 South Capitol St SE, Washington, DC 20003, United States",
+    "appleMapsID": "IE3E22353E898C02E",
+    "latitude": 38.872976,
+    "longitude": -77.007379,
+    "name": "Nationals Park"
+  },
+  "ninfas-on-navigation": {
+    "address": "2704 Navigation Blvd, Houston, TX 77003, United States",
+    "appleMapsID": "I1568C12D77565DAB",
+    "latitude": 29.756945,
+    "longitude": -95.342542,
+    "name": "The Original Ninfa's"
+  },
+  "oracle-park": {
+    "address": "24 King St, San Francisco, CA 94107, United States",
+    "appleMapsID": "I4E4E1F6353362CA4",
+    "latitude": 37.778456,
+    "longitude": -122.389239,
+    "name": "Oracle Park"
+  },
+  "petco-park": {
+    "address": "100 Park Blvd, San Diego, CA 92101, United States",
+    "appleMapsID": "I1FDBB048DEC92F03",
+    "latitude": 32.707537,
+    "longitude": -117.157066,
+    "name": "Petco Park"
+  },
+  "philippe-the-original": {
+    "address": "1001 N Alameda St, Los Angeles, CA 90012, United States",
+    "appleMapsID": "IC11C26771140E089",
+    "latitude": 34.059699,
+    "longitude": -118.237052,
+    "name": "Philippe The Original"
+  },
+  "pickles-pub": {
+    "address": "520 Washington Blvd, Baltimore, MD 21230, United States",
+    "appleMapsID": "IE2BECF1D2721D4C2",
+    "latitude": 39.285508,
+    "longitude": -76.62295,
+    "name": "Pickles Pub"
+  },
+  "pnc-park": {
+    "address": "115 Federal St, Pittsburgh, PA 15212, United States",
+    "appleMapsID": "I85B24CA189F66EB8",
+    "latitude": 40.447417,
+    "longitude": -80.005231,
+    "name": "PNC Park"
+  },
+  "primanti-bros-strip": {
+    "address": "46 18th St, Pittsburgh, PA 15222, United States",
+    "appleMapsID": "IC1C9B68C185F734A",
+    "latitude": 40.450719,
+    "longitude": -79.985581,
+    "name": "Primanti Bros."
+  },
+  "progressive-field": {
+    "address": "2401 Ontario St, Cleveland, OH 44115, United States",
+    "appleMapsID": "IEE334205AA35BF76",
+    "latitude": 41.496074,
+    "longitude": -81.685233,
+    "name": "Progressive Field"
+  },
+  "rate-field": {
+    "address": "333 W 35th St, Chicago, IL 60616, United States",
+    "appleMapsID": "I15F6134E11418850",
+    "latitude": 41.829811,
+    "longitude": -87.633577,
+    "name": "Rate Field"
+  },
+  "rogers-centre": {
+    "address": "1 Blue Jays Way, Toronto ON M5V 1J1, Canada",
+    "appleMapsID": "I3A183CD0E5A01B2B",
+    "latitude": 43.641464,
+    "longitude": -79.389074,
+    "name": "Rogers Centre"
+  },
+  "sutter-health-park": {
+    "address": "400 Ballpark Dr, West Sacramento, CA 95691, United States",
+    "appleMapsID": "ID5CF9114C99C2939",
+    "latitude": 38.580551,
+    "longitude": -121.513415,
+    "name": "Sutter Health Park"
+  },
+  "t-mobile-park": {
+    "address": "1250 1st Ave S, Seattle, WA 98134, United States",
+    "appleMapsID": "IE3AB2D668A3F2E8C",
+    "latitude": 47.590953,
+    "longitude": -122.333696,
+    "name": "T-Mobile Park"
+  },
+  "target-field": {
+    "address": "1 Twins Way, Minneapolis, MN 55403, United States",
+    "appleMapsID": "I65824D62E367BEF1",
+    "latitude": 44.981703,
+    "longitude": -93.277761,
+    "name": "Target Field"
+  },
+  "tropicana-field": {
+    "address": "1 Tropicana Dr, Saint Petersburg, FL 33705, United States",
+    "appleMapsID": "ICAC68660CD9F8935",
+    "latitude": 27.768125,
+    "longitude": -82.653456,
+    "name": "Tropicana Field"
+  },
+  "truist-park": {
+    "address": "755 Battery Ave SE, Atlanta, GA 30339, United States",
+    "appleMapsID": "I885753690355E0A0",
+    "latitude": 33.890635,
+    "longitude": -84.467627,
+    "name": "Truist Park"
+  },
+  "versailles-miami": {
+    "address": "3555 SW Eighth St, Miami, FL 33135, United States",
+    "appleMapsID": "I1DBC11E30B63F77",
+    "latitude": 25.764967,
+    "longitude": -80.25282,
+    "name": "Versailles"
+  },
+  "wrigley-field": {
+    "address": "1060 W Addison St, Chicago, IL 60613, United States",
+    "appleMapsID": "IE175B1C48A249082",
+    "latitude": 41.947906,
+    "longitude": -87.65582,
+    "name": "Wrigley Field"
+  },
+  "wynkoop-brewing": {
+    "address": "1634 18th St, Denver, CO 80202, United States",
+    "appleMapsID": "I5F2681BBA82BB89B",
+    "latitude": 39.753503,
+    "longitude": -104.998606,
+    "name": "Wynkoop Brewing Company"
+  },
+  "yankee-stadium": {
+    "address": "One East 161st St, Bronx, NY 10451, United States",
+    "appleMapsID": "IC57FD8682B4BD4F",
+    "latitude": 40.829482,
+    "longitude": -73.926562,
+    "name": "Yankee Stadium"
+  }
+}

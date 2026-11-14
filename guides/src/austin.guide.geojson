@@ -1,0 +1,805 @@
+{
+  "type": "FeatureCollection",
+  "placemoirGuide": "0.1",
+  "guide": {
+    "id": "austin",
+    "status": "published",
+    "kind": "city",
+    "name": "Live music and swimming holes in Austin",
+    "description": "Seven days of brisket and breakfast tacos, live music every night, spring-fed swimming holes and bats over Lady Bird Lake.",
+    "author": {
+      "name": "friends of Placemoir"
+    },
+    "inLanguage": "en",
+    "dateModified": "2026-11-08",
+    "countries": [
+      "US"
+    ],
+    "sections": [
+      {
+        "id": "stay",
+        "name": "Stay"
+      },
+      {
+        "id": "eat",
+        "name": "Eat"
+      },
+      {
+        "id": "see",
+        "name": "See"
+      },
+      {
+        "id": "outside",
+        "name": "Outside"
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "the-driskill",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7417,
+          30.2681
+        ]
+      },
+      "properties": {
+        "name": "The Driskill",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "An 1886 cattle baron's hotel on Sixth Street, with a grand lobby bar.",
+        "address": "604 Brazos St, Austin, TX 78701",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel-san-jose",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7489,
+          30.2509
+        ]
+      },
+      "properties": {
+        "name": "Hotel San José",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A calm, minimalist bungalow court on South Congress, with a courtyard bar and pool.",
+        "address": "1316 S Congress Ave, Austin, TX 78704",
+        "locality": "South Congress",
+        "lastVerified": "2026-11-07",
+        "match": {
+          "query": "Hotel San José Austin"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel-saint-cecilia",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7473,
+          30.2522
+        ]
+      },
+      "properties": {
+        "name": "Hotel Saint Cecilia",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "The splurge. A Victorian house and poolside bungalows under old oaks, each with a turntable.",
+        "address": "112 Academy Dr, Austin, TX 78704",
+        "locality": "South Congress",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "austin-motel",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7491,
+          30.2519
+        ]
+      },
+      "properties": {
+        "name": "Austin Motel",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A bright, retro 1938 motel with a kidney-shaped pool. The fun, budget pick.",
+        "address": "1220 S Congress Ave, Austin, TX 78704",
+        "locality": "South Congress",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "franklin-bbq",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7313,
+          30.2701
+        ]
+      },
+      "properties": {
+        "name": "Franklin Barbecue",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "The famous brisket. Queue early with a chair and a cooler, or preorder online weeks ahead.",
+        "address": "900 E 11th St, Austin, TX 78702",
+        "locality": "East Austin",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "la-barbecue",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7183,
+          30.2563
+        ]
+      },
+      "properties": {
+        "name": "la Barbecue",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Brisket that rivals Franklin's with a shorter line. Try the El Sancho sandwich.",
+        "address": "2401 E Cesar Chavez St, Austin, TX 78702",
+        "locality": "East Austin",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "terry-blacks",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.755,
+          30.259
+        ]
+      },
+      "properties": {
+        "name": "Terry Black's Barbecue",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Cafeteria-style Texas barbecue with no preorder needed. Brisket, beef ribs and creamed corn.",
+        "address": "1003 Barton Springs Rd, Austin, TX 78704",
+        "locality": "Zilker",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "veracruz",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7138,
+          30.2629
+        ]
+      },
+      "properties": {
+        "name": "Veracruz All Natural",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "The migas taco, often called Austin's best breakfast taco.",
+        "address": "2505 Webberville Rd, Austin, TX 78702",
+        "locality": "East Austin",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "joes-bakery",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7176,
+          30.2603
+        ]
+      },
+      "properties": {
+        "name": "Joe's Bakery & Coffee Shop",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A family-run Tex-Mex spot since 1962. Breakfast tacos and pan dulce.",
+        "address": "2305 E 7th St, Austin, TX 78702",
+        "locality": "East Austin",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "juan-in-a-million",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7195,
+          30.2553
+        ]
+      },
+      "properties": {
+        "name": "Juan in a Million",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Home of the Don Juan, a breakfast taco so big it comes with spare tortillas.",
+        "address": "2300 E Cesar Chavez St, Austin, TX 78702",
+        "locality": "East Austin",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "matts-el-rancho",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.781,
+          30.247
+        ]
+      },
+      "properties": {
+        "name": "Matt's El Rancho",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Classic Tex-Mex since 1952. Order the Bob Armstrong dip and a margarita.",
+        "address": "2613 S Lamar Blvd, Austin, TX 78704",
+        "locality": "South Lamar",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "uchi",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7615,
+          30.2577
+        ]
+      },
+      "properties": {
+        "name": "Uchi",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Inventive Japanese in a converted bungalow. The happy hour is the best value.",
+        "address": "801 S Lamar Blvd, Austin, TX 78704",
+        "locality": "South Lamar",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "odd-duck",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7645,
+          30.2549
+        ]
+      },
+      "properties": {
+        "name": "Odd Duck",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Seasonal Texas small plates from a former food trailer. Share everything.",
+        "address": "1201 S Lamar Blvd, Austin, TX 78704",
+        "locality": "South Lamar",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kerbey-lane",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7509,
+          30.3058
+        ]
+      },
+      "properties": {
+        "name": "Kerbey Lane Cafe",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "The original location of Austin's beloved all-day diner. Queso and gingerbread pancakes.",
+        "address": "3704 Kerbey Ln, Austin, TX 78731",
+        "locality": "Bryker Woods",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "jos-coffee",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7488,
+          30.2512
+        ]
+      },
+      "properties": {
+        "name": "Jo's Coffee",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "A walk-up coffee window next to the \"i love you so much\" mural.",
+        "address": "1300 S Congress Ave, Austin, TX 78704",
+        "locality": "South Congress",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lick",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7631,
+          30.2557
+        ]
+      },
+      "properties": {
+        "name": "Lick Honest Ice Creams",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "Ice cream from Texas farms, in flavors like goat cheese with thyme and honey.",
+        "address": "1100 S Lamar Blvd, Austin, TX 78704",
+        "locality": "South Lamar",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "continental-club",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7494,
+          30.2507
+        ]
+      },
+      "properties": {
+        "name": "The Continental Club",
+        "category": "bar",
+        "section": "eat",
+        "notes": "A 1955 music club with live bands every night. Monday and Tuesday regulars are a treat.",
+        "address": "1315 S Congress Ave, Austin, TX 78704",
+        "locality": "South Congress",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "broken-spoke",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7856,
+          30.2413
+        ]
+      },
+      "properties": {
+        "name": "Broken Spoke",
+        "category": "bar",
+        "section": "eat",
+        "notes": "A true Texas dance hall since 1964. Take the early two-step lesson, then dance.",
+        "address": "3201 S Lamar Blvd, Austin, TX 78704",
+        "locality": "South Lamar",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "white-horse",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7279,
+          30.2624
+        ]
+      },
+      "properties": {
+        "name": "The White Horse",
+        "category": "bar",
+        "section": "eat",
+        "notes": "A honky-tonk with free dance lessons and live country every night.",
+        "address": "500 Comal St, Austin, TX 78702",
+        "locality": "East Austin",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "antones",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7409,
+          30.2667
+        ]
+      },
+      "properties": {
+        "name": "Antone's Nightclub",
+        "category": "bar",
+        "section": "eat",
+        "notes": "Austin's home of the blues since 1975, where Stevie Ray Vaughan cut his teeth.",
+        "address": "305 E 5th St, Austin, TX 78701",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cosmic-coffee",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.758,
+          30.233
+        ]
+      },
+      "properties": {
+        "name": "Cosmic Coffee + Beer Garden",
+        "category": "bar",
+        "section": "eat",
+        "notes": "Coffee, beer and food trucks in a big garden with chickens and a creek.",
+        "address": "121 Pickle Rd, Austin, TX 78704",
+        "locality": "South Austin",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "state-capitol",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7404,
+          30.2747
+        ]
+      },
+      "properties": {
+        "name": "Texas State Capitol",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Taller than the U.S. Capitol, of course. Free tours, and stand in the middle of the rotunda to hear the echo.",
+        "address": "1100 Congress Ave, Austin, TX 78701",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bullock-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7391,
+          30.2803
+        ]
+      },
+      "properties": {
+        "name": "Bullock Texas State History Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "The story of Texas, including a 17th-century French shipwreck raised from Matagorda Bay.",
+        "address": "1800 Congress Ave, Austin, TX 78701",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "blanton",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7375,
+          30.2808
+        ]
+      },
+      "properties": {
+        "name": "Blanton Museum of Art",
+        "category": "museum",
+        "section": "see",
+        "notes": "A strong university museum, and Ellsworth Kelly's Austin, a chapel of colored light.",
+        "address": "200 E Martin Luther King Jr Blvd, Austin, TX 78712",
+        "locality": "UT Campus",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lbj-library",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7292,
+          30.2858
+        ]
+      },
+      "properties": {
+        "name": "LBJ Presidential Library",
+        "category": "museum",
+        "section": "see",
+        "notes": "Civil rights, Vietnam and the Great Society, with an animatronic LBJ telling jokes.",
+        "address": "2313 Red River St, Austin, TX 78705",
+        "locality": "UT Campus",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "harry-ransom-center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7411,
+          30.2843
+        ]
+      },
+      "properties": {
+        "name": "Harry Ransom Center",
+        "category": "museum",
+        "section": "see",
+        "notes": "Free, with a Gutenberg Bible and the world's first photograph on show.",
+        "address": "300 W 21st St, Austin, TX 78712",
+        "locality": "UT Campus",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "congress-bridge-bats",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.745,
+          30.2614
+        ]
+      },
+      "properties": {
+        "name": "Ann W. Richards Congress Avenue Bridge",
+        "category": "attraction",
+        "section": "see",
+        "notes": "A million and a half bats fly out at dusk from March to October. Watch from the bank or a boat.",
+        "address": "Congress Ave Bridge, Austin, TX 78701",
+        "locality": "Lady Bird Lake",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mexic-arte",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7433,
+          30.2671
+        ]
+      },
+      "properties": {
+        "name": "Mexic-Arte Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "Mexican and Latino art downtown, with a beautiful Day of the Dead exhibition every fall.",
+        "address": "419 Congress Ave, Austin, TX 78701",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "umlauf",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.766,
+          30.264
+        ]
+      },
+      "properties": {
+        "name": "Umlauf Sculpture Garden & Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "A shady sculpture garden by Zilker Park, with ponds and benches. Pair it with Barton Springs.",
+        "address": "605 Azie Morton Rd, Austin, TX 78704",
+        "locality": "Zilker",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "elisabet-ney",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7262,
+          30.3063
+        ]
+      },
+      "properties": {
+        "name": "Elisabet Ney Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "A 19th-century sculptor's free castle-like studio in Hyde Park.",
+        "address": "304 E 44th St, Austin, TX 78751",
+        "locality": "Hyde Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "acl-live",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7473,
+          30.2655
+        ]
+      },
+      "properties": {
+        "name": "ACL Live at the Moody Theater",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Home of the Austin City Limits TV tapings, with the Willie Nelson statue out front.",
+        "address": "310 W Willie Nelson Blvd, Austin, TX 78701",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "barton-springs",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7713,
+          30.264
+        ]
+      },
+      "properties": {
+        "name": "Barton Springs Pool",
+        "category": "park",
+        "section": "outside",
+        "notes": "A three-acre spring-fed pool at 68 degrees all year. Bliss on a hot afternoon.",
+        "address": "2131 William Barton Dr, Austin, TX 78746",
+        "locality": "Zilker",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "zilker-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7729,
+          30.2669
+        ]
+      },
+      "properties": {
+        "name": "Zilker Metropolitan Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "Austin's big backyard, with kayaks for rent on Barton Creek and the botanical garden nearby.",
+        "address": "2100 Barton Springs Rd, Austin, TX 78704",
+        "locality": "Zilker",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lady-bird-trail",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.755,
+          30.262
+        ]
+      },
+      "properties": {
+        "name": "Ann and Roy Butler Hike-and-Bike Trail",
+        "category": "park",
+        "section": "outside",
+        "notes": "Ten miles around Lady Bird Lake. Walk the boardwalk section for the skyline view.",
+        "address": "Ann and Roy Butler Hike-and-Bike Trail, Austin, TX 78704",
+        "locality": "Lady Bird Lake",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mount-bonnell",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7735,
+          30.321
+        ]
+      },
+      "properties": {
+        "name": "Mount Bonnell",
+        "category": "park",
+        "section": "outside",
+        "notes": "A short climb to a view over the Colorado River and the 360 Bridge. Go at sunset.",
+        "address": "3800 Mount Bonnell Rd, Austin, TX 78731",
+        "locality": "Mount Bonnell",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "wildflower-center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.8731,
+          30.1856
+        ]
+      },
+      "properties": {
+        "name": "Lady Bird Johnson Wildflower Center",
+        "category": "park",
+        "section": "outside",
+        "notes": "Native Texas plants and wildflowers. Bluebonnet season is late March to April.",
+        "address": "4801 La Crosse Ave, Austin, TX 78739",
+        "locality": "Southwest Austin",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mckinney-falls",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7222,
+          30.1836
+        ]
+      },
+      "properties": {
+        "name": "McKinney Falls State Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "Limestone falls and swimming holes on Onion Creek, twenty minutes from downtown.",
+        "address": "5808 McKinney Falls Pkwy, Austin, TX 78744",
+        "locality": "Southeast Austin",
+        "lastVerified": "2026-11-07",
+        "match": {
+          "query": "McKinney Falls State Park Austin"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hamilton-pool",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.127,
+          30.3426
+        ]
+      },
+      "properties": {
+        "name": "Hamilton Pool Preserve",
+        "category": "park",
+        "section": "outside",
+        "notes": "A collapsed grotto with a waterfall into a jade pool. Reservations are required; check before you go.",
+        "address": "24300 Hamilton Pool Rd, Dripping Springs, TX 78620",
+        "locality": "Dripping Springs",
+        "lastVerified": "2026-11-07"
+      }
+    }
+  ]
+}

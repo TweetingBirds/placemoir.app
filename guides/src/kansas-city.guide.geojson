@@ -1,0 +1,799 @@
+{
+  "type": "FeatureCollection",
+  "placemoirGuide": "0.1",
+  "guide": {
+    "id": "kansas-city",
+    "status": "published",
+    "kind": "city",
+    "name": "Barbecue and jazz in Kansas City",
+    "description": "Seven days of barbecue and jazz, fountains and boulevards, the WWI museum and the Nelson-Atkins, with a Chiefs or Royals game if you can.",
+    "author": {
+      "name": "friends of Placemoir"
+    },
+    "inLanguage": "en",
+    "dateModified": "2026-11-08",
+    "countries": [
+      "US"
+    ],
+    "sections": [
+      {
+        "id": "stay",
+        "name": "Stay"
+      },
+      {
+        "id": "eat",
+        "name": "Eat"
+      },
+      {
+        "id": "see",
+        "name": "See"
+      },
+      {
+        "id": "outside",
+        "name": "Outside"
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "hotel-kansas-city",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5847,
+          39.1
+        ]
+      },
+      "properties": {
+        "name": "Hotel Kansas City",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A 1923 Tudor-style gentlemen's club turned hotel, with a dark, cozy bar downstairs.",
+        "address": "1228 Baltimore Ave, Kansas City, MO 64105",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-raphael",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5917,
+          39.0436
+        ]
+      },
+      "properties": {
+        "name": "The Raphael Hotel",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A small 1927 hotel across from the Plaza, with fountains and shopping out the door.",
+        "address": "325 Ward Pkwy, Kansas City, MO 64112",
+        "locality": "Country Club Plaza",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-fontaine",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5948,
+          39.0397
+        ]
+      },
+      "properties": {
+        "name": "The Fontaine",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A modern hotel on the Plaza with a rooftop pool and bar looking over the fountains.",
+        "address": "901 W 48th St, Kansas City, MO 64112",
+        "locality": "Country Club Plaza",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crossroads-hotel",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.588,
+          39.0874
+        ]
+      },
+      "properties": {
+        "name": "Crossroads Hotel",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A converted 1911 brick warehouse in the arts district, with a rooftop bar and a restaurant downstairs.",
+        "address": "2101 Central St, Kansas City, MO 64108",
+        "locality": "Crossroads",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "joes-kc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.6312,
+          39.0367
+        ]
+      },
+      "properties": {
+        "name": "Joe's Kansas City Bar-B-Que",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Barbecue in a working gas station. Order the Z-Man sandwich, and expect a line out the door.",
+        "address": "3002 W 47th Ave, Kansas City, KS 66103",
+        "locality": "Kansas City, Kansas",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "arthur-bryants",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5571,
+          39.092
+        ]
+      },
+      "properties": {
+        "name": "Arthur Bryant's Barbeque",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "The burnt ends and sauce that made Kansas City barbecue famous. Close to the jazz district.",
+        "address": "1727 Brooklyn Ave, Kansas City, MO 64127",
+        "locality": "18th and Vine",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gates",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5857,
+          39.0697
+        ]
+      },
+      "properties": {
+        "name": "Gates Bar-B-Q",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Hear the counter staff shout \"Hi, may I help you?\" as you walk in. Get the ribs.",
+        "address": "3205 Main St, Kansas City, MO 64111",
+        "locality": "Midtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "q39",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5993,
+          39.0573
+        ]
+      },
+      "properties": {
+        "name": "Q39",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Competition-style barbecue with a sit-down room. The burnt end burger is a favorite.",
+        "address": "1000 W 39th St, Kansas City, MO 64111",
+        "locality": "Westport",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "jack-stack",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5838,
+          39.0865
+        ]
+      },
+      "properties": {
+        "name": "Jack Stack Barbecue",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "The Freight House location, with a long bar and crown prime beef ribs. Book for dinner.",
+        "address": "101 W 22nd St, Kansas City, MO 64108",
+        "locality": "Crossroads",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lcs",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5175,
+          39.0348
+        ]
+      },
+      "properties": {
+        "name": "LC's Bar-B-Q",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A smoky little room with a pit you can see from the door. Burnt ends on white bread.",
+        "address": "5800 Dr Martin Luther King Jr Blvd, Kansas City, MO 64129",
+        "locality": "East Kansas City",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "corvino",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5835,
+          39.091
+        ]
+      },
+      "properties": {
+        "name": "Corvino Supper Club",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Japanese-influenced plates with live jazz in the supper club, or the tasting room for a splurge.",
+        "address": "1830 Walnut St, Kansas City, MO 64108",
+        "locality": "Crossroads",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-rieger",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5821,
+          39.0906
+        ]
+      },
+      "properties": {
+        "name": "The Rieger",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Pork soup and seasonal cooking in a 1915 hotel bar. The Manhattan Club is downstairs.",
+        "address": "1924 Main St, Kansas City, MO 64108",
+        "locality": "Crossroads",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "town-topic",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5898,
+          39.0891
+        ]
+      },
+      "properties": {
+        "name": "Town Topic Hamburgers",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A tiny 24-hour burger counter since 1937. Sliders, fries and a malt.",
+        "address": "2021 Broadway Blvd, Kansas City, MO 64108",
+        "locality": "Crossroads",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "city-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5822,
+          39.1101
+        ]
+      },
+      "properties": {
+        "name": "City Market",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A farmers market since 1857, with year-round shops and restaurants. Best on a Saturday morning.",
+        "address": "20 E 5th St, Kansas City, MO 64106",
+        "locality": "River Market",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "messenger-coffee",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.58,
+          39.0937
+        ]
+      },
+      "properties": {
+        "name": "Messenger Coffee",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "A three-story roastery and bakery with a rooftop. A good start to a Crossroads day.",
+        "address": "1624 Grand Blvd, Kansas City, MO 64108",
+        "locality": "Crossroads",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "christopher-elbow",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.581,
+          39.0912
+        ]
+      },
+      "properties": {
+        "name": "Christopher Elbow Chocolates",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "Jewel-like chocolates and an excellent drinking chocolate.",
+        "address": "1819 McGee St, Kansas City, MO 64108",
+        "locality": "Crossroads",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "betty-raes",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.594,
+          39.0024
+        ]
+      },
+      "properties": {
+        "name": "Betty Rae's Ice Cream",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "Small-batch ice cream with a line on summer nights. Try a scoop of whatever's new.",
+        "address": "7140 Wornall Rd, Kansas City, MO 64114",
+        "locality": "Waldo",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toms-town",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5833,
+          39.0929
+        ]
+      },
+      "properties": {
+        "name": "Tom's Town Distilling Co.",
+        "category": "bar",
+        "section": "eat",
+        "notes": "An Art Deco distillery named for the city's Prohibition boss. Gin cocktails and tours.",
+        "address": "1701 Main St, Kansas City, MO 64108",
+        "locality": "Crossroads",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "green-lady-lounge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.58,
+          39.0918
+        ]
+      },
+      "properties": {
+        "name": "Green Lady Lounge",
+        "category": "bar",
+        "section": "eat",
+        "notes": "Live jazz every night, no cover, in a dark red room.",
+        "address": "1809 Grand Blvd, Kansas City, MO 64108",
+        "locality": "Crossroads",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "boulevard-brewing",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.596,
+          39.082
+        ]
+      },
+      "properties": {
+        "name": "Boulevard Brewing Co.",
+        "category": "bar",
+        "section": "eat",
+        "notes": "Kansas City's brewery. Take the tour and finish at the rooftop tasting room.",
+        "address": "2501 Southwest Blvd, Kansas City, MO 64108",
+        "locality": "Westside",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "wwi-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.586,
+          39.0806
+        ]
+      },
+      "properties": {
+        "name": "National WWI Museum and Memorial",
+        "category": "museum",
+        "section": "see",
+        "notes": "The country's museum of the Great War, and outstanding. Ride up the tower for the skyline view.",
+        "address": "2 Memorial Dr, Kansas City, MO 64108",
+        "locality": "Crown Center",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nelson-atkins",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5809,
+          39.0449
+        ]
+      },
+      "properties": {
+        "name": "Nelson-Atkins Museum of Art",
+        "category": "museum",
+        "section": "see",
+        "notes": "A free, world-class museum. Find the giant shuttlecocks on the lawn.",
+        "address": "4525 Oak St, Kansas City, MO 64111",
+        "locality": "Southmoreland",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kemper-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5856,
+          39.045
+        ]
+      },
+      "properties": {
+        "name": "Kemper Museum of Contemporary Art",
+        "category": "museum",
+        "section": "see",
+        "notes": "A free contemporary art museum next to the Nelson-Atkins, with a giant spider out front.",
+        "address": "4420 Warwick Blvd, Kansas City, MO 64111",
+        "locality": "Southmoreland",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "jazz-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5617,
+          39.0915
+        ]
+      },
+      "properties": {
+        "name": "American Jazz Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "Charlie Parker, Count Basie and the Kansas City sound. The Blue Room jazz club is next door.",
+        "address": "1616 E 18th St, Kansas City, MO 64108",
+        "locality": "18th and Vine",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "negro-leagues-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.562,
+          39.0914
+        ]
+      },
+      "properties": {
+        "name": "Negro Leagues Baseball Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "The story of Black baseball, ending on a field of bronze players. One of the best small museums anywhere.",
+        "address": "1616 E 18th St, Kansas City, MO 64108",
+        "locality": "18th and Vine",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mutual-musicians",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.563,
+          39.0917
+        ]
+      },
+      "properties": {
+        "name": "Mutual Musicians Foundation",
+        "category": "attraction",
+        "section": "see",
+        "notes": "A musicians' union hall with a late-night jam session on weekends, going until dawn.",
+        "address": "1823 Highland Ave, Kansas City, MO 64108",
+        "locality": "18th and Vine",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "union-station",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5856,
+          39.0849
+        ]
+      },
+      "properties": {
+        "name": "Union Station Kansas City",
+        "category": "attraction",
+        "section": "see",
+        "notes": "A grand 1914 station with a 95-foot ceiling, science exhibits and the free streetcar outside.",
+        "address": "30 W Pershing Rd, Kansas City, MO 64108",
+        "locality": "Crown Center",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "arabia-steamboat",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5816,
+          39.1095
+        ]
+      },
+      "properties": {
+        "name": "Arabia Steamboat Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "Cargo from an 1856 steamboat dug out of a Kansas cornfield, perfectly preserved.",
+        "address": "400 Grand Blvd, Kansas City, MO 64106",
+        "locality": "River Market",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "country-club-plaza",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5928,
+          39.0414
+        ]
+      },
+      "properties": {
+        "name": "Country Club Plaza",
+        "category": "attraction",
+        "section": "see",
+        "notes": "A 1920s shopping district modeled on Seville, full of fountains. The holiday lights start on Thanksgiving.",
+        "address": "4706 Broadway Blvd, Kansas City, MO 64112",
+        "locality": "Country Club Plaza",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kauffman-center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5872,
+          39.0938
+        ]
+      },
+      "properties": {
+        "name": "Kauffman Center for the Performing Arts",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Two shell-shaped halls for the symphony, opera and ballet. Free tours on some days.",
+        "address": "1601 Broadway Blvd, Kansas City, MO 64108",
+        "locality": "Crossroads",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "truman-library",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.4224,
+          39.1042
+        ]
+      },
+      "properties": {
+        "name": "Harry S. Truman Library and Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "Truman's presidency, from the atomic bomb to the Marshall Plan. His home is nearby.",
+        "address": "500 W US-24, Independence, MO 64050",
+        "locality": "Independence",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "arrowhead",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.4839,
+          39.049
+        ]
+      },
+      "properties": {
+        "name": "GEHA Field at Arrowhead Stadium",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Home of the Chiefs and the loudest crowd in football. Come early for the tailgates.",
+        "address": "1 Arrowhead Dr, Kansas City, MO 64129",
+        "locality": "Truman Sports Complex",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kauffman-stadium",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.4803,
+          39.0517
+        ]
+      },
+      "properties": {
+        "name": "Kauffman Stadium",
+        "category": "attraction",
+        "section": "see",
+        "notes": "The Royals' ballpark, with a fountain wall in the outfield.",
+        "address": "1 Royal Way, Kansas City, MO 64129",
+        "locality": "Truman Sports Complex",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "loose-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.595,
+          39.0333
+        ]
+      },
+      "properties": {
+        "name": "Loose Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "A big rose garden and a pond near the Plaza. Bring a picnic.",
+        "address": "5200 Wornall Rd, Kansas City, MO 64112",
+        "locality": "Sunset Hill",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "penn-valley-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.587,
+          39.079
+        ]
+      },
+      "properties": {
+        "name": "Penn Valley Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "Rolling lawns below the WWI memorial, with the best view of the downtown skyline.",
+        "address": "Penn Valley Park, Kansas City, MO 64108",
+        "locality": "Crown Center",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "swope-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.524,
+          39.008
+        ]
+      },
+      "properties": {
+        "name": "Swope Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "One of the country's biggest city parks, with the zoo, trails and the Starlight Theatre.",
+        "address": "Swope Park, Kansas City, MO 64132",
+        "locality": "Swope Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "overland-park-arboretum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.687,
+          38.784
+        ]
+      },
+      "properties": {
+        "name": "Overland Park Arboretum and Botanical Gardens",
+        "category": "park",
+        "section": "outside",
+        "notes": "Woodland trails and gardens on the Kansas side. The Monet garden is lovely in summer.",
+        "address": "8909 W 179th St, Overland Park, KS 66013",
+        "locality": "Overland Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shawnee-mission-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.79,
+          38.979
+        ]
+      },
+      "properties": {
+        "name": "Shawnee Mission Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "A big lake with paddleboards and kayaks, and a tall observation tower.",
+        "address": "7900 Renner Rd, Shawnee, KS 66219",
+        "locality": "Shawnee",
+        "lastVerified": "2026-11-07"
+      }
+    }
+  ]
+}

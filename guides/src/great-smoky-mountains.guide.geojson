@@ -1,0 +1,623 @@
+{
+  "type": "FeatureCollection",
+  "placemoirGuide": "0.1",
+  "guide": {
+    "id": "great-smoky-mountains",
+    "status": "published",
+    "kind": "park",
+    "name": "Great Smoky Mountains from Cades Cove to Kuwohi",
+    "description": "Three or four days in the country's most visited national park: a hike-in lodge, waterfall walks, old farm valleys full of deer and elk, and pancakes in the towns at either end.",
+    "author": {
+      "name": "friends of Placemoir"
+    },
+    "inLanguage": "en",
+    "dateModified": "2026-11-14",
+    "region": "Tennessee and North Carolina",
+    "countries": [
+      "US"
+    ],
+    "sections": [
+      {
+        "id": "stay",
+        "name": "Stay"
+      },
+      {
+        "id": "eat",
+        "name": "Eat"
+      },
+      {
+        "id": "see",
+        "name": "See"
+      },
+      {
+        "id": "hike",
+        "name": "Hike"
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "leconte-lodge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4382,
+          35.6544
+        ]
+      },
+      "properties": {
+        "name": "LeConte Lodge",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "Rustic cabins near the top of Mount Le Conte, reached only on foot. Dinner and breakfast are included, there's no electricity in the rooms, and the sunrise from Myrtle Point is the reason to go. Rooms go fast, so book as early as they allow.",
+        "address": "Mount Le Conte, Gatlinburg, TN 37738",
+        "locality": "Mount Le Conte",
+        "lastVerified": "2026-11-13",
+        "match": {
+          "skip": "Hike-in lodge; Apple Maps only has the Sevierville booking office"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "buckhorn-inn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4285,
+          35.7206
+        ]
+      },
+      "properties": {
+        "name": "Buckhorn Inn",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A quiet 1938 inn on the Greenbrier side of Gatlinburg, looking straight at Mount Le Conte. Far enough from the Parkway to hear the creek, close enough for an early start.",
+        "address": "2140 Tudor Mountain Rd, Gatlinburg, TN 37738",
+        "locality": "Gatlinburg",
+        "lastVerified": "2026-11-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dancing-bear-lodge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7821,
+          35.6782
+        ]
+      },
+      "properties": {
+        "name": "Dancing Bear Lodge",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "Cabins in the woods in Townsend, the quiet side of the Smokies, about twenty minutes from Cades Cove.",
+        "address": "7140 E Lamar Alexander Pkwy, Townsend, TN 37882",
+        "locality": "Townsend",
+        "lastVerified": "2026-11-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fryemont-inn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4489,
+          35.4317
+        ]
+      },
+      "properties": {
+        "name": "Fryemont Inn",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A 1920s bark-covered lodge above Bryson City, with a big stone fireplace and porch rockers. Handy for Deep Creek and the North Carolina side.",
+        "address": "245 Fryemont St, Bryson City, NC 28713",
+        "locality": "Bryson City",
+        "lastVerified": "2026-11-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "elkmont-campground",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.587,
+          35.663
+        ]
+      },
+      "properties": {
+        "name": "Elkmont Campground",
+        "category": "park",
+        "section": "stay",
+        "notes": "The park's biggest campground, along the Little River near the old Elkmont summer cabins. In early June it's the heart of the synchronous firefly season. Viewing is by lottery, so check the park site.",
+        "address": "434 Elkmont Rd, Gatlinburg, TN 37738",
+        "locality": "Elkmont",
+        "lastVerified": "2026-11-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cades-cove-campground",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7737,
+          35.6037
+        ]
+      },
+      "properties": {
+        "name": "Cades Cove Campground",
+        "category": "park",
+        "section": "stay",
+        "notes": "Camp at the mouth of the cove and you can be on the loop road at first light, before the cars, when the deer and bears are out.",
+        "address": "10035 Campground Dr, Townsend, TN 37882",
+        "locality": "Cades Cove",
+        "lastVerified": "2026-11-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pancake-pantry",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.518,
+          35.7128
+        ]
+      },
+      "properties": {
+        "name": "The Pancake Pantry",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Gatlinburg's pancake house since 1960. There's usually a line, and it moves. Go early on a hiking day.",
+        "address": "628 Parkway, Gatlinburg, TN 37738",
+        "locality": "Gatlinburg",
+        "lastVerified": "2026-11-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "wild-plum-tea-room",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.46,
+          35.719
+        ]
+      },
+      "properties": {
+        "name": "Wild Plum Tea Room",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Lunch in a little cabin in the woods off the Arts and Crafts loop. Save room for dessert.",
+        "address": "555 Buckhorn Rd, Gatlinburg, TN 37738",
+        "locality": "Arts & Crafts Community",
+        "lastVerified": "2026-11-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "greenbrier-restaurant",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.471,
+          35.722
+        ]
+      },
+      "properties": {
+        "name": "The Greenbrier Restaurant",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Steaks and trout in an old log lodge up the hill from Gatlinburg. The dinner to book after a long hike.",
+        "address": "370 Newman Rd, Gatlinburg, TN 37738",
+        "locality": "Gatlinburg",
+        "lastVerified": "2026-11-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "peters-pancakes",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.313,
+          35.49
+        ]
+      },
+      "properties": {
+        "name": "Peter's Pancakes & Waffles",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A big breakfast by the Oconaluftee River in Cherokee before you drive up Newfound Gap Road.",
+        "address": "1384 Tsali Blvd, Cherokee, NC 28719",
+        "locality": "Cherokee",
+        "lastVerified": "2026-11-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nantahala-brewing",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.444,
+          35.4208
+        ]
+      },
+      "properties": {
+        "name": "Nantahala Brewing",
+        "category": "bar",
+        "section": "eat",
+        "notes": "Bryson City's own brewery, full of muddy boots and paddlers at the end of the day.",
+        "address": "500 Veterans Blvd, Bryson City, NC 28713",
+        "locality": "Bryson City",
+        "lastVerified": "2026-11-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sugarlands-visitor-center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5367,
+          35.6853
+        ]
+      },
+      "properties": {
+        "name": "Sugarlands Visitor Center",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Start here on the Tennessee side for maps, ranger advice and the day's road closures. You need a parking tag to park anywhere in the park for more than a few minutes, and they sell them here.",
+        "address": "1420 Fighting Creek Gap Rd, Gatlinburg, TN 37738",
+        "locality": "Gatlinburg entrance",
+        "lastVerified": "2026-11-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "oconaluftee-visitor-center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3069,
+          35.513
+        ]
+      },
+      "properties": {
+        "name": "Oconaluftee Visitor Center",
+        "category": "attraction",
+        "section": "see",
+        "notes": "The North Carolina side's visitor center, next to the Mountain Farm Museum's log buildings. Elk often graze the fields here at dusk.",
+        "address": "1194 Newfound Gap Rd, Cherokee, NC 28719",
+        "locality": "Cherokee entrance",
+        "lastVerified": "2026-11-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cades-cove",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.81,
+          35.5905
+        ]
+      },
+      "properties": {
+        "name": "Cades Cove",
+        "category": "park",
+        "section": "see",
+        "notes": "An eleven-mile one-way loop through an old farming valley, past log churches, cabins and Cable Mill. Go at sunrise for deer and bears, and check the park site for car-free mornings, when it's all bikes.",
+        "address": "Cades Cove Loop Rd, Townsend, TN 37882",
+        "locality": "Cades Cove",
+        "lastVerified": "2026-11-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kuwohi",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4985,
+          35.5628
+        ]
+      },
+      "properties": {
+        "name": "Kuwohi",
+        "category": "park",
+        "section": "see",
+        "notes": "The highest point in the park, once called Clingmans Dome, renamed with its Cherokee name in 2024. A steep paved half mile leads to the observation tower. The road closes in winter.",
+        "address": "Clingmans Dome Rd, Bryson City, NC 28713",
+        "locality": "Kuwohi",
+        "lastVerified": "2026-11-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "newfound-gap",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.425,
+          35.611
+        ]
+      },
+      "properties": {
+        "name": "Newfound Gap",
+        "category": "park",
+        "section": "see",
+        "notes": "The pass on the state line, where the Appalachian Trail crosses the road and Roosevelt dedicated the park in 1940. Cold and windy most of the year, so bring a layer.",
+        "address": "Newfound Gap Rd, Gatlinburg, TN 37738",
+        "locality": "Newfound Gap",
+        "lastVerified": "2026-11-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "roaring-fork",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.488,
+          35.695
+        ]
+      },
+      "properties": {
+        "name": "Roaring Fork Motor Nature Trail",
+        "category": "park",
+        "section": "see",
+        "notes": "A slow, narrow one-way drive past old homesteads, mossy boulders and the Place of a Thousand Drips after rain. Closed in winter.",
+        "address": "Roaring Fork Motor Nature Trail, Gatlinburg, TN 37738",
+        "locality": "Roaring Fork",
+        "lastVerified": "2026-11-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mingus-mill",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.31,
+          35.52
+        ]
+      },
+      "properties": {
+        "name": "Mingus Mill",
+        "category": "attraction",
+        "section": "see",
+        "notes": "An 1886 mill that still grinds corn with a water turbine. A five-minute stop just up the road from Oconaluftee.",
+        "address": "Newfound Gap Rd, Cherokee, NC 28719",
+        "locality": "Cherokee entrance",
+        "lastVerified": "2026-11-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cataloochee-valley",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.075,
+          35.638
+        ]
+      },
+      "properties": {
+        "name": "Cataloochee Valley",
+        "category": "park",
+        "section": "see",
+        "notes": "A remote valley at the end of a winding gravel road, with old frame houses and the park's best elk watching at dawn and dusk. Worth the detour, and far quieter than Cades Cove.",
+        "address": "Cataloochee Entrance Rd, Waynesville, NC 28785",
+        "locality": "Cataloochee",
+        "lastVerified": "2026-11-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "museum-of-the-cherokee-people",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.317,
+          35.484
+        ]
+      },
+      "properties": {
+        "name": "Museum of the Cherokee People",
+        "category": "museum",
+        "section": "see",
+        "notes": "The story of the Cherokee in these mountains, told by the Eastern Band, from long before the park to the Trail of Tears and today.",
+        "address": "589 Tsali Blvd, Cherokee, NC 28719",
+        "locality": "Cherokee",
+        "lastVerified": "2026-11-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "heritage-center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.712,
+          35.672
+        ]
+      },
+      "properties": {
+        "name": "Great Smoky Mountains Heritage Center",
+        "category": "museum",
+        "section": "see",
+        "notes": "Mountain life before the park, with moved-in cabins and farm buildings out back. A good rainy-morning stop on the way to Cades Cove.",
+        "address": "123 Cromwell Dr, Townsend, TN 37882",
+        "locality": "Townsend",
+        "lastVerified": "2026-11-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "alum-cave",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.451,
+          35.629
+        ]
+      },
+      "properties": {
+        "name": "Alum Cave Trailhead",
+        "category": "park",
+        "section": "hike",
+        "notes": "The classic Smokies hike: Arch Rock, Inspiration Point and the Alum Cave Bluffs, about five miles round trip. Keep going to LeConte Lodge if you've booked a night. The lot fills by mid-morning.",
+        "address": "Newfound Gap Rd, Gatlinburg, TN 37738",
+        "locality": "Newfound Gap Road",
+        "lastVerified": "2026-11-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "chimney-tops",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4698,
+          35.6354
+        ]
+      },
+      "properties": {
+        "name": "Chimney Tops Trailhead",
+        "category": "park",
+        "section": "hike",
+        "notes": "A short, steep climb to a viewpoint facing the Chimney Tops. The rock summit has been closed since the 2016 fire, and the view from the end of the trail is still the reward.",
+        "address": "Newfound Gap Rd, Gatlinburg, TN 37738",
+        "locality": "Newfound Gap Road",
+        "lastVerified": "2026-11-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "grotto-falls",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.463,
+          35.681
+        ]
+      },
+      "properties": {
+        "name": "Grotto Falls",
+        "category": "park",
+        "section": "hike",
+        "notes": "An easy walk through old hemlock forest to the one waterfall in the park you can walk behind. Start from the Trillium Gap trailhead on Roaring Fork.",
+        "address": "Roaring Fork Motor Nature Trail, Gatlinburg, TN 37738",
+        "locality": "Roaring Fork",
+        "lastVerified": "2026-11-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "abrams-falls",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.852,
+          35.591
+        ]
+      },
+      "properties": {
+        "name": "Abrams Falls Trailhead",
+        "category": "park",
+        "section": "hike",
+        "notes": "Five miles round trip along Abrams Creek to a short, wide waterfall and a deep pool. Pair it with the Cades Cove loop. Don't swim near the falls, where the current is strong.",
+        "address": "Cades Cove Loop Rd, Townsend, TN 37882",
+        "locality": "Cades Cove",
+        "lastVerified": "2026-11-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "andrews-bald",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.495,
+          35.539
+        ]
+      },
+      "properties": {
+        "name": "Andrews Bald",
+        "category": "park",
+        "section": "hike",
+        "notes": "A grassy mountaintop meadow with flame azaleas in June, down the Forney Ridge Trail from the Kuwohi parking area. Easy going down, a real climb coming back.",
+        "address": "Clingmans Dome Rd, Bryson City, NC 28713",
+        "locality": "Kuwohi",
+        "lastVerified": "2026-11-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "charlies-bunion",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.376,
+          35.637
+        ]
+      },
+      "properties": {
+        "name": "Charlies Bunion",
+        "category": "park",
+        "section": "hike",
+        "notes": "A rocky knob with a huge view, about eight miles round trip on the Appalachian Trail from Newfound Gap. Start early, as the gap's lot fills fast.",
+        "address": "Appalachian Trail, Gatlinburg, TN 37738",
+        "locality": "Newfound Gap",
+        "lastVerified": "2026-11-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "porters-creek",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.388,
+          35.682
+        ]
+      },
+      "properties": {
+        "name": "Porters Creek Trail",
+        "category": "park",
+        "section": "hike",
+        "notes": "The spring wildflower walk, along a creek past an old farm site and a cantilevered barn in the quiet Greenbrier corner of the park.",
+        "address": "Greenbrier Rd, Gatlinburg, TN 37738",
+        "locality": "Greenbrier",
+        "lastVerified": "2026-11-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "deep-creek",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.434,
+          35.464
+        ]
+      },
+      "properties": {
+        "name": "Deep Creek Trailhead",
+        "category": "park",
+        "section": "hike",
+        "notes": "Three waterfalls on an easy loop a few minutes from Bryson City. In summer the creek is full of people on inner tubes, rented at the outfitters by the entrance.",
+        "address": "Deep Creek Rd, Bryson City, NC 28713",
+        "locality": "Bryson City",
+        "lastVerified": "2026-11-13"
+      }
+    }
+  ]
+}

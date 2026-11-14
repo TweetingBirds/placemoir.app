@@ -1,0 +1,427 @@
+{
+  "type": "FeatureCollection",
+  "placemoirGuide": "0.1",
+  "guide": {
+    "id": "atlanta-bakeries",
+    "status": "draft",
+    "kind": "food",
+    "name": "Atlanta Bakeries from Buford Highway to the Westside",
+    "description": "Twenty Atlanta bakeries worth a detour, from sourdough and croissants in Poncey-Highland to egg tarts, banh mi and conchas on Buford Highway, plus doughnuts, bagels and pie.",
+    "author": {
+      "name": "friends of Placemoir"
+    },
+    "inLanguage": "en",
+    "dateModified": "2026-11-14",
+    "region": "Georgia",
+    "countries": [
+      "US"
+    ],
+    "sections": [
+      {
+        "id": "intown-east",
+        "name": "Intown East"
+      },
+      {
+        "id": "westside-and-midtown",
+        "name": "Westside and Midtown"
+      },
+      {
+        "id": "buckhead-and-cheshire-bridge",
+        "name": "Buckhead and Cheshire Bridge"
+      },
+      {
+        "id": "decatur-and-east",
+        "name": "Decatur and East"
+      },
+      {
+        "id": "buford-highway-and-north",
+        "name": "Buford Highway and North"
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "little-tart-bakeshop-grant-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3728,
+          33.7461
+        ]
+      },
+      "properties": {
+        "name": "The Little Tart Bakeshop",
+        "category": "bakery",
+        "section": "intown-east",
+        "notes": "The first Little Tart shop, opened in 2011 on Memorial Drive in Grant Park. Seasonal fruit tarts, laminated pastries and quiche. There are also counters at Krog Street Market and in Summerhill.",
+        "address": "437 Memorial Dr SE, Atlanta, GA 30312",
+        "locality": "Grant Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "colette-bread-bakeshop",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3527,
+          33.7717
+        ]
+      },
+      "properties": {
+        "name": "Colette Bread & Bakeshop",
+        "category": "bakery",
+        "section": "intown-east",
+        "notes": "A small bread-first bakery in Poncey-Highland. Go for the naturally leavened loaves and focaccia, then add a croissant or a fruit galette. Popular items go early on weekends.",
+        "address": "636 N Highland Ave NE, Atlanta, GA 30306",
+        "locality": "Poncey-Highland"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "alons-bakery-morningside",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3528,
+          33.7926
+        ]
+      },
+      "properties": {
+        "name": "Alon's Bakery & Market",
+        "category": "bakery",
+        "section": "intown-east",
+        "notes": "A Morningside institution for decades, with a bread and pastry counter beside a market of cheeses and prepared foods. Pick up a loaf and a sandwich for a picnic. A second shop is at Phipps Plaza.",
+        "address": "1394 N Highland Ave NE, Atlanta, GA 30306",
+        "locality": "Morningside"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evergreen-butcher-baker",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3218,
+          33.7511
+        ]
+      },
+      "properties": {
+        "name": "Evergreen Butcher + Baker",
+        "category": "cafe",
+        "section": "intown-east",
+        "notes": "Half butcher shop, half bakery, on Hosea L Williams Drive in Kirkwood. Come for the sourdough and the pastry case, and leave with something from the meat counter. Closed early in the week; check the official site.",
+        "address": "2011 Hosea L Williams Dr NE, Atlanta, GA 30317",
+        "locality": "Kirkwood"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "emerald-city-bagels-eav",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3465,
+          33.74
+        ]
+      },
+      "properties": {
+        "name": "Emerald City Bagels",
+        "category": "bakery",
+        "section": "intown-east",
+        "notes": "Kettle-boiled New York-style bagels in East Atlanta Village, with a long list of house cream cheeses and lox. A second shop sits on the Eastside BeltLine on Auburn Avenue.",
+        "address": "1257 Glenwood Ave SE, Atlanta, GA 30316",
+        "locality": "East Atlanta Village"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "flour-and-time-bakery",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4251,
+          33.7891
+        ]
+      },
+      "properties": {
+        "name": "Flour + Time Bakery",
+        "category": "bakery",
+        "section": "westside-and-midtown",
+        "notes": "A fully vegan bakery and coffee shop on Huff Road where the croissants and laminated pastries hold their own against any butter-based shop. Things sell out, so come early.",
+        "address": "1133 Huff Rd NW, Suite F, Atlanta, GA 30318",
+        "locality": "West Midtown"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "saint-germain-interlock",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4109,
+          33.7849
+        ]
+      },
+      "properties": {
+        "name": "Saint Germain French Bakery & Cafe",
+        "category": "bakery",
+        "section": "westside-and-midtown",
+        "notes": "A French-style bakery and cafe at The Interlock with classic viennoiserie, eclairs and fruit tarts. A good spot for a croissant and coffee on a Westside afternoon.",
+        "address": "1115 Howell Mill Rd NW, Suite 372, Atlanta, GA 30318",
+        "locality": "The Interlock",
+        "match": {
+          "query": "Saint Germain French Bakery The Interlock"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "henris-bakery-buckhead",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3812,
+          33.8432
+        ]
+      },
+      "properties": {
+        "name": "Henri's Bakery & Deli",
+        "category": "bakery",
+        "section": "buckhead-and-cheshire-bridge",
+        "notes": "A bakery and deli with roots in 1929 Atlanta, now in Andrews Square. Known for po'boys on its own bread, plus cookies, pastries and decorated cakes.",
+        "address": "56 E Andrews Dr NW, Atlanta, GA 30305",
+        "locality": "Buckhead"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "southern-baked-pie-buckhead",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3774,
+          33.8404
+        ]
+      },
+      "properties": {
+        "name": "Southern Baked Pie Company",
+        "category": "cafe",
+        "section": "buckhead-and-cheshire-bridge",
+        "notes": "A Georgia pie company with its roots in Gainesville. Sweet pies like pecan and chess sit next to savory pot pies, by the slice or whole. A second intown shop is in Vinings.",
+        "address": "3145 Peachtree Rd NE, Suite 165, Atlanta, GA 30305",
+        "locality": "Buckhead"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "international-bakery-cheshire-bridge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3535,
+          33.8133
+        ]
+      },
+      "properties": {
+        "name": "International Bakery",
+        "category": "bakery",
+        "section": "buckhead-and-cheshire-bridge",
+        "notes": "A Greek family bakery in a Cheshire Bridge strip center. Baklava, honey cookies, spanakopita and celebration cakes, plus a few shelves of Greek groceries.",
+        "address": "2165 Cheshire Bridge Rd NE, Suite 5, Atlanta, GA 30324",
+        "locality": "Cheshire Bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "southern-sweets-bakery",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2708,
+          33.7808
+        ]
+      },
+      "properties": {
+        "name": "Southern Sweets Bakery",
+        "category": "bakery",
+        "section": "decatur-and-east",
+        "notes": "A Decatur bakery that started out supplying cakes and pies to restaurants. Layer cakes, tarts and pies, with vegan and gluten-free versions, and a small breakfast and lunch menu.",
+        "address": "186 Rio Cir, Decatur, GA 30030",
+        "locality": "Decatur"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "revolution-doughnuts-decatur",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3083,
+          33.7655
+        ]
+      },
+      "properties": {
+        "name": "Revolution Doughnuts",
+        "category": "bakery",
+        "section": "decatur-and-east",
+        "notes": "Small-batch doughnuts in a little Decatur shop, with rotating flavors and options for vegans and those avoiding gluten, eggs or dairy. A second shop is on Edgewood Avenue in Inman Park.",
+        "address": "908 W College Ave, Decatur, GA 30030",
+        "locality": "Decatur"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "galette-avondale-estates",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.268,
+          33.7763
+        ]
+      },
+      "properties": {
+        "name": "Galette",
+        "category": "cafe",
+        "section": "decatur-and-east",
+        "notes": "A small bakery in the Tudor-style downtown of Avondale Estates. French-American pastry and naturally fermented bread, including the namesake rustic tarts. Open only part of the week; check before you go.",
+        "address": "110 N Avondale Rd, Avondale Estates, GA 30002",
+        "locality": "Avondale Estates"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lees-bakery-buford-highway",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3096,
+          33.86
+        ]
+      },
+      "properties": {
+        "name": "Lee's Bakery",
+        "category": "restaurant",
+        "section": "buford-highway-and-north",
+        "notes": "A no-frills Vietnamese bakery known for banh mi on baguettes baked in-house. The grilled pork is the usual order. Closed Mondays.",
+        "address": "4005 Buford Hwy NE, Suite C, Atlanta, GA 30345",
+        "locality": "Buford Highway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "family-baking-chamblee",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3004,
+          33.8906
+        ]
+      },
+      "properties": {
+        "name": "Family Baking",
+        "category": "cafe",
+        "section": "buford-highway-and-north",
+        "notes": "A Hong Kong-style bakery in the Chinatown center in Chamblee. Warm egg tarts by the door, pineapple buns, and baked and steamed buns filled with roast pork or red bean.",
+        "address": "5389 New Peachtree Rd, Suite E, Chamblee, GA 30341",
+        "locality": "Chamblee"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sweet-hut-doraville",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2843,
+          33.8935
+        ]
+      },
+      "properties": {
+        "name": "Sweet Hut Bakery & Cafe",
+        "category": "bakery",
+        "section": "buford-highway-and-north",
+        "notes": "The Buford Highway Sweet Hut, where the bakery and tea shop got its start in 2012, open into the evening. Egg tarts, cakes and sweet buns, plus milk teas and savory snacks.",
+        "address": "5150 Buford Hwy NE, Suite A-100, Doraville, GA 30340",
+        "locality": "Doraville"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "panaderia-del-valle",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2673,
+          33.9085
+        ]
+      },
+      "properties": {
+        "name": "Panaderia Del Valle",
+        "category": "bakery",
+        "section": "buford-highway-and-north",
+        "notes": "A family-run Mexican panaderia on Buford Highway since 2006. Take a tray and tongs and fill up on conchas, cuernos and empanadas from the open cases.",
+        "address": "5781 Buford Hwy NE, Suite 105, Doraville, GA 30340",
+        "locality": "Doraville"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "white-windmill-doraville",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2644,
+          33.9107
+        ]
+      },
+      "properties": {
+        "name": "White Windmill Bakery & Cafe",
+        "category": "bakery",
+        "section": "buford-highway-and-north",
+        "notes": "The Doraville flagship of a Korean-French bakery with a few locations around town. Red bean and sweet potato buns, cream breads and soft sponge cakes, plus a seating area for coffee.",
+        "address": "5881 Buford Hwy NE, Doraville, GA 30340",
+        "locality": "Doraville"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bronx-bagel-buggy",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2979,
+          33.8945
+        ]
+      },
+      "properties": {
+        "name": "The Bronx Bagel Buggy",
+        "category": "bakery",
+        "section": "buford-highway-and-north",
+        "notes": "A farmers market bagel stand turned Chamblee storefront, making chewy New York-style bagels and deli sandwiches. Open only a few days a week and lines form, so check the schedule first.",
+        "address": "5494 Peachtree Rd, Chamblee, GA 30341",
+        "locality": "Chamblee"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mozart-bakery-buford-highway",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2809,
+          33.8968
+        ]
+      },
+      "properties": {
+        "name": "Mozart Bakery",
+        "category": "bakery",
+        "section": "buford-highway-and-north",
+        "notes": "A Korean-style bakery cafe with a big dining room. Strawberry cream cakes, macarons and European-style breads, and a good place to sit with a coffee between Buford Highway stops.",
+        "address": "5301 Buford Hwy NE, Doraville, GA 30340",
+        "locality": "Doraville"
+      }
+    }
+  ]
+}

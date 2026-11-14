@@ -1,8 +1,16 @@
 #!/usr/bin/env python3
-"""Builds the Field Guides (city, park and trip guides for the Want to go list) from guides/src/<slug>.json.
+"""Builds the Field Guides (city, park and trip guides for the Want to go list) from guides/src/<slug>.guide.geojson.
 
-Each source file is one guide: its title, sections and places, written by hand. This
-script turns it into, for every guide:
+Each source file is one guide in the Field Guide format 0.1 (spec, schema and tools in the
+private repo natebird/placemoir-guide-spec): a GeoJSON FeatureCollection with a `guide`
+object (id, status, kind, name, description, author, inLanguage, dateModified, countries,
+sections, and optional region, ordered, season, related, sources, license), one Point feature
+per place (name, category, section, notes, address, and optional position, locality,
+countryCode, ids, match, sources, lastVerified), and optional route lines
+(`"featureType": "route"`). `validate` checks the spec's rules with the standard library, and
+`from_source` turns a guide into what the rest of this script builds. Guide categories are
+richer than the app's 9; SPEC_CATEGORIES maps each one down for the library file. This script
+turns each source into:
 
     guides/<slug>/index.html               the page people read
     guides/<slug>/guide.json               the library file Placemoir 1.1 downloads
@@ -17,14 +25,13 @@ the guides block in sitemap.xml.
     python3 tools/guides.py maps [slug…]   # look every place up in Apple Maps (see below)
     python3 tools/guides.py token <origin> [days]  # write guides/mapkit-token.json for the map
 
-A source can set "kind" (city, the default; park; state-parks; route; food; theme; season;
-weekend) and "region" (the states
-or provinces a park or route covers, shown under the title). Both go into guide.json and
-index.json only when set. Guides that aren't city guides get a not-affiliated and check-before-
-you-go line, and the guides list groups by kind once more than one kind is published.
+A guide's kind and region go into guide.json and index.json (kind only when it isn't city).
+Guides that aren't city guides get a not-affiliated and check-before-you-go line, and the guides
+list groups by kind once more than one kind is published. An ordered guide numbers its places;
+a season line shows under the title.
 
-A guide with "status": "draft" is built and served with noindex, so it can be reviewed on the
-live site, but stays off the guides list and the sitemap until it is "published".
+A guide with "status": "draft" (or "retired") is built and served with noindex, so it can be
+reviewed on the live site, but stays off the guides list and the sitemap until it is "published".
 
 The guide files follow the library format at archive-format.html, with its `guide` block.
 Place ids are `guide:<slug>/<key>`, not UUIDs, so importing a guide twice adds nothing and a
@@ -36,8 +43,8 @@ its coordinates and writes what it found to guides/src/<slug>.maps.json, which `
 for the Apple Maps place ID and the exact position, so the source's coordinates only need to be
 close. A place matches when its name is alike and Apple Maps has the same street number and
 street; a place without a street number (a trail, a big park) needs a near-identical name. It
-exits 1 if any place isn't found. Set "mapsQuery" on a place to search for a different name, or
-"mapsSkip": "<reason>" to leave it out of the check.
+exits 1 if any place isn't found. Set "match": {"query": …} on a place to search for a different
+name, or "match": {"skip": "<reason>"} to leave it out of the check.
 
 Each guide page has an Apple Maps map (MapKit JS, js/guide-map.js) with a pin per place,
 coloured by section. It needs guides/mapkit-token.json, which the Pages deploy writes with
@@ -93,8 +100,6 @@ CATEGORIES = {"restaurant": "Restaurant", "cafe": "Café", "bar": "Bar", "hotel"
 # list groups by kind, in this order, once more than one kind is published.
 KINDS = {"city": "Cities", "park": "National parks", "state-parks": "State parks", "route": "Trips",
          "food": "Food", "theme": "Themed lists", "season": "Seasons", "weekend": "Weekends and day trips"}
-PLACE_KEYS = {"key", "name", "category", "section", "address", "locality", "latitude",
-              "longitude", "notes", "mapsQuery", "mapsSkip"}
 MOVED_METRES = 300
 SEARCH_RADIUS_METRES = 2000
 STREET_RADIUS_METRES = 5000
@@ -103,72 +108,346 @@ NOTES_MAX = 300
 
 # MARK: Sources
 
+# Field Guide format 0.1: each source is guides/src/<slug>.guide.geojson, a GeoJSON
+# FeatureCollection with a `guide` object, one Point feature per place and optional route
+# lines. The spec lives in the private repo natebird/placemoir-guide-spec; this file checks the
+# same rules with the standard library and turns each source into the shape the rest of the
+# script builds from.
+FORMAT_VERSION = "0.1"
+STATUSES = ("draft", "published", "retired")
+# Guide categories, and the Placemoir category each one imports as (category-map.json in the spec).
+SPEC_CATEGORIES = {
+    "restaurant": "restaurant", "food-truck": "restaurant", "barbecue": "restaurant",
+    "cafe": "cafe", "bakery": "cafe", "dessert": "cafe",
+    "bar": "bar", "brewery": "bar", "winery": "bar", "distillery": "bar",
+    "hotel": "hotel", "inn": "hotel", "lodge": "hotel", "hostel": "hotel", "albergue": "hotel", "campground": "hotel",
+    "park": "park", "national-park": "park", "state-park": "park", "trailhead": "park", "viewpoint": "park",
+    "beach": "park", "garden": "park", "waterfall": "park",
+    "museum": "museum", "gallery": "museum",
+    "attraction": "attraction", "landmark": "attraction", "historic-site": "attraction",
+    "visitor-center": "attraction", "stadium": "attraction", "theater": "attraction", "market": "attraction",
+    "shop": "attraction", "zoo": "attraction",
+    "airport": "airport",
+    "station": "other", "other": "other",
+}
+ROUTE_MODES = ("drive", "walk", "hike", "bike", "transit", "ferry")
+# Country names for the library file's `country`, by the code in `guide.countries`.
+COUNTRY_NAMES = {"US": "United States", "CA": "Canada", "MX": "Mexico", "ES": "Spain", "FR": "France",
+                 "PT": "Portugal", "DE": "Germany", "AT": "Austria", "IT": "Italy", "GB": "United Kingdom",
+                 "IE": "Ireland", "JP": "Japan"}
+GUIDE_FIELDS = {"id", "status", "kind", "name", "description", "author", "inLanguage", "dateModified",
+                "datePublished", "region", "countries", "ordered", "season", "sections", "related", "sources",
+                "license"}
+SECTION_FIELDS = {"id", "name", "description", "distanceKm"}
+SOURCE_FIELDS = {"id", "name", "url", "license", "credit"}
+PLACE_FIELDS = {"featureType", "name", "category", "section", "position", "notes", "address", "locality",
+                "countryCode", "ids", "match", "sources", "lastVerified"}
+ROUTE_FIELDS = {"featureType", "name", "mode", "section", "stops", "distanceKm", "notes", "sources",
+                "lastVerified"}
+SLUG = re.compile(r"(?=.{1,80}\Z)[a-z0-9]+(-[a-z0-9]+)*")
+DAY = re.compile(r"\d{4}-\d{2}-\d{2}")
+
+
 def load_sources():
     guides = []
-    for path in sorted(SRC.glob("*.json")):
-        if path.name.endswith(".maps.json"):
-            continue
-        guide = json.loads(path.read_text(encoding="utf-8"))
-        problems = validate(guide, path.stem)
+    for path in sorted(SRC.glob("*.guide.geojson")):
+        stem = path.name[: -len(".guide.geojson")]
+        doc = json.loads(path.read_text(encoding="utf-8"))
+        problems = validate(doc, stem)
         if problems:
             sys.exit(f"{path.relative_to(SITE)} has {len(problems)} problem(s):\n"
                      + "\n".join(f"• {p}" for p in problems))
+        guide = from_source(doc)
         lock = SRC / f"{guide['slug']}.maps.json"
         guide["_maps"] = json.loads(lock.read_text(encoding="utf-8")) if lock.exists() else {}
         guides.append(guide)
     return guides
 
 
-def validate(guide, stem):
+def is_day(value):
+    if not isinstance(value, str) or not DAY.fullmatch(value):
+        return False
+    try:
+        datetime.date.fromisoformat(value)
+        return True
+    except ValueError:
+        return False
+
+
+def unknown(obj, allowed):
+    return sorted(k for k in obj if k not in allowed and not k.startswith("x-"))
+
+
+def text(value, limit=None):
+    return isinstance(value, str) and value.strip() != "" and (limit is None or len(value) <= limit)
+
+
+def is_position(value):
+    return (isinstance(value, list) and len(value) in (2, 3) and all(isinstance(n, (int, float)) for n in value)
+            and -180 <= value[0] <= 180 and -90 <= value[1] <= 90)
+
+
+def validate(doc, stem):
+    """The Field Guide 0.1 rules: the spec's JSON Schema plus the checks a schema can't express."""
     problems = []
-    for field in ("slug", "status", "title", "summary", "author", "language", "updatedAt", "sections", "places"):
-        if not guide.get(field):
-            problems.append(f"{field}: required")
+    if not isinstance(doc, dict) or doc.get("type") != "FeatureCollection":
+        return ["type: must be \"FeatureCollection\""]
+    if doc.get("placemoirGuide") != FORMAT_VERSION:
+        problems.append(f"placemoirGuide: must be \"{FORMAT_VERSION}\"")
+    for key in unknown(doc, {"type", "placemoirGuide", "guide", "features", "bbox"}):
+        problems.append(f"{key}: unknown field (extensions start with x-)")
+    guide, features = doc.get("guide"), doc.get("features")
+    if not isinstance(guide, dict):
+        return problems + ["guide: required"]
+    if not isinstance(features, list) or not features:
+        return problems + ["features: at least one place"]
+    g = "guide"
+    for key in unknown(guide, GUIDE_FIELDS):
+        problems.append(f"{g}.{key}: unknown field")
+    missing = [f"{g}.{field}: required" for field in ("id", "status", "kind", "name", "description", "author",
+                                                       "inLanguage", "dateModified", "countries", "sections")
+               if field not in guide]
+    if missing:
+        return problems + missing
+    if not isinstance(guide["id"], str) or not SLUG.fullmatch(guide["id"]):
+        problems.append(f"{g}.id: lowercase letters, digits and - only")
+    elif guide["id"] != stem:
+        problems.append(f"{g}.id: “{guide['id']}” must match the file name “{stem}.guide.geojson”")
+    if guide["status"] not in STATUSES:
+        problems.append(f"{g}.status: one of {', '.join(STATUSES)}")
+    if guide["kind"] not in KINDS:
+        problems.append(f"{g}.kind: one of {', '.join(KINDS)}")
+    if not text(guide["name"], 120):
+        problems.append(f"{g}.name: 1 to 120 characters")
+    if not text(guide["description"], 400):
+        problems.append(f"{g}.description: 1 to 400 characters")
+    author = guide["author"]
+    if not isinstance(author, dict) or not text(author.get("name")) or unknown(author, {"name", "url"}):
+        problems.append(f"{g}.author: {{\"name\": …}} with an optional url")
+    if not isinstance(guide["inLanguage"], str) or not re.fullmatch(r"[a-z]{2,3}(-[A-Za-z0-9]{2,8})*", guide["inLanguage"]):
+        problems.append(f"{g}.inLanguage: a BCP 47 tag, like en or pt-BR")
+    for field in ("dateModified", "datePublished"):
+        if field in guide and not is_day(guide[field]):
+            problems.append(f"{g}.{field}: a day, like 2026-11-14")
+    countries = guide["countries"]
+    if (not isinstance(countries, list) or not countries
+            or not all(isinstance(c, str) and re.fullmatch(r"[A-Z]{2}", c) for c in countries)
+            or len(set(countries)) != len(countries)):
+        problems.append(f"{g}.countries: a list of two-letter country codes, like [\"US\"]")
+    elif countries[0] not in COUNTRY_NAMES:
+        problems.append(f"{g}.countries: add {countries[0]} to COUNTRY_NAMES in tools/guides.py")
+    if "region" in guide and not text(guide["region"]):
+        problems.append(f"{g}.region: leave it out, or name the states or provinces")
+    if "ordered" in guide and not isinstance(guide["ordered"], bool):
+        problems.append(f"{g}.ordered: true or false")
+    if "season" in guide:
+        season = guide["season"]
+        months = season.get("months", []) if isinstance(season, dict) else None
+        if (not isinstance(season, dict) or not text(season.get("text"), 120) or unknown(season, {"text", "months"})
+                or not isinstance(months, list)
+                or not all(isinstance(m, int) and not isinstance(m, bool) and 1 <= m <= 12 for m in months)):
+            problems.append(f"{g}.season: {{\"text\": …}} with optional months 1 to 12")
+    if "license" in guide and not text(guide["license"]):
+        problems.append(f"{g}.license: text")
+    if "related" in guide and not (isinstance(guide["related"], list)
+                                   and all(isinstance(s, str) and SLUG.fullmatch(s) for s in guide["related"])):
+        problems.append(f"{g}.related: a list of guide ids")
+    source_ids = set()
+    for i, source in enumerate(guide.get("sources", [])):
+        where = f"{g}.sources[{i}]"
+        if not isinstance(source, dict) or not isinstance(source.get("id"), str) or not SLUG.fullmatch(source["id"]):
+            problems.append(f"{where}.id: lowercase letters, digits and - only")
+            continue
+        if not text(source.get("name")):
+            problems.append(f"{where}.name: required")
+        for key in unknown(source, SOURCE_FIELDS) + [k for k in source if k.startswith("x-")]:
+            problems.append(f"{where}.{key}: unknown field")
+        if source["id"] in source_ids:
+            problems.append(f"{where}.id: “{source['id']}” is used twice")
+        source_ids.add(source["id"])
+    section_ids = []
+    if not isinstance(guide["sections"], list) or not guide["sections"]:
+        problems.append(f"{g}.sections: at least one section")
+    for i, section in enumerate(guide["sections"] if isinstance(guide["sections"], list) else []):
+        where = f"{g}.sections[{i}]"
+        if not isinstance(section, dict) or not isinstance(section.get("id"), str) or not SLUG.fullmatch(section["id"]):
+            problems.append(f"{where}.id: lowercase letters, digits and - only")
+            continue
+        if not text(section.get("name"), 80):
+            problems.append(f"{where}.name: 1 to 80 characters")
+        if "description" in section and not (isinstance(section["description"], str) and len(section["description"]) <= 300):
+            problems.append(f"{where}.description: up to 300 characters")
+        if "distanceKm" in section and not (isinstance(section["distanceKm"], (int, float)) and section["distanceKm"] >= 0):
+            problems.append(f"{where}.distanceKm: a number, 0 or more")
+        for key in unknown(section, SECTION_FIELDS):
+            problems.append(f"{where}.{key}: unknown field")
+        if section["id"] in section_ids:
+            problems.append(f"{where}.id: “{section['id']}” is used twice")
+        section_ids.append(section["id"])
+    ids, places, routes = set(), [], []
+    for i, feature in enumerate(features):
+        fid = feature.get("id") if isinstance(feature, dict) else None
+        where = f"features[{i}] ({fid or '?'})"
+        if not isinstance(feature, dict) or feature.get("type") != "Feature":
+            problems.append(f"{where}.type: must be \"Feature\"")
+            continue
+        for key in unknown(feature, {"type", "id", "geometry", "properties"}) + [k for k in feature if k.startswith("x-")]:
+            problems.append(f"{where}.{key}: unknown field")
+        if not isinstance(fid, str) or not SLUG.fullmatch(fid):
+            problems.append(f"{where}.id: lowercase letters, digits and - only")
+        elif fid in ids:
+            problems.append(f"{where}.id: “{fid}” is used twice")
+        ids.add(fid)
+        props, geometry = feature.get("properties"), feature.get("geometry", "missing")
+        if not isinstance(props, dict):
+            problems.append(f"{where}.properties: required")
+            continue
+        is_route = props.get("featureType") == "route"
+        (routes if is_route else places).append((where, feature))
+        if "section" in props and props["section"] not in section_ids:
+            problems.append(f"{where}.section: one of {', '.join(section_ids)}")
+        sources = props.get("sources", [])
+        if not isinstance(sources, list) or len(set(map(str, sources))) != len(sources):
+            problems.append(f"{where}.sources: a list of source ids, each once")
+        else:
+            for s in sources:
+                if s not in source_ids:
+                    problems.append(f"{where}.sources: “{s}” isn't in guide.sources")
+        if "lastVerified" in props and not is_day(props["lastVerified"]):
+            problems.append(f"{where}.lastVerified: a day, like 2026-11-14")
+        if is_route:
+            for key in unknown(props, ROUTE_FIELDS):
+                problems.append(f"{where}.properties.{key}: unknown field")
+            if not text(props.get("name"), 120):
+                problems.append(f"{where}.name: 1 to 120 characters")
+            if props.get("mode") not in ROUTE_MODES:
+                problems.append(f"{where}.mode: one of {', '.join(ROUTE_MODES)}")
+            if "notes" in props and not (isinstance(props["notes"], str) and len(props["notes"]) <= NOTES_MAX):
+                problems.append(f"{where}.notes: keep it under {NOTES_MAX} characters")
+            if "distanceKm" in props and not (isinstance(props["distanceKm"], (int, float)) and props["distanceKm"] >= 0):
+                problems.append(f"{where}.distanceKm: a number, 0 or more")
+            if geometry is None:
+                if not isinstance(props.get("stops"), list) or len(props["stops"]) < 2:
+                    problems.append(f"{where}.stops: at least two place ids when geometry is null")
+            elif not (isinstance(geometry, dict) and (
+                    (geometry.get("type") == "LineString" and isinstance(geometry.get("coordinates"), list)
+                     and len(geometry["coordinates"]) >= 2 and all(map(is_position, geometry["coordinates"])))
+                    or (geometry.get("type") == "MultiLineString" and isinstance(geometry.get("coordinates"), list)
+                        and geometry["coordinates"] and all(isinstance(line, list) and len(line) >= 2
+                                                            and all(map(is_position, line))
+                                                            for line in geometry["coordinates"])))):
+                problems.append(f"{where}.geometry: a LineString, a MultiLineString, or null with stops")
+            continue
+        for key in unknown(props, PLACE_FIELDS):
+            problems.append(f"{where}.properties.{key}: unknown field")
+        if props.get("featureType", "place") != "place":
+            problems.append(f"{where}.featureType: \"place\" or \"route\"")
+        if not (isinstance(geometry, dict) and geometry.get("type") == "Point" and is_position(geometry.get("coordinates"))
+                and not unknown(geometry, {"type", "coordinates"})):
+            problems.append(f"{where}.geometry: a Point at [longitude, latitude]")
+        for field, limit in (("name", 120), ("notes", NOTES_MAX), ("address", None)):
+            if not text(props.get(field), limit):
+                problems.append(f"{where}.{field}: required" + (f", up to {limit} characters" if limit else ""))
+        if props.get("category") not in SPEC_CATEGORIES:
+            problems.append(f"{where}.category: one of {', '.join(SPEC_CATEGORIES)}")
+        if "section" not in props:
+            problems.append(f"{where}.section: required")
+        if "locality" in props and not isinstance(props["locality"], str):
+            problems.append(f"{where}.locality: text")
+        if "countryCode" in props and not (isinstance(props["countryCode"], str) and re.fullmatch(r"[A-Z]{2}", props["countryCode"])):
+            problems.append(f"{where}.countryCode: a two-letter country code")
+        elif "countryCode" in props and props["countryCode"] not in COUNTRY_NAMES:
+            problems.append(f"{where}.countryCode: add {props['countryCode']} to COUNTRY_NAMES in tools/guides.py")
+        place_ids_ = props.get("ids", {})
+        if not isinstance(place_ids_, dict) or unknown(place_ids_, {"apple", "wikidata", "overture", "osm"}) \
+                or any(k.startswith("x-") for k in place_ids_) or not all(text(v) for v in place_ids_.values()):
+            problems.append(f"{where}.ids: apple, wikidata, overture and osm, each text")
+        else:
+            if "wikidata" in place_ids_ and not re.fullmatch(r"Q[0-9]+", place_ids_["wikidata"]):
+                problems.append(f"{where}.ids.wikidata: like Q42")
+            if "osm" in place_ids_ and not re.fullmatch(r"(node|way|relation)/[0-9]+", place_ids_["osm"]):
+                problems.append(f"{where}.ids.osm: like node/123")
+        match = props.get("match", {})
+        if not isinstance(match, dict) or unknown(match, {"query", "skip"}) or any(k.startswith("x-") for k in match) \
+                or not all(text(v) for v in match.values()):
+            problems.append(f"{where}.match: query and skip, each text")
+        if "position" in props and not (isinstance(props["position"], int) and not isinstance(props["position"], bool)
+                                        and props["position"] >= 1):
+            problems.append(f"{where}.position: a whole number from 1")
+    place_ids = {f["id"] for _, f in places}
+    if guide.get("ordered") is True:
+        positions = []
+        for where, feature in places:
+            if "position" not in feature["properties"]:
+                problems.append(f"{where}.position: required, because the guide is ordered")
+            else:
+                positions.append(feature["properties"]["position"])
+        if positions and sorted(positions) != list(range(1, len(positions) + 1)):
+            problems.append("positions: must run 1 to N with no gaps or repeats")
+    for where, feature in routes:
+        for stop in feature["properties"].get("stops", []) if isinstance(feature["properties"].get("stops"), list) else []:
+            if stop not in place_ids:
+                problems.append(f"{where}.stops: “{stop}” isn't a place in this guide")
+    if not places:
+        problems.append("features: at least one place")
+    for section in section_ids:
+        if not any(f["properties"].get("section") == section for _, f in places):
+            problems.append(f"{g}.sections: “{section}” has no places")
     if problems:
         return problems
-    if guide["slug"] != stem:
-        problems.append(f"slug: “{guide['slug']}” must match the file name “{stem}”")
-    if not re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", guide["slug"]):
-        problems.append("slug: lowercase letters, digits and - only")
-    if guide["status"] not in ("draft", "published"):
-        problems.append("status: draft or published")
-    if guide.get("kind", "city") not in KINDS:
-        problems.append(f"kind: one of {', '.join(KINDS)}")
-    if "region" in guide and not str(guide["region"]).strip():
-        problems.append("region: leave it out, or name the states or provinces")
-    try:
-        datetime.date.fromisoformat(guide["updatedAt"])
-    except ValueError:
-        problems.append("updatedAt: a day, like 2026-11-08")
-    keys = set()
-    for i, place in enumerate(guide["places"]):
-        where = f"places[{i}] ({place.get('key') or place.get('name') or '?'})"
-        for field in ("key", "name", "category", "section", "address", "notes"):
-            if not str(place.get(field, "")).strip():
-                problems.append(f"{where}.{field}: required")
-        unknown = set(place) - PLACE_KEYS
-        if unknown:
-            problems.append(f"{where}: unknown field(s) {', '.join(sorted(unknown))}")
-        key = place.get("key", "")
-        if not re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", key):
-            problems.append(f"{where}.key: lowercase letters, digits and - only")
-        if key in keys:
-            problems.append(f"{where}.key: “{key}” is used twice")
-        keys.add(key)
-        if place.get("category") not in CATEGORIES:
-            problems.append(f"{where}.category: one of {', '.join(CATEGORIES)}")
-        if place.get("section") not in guide["sections"]:
-            problems.append(f"{where}.section: one of {', '.join(guide['sections'])}")
-        lat, lon = place.get("latitude"), place.get("longitude")
-        if not (isinstance(lat, (int, float)) and isinstance(lon, (int, float))
-                and -90 <= lat <= 90 and -180 <= lon <= 180):
-            problems.append(f"{where}: latitude and longitude are required numbers")
-        if len(place.get("notes", "")) > NOTES_MAX:
-            problems.append(f"{where}.notes: keep it under {NOTES_MAX} characters")
-    for section in guide["sections"]:
-        if not any(p.get("section") == section for p in guide["places"]):
-            problems.append(f"sections: “{section}” has no places")
+    # A city, park or food guide fits in about 300 km, so a place far from the rest is a typo. Wider
+    # guides (routes, seasons, themes, weekends) only flag a place whose swapped coordinates would fit.
+    if len(places) > 2:
+        lons = sorted(f["geometry"]["coordinates"][0] for _, f in places)
+        lats = sorted(f["geometry"]["coordinates"][1] for _, f in places)
+        mid_lon, mid_lat = lons[len(lons) // 2], lats[len(lats) // 2]
+        compact = guide["kind"] in ("city", "park", "food")
+        for where, f in places:
+            lon, lat = f["geometry"]["coordinates"][:2]
+            far = abs(lon - mid_lon) > 3 or abs(lat - mid_lat) > 3
+            if far and compact:
+                problems.append(f"{where}: more than ~300 km from the guide's other places (latitude and longitude swapped?)")
+            elif far and abs(lat - mid_lon) <= 3 and abs(lon - mid_lat) <= 3:
+                problems.append(f"{where}: latitude and longitude look swapped")
     return problems
+
+
+def from_source(doc):
+    """A 0.1 source as the dict the pages, library files and Apple Maps check are built from."""
+    g = doc["guide"]
+    names = {s["id"]: s["name"] for s in g["sections"]}
+    guide = {
+        "slug": g["id"], "status": g["status"], "kind": g["kind"], "title": g["name"],
+        "summary": g["description"], "author": g["author"]["name"], "language": g["inLanguage"],
+        "country": COUNTRY_NAMES[g["countries"][0]], "countryCode": g["countries"][0],
+        "updatedAt": g["dateModified"], "sections": [s["name"] for s in g["sections"]],
+        "ordered": g.get("ordered", False), "places": [], "routes": [],
+    }
+    for key in ("region", "season"):
+        if key in g:
+            guide[key] = g[key]["text"] if key == "season" else g[key]
+    for feature in doc["features"]:
+        p = feature["properties"]
+        if p.get("featureType") == "route":
+            guide["routes"].append({"key": feature["id"], **p, "geometry": feature["geometry"]})
+            continue
+        lon, lat = feature["geometry"]["coordinates"][:2]
+        place = {"key": feature["id"], "name": p["name"], "category": SPEC_CATEGORIES[p["category"]],
+                 "guideCategory": p["category"], "section": names[p["section"]], "address": p["address"],
+                 "locality": p.get("locality", ""), "latitude": lat, "longitude": lon, "notes": p["notes"],
+                 "countryCode": p.get("countryCode", g["countries"][0])}
+        if "position" in p:
+            place["position"] = p["position"]
+        if p.get("match", {}).get("query"):
+            place["mapsQuery"] = p["match"]["query"]
+        if p.get("match", {}).get("skip"):
+            place["mapsSkip"] = p["match"]["skip"]
+        if p.get("ids", {}).get("apple"):
+            place["appleMapsID"] = p["ids"]["apple"]
+        guide["places"].append(place)
+    if guide["ordered"]:
+        guide["places"].sort(key=lambda place: place["position"])
+    return guide
 
 
 # MARK: Library file
@@ -187,15 +466,15 @@ def library(guide):
             "category": place["category"],
             "address": place["address"],
             "locality": place.get("locality", ""),
-            "country": guide.get("country", ""),
+            "country": COUNTRY_NAMES.get(place["countryCode"], guide.get("country", "")),
             "latitude": found.get("latitude", place["latitude"]),
             "longitude": found.get("longitude", place["longitude"]),
             "wantToGo": True,
             "notes": place["notes"],
             "section": place["section"],
         }
-        if found.get("appleMapsID"):
-            record["appleMapsID"] = found["appleMapsID"]
+        if found.get("appleMapsID") or place.get("appleMapsID"):
+            record["appleMapsID"] = found.get("appleMapsID") or place["appleMapsID"]
         places.append({k: v for k, v in record.items() if v != ""})
     return {
         "format": "placemoir-library",
@@ -219,7 +498,8 @@ def library(guide):
 
 def optional_fields(guide):
     """The guide's kind and region, only when the source gives them, so city guides stay as they were."""
-    return {key: guide[key] for key in ("kind", "region") if guide.get(key)}
+    return {key: guide[key] for key in ("kind", "region")
+            if guide.get(key) and not (key == "kind" and guide[key] == "city")}
 
 
 def library_json(guide):
@@ -343,6 +623,7 @@ def guide_page(guide):
     archive_name = f"{guide['title']}.placemoirarchive"
     updated = datetime.date.fromisoformat(guide["updatedAt"]).strftime("%B %-d, %Y")
     region = f"{e(guide['region'])} · " if guide.get("region") else ""
+    season = f'\n                <p class="meta">{e(guide["season"])}</p>' if guide.get("season") else ""
     outdoors = ""
     if guide.get("kind", "city") != "city":
         outdoors = ('\n            <p class="press-lede guide-fineprint">Placemoir isn’t affiliated with the National Park Service, '
@@ -362,7 +643,7 @@ def guide_page(guide):
             where = f" · {e(place['locality'])}" if place.get("locality") else ""
             cards.append(f'''                    <article class="prompt-card card guide-place" id="{place['key']}">
                         <p class="meta">{kind}{where}</p>
-                        <h3>{e(place['name'])}</h3>
+                        <h3>{f"{place['position']}. " if guide.get("ordered") else ""}{e(place['name'])}</h3>
                         <p>{e(place['notes'])}</p>
                         <p class="meta guide-address"><a href="{e(maps_link(guide, place))}">{e(place['address'])}</a></p>
                     </article>''')
@@ -385,7 +666,7 @@ def guide_page(guide):
                 <p class="eyebrow moss"><a href="../">Field Guides</a></p>
                 <h1>{e(guide['title'])}</h1>
                 <p>{e(guide['summary'])}</p>
-                <p class="meta">{region}{count} places · Picked by {e(guide['author'])} · Checked {updated}</p>
+                <p class="meta">{region}{count} places · Picked by {e(guide['author'])} · Checked {updated}</p>{season}
                 <div class="cta-row guide-actions">
                     {actions}
                 </div>
@@ -842,14 +1123,20 @@ def maps(slugs):
         # A fresh token per guide, so a long run never outlives one (they last 30 minutes).
         token = maps_token()
         found = {}
+        lock = SRC / f"{guide['slug']}.maps.json"
+        # The lookups already committed. Apple's results for the same search vary from run to run
+        # (wording, language, which of two nearby listings comes back), so a place keeps its
+        # committed listing while that listing still fits.
+        committed = json.loads(lock.read_text(encoding="utf-8")) if lock.exists() else {}
         start = len(report)
         for place in guide["places"]:
             label = f"{guide['slug']}/{place['key']}"
             if place.get("mapsSkip"):
                 report.append(f"SKIP  {label}: {place['mapsSkip']}")
                 continue
-            best, seen = None, []
-            for result in search(token, place, guide.get("countryCode", "US")):
+            best, seen, kept = None, [], None
+            previous = committed.get(place["key"], {})
+            for result in search(token, place, place.get("countryCode") or guide.get("countryCode", "US")):
                 if "latitude" not in (result.get("coordinate") or {}):
                     continue
                 fits, score, metres = judge(guide, place, result)
@@ -858,22 +1145,26 @@ def maps(slugs):
                             f"{round(metres)} m, name {score:.2f}, at {coordinate['latitude']:.4f},{coordinate['longitude']:.4f})")
                 if fits and (best is None or (score, -metres) > best[0]):
                     best = ((score, -metres), result, metres)
+                if fits and previous.get("appleMapsID") and result.get("id") == previous["appleMapsID"]:
+                    kept = (result, metres)
             if best is None:
                 failures.append(f"{label}: “{place['name']}” at {place['address']} isn't in Apple Maps. "
                                 "Check it's open and the address is right")
                 report.append(f"MISS  {label}. Apple Maps offered: " + ("; ".join(seen[:4]) or "nothing"))
                 continue
-            _, result, metres = best
-            entry = {"name": result.get("name", ""),
-                     "latitude": round(result["coordinate"]["latitude"], 6),
-                     "longitude": round(result["coordinate"]["longitude"], 6),
-                     "address": one_line(result.get("formattedAddressLines", []))}
-            if result.get("id"):
-                entry["appleMapsID"] = result["id"]
+            if kept:
+                (result, metres), entry = kept, previous
+            else:
+                _, result, metres = best
+                entry = {"name": result.get("name", ""),
+                         "latitude": round(result["coordinate"]["latitude"], 6),
+                         "longitude": round(result["coordinate"]["longitude"], 6),
+                         "address": one_line(result.get("formattedAddressLines", []))}
+                if result.get("id"):
+                    entry["appleMapsID"] = result["id"]
             found[place["key"]] = entry
             moved = f", {round(metres)} m from the source position" if metres > MOVED_METRES else ""
             report.append(f"OK    {label} → {entry['name']} ({entry['address']}{moved})")
-        lock = SRC / f"{guide['slug']}.maps.json"
         lock.write_text(json.dumps(found, indent=2, ensure_ascii=False, sort_keys=True) + "\n", encoding="utf-8")
         # Print as each guide finishes, so a long run shows its progress.
         print("\n".join(report[start:]), flush=True)

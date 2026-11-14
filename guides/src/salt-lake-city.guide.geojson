@@ -1,0 +1,819 @@
+{
+  "type": "FeatureCollection",
+  "placemoirGuide": "0.1",
+  "guide": {
+    "id": "salt-lake-city",
+    "status": "published",
+    "kind": "city",
+    "name": "Salt Lake City under the Wasatch",
+    "description": "Seven days of mountain trails, pioneer history, mole and fry sauce, and a day out on the Great Salt Lake, with the Wasatch always in view.",
+    "author": {
+      "name": "friends of Placemoir"
+    },
+    "inLanguage": "en",
+    "dateModified": "2026-11-08",
+    "countries": [
+      "US"
+    ],
+    "sections": [
+      {
+        "id": "stay",
+        "name": "Stay"
+      },
+      {
+        "id": "eat",
+        "name": "Eat"
+      },
+      {
+        "id": "see",
+        "name": "See"
+      },
+      {
+        "id": "outside",
+        "name": "Outside"
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "hotel-monaco",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8917,
+          40.7651
+        ]
+      },
+      "properties": {
+        "name": "Kimpton Hotel Monaco Salt Lake City",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A 1924 bank building turned playful hotel, a block from the light rail and the Gateway.",
+        "address": "15 W 200 S, Salt Lake City, UT 84101",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "grand-america",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8913,
+          40.7584
+        ]
+      },
+      "properties": {
+        "name": "The Grand America Hotel",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "The splurge. Marble, gardens and a proper afternoon tea, and an easy drive up to the canyons.",
+        "address": "555 S Main St, Salt Lake City, UT 84111",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "little-america",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8888,
+          40.759
+        ]
+      },
+      "properties": {
+        "name": "Little America Hotel",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "The Grand America's friendlier sibling across the street, with big rooms and a big pool.",
+        "address": "500 S Main St, Salt Lake City, UT 84101",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inn-on-the-hill",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8878,
+          40.7726
+        ]
+      },
+      "properties": {
+        "name": "Inn on the Hill",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A 1906 mansion turned bed and breakfast below the Capitol, with valley views and a cooked breakfast.",
+        "address": "225 N State St, Salt Lake City, UT 84103",
+        "locality": "Capitol Hill",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "red-iguana",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9118,
+          40.7719
+        ]
+      },
+      "properties": {
+        "name": "Red Iguana",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Seven kinds of mole and a line out the door since 1985. Ask for the mole sampler.",
+        "address": "736 W North Temple, Salt Lake City, UT 84116",
+        "locality": "Fairpark",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copper-onion",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8866,
+          40.7634
+        ]
+      },
+      "properties": {
+        "name": "The Copper Onion",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Seasonal American cooking downtown. The ricotta dumplings and the burger are the regulars' picks.",
+        "address": "111 E Broadway, Salt Lake City, UT 84111",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "takashi",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8918,
+          40.7637
+        ]
+      },
+      "properties": {
+        "name": "Takashi",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "The city's best-loved sushi bar. No reservations, so come early.",
+        "address": "18 W Market St, Salt Lake City, UT 84101",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lucky-13",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8946,
+          40.7393
+        ]
+      },
+      "properties": {
+        "name": "Lucky 13 Bar and Grill",
+        "category": "bar",
+        "section": "eat",
+        "notes": "Huge burgers with house-smoked bacon. Bring an appetite and a 21-plus ID.",
+        "address": "135 W 1300 S, Salt Lake City, UT 84115",
+        "locality": "Ballpark",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ruths-diner",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.79,
+          40.772
+        ]
+      },
+      "properties": {
+        "name": "Ruth's Diner",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Breakfast in a trolley car up Emigration Canyon. Order the mile-high biscuits.",
+        "address": "4160 Emigration Canyon Rd, Salt Lake City, UT 84108",
+        "locality": "Emigration Canyon",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "caputos",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9002,
+          40.7632
+        ]
+      },
+      "properties": {
+        "name": "Caputo's Market & Deli",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Italian deli and a famous chocolate room. Grab sandwiches for a picnic.",
+        "address": "314 W Broadway, Salt Lake City, UT 84101",
+        "locality": "Pioneer Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "feldmans",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8337,
+          40.7135
+        ]
+      },
+      "properties": {
+        "name": "Feldman's Deli",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A New Jersey-style Jewish deli. Pastrami on rye and a black-and-white cookie.",
+        "address": "2005 E 2700 S, Salt Lake City, UT 84109",
+        "locality": "Sugar House",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "laziz-kitchen",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8995,
+          40.7495
+        ]
+      },
+      "properties": {
+        "name": "Laziz Kitchen",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Lebanese small plates and fresh hummus, in the small Central Ninth neighborhood.",
+        "address": "912 S Jefferson St, Salt Lake City, UT 84101",
+        "locality": "Central Ninth",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hsl",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8784,
+          40.7651
+        ]
+      },
+      "properties": {
+        "name": "HSL",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Thoughtful seasonal dinners in a warm, wood-lined room. Book a table on a weekend.",
+        "address": "418 E 200 S, Salt Lake City, UT 84111",
+        "locality": "Central City",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evas-bakery",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8909,
+          40.7666
+        ]
+      },
+      "properties": {
+        "name": "Eva's Bakery",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "French pastries and good coffee on Main Street. Easy breakfast before Temple Square.",
+        "address": "155 S Main St, Salt Lake City, UT 84111",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "tulie-bakery",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8664,
+          40.7547
+        ]
+      },
+      "properties": {
+        "name": "Tulie Bakery",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "A neighborhood bakery known for its croissants and seasonal fruit tarts.",
+        "address": "863 E 700 S, Salt Lake City, UT 84102",
+        "locality": "East Central",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "publik-coffee",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.896,
+          40.7469
+        ]
+      },
+      "properties": {
+        "name": "Publik Coffee Roasters",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "A big, bright roastery with good toast. A fine place to plan the day.",
+        "address": "975 S West Temple, Salt Lake City, UT 84101",
+        "locality": "Ballpark",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "squatters",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.896,
+          40.7637
+        ]
+      },
+      "properties": {
+        "name": "Squatters Pub Brewery",
+        "category": "bar",
+        "section": "eat",
+        "notes": "Salt Lake's original brewpub, open since 1989. Try the Emigration Amber.",
+        "address": "147 W Broadway, Salt Lake City, UT 84101",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "beer-bar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8851,
+          40.7654
+        ]
+      },
+      "properties": {
+        "name": "Beer Bar",
+        "category": "bar",
+        "section": "eat",
+        "notes": "Long tables, bratwurst and Belgian frites, with a deep list of local and imported beer.",
+        "address": "161 E 200 S, Salt Lake City, UT 84111",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "water-witch",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.896,
+          40.7505
+        ]
+      },
+      "properties": {
+        "name": "Water Witch",
+        "category": "bar",
+        "section": "eat",
+        "notes": "A tiny cocktail bar with no menu. Tell them what you like and they'll make it.",
+        "address": "163 W 900 S, Salt Lake City, UT 84101",
+        "locality": "Central Ninth",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "temple-square",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.892,
+          40.7704
+        ]
+      },
+      "properties": {
+        "name": "Temple Square",
+        "category": "attraction",
+        "section": "see",
+        "notes": "The heart of the city since 1847. Walk the gardens and hear the Tabernacle organ at noon.",
+        "address": "50 N West Temple, Salt Lake City, UT 84150",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "beehive-house",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8883,
+          40.7697
+        ]
+      },
+      "properties": {
+        "name": "Beehive House",
+        "category": "museum",
+        "section": "see",
+        "notes": "Brigham Young's 1854 home, with free guided tours of the family rooms.",
+        "address": "67 E South Temple, Salt Lake City, UT 84111",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "utah-state-capitol",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8882,
+          40.7774
+        ]
+      },
+      "properties": {
+        "name": "Utah State Capitol",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Free tours of a grand 1916 capitol, and a sweeping view of the valley from the steps.",
+        "address": "350 State St, Salt Lake City, UT 84103",
+        "locality": "Capitol Hill",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cathedral-madeleine",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.881,
+          40.7704
+        ]
+      },
+      "properties": {
+        "name": "Cathedral of the Madeleine",
+        "category": "attraction",
+        "section": "see",
+        "notes": "A 1909 cathedral with painted walls and stained glass. Free choir concerts in season.",
+        "address": "331 E South Temple, Salt Lake City, UT 84111",
+        "locality": "The Avenues",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "natural-history-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8227,
+          40.7643
+        ]
+      },
+      "properties": {
+        "name": "Natural History Museum of Utah",
+        "category": "museum",
+        "section": "see",
+        "notes": "A wall of dinosaurs and great Native American galleries, in a building set into the foothills.",
+        "address": "301 Wakara Way, Salt Lake City, UT 84108",
+        "locality": "University",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "umfa",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8435,
+          40.7621
+        ]
+      },
+      "properties": {
+        "name": "Utah Museum of Fine Arts",
+        "category": "museum",
+        "section": "see",
+        "notes": "A broad collection on the University of Utah campus, with strong Western American galleries.",
+        "address": "410 Campus Center Dr, Salt Lake City, UT 84112",
+        "locality": "University",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-leonardo",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8847,
+          40.7587
+        ]
+      },
+      "properties": {
+        "name": "The Leonardo",
+        "category": "museum",
+        "section": "see",
+        "notes": "Science, art and tinkering under one roof, in the old city library. Good on a rainy day.",
+        "address": "209 E 500 S, Salt Lake City, UT 84111",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clark-planetarium",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9025,
+          40.7668
+        ]
+      },
+      "properties": {
+        "name": "Clark Planetarium",
+        "category": "museum",
+        "section": "see",
+        "notes": "Free exhibits and a dome theater at the Gateway. The Foucault pendulum is mesmerizing.",
+        "address": "110 S 400 W, Salt Lake City, UT 84101",
+        "locality": "Gateway",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "main-library",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8845,
+          40.7602
+        ]
+      },
+      "properties": {
+        "name": "Salt Lake City Public Library",
+        "category": "attraction",
+        "section": "see",
+        "notes": "A curving glass library with a rooftop garden. Climb the walkway for views of the mountains.",
+        "address": "210 E 400 S, Salt Lake City, UT 84111",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gilgal-garden",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8702,
+          40.7577
+        ]
+      },
+      "properties": {
+        "name": "Gilgal Sculpture Garden",
+        "category": "attraction",
+        "section": "see",
+        "notes": "A strange little garden of stone sculptures, including a sphinx with Joseph Smith's face.",
+        "address": "749 E 500 S, Salt Lake City, UT 84102",
+        "locality": "East Central",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "tracy-aviary",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8735,
+          40.7442
+        ]
+      },
+      "properties": {
+        "name": "Tracy Aviary",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Hundreds of birds inside Liberty Park, from bald eagles to flamingos.",
+        "address": "589 E 1300 S, Salt Lake City, UT 84105",
+        "locality": "Liberty Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "this-is-the-place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8158,
+          40.7527
+        ]
+      },
+      "properties": {
+        "name": "This Is The Place Heritage Park",
+        "category": "attraction",
+        "section": "see",
+        "notes": "A living history village where Brigham Young first saw the valley in 1847.",
+        "address": "2601 Sunnyside Ave S, Salt Lake City, UT 84108",
+        "locality": "Emigration Canyon",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hogle-zoo",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8143,
+          40.7503
+        ]
+      },
+      "properties": {
+        "name": "Utah's Hogle Zoo",
+        "category": "attraction",
+        "section": "see",
+        "notes": "A hillside zoo across from the heritage park. Polar bears and a fine African savanna.",
+        "address": "2600 Sunnyside Ave S, Salt Lake City, UT 84108",
+        "locality": "Emigration Canyon",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "red-butte-garden",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8248,
+          40.7666
+        ]
+      },
+      "properties": {
+        "name": "Red Butte Garden",
+        "category": "park",
+        "section": "outside",
+        "notes": "Botanic gardens and trails in the foothills, with summer concerts in the amphitheater.",
+        "address": "300 Wakara Way, Salt Lake City, UT 84108",
+        "locality": "University",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "liberty-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8746,
+          40.7457
+        ]
+      },
+      "properties": {
+        "name": "Liberty Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "The city's big central park, with a pond, paddle boats and a long walking loop.",
+        "address": "600 E Harvey Milk Blvd, Salt Lake City, UT 84105",
+        "locality": "Liberty Wells",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "memory-grove",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8872,
+          40.7766
+        ]
+      },
+      "properties": {
+        "name": "Memory Grove Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "A quiet green ravine below the Capitol, leading up into City Creek Canyon.",
+        "address": "300 N Canyon Rd, Salt Lake City, UT 84103",
+        "locality": "Capitol Hill",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ensign-peak",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8888,
+          40.7921
+        ]
+      },
+      "properties": {
+        "name": "Ensign Peak Nature Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "A short, steep climb to the best view of the city. Go at sunset.",
+        "address": "1002 N Ensign Vista Dr, Salt Lake City, UT 84103",
+        "locality": "Capitol Hill",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sugar-house-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8483,
+          40.7238
+        ]
+      },
+      "properties": {
+        "name": "Sugar House Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "Rolling lawns and a pond with mountain views. Pair it with lunch in Sugar House.",
+        "address": "1300 E 2100 S, Salt Lake City, UT 84106",
+        "locality": "Sugar House",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "donut-falls",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.648,
+          40.6476
+        ]
+      },
+      "properties": {
+        "name": "Donut Falls Trailhead",
+        "category": "park",
+        "section": "outside",
+        "notes": "An easy canyon hike to a waterfall that pours through a hole in the rock. Best in summer.",
+        "address": "Big Cottonwood Canyon Rd, Brighton, UT 84121",
+        "locality": "Big Cottonwood Canyon",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "antelope-island",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.2061,
+          40.9457
+        ]
+      },
+      "properties": {
+        "name": "Antelope Island State Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "A causeway out into the Great Salt Lake, with bison, salt beaches and huge sunsets.",
+        "address": "4528 W 1700 S, Syracuse, UT 84075",
+        "locality": "Great Salt Lake",
+        "lastVerified": "2026-11-07"
+      }
+    }
+  ]
+}

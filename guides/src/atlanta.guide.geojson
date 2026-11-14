@@ -1,0 +1,891 @@
+{
+  "type": "FeatureCollection",
+  "placemoirGuide": "0.1",
+  "guide": {
+    "id": "atlanta",
+    "status": "published",
+    "kind": "city",
+    "name": "Atlanta from Mary Mac's to the BeltLine",
+    "description": "Seven days of civil rights history, Southern cooking, BeltLine walks and a few places to stay, from Sweet Auburn to the Westside.",
+    "author": {
+      "name": "friends of Placemoir"
+    },
+    "inLanguage": "en",
+    "dateModified": "2026-11-08",
+    "countries": [
+      "US"
+    ],
+    "sections": [
+      {
+        "id": "stay",
+        "name": "Stay"
+      },
+      {
+        "id": "eat",
+        "name": "Eat"
+      },
+      {
+        "id": "see",
+        "name": "See"
+      },
+      {
+        "id": "outside",
+        "name": "Outside"
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "georgian-terrace",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3852,
+          33.7727
+        ]
+      },
+      "properties": {
+        "name": "The Georgian Terrace Hotel",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A 1911 hotel across the street from the Fox Theatre. Ask for a room facing Peachtree.",
+        "address": "659 Peachtree St NE, Atlanta, GA 30308",
+        "locality": "Midtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel-clermont",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3613,
+          33.7731
+        ]
+      },
+      "properties": {
+        "name": "Hotel Clermont",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A restored 1924 hotel with a rooftop bar, a short walk from Ponce City Market and the BeltLine.",
+        "address": "789 Ponce de Leon Ave NE, Atlanta, GA 30306",
+        "locality": "Poncey-Highland",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candler-hotel",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3878,
+          33.7579
+        ]
+      },
+      "properties": {
+        "name": "The Candler Hotel Atlanta",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "Asa Candler's 1906 office tower, now a hotel. Handy for the Centennial Park museums.",
+        "address": "127 Peachtree St NE, Atlanta, GA 30303",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "st-regis",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3837,
+          33.8394
+        ]
+      },
+      "properties": {
+        "name": "The St. Regis Atlanta",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "The splurge. Quiet Buckhead, a big pool, and the Atlanta History Center down the road.",
+        "address": "88 W Paces Ferry Rd NW, Atlanta, GA 30305",
+        "locality": "Buckhead",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mary-macs",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3796,
+          33.7727
+        ]
+      },
+      "properties": {
+        "name": "Mary Mac's Tea Room",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Southern plates since 1945. Start with the pot likker and cornbread.",
+        "address": "224 Ponce de Leon Ave NE, Atlanta, GA 30308",
+        "locality": "Midtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-varsity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3894,
+          33.7713
+        ]
+      },
+      "properties": {
+        "name": "The Varsity",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Chili dogs, onion rings and a frosted orange, served fast since 1928.",
+        "address": "61 North Ave NW, Atlanta, GA 30308",
+        "locality": "Midtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "busy-bee",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4128,
+          33.7529
+        ]
+      },
+      "properties": {
+        "name": "Busy Bee Cafe",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Fried chicken and sides since 1947. Expect a line at lunch, and it's worth it.",
+        "address": "810 Martin Luther King Jr Dr SW, Atlanta, GA 30314",
+        "locality": "Vine City",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "paschals",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4031,
+          33.7516
+        ]
+      },
+      "properties": {
+        "name": "Paschal's",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Where civil rights leaders met to plan in the 1960s. Fried chicken and peach cobbler.",
+        "address": "180 Northside Dr SW, Atlanta, GA 30313",
+        "locality": "Castleberry Hill",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fox-bros",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3466,
+          33.7576
+        ]
+      },
+      "properties": {
+        "name": "Fox Bros. Bar-B-Q",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Texas-style brisket and smoked wings. Get the Brunswick stew on the side.",
+        "address": "1238 DeKalb Ave NE, Atlanta, GA 30307",
+        "locality": "Candler Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "antico",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4103,
+          33.7845
+        ]
+      },
+      "properties": {
+        "name": "Antico Pizza Napoletana",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Wood-fired Neapolitan pizza at shared tables in the middle of the kitchen.",
+        "address": "1093 Hemphill Ave NW, Atlanta, GA 30318",
+        "locality": "Home Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "krog-street-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3639,
+          33.7572
+        ]
+      },
+      "properties": {
+        "name": "Krog Street Market",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A food hall in an old warehouse right on the BeltLine. Good when the group can't agree.",
+        "address": "99 Krog St NE, Atlanta, GA 30307",
+        "locality": "Inman Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ticonderoga-club",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3641,
+          33.757
+        ]
+      },
+      "properties": {
+        "name": "Ticonderoga Club",
+        "category": "bar",
+        "section": "eat",
+        "notes": "A small cocktail bar tucked in the back of Krog Street Market, with a short, good food menu.",
+        "address": "99 Krog St NE, Atlanta, GA 30307",
+        "locality": "Inman Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gunshow",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.357,
+          33.7404
+        ]
+      },
+      "properties": {
+        "name": "Gunshow",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Kevin Gillespie's chefs bring dishes to your table and you say yes or no. Book ahead.",
+        "address": "924 Garrett St SE, Atlanta, GA 30316",
+        "locality": "Glenwood Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bacchanalia",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4249,
+          33.801
+        ]
+      },
+      "properties": {
+        "name": "Bacchanalia",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "The special-occasion dinner of the week: a long tasting menu from Anne Quatrano.",
+        "address": "1460 Ellsworth Industrial Blvd NW, Atlanta, GA 30318",
+        "locality": "Westside",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "miller-union",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4065,
+          33.7863
+        ]
+      },
+      "properties": {
+        "name": "Miller Union",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Seasonal Southern cooking from Steven Satterfield. The farm egg in celery cream is the one to order.",
+        "address": "999 Brady Ave NW, Atlanta, GA 30318",
+        "locality": "Westside",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "talat-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3872,
+          33.7366
+        ]
+      },
+      "properties": {
+        "name": "Talat Market",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Thai cooking made with Georgia produce. Loud, fun, and spicy if you ask.",
+        "address": "112 Ormond St SE, Atlanta, GA 30315",
+        "locality": "Summerhill",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sweet-auburn-curb-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3802,
+          33.7542
+        ]
+      },
+      "properties": {
+        "name": "Sweet Auburn Curb Market",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A city market since 1918. Lunch from the stalls before the King historic site, five minutes away.",
+        "address": "209 Edgewood Ave SE, Atlanta, GA 30303",
+        "locality": "Sweet Auburn",
+        "lastVerified": "2026-11-07",
+        "match": {
+          "query": "The Municipal Market"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lees-bakery",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3238,
+          33.8426
+        ]
+      },
+      "properties": {
+        "name": "Lee's Bakery",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "Banh mi on fresh baguettes, cheap and quick. A good first stop on Buford Highway.",
+        "address": "4005 Buford Hwy NE, Atlanta, GA 30345",
+        "locality": "Buford Highway",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desta",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.333,
+          33.8236
+        ]
+      },
+      "properties": {
+        "name": "Desta Ethiopian Kitchen",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Big platters of Ethiopian stews on injera, with a patio that's busy every night.",
+        "address": "2566 Briarcliff Rd NE, Atlanta, GA 30329",
+        "locality": "Druid Hills",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kimball-house",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2918,
+          33.7718
+        ]
+      },
+      "properties": {
+        "name": "Kimball House",
+        "category": "bar",
+        "section": "eat",
+        "notes": "Oysters and cocktails in Decatur's old train depot. Go for happy hour.",
+        "address": "303 E Howard Ave, Decatur, GA 30030",
+        "locality": "Decatur",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bones",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3726,
+          33.8418
+        ]
+      },
+      "properties": {
+        "name": "Bones",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "An old-school steakhouse open since 1979, with white tablecloths and a deep wine list.",
+        "address": "3130 Piedmont Rd NE, Atlanta, GA 30305",
+        "locality": "Buckhead",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mlk-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3726,
+          33.7556
+        ]
+      },
+      "properties": {
+        "name": "Martin Luther King, Jr. National Historical Park",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Dr. King's birth home, Ebenezer Baptist Church and his tomb, all on one street. Book the free birth home tour early in the day.",
+        "address": "450 Auburn Ave NE, Atlanta, GA 30312",
+        "locality": "Sweet Auburn",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "civil-rights-center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3935,
+          33.7634
+        ]
+      },
+      "properties": {
+        "name": "National Center for Civil and Human Rights",
+        "category": "museum",
+        "section": "see",
+        "notes": "The lunch counter simulation is hard to sit through, and that's the point. Allow two hours.",
+        "address": "100 Ivan Allen Jr Blvd NW, Atlanta, GA 30313",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "georgia-aquarium",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3951,
+          33.7634
+        ]
+      },
+      "properties": {
+        "name": "Georgia Aquarium",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Whale sharks in one enormous tank. Go at opening to beat the school groups.",
+        "address": "225 Baker St NW, Atlanta, GA 30313",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "world-of-coca-cola",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3927,
+          33.7626
+        ]
+      },
+      "properties": {
+        "name": "World of Coca-Cola",
+        "category": "museum",
+        "section": "see",
+        "notes": "Corporate, but fun. Finish in the tasting room with drinks from around the world.",
+        "address": "121 Baker St NW, Atlanta, GA 30313",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07",
+        "match": {
+          "skip": "Apple Maps search returns Coca Cola Pl, not the museum; address checked by hand"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "high-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3856,
+          33.7901
+        ]
+      },
+      "properties": {
+        "name": "High Museum of Art",
+        "category": "museum",
+        "section": "see",
+        "notes": "Richard Meier's white building holds a strong folk and self-taught art collection.",
+        "address": "1280 Peachtree St NE, Atlanta, GA 30309",
+        "locality": "Midtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fox-theatre",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3856,
+          33.7726
+        ]
+      },
+      "properties": {
+        "name": "Fox Theatre",
+        "category": "attraction",
+        "section": "see",
+        "notes": "A 1929 movie palace with a starry ceiling. See a show, or take the daytime tour.",
+        "address": "660 Peachtree St NE, Atlanta, GA 30308",
+        "locality": "Midtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "atlanta-history-center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3856,
+          33.8418
+        ]
+      },
+      "properties": {
+        "name": "Atlanta History Center",
+        "category": "museum",
+        "section": "see",
+        "notes": "The Cyclorama, Swan House and 33 acres of gardens. Easily half a day.",
+        "address": "130 W Paces Ferry Rd NW, Atlanta, GA 30305",
+        "locality": "Buckhead",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "carter-center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3561,
+          33.7667
+        ]
+      },
+      "properties": {
+        "name": "Jimmy Carter Presidential Library and Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "A presidency and a long life after it. The Japanese garden out back is a calm stop.",
+        "address": "441 John Lewis Freedom Pkwy NE, Atlanta, GA 30307",
+        "locality": "Poncey-Highland",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ponce-city-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3655,
+          33.7726
+        ]
+      },
+      "properties": {
+        "name": "Ponce City Market",
+        "category": "attraction",
+        "section": "see",
+        "notes": "A huge old Sears building with a food hall, shops and a rooftop with skyline views and mini golf.",
+        "address": "675 Ponce de Leon Ave NE, Atlanta, GA 30308",
+        "locality": "Old Fourth Ward",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "oakland-cemetery",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.372,
+          33.7484
+        ]
+      },
+      "properties": {
+        "name": "Historic Oakland Cemetery",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Victorian gardens and Margaret Mitchell's grave, with the downtown skyline behind. Lovely at golden hour.",
+        "address": "248 Oakland Ave SE, Atlanta, GA 30312",
+        "locality": "Grant Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "center-for-puppetry-arts",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3893,
+          33.7929
+        ]
+      },
+      "properties": {
+        "name": "Center for Puppetry Arts",
+        "category": "museum",
+        "section": "see",
+        "notes": "Jim Henson's own Muppets, and puppets from around the world. Better for adults than it sounds.",
+        "address": "1404 Spring St NW, Atlanta, GA 30309",
+        "locality": "Midtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fernbank",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.328,
+          33.7737
+        ]
+      },
+      "properties": {
+        "name": "Fernbank Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "Big dinosaurs inside, and a walk through an old-growth forest outside.",
+        "address": "767 Clifton Rd, Atlanta, GA 30307",
+        "locality": "Druid Hills",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "delta-flight-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.422,
+          33.6558
+        ]
+      },
+      "properties": {
+        "name": "Delta Flight Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "Walk through a 747 in the old hangars next to the airport. Easy before an evening flight.",
+        "address": "747 Woolman Pl, Atlanta, GA 30354",
+        "locality": "Hapeville",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "zoo-atlanta",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.37,
+          33.7341
+        ]
+      },
+      "properties": {
+        "name": "Zoo Atlanta",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Gorillas and a leafy setting inside Grant Park. Pair it with Oakland Cemetery.",
+        "address": "800 Cherokee Ave SE, Atlanta, GA 30315",
+        "locality": "Grant Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "buford-highway-farmers-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2863,
+          33.896
+        ]
+      },
+      "properties": {
+        "name": "Buford Highway Farmers Market",
+        "category": "attraction",
+        "section": "see",
+        "notes": "An international grocery the size of a warehouse. Come hungry and wander the aisles.",
+        "address": "5600 Buford Hwy NE, Doraville, GA 30340",
+        "locality": "Doraville",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "piedmont-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3738,
+          33.7851
+        ]
+      },
+      "properties": {
+        "name": "Piedmont Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "The city's big lawn, with skyline views over Lake Clara Meer. Pick up a picnic on the way.",
+        "address": "1320 Monroe Dr NE, Atlanta, GA 30306",
+        "locality": "Midtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "botanical-garden",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.373,
+          33.79
+        ]
+      },
+      "properties": {
+        "name": "Atlanta Botanical Garden",
+        "category": "park",
+        "section": "outside",
+        "notes": "The canopy walk through the treetops, and the orchid house. Check for evening events.",
+        "address": "1345 Piedmont Ave NE, Atlanta, GA 30309",
+        "locality": "Midtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "beltline-eastside-trail",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3629,
+          33.77
+        ]
+      },
+      "properties": {
+        "name": "Atlanta BeltLine Eastside Trail",
+        "category": "park",
+        "section": "outside",
+        "notes": "Walk or rent a bike from Piedmont Park to Krog Street, past murals, patios and Ponce City Market.",
+        "address": "Atlanta, GA 30308",
+        "locality": "Old Fourth Ward",
+        "lastVerified": "2026-11-07",
+        "match": {
+          "query": "Eastside Trail"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fourth-ward-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3644,
+          33.7688
+        ]
+      },
+      "properties": {
+        "name": "Historic Fourth Ward Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "A small park built around a stormwater lake, right off the BeltLine.",
+        "address": "695 Morgan St NE, Atlanta, GA 30308",
+        "locality": "Old Fourth Ward",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "westside-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.448,
+          33.79
+        ]
+      },
+      "properties": {
+        "name": "Shirley Clarke Franklin Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "The city's largest park, opened as Westside Park, around an old quarry turned reservoir. Big views, few crowds.",
+        "address": "1660 Johnson Rd NW, Atlanta, GA 30318",
+        "locality": "Grove Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cochran-shoals",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.44,
+          33.901
+        ]
+      },
+      "properties": {
+        "name": "Cochran Shoals",
+        "category": "park",
+        "section": "outside",
+        "notes": "A flat loop along the Chattahoochee River, part of the national recreation area. Good for a morning run.",
+        "address": "Interstate N Pkwy SE, Atlanta, GA 30339",
+        "locality": "Chattahoochee River",
+        "lastVerified": "2026-11-07",
+        "match": {
+          "query": "Cochran Shoals"
+        }
+      }
+    }
+  ]
+}

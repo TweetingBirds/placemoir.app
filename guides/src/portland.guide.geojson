@@ -1,0 +1,765 @@
+{
+  "type": "FeatureCollection",
+  "placemoirGuide": "0.1",
+  "guide": {
+    "id": "portland",
+    "status": "published",
+    "kind": "city",
+    "name": "Portland rain or shine",
+    "description": "Seven days of food carts and doughnuts, roses and a Japanese garden, books and coffee, and waterfalls in the Columbia River Gorge.",
+    "author": {
+      "name": "friends of Placemoir"
+    },
+    "inLanguage": "en",
+    "dateModified": "2026-11-08",
+    "countries": [
+      "US"
+    ],
+    "sections": [
+      {
+        "id": "stay",
+        "name": "Stay"
+      },
+      {
+        "id": "eat",
+        "name": "Eat"
+      },
+      {
+        "id": "see",
+        "name": "See"
+      },
+      {
+        "id": "outside",
+        "name": "Outside"
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "the-benson",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6779,
+          45.5217
+        ]
+      },
+      "properties": {
+        "name": "The Benson Portland",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A 1913 hotel with a walnut-paneled lobby, where presidents stay when they're in town.",
+        "address": "309 SW Broadway, Portland, OR 97205",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel-deluxe",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6878,
+          45.5214
+        ]
+      },
+      "properties": {
+        "name": "Hotel deLuxe",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "Old-Hollywood glamour and the Driftwood Room bar, on the edge of downtown.",
+        "address": "729 SW 15th Ave, Portland, OR 97205",
+        "locality": "Goose Hollow",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hoxton",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6747,
+          45.5231
+        ]
+      },
+      "properties": {
+        "name": "The Hoxton, Portland",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "Stylish, fairly priced rooms across from the Chinese garden, with a rooftop bar.",
+        "address": "15 NW 4th Ave, Portland, OR 97209",
+        "locality": "Old Town Chinatown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "jupiter-hotel",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6574,
+          45.523
+        ]
+      },
+      "properties": {
+        "name": "Jupiter Hotel",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A retro motor lodge turned hip hotel on the east side. Ask for a quiet room away from the courtyard.",
+        "address": "800 E Burnside St, Portland, OR 97214",
+        "locality": "Buckman",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "le-pigeon",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6582,
+          45.5228
+        ]
+      },
+      "properties": {
+        "name": "Le Pigeon",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "French food with Portland nerve, at a counter facing the cooks. Order the burger if it's on.",
+        "address": "738 E Burnside St, Portland, OR 97214",
+        "locality": "Buckman",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "canard",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6583,
+          45.5228
+        ]
+      },
+      "properties": {
+        "name": "Canard",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Le Pigeon's casual sibling. Duck-stack pancakes at brunch, and the steamburger.",
+        "address": "734 E Burnside St, Portland, OR 97214",
+        "locality": "Buckman",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "screen-door",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6418,
+          45.523
+        ]
+      },
+      "properties": {
+        "name": "Screen Door",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Southern cooking with a famous fried chicken and waffle brunch. Get there early.",
+        "address": "2337 E Burnside St, Portland, OR 97214",
+        "locality": "Kerns",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kachka",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6544,
+          45.5167
+        ]
+      },
+      "properties": {
+        "name": "Kachka",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Russian dumplings, zakuski and house-infused vodkas. A party of a dinner.",
+        "address": "960 SE 11th Ave, Portland, OR 97214",
+        "locality": "Buckman",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nongs",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6597,
+          45.5222
+        ]
+      },
+      "properties": {
+        "name": "Nong's Khao Man Gai",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "One perfect Thai dish, poached chicken and rice with a ginger-chili sauce. From a food cart to a café.",
+        "address": "609 SE Ankeny St, Portland, OR 97214",
+        "locality": "Buckman",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kens-pizza",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.637,
+          45.5212
+        ]
+      },
+      "properties": {
+        "name": "Ken's Artisan Pizza",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Wood-fired pizza in a lively room. Arrive at opening or put your name in and wait at a bar nearby.",
+        "address": "304 SE 28th Ave, Portland, OR 97214",
+        "locality": "Kerns",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ava-genes",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6301,
+          45.5048
+        ]
+      },
+      "properties": {
+        "name": "Ava Gene's",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Roman-style cooking with Oregon vegetables. A Division Street favorite.",
+        "address": "3377 SE Division St, Portland, OR 97202",
+        "locality": "Richmond",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "tusk",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6406,
+          45.5229
+        ]
+      },
+      "properties": {
+        "name": "Tusk",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Bright Middle Eastern plates and a sunny patio.",
+        "address": "2448 E Burnside St, Portland, OR 97214",
+        "locality": "Kerns",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lardo",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.653,
+          45.5121
+        ]
+      },
+      "properties": {
+        "name": "Lardo",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Big, messy sandwiches. The pork meatball banh mi and the dirty fries.",
+        "address": "1212 SE Hawthorne Blvd, Portland, OR 97214",
+        "locality": "Hawthorne",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "voodoo-doughnut",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6732,
+          45.5227
+        ]
+      },
+      "properties": {
+        "name": "Voodoo Doughnut",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "The pink-box tourist classic. Get the Bacon Maple Bar, once.",
+        "address": "22 SW 3rd Ave, Portland, OR 97204",
+        "locality": "Old Town Chinatown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "blue-star-donuts",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6311,
+          45.5049
+        ]
+      },
+      "properties": {
+        "name": "Blue Star Donuts",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "Brioche doughnuts for grown-ups. Blueberry bourbon basil is the one.",
+        "address": "3325 SE Division St, Portland, OR 97202",
+        "locality": "Richmond",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "salt-and-straw",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6985,
+          45.5298
+        ]
+      },
+      "properties": {
+        "name": "Salt & Straw",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "Strange and wonderful ice cream flavors. Ask to taste a few before you choose.",
+        "address": "838 NW 23rd Ave, Portland, OR 97210",
+        "locality": "Northwest",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "stumptown",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6829,
+          45.5215
+        ]
+      },
+      "properties": {
+        "name": "Stumptown Coffee Roasters",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "The roaster that put Portland coffee on the map, with its downtown café a few blocks from Powell's.",
+        "address": "1140 SW Washington St, Portland, OR 97205",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coava",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.661,
+          45.5134
+        ]
+      },
+      "properties": {
+        "name": "Coava Coffee Roasters",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "Bright, clean coffee in a big, airy room shared with a woodshop.",
+        "address": "1300 SE Grand Ave, Portland, OR 97214",
+        "locality": "Buckman",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "multnomah-whiskey-library",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6832,
+          45.5207
+        ]
+      },
+      "properties": {
+        "name": "Multnomah Whiskey Library",
+        "category": "bar",
+        "section": "eat",
+        "notes": "Over 1,500 spirits on rolling ladders. Book a seat; it's worth it.",
+        "address": "1124 SW Alder St, Portland, OR 97205",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "deschutes-pub",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6823,
+          45.5246
+        ]
+      },
+      "properties": {
+        "name": "Deschutes Brewery Portland Public House",
+        "category": "bar",
+        "section": "eat",
+        "notes": "The Bend brewery's big Pearl District pub, with Portland-only beers on tap.",
+        "address": "210 NW 11th Ave, Portland, OR 97209",
+        "locality": "Pearl District",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "powells",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6814,
+          45.5231
+        ]
+      },
+      "properties": {
+        "name": "Powell's City of Books",
+        "category": "attraction",
+        "section": "see",
+        "notes": "A whole city block of new and used books. Grab a map at the door and find the Rare Book Room.",
+        "address": "1005 W Burnside St, Portland, OR 97209",
+        "locality": "Pearl District",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lan-su-garden",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6731,
+          45.5254
+        ]
+      },
+      "properties": {
+        "name": "Lan Su Chinese Garden",
+        "category": "attraction",
+        "section": "see",
+        "notes": "A walled Ming-style garden in the middle of the city. Have tea in the teahouse.",
+        "address": "239 NW Everett St, Portland, OR 97209",
+        "locality": "Old Town Chinatown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "portland-art-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6833,
+          45.5161
+        ]
+      },
+      "properties": {
+        "name": "Portland Art Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "The oldest art museum in the Northwest, with strong Native American and Northwest galleries.",
+        "address": "1219 SW Park Ave, Portland, OR 97205",
+        "locality": "South Park Blocks",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "omsi",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6655,
+          45.5084
+        ]
+      },
+      "properties": {
+        "name": "Oregon Museum of Science and Industry",
+        "category": "museum",
+        "section": "see",
+        "notes": "Hands-on science on the river, and a real Navy submarine to tour.",
+        "address": "1945 SE Water Ave, Portland, OR 97214",
+        "locality": "Central Eastside",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pittock-mansion",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7163,
+          45.5252
+        ]
+      },
+      "properties": {
+        "name": "Pittock Mansion",
+        "category": "museum",
+        "section": "see",
+        "notes": "A 1914 French Renaissance mansion with a view of five Cascade peaks on a clear day.",
+        "address": "3229 NW Pittock Dr, Portland, OR 97210",
+        "locality": "Hillside",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "saturday-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6702,
+          45.5226
+        ]
+      },
+      "properties": {
+        "name": "Portland Saturday Market",
+        "category": "attraction",
+        "section": "see",
+        "notes": "A big outdoor craft market by the river, on weekends from March to Christmas.",
+        "address": "2 SW Naito Pkwy, Portland, OR 97204",
+        "locality": "Old Town Chinatown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pioneer-square",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6793,
+          45.5189
+        ]
+      },
+      "properties": {
+        "name": "Pioneer Courthouse Square",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Portland's living room, with bricks bearing donors' names and the weather machine at noon.",
+        "address": "701 SW 6th Ave, Portland, OR 97204",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07",
+        "match": {
+          "skip": "Apple Maps now returns the Waterfall Fountain inside the square"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aerial-tram",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6714,
+          45.4996
+        ]
+      },
+      "properties": {
+        "name": "Portland Aerial Tram",
+        "category": "attraction",
+        "section": "see",
+        "notes": "A four-minute ride up to Marquam Hill with views of Mount Hood. Ride down for free.",
+        "address": "3303 S Bond Ave, Portland, OR 97239",
+        "locality": "South Waterfront",
+        "lastVerified": "2026-11-07",
+        "match": {
+          "query": "Lower Tram Terminal"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "japanese-garden",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7066,
+          45.5191
+        ]
+      },
+      "properties": {
+        "name": "Portland Japanese Garden",
+        "category": "park",
+        "section": "outside",
+        "notes": "One of the finest Japanese gardens outside Japan. Go when it opens, and in October for the maples.",
+        "address": "611 SW Kingston Ave, Portland, OR 97205",
+        "locality": "Washington Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rose-garden",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7053,
+          45.5193
+        ]
+      },
+      "properties": {
+        "name": "International Rose Test Garden",
+        "category": "park",
+        "section": "outside",
+        "notes": "Ten thousand rose bushes and a view of Mount Hood. Free, and at its peak in June.",
+        "address": "400 SW Kingston Ave, Portland, OR 97205",
+        "locality": "Washington Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "forest-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7968,
+          45.5727
+        ]
+      },
+      "properties": {
+        "name": "Forest Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "Over 80 miles of trails in one of the largest urban forests in the country. Start on the Lower Macleay Trail.",
+        "address": "Forest Park, Portland, OR 97210",
+        "locality": "Northwest",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "waterfront-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.673,
+          45.5155
+        ]
+      },
+      "properties": {
+        "name": "Tom McCall Waterfront Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "A riverside promenade with cherry trees in spring. Loop across the bridges on the Eastbank Esplanade.",
+        "address": "98 SW Naito Pkwy, Portland, OR 97204",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mount-tabor",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5946,
+          45.5116
+        ]
+      },
+      "properties": {
+        "name": "Mt. Tabor Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "A park on a dormant volcano, with old reservoirs and sunset views over downtown.",
+        "address": "Mount Tabor Park, Portland, OR 97215",
+        "locality": "Mount Tabor",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "laurelhurst-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6262,
+          45.5212
+        ]
+      },
+      "properties": {
+        "name": "Laurelhurst Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "A classic Olmsted-style park with a duck pond and huge old trees.",
+        "address": "Laurelhurst Park, Portland, OR 97214",
+        "locality": "Laurelhurst",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "multnomah-falls",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1158,
+          45.5762
+        ]
+      },
+      "properties": {
+        "name": "Multnomah Falls",
+        "category": "park",
+        "section": "outside",
+        "notes": "A 620-foot waterfall 40 minutes east. A timed permit may be needed in summer, so check before you go.",
+        "address": "53000 E Historic Columbia River Hwy, Bridal Veil, OR 97010",
+        "locality": "Columbia River Gorge",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "haystack-rock",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.9686,
+          45.8844
+        ]
+      },
+      "properties": {
+        "name": "Haystack Rock",
+        "category": "park",
+        "section": "outside",
+        "notes": "A day trip to the coast. Tide pools with sea stars and puffins in spring and summer.",
+        "address": "Cannon Beach, OR 97110",
+        "locality": "Cannon Beach",
+        "lastVerified": "2026-11-07"
+      }
+    }
+  ]
+}

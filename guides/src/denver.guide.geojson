@@ -1,0 +1,762 @@
+{
+  "type": "FeatureCollection",
+  "placemoirGuide": "0.1",
+  "guide": {
+    "id": "denver",
+    "status": "published",
+    "kind": "city",
+    "name": "A mile high in Denver",
+    "description": "Seven days of mountain views and red rocks, green chile and craft beer, great museums and murals, with a day up in the foothills.",
+    "author": {
+      "name": "friends of Placemoir"
+    },
+    "inLanguage": "en",
+    "dateModified": "2026-11-08",
+    "countries": [
+      "US"
+    ],
+    "sections": [
+      {
+        "id": "stay",
+        "name": "Stay"
+      },
+      {
+        "id": "eat",
+        "name": "Eat"
+      },
+      {
+        "id": "see",
+        "name": "See"
+      },
+      {
+        "id": "outside",
+        "name": "Outside"
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "brown-palace",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9877,
+          39.7439
+        ]
+      },
+      "properties": {
+        "name": "The Brown Palace Hotel and Spa",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "An 1892 hotel around a stained glass atrium, where every president since Teddy Roosevelt has stayed. Afternoon tea is a treat.",
+        "address": "321 17th St, Denver, CO 80202",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-crawford",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0003,
+          39.753
+        ]
+      },
+      "properties": {
+        "name": "The Crawford Hotel",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "Rooms upstairs in restored Union Station, with the train to the airport downstairs.",
+        "address": "1701 Wynkoop St, Denver, CO 80202",
+        "locality": "LoDo",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "limelight-denver",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0021,
+          39.7532
+        ]
+      },
+      "properties": {
+        "name": "Limelight Hotel Denver",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A calm, modern hotel next to Union Station, with mountain views from the upper floors and a lively lobby bar.",
+        "address": "1600 Wewatta St, Denver, CO 80202",
+        "locality": "LoDo",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ramble-hotel",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.985,
+          39.761
+        ]
+      },
+      "properties": {
+        "name": "The Ramble Hotel",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A small, stylish hotel in RiNo with a great cocktail bar, Death & Co, in the lobby.",
+        "address": "1280 25th St, Denver, CO 80205",
+        "locality": "RiNo",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "snooze",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9886,
+          39.7553
+        ]
+      },
+      "properties": {
+        "name": "Snooze, an A.M. Eatery",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "The original location of the breakfast chain. Pancake flights and a long weekend wait.",
+        "address": "2262 Larimer St, Denver, CO 80205",
+        "locality": "Ballpark",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biker-jims",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.993,
+          39.747
+        ]
+      },
+      "properties": {
+        "name": "Biker Jim's Gourmet Dogs",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Reindeer, elk and rattlesnake sausages with cream cheese and caramelized onions.",
+        "address": "16th Street Mall & Stout St, Denver, CO 80202",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "denver-central-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.984,
+          39.7598
+        ]
+      },
+      "properties": {
+        "name": "Denver Central Market",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A food hall in an old warehouse. Pizza, tacos and gelato, and you can drink while you browse.",
+        "address": "2669 Larimer St, Denver, CO 80205",
+        "locality": "RiNo",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "work-and-class",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9857,
+          39.7583
+        ]
+      },
+      "properties": {
+        "name": "Work & Class",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Latin and American comfort food by the pound in a shipping-container building. Lively and fun.",
+        "address": "2500 Larimer St, Denver, CO 80205",
+        "locality": "RiNo",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rioja",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9989,
+          39.7477
+        ]
+      },
+      "properties": {
+        "name": "Rioja",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Mediterranean-inspired cooking on Larimer Square. One of Denver's best dinners.",
+        "address": "1431 Larimer St, Denver, CO 80202",
+        "locality": "Larimer Square",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "tavernetta",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0004,
+          39.753
+        ]
+      },
+      "properties": {
+        "name": "Tavernetta",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Elegant Italian by Union Station from the team behind Boulder's Frasca. Book ahead.",
+        "address": "1889 16th St, Denver, CO 80202",
+        "locality": "LoDo",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "buckhorn-exchange",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0055,
+          39.7325
+        ]
+      },
+      "properties": {
+        "name": "Buckhorn Exchange",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Denver's oldest restaurant, since 1893, under hundreds of mounted heads. Steaks and game.",
+        "address": "1000 Osage St, Denver, CO 80204",
+        "locality": "Lincoln Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sams-no-3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9966,
+          39.7469
+        ]
+      },
+      "properties": {
+        "name": "Sam's No. 3",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A classic diner since 1927. Get the Kickin' Green Chile, smothered on anything.",
+        "address": "1500 Curtis St, Denver, CO 80202",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "el-taco-de-mexico",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9989,
+          39.7276
+        ]
+      },
+      "properties": {
+        "name": "El Taco de Mexico",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A no-frills counter with legendary smothered burritos in green chile.",
+        "address": "714 Santa Fe Dr, Denver, CO 80204",
+        "locality": "Lincoln Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rosenbergs",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9771,
+          39.7546
+        ]
+      },
+      "properties": {
+        "name": "Rosenberg's Bagels & Delicatessen",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "New York-style bagels, made with water treated to taste like New York's.",
+        "address": "725 E 26th Ave, Denver, CO 80205",
+        "locality": "Five Points",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "little-man-ice-cream",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.011,
+          39.7593
+        ]
+      },
+      "properties": {
+        "name": "Little Man Ice Cream",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "Ice cream served from a giant milk can. The line on summer nights is part of the fun.",
+        "address": "2620 16th St, Denver, CO 80211",
+        "locality": "LoHi",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "williams-and-graham",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0111,
+          39.7616
+        ]
+      },
+      "properties": {
+        "name": "Williams & Graham",
+        "category": "bar",
+        "section": "eat",
+        "notes": "A speakeasy behind a bookcase in a small storefront. Some of the best cocktails in the country.",
+        "address": "3160 Tejon St, Denver, CO 80211",
+        "locality": "LoHi",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "my-brothers-bar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0067,
+          39.7585
+        ]
+      },
+      "properties": {
+        "name": "My Brother's Bar",
+        "category": "bar",
+        "section": "eat",
+        "notes": "Denver's oldest bar, with no sign out front and classical music on. Order a JCB burger.",
+        "address": "2376 15th St, Denver, CO 80202",
+        "locality": "Jefferson Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "wynkoop-brewing",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9984,
+          39.7533
+        ]
+      },
+      "properties": {
+        "name": "Wynkoop Brewing Company",
+        "category": "bar",
+        "section": "eat",
+        "notes": "Colorado's first brewpub, opened in 1988 by a future governor. Pool tables upstairs.",
+        "address": "1634 18th St, Denver, CO 80202",
+        "locality": "LoDo",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "union-station",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0003,
+          39.753
+        ]
+      },
+      "properties": {
+        "name": "Denver Union Station",
+        "category": "attraction",
+        "section": "see",
+        "notes": "A grand 1914 station turned the city's living room, with bars, cafes and shuffleboard in the great hall.",
+        "address": "1701 Wynkoop St, Denver, CO 80202",
+        "locality": "LoDo",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "denver-art-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9893,
+          39.7372
+        ]
+      },
+      "properties": {
+        "name": "Denver Art Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "Bold buildings and a strong collection of Indigenous and Western American art.",
+        "address": "100 W 14th Ave Pkwy, Denver, CO 80204",
+        "locality": "Golden Triangle",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clyfford-still",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9902,
+          39.7365
+        ]
+      },
+      "properties": {
+        "name": "Clyfford Still Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "A whole museum of one abstract painter's work, in calm concrete galleries. Next to the art museum.",
+        "address": "1250 Bannock St, Denver, CO 80204",
+        "locality": "Golden Triangle",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "history-colorado",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9871,
+          39.7357
+        ]
+      },
+      "properties": {
+        "name": "History Colorado Center",
+        "category": "museum",
+        "section": "see",
+        "notes": "Colorado's story, from Ute history to ski towns. The rooftop terrace has a mountain view.",
+        "address": "1200 Broadway, Denver, CO 80203",
+        "locality": "Golden Triangle",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "state-capitol",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9848,
+          39.7393
+        ]
+      },
+      "properties": {
+        "name": "Colorado State Capitol",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Stand on the 'mile high' step, then take the free tour up into the gold dome.",
+        "address": "200 E Colfax Ave, Denver, CO 80203",
+        "locality": "Capitol Hill",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "molly-brown-house",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9808,
+          39.7374
+        ]
+      },
+      "properties": {
+        "name": "Molly Brown House Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "The Victorian home of the Titanic survivor, with guided tours of the rooms.",
+        "address": "1340 Pennsylvania St, Denver, CO 80203",
+        "locality": "Capitol Hill",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "larimer-square",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9993,
+          39.7477
+        ]
+      },
+      "properties": {
+        "name": "Larimer Square",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Denver's oldest block, strung with lights over the street. Good for a dinner and a walk.",
+        "address": "1430 Larimer St, Denver, CO 80202",
+        "locality": "Larimer Square",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "meow-wolf",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0136,
+          39.7404
+        ]
+      },
+      "properties": {
+        "name": "Meow Wolf Convergence Station",
+        "category": "attraction",
+        "section": "see",
+        "notes": "A huge, strange, walk-through art world. Allow three hours and touch everything.",
+        "address": "1338 1st St, Denver, CO 80204",
+        "locality": "Sun Valley",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nature-and-science",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9428,
+          39.7475
+        ]
+      },
+      "properties": {
+        "name": "Denver Museum of Nature & Science",
+        "category": "museum",
+        "section": "see",
+        "notes": "Dinosaurs, gems and dioramas, with the mountains framed in the windows behind City Park.",
+        "address": "2001 Colorado Blvd, Denver, CO 80205",
+        "locality": "City Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "us-mint",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9922,
+          39.7395
+        ]
+      },
+      "properties": {
+        "name": "United States Mint at Denver",
+        "category": "attraction",
+        "section": "see",
+        "notes": "A free tour of where the coins in your pocket were made. Book ahead online.",
+        "address": "320 W Colfax Ave, Denver, CO 80204",
+        "locality": "Civic Center",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coors-field",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9942,
+          39.7559
+        ]
+      },
+      "properties": {
+        "name": "Coors Field",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Rockies baseball with mountain views. Look for the purple row of seats a mile above sea level.",
+        "address": "2001 Blake St, Denver, CO 80205",
+        "locality": "Ballpark",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "red-rocks",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2057,
+          39.6654
+        ]
+      },
+      "properties": {
+        "name": "Red Rocks Park and Amphitheatre",
+        "category": "attraction",
+        "section": "see",
+        "notes": "A concert stage between giant red rocks. Walk the trails by day, or catch a show at night.",
+        "address": "18300 W Alameda Pkwy, Morrison, CO 80465",
+        "locality": "Morrison",
+        "lastVerified": "2026-11-07",
+        "match": {
+          "query": "Red Rocks Amphitheatre"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "botanic-gardens",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.96,
+          39.7322
+        ]
+      },
+      "properties": {
+        "name": "Denver Botanic Gardens",
+        "category": "park",
+        "section": "outside",
+        "notes": "Gardens from around the world, including a calm Japanese garden. Summer concerts on the lawn.",
+        "address": "1007 York St, Denver, CO 80206",
+        "locality": "Cheesman Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "city-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.95,
+          39.7471
+        ]
+      },
+      "properties": {
+        "name": "City Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "Lakes and lawns with the classic downtown-and-mountains view from the museum steps.",
+        "address": "City Park, Denver, CO 80205",
+        "locality": "City Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "washington-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9701,
+          39.7006
+        ]
+      },
+      "properties": {
+        "name": "Washington Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "Denver's favorite park for a run or a picnic, with two lakes and flower gardens.",
+        "address": "701 S Franklin St, Denver, CO 80209",
+        "locality": "Washington Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "confluence-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0076,
+          39.7547
+        ]
+      },
+      "properties": {
+        "name": "Confluence Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "Where Cherry Creek meets the South Platte. Start a bike ride or float down the creek in summer.",
+        "address": "2200 15th St, Denver, CO 80202",
+        "locality": "LoDo",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "chautauqua-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2817,
+          39.9989
+        ]
+      },
+      "properties": {
+        "name": "Chautauqua Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "A meadow below the Flatirons with trails for every level, half an hour from Denver.",
+        "address": "900 Baseline Rd, Boulder, CO 80302",
+        "locality": "Boulder",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lookout-mountain",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2386,
+          39.7322
+        ]
+      },
+      "properties": {
+        "name": "Buffalo Bill Museum and Grave",
+        "category": "museum",
+        "section": "outside",
+        "notes": "A winding drive up Lookout Mountain to Buffalo Bill's grave and a sweeping view of the plains.",
+        "address": "987 1/2 Lookout Mountain Rd, Golden, CO 80401",
+        "locality": "Golden",
+        "lastVerified": "2026-11-07"
+      }
+    }
+  ]
+}

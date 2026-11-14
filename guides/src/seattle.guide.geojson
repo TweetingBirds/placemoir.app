@@ -1,0 +1,879 @@
+{
+  "type": "FeatureCollection",
+  "placemoirGuide": "0.1",
+  "guide": {
+    "id": "seattle",
+    "status": "published",
+    "kind": "city",
+    "name": "Seattle by the Sound",
+    "description": "Seven days of Pike Place, ferries and salmon, glass art and rock history, and green parks with views of the Sound and the mountains.",
+    "author": {
+      "name": "friends of Placemoir"
+    },
+    "inLanguage": "en",
+    "dateModified": "2026-11-08",
+    "countries": [
+      "US"
+    ],
+    "sections": [
+      {
+        "id": "stay",
+        "name": "Stay"
+      },
+      {
+        "id": "eat",
+        "name": "Eat"
+      },
+      {
+        "id": "see",
+        "name": "See"
+      },
+      {
+        "id": "outside",
+        "name": "Outside"
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "fairmont-olympic",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3343,
+          47.6083
+        ]
+      },
+      "properties": {
+        "name": "Fairmont Olympic Hotel",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "Seattle's grand 1924 hotel. Classic rooms and an easy walk to the market and the art museum.",
+        "address": "411 University St, Seattle, WA 98101",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inn-at-the-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3424,
+          47.61
+        ]
+      },
+      "properties": {
+        "name": "Inn at the Market",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A small hotel right at the market. Book a room facing Elliott Bay.",
+        "address": "86 Pine St, Seattle, WA 98101",
+        "locality": "Pike Place Market",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-edgewater",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.353,
+          47.6125
+        ]
+      },
+      "properties": {
+        "name": "The Edgewater",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "Built on a pier over Elliott Bay, where the Beatles once fished from their window.",
+        "address": "2411 Alaskan Way, Seattle, WA 98121",
+        "locality": "Waterfront",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ace-hotel",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3481,
+          47.6145
+        ]
+      },
+      "properties": {
+        "name": "Ace Hotel Seattle",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "Simple, stylish rooms in Belltown, some with a shared bath. The budget pick.",
+        "address": "2423 1st Ave, Seattle, WA 98121",
+        "locality": "Belltown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pike-place-chowder",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3412,
+          47.6091
+        ]
+      },
+      "properties": {
+        "name": "Pike Place Chowder",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Award-winning chowders in a tiny spot off Post Alley. Get the New England in a bread bowl.",
+        "address": "1530 Post Alley, Seattle, WA 98101",
+        "locality": "Pike Place Market",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "piroshky-piroshky",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3422,
+          47.6101
+        ]
+      },
+      "properties": {
+        "name": "Piroshky Piroshky",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Russian hand pies baked all day. The smoked salmon pâté one is the classic.",
+        "address": "1908 Pike Pl, Seattle, WA 98101",
+        "locality": "Pike Place Market",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "beechers",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3417,
+          47.6096
+        ]
+      },
+      "properties": {
+        "name": "Beecher's Handmade Cheese",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Watch cheese being made through the window, then get the mac and cheese.",
+        "address": "1600 Pike Pl, Seattle, WA 98101",
+        "locality": "Pike Place Market",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "matts-in-the-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3405,
+          47.6087
+        ]
+      },
+      "properties": {
+        "name": "Matt's in the Market",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Seasonal Northwest dinners upstairs in the market, looking out at the famous clock.",
+        "address": "94 Pike St, Seattle, WA 98101",
+        "locality": "Pike Place Market",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-pink-door",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3425,
+          47.6103
+        ]
+      },
+      "properties": {
+        "name": "The Pink Door",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Italian-American food behind an unmarked pink door, with a deck over the bay.",
+        "address": "1919 Post Alley, Seattle, WA 98101",
+        "locality": "Pike Place Market",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "elliotts-oyster-house",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3405,
+          47.6055
+        ]
+      },
+      "properties": {
+        "name": "Elliott's Oyster House",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Dozens of Northwest oysters on Pier 56. Come for the afternoon oyster happy hour.",
+        "address": "1201 Alaskan Way, Seattle, WA 98101",
+        "locality": "Waterfront",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "taylor-shellfish",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3279,
+          47.6143
+        ]
+      },
+      "properties": {
+        "name": "Taylor Shellfish Oyster Bar",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A shellfish farm's own oyster bar. Geoduck if you're brave, Kumamotos if you're not.",
+        "address": "1521 Melrose Ave, Seattle, WA 98122",
+        "locality": "Capitol Hill",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "salumi",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.333,
+          47.5999
+        ]
+      },
+      "properties": {
+        "name": "Salumi",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Cured meat sandwiches in Pioneer Square. The porchetta is worth the lunch line.",
+        "address": "404 Occidental Ave S, Seattle, WA 98104",
+        "locality": "Pioneer Square",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "canlis",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3468,
+          47.643
+        ]
+      },
+      "properties": {
+        "name": "Canlis",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "The special night out since 1950, with a glass dining room above Lake Union. Book well ahead.",
+        "address": "2576 Aurora Ave N, Seattle, WA 98109",
+        "locality": "Queen Anne",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "paseo",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3502,
+          47.6585
+        ]
+      },
+      "properties": {
+        "name": "Paseo",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Caribbean roast pork sandwiches dripping with caramelized onions. Grab extra napkins.",
+        "address": "4225 Fremont Ave N, Seattle, WA 98103",
+        "locality": "Fremont",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "un-bien",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3765,
+          47.6823
+        ]
+      },
+      "properties": {
+        "name": "Un Bien",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "The Paseo family's own sandwich shack in Ballard. Pair it with a walk at the Locks.",
+        "address": "7302 15th Ave NW, Seattle, WA 98117",
+        "locality": "Ballard",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dicks-drive-in",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3271,
+          47.6613
+        ]
+      },
+      "properties": {
+        "name": "Dick's Drive-In",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Cheap burgers, hand-cut fries and shakes since 1954. A Seattle rite of passage.",
+        "address": "111 NE 45th St, Seattle, WA 98105",
+        "locality": "Wallingford",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "molly-moons",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3376,
+          47.6612
+        ]
+      },
+      "properties": {
+        "name": "Molly Moon's Homemade Ice Cream",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "Local ice cream with a line even in the rain. Salted caramel is the bestseller.",
+        "address": "1622 N 45th St, Seattle, WA 98103",
+        "locality": "Wallingford",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "caffe-vita",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3192,
+          47.6141
+        ]
+      },
+      "properties": {
+        "name": "Caffe Vita",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "The Capitol Hill roastery behind a lot of Seattle's coffee. Strong espresso, no fuss.",
+        "address": "1005 E Pike St, Seattle, WA 98122",
+        "locality": "Capitol Hill",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "zig-zag-cafe",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3418,
+          47.6085
+        ]
+      },
+      "properties": {
+        "name": "Zig Zag Café",
+        "category": "bar",
+        "section": "eat",
+        "notes": "A cocktail bar tucked down the market stairs. It revived the Last Word, so order one.",
+        "address": "1501 Western Ave, Seattle, WA 98101",
+        "locality": "Pike Place Market",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fremont-brewing",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3444,
+          47.649
+        ]
+      },
+      "properties": {
+        "name": "Fremont Brewing",
+        "category": "bar",
+        "section": "eat",
+        "notes": "A family-friendly beer garden near the canal. Try the Interurban IPA.",
+        "address": "1050 N 34th St, Seattle, WA 98103",
+        "locality": "Fremont",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pike-place-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3422,
+          47.6097
+        ]
+      },
+      "properties": {
+        "name": "Pike Place Market",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Fish throwers, flower stalls and the gum wall. Come early on a weekday before the crowds.",
+        "address": "85 Pike St, Seattle, WA 98101",
+        "locality": "Pike Place Market",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "space-needle",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3493,
+          47.6205
+        ]
+      },
+      "properties": {
+        "name": "Space Needle",
+        "category": "attraction",
+        "section": "see",
+        "notes": "The 1962 World's Fair tower, with a rotating glass floor. Go on a clear day for Mount Rainier.",
+        "address": "400 Broad St, Seattle, WA 98109",
+        "locality": "Seattle Center",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "chihuly-garden",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3505,
+          47.6206
+        ]
+      },
+      "properties": {
+        "name": "Chihuly Garden and Glass",
+        "category": "museum",
+        "section": "see",
+        "notes": "Dale Chihuly's glass art in galleries, a glasshouse and a garden. Stunning at dusk.",
+        "address": "305 Harrison St, Seattle, WA 98109",
+        "locality": "Seattle Center",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mopop",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3481,
+          47.6215
+        ]
+      },
+      "properties": {
+        "name": "Museum of Pop Culture",
+        "category": "museum",
+        "section": "see",
+        "notes": "Jimi Hendrix, Nirvana and sci-fi, in Frank Gehry's crumpled metal building.",
+        "address": "325 5th Ave N, Seattle, WA 98109",
+        "locality": "Seattle Center",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "seattle-art-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3381,
+          47.6073
+        ]
+      },
+      "properties": {
+        "name": "Seattle Art Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "Strong Northwest Coast Native art, and the giant Hammering Man out front.",
+        "address": "1300 1st Ave, Seattle, WA 98101",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "central-library",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3325,
+          47.6067
+        ]
+      },
+      "properties": {
+        "name": "Seattle Central Library",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Rem Koolhaas's glass-and-steel library. Ride to the tenth floor and spiral down.",
+        "address": "1000 4th Ave, Seattle, WA 98104",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "seattle-aquarium",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.343,
+          47.6075
+        ]
+      },
+      "properties": {
+        "name": "Seattle Aquarium",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Sea otters, octopus and the creatures of Puget Sound, on Pier 59.",
+        "address": "1483 Alaskan Way, Seattle, WA 98101",
+        "locality": "Waterfront",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "klondike-gold-rush",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3321,
+          47.6002
+        ]
+      },
+      "properties": {
+        "name": "Klondike Gold Rush National Historical Park",
+        "category": "museum",
+        "section": "see",
+        "notes": "A free museum on how Seattle outfitted the 1897 gold rush. Good with a Pioneer Square walk.",
+        "address": "319 2nd Ave S, Seattle, WA 98104",
+        "locality": "Pioneer Square",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "wing-luke",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3227,
+          47.598
+        ]
+      },
+      "properties": {
+        "name": "Wing Luke Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "Asian Pacific American history in an old hotel. Take the tour of the restored rooms.",
+        "address": "719 S King St, Seattle, WA 98104",
+        "locality": "Chinatown-International District",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ferry-terminal",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3384,
+          47.6025
+        ]
+      },
+      "properties": {
+        "name": "Seattle Ferry Terminal",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Ride the ferry to Bainbridge Island for the cheapest skyline cruise in town.",
+        "address": "801 Alaskan Way, Seattle, WA 98104",
+        "locality": "Waterfront",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mohai",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3365,
+          47.6275
+        ]
+      },
+      "properties": {
+        "name": "Museum of History & Industry",
+        "category": "museum",
+        "section": "see",
+        "notes": "Seattle's story from logging to Boeing to grunge, in an old naval armory on Lake Union.",
+        "address": "860 Terry Ave N, Seattle, WA 98109",
+        "locality": "South Lake Union",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ballard-locks",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3972,
+          47.6655
+        ]
+      },
+      "properties": {
+        "name": "Hiram M. Chittenden Locks",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Watch boats rise and fall, and salmon climb the fish ladder from July to September.",
+        "address": "3015 NW 54th St, Seattle, WA 98107",
+        "locality": "Ballard",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fremont-troll",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3473,
+          47.651
+        ]
+      },
+      "properties": {
+        "name": "Fremont Troll",
+        "category": "attraction",
+        "section": "see",
+        "notes": "A giant troll crushing a real Volkswagen under the Aurora Bridge. Climb on for a photo.",
+        "address": "N 36th St, Seattle, WA 98103",
+        "locality": "Fremont",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "burke-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3115,
+          47.6606
+        ]
+      },
+      "properties": {
+        "name": "Burke Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "Natural history and Native culture, with working labs you can watch through the glass.",
+        "address": "4303 Memorial Way NE, Seattle, WA 98195",
+        "locality": "University District",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "museum-of-flight",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2964,
+          47.518
+        ]
+      },
+      "properties": {
+        "name": "The Museum of Flight",
+        "category": "museum",
+        "section": "see",
+        "notes": "Walk through a Concorde and Air Force One. Worth half a day.",
+        "address": "9404 E Marginal Way S, Seattle, WA 98108",
+        "locality": "Boeing Field",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "discovery-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4057,
+          47.6573
+        ]
+      },
+      "properties": {
+        "name": "Discovery Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "The city's biggest park. Walk the loop trail down to the beach and the West Point lighthouse.",
+        "address": "3801 Discovery Park Blvd, Seattle, WA 98199",
+        "locality": "Magnolia",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kerry-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3599,
+          47.6295
+        ]
+      },
+      "properties": {
+        "name": "Kerry Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "The postcard view of the Space Needle and Mount Rainier. Best at sunset.",
+        "address": "211 W Highland Dr, Seattle, WA 98119",
+        "locality": "Queen Anne",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gas-works-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3344,
+          47.6456
+        ]
+      },
+      "properties": {
+        "name": "Gas Works Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "An old gas plant turned park on Lake Union. Fly a kite and watch the seaplanes land.",
+        "address": "2101 N Northlake Way, Seattle, WA 98103",
+        "locality": "Wallingford",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "olympic-sculpture-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3553,
+          47.6166
+        ]
+      },
+      "properties": {
+        "name": "Olympic Sculpture Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "Free outdoor sculpture zigzagging down to the water, with the Olympics across the Sound.",
+        "address": "2901 Western Ave, Seattle, WA 98121",
+        "locality": "Belltown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "volunteer-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.315,
+          47.6302
+        ]
+      },
+      "properties": {
+        "name": "Volunteer Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "A Victorian conservatory, a water tower to climb and the Asian Art Museum.",
+        "address": "1247 15th Ave E, Seattle, WA 98112",
+        "locality": "Capitol Hill",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "arboretum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2945,
+          47.6398
+        ]
+      },
+      "properties": {
+        "name": "Washington Park Arboretum",
+        "category": "park",
+        "section": "outside",
+        "notes": "Miles of trails through trees from around the world, and a lovely Japanese garden.",
+        "address": "2300 Arboretum Dr E, Seattle, WA 98112",
+        "locality": "Montlake",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "alki-beach",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41,
+          47.5794
+        ]
+      },
+      "properties": {
+        "name": "Alki Beach Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "A long sandy beach with skyline views. Take the water taxi over from downtown.",
+        "address": "2665 Alki Ave SW, Seattle, WA 98116",
+        "locality": "West Seattle",
+        "lastVerified": "2026-11-07"
+      }
+    }
+  ]
+}

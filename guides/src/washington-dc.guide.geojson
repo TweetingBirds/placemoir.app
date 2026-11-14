@@ -1,0 +1,839 @@
+{
+  "type": "FeatureCollection",
+  "placemoirGuide": "0.1",
+  "guide": {
+    "id": "washington-dc",
+    "status": "published",
+    "kind": "city",
+    "name": "Free museums and half-smokes in DC",
+    "description": "Seven days of free museums and monuments, half-smokes and Ethiopian dinners, Georgetown walks and cherry trees on the Tidal Basin.",
+    "author": {
+      "name": "friends of Placemoir"
+    },
+    "inLanguage": "en",
+    "dateModified": "2026-11-08",
+    "countries": [
+      "US"
+    ],
+    "sections": [
+      {
+        "id": "stay",
+        "name": "Stay"
+      },
+      {
+        "id": "eat",
+        "name": "Eat"
+      },
+      {
+        "id": "see",
+        "name": "See"
+      },
+      {
+        "id": "outside",
+        "name": "Outside"
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "hay-adams",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0365,
+          38.9011
+        ]
+      },
+      "properties": {
+        "name": "The Hay-Adams",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "Across Lafayette Square from the White House. Ask for a room facing it, then have a drink in Off the Record downstairs.",
+        "address": "800 16th St NW, Washington, DC 20006",
+        "locality": "Lafayette Square",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-jefferson",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0365,
+          38.9057
+        ]
+      },
+      "properties": {
+        "name": "The Jefferson",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A quiet, elegant 1923 hotel, with Jefferson's letters on the walls and a cozy bar.",
+        "address": "1200 16th St NW, Washington, DC 20036",
+        "locality": "Dupont Circle",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel-monaco",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0222,
+          38.8975
+        ]
+      },
+      "properties": {
+        "name": "Kimpton Hotel Monaco Washington DC",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A marble 1839 post office in Penn Quarter, steps from the Portrait Gallery and the Metro.",
+        "address": "700 F St NW, Washington, DC 20004",
+        "locality": "Penn Quarter",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel-hive",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0497,
+          38.8963
+        ]
+      },
+      "properties": {
+        "name": "Hotel Hive",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "Tiny, well-designed rooms near the Lincoln Memorial. The budget pick, with a rooftop bar.",
+        "address": "2224 F St NW, Washington, DC 20037",
+        "locality": "Foggy Bottom",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bens-chili-bowl",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0287,
+          38.917
+        ]
+      },
+      "properties": {
+        "name": "Ben's Chili Bowl",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "The chili half-smoke, served on U Street since 1958.",
+        "address": "1213 U St NW, Washington, DC 20009",
+        "locality": "U Street",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "old-ebbitt",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0334,
+          38.898
+        ]
+      },
+      "properties": {
+        "name": "Old Ebbitt Grill",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "The city's oldest saloon, a block from the White House. Go for oysters at the late-night happy hour.",
+        "address": "675 15th St NW, Washington, DC 20005",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rasika",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0209,
+          38.8946
+        ]
+      },
+      "properties": {
+        "name": "Rasika",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Modern Indian cooking. The crispy spinach, palak chaat, is famous for a reason.",
+        "address": "633 D St NW, Washington, DC 20004",
+        "locality": "Penn Quarter",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "zaytinya",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0238,
+          38.899
+        ]
+      },
+      "properties": {
+        "name": "Zaytinya",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "José Andrés's Greek, Turkish and Lebanese small plates in a bright, airy room.",
+        "address": "701 9th St NW, Washington, DC 20001",
+        "locality": "Penn Quarter",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "le-diplomate",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0317,
+          38.9113
+        ]
+      },
+      "properties": {
+        "name": "Le Diplomate",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A Paris brasserie on 14th Street. Book weekend brunch ahead.",
+        "address": "1601 14th St NW, Washington, DC 20009",
+        "locality": "Logan Circle",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "compass-rose",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0311,
+          38.9156
+        ]
+      },
+      "properties": {
+        "name": "Compass Rose",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Street food from around the world in a cozy rowhouse. Order the khachapuri.",
+        "address": "1346 T St NW, Washington, DC 20009",
+        "locality": "U Street",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "founding-farmers",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0447,
+          38.9002
+        ]
+      },
+      "properties": {
+        "name": "Founding Farmers",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Big, comforting American plates from a restaurant owned by farmers. Good for breakfast.",
+        "address": "1924 Pennsylvania Ave NW, Washington, DC 20006",
+        "locality": "Foggy Bottom",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "martins-tavern",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0633,
+          38.9065
+        ]
+      },
+      "properties": {
+        "name": "Martin's Tavern",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A Georgetown tavern since 1933, where JFK is said to have proposed to Jackie in booth three.",
+        "address": "1264 Wisconsin Ave NW, Washington, DC 20007",
+        "locality": "Georgetown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "union-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9973,
+          38.9083
+        ]
+      },
+      "properties": {
+        "name": "Union Market",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A food hall in an old wholesale market. Graze a little from everywhere.",
+        "address": "1309 5th St NE, Washington, DC 20002",
+        "locality": "NoMa",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "eastern-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9963,
+          38.8865
+        ]
+      },
+      "properties": {
+        "name": "Eastern Market",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A market hall since 1873. Get the blueberry buckwheat pancakes at the Market Lunch counter on a weekend.",
+        "address": "225 7th St SE, Washington, DC 20003",
+        "locality": "Capitol Hill",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "call-your-mother",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0688,
+          38.9078
+        ]
+      },
+      "properties": {
+        "name": "Call Your Mother",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "A Jew-ish deli with bagels people line up for. The Georgetown shop is a tiny pink house.",
+        "address": "3428 O St NW, Washington, DC 20007",
+        "locality": "Georgetown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "baked-and-wired",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0601,
+          38.9037
+        ]
+      },
+      "properties": {
+        "name": "Baked & Wired",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "Cupcakes and coffee by the C&O Canal, a calmer pick than the famous cupcake line nearby.",
+        "address": "1052 Thomas Jefferson St NW, Washington, DC 20007",
+        "locality": "Georgetown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kramers",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0437,
+          38.9107
+        ]
+      },
+      "properties": {
+        "name": "Kramers",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "An independent bookstore with a cafe and bar at the back, open late.",
+        "address": "1517 Connecticut Ave NW, Washington, DC 20036",
+        "locality": "Dupont Circle",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "round-robin",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0326,
+          38.8966
+        ]
+      },
+      "properties": {
+        "name": "Round Robin Bar",
+        "category": "bar",
+        "section": "eat",
+        "notes": "The Willard hotel's round bar, where Henry Clay mixed his first mint julep in Washington.",
+        "address": "1401 Pennsylvania Ave NW, Washington, DC 20004",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lincoln-memorial",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0502,
+          38.8893
+        ]
+      },
+      "properties": {
+        "name": "Lincoln Memorial",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Go at night, when it's lit and quiet, and read the Gettysburg Address on the wall.",
+        "address": "2 Lincoln Memorial Cir NW, Washington, DC 20002",
+        "locality": "National Mall",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "washington-monument",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0353,
+          38.8895
+        ]
+      },
+      "properties": {
+        "name": "Washington Monument",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Free timed tickets to the top. Reserve online a day or two ahead.",
+        "address": "2 15th St NW, Washington, DC 20024",
+        "locality": "National Mall",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "us-capitol",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0091,
+          38.8899
+        ]
+      },
+      "properties": {
+        "name": "United States Capitol",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Free tours from the visitor center. Book ahead, and add the galleries through your representative.",
+        "address": "First St SE, Washington, DC 20004",
+        "locality": "Capitol Hill",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "library-of-congress",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0047,
+          38.8887
+        ]
+      },
+      "properties": {
+        "name": "Library of Congress",
+        "category": "attraction",
+        "section": "see",
+        "notes": "The Jefferson Building's Great Hall is breathtaking. Take the tunnel from the Capitol.",
+        "address": "101 Independence Ave SE, Washington, DC 20540",
+        "locality": "Capitol Hill",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "white-house",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0365,
+          38.8977
+        ]
+      },
+      "properties": {
+        "name": "The White House",
+        "category": "attraction",
+        "section": "see",
+        "notes": "See it from Lafayette Square or the Ellipse. Tours are requested through your member of Congress.",
+        "address": "1600 Pennsylvania Ave NW, Washington, DC 20500",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nmaahc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0326,
+          38.8911
+        ]
+      },
+      "properties": {
+        "name": "National Museum of African American History and Culture",
+        "category": "museum",
+        "section": "see",
+        "notes": "Start at the bottom, in the history galleries, and work your way up. Allow most of a day.",
+        "address": "1400 Constitution Ave NW, Washington, DC 20560",
+        "locality": "National Mall",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "air-and-space",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0199,
+          38.8882
+        ]
+      },
+      "properties": {
+        "name": "National Air and Space Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "The Wright Flyer, Apollo 11 and the Spirit of St. Louis. Free, with timed passes.",
+        "address": "650 Jefferson Dr SW, Washington, DC 20560",
+        "locality": "National Mall",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "natural-history",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0261,
+          38.8913
+        ]
+      },
+      "properties": {
+        "name": "National Museum of Natural History",
+        "category": "museum",
+        "section": "see",
+        "notes": "The Hope Diamond, the dinosaur hall and the giant squid. Free.",
+        "address": "10th St NW & Constitution Ave NW, Washington, DC 20560",
+        "locality": "National Mall",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "national-gallery",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.02,
+          38.8913
+        ]
+      },
+      "properties": {
+        "name": "National Gallery of Art",
+        "category": "museum",
+        "section": "see",
+        "notes": "The only Leonardo in the Americas, and a sculpture garden with an ice rink in winter.",
+        "address": "Constitution Ave NW, Washington, DC 20565",
+        "locality": "National Mall",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "portrait-gallery",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.023,
+          38.8977
+        ]
+      },
+      "properties": {
+        "name": "National Portrait Gallery",
+        "category": "museum",
+        "section": "see",
+        "notes": "The presidents, including the Obama portraits, and a glass-roofed courtyard to rest in.",
+        "address": "8th St NW & F St NW, Washington, DC 20001",
+        "locality": "Penn Quarter",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "holocaust-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0326,
+          38.8867
+        ]
+      },
+      "properties": {
+        "name": "United States Holocaust Memorial Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "Powerful and hard. Free timed passes are needed from March to August.",
+        "address": "100 Raoul Wallenberg Pl SW, Washington, DC 20024",
+        "locality": "National Mall",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fords-theatre",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0257,
+          38.8967
+        ]
+      },
+      "properties": {
+        "name": "Ford's Theatre",
+        "category": "museum",
+        "section": "see",
+        "notes": "Where Lincoln was shot in 1865, still a working theater, with the Petersen House across the street.",
+        "address": "511 10th St NW, Washington, DC 20004",
+        "locality": "Penn Quarter",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "national-cathedral",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0707,
+          38.9306
+        ]
+      },
+      "properties": {
+        "name": "Washington National Cathedral",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Gothic arches, a Darth Vader gargoyle and views from the tower. Look for the moon rock in the space window.",
+        "address": "3101 Wisconsin Ave NW, Washington, DC 20016",
+        "locality": "Cathedral Heights",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "arlington-cemetery",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0687,
+          38.8783
+        ]
+      },
+      "properties": {
+        "name": "Arlington National Cemetery",
+        "category": "attraction",
+        "section": "see",
+        "notes": "The Kennedy graves and the changing of the guard at the Tomb of the Unknown Soldier.",
+        "address": "Arlington, VA 22211",
+        "locality": "Arlington",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "national-mall",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.023,
+          38.8896
+        ]
+      },
+      "properties": {
+        "name": "National Mall",
+        "category": "park",
+        "section": "outside",
+        "notes": "Two miles from the Capitol to the Lincoln Memorial. Walk it end to end once, then use the Circulator.",
+        "address": "National Mall, Washington, DC 20024",
+        "locality": "National Mall",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "tidal-basin",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0389,
+          38.8841
+        ]
+      },
+      "properties": {
+        "name": "Tidal Basin",
+        "category": "park",
+        "section": "outside",
+        "notes": "The cherry trees in early spring, and the Jefferson and MLK memorials all year. Rent a paddle boat.",
+        "address": "Tidal Basin, Washington, DC 20024",
+        "locality": "National Mall",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mlk-memorial",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0442,
+          38.8862
+        ]
+      },
+      "properties": {
+        "name": "Martin Luther King Jr. Memorial",
+        "category": "park",
+        "section": "outside",
+        "notes": "Dr. King carved from a Stone of Hope, with his words along the wall behind.",
+        "address": "1850 W Basin Dr SW, Washington, DC 20024",
+        "locality": "Tidal Basin",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "botanic-garden",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0129,
+          38.8881
+        ]
+      },
+      "properties": {
+        "name": "United States Botanic Garden",
+        "category": "park",
+        "section": "outside",
+        "notes": "A free glasshouse jungle at the foot of the Capitol. Good on a rainy or cold day.",
+        "address": "100 Maryland Ave SW, Washington, DC 20001",
+        "locality": "Capitol Hill",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "georgetown-waterfront",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0632,
+          38.9026
+        ]
+      },
+      "properties": {
+        "name": "Georgetown Waterfront Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "Fountains and river views, with kayaks for rent at Key Bridge Boathouse.",
+        "address": "3303 Water St NW, Washington, DC 20007",
+        "locality": "Georgetown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dumbarton-oaks",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0634,
+          38.9142
+        ]
+      },
+      "properties": {
+        "name": "Dumbarton Oaks",
+        "category": "park",
+        "section": "outside",
+        "notes": "Terraced gardens behind a Georgetown mansion. Best in spring.",
+        "address": "1703 32nd St NW, Washington, DC 20007",
+        "locality": "Georgetown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rock-creek-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.045,
+          38.959
+        ]
+      },
+      "properties": {
+        "name": "Rock Creek Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "Woods and trails right in the city. On weekends Beach Drive is closed to cars.",
+        "address": "Rock Creek Park, Washington, DC 20008",
+        "locality": "Rock Creek",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "roosevelt-island",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0645,
+          38.8963
+        ]
+      },
+      "properties": {
+        "name": "Theodore Roosevelt Island",
+        "category": "park",
+        "section": "outside",
+        "notes": "A wooded island in the Potomac with an easy loop trail and a statue of Teddy Roosevelt.",
+        "address": "Arlington, VA 22209",
+        "locality": "Potomac River",
+        "lastVerified": "2026-11-07"
+      }
+    }
+  ]
+}

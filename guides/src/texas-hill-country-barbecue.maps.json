@@ -1,0 +1,142 @@
+{
+  "blacks-barbecue-lockhart": {
+    "address": "215 N Main St, Lockhart, TX 78644, United States",
+    "appleMapsID": "I4DF86F753773293E",
+    "latitude": 29.885964,
+    "longitude": -97.672878,
+    "name": "The Original Black’s BBQ"
+  },
+  "caldwell-county-courthouse": {
+    "address": "110 S Main St, Ste 101, Lockhart, TX 78644, United States",
+    "appleMapsID": "I416FD854821D5390",
+    "latitude": 29.884356,
+    "longitude": -97.671858,
+    "name": "Caldwell County Court House"
+  },
+  "camp-lucy": {
+    "address": "3509 Creek Rd, Dripping Springs, TX 78620, United States",
+    "appleMapsID": "IE0B44EE1522A6011",
+    "latitude": 30.181064,
+    "longitude": -98.146317,
+    "name": "Camp Lucy"
+  },
+  "chisholm-trail-bbq": {
+    "address": "1323 S Colorado St, Lockhart, TX 78644, United States",
+    "appleMapsID": "I4FF5C3875C2D3095",
+    "latitude": 29.870264,
+    "longitude": -97.669134,
+    "name": "Chisholm Trail BBQ"
+  },
+  "city-market-luling": {
+    "address": "633 E Davis St, Luling, TX 78648, United States",
+    "appleMapsID": "I3BACD564E3C03F0F",
+    "latitude": 29.681639,
+    "longitude": -97.647783,
+    "name": "Original City Market BBQ"
+  },
+  "coopers-llano": {
+    "address": "604 W Young St, Llano TX 78643, United States",
+    "appleMapsID": "I89E320862928CAD0",
+    "latitude": 30.759262,
+    "longitude": -98.682107,
+    "name": "Cooper's Old Time Pit Bar-B-Que"
+  },
+  "dabbs-railroad-hotel": {
+    "address": "112 E Burnet St, Llano, TX 78643, United States",
+    "appleMapsID": "I270CDAC7AFB47DDC",
+    "latitude": 30.754294,
+    "longitude": -98.674158,
+    "name": "Dabbs Hotel"
+  },
+  "franklin-barbecue": {
+    "address": "900 E 11th St, Austin, TX 78702, United States",
+    "appleMapsID": "IAA409CDF9D3555A9",
+    "latitude": 30.270084,
+    "longitude": -97.731279,
+    "name": "Franklin Barbecue"
+  },
+  "interstellar-bbq": {
+    "address": "12233 Ranch Rd 620 N, Ste 105, Austin, TX 78750, United States",
+    "appleMapsID": "I7948F5B22027B0B4",
+    "latitude": 30.461461,
+    "longitude": -97.815178,
+    "name": "InterStellar BBQ"
+  },
+  "kreuz-market": {
+    "address": "619 N Colorado St, Lockhart, TX 78644, United States",
+    "appleMapsID": "I9EFB9399CBB2CB2C",
+    "latitude": 29.889908,
+    "longitude": -97.671755,
+    "name": "Kreuz Market"
+  },
+  "la-barbecue": {
+    "address": "2401 E Cesar Chavez, Austin, TX 78702, United States",
+    "appleMapsID": "ID27477247784E9FB",
+    "latitude": 30.254485,
+    "longitude": -97.717601,
+    "name": "la Barbecue"
+  },
+  "leroy-and-lewis": {
+    "address": "5621 Emerald Forest Dr, Austin, TX 78745, United States",
+    "appleMapsID": "IA2F219C92726FC53",
+    "latitude": 30.209816,
+    "longitude": -97.787232,
+    "name": "LeRoy and Lewis Barbecue"
+  },
+  "lockhart-state-park": {
+    "address": "2012 State Park Rd, Lockhart, TX 78644, United States",
+    "appleMapsID": "I1F82F650B9DB864",
+    "latitude": 29.850694,
+    "longitude": -97.697725,
+    "name": "Lockhart State Park"
+  },
+  "louie-mueller-barbecue": {
+    "address": "206 W Second St, Taylor, TX 76574, United States",
+    "appleMapsID": "I225D7DD3043DD739",
+    "latitude": 30.5687,
+    "longitude": -97.411118,
+    "name": "Louie Mueller Barbecue"
+  },
+  "opies-barbecue": {
+    "address": "9504 E State Highway 71, Spicewood, TX 78669, United States",
+    "appleMapsID": "I6200299AB57B532A",
+    "latitude": 30.461677,
+    "longitude": -98.158942,
+    "name": "Opie's Barbecue"
+  },
+  "palmetto-state-park": {
+    "address": "78 Park Road 11 S, Gonzales, TX 78629, United States",
+    "appleMapsID": "I36FFCCC6A8DED081",
+    "latitude": 29.587901,
+    "longitude": -97.582841,
+    "name": "Palmetto State Park"
+  },
+  "salt-lick-bbq": {
+    "address": "18300 FM 1826, Driftwood, TX 78619, United States",
+    "appleMapsID": "I29C6C6D9CFFF5963",
+    "latitude": 30.131718,
+    "longitude": -98.013342,
+    "name": "The Salt Lick BBQ"
+  },
+  "smittys-market": {
+    "address": "208 S Commerce St, Lockhart, TX 78644, United States",
+    "appleMapsID": "IAA7F18F731138101",
+    "latitude": 29.883624,
+    "longitude": -97.670836,
+    "name": "Smitty's Market"
+  },
+  "snows-bbq": {
+    "address": "516 Main St, Lexington, TX 78947, United States",
+    "appleMapsID": "I7893A4DE2C6245D8",
+    "latitude": 30.413345,
+    "longitude": -97.009599,
+    "name": "Snow's BBQ"
+  },
+  "southside-market": {
+    "address": "1212 US Highway 290 W, Elgin, TX 78621, United States",
+    "appleMapsID": "I8EB6381AA2B36DE5",
+    "latitude": 30.349845,
+    "longitude": -97.386128,
+    "name": "Southside Market & Barbeque"
+  }
+}

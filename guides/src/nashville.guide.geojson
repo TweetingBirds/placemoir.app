@@ -1,0 +1,799 @@
+{
+  "type": "FeatureCollection",
+  "placemoirGuide": "0.1",
+  "guide": {
+    "id": "nashville",
+    "status": "published",
+    "kind": "city",
+    "name": "Nashville beyond Broadway",
+    "description": "Seven days of hot chicken and meat-and-threes, honky-tonks and the Opry, songwriter nights, and green trails just outside town.",
+    "author": {
+      "name": "friends of Placemoir"
+    },
+    "inLanguage": "en",
+    "dateModified": "2026-11-08",
+    "countries": [
+      "US"
+    ],
+    "sections": [
+      {
+        "id": "stay",
+        "name": "Stay"
+      },
+      {
+        "id": "eat",
+        "name": "Eat"
+      },
+      {
+        "id": "see",
+        "name": "See"
+      },
+      {
+        "id": "outside",
+        "name": "Outside"
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "hermitage-hotel",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7831,
+          36.165
+        ]
+      },
+      "properties": {
+        "name": "The Hermitage Hotel",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "Nashville's grand 1910 hotel. Even the Art Deco men's room is a sight.",
+        "address": "231 6th Ave N, Nashville, TN 37219",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "union-station-hotel",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7849,
+          36.1572
+        ]
+      },
+      "properties": {
+        "name": "The Union Station Nashville Yards",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A 1900 railroad station with a stained glass vaulted lobby, at the quiet end of Broadway.",
+        "address": "1001 Broadway, Nashville, TN 37203",
+        "locality": "The Gulch",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "noelle",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.778,
+          36.163
+        ]
+      },
+      "properties": {
+        "name": "Noelle",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A 1930s building with a rooftop bar, two blocks from the honky-tonks but calmer.",
+        "address": "200 4th Ave N, Nashville, TN 37219",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "graduate-nashville",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.799,
+          36.152
+        ]
+      },
+      "properties": {
+        "name": "Graduate Nashville",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A playful hotel near Vanderbilt, with a rooftop bar themed on Dolly Parton.",
+        "address": "101 20th Ave N, Nashville, TN 37203",
+        "locality": "Midtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "princes",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7255,
+          36.0807
+        ]
+      },
+      "properties": {
+        "name": "Prince's Hot Chicken Shack",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "The family that invented Nashville hot chicken. Start at mild. Really.",
+        "address": "5814 Nolensville Pike, Nashville, TN 37211",
+        "locality": "South Nashville",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hattie-bs",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7975,
+          36.1514
+        ]
+      },
+      "properties": {
+        "name": "Hattie B's Hot Chicken",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "The busiest hot chicken in town, with good sides. Go mid-afternoon to skip the line.",
+        "address": "112 19th Ave S, Nashville, TN 37203",
+        "locality": "Midtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "boltons",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7608,
+          36.1749
+        ]
+      },
+      "properties": {
+        "name": "Bolton's Spicy Chicken & Fish",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Fiery chicken and whiting in a small East Nashville shack. Ask for it hot only if you mean it.",
+        "address": "624 Main St, Nashville, TN 37206",
+        "locality": "East Nashville",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "arnolds",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.782,
+          36.152
+        ]
+      },
+      "properties": {
+        "name": "Arnold's Country Kitchen",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "The classic meat-and-three, weekday lunch only. Roast beef, greens and chess pie.",
+        "address": "605 8th Ave S, Nashville, TN 37203",
+        "locality": "SoBro",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "loveless-cafe",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.9721,
+          36.0353
+        ]
+      },
+      "properties": {
+        "name": "Loveless Cafe",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Biscuits and preserves at an old motel café near the Natchez Trace. Book or arrive early.",
+        "address": "8400 Highway 100, Nashville, TN 37221",
+        "locality": "Bellevue",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pancake-pantry",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8005,
+          36.1373
+        ]
+      },
+      "properties": {
+        "name": "Pancake Pantry",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Pancakes by the stack since 1961, with a line down the block on weekends.",
+        "address": "1796 21st Ave S, Nashville, TN 37212",
+        "locality": "Hillsboro Village",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biscuit-love",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.785,
+          36.1535
+        ]
+      },
+      "properties": {
+        "name": "Biscuit Love",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Biscuits all ways. The bonuts, fried biscuit doughnuts, are the thing.",
+        "address": "316 11th Ave S, Nashville, TN 37203",
+        "locality": "The Gulch",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "martins-bbq",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7741,
+          36.157
+        ]
+      },
+      "properties": {
+        "name": "Martin's Bar-B-Que Joint",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Whole-hog West Tennessee barbecue with a big beer garden upstairs.",
+        "address": "410 4th Ave S, Nashville, TN 37201",
+        "locality": "SoBro",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "husk",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7681,
+          36.1531
+        ]
+      },
+      "properties": {
+        "name": "Husk",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Southern-only ingredients in an 1880s mansion. The burger at lunch is a bargain.",
+        "address": "37 Rutledge St, Nashville, TN 37210",
+        "locality": "Rutledge Hill",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rolf-and-daughters",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7894,
+          36.1785
+        ]
+      },
+      "properties": {
+        "name": "Rolf and Daughters",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Handmade pastas in an old Germantown factory. One of the city's best dinners.",
+        "address": "700 Taylor St, Nashville, TN 37208",
+        "locality": "Germantown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mas-tacos",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.755,
+          36.1858
+        ]
+      },
+      "properties": {
+        "name": "Mas Tacos Por Favor",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Cheap, excellent tacos and chicken tortilla soup in East Nashville. Cash only.",
+        "address": "732 McFerrin Ave, Nashville, TN 37206",
+        "locality": "East Nashville",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "barista-parlor",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7487,
+          36.1786
+        ]
+      },
+      "properties": {
+        "name": "Barista Parlor",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "Careful coffee in an old auto garage. Order a biscuit sandwich with it.",
+        "address": "519 Gallatin Ave, Nashville, TN 37206",
+        "locality": "East Nashville",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "patterson-house",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7929,
+          36.1522
+        ]
+      },
+      "properties": {
+        "name": "The Patterson House",
+        "category": "bar",
+        "section": "eat",
+        "notes": "A dark speakeasy-style cocktail bar. Expect a short wait for a seat.",
+        "address": "1711 Division St, Nashville, TN 37203",
+        "locality": "Midtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "roberts-western-world",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7765,
+          36.161
+        ]
+      },
+      "properties": {
+        "name": "Robert's Western World",
+        "category": "bar",
+        "section": "eat",
+        "notes": "The real honky-tonk on Broadway. Order the Recession Special and listen to the house band.",
+        "address": "416 Broadway, Nashville, TN 37203",
+        "locality": "Broadway",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "tootsies",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7767,
+          36.1611
+        ]
+      },
+      "properties": {
+        "name": "Tootsie's Orchid Lounge",
+        "category": "bar",
+        "section": "eat",
+        "notes": "The purple-fronted bar where Willie Nelson got his first songwriting job. Live music from 10 a.m.",
+        "address": "422 Broadway, Nashville, TN 37203",
+        "locality": "Broadway",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "station-inn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.786,
+          36.153
+        ]
+      },
+      "properties": {
+        "name": "The Station Inn",
+        "category": "bar",
+        "section": "eat",
+        "notes": "Bluegrass most nights since 1974. Sunday night is the open jam.",
+        "address": "402 12th Ave S, Nashville, TN 37203",
+        "locality": "The Gulch",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ryman",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7785,
+          36.1612
+        ]
+      },
+      "properties": {
+        "name": "Ryman Auditorium",
+        "category": "attraction",
+        "section": "see",
+        "notes": "The Mother Church of Country Music. Take the daytime tour, then come back for a show.",
+        "address": "116 Rep. John Lewis Way N, Nashville, TN 37219",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "country-music-hof",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.776,
+          36.1582
+        ]
+      },
+      "properties": {
+        "name": "Country Music Hall of Fame and Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "Elvis's gold Cadillac and the history of country. Add the RCA Studio B tour here.",
+        "address": "222 Rep. John Lewis Way S, Nashville, TN 37203",
+        "locality": "SoBro",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "johnny-cash-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7752,
+          36.1606
+        ]
+      },
+      "properties": {
+        "name": "Johnny Cash Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "A small, packed museum of the Man in Black. Patsy Cline's museum is upstairs.",
+        "address": "119 3rd Ave S, Nashville, TN 37201",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nmaam",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7779,
+          36.1606
+        ]
+      },
+      "properties": {
+        "name": "National Museum of African American Music",
+        "category": "museum",
+        "section": "see",
+        "notes": "Gospel, blues, jazz and hip-hop in one interactive museum. Make your own track.",
+        "address": "510 Broadway, Nashville, TN 37203",
+        "locality": "Broadway",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "frist",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7836,
+          36.1578
+        ]
+      },
+      "properties": {
+        "name": "Frist Art Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "Changing exhibitions in a 1934 Art Deco post office.",
+        "address": "919 Broadway, Nashville, TN 37203",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "grand-ole-opry",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6922,
+          36.2069
+        ]
+      },
+      "properties": {
+        "name": "Grand Ole Opry",
+        "category": "attraction",
+        "section": "see",
+        "notes": "The longest-running radio show in America. Buy tickets for a Friday or Saturday show.",
+        "address": "600 Opry Mills Dr, Nashville, TN 37214",
+        "locality": "Music Valley",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bluebird-cafe",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8165,
+          36.1027
+        ]
+      },
+      "properties": {
+        "name": "The Bluebird Cafe",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Songwriters playing their hits in the round, in a 90-seat room. Tickets go fast online.",
+        "address": "4104 Hillsboro Pike, Nashville, TN 37215",
+        "locality": "Green Hills",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-parthenon",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8133,
+          36.1497
+        ]
+      },
+      "properties": {
+        "name": "The Parthenon",
+        "category": "museum",
+        "section": "see",
+        "notes": "A full-size copy of the Athens Parthenon, with a 42-foot gilded Athena inside.",
+        "address": "2500 West End Ave, Nashville, TN 37203",
+        "locality": "Centennial Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "state-capitol",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7841,
+          36.1659
+        ]
+      },
+      "properties": {
+        "name": "Tennessee State Capitol",
+        "category": "attraction",
+        "section": "see",
+        "notes": "An 1859 Greek Revival capitol on a hill. Free guided tours on weekdays.",
+        "address": "600 Dr. Martin L King Jr Blvd, Nashville, TN 37243",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-hermitage",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6129,
+          36.2155
+        ]
+      },
+      "properties": {
+        "name": "The Hermitage",
+        "category": "museum",
+        "section": "see",
+        "notes": "Andrew Jackson's plantation, told with the lives of the people enslaved there.",
+        "address": "4580 Rachel's Ln, Hermitage, TN 37076",
+        "locality": "Hermitage",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "belle-meade",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.865,
+          36.105
+        ]
+      },
+      "properties": {
+        "name": "Belle Meade Historic Site & Winery",
+        "category": "museum",
+        "section": "see",
+        "notes": "A Greek Revival plantation and thoroughbred farm, with a wine tasting after the tour.",
+        "address": "110 Leake Ave, Nashville, TN 37205",
+        "locality": "Belle Meade",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "centennial-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.812,
+          36.149
+        ]
+      },
+      "properties": {
+        "name": "Centennial Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "Lawns and a lake around the Parthenon. Free concerts and dance on summer evenings.",
+        "address": "Centennial Park, Nashville, TN 37203",
+        "locality": "West End",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cheekwood",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8714,
+          36.0874
+        ]
+      },
+      "properties": {
+        "name": "Cheekwood Estate & Gardens",
+        "category": "park",
+        "section": "outside",
+        "notes": "A 1920s mansion and 55 acres of gardens. Best in spring and during the holiday lights.",
+        "address": "1200 Forrest Park Dr, Nashville, TN 37205",
+        "locality": "Belle Meade",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pedestrian-bridge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.773,
+          36.162
+        ]
+      },
+      "properties": {
+        "name": "John Seigenthaler Pedestrian Bridge",
+        "category": "park",
+        "section": "outside",
+        "notes": "Walk across the Cumberland River for the best skyline view in town, especially at night.",
+        "address": "John Seigenthaler Pedestrian Bridge, Nashville, TN 37201",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bicentennial-mall",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7871,
+          36.1708
+        ]
+      },
+      "properties": {
+        "name": "Bicentennial Capitol Mall State Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "A long state history walk below the Capitol, next to the Nashville Farmers' Market.",
+        "address": "600 James Robertson Pkwy, Nashville, TN 37243",
+        "locality": "Germantown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelby-bottoms",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.736,
+          36.1724
+        ]
+      },
+      "properties": {
+        "name": "Shelby Bottoms Greenway",
+        "category": "park",
+        "section": "outside",
+        "notes": "Flat river trails through wetlands and woods. Rent a bike and ride to the Cumberland.",
+        "address": "1900 Davidson St, Nashville, TN 37206",
+        "locality": "East Nashville",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "radnor-lake",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8092,
+          36.0629
+        ]
+      },
+      "properties": {
+        "name": "Radnor Lake State Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "A quiet lake with deer, owls and herons, fifteen minutes from downtown.",
+        "address": "1160 Otter Creek Rd, Nashville, TN 37220",
+        "locality": "Oak Hill",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "warner-parks",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8851,
+          36.0686
+        ]
+      },
+      "properties": {
+        "name": "Warner Parks",
+        "category": "park",
+        "section": "outside",
+        "notes": "Wooded hills, stone gates and a long scenic drive. Climb the Allée steps at the main entrance.",
+        "address": "50 Vaughn Rd, Nashville, TN 37221",
+        "locality": "Belle Meade",
+        "lastVerified": "2026-11-07"
+      }
+    }
+  ]
+}

@@ -1,0 +1,902 @@
+{
+  "type": "FeatureCollection",
+  "placemoirGuide": "0.1",
+  "guide": {
+    "id": "chicago",
+    "status": "published",
+    "kind": "city",
+    "name": "Chicago by the lake",
+    "description": "Seven days of architecture by boat, deep dish and Italian beef, the Art Institute and the lakefront, blues bars and a game at Wrigley.",
+    "author": {
+      "name": "friends of Placemoir"
+    },
+    "inLanguage": "en",
+    "dateModified": "2026-11-08",
+    "countries": [
+      "US"
+    ],
+    "sections": [
+      {
+        "id": "stay",
+        "name": "Stay"
+      },
+      {
+        "id": "eat",
+        "name": "Eat"
+      },
+      {
+        "id": "see",
+        "name": "See"
+      },
+      {
+        "id": "outside",
+        "name": "Outside"
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "the-drake",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6237,
+          41.9006
+        ]
+      },
+      "properties": {
+        "name": "The Drake Hotel",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A 1920 grand hotel at the top of the Magnificent Mile, steps from Oak Street Beach. Tea in the Palm Court.",
+        "address": "140 E Walton Pl, Chicago, IL 60611",
+        "locality": "Gold Coast",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "chicago-athletic-association",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6247,
+          41.8817
+        ]
+      },
+      "properties": {
+        "name": "Chicago Athletic Association",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "An 1893 Venetian Gothic men's club turned hotel, facing Millennium Park. The rooftop bar has the view.",
+        "address": "12 S Michigan Ave, Chicago, IL 60603",
+        "locality": "The Loop",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-langham",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6267,
+          41.8885
+        ]
+      },
+      "properties": {
+        "name": "The Langham, Chicago",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "The splurge, in a Mies van der Rohe tower on the river. Big rooms and a beautiful pool.",
+        "address": "330 N Wabash Ave, Chicago, IL 60611",
+        "locality": "River North",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "freehand",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6276,
+          41.8925
+        ]
+      },
+      "properties": {
+        "name": "Freehand Chicago",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "Private rooms and shared bunks, with an excellent cocktail bar, Broken Shaker. The budget pick.",
+        "address": "19 E Ohio St, Chicago, IL 60611",
+        "locality": "River North",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "portillos",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6316,
+          41.8932
+        ]
+      },
+      "properties": {
+        "name": "Portillo's",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Chicago's Italian beef and hot dogs in one place. Order the beef dipped, with hot peppers, and a chocolate cake shake.",
+        "address": "100 W Ontario St, Chicago, IL 60654",
+        "locality": "River North",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mr-beef",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6369,
+          41.8937
+        ]
+      },
+      "properties": {
+        "name": "Mr. Beef on Orleans",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "The tiny beef stand that inspired The Bear. Eat it at the counter, dripping.",
+        "address": "666 N Orleans St, Chicago, IL 60654",
+        "locality": "River North",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lou-malnatis",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6339,
+          41.8899
+        ]
+      },
+      "properties": {
+        "name": "Lou Malnati's Pizzeria",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Deep dish with a buttery crust. Order ahead; it takes 45 minutes.",
+        "address": "439 N Wells St, Chicago, IL 60654",
+        "locality": "River North",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pequods",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6642,
+          41.922
+        ]
+      },
+      "properties": {
+        "name": "Pequod's Pizza",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Pan pizza with a burnt-cheese crust around the edge. The locals' favorite.",
+        "address": "2207 N Clybourn Ave, Chicago, IL 60614",
+        "locality": "Lincoln Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "au-cheval",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6476,
+          41.8846
+        ]
+      },
+      "properties": {
+        "name": "Au Cheval",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A diner known for one of the best burgers in America. Put your name in and have a drink nearby.",
+        "address": "800 W Randolph St, Chicago, IL 60607",
+        "locality": "West Loop",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "girl-and-the-goat",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6479,
+          41.8841
+        ]
+      },
+      "properties": {
+        "name": "Girl & the Goat",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Stephanie Izard's bold, shareable plates on Restaurant Row. Book ahead.",
+        "address": "809 W Randolph St, Chicago, IL 60607",
+        "locality": "West Loop",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "frontera-grill",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6309,
+          41.8905
+        ]
+      },
+      "properties": {
+        "name": "Frontera Grill",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Rick Bayless's regional Mexican cooking. Come for the moles and the margaritas.",
+        "address": "445 N Clark St, Chicago, IL 60654",
+        "locality": "River North",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kasama",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6762,
+          41.8996
+        ]
+      },
+      "properties": {
+        "name": "Kasama",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A Filipino bakery by day, with lines for the ube croissant, and a Michelin-starred tasting menu by night.",
+        "address": "1001 N Winchester Ave, Chicago, IL 60622",
+        "locality": "Ukrainian Village",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "alinea",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6483,
+          41.9134
+        ]
+      },
+      "properties": {
+        "name": "Alinea",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "The once-in-a-lifetime tasting menu, all theater and surprise. Tickets go on sale months ahead.",
+        "address": "1723 N Halsted St, Chicago, IL 60614",
+        "locality": "Lincoln Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lou-mitchells",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6413,
+          41.878
+        ]
+      },
+      "properties": {
+        "name": "Lou Mitchell's",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Breakfast since 1923, at the start of Route 66. Free doughnut holes while you wait.",
+        "address": "565 W Jackson Blvd, Chicago, IL 60661",
+        "locality": "West Loop",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mannys",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6425,
+          41.8682
+        ]
+      },
+      "properties": {
+        "name": "Manny's Cafeteria & Delicatessen",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A cafeteria deli where politicians eat corned beef and potato pancakes.",
+        "address": "1141 S Jefferson St, Chicago, IL 60607",
+        "locality": "South Loop",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "superdawg",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.7874,
+          41.9963
+        ]
+      },
+      "properties": {
+        "name": "Superdawg Drive-In",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A 1948 drive-in with giant hot dog mascots on the roof. Carhops bring it to your window.",
+        "address": "6363 N Milwaukee Ave, Chicago, IL 60646",
+        "locality": "Norwood Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "intelligentsia",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6255,
+          41.8845
+        ]
+      },
+      "properties": {
+        "name": "Intelligentsia Coffee",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "The Chicago roaster's flagship coffee bar, across from Millennium Park.",
+        "address": "53 E Randolph St, Chicago, IL 60601",
+        "locality": "The Loop",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "green-mill",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6597,
+          41.969
+        ]
+      },
+      "properties": {
+        "name": "The Green Mill",
+        "category": "bar",
+        "section": "eat",
+        "notes": "Al Capone's jazz club, still swinging. Sunday night is the original poetry slam.",
+        "address": "4802 N Broadway, Chicago, IL 60640",
+        "locality": "Uptown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kingston-mines",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6493,
+          41.929
+        ]
+      },
+      "properties": {
+        "name": "Kingston Mines",
+        "category": "bar",
+        "section": "eat",
+        "notes": "Two stages of live blues every night until late.",
+        "address": "2548 N Halsted St, Chicago, IL 60614",
+        "locality": "Lincoln Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "violet-hour",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6775,
+          41.9093
+        ]
+      },
+      "properties": {
+        "name": "The Violet Hour",
+        "category": "bar",
+        "section": "eat",
+        "notes": "A hidden, candlelit cocktail bar behind a mural-covered wall. No phones at the bar.",
+        "address": "1520 N Damen Ave, Chicago, IL 60622",
+        "locality": "Wicker Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "billy-goat",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6244,
+          41.8903
+        ]
+      },
+      "properties": {
+        "name": "Billy Goat Tavern",
+        "category": "bar",
+        "section": "eat",
+        "notes": "Cheezborgers under Michigan Avenue, made famous by Saturday Night Live and the Cubs' curse.",
+        "address": "430 N Michigan Ave, Chicago, IL 60611",
+        "locality": "Streeterville",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "art-institute",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6237,
+          41.8796
+        ]
+      },
+      "properties": {
+        "name": "Art Institute of Chicago",
+        "category": "museum",
+        "section": "see",
+        "notes": "Nighthawks, American Gothic and a huge Impressionist collection. Give it at least half a day.",
+        "address": "111 S Michigan Ave, Chicago, IL 60603",
+        "locality": "The Loop",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "architecture-center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6233,
+          41.8877
+        ]
+      },
+      "properties": {
+        "name": "Chicago Architecture Center",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Take the architecture river cruise that leaves from the dock below. The best 90 minutes in the city.",
+        "address": "111 E Wacker Dr, Chicago, IL 60601",
+        "locality": "The Loop",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "skydeck",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6359,
+          41.8789
+        ]
+      },
+      "properties": {
+        "name": "Skydeck Chicago",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Step out onto the glass Ledge, 103 floors up in Willis Tower.",
+        "address": "233 S Wacker Dr, Chicago, IL 60606",
+        "locality": "The Loop",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "field-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.617,
+          41.8663
+        ]
+      },
+      "properties": {
+        "name": "Field Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "Natural history, and Máximo the titanosaur. Combine it with the Shedd next door.",
+        "address": "1400 S DuSable Lake Shore Dr, Chicago, IL 60605",
+        "locality": "Museum Campus",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shedd-aquarium",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.614,
+          41.8676
+        ]
+      },
+      "properties": {
+        "name": "Shedd Aquarium",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Belugas, sea otters and a Caribbean reef, with the lake outside the windows.",
+        "address": "1200 S DuSable Lake Shore Dr, Chicago, IL 60605",
+        "locality": "Museum Campus",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "adler-planetarium",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6068,
+          41.8663
+        ]
+      },
+      "properties": {
+        "name": "Adler Planetarium",
+        "category": "museum",
+        "section": "see",
+        "notes": "America's first planetarium, at the end of a point with the best skyline view in Chicago.",
+        "address": "1300 S DuSable Lake Shore Dr, Chicago, IL 60605",
+        "locality": "Museum Campus",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "science-and-industry",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.5831,
+          41.7906
+        ]
+      },
+      "properties": {
+        "name": "Museum of Science and Industry",
+        "category": "museum",
+        "section": "see",
+        "notes": "A real U-boat, a coal mine and a model railroad, in the last building of the 1893 World's Fair.",
+        "address": "5700 S DuSable Lake Shore Dr, Chicago, IL 60637",
+        "locality": "Hyde Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "robie-house",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.596,
+          41.7897
+        ]
+      },
+      "properties": {
+        "name": "Frederick C. Robie House",
+        "category": "museum",
+        "section": "see",
+        "notes": "Frank Lloyd Wright's Prairie-style masterpiece. Pair it with the science museum.",
+        "address": "5757 S Woodlawn Ave, Chicago, IL 60637",
+        "locality": "Hyde Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "wright-home-studio",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.7997,
+          41.8941
+        ]
+      },
+      "properties": {
+        "name": "Frank Lloyd Wright Home and Studio",
+        "category": "museum",
+        "section": "see",
+        "notes": "Where Wright lived and worked for twenty years. Walk the street afterwards to see his early houses.",
+        "address": "951 Chicago Ave, Oak Park, IL 60302",
+        "locality": "Oak Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cultural-center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.625,
+          41.8838
+        ]
+      },
+      "properties": {
+        "name": "Chicago Cultural Center",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Free, with the world's largest Tiffany glass dome. Duck in on the way to Millennium Park.",
+        "address": "78 E Washington St, Chicago, IL 60602",
+        "locality": "The Loop",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mca-chicago",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6212,
+          41.8971
+        ]
+      },
+      "properties": {
+        "name": "Museum of Contemporary Art Chicago",
+        "category": "museum",
+        "section": "see",
+        "notes": "Bold contemporary art near the lake, and free for Illinois residents on Tuesdays.",
+        "address": "220 E Chicago Ave, Chicago, IL 60611",
+        "locality": "Streeterville",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "wrigley-field",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6553,
+          41.9484
+        ]
+      },
+      "properties": {
+        "name": "Wrigley Field",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Ivy walls and a hand-turned scoreboard since 1914. A day game is the classic.",
+        "address": "1060 W Addison St, Chicago, IL 60613",
+        "locality": "Wrigleyville",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "navy-pier",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6086,
+          41.8917
+        ]
+      },
+      "properties": {
+        "name": "Navy Pier",
+        "category": "attraction",
+        "section": "see",
+        "notes": "A ride on the Centennial Wheel, and fireworks over the lake on summer nights.",
+        "address": "600 E Grand Ave, Chicago, IL 60611",
+        "locality": "Streeterville",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "360-chicago",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6229,
+          41.8989
+        ]
+      },
+      "properties": {
+        "name": "360 Chicago",
+        "category": "attraction",
+        "section": "see",
+        "notes": "The 94th-floor view up the lakeshore, from the old Hancock tower. Have a drink at sunset.",
+        "address": "875 N Michigan Ave, Chicago, IL 60611",
+        "locality": "Streeterville",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "millennium-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6226,
+          41.8826
+        ]
+      },
+      "properties": {
+        "name": "Millennium Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "The Bean, the Crown Fountain and free summer concerts at the Pritzker Pavilion.",
+        "address": "201 E Randolph St, Chicago, IL 60602",
+        "locality": "The Loop",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "maggie-daley",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6195,
+          41.8828
+        ]
+      },
+      "properties": {
+        "name": "Maggie Daley Park",
+        "category": "park",
+        "section": "outside",
+        "notes": "A playful park with a climbing wall and an ice-skating ribbon in winter.",
+        "address": "337 E Randolph St, Chicago, IL 60601",
+        "locality": "The Loop",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "riverwalk",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.626,
+          41.888
+        ]
+      },
+      "properties": {
+        "name": "Chicago Riverwalk",
+        "category": "park",
+        "section": "outside",
+        "notes": "A walk along the river under the drawbridges, with wine bars and kayaks along the way.",
+        "address": "Chicago Riverwalk, Chicago, IL 60601",
+        "locality": "The Loop",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lincoln-park-zoo",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.634,
+          41.9211
+        ]
+      },
+      "properties": {
+        "name": "Lincoln Park Zoo",
+        "category": "park",
+        "section": "outside",
+        "notes": "A free zoo in the city's biggest park, open every day of the year.",
+        "address": "2400 N Cannon Dr, Chicago, IL 60614",
+        "locality": "Lincoln Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lincoln-park-conservatory",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6355,
+          41.9244
+        ]
+      },
+      "properties": {
+        "name": "Lincoln Park Conservatory",
+        "category": "park",
+        "section": "outside",
+        "notes": "A free Victorian glasshouse full of palms and orchids, next to the zoo.",
+        "address": "2391 N Stockton Dr, Chicago, IL 60614",
+        "locality": "Lincoln Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "north-avenue-beach",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6271,
+          41.9165
+        ]
+      },
+      "properties": {
+        "name": "North Avenue Beach",
+        "category": "park",
+        "section": "outside",
+        "notes": "Sand, volleyball and skyline views. Rent a bike and ride the Lakefront Trail.",
+        "address": "1601 N Jean-Baptiste Pointe DuSable Lake Shore Dr, Chicago, IL 60611",
+        "locality": "Lincoln Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-606",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.688,
+          41.9145
+        ]
+      },
+      "properties": {
+        "name": "The 606",
+        "category": "park",
+        "section": "outside",
+        "notes": "A 2.7-mile elevated trail on an old railway through Wicker Park and Bucktown.",
+        "address": "The 606, Chicago, IL 60647",
+        "locality": "Wicker Park",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "garfield-park-conservatory",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.7172,
+          41.8863
+        ]
+      },
+      "properties": {
+        "name": "Garfield Park Conservatory",
+        "category": "park",
+        "section": "outside",
+        "notes": "One of the biggest conservatories in the country, and free. A warm escape in winter.",
+        "address": "300 N Central Park Ave, Chicago, IL 60624",
+        "locality": "Garfield Park",
+        "lastVerified": "2026-11-07",
+        "match": {
+          "query": "Garfield Park Conservatory Chicago"
+        }
+      }
+    }
+  ]
+}

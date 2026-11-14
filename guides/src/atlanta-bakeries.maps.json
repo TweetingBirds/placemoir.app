@@ -1,0 +1,142 @@
+{
+  "alons-bakery-morningside": {
+    "address": "1394 N Highland Ave NE, Atlanta, GA 30306, United States",
+    "appleMapsID": "I18D40390670E4CD2",
+    "latitude": 33.792621,
+    "longitude": -84.352823,
+    "name": "Alon’s Bakery & Market"
+  },
+  "bronx-bagel-buggy": {
+    "address": "5494 Peachtree Rd, Chamblee, GA 30341, United States",
+    "appleMapsID": "ICE904F7849B8C577",
+    "latitude": 33.894646,
+    "longitude": -84.297851,
+    "name": "The Bronx Bagel Buggy"
+  },
+  "colette-bread-bakeshop": {
+    "address": "636 N Highland Ave, Atlanta, GA 30306, United States",
+    "appleMapsID": "I359965580D2D60C7",
+    "latitude": 33.771738,
+    "longitude": -84.35279,
+    "name": "Colette Bread & Bakeshop"
+  },
+  "emerald-city-bagels-eav": {
+    "address": "1257A Glenwood Ave SE, Atlanta, GA 30316, United States",
+    "appleMapsID": "I25C1C13AD9ED8CFC",
+    "latitude": 33.739972,
+    "longitude": -84.346456,
+    "name": "Emerald City Bagels"
+  },
+  "evergreen-butcher-baker": {
+    "address": "2011 Hosea L Williams Dr, Atlanta, GA 30317, United States",
+    "appleMapsID": "I3247B1CA1FD65846",
+    "latitude": 33.750963,
+    "longitude": -84.321742,
+    "name": "Evergreen Butcher + Baker"
+  },
+  "family-baking-chamblee": {
+    "address": "5389 New Peachtree Rd, Unit E, Chamblee, GA 30341, United States",
+    "appleMapsID": "I593B4ACE6A01A884",
+    "latitude": 33.890658,
+    "longitude": -84.300054,
+    "name": "Family Baking"
+  },
+  "flour-and-time-bakery": {
+    "address": "1133 Huff Rd NW, Unit F, Atlanta, GA 30318, United States",
+    "appleMapsID": "I715F629CF9FA636",
+    "latitude": 33.789168,
+    "longitude": -84.425147,
+    "name": "Flour + Time"
+  },
+  "galette-avondale-estates": {
+    "address": "110 N Avondale Rd, Avondale Estates, GA 30002, United States",
+    "appleMapsID": "I585D4768CE7980EF",
+    "latitude": 33.776388,
+    "longitude": -84.268022,
+    "name": "Galette"
+  },
+  "henris-bakery-buckhead": {
+    "address": "56 E Andrews Dr NW, Atlanta, GA 30305, United States",
+    "appleMapsID": "I6F6B3666388D93B4",
+    "latitude": 33.843124,
+    "longitude": -84.380782,
+    "name": "Henri's Bakery & Deli"
+  },
+  "international-bakery-cheshire-bridge": {
+    "address": "2165 Cheshire Bridge Rd NE, Unit 5, Atlanta, GA 30324, United States",
+    "appleMapsID": "I4257FF7FFCACDDE5",
+    "latitude": 33.813345,
+    "longitude": -84.353532,
+    "name": "International Bakery"
+  },
+  "lees-bakery-buford-highway": {
+    "address": "4005 Buford Hwy NE, Unit C, Atlanta, GA 30345, United States",
+    "appleMapsID": "I854CBFE7A6BFA6C2",
+    "latitude": 33.860081,
+    "longitude": -84.308905,
+    "name": "Lee's Bakery"
+  },
+  "little-tart-bakeshop-grant-park": {
+    "address": "437 Memorial Dr SE, Atlanta, GA 30312, United States",
+    "appleMapsID": "IA6FD2E219580D5B4",
+    "latitude": 33.746084,
+    "longitude": -84.3728,
+    "name": "The Little Tart Bakeshop"
+  },
+  "mozart-bakery-buford-highway": {
+    "address": "5301 Buford Hwy, Doraville, GA 30340, United States",
+    "appleMapsID": "IE8C2F6D08A793236",
+    "latitude": 33.896718,
+    "longitude": -84.280891,
+    "name": "Cafe Mozart Bakery"
+  },
+  "panaderia-del-valle": {
+    "address": "5781 Buford Hwy NE, Ste 105, Atlanta, GA 30340, United States",
+    "appleMapsID": "IB31F13A93161E708",
+    "latitude": 33.908058,
+    "longitude": -84.26683,
+    "name": "Panaderia Del Valle"
+  },
+  "revolution-doughnuts-decatur": {
+    "address": "908 W College Ave, Decatur, GA 30030, United States",
+    "appleMapsID": "I94B03961F2E59A04",
+    "latitude": 33.765481,
+    "longitude": -84.30836,
+    "name": "Revolution Doughnuts"
+  },
+  "saint-germain-interlock": {
+    "address": "1115 Howell Mill Rd NW, Unit 372, Atlanta, GA 30318, United States",
+    "appleMapsID": "IAF6F9E33B5C5291E",
+    "latitude": 33.785284,
+    "longitude": -84.411319,
+    "name": "Saint Germain French Bakery"
+  },
+  "southern-baked-pie-buckhead": {
+    "address": "3145 Peachtree Rd, Unit 165, Atlanta, GA 30305, United States",
+    "appleMapsID": "I35D7085E8421F8A0",
+    "latitude": 33.839958,
+    "longitude": -84.377623,
+    "name": "Southern Baked Pie Company"
+  },
+  "southern-sweets-bakery": {
+    "address": "186 Rio Cir, Decatur, GA 30030, United States",
+    "appleMapsID": "IC9E9B14A4FAAC7C7",
+    "latitude": 33.77996,
+    "longitude": -84.269525,
+    "name": "Southern Sweets Bakery"
+  },
+  "sweet-hut-doraville": {
+    "address": "5150 Buford Hwy, Unit A-100, Doraville, GA 30340, United States",
+    "appleMapsID": "I3005F70DF93767E9",
+    "latitude": 33.893445,
+    "longitude": -84.284379,
+    "name": "Sweet Hut Bakery & Cafe"
+  },
+  "white-windmill-doraville": {
+    "address": "5881 Buford Hwy, Doraville, GA 30340, United States",
+    "appleMapsID": "I8A411954239FC81F",
+    "latitude": 33.910724,
+    "longitude": -84.264397,
+    "name": "White Windmill Bakery & Cafe"
+  }
+}

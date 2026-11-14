@@ -1,0 +1,1243 @@
+{
+  "type": "FeatureCollection",
+  "placemoirGuide": "0.1",
+  "guide": {
+    "id": "appalachian-trail-towns",
+    "status": "draft",
+    "kind": "route",
+    "name": "The Appalachian Trail from Springer Mountain to Katahdin",
+    "description": "The trail towns, outfitters, hostels and diners that keep Appalachian Trail hikers going from Georgia to Maine, in trail order, with stops worth a drive for anyone visiting.",
+    "author": {
+      "name": "friends of Placemoir"
+    },
+    "inLanguage": "en",
+    "dateModified": "2026-11-14",
+    "region": "Georgia to Maine",
+    "countries": [
+      "US"
+    ],
+    "ordered": true,
+    "sections": [
+      {
+        "id": "georgia",
+        "name": "Georgia · Springer Mountain to Dicks Creek Gap"
+      },
+      {
+        "id": "north-carolina",
+        "name": "North Carolina · Franklin to Fontana Dam"
+      },
+      {
+        "id": "great-smoky-mountains",
+        "name": "Great Smoky Mountains · Fontana Dam to Davenport Gap"
+      },
+      {
+        "id": "hot-springs-erwin-and-the-roan",
+        "name": "Hot Springs, Erwin and the Roan · North Carolina and Tennessee"
+      },
+      {
+        "id": "virginia",
+        "name": "Virginia · Damascus to McAfee Knob"
+      },
+      {
+        "id": "west-virginia-maryland-and-pennsylvania",
+        "name": "West Virginia, Maryland and Pennsylvania · Harpers Ferry to Delaware Water Gap"
+      },
+      {
+        "id": "new-jersey-new-york-and-connecticut",
+        "name": "New Jersey, New York and Connecticut"
+      },
+      {
+        "id": "vermont-and-new-hampshire",
+        "name": "Vermont and New Hampshire"
+      },
+      {
+        "id": "maine",
+        "name": "Maine · Monson to Katahdin"
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "amicalola-falls-state-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2464,
+          34.5623
+        ]
+      },
+      "properties": {
+        "name": "Amicalola Falls State Park",
+        "category": "state-park",
+        "section": "georgia",
+        "position": 1,
+        "notes": "Where most northbound hikers start, with the stone arch, the hiker registration area and the long staircase beside a 729-foot waterfall. The approach trail to Springer adds about 8.5 miles; drivers can see the falls from the top or bottom parking areas.",
+        "address": "166 Amicalola Falls State Park Rd, Dawsonville, GA 30534",
+        "locality": "Dawsonville"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "amicalola-falls-lodge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2427,
+          34.5654
+        ]
+      },
+      "properties": {
+        "name": "Amicalola Falls Lodge",
+        "category": "lodge",
+        "section": "georgia",
+        "position": 2,
+        "notes": "A state park lodge on the ridge above the falls with long views over the foothills and an on-site restaurant. An easy first or last night for hikers and their families.",
+        "address": "418 Amicalola Falls Lodge Rd, Dawsonville, GA 30534",
+        "locality": "Dawsonville"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "springer-mountain",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1935,
+          34.6267
+        ]
+      },
+      "properties": {
+        "name": "Springer Mountain",
+        "category": "park",
+        "section": "georgia",
+        "position": 3,
+        "notes": "The southern terminus, marked by a bronze plaque and the first white blaze. A Forest Service road gets you within about a mile, so day visitors can walk up and back; check road conditions in winter.",
+        "address": "Forest Service Road 42, Chattahoochee National Forest, GA",
+        "locality": "Springer Mountain",
+        "match": {
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "blood-mountain",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.937,
+          34.7397
+        ]
+      },
+      "properties": {
+        "name": "Blood Mountain",
+        "category": "park",
+        "section": "georgia",
+        "position": 4,
+        "notes": "The highest point on the Georgia AT, topped by a stone shelter built in the 1930s and wide views from the rock slabs. A seasonal bear canister rule applies to overnight hikers on this stretch; check the Forest Service site.",
+        "address": "Byron Reece Trailhead, US-129, Blairsville, GA 30512",
+        "locality": "Blairsville"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mountain-crossings",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9177,
+          34.7351
+        ]
+      },
+      "properties": {
+        "name": "Mountain Crossings at Walasi-Yi",
+        "category": "other",
+        "section": "georgia",
+        "position": 5,
+        "notes": "The outfitter in a 1930s stone building that the trail passes straight through, about 30 miles in. Famous for pack shakedowns, and for the tree out front hung with boots from hikers who quit here.",
+        "address": "12471 Gainesville Hwy, Blairsville, GA 30512",
+        "locality": "Neels Gap"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dicks-creek-gap",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6186,
+          34.912
+        ]
+      },
+      "properties": {
+        "name": "Dicks Creek Gap",
+        "category": "park",
+        "section": "georgia",
+        "position": 6,
+        "notes": "The road crossing hikers use to reach Hiawassee, about 11 miles west, for resupply and a motel night on Lake Chatuge. Hiker shuttles run in the spring season; drivers can park here for a walk toward the North Carolina line.",
+        "address": "US-76, Hiawassee, GA 30546",
+        "locality": "Hiawassee"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "outdoor-76",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3807,
+          35.1823
+        ]
+      },
+      "properties": {
+        "name": "Outdoor 76",
+        "category": "other",
+        "section": "north-carolina",
+        "position": 7,
+        "notes": "An independent outfitter on Franklin's main street, known for careful shoe fitting, hiker services and a cold beer after a day outside. Hiker shuttles between the trail gaps and town run in the spring season.",
+        "address": "35 E Main St, Franklin, NC 28734",
+        "locality": "Franklin"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lazy-hiker-brewing",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3843,
+          35.1808
+        ]
+      },
+      "properties": {
+        "name": "Lazy Hiker Brewing",
+        "category": "brewery",
+        "section": "north-carolina",
+        "position": 8,
+        "notes": "A brewery in Franklin's old town hall and fire station, with a patio and food trucks. A good spot to celebrate crossing into North Carolina.",
+        "address": "188 W Main St, Franklin, NC 28734",
+        "locality": "Franklin"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nantahala-outdoor-center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5925,
+          35.3312
+        ]
+      },
+      "properties": {
+        "name": "Nantahala Outdoor Center",
+        "category": "other",
+        "section": "north-carolina",
+        "position": 9,
+        "notes": "The trail drops straight into this river outfitter in the Nantahala Gorge, with a gear store, bunkhouse and River's End restaurant overlooking the rapids. Watch kayakers on the river, then face the long climb out to Cheoah Bald.",
+        "address": "13077 US-19, Bryson City, NC 28713",
+        "locality": "Wesser"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fontana-lodge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8213,
+          35.4326
+        ]
+      },
+      "properties": {
+        "name": "Fontana Village Resort",
+        "category": "hotel",
+        "section": "north-carolina",
+        "position": 10,
+        "notes": "A lakeside resort village of cabins, a lodge and a general store, the last real stop before the Smokies. Hikers often take a zero here before the climb into the park.",
+        "address": "300 Woods Rd, Fontana Dam, NC 28733",
+        "locality": "Fontana Dam"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fontana-dam",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8053,
+          35.4522
+        ]
+      },
+      "properties": {
+        "name": "Fontana Dam",
+        "category": "attraction",
+        "section": "north-carolina",
+        "position": 11,
+        "notes": "The tallest dam in the eastern US, which the AT crosses on its way into Great Smoky Mountains National Park. The lakeside shelter just south of the dam is known to hikers as the Fontana Hilton.",
+        "address": "Fontana Dam Rd, Fontana Dam, NC 28733",
+        "locality": "Fontana Dam"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kuwohi",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4984,
+          35.5629
+        ]
+      },
+      "properties": {
+        "name": "Kuwohi",
+        "category": "park",
+        "section": "great-smoky-mountains",
+        "position": 12,
+        "notes": "The highest point on the entire AT, formerly Clingmans Dome, with a concrete ramp to an observation tower. The access road closes in winter; check the National Park Service site before driving up.",
+        "address": "Kuwohi Rd, Bryson City, NC 28713",
+        "locality": "Great Smoky Mountains"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "newfound-gap",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4253,
+          35.611
+        ]
+      },
+      "properties": {
+        "name": "Newfound Gap",
+        "category": "park",
+        "section": "great-smoky-mountains",
+        "position": 13,
+        "notes": "The big overlook on the North Carolina and Tennessee line where the trail crosses the park's main road. Hikers hitch or shuttle down to Gatlinburg from here; drivers can walk a few miles north toward Charlies Bunion.",
+        "address": "Newfound Gap Rd, Gatlinburg, TN 37738",
+        "locality": "Great Smoky Mountains"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sugarlands-visitor-center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5366,
+          35.6857
+        ]
+      },
+      "properties": {
+        "name": "Sugarlands Visitor Center",
+        "category": "visitor-center",
+        "section": "great-smoky-mountains",
+        "position": 14,
+        "notes": "The park's main visitor center just outside Gatlinburg, for backcountry permits, ranger advice and exhibits. Thru-hikers need a Smokies permit before entering; check the park site for current rules.",
+        "address": "1420 Fighting Creek Gap Rd, Gatlinburg, TN 37738",
+        "locality": "Gatlinburg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pancake-pantry",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5142,
+          35.7127
+        ]
+      },
+      "properties": {
+        "name": "Pancake Pantry",
+        "category": "restaurant",
+        "section": "great-smoky-mountains",
+        "position": 15,
+        "notes": "A Gatlinburg breakfast institution since 1960, with a long menu of pancakes and crepes. Expect a line on weekends; it moves.",
+        "address": "628 Parkway, Gatlinburg, TN 37738",
+        "locality": "Gatlinburg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "max-patch",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9607,
+          35.7967
+        ]
+      },
+      "properties": {
+        "name": "Max Patch",
+        "category": "park",
+        "section": "hot-springs-erwin-and-the-roan",
+        "position": 16,
+        "notes": "A grassy bald with 360-degree views, a couple of days south of Hot Springs. Camping and fires are banned on the summit and the access road is gravel; come at sunrise or on a weekday.",
+        "address": "Max Patch Rd, Hot Springs, NC 28743",
+        "locality": "Max Patch"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bluff-mountain-outfitters",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8279,
+          35.8923
+        ]
+      },
+      "properties": {
+        "name": "Bluff Mountain Outfitters",
+        "category": "other",
+        "section": "hot-springs-erwin-and-the-roan",
+        "position": 17,
+        "notes": "Hot Springs' longtime outfitter and resupply store, back in business at a new spot on Bridge Street after the 2024 floods. The AT runs right down the main street outside.",
+        "address": "88 Bridge St, Hot Springs, NC 28743",
+        "locality": "Hot Springs"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hot-springs-resort-spa",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8254,
+          35.8955
+        ]
+      },
+      "properties": {
+        "name": "Hot Springs Resort & Spa",
+        "category": "hotel",
+        "section": "hot-springs-erwin-and-the-roan",
+        "position": 18,
+        "notes": "Private outdoor tubs filled with natural mineral water beside Spring Creek, plus campsites and cabins. A soak here is the classic Hot Springs reward; book tubs ahead on weekends.",
+        "address": "315 Bridge St, Hot Springs, NC 28743",
+        "locality": "Hot Springs"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spring-creek-tavern",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8272,
+          35.893
+        ]
+      },
+      "properties": {
+        "name": "Spring Creek Tavern",
+        "category": "restaurant",
+        "section": "hot-springs-erwin-and-the-roan",
+        "position": 19,
+        "notes": "A tavern with a deck over Spring Creek, burgers, local beer and live music some nights. The town's main gathering place for hikers and paddlers.",
+        "address": "145 Bridge St, Hot Springs, NC 28743",
+        "locality": "Hot Springs"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "smoky-mountain-diner",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8305,
+          35.8916
+        ]
+      },
+      "properties": {
+        "name": "Smoky Mountain Diner",
+        "category": "restaurant",
+        "section": "hot-springs-erwin-and-the-roan",
+        "position": 20,
+        "notes": "A small-town diner known for big breakfasts and plain home cooking. Closed some days, so check before you go.",
+        "address": "70 Lance Ave, Hot Springs, NC 28743",
+        "locality": "Hot Springs"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "steel-rails-coffee-house",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.416,
+          36.1455
+        ]
+      },
+      "properties": {
+        "name": "Steel Rails Coffee House",
+        "category": "cafe",
+        "section": "hot-springs-erwin-and-the-roan",
+        "position": 21,
+        "notes": "A coffee shop in downtown Erwin, the railroad town where the trail crosses the Nolichucky River. Erwin was hit hard by the 2024 floods; call hostels ahead and check the Unicoi County tourism site for what is open.",
+        "address": "117 N Main Ave, Erwin, TN 37650",
+        "locality": "Erwin"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "carvers-gap",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1109,
+          36.1065
+        ]
+      },
+      "properties": {
+        "name": "Carvers Gap",
+        "category": "park",
+        "section": "hot-springs-erwin-and-the-roan",
+        "position": 22,
+        "notes": "The parking area at the start of the Roan Highlands balds, some of the finest open walking on the trail. Walk north over Round Bald and Jane Bald; it is often windy and cold, even in summer.",
+        "address": "TN-143 at NC-261, Roan Mountain, TN 37687",
+        "locality": "Roan Highlands"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mountain-harbour",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0164,
+          36.1794
+        ]
+      },
+      "properties": {
+        "name": "Mountain Harbour Bed & Breakfast",
+        "category": "hotel",
+        "section": "hot-springs-erwin-and-the-roan",
+        "position": 23,
+        "notes": "A bed and breakfast near the trail below the Roan, known among hikers for a huge breakfast and shuttles to Carvers Gap. Its hostel was being rebuilt after Hurricane Helene; check the official site.",
+        "address": "9151 Highway 19 E, Roan Mountain, TN 37687",
+        "locality": "Roan Mountain"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "damascus-diner",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7888,
+          36.6343
+        ]
+      },
+      "properties": {
+        "name": "Damascus Diner",
+        "category": "restaurant",
+        "section": "virginia",
+        "position": 24,
+        "notes": "A homestyle diner with hiker-size portions in the self-styled Trail Town USA. Good for breakfast before a walk on the Creeper Trail.",
+        "address": "103 S Shady Ave, Damascus, VA 24236",
+        "locality": "Damascus"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "damascus-old-mill-inn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.79,
+          36.6364
+        ]
+      },
+      "properties": {
+        "name": "Damascus Old Mill Inn",
+        "category": "inn",
+        "section": "virginia",
+        "position": 25,
+        "notes": "An inn in an old mill on a millpond at the edge of town, with a restaurant and pub on the water. The comfortable choice in a town full of hostels.",
+        "address": "215 W Imboden St, Damascus, VA 24236",
+        "locality": "Damascus"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virginia-creeper-trail-damascus",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7844,
+          36.6309
+        ]
+      },
+      "properties": {
+        "name": "Virginia Creeper Trail",
+        "category": "park",
+        "section": "virginia",
+        "position": 26,
+        "notes": "A rail trail that shares the AT's route through downtown Damascus, with bike rentals and shuttles in town. The 17 miles west to Abingdon are open; the climb east toward Whitetop was damaged in the 2024 floods, so check the Visit Damascus site.",
+        "address": "Damascus Town Park, Damascus, VA 24236",
+        "locality": "Damascus"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "grayson-highlands-state-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4987,
+          36.6255
+        ]
+      },
+      "properties": {
+        "name": "Grayson Highlands State Park",
+        "category": "state-park",
+        "section": "virginia",
+        "position": 27,
+        "notes": "High grassy balds and rock outcrops where wild ponies graze along the trail. Easy to reach by car for a short walk; please do not feed or pet the ponies.",
+        "address": "829 Grayson Highland Ln, Mouth of Wilson, VA 24363",
+        "locality": "Grayson Highlands"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "angels-rest-hikers-haven",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7346,
+          37.333
+        ]
+      },
+      "properties": {
+        "name": "Angels Rest Hiker's Haven",
+        "category": "hotel",
+        "section": "virginia",
+        "position": 28,
+        "notes": "A hostel on a wooded lot at the foot of Angels Rest, walking distance to the grocery and restaurants. Offers bunks, camping, shuttles and parking for section hikers.",
+        "address": "204 Douglas Ln, Pearisburg, VA 24134",
+        "locality": "Pearisburg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mcafee-knob-trailhead",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0902,
+          37.3803
+        ]
+      },
+      "properties": {
+        "name": "McAfee Knob Trailhead",
+        "category": "trailhead",
+        "section": "virginia",
+        "position": 29,
+        "notes": "Start of the climb to McAfee Knob, the ledge that is probably the most photographed spot on the AT. It is about 8 miles round trip; the lot fills early on weekends, so arrive at dawn or come midweek.",
+        "address": "VA-311, Catawba, VA 24070",
+        "locality": "Catawba"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "atc-harpers-ferry",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.7405,
+          39.3256
+        ]
+      },
+      "properties": {
+        "name": "Appalachian Trail Conservancy Visitor Center",
+        "category": "visitor-center",
+        "section": "west-virginia-maryland-and-pennsylvania",
+        "position": 30,
+        "notes": "The ATC's headquarters near the trail's midpoint, where thru-hikers have their photo taken for the yearly album. Stop in for maps, advice and to sign the register.",
+        "address": "799 Washington St, Harpers Ferry, WV 25425",
+        "locality": "Harpers Ferry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "jefferson-rock",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.7333,
+          39.3226
+        ]
+      },
+      "properties": {
+        "name": "Jefferson Rock",
+        "category": "park",
+        "section": "west-virginia-maryland-and-pennsylvania",
+        "position": 31,
+        "notes": "A balanced slab of shale on the AT above the meeting of the Potomac and Shenandoah. A short climb from Lower Town by stone steps.",
+        "address": "Jefferson Rock Trail, Harpers Ferry, WV 25425",
+        "locality": "Harpers Ferry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-towns-inn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.7323,
+          39.3241
+        ]
+      },
+      "properties": {
+        "name": "The Town's Inn",
+        "category": "inn",
+        "section": "west-virginia-maryland-and-pennsylvania",
+        "position": 32,
+        "notes": "Two pre-Civil War stone houses on High Street in Lower Town, with simple private rooms and a casual restaurant, a few steps from the trail. A central base for exploring the national historical park.",
+        "address": "179 High St, Harpers Ferry, WV 25425",
+        "locality": "Harpers Ferry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "appalachian-trail-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3057,
+          40.0326
+        ]
+      },
+      "properties": {
+        "name": "Appalachian Trail Museum",
+        "category": "museum",
+        "section": "west-virginia-maryland-and-pennsylvania",
+        "position": 33,
+        "notes": "A small museum in an old grist mill near the trail's midpoint, with early hiker gear and a trail shelter built by Earl Shaffer, the first thru-hiker. Open seasonally; check the official site.",
+        "address": "1120 Pine Grove Rd, Gardners, PA 17324",
+        "locality": "Pine Grove Furnace"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "doyle-hotel",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0304,
+          40.3903
+        ]
+      },
+      "properties": {
+        "name": "The Doyle Hotel",
+        "category": "restaurant",
+        "section": "west-virginia-maryland-and-pennsylvania",
+        "position": 34,
+        "notes": "A brick hotel and bar that has fed AT hikers since the trail was young, right on the route through town. Classic American food and cold beer.",
+        "address": "7 N Market St, Duncannon, PA 17020",
+        "locality": "Duncannon",
+        "match": {
+          "query": "Doyle Hotel"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "church-of-the-mountain-hostel",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1418,
+          40.9832
+        ]
+      },
+      "properties": {
+        "name": "Presbyterian Church of the Mountain",
+        "category": "hotel",
+        "section": "west-virginia-maryland-and-pennsylvania",
+        "position": 35,
+        "notes": "The church opened a hiker center for thru-hikers in 1976 and calls it the oldest hostel on the trail. Arrangements change from year to year, so check with the church before counting on a bunk.",
+        "address": "Main St and Church Ln, Delaware Water Gap, PA 18327",
+        "locality": "Delaware Water Gap"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "village-farmer-bakery",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1447,
+          40.9855
+        ]
+      },
+      "properties": {
+        "name": "Village Farmer & Bakery",
+        "category": "bakery",
+        "section": "west-virginia-maryland-and-pennsylvania",
+        "position": 36,
+        "notes": "A farm market and bakery best known for its deep-dish fruit pies, with a hot dog and slice deal hikers love.",
+        "address": "13 Broad St, Delaware Water Gap, PA 18327",
+        "locality": "Delaware Water Gap"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "deer-head-inn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1408,
+          40.983
+        ]
+      },
+      "properties": {
+        "name": "Deer Head Inn",
+        "category": "bar",
+        "section": "west-virginia-maryland-and-pennsylvania",
+        "position": 37,
+        "notes": "A Victorian inn that has hosted live jazz for decades, a few steps from the trail. Good for an evening set and dinner.",
+        "address": "5 Main St, Delaware Water Gap, PA 18327",
+        "locality": "Delaware Water Gap"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mount-tammany",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1109,
+          40.9695
+        ]
+      },
+      "properties": {
+        "name": "Mount Tammany",
+        "category": "park",
+        "section": "new-jersey-new-york-and-connecticut",
+        "position": 38,
+        "notes": "The cliff-top view straight down into the Delaware Water Gap, reached by a steep side trail from the AT's New Jersey trailhead. Busy on weekends; start early.",
+        "address": "Dunnfield Creek Trailhead, Old Mine Rd, Columbia, NJ 07832",
+        "locality": "Delaware Water Gap"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bear-mountain-state-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9898,
+          41.3131
+        ]
+      },
+      "properties": {
+        "name": "Bear Mountain State Park",
+        "category": "state-park",
+        "section": "new-jersey-new-york-and-connecticut",
+        "position": 39,
+        "notes": "The trail climbs Bear Mountain on rebuilt stone steps, then passes through the Trailside Museums and Zoo, its lowest point. The park inn and lakeside lawns make it an easy family day.",
+        "address": "Palisades Interstate Pkwy and US-9W, Bear Mountain, NY 10911",
+        "locality": "Bear Mountain"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kent-falls-state-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4117,
+          41.7754
+        ]
+      },
+      "properties": {
+        "name": "Kent Falls State Park",
+        "category": "state-park",
+        "section": "new-jersey-new-york-and-connecticut",
+        "position": 40,
+        "notes": "A series of cascades with a short stair trail alongside, a few miles north of the village. A good stop for drivers following the trail through the Housatonic Valley.",
+        "address": "462 Kent Cornwall Rd, Kent, CT 06757",
+        "locality": "Kent"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fife-n-drum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4748,
+          41.728
+        ]
+      },
+      "properties": {
+        "name": "Fife 'n Drum Restaurant & Inn",
+        "category": "restaurant",
+        "section": "new-jersey-new-york-and-connecticut",
+        "position": 41,
+        "notes": "A long-running restaurant, pub and small inn on Kent's main street, with live music some nights. Kent is about a mile from the trail; hikers often walk in for a meal.",
+        "address": "53 N Main St, Kent, CT 06757",
+        "locality": "Kent"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inn-at-long-trail",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.8331,
+          43.6641
+        ]
+      },
+      "properties": {
+        "name": "Inn at Long Trail",
+        "category": "inn",
+        "section": "vermont-and-new-hampshire",
+        "position": 42,
+        "notes": "A rustic inn near where the AT and the Long Trail split, with McGrath's Irish Pub built around a boulder. A favorite night out for hikers and skiers alike.",
+        "address": "709 US-4, Killington, VT 05751",
+        "locality": "Killington"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lous-restaurant-bakery",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.2892,
+          43.7015
+        ]
+      },
+      "properties": {
+        "name": "Lou's Restaurant & Bakery",
+        "category": "restaurant",
+        "section": "vermont-and-new-hampshire",
+        "position": 43,
+        "notes": "Hanover's breakfast and lunch counter since 1947, with pastries and big plates. The trail runs right through the Dartmouth town on Main Street.",
+        "address": "30 S Main St, Hanover, NH 03755",
+        "locality": "Hanover",
+        "match": {
+          "query": "Lou's Restaurant and Bakery"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hanover-inn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.2883,
+          43.7024
+        ]
+      },
+      "properties": {
+        "name": "Hanover Inn",
+        "category": "inn",
+        "section": "vermont-and-new-hampshire",
+        "position": 44,
+        "notes": "A historic hotel on the Dartmouth Green, on the AT's path through town. The upscale option for visitors meeting a hiker.",
+        "address": "2 E Wheelock St, Hanover, NH 03755",
+        "locality": "Hanover"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pinkham-notch-visitor-center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2531,
+          44.2575
+        ]
+      },
+      "properties": {
+        "name": "Pinkham Notch Visitor Center",
+        "category": "visitor-center",
+        "section": "vermont-and-new-hampshire",
+        "position": 45,
+        "notes": "The Appalachian Mountain Club's base below Mount Washington, with trail advice, a dining room and Joe Dodge Lodge. Check the higher-summits forecast here before heading into the Presidentials.",
+        "address": "361 NH-16, Gorham, NH 03581",
+        "locality": "Pinkham Notch"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "colonial-fort-inn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1946,
+          44.398
+        ]
+      },
+      "properties": {
+        "name": "Colonial Fort Inn",
+        "category": "inn",
+        "section": "vermont-and-new-hampshire",
+        "position": 46,
+        "notes": "A small family-run motel on Gorham's main street, long known to hikers as Hikers Paradise. Plain rooms with private baths, in the resupply town between the Presidentials and the Mahoosucs.",
+        "address": "370 Main St, Gorham, NH 03581",
+        "locality": "Gorham"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shaws-hiker-hostel",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.503,
+          45.2868
+        ]
+      },
+      "properties": {
+        "name": "Shaw's Hiker Hostel",
+        "category": "hostel",
+        "section": "maine",
+        "position": 47,
+        "notes": "A Monson institution before the 100-Mile Wilderness, known for a big breakfast, food drops and its own gear shop. Book well ahead in late summer.",
+        "address": "17 Pleasant St, Blanchard Twp, ME 04464",
+        "locality": "Monson",
+        "match": {
+          "query": "Shaw's Lodging"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "appalachian-trail-hostel-outfitters",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.7088,
+          45.6534
+        ]
+      },
+      "properties": {
+        "name": "Appalachian Trail Hostel & Outfitters",
+        "category": "hostel",
+        "section": "maine",
+        "position": 48,
+        "notes": "The northernmost hiker service on the trail, with lodging, an outfitter, shuttles and help with Baxter State Park rules for a Katahdin climb.",
+        "address": "33 Penobscot Ave, Millinocket, ME 04462",
+        "locality": "Millinocket"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "katahdin-stream-campground",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.9988,
+          45.8871
+        ]
+      },
+      "properties": {
+        "name": "Katahdin Stream Campground",
+        "category": "park",
+        "section": "maine",
+        "position": 49,
+        "notes": "The campground at the base of the Hunt Trail, the AT's final climb. Day-use parking and campsites must be reserved; check the Baxter State Park site for rules and the hiking season.",
+        "address": "Park Tote Rd, Baxter State Park, ME 04462",
+        "locality": "Baxter State Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "katahdin",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.9197,
+          45.9036
+        ]
+      },
+      "properties": {
+        "name": "Katahdin",
+        "category": "park",
+        "section": "maine",
+        "position": 50,
+        "notes": "The northern terminus at Baxter Peak, marked by the weathered wooden sign. It is a long, rocky, exposed day hike; the park closes trails in bad weather and outside its season.",
+        "address": "Baxter State Park, ME 04462",
+        "locality": "Baxter State Park",
+        "match": {
+          "query": "Mount Katahdin"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-georgia",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Georgia · Springer Mountain to Dicks Creek Gap",
+        "mode": "hike",
+        "section": "georgia",
+        "stops": [
+          "amicalola-falls-state-park",
+          "amicalola-falls-lodge",
+          "springer-mountain",
+          "blood-mountain",
+          "mountain-crossings",
+          "dicks-creek-gap"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-north-carolina",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "North Carolina · Franklin to Fontana Dam",
+        "mode": "hike",
+        "section": "north-carolina",
+        "stops": [
+          "outdoor-76",
+          "lazy-hiker-brewing",
+          "nantahala-outdoor-center",
+          "fontana-lodge",
+          "fontana-dam"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-great-smoky-mountains",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Great Smoky Mountains · Fontana Dam to Davenport Gap",
+        "mode": "hike",
+        "section": "great-smoky-mountains",
+        "stops": [
+          "kuwohi",
+          "newfound-gap",
+          "sugarlands-visitor-center",
+          "pancake-pantry"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-hot-springs-erwin-and-the-roan",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Hot Springs, Erwin and the Roan · North Carolina and Tennessee",
+        "mode": "hike",
+        "section": "hot-springs-erwin-and-the-roan",
+        "stops": [
+          "max-patch",
+          "bluff-mountain-outfitters",
+          "hot-springs-resort-spa",
+          "spring-creek-tavern",
+          "smoky-mountain-diner",
+          "steel-rails-coffee-house",
+          "carvers-gap",
+          "mountain-harbour"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-virginia",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Virginia · Damascus to McAfee Knob",
+        "mode": "hike",
+        "section": "virginia",
+        "stops": [
+          "damascus-diner",
+          "damascus-old-mill-inn",
+          "virginia-creeper-trail-damascus",
+          "grayson-highlands-state-park",
+          "angels-rest-hikers-haven",
+          "mcafee-knob-trailhead"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-west-virginia-maryland-and-pennsylvania",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "West Virginia, Maryland and Pennsylvania · Harpers Ferry to Delaware Water Gap",
+        "mode": "hike",
+        "section": "west-virginia-maryland-and-pennsylvania",
+        "stops": [
+          "atc-harpers-ferry",
+          "jefferson-rock",
+          "the-towns-inn",
+          "appalachian-trail-museum",
+          "doyle-hotel",
+          "church-of-the-mountain-hostel",
+          "village-farmer-bakery",
+          "deer-head-inn"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-new-jersey-new-york-and-connecticut",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "New Jersey, New York and Connecticut",
+        "mode": "hike",
+        "section": "new-jersey-new-york-and-connecticut",
+        "stops": [
+          "mount-tammany",
+          "bear-mountain-state-park",
+          "kent-falls-state-park",
+          "fife-n-drum"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-vermont-and-new-hampshire",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Vermont and New Hampshire",
+        "mode": "hike",
+        "section": "vermont-and-new-hampshire",
+        "stops": [
+          "inn-at-long-trail",
+          "lous-restaurant-bakery",
+          "hanover-inn",
+          "pinkham-notch-visitor-center",
+          "colonial-fort-inn"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-maine",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Maine · Monson to Katahdin",
+        "mode": "hike",
+        "section": "maine",
+        "stops": [
+          "shaws-hiker-hostel",
+          "appalachian-trail-hostel-outfitters",
+          "katahdin-stream-campground",
+          "katahdin"
+        ]
+      }
+    }
+  ]
+}

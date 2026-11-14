@@ -1,0 +1,859 @@
+{
+  "type": "FeatureCollection",
+  "placemoirGuide": "0.1",
+  "guide": {
+    "id": "boston",
+    "status": "published",
+    "kind": "city",
+    "name": "Boston on foot",
+    "description": "Seven days of the Freedom Trail and the North End, oysters and cannoli, great museums, Fenway and walks along the Charles.",
+    "author": {
+      "name": "friends of Placemoir"
+    },
+    "inLanguage": "en",
+    "dateModified": "2026-11-08",
+    "countries": [
+      "US"
+    ],
+    "sections": [
+      {
+        "id": "stay",
+        "name": "Stay"
+      },
+      {
+        "id": "eat",
+        "name": "Eat"
+      },
+      {
+        "id": "see",
+        "name": "See"
+      },
+      {
+        "id": "outside",
+        "name": "Outside"
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "omni-parker-house",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0602,
+          42.3577
+        ]
+      },
+      "properties": {
+        "name": "Omni Parker House",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "America's oldest continuously operating hotel, on the Freedom Trail. Boston cream pie was invented here.",
+        "address": "60 School St, Boston, MA 02108",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-liberty",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0702,
+          42.3618
+        ]
+      },
+      "properties": {
+        "name": "The Liberty, a Luxury Collection Hotel",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A former jail, now a striking hotel at the foot of Beacon Hill. Have a drink in Alibi, in the old drunk tank.",
+        "address": "215 Charles St, Boston, MA 02114",
+        "locality": "Beacon Hill",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fairmont-copley",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0758,
+          42.3494
+        ]
+      },
+      "properties": {
+        "name": "Fairmont Copley Plaza",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A 1912 grand hotel on Copley Square, with a resident Labrador who greets guests.",
+        "address": "138 St James Ave, Boston, MA 02116",
+        "locality": "Back Bay",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "verb-hotel",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0955,
+          42.3466
+        ]
+      },
+      "properties": {
+        "name": "The Verb Hotel",
+        "category": "hotel",
+        "section": "stay",
+        "notes": "A rock-and-roll motel by Fenway Park, with a heated pool and vinyl in every room.",
+        "address": "1271 Boylston St, Boston, MA 02215",
+        "locality": "Fenway",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neptune-oyster",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0559,
+          42.3634
+        ]
+      },
+      "properties": {
+        "name": "Neptune Oyster",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A tiny oyster bar with the city's best hot lobster roll. Go at opening to skip the wait.",
+        "address": "63 Salem St, Boston, MA 02113",
+        "locality": "North End",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "union-oyster-house",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0569,
+          42.3612
+        ]
+      },
+      "properties": {
+        "name": "Union Oyster House",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "America's oldest restaurant, serving since 1826. Sit at the raw bar downstairs.",
+        "address": "41 Union St, Boston, MA 02108",
+        "locality": "Faneuil Hall",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "giacomos",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0535,
+          42.3651
+        ]
+      },
+      "properties": {
+        "name": "Giacomo's",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Red-sauce Italian in a small, loud room. Cash only, and a line, but it moves.",
+        "address": "355 Hanover St, Boston, MA 02113",
+        "locality": "North End",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "regina-pizzeria",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0569,
+          42.3653
+        ]
+      },
+      "properties": {
+        "name": "Regina Pizzeria",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "The original North End pizza oven, firing since 1926.",
+        "address": "11 1/2 Thacher St, Boston, MA 02113",
+        "locality": "North End",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mikes-pastry",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0544,
+          42.3643
+        ]
+      },
+      "properties": {
+        "name": "Mike's Pastry",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "The famous cannoli in the white box tied with string.",
+        "address": "300 Hanover St, Boston, MA 02113",
+        "locality": "North End",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "modern-pastry",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0547,
+          42.3635
+        ]
+      },
+      "properties": {
+        "name": "Modern Pastry",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "The locals' cannoli, filled to order, across the street from Mike's. Try both.",
+        "address": "257 Hanover St, Boston, MA 02113",
+        "locality": "North End",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "quincy-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0549,
+          42.3601
+        ]
+      },
+      "properties": {
+        "name": "Quincy Market",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A long food hall behind Faneuil Hall. Clam chowder in a bread bowl, eaten on the steps.",
+        "address": "4 S Market St, Boston, MA 02109",
+        "locality": "Faneuil Hall",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "row-34",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.048,
+          42.3496
+        ]
+      },
+      "properties": {
+        "name": "Row 34",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A working-class oyster bar in the Seaport, with a great beer list.",
+        "address": "383 Congress St, Boston, MA 02210",
+        "locality": "Seaport",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toro",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0758,
+          42.3374
+        ]
+      },
+      "properties": {
+        "name": "Toro",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Busy, delicious Spanish tapas. Order the grilled corn with aioli and cheese.",
+        "address": "1704 Washington St, Boston, MA 02118",
+        "locality": "South End",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "myers-and-chang",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0657,
+          42.3443
+        ]
+      },
+      "properties": {
+        "name": "Myers + Chang",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "A playful Asian diner from the team behind Flour. The dumplings and the tea-smoked ribs.",
+        "address": "1145 Washington St, Boston, MA 02118",
+        "locality": "South End",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "flour-bakery",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0741,
+          42.3392
+        ]
+      },
+      "properties": {
+        "name": "Flour Bakery + Cafe",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "Joanne Chang's bakery. The sticky buns are the thing to order.",
+        "address": "1595 Washington St, Boston, MA 02118",
+        "locality": "South End",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "tatte-charles",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0705,
+          42.357
+        ]
+      },
+      "properties": {
+        "name": "Tatte Bakery & Cafe",
+        "category": "cafe",
+        "section": "eat",
+        "notes": "A bright bakery on Charles Street. Breakfast before a Beacon Hill walk.",
+        "address": "70 Charles St, Boston, MA 02114",
+        "locality": "Beacon Hill",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "santarpios",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0369,
+          42.3713
+        ]
+      },
+      "properties": {
+        "name": "Santarpio's Pizza",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "No-frills pizza and grilled lamb skewers in East Boston since 1903.",
+        "address": "111 Chelsea St, Boston, MA 02128",
+        "locality": "East Boston",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sullivans",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0128,
+          42.3376
+        ]
+      },
+      "properties": {
+        "name": "Sullivan's Castle Island",
+        "category": "restaurant",
+        "section": "eat",
+        "notes": "Hot dogs and fried clams by the water since 1951. Open from late February to November.",
+        "address": "2080 William J Day Blvd, Boston, MA 02127",
+        "locality": "South Boston",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bell-in-hand",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.057,
+          42.3613
+        ]
+      },
+      "properties": {
+        "name": "Bell in Hand Tavern",
+        "category": "bar",
+        "section": "eat",
+        "notes": "Founded in 1795 by the town crier, and still pouring on the Freedom Trail.",
+        "address": "45 Union St, Boston, MA 02108",
+        "locality": "Faneuil Hall",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bleacher-bar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0969,
+          42.3467
+        ]
+      },
+      "properties": {
+        "name": "Bleacher Bar",
+        "category": "bar",
+        "section": "eat",
+        "notes": "A bar under Fenway's bleachers, with a window right onto center field.",
+        "address": "82A Lansdowne St, Boston, MA 02215",
+        "locality": "Fenway",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "paul-revere-house",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0537,
+          42.3637
+        ]
+      },
+      "properties": {
+        "name": "Paul Revere House",
+        "category": "museum",
+        "section": "see",
+        "notes": "Downtown Boston's oldest house, built around 1680, where Revere lived when he made his ride.",
+        "address": "19 North Square, Boston, MA 02113",
+        "locality": "North End",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "old-north-church",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0544,
+          42.3663
+        ]
+      },
+      "properties": {
+        "name": "Old North Church",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Where the two lanterns hung in 1775. The behind-the-scenes tour goes into the crypt.",
+        "address": "193 Salem St, Boston, MA 02113",
+        "locality": "North End",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "faneuil-hall",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0562,
+          42.36
+        ]
+      },
+      "properties": {
+        "name": "Faneuil Hall",
+        "category": "attraction",
+        "section": "see",
+        "notes": "A 1742 meeting hall where colonists argued for independence. Rangers give free talks upstairs.",
+        "address": "1 Faneuil Hall Sq, Boston, MA 02109",
+        "locality": "Faneuil Hall",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "state-house",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0638,
+          42.3588
+        ]
+      },
+      "properties": {
+        "name": "Massachusetts State House",
+        "category": "attraction",
+        "section": "see",
+        "notes": "The gold-domed State House. Free tours on weekdays.",
+        "address": "24 Beacon St, Boston, MA 02133",
+        "locality": "Beacon Hill",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "uss-constitution",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0549,
+          42.3743
+        ]
+      },
+      "properties": {
+        "name": "USS Constitution Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "Board Old Ironsides, the oldest commissioned warship afloat, then see the museum next door.",
+        "address": "Charlestown Navy Yard, Boston, MA 02129",
+        "locality": "Charlestown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mfa-boston",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.094,
+          42.3394
+        ]
+      },
+      "properties": {
+        "name": "Museum of Fine Arts, Boston",
+        "category": "museum",
+        "section": "see",
+        "notes": "One of the great American museums. Don't miss the Sargent murals over the rotunda.",
+        "address": "465 Huntington Ave, Boston, MA 02115",
+        "locality": "Fenway",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gardner-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0991,
+          42.3382
+        ]
+      },
+      "properties": {
+        "name": "Isabella Stewart Gardner Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "A Venetian palace built around a flowering courtyard, with the empty frames of the 1990 heist.",
+        "address": "25 Evans Way, Boston, MA 02115",
+        "locality": "Fenway",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "boston-public-library",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0782,
+          42.3493
+        ]
+      },
+      "properties": {
+        "name": "Boston Public Library",
+        "category": "attraction",
+        "section": "see",
+        "notes": "The 1895 McKim Building and its green-lamped Bates Hall. Free art and architecture tours.",
+        "address": "700 Boylston St, Boston, MA 02116",
+        "locality": "Back Bay",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trinity-church",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0751,
+          42.35
+        ]
+      },
+      "properties": {
+        "name": "Trinity Church",
+        "category": "attraction",
+        "section": "see",
+        "notes": "H.H. Richardson's 1877 church on Copley Square, glowing inside with murals and stained glass.",
+        "address": "206 Clarendon St, Boston, MA 02116",
+        "locality": "Back Bay",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fenway-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0972,
+          42.3467
+        ]
+      },
+      "properties": {
+        "name": "Fenway Park",
+        "category": "attraction",
+        "section": "see",
+        "notes": "The oldest ballpark in the majors, opened in 1912. Take the tour if there's no game.",
+        "address": "4 Jersey St, Boston, MA 02215",
+        "locality": "Fenway",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "new-england-aquarium",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0498,
+          42.3591
+        ]
+      },
+      "properties": {
+        "name": "New England Aquarium",
+        "category": "attraction",
+        "section": "see",
+        "notes": "A four-story ocean tank with sea turtles, and whale-watching boats leaving from the wharf.",
+        "address": "1 Central Wharf, Boston, MA 02110",
+        "locality": "Waterfront",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "jfk-library",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0342,
+          42.3163
+        ]
+      },
+      "properties": {
+        "name": "John F. Kennedy Presidential Library and Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "JFK's life and presidency in an I.M. Pei building on the harbor.",
+        "address": "Columbia Point, Boston, MA 02125",
+        "locality": "Dorchester",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ica-boston",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.043,
+          42.3529
+        ]
+      },
+      "properties": {
+        "name": "Institute of Contemporary Art",
+        "category": "museum",
+        "section": "see",
+        "notes": "Contemporary art in a building cantilevered over the harbor. The view from the Mediatheque is a highlight.",
+        "address": "25 Harbor Shore Dr, Boston, MA 02210",
+        "locality": "Seaport",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "harvard-yard",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1169,
+          42.3744
+        ]
+      },
+      "properties": {
+        "name": "Harvard Yard",
+        "category": "attraction",
+        "section": "see",
+        "notes": "Walk the yard, rub John Harvard's shoe, then browse the bookshops of Harvard Square.",
+        "address": "Harvard Yard, Cambridge, MA 02138",
+        "locality": "Cambridge",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mit-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0868,
+          42.3626
+        ]
+      },
+      "properties": {
+        "name": "MIT Museum",
+        "category": "museum",
+        "section": "see",
+        "notes": "Robots, holograms and kinetic sculpture, in a new building in Kendall Square.",
+        "address": "314 Main St, Cambridge, MA 02142",
+        "locality": "Cambridge",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "boston-common",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0636,
+          42.3554
+        ]
+      },
+      "properties": {
+        "name": "Boston Common",
+        "category": "park",
+        "section": "outside",
+        "notes": "America's oldest public park, and the start of the Freedom Trail. Follow the red brick line.",
+        "address": "139 Tremont St, Boston, MA 02111",
+        "locality": "Downtown",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "public-garden",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.07,
+          42.3541
+        ]
+      },
+      "properties": {
+        "name": "Boston Public Garden",
+        "category": "park",
+        "section": "outside",
+        "notes": "Swan boats on the lagoon in summer, and the Make Way for Ducklings statues all year.",
+        "address": "Charles St, Boston, MA 02116",
+        "locality": "Back Bay",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "esplanade",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.078,
+          42.356
+        ]
+      },
+      "properties": {
+        "name": "Charles River Esplanade",
+        "category": "park",
+        "section": "outside",
+        "notes": "A long riverside path with sailboats and the Hatch Shell. Lovely at sunset.",
+        "address": "Charles River Esplanade, Boston, MA 02114",
+        "locality": "Back Bay",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "greenway",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.053,
+          42.358
+        ]
+      },
+      "properties": {
+        "name": "Rose Kennedy Greenway",
+        "category": "park",
+        "section": "outside",
+        "notes": "A park built over the old elevated highway, with fountains, a carousel and food trucks.",
+        "address": "Rose Kennedy Greenway, Boston, MA 02110",
+        "locality": "Waterfront",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "arnold-arboretum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1235,
+          42.2995
+        ]
+      },
+      "properties": {
+        "name": "Arnold Arboretum",
+        "category": "park",
+        "section": "outside",
+        "notes": "Harvard's free arboretum. Climb Peters Hill for a view of the skyline, and come in May for the lilacs.",
+        "address": "125 Arborway, Boston, MA 02130",
+        "locality": "Jamaica Plain",
+        "lastVerified": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "castle-island",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0125,
+          42.338
+        ]
+      },
+      "properties": {
+        "name": "Castle Island",
+        "category": "park",
+        "section": "outside",
+        "notes": "A loop around Fort Independence, with planes landing overhead. Pair it with Sullivan's.",
+        "address": "2010 William J Day Blvd, Boston, MA 02127",
+        "locality": "South Boston",
+        "lastVerified": "2026-11-07"
+      }
+    }
+  ]
+}

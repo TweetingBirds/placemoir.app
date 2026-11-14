@@ -1,0 +1,1408 @@
+{
+  "type": "FeatureCollection",
+  "placemoirGuide": "0.1",
+  "guide": {
+    "id": "pacific-coast-highway",
+    "status": "draft",
+    "kind": "route",
+    "name": "The Pacific Coast Highway from San Francisco to San Diego",
+    "description": "Six days down the California coast on CA-1 and US-101, through Big Sur, the Central Coast, Santa Barbara and the Los Angeles beaches to San Diego. Big Sur closes for slides at times; check Caltrans first.",
+    "author": {
+      "name": "friends of Placemoir"
+    },
+    "inLanguage": "en",
+    "dateModified": "2026-11-14",
+    "region": "California",
+    "countries": [
+      "US"
+    ],
+    "ordered": true,
+    "sections": [
+      {
+        "id": "day-1",
+        "name": "Day 1 · San Francisco to Santa Cruz · 80 mi"
+      },
+      {
+        "id": "day-2",
+        "name": "Day 2 · Santa Cruz to Carmel · 45 mi"
+      },
+      {
+        "id": "day-3",
+        "name": "Day 3 · Carmel through Big Sur to Cambria · 100 mi"
+      },
+      {
+        "id": "day-4",
+        "name": "Day 4 · Cambria to Santa Barbara · 135 mi"
+      },
+      {
+        "id": "day-5",
+        "name": "Day 5 · Santa Barbara to Venice · 100 mi"
+      },
+      {
+        "id": "day-6",
+        "name": "Day 6 · Venice to San Diego · 135 mi"
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "golden-gate-bridge-welcome-center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.475,
+          37.8077
+        ]
+      },
+      "properties": {
+        "name": "Golden Gate Bridge Welcome Center",
+        "category": "attraction",
+        "section": "day-1",
+        "position": 1,
+        "notes": "Start on foot at the south end of the bridge for the classic view back over the bay, then follow CA-1 south through the Presidio and Golden Gate Park to the ocean.",
+        "address": "956 Lincoln Blvd, San Francisco, CA 94129",
+        "locality": "Presidio",
+        "match": {
+          "query": "Golden Gate Bridge Pavilion"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "devils-slide-trail",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.516,
+          37.5808
+        ]
+      },
+      "properties": {
+        "name": "Devil's Slide Trail",
+        "category": "park",
+        "section": "day-1",
+        "position": 2,
+        "notes": "A 1.3-mile piece of the old cliffside highway, closed to cars when the tunnels opened in 2013 and now a paved path for walkers and cyclists. Small parking lots at each end.",
+        "address": "Devil's Slide Trail, CA-1, Pacifica, CA 94044",
+        "locality": "Pacifica"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sams-chowder-house",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4758,
+          37.5025
+        ]
+      },
+      "properties": {
+        "name": "Sam's Chowder House",
+        "category": "restaurant",
+        "section": "day-1",
+        "position": 3,
+        "notes": "Lobster rolls and chowder at a big roadhouse above the water just north of Half Moon Bay. Ask for the deck when the fog stays offshore.",
+        "address": "4210 N Cabrillo Hwy, Half Moon Bay, CA 94019",
+        "locality": "Half Moon Bay"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "duartes-tavern",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3828,
+          37.2521
+        ]
+      },
+      "properties": {
+        "name": "Duarte's Tavern",
+        "category": "restaurant",
+        "section": "day-1",
+        "position": 4,
+        "notes": "A family-run tavern in the village of Pescadero since 1894, known for cream of artichoke soup and olallieberry pie. A short detour inland from the coast road.",
+        "address": "202 Stage Rd, Pescadero, CA 94060",
+        "locality": "Pescadero"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pigeon-point-light-station",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3939,
+          37.1817
+        ]
+      },
+      "properties": {
+        "name": "Pigeon Point Light Station State Historic Park",
+        "category": "attraction",
+        "section": "day-1",
+        "position": 5,
+        "notes": "One of the tallest lighthouses on the West Coast. The tower is closed for long-running restoration, but the grounds and cliff overlook are open and good for spotting gray whales in winter and spring.",
+        "address": "210 Pigeon Point Rd, Pescadero, CA 94060",
+        "locality": "Pescadero"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hi-pigeon-point-hostel",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3941,
+          37.1821
+        ]
+      },
+      "properties": {
+        "name": "HI Pigeon Point Lighthouse Hostel",
+        "category": "hostel",
+        "section": "day-1",
+        "position": 6,
+        "notes": "Dorm beds and private rooms in the old keepers' houses next to the lighthouse, run by Hostelling International. About the cheapest sea view on the whole trip; check the hostel's site before you go.",
+        "address": "210 Pigeon Point Rd, Pescadero, CA 94060",
+        "locality": "Pescadero"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ano-nuevo-state-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3355,
+          37.1088
+        ]
+      },
+      "properties": {
+        "name": "Año Nuevo State Park",
+        "category": "state-park",
+        "section": "day-1",
+        "position": 7,
+        "notes": "Northern elephant seals breed on these dunes in winter, when access is by guided walk only. The rest of the year a permit hike leads out to the viewing area; check the state park site for reservations.",
+        "address": "1 New Years Creek Rd, Pescadero, CA 94060",
+        "locality": "Año Nuevo"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "natural-bridges-state-beach",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0571,
+          36.9521
+        ]
+      },
+      "properties": {
+        "name": "Natural Bridges State Beach",
+        "category": "beach",
+        "section": "day-1",
+        "position": 8,
+        "notes": "A sea arch, tide pools at the north end, and a eucalyptus grove where monarch butterflies cluster through the late fall and winter.",
+        "address": "2531 W Cliff Dr, Santa Cruz, CA 95060",
+        "locality": "Santa Cruz"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "santa-cruz-beach-boardwalk",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0154,
+          36.9646
+        ]
+      },
+      "properties": {
+        "name": "Santa Cruz Beach Boardwalk",
+        "category": "attraction",
+        "section": "day-1",
+        "position": 9,
+        "notes": "A seaside amusement park running since 1907, with the wooden Giant Dipper coaster and a 1911 Looff carousel. Rides run on a reduced schedule outside summer.",
+        "address": "400 Beach St, Santa Cruz, CA 95060",
+        "locality": "Santa Cruz"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dream-inn-santa-cruz",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0248,
+          36.9619
+        ]
+      },
+      "properties": {
+        "name": "Dream Inn Santa Cruz",
+        "category": "inn",
+        "section": "day-1",
+        "position": 10,
+        "notes": "A tall 1960s hotel set right on Cowell Beach, where every room faces the water and the wharf. Walk to the boardwalk in ten minutes.",
+        "address": "175 Beach St, Santa Cruz, CA 95060",
+        "locality": "Santa Cruz"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "phils-fish-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.7583,
+          36.7658
+        ]
+      },
+      "properties": {
+        "name": "Phil's Fish Market",
+        "category": "restaurant",
+        "section": "day-2",
+        "position": 11,
+        "notes": "Cioppino and fried fish in a big, casual seafood hall, now in Castroville after many years at Moss Landing harbor. An easy stop where CA-1 meets the artichoke fields.",
+        "address": "10700 Merritt St, Castroville, CA 95012",
+        "locality": "Castroville"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "monterey-bay-aquarium",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9017,
+          36.6181
+        ]
+      },
+      "properties": {
+        "name": "Monterey Bay Aquarium",
+        "category": "attraction",
+        "section": "day-2",
+        "position": 12,
+        "notes": "Built inside an old sardine cannery at the end of Cannery Row, with a three-story kelp forest and a huge open-ocean tank. Book timed tickets ahead in summer and on holidays.",
+        "address": "886 Cannery Row, Monterey, CA 93940",
+        "locality": "Monterey"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "asilomar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9374,
+          36.6192
+        ]
+      },
+      "properties": {
+        "name": "Asilomar Hotel & Conference Grounds",
+        "category": "hotel",
+        "section": "day-2",
+        "position": 13,
+        "notes": "Julia Morgan designed the first lodges here a century ago. Rooms are plain, but the dunes boardwalk runs straight to the beach and the price is gentle for this coast.",
+        "address": "800 Asilomar Ave, Pacific Grove, CA 93950",
+        "locality": "Pacific Grove",
+        "match": {
+          "query": "Asilomar Conference Grounds"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lone-cypress",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9654,
+          36.5686
+        ]
+      },
+      "properties": {
+        "name": "The Lone Cypress",
+        "category": "park",
+        "section": "day-2",
+        "position": 14,
+        "notes": "The best-known stop on 17-Mile Drive, the private loop through Pebble Beach that charges a per-car fee at the gates. Bird Rock and Fanshell Overlook along the way are quieter.",
+        "address": "17-Mile Dr, Pebble Beach, CA 93953",
+        "locality": "Pebble Beach"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "carmel-mission",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9198,
+          36.5425
+        ]
+      },
+      "properties": {
+        "name": "Carmel Mission Basilica",
+        "category": "museum",
+        "section": "day-2",
+        "position": 15,
+        "notes": "Mission San Carlos Borromeo, founded in 1771 and the headquarters of the California missions under Junípero Serra. The museum rooms and gardens take about an hour.",
+        "address": "3080 Rio Rd, Carmel-By-The-Sea, CA 93923",
+        "locality": "Carmel"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cypress-inn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9234,
+          36.554
+        ]
+      },
+      "properties": {
+        "name": "Cypress Inn",
+        "category": "inn",
+        "section": "day-2",
+        "position": 16,
+        "notes": "A 1929 Mediterranean-style inn in the middle of the village, once co-owned by Doris Day and still openly welcoming to dogs.",
+        "address": "Lincoln St & 7th Ave, Carmel-By-The-Sea, CA 93921",
+        "locality": "Carmel"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "la-bicyclette",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9228,
+          36.5539
+        ]
+      },
+      "properties": {
+        "name": "La Bicyclette",
+        "category": "restaurant",
+        "section": "day-2",
+        "position": 17,
+        "notes": "A small European-style bistro with a wood-fired oven, a short walk from the inns in the village.",
+        "address": "Dolores St & 7th Ave, Carmel-By-The-Sea, CA 93921",
+        "locality": "Carmel"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "point-lobos",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9387,
+          36.5154
+        ]
+      },
+      "properties": {
+        "name": "Point Lobos State Natural Reserve",
+        "category": "park",
+        "section": "day-3",
+        "position": 18,
+        "notes": "Granite headlands, cypress groves and coves with harbor seals and sea otters, three miles south of Carmel. Parking inside is limited, so come early.",
+        "address": "62 CA-1, Carmel-By-The-Sea, CA 93923",
+        "locality": "Carmel"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bixby-creek-bridge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9019,
+          36.3716
+        ]
+      },
+      "properties": {
+        "name": "Bixby Creek Bridge",
+        "category": "park",
+        "section": "day-3",
+        "position": 19,
+        "notes": "The 1932 concrete arch most people picture when they think of Big Sur. Use the pullout on the north side and keep off the roadway. Highway 1 here closes for slides and storms at times; check Caltrans QuickMap before you set out.",
+        "address": "CA-1, Carmel, CA 93923",
+        "locality": "Big Sur",
+        "match": {
+          "query": "Bixby Bridge"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "point-sur-state-historic-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9017,
+          36.3064
+        ]
+      },
+      "properties": {
+        "name": "Point Sur State Historic Park",
+        "category": "museum",
+        "section": "day-3",
+        "position": 20,
+        "notes": "An 1889 light station on a volcanic rock above the surf, visited only on guided tours that meet at the gate on Highway 1. Check the state park site for tour days.",
+        "address": "Point Sur Lighthouse, CA-1, Big Sur, CA 93920",
+        "locality": "Big Sur",
+        "match": {
+          "query": "Point Sur Lighthouse"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pfeiffer-big-sur-state-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.7812,
+          36.2472
+        ]
+      },
+      "properties": {
+        "name": "Pfeiffer Big Sur State Park",
+        "category": "state-park",
+        "section": "day-3",
+        "position": 21,
+        "notes": "Redwoods along the Big Sur River, a short trail to Pfeiffer Falls and a large campground. Reserve campsites well ahead.",
+        "address": "47555 CA-1, Big Sur, CA 93920",
+        "locality": "Big Sur"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "big-sur-lodge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.7857,
+          36.2529
+        ]
+      },
+      "properties": {
+        "name": "Big Sur Lodge",
+        "category": "lodge",
+        "section": "day-3",
+        "position": 22,
+        "notes": "Simple cottages inside the state park, with a restaurant and the river trails at the door. The most affordable roof in Big Sur short of a tent.",
+        "address": "47225 Highway 1, Big Sur, CA 93920",
+        "locality": "Big Sur"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "glen-oaks-big-sur",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.801,
+          36.2646
+        ]
+      },
+      "properties": {
+        "name": "Glen Oaks Big Sur",
+        "category": "hotel",
+        "section": "day-3",
+        "position": 23,
+        "notes": "A restored 1950s motor lodge plus cabins in the redwoods by the river, with gas fireplaces in most rooms.",
+        "address": "47080 Highway 1, Big Sur, CA 93920",
+        "locality": "Big Sur"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "big-sur-bakery",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.7694,
+          36.2359
+        ]
+      },
+      "properties": {
+        "name": "Big Sur Bakery",
+        "category": "bakery",
+        "section": "day-3",
+        "position": 24,
+        "notes": "Wood-fired bread, pastries and breakfast in a house set back from the highway. A good first stop of the morning.",
+        "address": "47540 California 1, Big Sur, CA 93920",
+        "locality": "Big Sur"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pfeiffer-beach",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8176,
+          36.2394
+        ]
+      },
+      "properties": {
+        "name": "Pfeiffer Beach",
+        "category": "beach",
+        "section": "day-3",
+        "position": 25,
+        "notes": "Purple-streaked sand and the arch at Keyhole Rock, at the end of a narrow, unsigned road off Highway 1. The lot is small and charges a day-use fee; RVs and trailers can't make the turns.",
+        "address": "Sycamore Canyon Rd, Big Sur, CA 93920",
+        "locality": "Big Sur"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nepenthe",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.7597,
+          36.2218
+        ]
+      },
+      "properties": {
+        "name": "Nepenthe",
+        "category": "restaurant",
+        "section": "day-3",
+        "position": 26,
+        "notes": "A family-run terrace restaurant 800 feet above the coast since 1949. Come for a late lunch and the long view south.",
+        "address": "48510 Highway One, Big Sur, CA 93920",
+        "locality": "Big Sur"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "post-ranch-inn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.7643,
+          36.2272
+        ]
+      },
+      "properties": {
+        "name": "Post Ranch Inn",
+        "category": "inn",
+        "section": "day-3",
+        "position": 27,
+        "notes": "The splurge: tree houses and cliff-edge rooms built into the ridge, adults only.",
+        "address": "47900 CA-1, Big Sur, CA 93920",
+        "locality": "Big Sur"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mcway-falls",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.6724,
+          36.1578
+        ]
+      },
+      "properties": {
+        "name": "McWay Falls",
+        "category": "waterfall",
+        "section": "day-3",
+        "position": 28,
+        "notes": "An 80-foot waterfall pouring onto a beach in Julia Pfeiffer Burns State Park. The overlook trail from the park lot is short and flat; the beach itself is off limits.",
+        "address": "Julia Pfeiffer Burns State Park, 52801 CA-1, Big Sur, CA 93920",
+        "locality": "Big Sur"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "piedras-blancas-elephant-seals",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.2585,
+          35.6635
+        ]
+      },
+      "properties": {
+        "name": "Piedras Blancas Elephant Seal Rookery",
+        "category": "park",
+        "section": "day-3",
+        "position": 29,
+        "notes": "Thousands of elephant seals haul out on the beach below a free boardwalk, and each season brings something different: births, molting, sparring. Volunteer docents are often on hand.",
+        "address": "Elephant Seal Vista Point, CA-1, San Simeon, CA 93452",
+        "locality": "San Simeon",
+        "match": {
+          "query": "Elephant Seal Vista Point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "moonstone-beach-boardwalk",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.1129,
+          35.5738
+        ]
+      },
+      "properties": {
+        "name": "Moonstone Beach Boardwalk",
+        "category": "beach",
+        "section": "day-3",
+        "position": 30,
+        "notes": "A mile-long boardwalk along the bluffs at Cambria's west edge, with sea otters in the kelp and a good spot to watch the sun go down.",
+        "address": "Moonstone Beach Dr, Cambria, CA 93428",
+        "locality": "Cambria"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cambria-pines-lodge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.0801,
+          35.5587
+        ]
+      },
+      "properties": {
+        "name": "Cambria Pines Lodge",
+        "category": "lodge",
+        "section": "day-3",
+        "position": 31,
+        "notes": "A rambling lodge in the pines above town, with big gardens, fireplace rooms and live music in the lounge most nights.",
+        "address": "2905 Burton Dr, Cambria, CA 93428",
+        "locality": "Cambria"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "linns-restaurant",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.0819,
+          35.5644
+        ]
+      },
+      "properties": {
+        "name": "Linn's Restaurant",
+        "category": "restaurant",
+        "section": "day-3",
+        "position": 32,
+        "notes": "Pot pies, comfort plates and olallieberry pie from a family that started with a farm stand outside town.",
+        "address": "2277 Main St, Cambria, CA 93428",
+        "locality": "Cambria"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hearst-castle",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.1857,
+          35.6509
+        ]
+      },
+      "properties": {
+        "name": "Hearst Castle",
+        "category": "museum",
+        "section": "day-4",
+        "position": 33,
+        "notes": "William Randolph Hearst's hilltop estate, now a state historic park, ten miles back up the coast from Cambria. All visits are by guided tour from the visitor center; book on the official site, especially in summer.",
+        "address": "750 Hearst Castle Rd, San Simeon, CA 93452",
+        "locality": "San Simeon"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "morro-rock",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.8677,
+          35.3697
+        ]
+      },
+      "properties": {
+        "name": "Morro Rock",
+        "category": "park",
+        "section": "day-4",
+        "position": 34,
+        "notes": "A 576-foot volcanic plug at the harbor mouth, protected for nesting peregrine falcons. No climbing; walk the beach on its north side instead.",
+        "address": "Coleman Dr, Morro Bay, CA 93442",
+        "locality": "Morro Bay",
+        "match": {
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "giovannis-fish-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.8542,
+          35.368
+        ]
+      },
+      "properties": {
+        "name": "Giovanni's Fish Market & Galley",
+        "category": "restaurant",
+        "section": "day-4",
+        "position": 35,
+        "notes": "Fish and chips and clam chowder ordered at the counter and eaten on the waterfront, with sea lions barking from the docks.",
+        "address": "1001 Front St, Morro Bay, CA 93442",
+        "locality": "Morro Bay"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mission-san-luis-obispo",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.665,
+          35.2808
+        ]
+      },
+      "properties": {
+        "name": "Mission San Luis Obispo de Tolosa",
+        "category": "attraction",
+        "section": "day-4",
+        "position": 36,
+        "notes": "Founded in 1772, the mission faces a plaza on San Luis Obispo Creek at the edge of downtown. The creekside walk leads to the shops on Higuera Street.",
+        "address": "751 Palm St, San Luis Obispo, CA 93401",
+        "locality": "San Luis Obispo"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "firestone-grill",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.6602,
+          35.2812
+        ]
+      },
+      "properties": {
+        "name": "Firestone Grill",
+        "category": "restaurant",
+        "section": "day-4",
+        "position": 37,
+        "notes": "A loud, busy downtown spot for the tri-tip sandwich, the Central Coast's signature cut.",
+        "address": "1001 Higuera St, San Luis Obispo, CA 93401",
+        "locality": "San Luis Obispo"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "madonna-inn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.6752,
+          35.267
+        ]
+      },
+      "properties": {
+        "name": "Madonna Inn",
+        "category": "inn",
+        "section": "day-4",
+        "position": 38,
+        "notes": "A 1958 roadside hotel where every room has its own theme, plus pink dining rooms and a famous cake case. Stop for a slice even if you are not staying.",
+        "address": "100 Madonna Rd, San Luis Obispo, CA 93405",
+        "locality": "San Luis Obispo"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "old-mission-santa-barbara",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7132,
+          34.4384
+        ]
+      },
+      "properties": {
+        "name": "Old Mission Santa Barbara",
+        "category": "attraction",
+        "section": "day-4",
+        "position": 39,
+        "notes": "The twin-towered mission above town, with a self-guided tour through the museum, cemetery and gardens. The rose garden across the street is free.",
+        "address": "2201 Laguna St, Santa Barbara, CA 93105",
+        "locality": "Santa Barbara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "santa-barbara-county-courthouse",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7025,
+          34.4243
+        ]
+      },
+      "properties": {
+        "name": "Santa Barbara County Courthouse",
+        "category": "attraction",
+        "section": "day-4",
+        "position": 40,
+        "notes": "A 1929 Spanish Colonial Revival courthouse with painted ceilings and tiled stairways. Ride up to the clock tower for the view over the red roofs.",
+        "address": "1100 Anacapa St, Santa Barbara, CA 93121",
+        "locality": "Santa Barbara",
+        "match": {
+          "skip": "Apple Maps only lists a neighboring or larger place here (checked Nov 14, 2026)"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "la-super-rica-taqueria",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6871,
+          34.4281
+        ]
+      },
+      "properties": {
+        "name": "La Super-Rica Taqueria",
+        "category": "restaurant",
+        "section": "day-4",
+        "position": 41,
+        "notes": "A small taqueria with handmade tortillas and a short menu on the wall. Expect a line and a patio seat.",
+        "address": "622 N Milpas St, Santa Barbara, CA 93103",
+        "locality": "Santa Barbara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel-californian",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6898,
+          34.4131
+        ]
+      },
+      "properties": {
+        "name": "Hotel Californian",
+        "category": "hotel",
+        "section": "day-4",
+        "position": 42,
+        "notes": "A Moorish-style hotel at the foot of State Street, a block from the beach and close to the Funk Zone's tasting rooms.",
+        "address": "36 State St, Santa Barbara, CA 93101",
+        "locality": "Santa Barbara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neptunes-net",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.9626,
+          34.0533
+        ]
+      },
+      "properties": {
+        "name": "Neptune's Net",
+        "category": "restaurant",
+        "section": "day-5",
+        "position": 43,
+        "notes": "A roadside seafood shack at the county line, where surfers and motorcyclists share picnic tables over fried shrimp and steamed crab.",
+        "address": "42505 Pacific Coast Hwy, Malibu, CA 90265",
+        "locality": "Malibu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "el-matador-state-beach",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.8745,
+          34.038
+        ]
+      },
+      "properties": {
+        "name": "El Matador State Beach",
+        "category": "beach",
+        "section": "day-5",
+        "position": 44,
+        "notes": "Sea stacks and caves at a small cove below the bluffs, reached by a steep trail and stairs from the lot. Best at low tide.",
+        "address": "32220 Pacific Coast Hwy, Malibu, CA 90265",
+        "locality": "Malibu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "getty-villa",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.565,
+          34.0455
+        ]
+      },
+      "properties": {
+        "name": "Getty Villa",
+        "category": "museum",
+        "section": "day-5",
+        "position": 45,
+        "notes": "Greek, Roman and Etruscan antiquities in a re-created Roman country house with gardens above the coast. Admission is free with a timed reservation from the Getty's site.",
+        "address": "17985 Pacific Coast Hwy, Pacific Palisades, CA 90272",
+        "locality": "Pacific Palisades"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "santa-monica-pier",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4974,
+          34.0089
+        ]
+      },
+      "properties": {
+        "name": "Santa Monica Pier",
+        "category": "attraction",
+        "section": "day-5",
+        "position": 46,
+        "notes": "The 1909 pier with an amusement park, a Ferris wheel over the water and a 1922 carousel. It also marks the western end of Route 66.",
+        "address": "200 Santa Monica Pier, Santa Monica, CA 90401",
+        "locality": "Santa Monica"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "venice-canals",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.466,
+          33.9845
+        ]
+      },
+      "properties": {
+        "name": "Venice Canals",
+        "category": "park",
+        "section": "day-5",
+        "position": 47,
+        "notes": "A quiet grid of footpaths and small bridges along the canals Abbot Kinney dug in 1905, two blocks from the noise of the boardwalk.",
+        "address": "Venice Canals Walkway, Venice, CA 90291",
+        "locality": "Venice"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gjusta",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4746,
+          33.9953
+        ]
+      },
+      "properties": {
+        "name": "Gjusta",
+        "category": "cafe",
+        "section": "day-5",
+        "position": 48,
+        "notes": "A bakery and deli in a converted warehouse with breads, smoked fish and breakfast plates. Order at the counter and find a seat on the back patio.",
+        "address": "320 Sunset Ave, Venice, CA 90291",
+        "locality": "Venice"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel-erwin",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4725,
+          33.9869
+        ]
+      },
+      "properties": {
+        "name": "Hotel Erwin",
+        "category": "hotel",
+        "section": "day-5",
+        "position": 49,
+        "notes": "A mid-range hotel right off the boardwalk, with a rooftop bar that looks over the beach.",
+        "address": "1697 Pacific Ave, Venice, CA 90291",
+        "locality": "Venice"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "queen-mary",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1922,
+          33.7537
+        ]
+      },
+      "properties": {
+        "name": "The Queen Mary",
+        "category": "hotel",
+        "section": "day-6",
+        "position": 50,
+        "notes": "The 1936 ocean liner, moored in Long Beach for good, with original cabins as hotel rooms and decks to explore on a day visit.",
+        "address": "1126 Queens Hwy, Long Beach, CA 90802",
+        "locality": "Long Beach"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crystal-cove-state-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8406,
+          33.575
+        ]
+      },
+      "properties": {
+        "name": "Crystal Cove State Park",
+        "category": "state-park",
+        "section": "day-6",
+        "position": 51,
+        "notes": "Three miles of beach and tide pools plus a historic district of 1930s beach cottages, some of which rent overnight. Cottage booking opens months ahead; check the official site.",
+        "address": "8471 N Coast Hwy, Laguna Beach, CA 92651",
+        "locality": "Newport Coast"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "beachcomber-crystal-cove",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8403,
+          33.5743
+        ]
+      },
+      "properties": {
+        "name": "Beachcomber at Crystal Cove",
+        "category": "restaurant",
+        "section": "day-6",
+        "position": 52,
+        "notes": "Breakfast or a sunset drink on a deck right above the sand, in one of the restored cottages of the historic district.",
+        "address": "15 Crystal Cove, Newport Coast, CA 92657",
+        "locality": "Newport Coast"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "heisler-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.7922,
+          33.5439
+        ]
+      },
+      "properties": {
+        "name": "Heisler Park",
+        "category": "park",
+        "section": "day-6",
+        "position": 53,
+        "notes": "A cliff-top park with gardens, benches and stairways down to small coves and tide pools on Laguna's north end.",
+        "address": "375 Cliff Dr, Laguna Beach, CA 92651",
+        "locality": "Laguna Beach"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-ranch-at-laguna-beach",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.7481,
+          33.5129
+        ]
+      },
+      "properties": {
+        "name": "The Ranch at Laguna Beach",
+        "category": "hotel",
+        "section": "day-6",
+        "position": 54,
+        "notes": "A ranch-style resort in a canyon just across the highway from the beach, with its own nine-hole golf course.",
+        "address": "31106 Coast Hwy, Laguna Beach, CA 92651",
+        "locality": "Laguna Beach"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "torrey-pines-state-natural-reserve",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2535,
+          32.9219
+        ]
+      },
+      "properties": {
+        "name": "Torrey Pines State Natural Reserve",
+        "category": "park",
+        "section": "day-6",
+        "position": 55,
+        "notes": "Sandstone bluffs and the rare Torrey pine on short trails above the beach. Park at the beach lot and walk up, or drive to the lodge at the top when spaces allow.",
+        "address": "12600 N Torrey Pines Rd, La Jolla, CA 92037",
+        "locality": "La Jolla"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "la-jolla-cove",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.273,
+          32.8504
+        ]
+      },
+      "properties": {
+        "name": "La Jolla Cove",
+        "category": "park",
+        "section": "day-6",
+        "position": 56,
+        "notes": "A small cove below the village where sea lions and harbor seals sprawl on the rocks. Snorkelers come for the garibaldi in the marine reserve.",
+        "address": "1100 Coast Blvd, La Jolla, CA 92037",
+        "locality": "La Jolla"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "point-loma-seafoods",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2278,
+          32.7232
+        ]
+      },
+      "properties": {
+        "name": "Point Loma Seafoods",
+        "category": "restaurant",
+        "section": "day-6",
+        "position": 57,
+        "notes": "A fish market and counter at the sportfishing docks since 1963. Get a fish sandwich and eat outside watching the boats.",
+        "address": "2805 Emerson St, San Diego, CA 92106",
+        "locality": "Point Loma"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cabrillo-national-monument",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2425,
+          32.6735
+        ]
+      },
+      "properties": {
+        "name": "Cabrillo National Monument",
+        "category": "park",
+        "section": "day-6",
+        "position": 58,
+        "notes": "The tip of Point Loma, with an 1855 lighthouse, views across the bay to downtown, and tide pools on the west side at low tide.",
+        "address": "1800 Cabrillo Memorial Dr, San Diego, CA 92106",
+        "locality": "Point Loma"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "balboa-park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1497,
+          32.7313
+        ]
+      },
+      "properties": {
+        "name": "Balboa Park",
+        "category": "park",
+        "section": "day-6",
+        "position": 59,
+        "notes": "Spanish Revival buildings from the 1915 exposition, museums, gardens and the botanical building along El Prado. Free to walk around; museums charge separately.",
+        "address": "1549 El Prado, San Diego, CA 92101",
+        "locality": "San Diego"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel-del-coronado",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1784,
+          32.68
+        ]
+      },
+      "properties": {
+        "name": "Hotel del Coronado",
+        "category": "hotel",
+        "section": "day-6",
+        "position": 60,
+        "notes": "The red-roofed 1888 Victorian resort on Coronado's beach, a fitting last night at the end of the coast road.",
+        "address": "1500 Orange Ave, Coronado, CA 92118",
+        "locality": "Coronado"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-day-1",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Day 1 · San Francisco to Santa Cruz · 80 mi",
+        "mode": "drive",
+        "section": "day-1",
+        "stops": [
+          "golden-gate-bridge-welcome-center",
+          "devils-slide-trail",
+          "sams-chowder-house",
+          "duartes-tavern",
+          "pigeon-point-light-station",
+          "hi-pigeon-point-hostel",
+          "ano-nuevo-state-park",
+          "natural-bridges-state-beach",
+          "santa-cruz-beach-boardwalk",
+          "dream-inn-santa-cruz"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-day-2",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Day 2 · Santa Cruz to Carmel · 45 mi",
+        "mode": "drive",
+        "section": "day-2",
+        "stops": [
+          "phils-fish-market",
+          "monterey-bay-aquarium",
+          "asilomar",
+          "lone-cypress",
+          "carmel-mission",
+          "cypress-inn",
+          "la-bicyclette"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-day-3",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Day 3 · Carmel through Big Sur to Cambria · 100 mi",
+        "mode": "drive",
+        "section": "day-3",
+        "stops": [
+          "point-lobos",
+          "bixby-creek-bridge",
+          "point-sur-state-historic-park",
+          "pfeiffer-big-sur-state-park",
+          "big-sur-lodge",
+          "glen-oaks-big-sur",
+          "big-sur-bakery",
+          "pfeiffer-beach",
+          "nepenthe",
+          "post-ranch-inn",
+          "mcway-falls",
+          "piedras-blancas-elephant-seals",
+          "moonstone-beach-boardwalk",
+          "cambria-pines-lodge",
+          "linns-restaurant"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-day-4",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Day 4 · Cambria to Santa Barbara · 135 mi",
+        "mode": "drive",
+        "section": "day-4",
+        "stops": [
+          "hearst-castle",
+          "morro-rock",
+          "giovannis-fish-market",
+          "mission-san-luis-obispo",
+          "firestone-grill",
+          "madonna-inn",
+          "old-mission-santa-barbara",
+          "santa-barbara-county-courthouse",
+          "la-super-rica-taqueria",
+          "hotel-californian"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-day-5",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Day 5 · Santa Barbara to Venice · 100 mi",
+        "mode": "drive",
+        "section": "day-5",
+        "stops": [
+          "neptunes-net",
+          "el-matador-state-beach",
+          "getty-villa",
+          "santa-monica-pier",
+          "venice-canals",
+          "gjusta",
+          "hotel-erwin"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-day-6",
+      "geometry": null,
+      "properties": {
+        "featureType": "route",
+        "name": "Day 6 · Venice to San Diego · 135 mi",
+        "mode": "drive",
+        "section": "day-6",
+        "stops": [
+          "queen-mary",
+          "crystal-cove-state-park",
+          "beachcomber-crystal-cove",
+          "heisler-park",
+          "the-ranch-at-laguna-beach",
+          "torrey-pines-state-natural-reserve",
+          "la-jolla-cove",
+          "point-loma-seafoods",
+          "cabrillo-national-monument",
+          "balboa-park",
+          "hotel-del-coronado"
+        ]
+      }
+    }
+  ]
+}

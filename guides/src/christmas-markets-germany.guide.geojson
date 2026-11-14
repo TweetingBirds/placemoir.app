@@ -1,0 +1,763 @@
+{
+  "type": "FeatureCollection",
+  "placemoirGuide": "0.1",
+  "guide": {
+    "id": "christmas-markets-germany",
+    "status": "draft",
+    "kind": "season",
+    "name": "Germany's Christmas Markets from Nuremberg to the Ravenna Gorge",
+    "description": "Germany's classic Christmas markets, from Nuremberg, Dresden and Cologne to small-town and forest markets in Franconia and the Black Forest, with a traditional place to stay or eat in many of the cities.",
+    "author": {
+      "name": "friends of Placemoir"
+    },
+    "inLanguage": "en",
+    "dateModified": "2026-11-14",
+    "region": "Germany",
+    "countries": [
+      "DE"
+    ],
+    "season": {
+      "text": "Late November to Christmas Eve",
+      "months": [
+        11,
+        12
+      ]
+    },
+    "sections": [
+      {
+        "id": "nuremberg",
+        "name": "Nuremberg"
+      },
+      {
+        "id": "rothenburg-ob-der-tauber",
+        "name": "Rothenburg ob der Tauber"
+      },
+      {
+        "id": "munich",
+        "name": "Munich"
+      },
+      {
+        "id": "regensburg",
+        "name": "Regensburg"
+      },
+      {
+        "id": "dresden",
+        "name": "Dresden"
+      },
+      {
+        "id": "erfurt",
+        "name": "Erfurt"
+      },
+      {
+        "id": "lubeck",
+        "name": "Lübeck"
+      },
+      {
+        "id": "cologne",
+        "name": "Cologne"
+      },
+      {
+        "id": "aachen",
+        "name": "Aachen"
+      },
+      {
+        "id": "frankfurt",
+        "name": "Frankfurt"
+      },
+      {
+        "id": "stuttgart-and-esslingen",
+        "name": "Stuttgart and Esslingen"
+      },
+      {
+        "id": "black-forest",
+        "name": "Black Forest"
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "nuremberg-christkindlesmarkt",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0773,
+          49.4537
+        ]
+      },
+      "properties": {
+        "name": "Nuremberg Christkindlesmarkt",
+        "category": "market",
+        "section": "nuremberg",
+        "notes": "The best known of them all, a tight grid of red-and-white striped stalls on the main square under the Frauenkirche. Stalls are held to a tradition of handmade goods, so expect prune-and-walnut figures, gingerbread and three-in-a-bun bratwurst rather than plastic.",
+        "address": "Hauptmarkt, 90403 Nuremberg",
+        "locality": "Nuremberg",
+        "match": {
+          "query": "Hauptmarkt Nürnberg"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bratwursthaeusle",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0767,
+          49.455
+        ]
+      },
+      "properties": {
+        "name": "Bratwursthäusle",
+        "category": "restaurant",
+        "section": "nuremberg",
+        "notes": "A busy old tavern beside St. Sebald, steps from the market, grilling Nuremberg's finger-sized sausages over beechwood. Order them by the half dozen with sauerkraut or potato salad.",
+        "address": "Rathausplatz 1, 90403 Nuremberg",
+        "locality": "Nuremberg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel-elch-nuremberg",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0733,
+          49.4555
+        ]
+      },
+      "properties": {
+        "name": "Hotel Elch",
+        "category": "hotel",
+        "section": "nuremberg",
+        "notes": "A small family-run hotel in a 14th-century half-timbered house in the castle quarter, a few minutes' walk from the Hauptmarkt. Rooms are compact, and the building has plenty of character.",
+        "address": "Irrerstraße 11, 90403 Nuremberg",
+        "locality": "Nuremberg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rothenburg-reiterlesmarkt",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.179,
+          49.3772
+        ]
+      },
+      "properties": {
+        "name": "Rothenburg Reiterlesmarkt",
+        "category": "attraction",
+        "section": "rothenburg-ob-der-tauber",
+        "notes": "A compact market spread around the town hall and St. Jakob's in a walled medieval town that already looks like a Christmas card. Named for an old legend of a rider who carried souls; try a Schneeball pastry while you walk the lanes.",
+        "address": "Marktplatz, 91541 Rothenburg ob der Tauber",
+        "locality": "Rothenburg ob der Tauber",
+        "match": {
+          "query": "Marktplatz Rothenburg ob der Tauber"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "german-christmas-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1784,
+          49.3768
+        ]
+      },
+      "properties": {
+        "name": "Deutsches Weihnachtsmuseum",
+        "category": "museum",
+        "section": "rothenburg-ob-der-tauber",
+        "notes": "A museum of Christmas history inside the Käthe Wohlfahrt building, a year-round Christmas shop a few steps off the market square. Old ornaments, tree stands and Advent calendars show how German customs took shape.",
+        "address": "Herrngasse 1, 91541 Rothenburg ob der Tauber",
+        "locality": "Rothenburg ob der Tauber",
+        "match": {
+          "query": "Deutsches Weihnachtsmuseum Rothenburg"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel-eisenhut",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1781,
+          49.3768
+        ]
+      },
+      "properties": {
+        "name": "Hotel Eisenhut",
+        "category": "hotel",
+        "section": "rothenburg-ob-der-tauber",
+        "notes": "Four joined patrician houses from the 15th and 16th centuries on the town's grandest street. A classic Rothenburg stay, two minutes from the market.",
+        "address": "Herrngasse 3-7, 91541 Rothenburg ob der Tauber",
+        "locality": "Rothenburg ob der Tauber"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "zur-hoell",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1779,
+          49.3759
+        ]
+      },
+      "properties": {
+        "name": "Zur Höll",
+        "category": "restaurant",
+        "section": "rothenburg-ob-der-tauber",
+        "notes": "A candlelit wine tavern in a house said to be the oldest in town, pouring Franconian wines with hearty regional plates. Open evenings only, small and popular in December, so book ahead.",
+        "address": "Burggasse 8, 91541 Rothenburg ob der Tauber",
+        "locality": "Rothenburg ob der Tauber",
+        "match": {
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "munich-christkindlmarkt",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5754,
+          48.1371
+        ]
+      },
+      "properties": {
+        "name": "Munich Christkindlmarkt",
+        "category": "market",
+        "section": "munich",
+        "notes": "Munich's main market fills Marienplatz in front of the neo-Gothic town hall, with a giant tree and brass music from the balcony in the evenings. Look for the nativity-figure market nearby, a Munich specialty.",
+        "address": "Marienplatz, 80331 Munich",
+        "locality": "Munich",
+        "match": {
+          "query": "Marienplatz München"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "augustiner-klosterwirt",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5723,
+          48.1385
+        ]
+      },
+      "properties": {
+        "name": "Augustiner Klosterwirt",
+        "category": "restaurant",
+        "section": "munich",
+        "notes": "A traditional Bavarian inn next to the Frauenkirche, a few minutes from Marienplatz, pouring Augustiner beer with roast pork and dumplings. Warmer and calmer than the big beer halls.",
+        "address": "Augustinerstraße 1, 80331 Munich",
+        "locality": "Munich"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel-torbraeu",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5816,
+          48.1356
+        ]
+      },
+      "properties": {
+        "name": "Hotel Torbräu",
+        "category": "hotel",
+        "section": "munich",
+        "notes": "A hotel by the Isartor that claims to be the oldest in central Munich. An easy walk to Marienplatz, the Viktualienmarkt and the Hofbräuhaus.",
+        "address": "Tal 41, 80331 Munich",
+        "locality": "Munich"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "regensburg-thurn-und-taxis-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.0938,
+          49.0146
+        ]
+      },
+      "properties": {
+        "name": "Romantic Christmas Market at Schloss Thurn und Taxis",
+        "category": "market",
+        "section": "regensburg",
+        "notes": "Held in the courtyards of the princely family's palace, with fire pits, craftspeople at work and a quieter, lantern-lit feel than the city-square markets. Admission is charged; check the official site.",
+        "address": "Emmeramsplatz 5, Innenstadt, 93047 Regensburg",
+        "locality": "Regensburg",
+        "match": {
+          "query": "Thurn and Taxis Castle"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "historische-wurstkuchl",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.0975,
+          49.0209
+        ]
+      },
+      "properties": {
+        "name": "Historische Wurstkuchl",
+        "category": "restaurant",
+        "section": "regensburg",
+        "notes": "A tiny sausage kitchen beside the Stone Bridge that has been feeding the riverfront for centuries. Small grilled sausages, house sweet mustard and sauerkraut, eaten at shared tables.",
+        "address": "Thundorferstraße 3, 93047 Regensburg",
+        "locality": "Regensburg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dresden-striezelmarkt",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7379,
+          51.0496
+        ]
+      },
+      "properties": {
+        "name": "Dresden Striezelmarkt",
+        "category": "market",
+        "section": "dresden",
+        "notes": "One of Germany's oldest Christmas markets, named for the Striezel, the loaf now called Dresdner Stollen. Look for the giant step pyramid, Erzgebirge wood carvings, smoking men and Pulsnitz gingerbread.",
+        "address": "Altmarkt, 01067 Dresden",
+        "locality": "Dresden",
+        "match": {
+          "query": "Altmarkt Dresden"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dresden-stallhof-medieval-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7389,
+          51.0526
+        ]
+      },
+      "properties": {
+        "name": "Medieval Christmas Market in the Stallhof",
+        "category": "market",
+        "section": "dresden",
+        "notes": "A medieval-style market in the arcaded former tournament yard of the royal palace, behind the Fürstenzug mural. Expect craftspeople at work, live music, firelight and no plastic. Admission is charged on some days; check the official site.",
+        "address": "Stallhof, Schloßstraße, 01067 Dresden",
+        "locality": "Dresden",
+        "match": {
+          "query": "Stallhof Dresden"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel-taschenbergpalais",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7363,
+          51.0519
+        ]
+      },
+      "properties": {
+        "name": "Hotel Taschenbergpalais Kempinski",
+        "category": "hotel",
+        "section": "dresden",
+        "notes": "A rebuilt baroque palace across from the Zwinger and next to the royal palace. The grand-hotel choice in Dresden, within walking distance of every market in the old town.",
+        "address": "Taschenberg 3, 01067 Dresden",
+        "locality": "Dresden"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pulverturm-dresden",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7425,
+          51.0522
+        ]
+      },
+      "properties": {
+        "name": "Pulverturm an der Frauenkirche",
+        "category": "restaurant",
+        "section": "dresden",
+        "notes": "A large vaulted cellar restaurant beside the Frauenkirche, in the 16th-century gunpowder tower of the old city defenses. Saxon roasts and costumed performers in a setting that leans into the history.",
+        "address": "An der Frauenkirche 12, 01067 Dresden",
+        "locality": "Dresden"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "erfurt-christmas-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0228,
+          50.9775
+        ]
+      },
+      "properties": {
+        "name": "Erfurt Christmas Market",
+        "category": "market",
+        "section": "erfurt",
+        "notes": "Set on the wide cathedral square below the steps of the cathedral and St. Severus, which are lit up at night. Thuringian bratwurst grilled over charcoal and a large wooden pyramid are the signatures.",
+        "address": "Domplatz, 99084 Erfurt",
+        "locality": "Erfurt",
+        "match": {
+          "query": "Domplatz Erfurt"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "luebeck-christmas-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6849,
+          53.8666
+        ]
+      },
+      "properties": {
+        "name": "Lübeck Christmas Market",
+        "category": "market",
+        "section": "lubeck",
+        "notes": "The heart of Lübeck's spread of markets, set against the dark brick town hall in a Hanseatic old town on an island. Other themed markets fill nearby squares and church courtyards.",
+        "address": "Markt, 23552 Lübeck",
+        "locality": "Lübeck",
+        "match": {
+          "query": "Markt Lübeck"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cafe-niederegger",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6858,
+          53.8666
+        ]
+      },
+      "properties": {
+        "name": "Café Niederegger",
+        "category": "cafe",
+        "section": "lubeck",
+        "notes": "Lübeck's famous marzipan house, opposite the town hall, with a shop downstairs and a café upstairs. Try the marzipan torte with coffee after a round of the market.",
+        "address": "Breite Straße 89, 23552 Lübeck",
+        "locality": "Lübeck"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cologne-cathedral-christmas-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9577,
+          50.9405
+        ]
+      },
+      "properties": {
+        "name": "Christmas Market at Cologne Cathedral",
+        "category": "market",
+        "section": "cologne",
+        "notes": "Red-roofed stalls under a canopy of lights right at the foot of the cathedral. The setting is the draw; it gets very crowded, so weekday afternoons are easiest.",
+        "address": "Roncalliplatz, 50667 Cologne",
+        "locality": "Cologne",
+        "match": {
+          "query": "Roncalliplatz Köln"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cologne-heinzels-wintermaerchen",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9597,
+          50.9385
+        ]
+      },
+      "properties": {
+        "name": "Heinzels Wintermärchen",
+        "category": "attraction",
+        "section": "cologne",
+        "notes": "The old-town market on Alter Markt and Heumarkt, built around the legend of the Heinzelmännchen, Cologne's helpful house elves. Heumarkt has an ice rink in winter, and the gabled houses make a fine backdrop.",
+        "address": "Alter Markt, 50667 Köln",
+        "locality": "Cologne",
+        "match": {
+          "query": "Alter Markt Köln"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cologne-markt-der-engel",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9478,
+          50.9358
+        ]
+      },
+      "properties": {
+        "name": "Markt der Engel",
+        "category": "market",
+        "section": "cologne",
+        "notes": "Cologne's angel market on Neumarkt, with lanes under a canopy of star lights and costumed angels and stilt figures wandering through. Calmer than the cathedral market.",
+        "address": "Neumarkt, 50667 Cologne",
+        "locality": "Cologne",
+        "match": {
+          "query": "Neumarkt Köln"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "frueh-am-dom",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.957,
+          50.9398
+        ]
+      },
+      "properties": {
+        "name": "Früh am Dom",
+        "category": "bar",
+        "section": "cologne",
+        "notes": "A big, classic Cologne brewhouse a block from the cathedral. Blue-aproned servers keep the small glasses of Kölsch coming until you set a coaster on top.",
+        "address": "Am Hof 12-18, 50667 Cologne",
+        "locality": "Cologne"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "excelsior-hotel-ernst",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9563,
+          50.9422
+        ]
+      },
+      "properties": {
+        "name": "Excelsior Hotel Ernst",
+        "category": "hotel",
+        "section": "cologne",
+        "notes": "Cologne's grand old hotel, directly beside the cathedral and a short walk from Roncalliplatz. Formal and expensive, with a long history of royal and celebrity guests.",
+        "address": "Trankgasse 1, 50667 Cologne",
+        "locality": "Cologne"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aachen-christmas-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0837,
+          50.7763
+        ]
+      },
+      "properties": {
+        "name": "Aachen Christmas Market",
+        "category": "market",
+        "section": "aachen",
+        "notes": "Stalls wind between the Gothic town hall and Charlemagne's cathedral, across the Markt and Katschhof. Aachen Printen, a hard spiced gingerbread, is the thing to buy.",
+        "address": "Markt, 52062 Aachen",
+        "locality": "Aachen",
+        "match": {
+          "query": "Markt Aachen"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cafe-van-den-daele",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0855,
+          50.7759
+        ]
+      },
+      "properties": {
+        "name": "Café van den Daele",
+        "category": "cafe",
+        "section": "aachen",
+        "notes": "The city's oldest café, in a crooked house a few steps from the market, known for its Printen and Belgian-style rice tart. Low beams and old tiles make it a good place to warm up.",
+        "address": "Büchel 18, 52062 Aachen",
+        "locality": "Aachen"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "frankfurt-christmas-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6821,
+          50.1104
+        ]
+      },
+      "properties": {
+        "name": "Frankfurt Christmas Market",
+        "category": "market",
+        "section": "frankfurt",
+        "notes": "Centered on the Römerberg in front of the stepped gables of the old town hall, with a tall tree and stalls running toward the river. Try Bethmännchen, a local marzipan sweet, and hot apple wine.",
+        "address": "Römerberg, 60311 Frankfurt am Main",
+        "locality": "Frankfurt",
+        "match": {
+          "query": "Römerberg Frankfurt"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "apfelwein-wagner",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.682,
+          50.1005
+        ]
+      },
+      "properties": {
+        "name": "Apfelwein Wagner",
+        "category": "bar",
+        "section": "frankfurt",
+        "notes": "A cider tavern in Sachsenhausen, family-owned since 1931 and across the river from the market, with shared tables and apple wine poured from blue stoneware jugs. Order schnitzel with green sauce.",
+        "address": "Schweizer Straße 71, 60594 Frankfurt am Main",
+        "locality": "Sachsenhausen"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "stuttgart-christmas-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1788,
+          48.7771
+        ]
+      },
+      "properties": {
+        "name": "Stuttgart Christmas Market",
+        "category": "market",
+        "section": "stuttgart-and-esslingen",
+        "notes": "One of the largest markets in Europe, running from Schillerplatz across the Marktplatz and nearby streets. Stallholders compete over the most elaborate roof decorations, which are the reason to come.",
+        "address": "Schillerplatz, 70173 Stuttgart",
+        "locality": "Stuttgart",
+        "match": {
+          "query": "Schillerplatz Stuttgart"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "esslingen-medieval-christmas-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3065,
+          48.7427
+        ]
+      },
+      "properties": {
+        "name": "Esslingen Medieval and Christmas Market",
+        "category": "market",
+        "section": "stuttgart-and-esslingen",
+        "notes": "A medieval market of blacksmiths, jugglers and fire-eaters running alongside a classic Christmas market in a half-timbered old town. A short S-Bahn ride from Stuttgart, and free to enter.",
+        "address": "Marktplatz, 73728 Esslingen am Neckar",
+        "locality": "Esslingen am Neckar",
+        "match": {
+          "query": "Marktplatz Esslingen"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ravennaschlucht-christmas-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0745,
+          47.9172
+        ]
+      },
+      "properties": {
+        "name": "Christmas Market in the Ravenna Gorge",
+        "category": "market",
+        "section": "black-forest",
+        "notes": "A small market in a forest gorge directly beneath a lit stone railway viaduct, open only on certain days. Tickets are timed, limited and sell out well ahead; buy only through the official site.",
+        "address": "Höllsteig 76, 79874 Breitnau",
+        "locality": "Breitnau",
+        "match": {
+          "query": "Ravennaschlucht"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hofgut-sternen",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0735,
+          47.9166
+        ]
+      },
+      "properties": {
+        "name": "Hofgut Sternen",
+        "category": "hotel",
+        "section": "black-forest",
+        "notes": "An old coaching inn at the mouth of the Ravenna Gorge, with a glassblowing workshop and a Black Forest restaurant. Staying here puts you a short walk from the market.",
+        "address": "Höllsteig 76, 79874 Breitnau",
+        "locality": "Breitnau"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gengenbach-advent-calendar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0153,
+          48.4041
+        ]
+      },
+      "properties": {
+        "name": "Gengenbach Advent Calendar",
+        "category": "attraction",
+        "section": "black-forest",
+        "notes": "Each evening in Advent another of the 24 windows of the baroque town hall is lit to reveal a new artwork, with a small market on the square below. Check the official site, since the facade can change during renovation work.",
+        "address": "Marktplatz, 77723 Gengenbach",
+        "locality": "Gengenbach",
+        "match": {
+          "query": "Rathaus Gengenbach"
+        }
+      }
+    }
+  ]
+}
