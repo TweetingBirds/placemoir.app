@@ -1125,8 +1125,8 @@ def maps(slugs):
         found = {}
         lock = SRC / f"{guide['slug']}.maps.json"
         # The lookups already committed. Apple's results for the same search vary from run to run
-        # (wording, language, which of two nearby listings comes back), so a place keeps its
-        # committed listing while that listing still fits.
+        # (wording, language, which of two nearby listings comes back), so a place that still
+        # matches keeps its committed listing, unless the source has moved away from it.
         committed = json.loads(lock.read_text(encoding="utf-8")) if lock.exists() else {}
         start = len(report)
         for place in guide["places"]:
@@ -1152,6 +1152,15 @@ def maps(slugs):
                                 "Check it's open and the address is right")
                 report.append(f"MISS  {label}. Apple Maps offered: " + ("; ".join(seen[:4]) or "nothing"))
                 continue
+            if (not kept and previous
+                    and distance(place["latitude"], place["longitude"], previous["latitude"],
+                                 previous["longitude"]) <= SEARCH_RADIUS_METRES
+                    and similarity(place.get("mapsQuery") or place["name"], previous.get("name", ""),
+                                   city=guide["slug"].split("-")) >= 0.9):
+                # Apple sometimes leaves the committed listing out of its answer and returns a
+                # neighbour instead (a peak, then its trail). The place still matches, and the
+                # committed listing is still near it under the name it's searched by, so keep it.
+                kept = (best[1], best[2])
             if kept:
                 (result, metres), entry = kept, previous
             else:
