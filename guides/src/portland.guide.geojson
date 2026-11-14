@@ -647,8 +647,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.7968,
-          45.5727
+          -122.768015,
+          45.582424
         ]
       },
       "properties": {
@@ -658,7 +658,10 @@
         "notes": "Start on the Ridge Trail, one of over 80 miles of trails in one of the largest urban forests in the country.",
         "address": "Forest Park, Portland, OR 97210",
         "locality": "Northwest",
-        "lastVerified": "2026-11-14"
+        "lastVerified": "2026-11-14",
+        "match": {
+          "skip": "Apple Maps has no listing for the Forest Park Ridge Trail; pin is the trailhead"
+        }
       }
     },
     {
