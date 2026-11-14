@@ -519,26 +519,6 @@
     },
     {
       "type": "Feature",
-      "id": "big-sur-bakery",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.7694,
-          36.2359
-        ]
-      },
-      "properties": {
-        "name": "Big Sur Bakery",
-        "category": "bakery",
-        "section": "day-3",
-        "position": 24,
-        "notes": "Wood-fired bread, pastries and breakfast in a house set back from the highway. A good first stop of the morning.",
-        "address": "47540 California 1, Big Sur, CA 93920",
-        "locality": "Big Sur"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "pfeiffer-beach",
       "geometry": {
         "type": "Point",
@@ -551,7 +531,7 @@
         "name": "Pfeiffer Beach",
         "category": "beach",
         "section": "day-3",
-        "position": 25,
+        "position": 24,
         "notes": "Purple-streaked sand and the arch at Keyhole Rock, at the end of a narrow, unsigned road off Highway 1. The lot is small and charges a day-use fee; RVs and trailers can't make the turns.",
         "address": "Sycamore Canyon Rd, Big Sur, CA 93920",
         "locality": "Big Sur"
@@ -571,7 +551,7 @@
         "name": "Nepenthe",
         "category": "restaurant",
         "section": "day-3",
-        "position": 26,
+        "position": 25,
         "notes": "A family-run terrace restaurant 800 feet above the coast since 1949. Come for a late lunch and the long view south.",
         "address": "48510 Highway One, Big Sur, CA 93920",
         "locality": "Big Sur"
@@ -591,7 +571,7 @@
         "name": "Post Ranch Inn",
         "category": "inn",
         "section": "day-3",
-        "position": 27,
+        "position": 26,
         "notes": "The splurge: tree houses and cliff-edge rooms built into the ridge, adults only.",
         "address": "47900 CA-1, Big Sur, CA 93920",
         "locality": "Big Sur"
@@ -611,7 +591,7 @@
         "name": "McWay Falls",
         "category": "waterfall",
         "section": "day-3",
-        "position": 28,
+        "position": 27,
         "notes": "An 80-foot waterfall pouring onto a beach in Julia Pfeiffer Burns State Park. The overlook trail from the park lot is short and flat; the beach itself is off limits.",
         "address": "Julia Pfeiffer Burns State Park, 52801 CA-1, Big Sur, CA 93920",
         "locality": "Big Sur"
@@ -631,7 +611,7 @@
         "name": "Piedras Blancas Elephant Seal Rookery",
         "category": "park",
         "section": "day-3",
-        "position": 29,
+        "position": 28,
         "notes": "Thousands of elephant seals haul out on the beach below a free boardwalk, and each season brings something different: births, molting, sparring. Volunteer docents are often on hand.",
         "address": "Elephant Seal Vista Point, CA-1, San Simeon, CA 93452",
         "locality": "San Simeon",
@@ -654,7 +634,7 @@
         "name": "Moonstone Beach Boardwalk",
         "category": "beach",
         "section": "day-3",
-        "position": 30,
+        "position": 29,
         "notes": "A mile-long boardwalk along the bluffs at Cambria's west edge, with sea otters in the kelp and a good spot to watch the sun go down.",
         "address": "Moonstone Beach Dr, Cambria, CA 93428",
         "locality": "Cambria"
@@ -674,7 +654,7 @@
         "name": "Cambria Pines Lodge",
         "category": "lodge",
         "section": "day-3",
-        "position": 31,
+        "position": 30,
         "notes": "A rambling lodge in the pines above town, with big gardens, fireplace rooms and live music in the lounge most nights.",
         "address": "2905 Burton Dr, Cambria, CA 93428",
         "locality": "Cambria"
@@ -694,7 +674,7 @@
         "name": "Linn's Restaurant",
         "category": "restaurant",
         "section": "day-3",
-        "position": 32,
+        "position": 31,
         "notes": "Pot pies, comfort plates and olallieberry pie from a family that started with a farm stand outside town.",
         "address": "2277 Main St, Cambria, CA 93428",
         "locality": "Cambria"
@@ -714,7 +694,7 @@
         "name": "Hearst Castle",
         "category": "museum",
         "section": "day-4",
-        "position": 33,
+        "position": 32,
         "notes": "William Randolph Hearst's hilltop estate, now a state historic park, ten miles back up the coast from Cambria. All visits are by guided tour from the visitor center; book on the official site, especially in summer.",
         "address": "750 Hearst Castle Rd, San Simeon, CA 93452",
         "locality": "San Simeon"
@@ -734,7 +714,7 @@
         "name": "Morro Rock",
         "category": "park",
         "section": "day-4",
-        "position": 34,
+        "position": 33,
         "notes": "A 576-foot volcanic plug at the harbor mouth, protected for nesting peregrine falcons. No climbing; walk the beach on its north side instead.",
         "address": "Coleman Dr, Morro Bay, CA 93442",
         "locality": "Morro Bay",
@@ -757,7 +737,7 @@
         "name": "Giovanni's Fish Market & Galley",
         "category": "restaurant",
         "section": "day-4",
-        "position": 35,
+        "position": 34,
         "notes": "Fish and chips and clam chowder ordered at the counter and eaten on the waterfront, with sea lions barking from the docks.",
         "address": "1001 Front St, Morro Bay, CA 93442",
         "locality": "Morro Bay"
@@ -777,7 +757,7 @@
         "name": "Mission San Luis Obispo de Tolosa",
         "category": "attraction",
         "section": "day-4",
-        "position": 36,
+        "position": 35,
         "notes": "Founded in 1772, the mission faces a plaza on San Luis Obispo Creek at the edge of downtown. The creekside walk leads to the shops on Higuera Street.",
         "address": "751 Palm St, San Luis Obispo, CA 93401",
         "locality": "San Luis Obispo"
@@ -797,7 +777,7 @@
         "name": "Firestone Grill",
         "category": "restaurant",
         "section": "day-4",
-        "position": 37,
+        "position": 36,
         "notes": "A loud, busy downtown spot for the tri-tip sandwich, the Central Coast's signature cut.",
         "address": "1001 Higuera St, San Luis Obispo, CA 93401",
         "locality": "San Luis Obispo"
@@ -817,7 +797,7 @@
         "name": "Madonna Inn",
         "category": "inn",
         "section": "day-4",
-        "position": 38,
+        "position": 37,
         "notes": "A 1958 roadside hotel where every room has its own theme, plus pink dining rooms and a famous cake case. Stop for a slice even if you are not staying.",
         "address": "100 Madonna Rd, San Luis Obispo, CA 93405",
         "locality": "San Luis Obispo"
@@ -837,7 +817,7 @@
         "name": "Old Mission Santa Barbara",
         "category": "attraction",
         "section": "day-4",
-        "position": 39,
+        "position": 38,
         "notes": "The twin-towered mission above town, with a self-guided tour through the museum, cemetery and gardens. The rose garden across the street is free.",
         "address": "2201 Laguna St, Santa Barbara, CA 93105",
         "locality": "Santa Barbara"
@@ -857,7 +837,7 @@
         "name": "Santa Barbara County Courthouse",
         "category": "attraction",
         "section": "day-4",
-        "position": 40,
+        "position": 39,
         "notes": "A 1929 Spanish Colonial Revival courthouse with painted ceilings and tiled stairways. Ride up to the clock tower for the view over the red roofs.",
         "address": "1100 Anacapa St, Santa Barbara, CA 93121",
         "locality": "Santa Barbara",
@@ -880,7 +860,7 @@
         "name": "La Super-Rica Taqueria",
         "category": "restaurant",
         "section": "day-4",
-        "position": 41,
+        "position": 40,
         "notes": "A small taqueria with handmade tortillas and a short menu on the wall. Expect a line and a patio seat.",
         "address": "622 N Milpas St, Santa Barbara, CA 93103",
         "locality": "Santa Barbara"
@@ -900,7 +880,7 @@
         "name": "Hotel Californian",
         "category": "hotel",
         "section": "day-4",
-        "position": 42,
+        "position": 41,
         "notes": "A Moorish-style hotel at the foot of State Street, a block from the beach and close to the Funk Zone's tasting rooms.",
         "address": "36 State St, Santa Barbara, CA 93101",
         "locality": "Santa Barbara"
@@ -920,7 +900,7 @@
         "name": "Neptune's Net",
         "category": "restaurant",
         "section": "day-5",
-        "position": 43,
+        "position": 42,
         "notes": "A roadside seafood shack at the county line, where surfers and motorcyclists share picnic tables over fried shrimp and steamed crab.",
         "address": "42505 Pacific Coast Hwy, Malibu, CA 90265",
         "locality": "Malibu"
@@ -940,7 +920,7 @@
         "name": "El Matador State Beach",
         "category": "beach",
         "section": "day-5",
-        "position": 44,
+        "position": 43,
         "notes": "Sea stacks and caves at a small cove below the bluffs, reached by a steep trail and stairs from the lot. Best at low tide.",
         "address": "32220 Pacific Coast Hwy, Malibu, CA 90265",
         "locality": "Malibu"
@@ -960,7 +940,7 @@
         "name": "Getty Villa",
         "category": "museum",
         "section": "day-5",
-        "position": 45,
+        "position": 44,
         "notes": "Greek, Roman and Etruscan antiquities in a re-created Roman country house with gardens above the coast. Admission is free with a timed reservation from the Getty's site.",
         "address": "17985 Pacific Coast Hwy, Pacific Palisades, CA 90272",
         "locality": "Pacific Palisades"
@@ -980,7 +960,7 @@
         "name": "Santa Monica Pier",
         "category": "attraction",
         "section": "day-5",
-        "position": 46,
+        "position": 45,
         "notes": "The 1909 pier with an amusement park, a Ferris wheel over the water and a 1922 carousel. It also marks the western end of Route 66.",
         "address": "200 Santa Monica Pier, Santa Monica, CA 90401",
         "locality": "Santa Monica"
@@ -1000,7 +980,7 @@
         "name": "Venice Canals",
         "category": "park",
         "section": "day-5",
-        "position": 47,
+        "position": 46,
         "notes": "A quiet grid of footpaths and small bridges along the canals Abbot Kinney dug in 1905, two blocks from the noise of the boardwalk.",
         "address": "Venice Canals Walkway, Venice, CA 90291",
         "locality": "Venice"
@@ -1020,7 +1000,7 @@
         "name": "Gjusta",
         "category": "cafe",
         "section": "day-5",
-        "position": 48,
+        "position": 47,
         "notes": "A bakery and deli in a converted warehouse with breads, smoked fish and breakfast plates. Order at the counter and find a seat on the back patio.",
         "address": "320 Sunset Ave, Venice, CA 90291",
         "locality": "Venice"
@@ -1040,7 +1020,7 @@
         "name": "Hotel Erwin",
         "category": "hotel",
         "section": "day-5",
-        "position": 49,
+        "position": 48,
         "notes": "A mid-range hotel right off the boardwalk, with a rooftop bar that looks over the beach.",
         "address": "1697 Pacific Ave, Venice, CA 90291",
         "locality": "Venice"
@@ -1060,7 +1040,7 @@
         "name": "The Queen Mary",
         "category": "hotel",
         "section": "day-6",
-        "position": 50,
+        "position": 49,
         "notes": "The 1936 ocean liner, moored in Long Beach for good, with original cabins as hotel rooms and decks to explore on a day visit.",
         "address": "1126 Queens Hwy, Long Beach, CA 90802",
         "locality": "Long Beach"
@@ -1080,7 +1060,7 @@
         "name": "Crystal Cove State Park",
         "category": "state-park",
         "section": "day-6",
-        "position": 51,
+        "position": 50,
         "notes": "Three miles of beach and tide pools plus a historic district of 1930s beach cottages, some of which rent overnight. Cottage booking opens months ahead; check the official site.",
         "address": "8471 N Coast Hwy, Laguna Beach, CA 92651",
         "locality": "Newport Coast"
@@ -1100,7 +1080,7 @@
         "name": "Beachcomber at Crystal Cove",
         "category": "restaurant",
         "section": "day-6",
-        "position": 52,
+        "position": 51,
         "notes": "Breakfast or a sunset drink on a deck right above the sand, in one of the restored cottages of the historic district.",
         "address": "15 Crystal Cove, Newport Coast, CA 92657",
         "locality": "Newport Coast"
@@ -1120,7 +1100,7 @@
         "name": "Heisler Park",
         "category": "park",
         "section": "day-6",
-        "position": 53,
+        "position": 52,
         "notes": "A cliff-top park with gardens, benches and stairways down to small coves and tide pools on Laguna's north end.",
         "address": "375 Cliff Dr, Laguna Beach, CA 92651",
         "locality": "Laguna Beach"
@@ -1140,7 +1120,7 @@
         "name": "The Ranch at Laguna Beach",
         "category": "hotel",
         "section": "day-6",
-        "position": 54,
+        "position": 53,
         "notes": "A ranch-style resort in a canyon just across the highway from the beach, with its own nine-hole golf course.",
         "address": "31106 Coast Hwy, Laguna Beach, CA 92651",
         "locality": "Laguna Beach"
@@ -1160,8 +1140,8 @@
         "name": "Torrey Pines State Natural Reserve",
         "category": "park",
         "section": "day-6",
-        "position": 55,
-        "notes": "Sandstone bluffs and the rare Torrey pine on short trails above the beach. Park at the beach lot and walk up, or drive to the lodge at the top when spaces allow.",
+        "position": 54,
+        "notes": "Sandstone bluffs and the rare Torrey pine on short trails above the beach. The reserve's trails and upper road close for long repair projects at times, so check State Parks before you go; the beach below stays open.",
         "address": "12600 N Torrey Pines Rd, La Jolla, CA 92037",
         "locality": "La Jolla"
       }
@@ -1180,7 +1160,7 @@
         "name": "La Jolla Cove",
         "category": "park",
         "section": "day-6",
-        "position": 56,
+        "position": 55,
         "notes": "A small cove below the village where sea lions and harbor seals sprawl on the rocks. Snorkelers come for the garibaldi in the marine reserve.",
         "address": "1100 Coast Blvd, La Jolla, CA 92037",
         "locality": "La Jolla"
@@ -1200,7 +1180,7 @@
         "name": "Point Loma Seafoods",
         "category": "restaurant",
         "section": "day-6",
-        "position": 57,
+        "position": 56,
         "notes": "A fish market and counter at the sportfishing docks since 1963. Get a fish sandwich and eat outside watching the boats.",
         "address": "2805 Emerson St, San Diego, CA 92106",
         "locality": "Point Loma"
@@ -1220,7 +1200,7 @@
         "name": "Cabrillo National Monument",
         "category": "park",
         "section": "day-6",
-        "position": 58,
+        "position": 57,
         "notes": "The tip of Point Loma, with an 1855 lighthouse, views across the bay to downtown, and tide pools on the west side at low tide.",
         "address": "1800 Cabrillo Memorial Dr, San Diego, CA 92106",
         "locality": "Point Loma"
@@ -1240,7 +1220,7 @@
         "name": "Balboa Park",
         "category": "park",
         "section": "day-6",
-        "position": 59,
+        "position": 58,
         "notes": "Spanish Revival buildings from the 1915 exposition, museums, gardens and the botanical building along El Prado. Free to walk around; museums charge separately.",
         "address": "1549 El Prado, San Diego, CA 92101",
         "locality": "San Diego"
@@ -1260,7 +1240,7 @@
         "name": "Hotel del Coronado",
         "category": "hotel",
         "section": "day-6",
-        "position": 60,
+        "position": 59,
         "notes": "The red-roofed 1888 Victorian resort on Coronado's beach, a fitting last night at the end of the coast road.",
         "address": "1500 Orange Ave, Coronado, CA 92118",
         "locality": "Coronado"
@@ -1325,7 +1305,6 @@
           "pfeiffer-big-sur-state-park",
           "big-sur-lodge",
           "glen-oaks-big-sur",
-          "big-sur-bakery",
           "pfeiffer-beach",
           "nepenthe",
           "post-ranch-inn",

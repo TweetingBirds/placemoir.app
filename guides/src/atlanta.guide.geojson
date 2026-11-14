@@ -366,13 +366,13 @@
         ]
       },
       "properties": {
-        "name": "Sweet Auburn Curb Market",
+        "name": "The Municipal Market (Sweet Auburn Curb Market)",
         "category": "restaurant",
         "section": "eat",
         "notes": "A city market since 1918. Lunch from the stalls before the King historic site, five minutes away.",
         "address": "209 Edgewood Ave SE, Atlanta, GA 30303",
         "locality": "Sweet Auburn",
-        "lastVerified": "2026-11-07",
+        "lastVerified": "2026-11-14",
         "match": {
           "query": "The Municipal Market"
         }

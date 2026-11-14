@@ -237,26 +237,6 @@
     },
     {
       "type": "Feature",
-      "id": "corvino",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -94.5835,
-          39.091
-        ]
-      },
-      "properties": {
-        "name": "Corvino Supper Club",
-        "category": "restaurant",
-        "section": "eat",
-        "notes": "Japanese-influenced plates with live jazz in the supper club, or the tasting room for a splurge.",
-        "address": "1830 Walnut St, Kansas City, MO 64108",
-        "locality": "Crossroads",
-        "lastVerified": "2026-11-07"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "the-rieger",
       "geometry": {
         "type": "Point",
@@ -409,10 +389,10 @@
         "name": "Green Lady Lounge",
         "category": "bar",
         "section": "eat",
-        "notes": "Live jazz every night, no cover, in a dark red room.",
+        "notes": "Live jazz every night, no cover, in a dark red room. It has been closed for repairs after a fire, so check before you go; its sister club Black Dolphin is next door.",
         "address": "1809 Grand Blvd, Kansas City, MO 64108",
         "locality": "Crossroads",
-        "lastVerified": "2026-11-07"
+        "lastVerified": "2026-11-14"
       }
     },
     {

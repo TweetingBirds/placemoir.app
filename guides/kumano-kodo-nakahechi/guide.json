@@ -189,19 +189,6 @@
       "appleMapsID": "IC6BAE911ADC400F6"
     },
     {
-      "id": "guide:kumano-kodo-nakahechi/guesthouse-sora-chikatsuyu",
-      "name": "Guesthouse SORA Chikatsuyu",
-      "category": "hotel",
-      "address": "614 Chikatsuyu, Nakahechi-cho, Tanabe, Wakayama 646-1402",
-      "locality": "Chikatsuyu",
-      "country": "Japan",
-      "latitude": 33.8166,
-      "longitude": 135.6036,
-      "wantToGo": true,
-      "notes": "A homestay with three tatami rooms run by a retired couple, with shared bath and a home-cooked dinner. A quiet alternative to the larger inns.",
-      "section": "Day 2 · Takahara to Chikatsuyu · about 10 km"
-    },
-    {
       "id": "guide:kumano-kodo-nakahechi/cabelo-coffee",
       "name": "CABELO Coffee",
       "category": "cafe",
@@ -240,19 +227,6 @@
       "notes": "A thatched teahouse with an open hearth next to Tsugizakura-oji. Sometimes a local volunteer is pouring tea; either way it is a good place to sit for a few minutes.",
       "section": "Day 3 · Chikatsuyu to Kumano Hongu Taisha · about 25 km",
       "appleMapsID": "I964C848FEDE62BCC"
-    },
-    {
-      "id": "guide:kumano-kodo-nakahechi/kumano-kodo-inn-hagi",
-      "name": "Kumano Kodo Inn Hagi",
-      "category": "hotel",
-      "address": "1068 Nonaka, Nakahechi-cho, Tanabe, Wakayama 646-1401",
-      "locality": "Nonaka",
-      "country": "Japan",
-      "latitude": 33.8244,
-      "longitude": 135.6293,
-      "wantToGo": true,
-      "notes": "An old village shop turned into a small inn near Tsugizakura-oji. Staying in Nonaka shortens the long walk to Hongu the next day.",
-      "section": "Day 3 · Chikatsuyu to Kumano Hongu Taisha · about 25 km"
     },
     {
       "id": "guide:kumano-kodo-nakahechi/hosshinmon-oji",

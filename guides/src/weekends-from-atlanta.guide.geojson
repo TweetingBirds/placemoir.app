@@ -84,7 +84,7 @@
     },
     {
       "type": "Feature",
-      "id": "back-porch-oyster-bar",
+      "id": "19-degrees-north",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -93,15 +93,12 @@
         ]
       },
       "properties": {
-        "name": "Back Porch Oyster Bar",
+        "name": "19 Degrees North Seafood & Grill",
         "category": "restaurant",
         "section": "dahlonega-georgia",
-        "notes": "Oysters, shrimp and seafood pastas a few steps off the square. Ask for the porch when the weather is good.",
+        "notes": "A coastal-style seafood and grill spot right on Dahlonega's historic square, a casual place for fish, shrimp and a cold drink after a day in the mountains.",
         "address": "19 N Chestatee St, Dahlonega, GA 30533",
-        "locality": "Dahlonega",
-        "match": {
-          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
-        }
+        "locality": "Dahlonega, GA"
       }
     },
     {

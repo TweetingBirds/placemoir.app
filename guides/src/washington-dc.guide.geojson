@@ -217,22 +217,22 @@
     },
     {
       "type": "Feature",
-      "id": "compass-rose",
+      "id": "sook",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.0311,
-          38.9156
+          -77.0315,
+          38.9154
         ]
       },
       "properties": {
-        "name": "Compass Rose",
-        "category": "restaurant",
+        "name": "Sook",
+        "category": "cafe",
         "section": "eat",
-        "notes": "Street food from around the world in a cozy rowhouse. Order the khachapuri.",
+        "notes": "An all-day cafe and wine bar in the old Compass Rose rowhouse, from the same owner. Coffee and pastries by day, natural wine at night, and the khachapuri is still on the menu.",
         "address": "1346 T St NW, Washington, DC 20009",
         "locality": "U Street",
-        "lastVerified": "2026-11-07"
+        "lastVerified": "2026-11-14"
       }
     },
     {
@@ -670,9 +670,9 @@
         "category": "attraction",
         "section": "see",
         "notes": "The Kennedy graves and the changing of the guard at the Tomb of the Unknown Soldier.",
-        "address": "Arlington, VA 22211",
+        "address": "1 Memorial Ave, Arlington, VA 22211",
         "locality": "Arlington",
-        "lastVerified": "2026-11-07"
+        "lastVerified": "2026-11-14"
       }
     },
     {

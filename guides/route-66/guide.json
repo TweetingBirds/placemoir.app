@@ -70,15 +70,15 @@
     },
     {
       "id": "guide:route-66/launching-pad-gemini-giant",
-      "name": "Launching Pad Drive-In",
+      "name": "Gemini Giant",
       "category": "attraction",
-      "address": "810 E Baltimore St, Wilmington, IL 60481",
+      "address": "201 Bridge St, Wilmington, IL 60481",
       "locality": "Wilmington",
       "country": "United States",
       "latitude": 41.3061,
       "longitude": -88.1497,
       "wantToGo": true,
-      "notes": "Home of the Gemini Giant, a fiberglass spaceman holding a rocket since the 1960s. The old drive-in building has been restored as a stop with food and Route 66 souvenirs.",
+      "notes": "The Gemini Giant, a fiberglass spaceman holding a rocket since the 1960s, now stands at the entrance to South Island Park after the old Launching Pad Drive-In closed. A small seasonal souvenir shop sits nearby.",
       "section": "Day 1 · Chicago to Springfield, Illinois · 200 mi"
     },
     {
@@ -781,7 +781,7 @@
       "id": "guide:route-66/delgadillos-snow-cap",
       "name": "Delgadillo's Snow Cap",
       "category": "restaurant",
-      "address": "301 E Chino Ave, Seligman, AZ 86337",
+      "address": "301 W Chino Ave, Seligman, AZ 86337",
       "locality": "Seligman",
       "country": "United States",
       "latitude": 35.32607,

@@ -346,20 +346,6 @@
       "appleMapsID": "I664B35081B2EF2FD"
     },
     {
-      "id": "guide:pacific-coast-highway/big-sur-bakery",
-      "name": "Big Sur Bakery",
-      "category": "cafe",
-      "address": "47540 California 1, Big Sur, CA 93920",
-      "locality": "Big Sur",
-      "country": "United States",
-      "latitude": 36.235828,
-      "longitude": -121.769044,
-      "wantToGo": true,
-      "notes": "Wood-fired bread, pastries and breakfast in a house set back from the highway. A good first stop of the morning.",
-      "section": "Day 3 · Carmel through Big Sur to Cambria · 100 mi",
-      "appleMapsID": "IF717D8AA088763FF"
-    },
-    {
       "id": "guide:pacific-coast-highway/pfeiffer-beach",
       "name": "Pfeiffer Beach",
       "category": "park",
@@ -787,7 +773,7 @@
       "latitude": 32.9174,
       "longitude": -117.25436,
       "wantToGo": true,
-      "notes": "Sandstone bluffs and the rare Torrey pine on short trails above the beach. Park at the beach lot and walk up, or drive to the lodge at the top when spaces allow.",
+      "notes": "Sandstone bluffs and the rare Torrey pine on short trails above the beach. The reserve's trails and upper road close for long repair projects at times, so check State Parks before you go; the beach below stays open.",
       "section": "Day 6 · Venice to San Diego · 135 mi",
       "appleMapsID": "I9623B7C184149DC3"
     },

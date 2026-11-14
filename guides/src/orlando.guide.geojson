@@ -357,26 +357,6 @@
     },
     {
       "type": "Feature",
-      "id": "dandelion-communitea",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.3627,
-          28.5512
-        ]
-      },
-      "properties": {
-        "name": "Dandelion Communitea Café",
-        "category": "cafe",
-        "section": "eat",
-        "notes": "A vegetarian café in an old house, with a porch and a long tea list.",
-        "address": "618 N Thornton Ave, Orlando, FL 32803",
-        "locality": "Thornton Park",
-        "lastVerified": "2026-11-07"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "wallys",
       "geometry": {
         "type": "Point",
@@ -386,13 +366,13 @@
         ]
       },
       "properties": {
-        "name": "Wally's Mills Ave Liquors",
+        "name": "Wally's Bar & Liquors",
         "category": "bar",
         "section": "eat",
         "notes": "A 1950s dive bar with vintage pin-up wallpaper and cheap, strong drinks.",
         "address": "1001 N Mills Ave, Orlando, FL 32803",
         "locality": "Mills 50",
-        "lastVerified": "2026-11-07"
+        "lastVerified": "2026-11-14"
       }
     },
     {

@@ -257,22 +257,22 @@
     },
     {
       "type": "Feature",
-      "id": "laziz-kitchen",
+      "id": "laziz-kitchen-sugar-house",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -111.8995,
-          40.7495
+          -111.8591,
+          40.7243
         ]
       },
       "properties": {
-        "name": "Laziz Kitchen",
+        "name": "Laziz Kitchen at Sugar House Station",
         "category": "restaurant",
         "section": "eat",
-        "notes": "Lebanese small plates and fresh hummus, in the small Central Ninth neighborhood.",
-        "address": "912 S Jefferson St, Salt Lake City, UT 84101",
-        "locality": "Central Ninth",
-        "lastVerified": "2026-11-07"
+        "notes": "Laziz Kitchen's counter inside the Sugar House Station food hall, with the hummus, mezze and wraps the local brand is known for. Easy for a group, with other stalls around it.",
+        "address": "2155 S Highland Dr, Salt Lake City, UT 84106",
+        "locality": "Sugar House",
+        "lastVerified": "2026-11-14"
       }
     },
     {
@@ -532,26 +532,6 @@
         "notes": "A broad collection on the University of Utah campus, with strong Western American galleries.",
         "address": "410 Campus Center Dr, Salt Lake City, UT 84112",
         "locality": "University",
-        "lastVerified": "2026-11-07"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "the-leonardo",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.8847,
-          40.7587
-        ]
-      },
-      "properties": {
-        "name": "The Leonardo",
-        "category": "museum",
-        "section": "see",
-        "notes": "Science, art and tinkering under one roof, in the old city library. Good on a rainy day.",
-        "address": "209 E 500 S, Salt Lake City, UT 84111",
-        "locality": "Downtown",
         "lastVerified": "2026-11-07"
       }
     },

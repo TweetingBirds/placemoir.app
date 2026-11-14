@@ -417,26 +417,6 @@
     },
     {
       "type": "Feature",
-      "id": "violet-hour",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.6775,
-          41.9093
-        ]
-      },
-      "properties": {
-        "name": "The Violet Hour",
-        "category": "bar",
-        "section": "eat",
-        "notes": "A hidden, candlelit cocktail bar behind a mural-covered wall. No phones at the bar.",
-        "address": "1520 N Damen Ave, Chicago, IL 60622",
-        "locality": "Wicker Park",
-        "lastVerified": "2026-11-07"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "billy-goat",
       "geometry": {
         "type": "Point",

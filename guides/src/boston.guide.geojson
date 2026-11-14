@@ -349,10 +349,10 @@
         "name": "Tatte Bakery & Cafe",
         "category": "cafe",
         "section": "eat",
-        "notes": "A bright bakery on Charles Street. Breakfast before a Beacon Hill walk.",
+        "notes": "A bright bakery on Charles Street. Breakfast before a Beacon Hill walk. This location is closed for renovation; Tatte's Boylston Street cafes are nearby.",
         "address": "70 Charles St, Boston, MA 02114",
         "locality": "Beacon Hill",
-        "lastVerified": "2026-11-07"
+        "lastVerified": "2026-11-14"
       }
     },
     {
@@ -612,7 +612,10 @@
         "notes": "H.H. Richardson's 1877 church on Copley Square, glowing inside with murals and stained glass.",
         "address": "206 Clarendon St, Boston, MA 02116",
         "locality": "Back Bay",
-        "lastVerified": "2026-11-07"
+        "lastVerified": "2026-11-14",
+        "match": {
+          "query": "Trinity Church Boston"
+        }
       }
     },
     {

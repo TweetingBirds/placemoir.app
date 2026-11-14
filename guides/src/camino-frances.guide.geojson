@@ -527,7 +527,7 @@
         "category": "albergue",
         "section": "stage-6",
         "position": 18,
-        "notes": "The municipal hostel at the far edge of Los Arcos, run by volunteers. A walled patio for stretching out after the long, dry walk from Villamayor.",
+        "notes": "The municipal hostel at the far edge of Los Arcos, run by volunteers. A walled patio for stretching out after the long, dry walk from Villamayor. It closes for the winter, roughly November to March.",
         "address": "Calle San Lázaro s/n, 31210 Los Arcos, Navarra",
         "locality": "Los Arcos"
       }
@@ -840,7 +840,7 @@
         "section": "stage-12",
         "position": 33,
         "notes": "A crowded tapas bar near the cathedral, known for generous plates of morcilla, croquetas and grilled mushrooms. Expect to wait for a spot at the bar.",
-        "address": "Calle Diego Porcelos 1, 09003 Burgos",
+        "address": "Calle Sombrerería 27, 09003 Burgos",
         "locality": "Burgos"
       }
     },
@@ -1175,7 +1175,7 @@
         "section": "stage-18",
         "position": 49,
         "notes": "A small adobe hostel built in the traditional style, named for a 17th-century Italian pilgrim who wrote about the route. Donation-based and run by volunteers.",
-        "address": "Calle de la Carretera, 11, 24343 El Burgo Ranero, León",
+        "address": "Plaza Mayor, s/n, 24343 El Burgo Ranero, León",
         "locality": "El Burgo Ranero",
         "match": {
           "skip": "Apple Maps only lists a neighboring or larger place here (checked Nov 14, 2026)"
@@ -1208,17 +1208,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.4185,
-          42.4998
+          -5.4124,
+          42.4993
         ]
       },
       "properties": {
-        "name": "Albergue Municipal de Mansilla de las Mulas",
+        "name": "Albergue de Peregrinos Municipal (provisional)",
         "category": "albergue",
         "section": "stage-19",
         "position": 51,
-        "notes": "The public hostel inside the medieval walls, with a courtyard full of drying laundry. A short walk from the stretch of town wall above the river.",
-        "address": "Calle del Puente 5, 24210 Mansilla de las Mulas, León",
+        "notes": "While the historic municipal albergue on Calle del Puente is being rebuilt, the town runs a simple provisional albergue in the CICA building, staffed by volunteer hospitaleros. Beds go first come, first served.",
+        "address": "Avenida Picos de Europa, s/n, 24210 Mansilla de las Mulas, León",
         "locality": "Mansilla de las Mulas"
       }
     },
@@ -1453,7 +1453,7 @@
         "section": "stage-23",
         "position": 62,
         "notes": "A short detour to a stone village built by muleteers, where this inn serves cocido maragato, a stew eaten backward, meats first and soup last. Plan on a big lunch and a short afternoon.",
-        "address": "Calle la Magdalena, 10, 24718 Castrillo de los Polvazares, León",
+        "address": "Calle Jardín, s/n, 24718 Castrillo de los Polvazares, León",
         "locality": "Castrillo de los Polvazares",
         "match": {
           "query": "Cuca la Vaina Restaurante"
@@ -1519,7 +1519,7 @@
         "address": "Calle Real, 24413 Molinaseca, León",
         "locality": "Molinaseca",
         "match": {
-          "query": "Puente Romano Molinaseca"
+          "skip": "Apple's nearest match is the restaurant Mesón Puente Romano, not the bridge; no verified Apple listing for the bridge itself"
         }
       }
     },

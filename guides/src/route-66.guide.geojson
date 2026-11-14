@@ -131,16 +131,15 @@
         ]
       },
       "properties": {
-        "name": "Launching Pad Drive-In",
+        "name": "Gemini Giant",
         "category": "attraction",
         "section": "day-1",
         "position": 4,
-        "notes": "Home of the Gemini Giant, a fiberglass spaceman holding a rocket since the 1960s. The old drive-in building has been restored as a stop with food and Route 66 souvenirs.",
-        "address": "810 E Baltimore St, Wilmington, IL 60481",
+        "notes": "The Gemini Giant, a fiberglass spaceman holding a rocket since the 1960s, now stands at the entrance to South Island Park after the old Launching Pad Drive-In closed. A small seasonal souvenir shop sits nearby.",
+        "address": "201 Bridge St, Wilmington, IL 60481",
         "locality": "Wilmington",
         "match": {
-          "query": "Launching Pad Gemini Giant",
-          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
+          "query": "Gemini Giant"
         }
       }
     },
@@ -1181,8 +1180,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -112.879,
-          35.3256
+          -112.873,
+          35.3261
         ]
       },
       "properties": {
@@ -1191,7 +1190,7 @@
         "section": "day-8",
         "position": 55,
         "notes": "A burger stand opened in 1953 by Juan Delgadillo, known for its pranks: fake mustard bottles and a menu of jokes. The family still runs it.",
-        "address": "301 E Chino Ave, Seligman, AZ 86337",
+        "address": "301 W Chino Ave, Seligman, AZ 86337",
         "locality": "Seligman"
       }
     },

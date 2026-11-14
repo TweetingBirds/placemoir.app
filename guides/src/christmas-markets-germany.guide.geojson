@@ -93,7 +93,7 @@
         "address": "Hauptmarkt, 90403 Nuremberg",
         "locality": "Nuremberg",
         "match": {
-          "query": "Hauptmarkt Nürnberg"
+          "skip": "Seasonal Christmas market on Hauptmarkt; Apple Maps has no listing for the event itself (checked Nov 14, 2026)"
         }
       }
     },
@@ -153,7 +153,7 @@
         "address": "Marktplatz, 91541 Rothenburg ob der Tauber",
         "locality": "Rothenburg ob der Tauber",
         "match": {
-          "query": "Marktplatz Rothenburg ob der Tauber"
+          "skip": "Seasonal Christmas market on Marktplatz; Apple Maps has no listing for the event itself (checked Nov 14, 2026)"
         }
       }
     },
@@ -238,7 +238,7 @@
         "address": "Marienplatz, 80331 Munich",
         "locality": "Munich",
         "match": {
-          "query": "Marienplatz München"
+          "skip": "Seasonal Christmas market on Marienplatz; Apple Maps has no listing for the event itself (checked Nov 14, 2026)"
         }
       }
     },
@@ -339,7 +339,7 @@
         "address": "Altmarkt, 01067 Dresden",
         "locality": "Dresden",
         "match": {
-          "query": "Altmarkt Dresden"
+          "skip": "Seasonal Christmas market on Altmarkt; Apple Maps has no listing for the event itself (checked Nov 14, 2026)"
         }
       }
     },
@@ -421,7 +421,7 @@
         "address": "Domplatz, 99084 Erfurt",
         "locality": "Erfurt",
         "match": {
-          "query": "Domplatz Erfurt"
+          "skip": "Seasonal Christmas market on Domplatz; Apple Maps has no listing for the event itself (checked Nov 14, 2026)"
         }
       }
     },
@@ -443,7 +443,7 @@
         "address": "Markt, 23552 Lübeck",
         "locality": "Lübeck",
         "match": {
-          "query": "Markt Lübeck"
+          "skip": "Seasonal Christmas market on the Markt; Apple Maps has no listing for the event itself (checked Nov 14, 2026)"
         }
       }
     },
@@ -484,7 +484,7 @@
         "address": "Roncalliplatz, 50667 Cologne",
         "locality": "Cologne",
         "match": {
-          "query": "Roncalliplatz Köln"
+          "skip": "Seasonal Christmas market on Roncalliplatz; Apple Maps has no listing for the event itself (checked Nov 14, 2026)"
         }
       }
     },
@@ -506,7 +506,7 @@
         "address": "Alter Markt, 50667 Köln",
         "locality": "Cologne",
         "match": {
-          "query": "Alter Markt Köln"
+          "skip": "Seasonal Christmas market on Alter Markt/Heumarkt; Apple Maps has no listing for the event itself (checked Nov 14, 2026)"
         }
       }
     },
@@ -528,7 +528,7 @@
         "address": "Neumarkt, 50667 Cologne",
         "locality": "Cologne",
         "match": {
-          "query": "Neumarkt Köln"
+          "skip": "Seasonal Christmas market on Neumarkt; Apple Maps has no listing for the event itself (checked Nov 14, 2026)"
         }
       }
     },
@@ -588,7 +588,7 @@
         "address": "Markt, 52062 Aachen",
         "locality": "Aachen",
         "match": {
-          "query": "Markt Aachen"
+          "skip": "Seasonal Christmas market around Markt and the cathedral; Apple Maps has no listing for the event itself (checked Nov 14, 2026)"
         }
       }
     },
@@ -692,7 +692,7 @@
         "address": "Marktplatz, 73728 Esslingen am Neckar",
         "locality": "Esslingen am Neckar",
         "match": {
-          "query": "Marktplatz Esslingen"
+          "skip": "Seasonal market on Marktplatz/Rathausplatz; Apple Maps has no listing for the event itself (checked Nov 14, 2026)"
         }
       }
     },
