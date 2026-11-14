@@ -732,7 +732,10 @@
         "notes": "The oldest building in the city, finished in 1791, with a small cemetery and garden.",
         "address": "3321 16th St, San Francisco, CA 94114",
         "locality": "Mission",
-        "lastVerified": "2026-11-07"
+        "lastVerified": "2026-11-14",
+        "match": {
+          "query": "Mission San Francisco de Asís"
+        }
       }
     },
     {
