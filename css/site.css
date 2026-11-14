@@ -626,7 +626,9 @@ html:not(.has-device-tabs) .gallery-heading { display: block; width: 100%; font:
 .suggest-form[hidden], .suggest-form [hidden], .contact-card[hidden] { display: none; }
 
 /* Guides list (guides/): search and type filters, shown by js/guides-list.js. */
-.guide-controls { display: grid; gap: 14px; margin-bottom: 8px; }
+.guide-controls { display: grid; gap: 14px; }
+/* Plain wrappers: the site-wide section padding would push each kind heading far down. */
+.guide-group { padding: 0; }
 .guide-controls[hidden], .guide-group[hidden], .prompt-card[hidden] { display: none; }
 .guide-search { max-width: 480px; }
 .guide-search input { -webkit-appearance: none; appearance: none; }
