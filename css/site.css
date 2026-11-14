@@ -624,3 +624,21 @@ html:not(.has-device-tabs) .gallery-heading { display: block; width: 100%; font:
 .thanks-actions { display: flex; flex-wrap: wrap; gap: 12px; }
 .hp { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
 .suggest-form[hidden], .suggest-form [hidden], .contact-card[hidden] { display: none; }
+
+/* Guides list (guides/): search and type filters, shown by js/guides-list.js. */
+.guide-controls { display: grid; gap: 14px; margin-bottom: 8px; }
+.guide-controls[hidden], .guide-group[hidden], .prompt-card[hidden] { display: none; }
+.guide-search { max-width: 480px; }
+.guide-search input { -webkit-appearance: none; appearance: none; }
+.guide-filters { display: flex; flex-wrap: wrap; gap: 8px; }
+.filter-chip {
+  display: inline-flex; align-items: center; min-height: 44px; padding: 0 18px; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--paper); color: var(--ink); font: 500 .95rem var(--sans);
+  cursor: pointer; -webkit-tap-highlight-color: transparent;
+  transition: background-color .15s ease-out, color .15s ease-out, border-color .15s ease-out;
+}
+.filter-chip:hover { border-color: var(--moss); }
+.filter-chip[aria-pressed="true"] { background: var(--glass-tint-soft); color: var(--moss); border-color: transparent; font-weight: 700; }
+.guide-count { color: var(--pencil); font-size: .95rem; min-height: 1.5em; }
+.guide-count a { font-weight: 700; }
+@media (prefers-reduced-motion: reduce) { .filter-chip { transition: none; } }

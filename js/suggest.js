@@ -64,8 +64,8 @@
   function check() {
     var errors = {};
     var value = function (name) { return (form.elements[name].value || '').trim(); };
-    if (!city.value) errors.city = 'Pick the city, or type it in.';
-    if (city.value === 'other' && !value('otherCity')) errors.otherCity = 'Type the city.';
+    if (!city.value) errors.city = 'Pick a guide, or choose a new guide idea.';
+    if (city.value === 'other' && !value('otherCity')) errors.otherCity = 'Type the city, park or trip.';
     if (!value('place')) errors.place = 'Add the name of the place.';
     if (!form.elements.kind.value) errors.kind = 'Pick what kind of place it is.';
     if (!value('address') && !value('link')) errors.address = 'Add the address or a link to the place, so we find the right one.';

@@ -18,10 +18,10 @@
     <link rel="icon" type="image/png" sizes="64x64" href="../../images/favicon-64.png">
     <link rel="apple-touch-icon" href="../../images/apple-touch-icon.png">
     <link rel="stylesheet" href="../../css/fonts.css?v=20261103.2">
-    <link rel="stylesheet" href="../../css/site.css?v=20261112.2">
+    <link rel="stylesheet" href="../../css/site.css?v=20261114.1">
     <script src="../../js/theme.js?v=20261112.1"></script>
     <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-    <script src="../../js/suggest.js?v=20261113.1" defer></script>
+    <script src="../../js/suggest.js?v=20261114.1" defer></script>
 </head>
 <body>
     <a class="skip" href="#main">Skip to content</a>
@@ -64,30 +64,35 @@
                 <fieldset>
                     <legend>The place</legend>
                     <div class="field">
-                        <label for="city">City</label>
+                        <label for="city">Which guide?</label>
                         <select id="city" name="city" required aria-describedby="city-error">
-                            <option value="" selected disabled>Choose a city</option>
-                            <option>Atlanta</option>
-                            <option>Austin</option>
-                            <option>Boston</option>
-                            <option>Chicago</option>
-                            <option>Denver</option>
-                            <option>Kansas City</option>
-                            <option>Nashville</option>
-                            <option>New York</option>
-                            <option>Orlando</option>
-                            <option>Portland</option>
-                            <option>Salt Lake City</option>
-                            <option>San Francisco</option>
-                            <option>Seattle</option>
-                            <option>Washington, DC</option>
-                            <option value="other">Another city</option>
+                            <option value="" selected disabled>Choose a guide</option>
+                            <optgroup label="Cities">
+                                <option>A mile high in Denver</option>
+                                <option>Atlanta from Mary Mac&#x27;s to the BeltLine</option>
+                                <option>Barbecue and jazz in Kansas City</option>
+                                <option>Boston on foot</option>
+                                <option>Chicago by the lake</option>
+                                <option>Free museums and half-smokes in DC</option>
+                                <option>Live music and swimming holes in Austin</option>
+                                <option>Nashville beyond Broadway</option>
+                                <option>New York by ferry and on foot</option>
+                                <option>Portland rain or shine</option>
+                                <option>Salt Lake City under the Wasatch</option>
+                                <option>San Francisco in the fog</option>
+                                <option>Seattle by the Sound</option>
+                                <option>Theme parks and springs in Orlando</option>
+                            </optgroup>
+                            <optgroup label="National parks">
+                                <option>Great Smoky Mountains from Cades Cove to Kuwohi</option>
+                            </optgroup>
+                            <option value="other">A new guide idea</option>
                         </select>
                         <p class="field-error" id="city-error" hidden></p>
                     </div>
                     <div class="field" id="otherCityField" hidden>
-                        <label for="otherCity">Which city?</label>
-                        <input id="otherCity" name="otherCity" type="text" maxlength="60" autocomplete="address-level2" aria-describedby="otherCity-error">
+                        <label for="otherCity">Which city, park or trip?</label>
+                        <input id="otherCity" name="otherCity" type="text" maxlength="60" autocomplete="off" aria-describedby="otherCity-error">
                         <p class="field-error" id="otherCity-error" hidden></p>
                     </div>
                     <div class="field">
@@ -106,6 +111,7 @@
                             <option value="museum">Museum</option>
                             <option value="attraction">Something to see or do</option>
                             <option value="park">Park or outdoors</option>
+                            <option value="trail">Trail or hike</option>
                             <option value="other">Something else</option>
                         </select>
                         <p class="field-error" id="kind-error" hidden></p>
