@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Builds the Field Guides (city guides for the Want to go list) from guides/src/<slug>.json.
+"""Builds the Field Guides (city, park and trip guides for the Want to go list) from guides/src/<slug>.json.
 
 Each source file is one guide: its title, sections and places, written by hand. This
 script turns it into, for every guide:
@@ -16,6 +16,11 @@ the guides block in sitemap.xml.
     python3 tools/guides.py check          # validate the sources; fail if the built files are stale
     python3 tools/guides.py maps [slug…]   # look every place up in Apple Maps (see below)
     python3 tools/guides.py token <origin> [days]  # write guides/mapkit-token.json for the map
+
+A source can set "kind" (city, the default; park; state-parks; route) and "region" (the states
+or provinces a park or route covers, shown under the title). Both go into guide.json and
+index.json only when set. Guides that aren't city guides get a not-affiliated and check-before-
+you-go line, and the guides list groups by kind once more than one kind is published.
 
 A guide with "status": "draft" is built and served with noindex, so it can be reviewed on the
 live site, but stays off the guides list and the sitemap until it is "published".
@@ -84,6 +89,9 @@ CITY_NAMES = {"washington-dc": "Washington, DC"}
 CATEGORIES = {"restaurant": "Restaurant", "cafe": "Café", "bar": "Bar", "hotel": "Hotel",
               "park": "Park", "museum": "Museum", "attraction": "Attraction",
               "airport": "Airport", "other": "Place"}
+# What a guide covers. "city" is the default when a source leaves "kind" out; the guides
+# list groups by kind, in this order, once more than one kind is published.
+KINDS = {"city": "Cities", "park": "National parks", "state-parks": "State parks", "route": "Trips"}
 PLACE_KEYS = {"key", "name", "category", "section", "address", "locality", "latitude",
               "longitude", "notes", "mapsQuery", "mapsSkip"}
 MOVED_METRES = 300
@@ -123,6 +131,10 @@ def validate(guide, stem):
         problems.append("slug: lowercase letters, digits and - only")
     if guide["status"] not in ("draft", "published"):
         problems.append("status: draft or published")
+    if guide.get("kind", "city") not in KINDS:
+        problems.append(f"kind: one of {', '.join(KINDS)}")
+    if "region" in guide and not str(guide["region"]).strip():
+        problems.append("region: leave it out, or name the states or provinces")
     try:
         datetime.date.fromisoformat(guide["updatedAt"])
     except ValueError:
@@ -198,9 +210,15 @@ def library(guide):
             "sections": guide["sections"],
             "updatedAt": guide["updatedAt"],
             "url": page_url(guide),
+            **optional_fields(guide),
         },
         "places": places,
     }
+
+
+def optional_fields(guide):
+    """The guide's kind and region, only when the source gives them, so city guides stay as they were."""
+    return {key: guide[key] for key in ("kind", "region") if guide.get(key)}
 
 
 def library_json(guide):
@@ -321,6 +339,12 @@ def guide_page(guide):
     archive = f"{slug}.placemoirarchive"
     archive_name = f"{guide['title']}.placemoirarchive"
     updated = datetime.date.fromisoformat(guide["updatedAt"]).strftime("%B %-d, %Y")
+    region = f"{e(guide['region'])} · " if guide.get("region") else ""
+    outdoors = ""
+    if guide.get("kind", "city") != "city":
+        outdoors = ('\n            <p class="press-lede guide-fineprint">Placemoir isn’t affiliated with the National Park Service, '
+                    'Parks Canada or any park agency. Roads, trails and campgrounds close for weather and repairs, and some '
+                    'need a permit or reservation, so check the park’s own site before you go.</p>')
     if ONE_TAP:
         actions = f'''<a class="btn btn-moss" href="{SHORT_LINK.format(slug=slug)}">Add to Placemoir</a>
                     <p class="cta-note">Opens Placemoir, where you pick the places you want. If it doesn’t open, <a href="{archive}" download="{e(archive_name)}">download the guide</a> and open it from Files.</p>'''
@@ -358,7 +382,7 @@ def guide_page(guide):
                 <p class="eyebrow moss"><a href="../">Field Guides</a></p>
                 <h1>{e(guide['title'])}</h1>
                 <p>{e(guide['summary'])}</p>
-                <p class="meta">{count} places · Picked by {e(guide['author'])} · Checked {updated}</p>
+                <p class="meta">{region}{count} places · Picked by {e(guide['author'])} · Checked {updated}</p>
                 <div class="cta-row guide-actions">
                     {actions}
                 </div>
@@ -366,7 +390,7 @@ def guide_page(guide):
         </div>
         <div class="wrap page-body">
 {chr(10).join(sections)}
-            <p class="press-lede guide-fineprint">Every place here was picked for the guide, not paid for. Places that are already in your journal are left as they are when you import.</p>
+            <p class="press-lede guide-fineprint">Every place here was picked for the guide, not paid for. Places that are already in your journal are left as they are when you import.</p>{outdoors}
         </div>'''
     return page(guide["title"], guide["summary"], page_url(guide), body, "../../",
                 noindex=guide["status"] != "published", app_argument=page_url(guide), with_map=True)
@@ -375,20 +399,29 @@ def guide_page(guide):
 def index_page(guides):
     e = html.escape
     published = [g for g in guides if g["status"] == "published"]
+    kinds = [k for k in KINDS if any(g.get("kind", "city") == k for g in published)]
     if published:
-        cards = "\n".join(f'''                <article class="prompt-card card">
+        def grid(group):
+            cards = "\n".join(f'''                <article class="prompt-card card">
                     <p class="meta">{len(g['places'])} places</p>
                     <h3><a href="{g['slug']}/">{e(g['title'])}</a></h3>
                     <p>{e(g['summary'])}</p>
-                </article>''' for g in published)
-        listing = f'            <div class="prompt-grid">\n{cards}\n            </div>'
+                </article>''' for g in group)
+            return f'            <div class="prompt-grid">\n{cards}\n            </div>'
+        if len(kinds) > 1:
+            listing = "\n".join(f'''            <h2 class="press-h2" id="{k}">{KINDS[k]}</h2>
+{grid([g for g in published if g.get("kind", "city") == k])}''' for k in kinds)
+        else:
+            listing = grid(published)
     else:
         listing = '            <p class="press-lede">The first guides are on their way.</p>'
+    intro = ("A week of places to stay, eat, see and walk in a city" if kinds in ([], ["city"])
+             else "Places to stay, eat, see and walk, in a city or out on the trail")
     body = f'''        <div class="wrap">
             <header class="page-head">
                 <p class="eyebrow moss">Field Guides</p>
                 <h1>Places worth the trip.</h1>
-                <p>A week of places to stay, eat, see and walk in a city, picked by people who've been. Add a Field Guide to your Want to go list in Placemoir, then rate each place once you've gone.</p>
+                <p>{intro}, picked by people who've been. Add a Field Guide to your Want to go list in Placemoir, then rate each place once you've gone.</p>
             </header>
         </div>
         <div class="wrap page-body">
@@ -588,6 +621,7 @@ def catalog_json(guides):
             "author": guide["author"],
             "language": guide["language"],
             "country": guide.get("country", ""),
+            **optional_fields(guide),
             "sections": guide["sections"],
             "placeCount": len(guide["places"]),
             "latitude": round(sum(p[0] for p in points) / len(points), 4),

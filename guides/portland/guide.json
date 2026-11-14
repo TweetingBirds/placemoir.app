@@ -390,12 +390,11 @@
       "address": "701 SW 6th Ave, Portland, OR 97204",
       "locality": "Downtown",
       "country": "United States",
-      "latitude": 45.518882,
-      "longitude": -122.67933,
+      "latitude": 45.5189,
+      "longitude": -122.6793,
       "wantToGo": true,
       "notes": "Portland's living room, with bricks bearing donors' names and the weather machine at noon.",
-      "section": "See",
-      "appleMapsID": "IA2017703517AA398"
+      "section": "See"
     },
     {
       "id": "guide:portland/aerial-tram",

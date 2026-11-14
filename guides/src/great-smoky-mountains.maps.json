@@ -1,0 +1,198 @@
+{
+  "abrams-falls": {
+    "address": "Walland, TN 37886, United States",
+    "appleMapsID": "ICC6D42937ADE5B56",
+    "latitude": 35.591291,
+    "longitude": -83.852487,
+    "name": "Abrams Falls Trailhead"
+  },
+  "alum-cave": {
+    "address": "Gatlinburg, TN 37738, United States",
+    "appleMapsID": "ICBB1E716D519FA01",
+    "latitude": 35.629542,
+    "longitude": -83.451443,
+    "name": "Alum Cave Trailhead"
+  },
+  "andrews-bald": {
+    "address": "Swain County, NC, United States",
+    "appleMapsID": "I59C8F4113160D23A",
+    "latitude": 35.5418,
+    "longitude": -83.4933,
+    "name": "Andrews Bald"
+  },
+  "buckhorn-inn": {
+    "address": "2140 Tudor Mountain Rd, Gatlinburg, TN 37738, United States",
+    "appleMapsID": "I3DBEF5BBA1794A0E",
+    "latitude": 35.744784,
+    "longitude": -83.428178,
+    "name": "Buckhorn Inn"
+  },
+  "cades-cove": {
+    "address": "Townsend, TN 37882, United States",
+    "appleMapsID": "IA0177CB1F00BFBC7",
+    "latitude": 35.599043,
+    "longitude": -83.809633,
+    "name": "Cades Cove"
+  },
+  "cades-cove-campground": {
+    "address": "Cades Cove Loop Rd, Townsend, TN 37882, United States",
+    "appleMapsID": "IC1EAF7CD35011E2A",
+    "latitude": 35.603631,
+    "longitude": -83.77617,
+    "name": "Cades Cove Campground"
+  },
+  "cataloochee-valley": {
+    "address": "Cataloochee Creek Rd, Waynesville, NC 28785, United States",
+    "appleMapsID": "I20A466E017D881FC",
+    "latitude": 35.640662,
+    "longitude": -83.079472,
+    "name": "Cataloochee Valley"
+  },
+  "charlies-bunion": {
+    "address": "Sevier County, TN, United States",
+    "appleMapsID": "IE18BB9D1476D5F3E",
+    "latitude": 35.6393,
+    "longitude": -83.3719,
+    "name": "Charlies Bunion"
+  },
+  "chimney-tops": {
+    "address": "Chimney Tops Trail, Gatlinburg, TN 37738, United States",
+    "appleMapsID": "IF5C5FE50A0D1E063",
+    "latitude": 35.635438,
+    "longitude": -83.469758,
+    "name": "Chimney Tops Trailhead Parking"
+  },
+  "dancing-bear-lodge": {
+    "address": "7140 E Lamar Alexander Pkwy, Townsend, TN 37882, United States",
+    "appleMapsID": "I832D2551C1DD6C26",
+    "latitude": 35.678228,
+    "longitude": -83.782127,
+    "name": "Dancing Bear Lodge"
+  },
+  "deep-creek": {
+    "address": "Deep Creek Trail, Bryson City, NC 28713, United States",
+    "appleMapsID": "I284ADB8F449BCC70",
+    "latitude": 35.46476,
+    "longitude": -83.433695,
+    "name": "Deep Creek Trailhead"
+  },
+  "elkmont-campground": {
+    "address": "434 Elkmont Rd, Gatlinburg, TN 37738, United States",
+    "appleMapsID": "IB4759AB409EA7450",
+    "latitude": 35.660376,
+    "longitude": -83.583805,
+    "name": "Elkmont Campground"
+  },
+  "fryemont-inn": {
+    "address": "245 Fryemont St, Bryson City, NC 28713, United States",
+    "appleMapsID": "I3679EC9FF69F4A65",
+    "latitude": 35.424388,
+    "longitude": -83.445166,
+    "name": "Fryemont Inn"
+  },
+  "greenbrier-restaurant": {
+    "address": "370 Newman Rd, Gatlinburg, TN 37738, United States",
+    "appleMapsID": "I74CCFFF454662976",
+    "latitude": 35.72481,
+    "longitude": -83.484571,
+    "name": "The Greenbrier Restaurant"
+  },
+  "grotto-falls": {
+    "address": "Roaring Fork Motor Nature Trail, Gatlinburg, TN 37738, United States",
+    "appleMapsID": "IE22F0FD507C80BCE",
+    "latitude": 35.680321,
+    "longitude": -83.463498,
+    "name": "Grotto Falls Parking"
+  },
+  "heritage-center": {
+    "address": "123 Cromwell Dr, Townsend, TN 37882, United States",
+    "appleMapsID": "I6BABB152FBE80C44",
+    "latitude": 35.676232,
+    "longitude": -83.722337,
+    "name": "Great Smoky Mountains Heritage Center"
+  },
+  "kuwohi": {
+    "address": "Swain County, NC, United States",
+    "appleMapsID": "I7CE3005D17B8F334",
+    "latitude": 35.5629,
+    "longitude": -83.49842,
+    "name": "Kuwohi"
+  },
+  "mingus-mill": {
+    "address": "Mingus Creek Trail, Bryson City, NC 28713, United States",
+    "appleMapsID": "IF73E861EF9711854",
+    "latitude": 35.520116,
+    "longitude": -83.30978,
+    "name": "Mingus Mill"
+  },
+  "museum-of-the-cherokee-people": {
+    "address": "589 Tsali Blvd, Cherokee, NC 28719, United States",
+    "appleMapsID": "ID2CD297ED304764",
+    "latitude": 35.484327,
+    "longitude": -83.316203,
+    "name": "Museum of the Cherokee People"
+  },
+  "nantahala-brewing": {
+    "address": "500 Veterans Blvd, Bryson City, NC 28713, United States",
+    "appleMapsID": "I6077206C95EB8C30",
+    "latitude": 35.42081,
+    "longitude": -83.443962,
+    "name": "Nantahala Brewing"
+  },
+  "newfound-gap": {
+    "address": "Sevier County, TN, United States",
+    "appleMapsID": "ID6AB37429F2D0674",
+    "latitude": 35.6111,
+    "longitude": -83.42532,
+    "name": "Newfound Gap"
+  },
+  "oconaluftee-visitor-center": {
+    "address": "1194 Newfound Gap Rd, Cherokee, NC 28719, United States",
+    "appleMapsID": "I1B3A0E3027645A8B",
+    "latitude": 35.513024,
+    "longitude": -83.30615,
+    "name": "Oconaluftee Visitor Center"
+  },
+  "pancake-pantry": {
+    "address": "628 Parkway, Gatlinburg, TN 37738, United States",
+    "appleMapsID": "I541D9BD129A6C2CC",
+    "latitude": 35.712541,
+    "longitude": -83.514231,
+    "name": "Pancake Pantry"
+  },
+  "peters-pancakes": {
+    "address": "1384 Tsali Blvd, Cherokee, NC 28719, United States",
+    "appleMapsID": "I60F7ED9B8174F54F",
+    "latitude": 35.496404,
+    "longitude": -83.312804,
+    "name": "Peter's Pancakes & Waffles"
+  },
+  "porters-creek": {
+    "address": "Gatlinburg, TN 37738, United States",
+    "appleMapsID": "I73C3F80C5DB6A3CA",
+    "latitude": 35.696772,
+    "longitude": -83.388242,
+    "name": "Porters Creek Trail Trailhead"
+  },
+  "roaring-fork": {
+    "address": "Gatlinburg, TN 37738, United States",
+    "appleMapsID": "IED4DEE3056938579",
+    "latitude": 35.678555,
+    "longitude": -83.481289,
+    "name": "Roaring Fork Motor Nature Trail"
+  },
+  "sugarlands-visitor-center": {
+    "address": "1420 Fighting Creek Gap Rd, Gatlinburg, TN 37738, United States",
+    "appleMapsID": "ID62E8ADC6DD0041E",
+    "latitude": 35.685654,
+    "longitude": -83.536631,
+    "name": "Sugarlands Visitor Center"
+  },
+  "wild-plum-tea-room": {
+    "address": "555 Buckhorn Rd, Gatlinburg, TN 37738, United States",
+    "appleMapsID": "IC215DE22EE581EA2",
+    "latitude": 35.751659,
+    "longitude": -83.436218,
+    "name": "The Wild Plum"
+  }
+}
