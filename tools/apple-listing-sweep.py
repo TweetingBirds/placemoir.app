@@ -4,7 +4,8 @@
 For each place with an appleMapsID in guides/src/<slug>.maps.json, this fetches
 the public place page (https://maps.apple.com/place?place-id=<id>), reads the
 name, coordinates, address, phone, website and closure text, and flags:
-  - no Apple listing (and the match.skip reason, if any)
+  - no Apple listing (and the match.skip reason, if any); a match without a
+    place ID (trails, islands) isn't flagged
   - Apple says permanently/temporarily closed
   - our pin more than 300 m from Apple's
   - name similarity under 0.6
@@ -111,14 +112,18 @@ def main():
             if geo.get('type') != 'Point' or not p.get('name'):
                 continue
             lon, lat = geo['coordinates'][:2]
-            pid = (m.get(f['id']) or {}).get('appleMapsID')
+            look = m.get(f['id']) or {}
+            pid = look.get('appleMapsID')
             ap_ = cache.get(pid, {}) if pid else {}
             issues = []
             skip = (p.get('match') or {}).get('skip')
-            if not pid:
+            if not look:
                 issues.append('no Apple listing' + (f' (skip: {skip})' if skip else ''))
-            if ap_.get('flags'):
-                issues.append('Apple says: ' + ', '.join(ap_['flags']))
+            # Trails, islands and other natural features match without a place ID,
+            # so there is no place page to check; that is not a problem by itself.
+            closed = [x for x in ap_.get('flags', []) if re.fullmatch(r'(?i)(permanently|temporarily) closed', x)]
+            if closed:
+                issues.append('Apple says: ' + ', '.join(closed))
             if ap_.get('lat') is not None:
                 k = math.cos(math.radians(lat))
                 d = math.dist((lat, lon * k), (ap_['lat'], ap_['lon'] * k)) * 111000
@@ -127,7 +132,7 @@ def main():
             if ap_.get('name') and difflib.SequenceMatcher(None, p['name'].lower(), ap_['name'].lower()).ratio() < 0.6:
                 issues.append(f'name differs: Apple "{ap_["name"]}"')
             rows.append({'guide': slug, 'status': g['guide'].get('status'), 'key': f['id'], 'name': p['name'],
-                         'address': p.get('address'), 'lat': lat, 'lon': lon, 'appleMapsID': pid,
+                         'address': p.get('address'), 'lat': lat, 'lon': lon, 'match': look.get('name'), 'appleMapsID': pid,
                          'apple': ap_, 'issues': issues})
 
     if a.sites:
