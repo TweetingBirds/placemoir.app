@@ -28,12 +28,11 @@
       "address": "Mount Le Conte, Gatlinburg, TN 37738",
       "locality": "Mount Le Conte",
       "country": "United States",
-      "latitude": 35.654887,
-      "longitude": -83.441059,
+      "latitude": 35.6544,
+      "longitude": -83.4382,
       "wantToGo": true,
       "notes": "Rustic cabins near the top of Mount Le Conte, reached only on foot. Dinner and breakfast are included, there's no electricity in the rooms, and the sunrise from Myrtle Point is the reason to go. Rooms go fast, so book as early as they allow.",
-      "section": "Stay",
-      "appleMapsID": "I2F2711F804FE78AE"
+      "section": "Stay"
     },
     {
       "id": "guide:great-smoky-mountains/buckhorn-inn",
