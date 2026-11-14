@@ -73,7 +73,7 @@
         "section": "georgia",
         "position": 1,
         "notes": "Where most northbound hikers start, with the stone arch, the hiker registration area and the long staircase beside a 729-foot waterfall. The approach trail to Springer adds about 8.5 miles; drivers can see the falls from the top or bottom parking areas.",
-        "address": "418 Amicalola Falls State Park Rd, Dawsonville, GA 30534",
+        "address": "166 Amicalola Falls State Park Rd, Dawsonville, GA 30534",
         "locality": "Dawsonville"
       }
     },
@@ -114,7 +114,10 @@
         "position": 3,
         "notes": "The southern terminus, marked by a bronze plaque and the first white blaze. A Forest Service road gets you within about a mile, so day visitors can walk up and back; check road conditions in winter.",
         "address": "Forest Service Road 42, Chattahoochee National Forest, GA",
-        "locality": "Springer Mountain"
+        "locality": "Springer Mountain",
+        "match": {
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
+        }
       }
     },
     {
@@ -513,7 +516,7 @@
         "section": "hot-springs-erwin-and-the-roan",
         "position": 23,
         "notes": "A bed and breakfast near the trail below the Roan, known among hikers for a huge breakfast and shuttles to Carvers Gap. Its hostel was being rebuilt after Hurricane Helene; check the official site.",
-        "address": "9151 US-19E, Roan Mountain, TN 37687",
+        "address": "9151 Highway 19 E, Roan Mountain, TN 37687",
         "locality": "Roan Mountain"
       }
     },
@@ -533,7 +536,7 @@
         "section": "virginia",
         "position": 24,
         "notes": "A homestyle diner with hiker-size portions in the self-styled Trail Town USA. Good for breakfast before a walk on the Creeper Trail.",
-        "address": "109 S Shady Ave, Damascus, VA 24236",
+        "address": "103 S Shady Ave, Damascus, VA 24236",
         "locality": "Damascus"
       }
     },
@@ -999,8 +1002,11 @@
         "section": "maine",
         "position": 47,
         "notes": "A Monson institution before the 100-Mile Wilderness, known for a big breakfast, food drops and its own gear shop. Book well ahead in late summer.",
-        "address": "17 Pleasant St, Monson, ME 04464",
-        "locality": "Monson"
+        "address": "17 Pleasant St, Blanchard Twp, ME 04464",
+        "locality": "Monson",
+        "match": {
+          "query": "Shaw's Lodging"
+        }
       }
     },
     {

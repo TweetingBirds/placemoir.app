@@ -90,7 +90,7 @@
         "category": "market",
         "section": "nuremberg",
         "notes": "The best known of them all, a tight grid of red-and-white striped stalls on the main square under the Frauenkirche. Stalls are held to a tradition of handmade goods, so expect prune-and-walnut figures, gingerbread and three-in-a-bun bratwurst rather than plastic.",
-        "address": "Hauptmarkt, 90403 Nürnberg",
+        "address": "Hauptmarkt, 90403 Nuremberg",
         "locality": "Nuremberg",
         "match": {
           "query": "Hauptmarkt Nürnberg"
@@ -112,7 +112,7 @@
         "category": "restaurant",
         "section": "nuremberg",
         "notes": "A busy old tavern beside St. Sebald, steps from the market, grilling Nuremberg's finger-sized sausages over beechwood. Order them by the half dozen with sauerkraut or potato salad.",
-        "address": "Rathausplatz 1, 90403 Nürnberg",
+        "address": "Rathausplatz 1, 90403 Nuremberg",
         "locality": "Nuremberg"
       }
     },
@@ -131,7 +131,7 @@
         "category": "hotel",
         "section": "nuremberg",
         "notes": "A small family-run hotel in a 14th-century half-timbered house in the castle quarter, a few minutes' walk from the Hauptmarkt. Rooms are compact, and the building has plenty of character.",
-        "address": "Irrerstraße 11, 90403 Nürnberg",
+        "address": "Irrerstraße 11, 90403 Nuremberg",
         "locality": "Nuremberg"
       }
     },
@@ -214,7 +214,10 @@
         "section": "rothenburg-ob-der-tauber",
         "notes": "A candlelit wine tavern in a house said to be the oldest in town, pouring Franconian wines with hearty regional plates. Open evenings only, small and popular in December, so book ahead.",
         "address": "Burggasse 8, 91541 Rothenburg ob der Tauber",
-        "locality": "Rothenburg ob der Tauber"
+        "locality": "Rothenburg ob der Tauber",
+        "match": {
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
+        }
       }
     },
     {
@@ -232,7 +235,7 @@
         "category": "market",
         "section": "munich",
         "notes": "Munich's main market fills Marienplatz in front of the neo-Gothic town hall, with a giant tree and brass music from the balcony in the evenings. Look for the nativity-figure market nearby, a Munich specialty.",
-        "address": "Marienplatz, 80331 München",
+        "address": "Marienplatz, 80331 Munich",
         "locality": "Munich",
         "match": {
           "query": "Marienplatz München"
@@ -254,7 +257,7 @@
         "category": "restaurant",
         "section": "munich",
         "notes": "A traditional Bavarian inn next to the Frauenkirche, a few minutes from Marienplatz, pouring Augustiner beer with roast pork and dumplings. Warmer and calmer than the big beer halls.",
-        "address": "Augustinerstraße 1, 80331 München",
+        "address": "Augustinerstraße 1, 80331 Munich",
         "locality": "Munich"
       }
     },
@@ -273,7 +276,7 @@
         "category": "hotel",
         "section": "munich",
         "notes": "A hotel by the Isartor that claims to be the oldest in central Munich. An easy walk to Marienplatz, the Viktualienmarkt and the Hofbräuhaus.",
-        "address": "Tal 41, 80331 München",
+        "address": "Tal 41, 80331 Munich",
         "locality": "Munich"
       }
     },
@@ -292,10 +295,10 @@
         "category": "market",
         "section": "regensburg",
         "notes": "Held in the courtyards of the princely family's palace, with fire pits, craftspeople at work and a quieter, lantern-lit feel than the city-square markets. Admission is charged; check the official site.",
-        "address": "Emmeramsplatz 5, 93047 Regensburg",
+        "address": "Emmeramsplatz 5, Innenstadt, 93047 Regensburg",
         "locality": "Regensburg",
         "match": {
-          "query": "Schloss Thurn und Taxis Regensburg"
+          "query": "Thurn and Taxis Castle"
         }
       }
     },
@@ -478,7 +481,7 @@
         "category": "market",
         "section": "cologne",
         "notes": "Red-roofed stalls under a canopy of lights right at the foot of the cathedral. The setting is the draw; it gets very crowded, so weekday afternoons are easiest.",
-        "address": "Roncalliplatz, 50667 Köln",
+        "address": "Roncalliplatz, 50667 Cologne",
         "locality": "Cologne",
         "match": {
           "query": "Roncalliplatz Köln"
@@ -522,7 +525,7 @@
         "category": "market",
         "section": "cologne",
         "notes": "Cologne's angel market on Neumarkt, with lanes under a canopy of star lights and costumed angels and stilt figures wandering through. Calmer than the cathedral market.",
-        "address": "Neumarkt, 50667 Köln",
+        "address": "Neumarkt, 50667 Cologne",
         "locality": "Cologne",
         "match": {
           "query": "Neumarkt Köln"
@@ -544,7 +547,7 @@
         "category": "bar",
         "section": "cologne",
         "notes": "A big, classic Cologne brewhouse a block from the cathedral. Blue-aproned servers keep the small glasses of Kölsch coming until you set a coaster on top.",
-        "address": "Am Hof 12-18, 50667 Köln",
+        "address": "Am Hof 12-18, 50667 Cologne",
         "locality": "Cologne"
       }
     },
@@ -563,7 +566,7 @@
         "category": "hotel",
         "section": "cologne",
         "notes": "Cologne's grand old hotel, directly beside the cathedral and a short walk from Roncalliplatz. Formal and expensive, with a long history of royal and celebrity guests.",
-        "address": "Trankgasse 1-5, 50667 Köln",
+        "address": "Trankgasse 1, 50667 Cologne",
         "locality": "Cologne"
       }
     },

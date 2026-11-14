@@ -191,7 +191,7 @@
         "section": "stage-1",
         "position": 2,
         "notes": "A mountain refuge about 8 km up the climb, for those who want to split the Pyrenees crossing in two. Shared dinner on a terrace with a long view back over the valley. Open roughly April to mid-October; check the official site for booking.",
-        "address": "12 Route Napoléon, 64220 Uhart-Cize, France",
+        "address": "RD 428, 64220 Uhart-Cize",
         "locality": "Orisson",
         "countryCode": "FR"
       }
@@ -252,7 +252,7 @@
         "section": "stage-2",
         "position": 5,
         "notes": "An old family inn on the main street of Burguete, 3 km past Roncesvalles, where Hemingway stayed in the 1920s and wrote it into The Sun Also Rises. A comfortable private room after the first night in a dorm.",
-        "address": "Calle San Nicolás 71, 31640 Burguete, Navarra",
+        "address": "Calle de San Nikolas, 71, 31640 Auritz, Navarra",
         "locality": "Burguete"
       }
     },
@@ -272,7 +272,7 @@
         "section": "stage-2",
         "position": 6,
         "notes": "The medieval bridge over the Arga that leads into Zubiri. Local lore said walking an animal around its central pillar cured rabies. Most pilgrims cool their feet in the river below.",
-        "address": "Puente de la Rabia, 31630 Zubiri, Navarra",
+        "address": "Calle del Puente de la Rabia, 31630 Esteribar, Navarra",
         "locality": "Zubiri"
       }
     },
@@ -355,7 +355,7 @@
         "section": "stage-4",
         "position": 10,
         "notes": "The windmill ridge about 13 km out of Pamplona, where iron silhouettes of medieval pilgrims on foot and horseback line the crest. Take the descent slowly; the loose stones are hard on knees.",
-        "address": "Carretera del Alto del Perdón, 31190 Astráin, Navarra",
+        "address": "Calle San Andrés, 12, 31190 Zariquiegui, Navarra",
         "locality": "Alto del Perdón"
       }
     },
@@ -419,7 +419,10 @@
         "position": 13,
         "notes": "The six-arched 11th-century bridge built for pilgrims over the Arga, at the end of the long main street. Cross it at dusk, then look back from the riverbank.",
         "address": "Calle Mayor, 31100 Puente la Reina, Navarra",
-        "locality": "Puente la Reina"
+        "locality": "Puente la Reina",
+        "match": {
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
+        }
       }
     },
     {
@@ -481,7 +484,8 @@
         "address": "Camino de Santiago, 31240 Ayegui, Navarra",
         "locality": "Ayegui",
         "match": {
-          "query": "Bodegas Irache Fuente del Vino"
+          "query": "Bodegas Irache Fuente del Vino",
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
         }
       }
     },
@@ -502,7 +506,10 @@
         "position": 17,
         "notes": "A plain outside hides a lavish Baroque interior and a quiet Gothic cloister. Many pilgrims time their evening around the Mass and blessing.",
         "address": "Plaza Santa María, 31210 Los Arcos, Navarra",
-        "locality": "Los Arcos"
+        "locality": "Los Arcos",
+        "match": {
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
+        }
       }
     },
     {
@@ -602,7 +609,10 @@
         "position": 22,
         "notes": "Built into the red cliff at the edge of town, with royal tombs of Navarre, a carved choir and a lacy Gothic cloister. The cave where the church was founded is at the back.",
         "address": "Plaza Santa María 1, 26300 Nájera, La Rioja",
-        "locality": "Nájera"
+        "locality": "Nájera",
+        "match": {
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
+        }
       }
     },
     {
@@ -702,7 +712,10 @@
         "position": 27,
         "notes": "Pilgrims sleep on mats in the loft of the parish church, cook and eat together, and pay by donation. No reservations. A night many remember long after the walk.",
         "address": "Plaza de la Iglesia, 26259 Grañón, La Rioja",
-        "locality": "Grañón"
+        "locality": "Grañón",
+        "match": {
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
+        }
       }
     },
     {
@@ -782,7 +795,10 @@
         "position": 31,
         "notes": "The city's public hostel in a restored town house right behind the cathedral. Large, modern and as central as it gets.",
         "address": "Calle Fernán González 28, 09003 Burgos",
-        "locality": "Burgos"
+        "locality": "Burgos",
+        "match": {
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
+        }
       }
     },
     {
@@ -885,7 +901,10 @@
         "position": 36,
         "notes": "The road runs straight under the Gothic arches of a ruined 14th-century monastery, once a hospital for pilgrims. Volunteers run a simple candlelit hostel inside in the warmer months.",
         "address": "Carretera BU-P-4013, 09110 Castrojeriz, Burgos",
-        "locality": "Castrojeriz"
+        "locality": "Castrojeriz",
+        "match": {
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
+        }
       }
     },
     {
@@ -925,7 +944,10 @@
         "position": 38,
         "notes": "The municipal hostel in an old building on the main square, run on donations. Basic and friendly, in the middle of the long single street of Castrojeriz.",
         "address": "Plaza Mayor 16, 09110 Castrojeriz, Burgos",
-        "locality": "Castrojeriz"
+        "locality": "Castrojeriz",
+        "match": {
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
+        }
       }
     },
     {
@@ -945,7 +967,10 @@
         "position": 39,
         "notes": "A 13th-century chapel by the bridge over the Pisuerga, run by an Italian confraternity as a summer-only hostel with no electricity, where hosts wash pilgrims' feet before dinner.",
         "address": "Puente Fitero, 09107 Itero del Castillo, Burgos",
-        "locality": "Itero del Castillo"
+        "locality": "Itero del Castillo",
+        "match": {
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
+        }
       }
     },
     {
@@ -1008,7 +1033,10 @@
         "position": 42,
         "notes": "A fortress-like Templar church in a tiny village, with painted royal tombs and a Virgin celebrated for miracles in medieval song.",
         "address": "Plaza Mayor, 34449 Villalcázar de Sirga, Palencia",
-        "locality": "Villalcázar de Sirga"
+        "locality": "Villalcázar de Sirga",
+        "match": {
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
+        }
       }
     },
     {
@@ -1087,7 +1115,7 @@
         "section": "stage-17",
         "position": 46,
         "notes": "A large brick hostel just before the village, with a lawn, private rooms and a restaurant. The second solid choice in this one-street hamlet.",
-        "address": "Carretera N-120 s/n, 34349 Terradillos de los Templarios, Palencia",
+        "address": "Camino Francés, 34349 Lagartos, Palencia",
         "locality": "Terradillos de los Templarios"
       }
     },
@@ -1147,8 +1175,11 @@
         "section": "stage-18",
         "position": 49,
         "notes": "A small adobe hostel built in the traditional style, named for a 17th-century Italian pilgrim who wrote about the route. Donation-based and run by volunteers.",
-        "address": "Calle Fray Pedro del Burgo 3, 24343 El Burgo Ranero, León",
-        "locality": "El Burgo Ranero"
+        "address": "Calle de la Carretera, 11, 24343 El Burgo Ranero, León",
+        "locality": "El Burgo Ranero",
+        "match": {
+          "skip": "Apple Maps only lists a neighboring or larger place here (checked Nov 14, 2026)"
+        }
       }
     },
     {
@@ -1207,10 +1238,10 @@
         "section": "stage-20",
         "position": 52,
         "notes": "A Gothic cathedral that is more glass than wall, with nearly 1,800 square meters of medieval stained glass. Visit on a sunny morning when the color falls across the floor.",
-        "address": "Plaza de Regla, 24003 León",
+        "address": "Plaza Regla, 3, 24003 León",
         "locality": "León",
         "match": {
-          "query": "Catedral de León"
+          "query": "León Cathedral"
         }
       }
     },
@@ -1276,7 +1307,7 @@
         "section": "stage-20",
         "position": 55,
         "notes": "The vast Renaissance convent of San Marcos, once a pilgrim hospital and now a state hotel with a famous plateresque facade. Even if you do not stay, look into the cloister.",
-        "address": "Plaza de San Marcos 7, 24001 León",
+        "address": "Plaza de San Marcos, 7, 24008 León",
         "locality": "León"
       }
     },
@@ -1319,7 +1350,7 @@
         "section": "stage-21",
         "position": 57,
         "notes": "A striking 1960s sanctuary on the edge of León, with the twelve apostles and the Virgin cast in bronze across its tall front. An unexpected modern church on an old road.",
-        "address": "Avenida de Astorga 87, 24198 La Virgen del Camino, León",
+        "address": "Avenida Astroga, 94, 24198 Virgen Camino, León",
         "locality": "La Virgen del Camino"
       }
     },
@@ -1422,8 +1453,11 @@
         "section": "stage-23",
         "position": 62,
         "notes": "A short detour to a stone village built by muleteers, where this inn serves cocido maragato, a stew eaten backward, meats first and soup last. Plan on a big lunch and a short afternoon.",
-        "address": "Calle Jardín s/n, 24718 Castrillo de los Polvazares, León",
-        "locality": "Castrillo de los Polvazares"
+        "address": "Calle la Magdalena, 10, 24718 Castrillo de los Polvazares, León",
+        "locality": "Castrillo de los Polvazares",
+        "match": {
+          "query": "Cuca la Vaina Restaurante"
+        }
       }
     },
     {
@@ -1442,7 +1476,7 @@
         "section": "stage-23",
         "position": 63,
         "notes": "A volunteer-run hostel in a restored priest's house with a walled garden, set up by the UK-based Confraternity of Saint James. Open April to October, with afternoon tea and the monks' sung prayers at the church next door.",
-        "address": "Calle del Calvario 4, 24722 Rabanal del Camino, León",
+        "address": "Lugar Rabanal Camino, 21D, 24722 Santa Colomba de Somoza, León",
         "locality": "Rabanal del Camino"
       }
     },
@@ -1462,7 +1496,7 @@
         "section": "stage-24",
         "position": 64,
         "notes": "A small iron cross on a tall wooden pole near the highest point of the Camino, on a mound of stones carried by pilgrims from home. Bring one and leave it with whatever it stands for.",
-        "address": "Camino de Santiago, LE-142, 24722 Foncebadón, León",
+        "address": "LE-142, 24722 Santa Colomba de Somoza, León",
         "locality": "Foncebadón"
       }
     },
@@ -1525,10 +1559,10 @@
         "section": "stage-25",
         "position": 67,
         "notes": "A great Templar castle in the middle of Ponferrada, with towers, walls and a library of facsimile medieval books inside. Give it an hour on the way through.",
-        "address": "Avenida del Castillo, 24401 Ponferrada, León",
+        "address": "Avenida del Castillo, 131–143, 24401 Ponferrada, León",
         "locality": "Ponferrada",
         "match": {
-          "query": "Castillo de Ponferrada"
+          "query": "Castillo de los Templarios"
         }
       }
     },
@@ -1574,7 +1608,8 @@
         "address": "Calle Santiago 10, 24500 Villafranca del Bierzo, León",
         "locality": "Villafranca del Bierzo",
         "match": {
-          "query": "Refugio Ave Fénix"
+          "query": "Refugio Ave Fénix",
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
         }
       }
     },
@@ -1617,7 +1652,7 @@
         "section": "stage-26",
         "position": 71,
         "notes": "The Xunta's public hostel at the top of the village, with views over the Galician hills on a clear evening. Popular, so arrive early in season.",
-        "address": "O Cebreiro, 27670 Pedrafita do Cebreiro, Lugo",
+        "address": "Lugar Cebreiro, 17, 27671 Pedrafita do Cebreiro, Lugo",
         "locality": "O Cebreiro"
       }
     },
@@ -1663,7 +1698,8 @@
         "address": "LU-633, Alto de San Roque, 27671 Pedrafita do Cebreiro, Lugo",
         "locality": "Alto de San Roque",
         "match": {
-          "query": "Alto de San Roque"
+          "query": "Alto de San Roque",
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
         }
       }
     },
@@ -1727,7 +1763,10 @@
         "position": 76,
         "notes": "The Xunta hostel on the old main street up the hill. Sarria is the start for many walkers aiming for the last 100 km, so the trail gets busier from here.",
         "address": "Rúa Maior 79, 27600 Sarria, Lugo",
-        "locality": "Sarria"
+        "locality": "Sarria",
+        "match": {
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
+        }
       }
     },
     {
@@ -1746,10 +1785,10 @@
         "section": "stage-29",
         "position": 77,
         "notes": "A fortified Romanesque church moved stone by stone up the hill in the 1960s when the old town was flooded for a reservoir. The numbers on the stones are still visible.",
-        "address": "Praza Conde de Fenosa, 27170 Portomarín, Lugo",
+        "address": "Plaza Conde Fenosa, 27170 Portomarín, Lugo",
         "locality": "Portomarín",
         "match": {
-          "query": "Iglesia de San Juan Portomarín"
+          "query": "Parroquia De San Nicolás"
         }
       }
     },
@@ -1853,7 +1892,10 @@
         "position": 82,
         "notes": "The Xunta hostel in an old stone building on the main square of Arzúa. Pick up some of the local soft cheese for tomorrow's lunch.",
         "address": "Rúa Cima do Lugar 6, 15810 Arzúa, A Coruña",
-        "locality": "Arzúa"
+        "locality": "Arzúa",
+        "match": {
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
+        }
       }
     },
     {
@@ -1978,8 +2020,11 @@
         "section": "stage-33",
         "position": 88,
         "notes": "A royal pilgrim hospital from 1499 on the cathedral square, now a state hotel with four cloisters. A traditional splurge for the last night.",
-        "address": "Praza do Obradoiro 1, 15705 Santiago de Compostela, A Coruña",
-        "locality": "Santiago de Compostela"
+        "address": "Rúa Obradoiro, 1, 15707 Santiago de Compostela, A Coruña, España",
+        "locality": "Santiago de Compostela",
+        "match": {
+          "query": "Paradores de Turismo de España"
+        }
       }
     },
     {

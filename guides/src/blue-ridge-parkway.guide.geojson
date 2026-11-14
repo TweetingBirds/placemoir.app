@@ -280,7 +280,7 @@
         "section": "day-2",
         "position": 12,
         "notes": "A county park along the Roanoke River at milepost 115 with a parkway visitor center, trails, river access, and cabins, yurts and campsites for an inexpensive night near the road.",
-        "address": "56 Roanoke River Pkwy, Roanoke, VA 24014",
+        "address": "3900 Rutrough Rd, Vinton, VA 24014",
         "locality": "Roanoke"
       }
     },
@@ -300,8 +300,11 @@
         "section": "day-2",
         "position": 13,
         "notes": "Roanoke's giant neon star on Mill Mountain, reached by a spur road from milepost 120. The overlook takes in the whole city; come back after dark to see it lit.",
-        "address": "2000 JP Fishburn Pkwy, Roanoke, VA 24014",
-        "locality": "Roanoke"
+        "address": "2404 Prospect Rd SE, Roanoke, VA 24014",
+        "locality": "Roanoke",
+        "match": {
+          "query": "The Roanoke Star"
+        }
       }
     },
     {
@@ -583,7 +586,7 @@
         "section": "day-3",
         "position": 27,
         "notes": "The cliff that gave the town its name, where updrafts out of the Johns River Gorge can push light objects back up. Privately run since the 1930s, with a view to Grandfather Mountain.",
-        "address": "432 Rock Rd, Blowing Rock, NC 28605",
+        "address": "432 The Rock Rd, Blowing Rock, NC 28605",
         "locality": "Blowing Rock"
       }
     },
@@ -770,7 +773,10 @@
         "position": 36,
         "notes": "Privately run nature park with the Mile High Swinging Bridge, wildlife habitats and steep trails along the ridge. The entrance is on US-221 about a mile south of milepost 305. Wind and ice can close the mountain; check the official site.",
         "address": "2050 Blowing Rock Hwy, Linville, NC 28646",
-        "locality": "Linville"
+        "locality": "Linville",
+        "match": {
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
+        }
       }
     },
     {
@@ -1015,7 +1021,7 @@
         "section": "day-5",
         "position": 48,
         "notes": "Gardens, a bonsai collection and miles of trails in Bent Creek, right off milepost 393. Easy to spend a morning.",
-        "address": "100 Frederick Law Olmsted Way, Asheville, NC 28806",
+        "address": "20 Fredrick Law Olmsted Way, Asheville, NC 28806",
         "locality": "Bent Creek"
       }
     },
@@ -1079,7 +1085,10 @@
         "position": 51,
         "notes": "A pullout facing the bare granite dome of Looking Glass Rock, which shines when wet. One of the easiest big views of the day.",
         "address": "Blue Ridge Pkwy, Milepost 417, Brevard, NC 28712",
-        "locality": "Pisgah National Forest"
+        "locality": "Pisgah National Forest",
+        "match": {
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
+        }
       }
     },
     {

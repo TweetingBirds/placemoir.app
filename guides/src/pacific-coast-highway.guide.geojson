@@ -61,8 +61,11 @@
         "section": "day-1",
         "position": 1,
         "notes": "Start on foot at the south end of the bridge for the classic view back over the bay, then follow CA-1 south through the Presidio and Golden Gate Park to the ocean.",
-        "address": "Golden Gate Bridge Toll Plaza, San Francisco, CA 94129",
-        "locality": "Presidio"
+        "address": "956 Lincoln Blvd, San Francisco, CA 94129",
+        "locality": "Presidio",
+        "match": {
+          "query": "Golden Gate Bridge Pavilion"
+        }
       }
     },
     {
@@ -241,7 +244,7 @@
         "section": "day-1",
         "position": 10,
         "notes": "A tall 1960s hotel set right on Cowell Beach, where every room faces the water and the wharf. Walk to the boardwalk in ten minutes.",
-        "address": "175 W Cliff Dr, Santa Cruz, CA 95060",
+        "address": "175 Beach St, Santa Cruz, CA 95060",
         "locality": "Santa Cruz"
       }
     },
@@ -424,8 +427,11 @@
         "section": "day-3",
         "position": 19,
         "notes": "The 1932 concrete arch most people picture when they think of Big Sur. Use the pullout on the north side and keep off the roadway. Highway 1 here closes for slides and storms at times; check Caltrans QuickMap before you set out.",
-        "address": "Bixby Creek Bridge, CA-1, Big Sur, CA 93920",
-        "locality": "Big Sur"
+        "address": "CA-1, Carmel, CA 93923",
+        "locality": "Big Sur",
+        "match": {
+          "query": "Bixby Bridge"
+        }
       }
     },
     {
@@ -457,8 +463,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.7856,
-          36.2504
+          -121.7812,
+          36.2472
         ]
       },
       "properties": {
@@ -467,7 +473,7 @@
         "section": "day-3",
         "position": 21,
         "notes": "Redwoods along the Big Sur River, a short trail to Pfeiffer Falls and a large campground. Reserve campsites well ahead.",
-        "address": "47225 CA-1, Big Sur, CA 93920",
+        "address": "47555 CA-1, Big Sur, CA 93920",
         "locality": "Big Sur"
       }
     },
@@ -487,7 +493,7 @@
         "section": "day-3",
         "position": 22,
         "notes": "Simple cottages inside the state park, with a restaurant and the river trails at the door. The most affordable roof in Big Sur short of a tent.",
-        "address": "47225 CA-1, Big Sur, CA 93920",
+        "address": "47225 Highway 1, Big Sur, CA 93920",
         "locality": "Big Sur"
       }
     },
@@ -507,7 +513,7 @@
         "section": "day-3",
         "position": 23,
         "notes": "A restored 1950s motor lodge plus cabins in the redwoods by the river, with gas fireplaces in most rooms.",
-        "address": "47080 CA-1, Big Sur, CA 93920",
+        "address": "47080 Highway 1, Big Sur, CA 93920",
         "locality": "Big Sur"
       }
     },
@@ -527,7 +533,7 @@
         "section": "day-3",
         "position": 24,
         "notes": "Wood-fired bread, pastries and breakfast in a house set back from the highway. A good first stop of the morning.",
-        "address": "47540 CA-1, Big Sur, CA 93920",
+        "address": "47540 California 1, Big Sur, CA 93920",
         "locality": "Big Sur"
       }
     },
@@ -567,7 +573,7 @@
         "section": "day-3",
         "position": 26,
         "notes": "A family-run terrace restaurant 800 feet above the coast since 1949. Come for a late lunch and the long view south.",
-        "address": "48510 CA-1, Big Sur, CA 93920",
+        "address": "48510 Highway One, Big Sur, CA 93920",
         "locality": "Big Sur"
       }
     },
@@ -731,7 +737,10 @@
         "position": 34,
         "notes": "A 576-foot volcanic plug at the harbor mouth, protected for nesting peregrine falcons. No climbing; walk the beach on its north side instead.",
         "address": "Coleman Dr, Morro Bay, CA 93442",
-        "locality": "Morro Bay"
+        "locality": "Morro Bay",
+        "match": {
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
+        }
       }
     },
     {
@@ -850,8 +859,11 @@
         "section": "day-4",
         "position": 40,
         "notes": "A 1929 Spanish Colonial Revival courthouse with painted ceilings and tiled stairways. Ride up to the clock tower for the view over the red roofs.",
-        "address": "1100 Anacapa St, Santa Barbara, CA 93101",
-        "locality": "Santa Barbara"
+        "address": "1100 Anacapa St, Santa Barbara, CA 93121",
+        "locality": "Santa Barbara",
+        "match": {
+          "skip": "Apple Maps only lists a neighboring or larger place here (checked Nov 14, 2026)"
+        }
       }
     },
     {
@@ -930,7 +942,7 @@
         "section": "day-5",
         "position": 44,
         "notes": "Sea stacks and caves at a small cove below the bluffs, reached by a steep trail and stairs from the lot. Best at low tide.",
-        "address": "32215 Pacific Coast Hwy, Malibu, CA 90265",
+        "address": "32220 Pacific Coast Hwy, Malibu, CA 90265",
         "locality": "Malibu"
       }
     },
@@ -1110,7 +1122,7 @@
         "section": "day-6",
         "position": 53,
         "notes": "A cliff-top park with gardens, benches and stairways down to small coves and tide pools on Laguna's north end.",
-        "address": "400 Cliff Dr, Laguna Beach, CA 92651",
+        "address": "375 Cliff Dr, Laguna Beach, CA 92651",
         "locality": "Laguna Beach"
       }
     },

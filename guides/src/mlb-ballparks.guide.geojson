@@ -114,7 +114,10 @@
         "section": "northeast",
         "notes": "An old-school tavern a block from the stadium, around since the 1920s, with Yankees history on every wall and a pub menu that holds up before or after a game.",
         "address": "72 E 161st St, Bronx, NY 10451",
-        "locality": "The Bronx"
+        "locality": "The Bronx",
+        "match": {
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
+        }
       }
     },
     {
@@ -671,7 +674,7 @@
         "address": "2704 Navigation Blvd, Houston, TX 77003",
         "locality": "Second Ward",
         "match": {
-          "query": "Ninfa's on Navigation"
+          "query": "The Original Ninfa's"
         }
       }
     },
@@ -826,7 +829,7 @@
         "category": "stadium",
         "section": "west",
         "notes": "Home runs over the right-field wall land in McCovey Cove, where kayakers wait for splash hits. Get the garlic fries and bring a jacket; night games turn cold off the bay.",
-        "address": "24 Willie Mays Plaza, San Francisco, CA 94107",
+        "address": "24 King St, San Francisco, CA 94107",
         "locality": "South Beach"
       }
     },

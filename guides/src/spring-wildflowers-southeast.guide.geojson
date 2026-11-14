@@ -177,7 +177,7 @@
         "category": "garden",
         "section": "asheville",
         "notes": "Formal gardens, a bonsai collection and native plant displays at the edge of Pisgah National Forest. Some outer trails were still being restored after Hurricane Helene, so check the official site for what is open.",
-        "address": "100 Frederick Law Olmsted Way, Asheville, NC 28806",
+        "address": "20 Fredrick Law Olmsted Way, Asheville, NC 28806",
         "locality": "Asheville"
       }
     },
@@ -197,7 +197,10 @@
         "section": "asheville",
         "notes": "A small, free garden devoted to plants native to the Southern Appalachians, beside the UNC Asheville campus. In April the woodland paths along the creek are full of trillium and other spring ephemerals.",
         "address": "151 W T Weaver Blvd, Asheville, NC 28804",
-        "locality": "Asheville"
+        "locality": "Asheville",
+        "match": {
+          "query": "Asheville Botanical Garden"
+        }
       }
     },
     {
@@ -358,8 +361,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.1716,
-          33.6258
+          -84.1587,
+          33.6341
         ]
       },
       "properties": {
@@ -367,7 +370,7 @@
         "category": "state-park",
         "section": "georgia",
         "notes": "A granite dome east of Atlanta where tiny red diamorpha fills shallow rock pools in late March and early April. The summit is protected and open only on ranger-led hikes, so sign up through the park.",
-        "address": "2620 GA-155 SW, Stockbridge, GA 30281",
+        "address": "2620 Highway 155 SW, Stockbridge, GA 30281",
         "locality": "Stockbridge"
       }
     },
@@ -406,7 +409,10 @@
         "section": "georgia",
         "notes": "A large garden resort in west Georgia known for native and hybrid azaleas that usually peak from late March into April. Bike or drive the loop road between the azalea bowl, lakes and woodland trails.",
         "address": "17800 US-27, Pine Mountain, GA 31822",
-        "locality": "Pine Mountain"
+        "locality": "Pine Mountain",
+        "match": {
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
+        }
       }
     },
     {
@@ -425,7 +431,10 @@
         "section": "georgia",
         "notes": "The resort's main hotel, close to the garden gates. Spring weekends book up early; cottages and villas on the grounds are another option.",
         "address": "4500 Southern Pine Dr, Pine Mountain, GA 31822",
-        "locality": "Pine Mountain"
+        "locality": "Pine Mountain",
+        "match": {
+          "skip": "Apple Maps only lists a neighboring or larger place here (checked Nov 14, 2026)"
+        }
       }
     },
     {

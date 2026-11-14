@@ -139,7 +139,8 @@
         "address": "810 E Baltimore St, Wilmington, IL 60481",
         "locality": "Wilmington",
         "match": {
-          "query": "Launching Pad Gemini Giant"
+          "query": "Launching Pad Gemini Giant",
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
         }
       }
     },
@@ -239,7 +240,7 @@
         "section": "day-1",
         "position": 9,
         "notes": "The only house Abraham Lincoln ever owned, set in four restored blocks of his old neighborhood. Free ranger-led tours start at the visitor center.",
-        "address": "413 S 8th St, Springfield, IL 62701",
+        "address": "426 S. 7th Street, Springfield, IL 62701",
         "locality": "Springfield"
       }
     },
@@ -339,7 +340,7 @@
         "section": "day-2",
         "position": 14,
         "notes": "The cave that painted its name on barn roofs all along the road. Guided tours walk through large lit chambers along the Meramec River.",
-        "address": "1135 Hwy W, Sullivan, MO 63080",
+        "address": "1135 Highway W, Sullivan MO US 63080",
         "locality": "Stanton"
       }
     },
@@ -400,7 +401,10 @@
         "position": 17,
         "notes": "A 1923 steel truss bridge over a tight bend of the Big Piney River on a bypassed loop of old 66. Pull off for the bluffs and the quiet.",
         "address": "Teardrop Rd, Devils Elbow, MO 65457",
-        "locality": "Devils Elbow"
+        "locality": "Devils Elbow",
+        "match": {
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
+        }
       }
     },
     {
@@ -462,7 +466,8 @@
         "address": "SE Beasley Rd, Riverton, KS 66770",
         "locality": "Riverton",
         "match": {
-          "query": "Rainbow Bridge Route 66"
+          "query": "Rainbow Bridge Route 66",
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
         }
       }
     },
@@ -502,7 +507,7 @@
         "section": "day-3",
         "position": 22,
         "notes": "A grinning 80-foot concrete whale built in the early 1970s as an anniversary gift, sitting in a spring-fed pond. A free photo stop.",
-        "address": "2600 N Hwy 66, Catoosa, OK 74015",
+        "address": "2680 N Highway 66, Catoosa, OK 74015",
         "locality": "Catoosa"
       }
     },
@@ -605,7 +610,7 @@
         "section": "day-4",
         "position": 27,
         "notes": "A big round red barn from 1898, restored by local volunteers, with a small museum downstairs and a dance loft upstairs.",
-        "address": "107 OK-66, Arcadia, OK 73007",
+        "address": "107 Highway 66, Arcadia, OK 73007",
         "locality": "Arcadia"
       }
     },
@@ -711,7 +716,7 @@
         "section": "day-5",
         "position": 32,
         "notes": "A 1936 Art Deco gas station and cafe, now the town visitor center. Come back after dark when the green and pink neon is on.",
-        "address": "1242 N Main St, Shamrock, TX 79079",
+        "address": "105 E 12th St, Shamrock, TX 79079",
         "locality": "Shamrock"
       }
     },
@@ -731,7 +736,7 @@
         "section": "day-5",
         "position": 33,
         "notes": "The home of the 72-ounce steak challenge, with a motel and brewery on the same lot. Loud and kitschy, and that is the point.",
-        "address": "7701 I-40 E, Amarillo, TX 79118",
+        "address": "7701 Interstate 40 East Access Rd, Amarillo, TX 79118",
         "locality": "Amarillo"
       }
     },
@@ -771,7 +776,7 @@
         "section": "day-5",
         "position": 35,
         "notes": "A sign in tiny Adrian marks the halfway point: 1,139 miles to Chicago and 1,139 to Los Angeles.",
-        "address": "305 W Historic Route 66, Adrian, TX 79001",
+        "address": "357 IH-40 BL, Adrian, TX 79001",
         "locality": "Adrian",
         "match": {
           "query": "Route 66 Midpoint Sign"
@@ -854,7 +859,7 @@
         "section": "day-5",
         "position": 39,
         "notes": "A family restaurant under a neon cow sign, serving New Mexican plates with red or green chile since 1956.",
-        "address": "1202 E Route 66 Blvd, Tucumcari, NM 88401",
+        "address": "1202 E Tucumcari Blvd, Tucumcari, NM 88401",
         "locality": "Tucumcari"
       }
     },
@@ -894,7 +899,7 @@
         "section": "day-6",
         "position": 41,
         "notes": "Rows of hot rods, classic cars and road signs in a big shed on the east side of town.",
-        "address": "2436 Historic Route 66, Santa Rosa, NM 88435",
+        "address": "2436 Route 66, Santa Rosa, NM 88435",
         "locality": "Santa Rosa"
       }
     },
@@ -955,7 +960,10 @@
         "position": 44,
         "notes": "A trading post in business since 1913, with rooms full of Navajo rugs, Zuni jewelry and pawn.",
         "address": "222 W Historic Hwy 66, Gallup, NM 87301",
-        "locality": "Gallup"
+        "locality": "Gallup",
+        "match": {
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
+        }
       }
     },
     {
@@ -995,7 +1003,10 @@
         "position": 46,
         "notes": "The only national park that Route 66 crossed; an old Studebaker marks the alignment. Drive the park road from the Painted Desert to the log fields and exit to Holbrook.",
         "address": "1 Park Rd, Petrified Forest National Park, AZ 86028",
-        "locality": "Petrified Forest"
+        "locality": "Petrified Forest",
+        "match": {
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
+        }
       }
     },
     {

@@ -95,8 +95,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.8445,
-          34.9516
+          -83.8384,
+          34.9531
         ]
       },
       "properties": {
@@ -104,7 +104,7 @@
         "category": "hotel",
         "section": "north-georgia-mountains",
         "notes": "A big lodge-style resort in an open valley a short drive from Brasstown Bald, with rooms, cottages, a spa and walking trails on the grounds. A comfortable base for the Georgia high country.",
-        "address": "6321 US-76, Young Harris, GA 30582",
+        "address": "6321 Highway 76, Young Harris, GA 30582",
         "locality": "Young Harris"
       }
     },
@@ -180,7 +180,7 @@
         "category": "state-park",
         "section": "amicalola-falls-to-cloudland-canyon-georgia",
         "notes": "A tall cascade with a long staircase beside it and color on every side. The approach trail to Springer Mountain and the start of the Appalachian Trail begins here. Parking fees apply.",
-        "address": "418 Amicalola Falls Lodge Road, Dawsonville, GA 30534",
+        "address": "166 Amicalola Falls State Park Rd, Dawsonville, GA 30534",
         "locality": "Dawsonville"
       }
     },
@@ -238,7 +238,10 @@
         "section": "amicalola-falls-to-cloudland-canyon-georgia",
         "notes": "A deep sandstone canyon on Lookout Mountain, with an easy rim walk to the main overlook and a stair-heavy trail down to two waterfalls. Color often peaks a little later here than in the higher mountains.",
         "address": "122 Cloudland Canyon Park Rd, Rising Fawn, GA 30738",
-        "locality": "Rising Fawn"
+        "locality": "Rising Fawn",
+        "match": {
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
+        }
       }
     },
     {
@@ -332,7 +335,7 @@
         "category": "hotel",
         "section": "highlands-and-cashiers-north-carolina",
         "notes": "A long-running mountain inn on a lake below Chimney Top, with an old chestnut-bark main lodge and cottages. A splurge, and a classic Cashiers place to wait out the color.",
-        "address": "1525 NC-107, Cashiers, NC 28717",
+        "address": "1525 Highway 107 South, Cashiers, NC 28717",
         "locality": "Cashiers"
       }
     },
@@ -446,7 +449,7 @@
         "category": "state-park",
         "section": "roan-mountain-tennessee",
         "notes": "A valley park along the Doe River with cabins, a campground and trails through hardwood coves. A budget-friendly base for the Roan Highlands. Check the official site for any trail or cabin closures.",
-        "address": "1015 TN-143, Roan Mountain, TN 37687",
+        "address": "1015 Roan Rd, Roan Mountain, TN 37687",
         "locality": "Roan Mountain"
       }
     },

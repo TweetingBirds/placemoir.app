@@ -98,7 +98,10 @@
         "section": "dahlonega-georgia",
         "notes": "Oysters, shrimp and seafood pastas a few steps off the square. Ask for the porch when the weather is good.",
         "address": "19 N Chestatee St, Dahlonega, GA 30533",
-        "locality": "Dahlonega"
+        "locality": "Dahlonega",
+        "match": {
+          "skip": "No matching Apple Maps listing near this point (checked Nov 14, 2026)"
+        }
       }
     },
     {
@@ -154,7 +157,7 @@
         "category": "state-park",
         "section": "dahlonega-georgia",
         "notes": "One of the tallest waterfalls in the Southeast, with a staircase climb beside it and an approach trail to the start of the Appalachian Trail. Parking fees apply; check the official site.",
-        "address": "418 Amicalola Falls Lodge Road, Dawsonville, GA 30534",
+        "address": "166 Amicalola Falls State Park Rd, Dawsonville, GA 30534",
         "locality": "Dawsonville"
       }
     },
@@ -382,7 +385,7 @@
         "category": "hotel",
         "section": "chattanooga-tennessee",
         "notes": "Chattanooga's grand 1920s hotel downtown, restored with a dark-wood lobby bar and a steakhouse. Walkable to the Southside and a short ride to the river.",
-        "address": "107 W M L King Blvd, Chattanooga, TN 37402",
+        "address": "107 W MLK Blvd, Chattanooga, TN 37402",
         "locality": "Chattanooga"
       }
     },
@@ -477,8 +480,11 @@
         "category": "attraction",
         "section": "chattanooga-tennessee",
         "notes": "An 1890s truss bridge now open only to people on foot and bikes, linking downtown with the North Shore's shops and Coolidge Park. Best at sunset.",
-        "address": "Walnut St & Riverfront Pkwy, Chattanooga, TN 37402",
-        "locality": "Chattanooga"
+        "address": "1 Walnut Street, Chattanooga, TN 37403",
+        "locality": "Chattanooga",
+        "match": {
+          "query": "Walnut Street Pedestrian Bridge"
+        }
       }
     },
     {
@@ -497,7 +503,10 @@
         "section": "chattanooga-tennessee",
         "notes": "The old roadside attraction on top of Lookout Mountain, just over the Georgia line: a path through sandstone formations, a swinging bridge and Lover's Leap with its view across several states.",
         "address": "1400 Patten Rd, Lookout Mountain, GA 30750",
-        "locality": "Lookout Mountain"
+        "locality": "Lookout Mountain",
+        "match": {
+          "skip": "Apple Maps only lists a neighboring or larger place here (checked Nov 14, 2026)"
+        }
       }
     },
     {
