@@ -792,7 +792,10 @@
         "notes": "A causeway out into the Great Salt Lake, with bison, salt beaches and huge sunsets.",
         "address": "4528 W 1700 S, Syracuse, UT 84075",
         "locality": "Great Salt Lake",
-        "lastVerified": "2026-11-07"
+        "lastVerified": "2026-11-14",
+        "match": {
+          "query": "Antelope Island State Park"
+        }
       }
     }
   ]

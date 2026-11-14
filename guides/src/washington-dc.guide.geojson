@@ -712,7 +712,10 @@
         "notes": "The cherry trees in early spring, and the Jefferson and MLK memorials all year. Rent a paddle boat.",
         "address": "Tidal Basin, Washington, DC 20024",
         "locality": "National Mall",
-        "lastVerified": "2026-11-07"
+        "lastVerified": "2026-11-14",
+        "match": {
+          "query": "Tidal Basin Loop Trail"
+        }
       }
     },
     {
