@@ -316,10 +316,11 @@
     "name": "Hostal Restaurante El Palacio"
   },
   "hotel-real-monasterio-san-zoilo": {
-    "address": "San Zoilo, 34120 Carrión de Los Condes, Palencia, Spain",
+    "address": "San Zoilo, 1, 34120 Carrión de los Condes, Palencia, España",
+    "appleMapsID": "I8BFA200887E1D6AE",
     "latitude": 42.340274,
     "longitude": -4.611089,
-    "name": "San Zoilo"
+    "name": "Monasterio de San Zoilo"
   },
   "hotel-san-anton-abad": {
     "address": "Calle del Hospital, 4, 09257 Villafranca Montes de Oca, Burgos, Spain",

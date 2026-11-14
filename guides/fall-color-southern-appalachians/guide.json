@@ -30,11 +30,12 @@
       "address": "2941 GA-180 Spur, Hiawassee, GA 30546",
       "locality": "Chattahoochee National Forest",
       "country": "United States",
-      "latitude": 34.873165,
-      "longitude": -83.811361,
+      "latitude": 34.87427,
+      "longitude": -83.81063,
       "wantToGo": true,
       "notes": "Georgia's highest point, with an observation deck that looks out over four states. Walk the steep paved trail from the parking lot or take the seasonal shuttle. The Forest Service charges a day-use fee; check its site for current hours.",
-      "section": "North Georgia mountains"
+      "section": "North Georgia mountains",
+      "appleMapsID": "I9EA56B9608FF7875"
     },
     {
       "id": "guide:fall-color-southern-appalachians/vogel-state-park",

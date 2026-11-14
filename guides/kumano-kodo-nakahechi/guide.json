@@ -465,11 +465,12 @@
       "address": "1-13-8 Kamikura, Shingu, Wakayama 647-0015",
       "locality": "Shingu",
       "country": "Japan",
-      "latitude": 33.721869,
-      "longitude": 135.986257,
+      "latitude": 33.722071,
+      "longitude": 135.982799,
       "wantToGo": true,
       "notes": "A small shrine wedged under a huge boulder high above town, reached by more than 500 rough stone steps. The first stretch is close to a scramble; the view over Shingu and the sea is the reward.",
-      "section": "Day 6 · Down the Kumano River to Shingu"
+      "section": "Day 6 · Down the Kumano River to Shingu",
+      "appleMapsID": "I5EC51025ED0C9266"
     },
     {
       "id": "guide:kumano-kodo-nakahechi/guesthouse-yuzu-shingu",

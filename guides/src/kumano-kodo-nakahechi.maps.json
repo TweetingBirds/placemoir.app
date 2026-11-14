@@ -35,10 +35,11 @@
     "name": "J-Hoppers Kumano Yumine Guest House"
   },
   "kamikura-jinja": {
-    "address": "Kamikura, Shingu, Wakayama, Japan",
-    "latitude": 33.721869,
-    "longitude": 135.986257,
-    "name": "Kamikura"
+    "address": "4-3, Iwatate, Shingu, Wakayama, Japan 647-0051",
+    "appleMapsID": "I5EC51025ED0C9266",
+    "latitude": 33.722071,
+    "longitude": 135.982799,
+    "name": "Kamikura-jinja Shrine"
   },
   "katsuura-fish-market": {
     "address": "〒649-5335, 和歌山県東牟婁郡那智勝浦町, 築地7丁目8-2",

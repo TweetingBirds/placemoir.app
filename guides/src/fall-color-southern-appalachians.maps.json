@@ -28,10 +28,11 @@
     "name": "Black Rock Mountain"
   },
   "brasstown-bald": {
-    "address": "Brasstown Bald Trail, Hiawassee, GA 30546, United States",
-    "latitude": 34.873165,
-    "longitude": -83.811361,
-    "name": "Brasstown Bald Trail"
+    "address": "Towns County, GA, United States",
+    "appleMapsID": "I9EA56B9608FF7875",
+    "latitude": 34.87427,
+    "longitude": -83.81063,
+    "name": "Brasstown Bald"
   },
   "brasstown-valley-resort": {
     "address": "6321 Highway 76, Young Harris, GA 30582, United States",
