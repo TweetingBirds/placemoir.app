@@ -30,8 +30,8 @@
       "address": "2941 GA-180 Spur, Hiawassee, GA 30546",
       "locality": "Chattahoochee National Forest",
       "country": "United States",
-      "latitude": 34.8743,
-      "longitude": -83.8107,
+      "latitude": 34.873165,
+      "longitude": -83.811361,
       "wantToGo": true,
       "notes": "Georgia's highest point, with an observation deck that looks out over four states. Walk the steep paved trail from the parking lot or take the seasonal shuttle. The Forest Service charges a day-use fee; check its site for current hours.",
       "section": "North Georgia mountains"
@@ -43,11 +43,12 @@
       "address": "405 Vogel State Park Rd, Blairsville, GA 30512",
       "locality": "Blairsville",
       "country": "United States",
-      "latitude": 34.7659,
-      "longitude": -83.9254,
+      "latitude": 34.765634,
+      "longitude": -83.924211,
       "wantToGo": true,
       "notes": "One of Georgia's oldest state parks, set at the foot of Blood Mountain with cabins, campsites and trails through hardwood coves. The drive in on US 129 through Neels Gap is part of the point. Lake Trahlyta has been drained for dam repairs; check the official site.",
-      "section": "North Georgia mountains"
+      "section": "North Georgia mountains",
+      "appleMapsID": "I10237D1BE7EE6566"
     },
     {
       "id": "guide:fall-color-southern-appalachians/brasstown-valley-resort",
@@ -56,11 +57,12 @@
       "address": "6321 Highway 76, Young Harris, GA 30582",
       "locality": "Young Harris",
       "country": "United States",
-      "latitude": 34.9531,
-      "longitude": -83.8384,
+      "latitude": 34.953117,
+      "longitude": -83.838364,
       "wantToGo": true,
       "notes": "A big lodge-style resort in an open valley a short drive from Brasstown Bald, with rooms, cottages, a spa and walking trails on the grounds. A comfortable base for the Georgia high country.",
-      "section": "North Georgia mountains"
+      "section": "North Georgia mountains",
+      "appleMapsID": "IA2AB2A079BA9B96E"
     },
     {
       "id": "guide:fall-color-southern-appalachians/black-rock-mountain-state-park",
@@ -69,11 +71,12 @@
       "address": "3085 Black Rock Mountain Pkwy, Mountain City, GA 30562",
       "locality": "Mountain City",
       "country": "United States",
-      "latitude": 34.9069,
-      "longitude": -83.4084,
+      "latitude": 34.911693,
+      "longitude": -83.412719,
       "wantToGo": true,
       "notes": "Georgia's highest state park sits right on the Eastern Continental Divide. Overlooks near the summit look east over Rabun County, and the Tennessee Rock loop is a short, steady climb with wide views.",
-      "section": "North Georgia mountains"
+      "section": "North Georgia mountains",
+      "appleMapsID": "IC83679312466CDA3"
     },
     {
       "id": "guide:fall-color-southern-appalachians/dillard-house",
@@ -82,11 +85,12 @@
       "address": "768 Franklin St, Dillard, GA 30537",
       "locality": "Dillard",
       "country": "United States",
-      "latitude": 34.967,
-      "longitude": -83.381,
+      "latitude": 34.966622,
+      "longitude": -83.383549,
       "wantToGo": true,
       "notes": "A family-run dining room that has served Southern meals family style for more than a century. Bowls of fried chicken, country ham and vegetables come to the table until you say stop. Reservations help on leaf weekends.",
-      "section": "North Georgia mountains"
+      "section": "North Georgia mountains",
+      "appleMapsID": "I463A37862F6EE02B"
     },
     {
       "id": "guide:fall-color-southern-appalachians/tallulah-gorge-state-park",
@@ -95,11 +99,12 @@
       "address": "338 Jane Hurt Yarn Dr, Tallulah Falls, GA 30573",
       "locality": "Tallulah Falls",
       "country": "United States",
-      "latitude": 34.7398,
-      "longitude": -83.3906,
+      "latitude": 34.73981,
+      "longitude": -83.390613,
       "wantToGo": true,
       "notes": "A two-mile-long gorge nearly a thousand feet deep, with rim trails, overlooks and a suspension bridge over the river. Gorge-floor permits are free but limited each day and not issued on water-release weekends; check the official site.",
-      "section": "North Georgia mountains"
+      "section": "North Georgia mountains",
+      "appleMapsID": "I98CB02D71812ECB6"
     },
     {
       "id": "guide:fall-color-southern-appalachians/amicalola-falls-state-park",
@@ -108,11 +113,12 @@
       "address": "166 Amicalola Falls State Park Rd, Dawsonville, GA 30534",
       "locality": "Dawsonville",
       "country": "United States",
-      "latitude": 34.5674,
-      "longitude": -84.2443,
+      "latitude": 34.565479,
+      "longitude": -84.242683,
       "wantToGo": true,
       "notes": "A tall cascade with a long staircase beside it and color on every side. The approach trail to Springer Mountain and the start of the Appalachian Trail begins here. Parking fees apply.",
-      "section": "Amicalola Falls to Cloudland Canyon, Georgia"
+      "section": "Amicalola Falls to Cloudland Canyon, Georgia",
+      "appleMapsID": "I4F187C4A7E8967C3"
     },
     {
       "id": "guide:fall-color-southern-appalachians/amicalola-falls-lodge",
@@ -121,11 +127,12 @@
       "address": "418 Amicalola Falls Lodge Road, Dawsonville, GA 30534",
       "locality": "Dawsonville",
       "country": "United States",
-      "latitude": 34.5654,
-      "longitude": -84.2427,
+      "latitude": 34.56537,
+      "longitude": -84.242751,
       "wantToGo": true,
       "notes": "The state park lodge sits on the ridge above the falls, with big windows facing the foothills. A mid-priced stay with trails from the door.",
-      "section": "Amicalola Falls to Cloudland Canyon, Georgia"
+      "section": "Amicalola Falls to Cloudland Canyon, Georgia",
+      "appleMapsID": "I7DB2851DBA4880CD"
     },
     {
       "id": "guide:fall-color-southern-appalachians/fort-mountain-state-park",
@@ -134,11 +141,12 @@
       "address": "181 Fort Mountain Park Rd, Chatsworth, GA 30705",
       "locality": "Chatsworth",
       "country": "United States",
-      "latitude": 34.7613,
-      "longitude": -84.7027,
+      "latitude": 34.76527,
+      "longitude": -84.6983,
       "wantToGo": true,
       "notes": "A mountaintop park on the western edge of the Cohuttas, with an old stone wall of debated origin and a stone fire tower built by the Civilian Conservation Corps. Overlooks face west across the valley, so late afternoon light is best.",
-      "section": "Amicalola Falls to Cloudland Canyon, Georgia"
+      "section": "Amicalola Falls to Cloudland Canyon, Georgia",
+      "appleMapsID": "I1877530C58BE97BD"
     },
     {
       "id": "guide:fall-color-southern-appalachians/cloudland-canyon-state-park",
@@ -160,11 +168,12 @@
       "address": "Whiteside Mountain Rd, Highlands, NC 28741",
       "locality": "Nantahala National Forest",
       "country": "United States",
-      "latitude": 35.0805,
-      "longitude": -83.1441,
+      "latitude": 35.080514,
+      "longitude": -83.144048,
       "wantToGo": true,
       "notes": "A two-mile loop along the top of sheer granite cliffs, looking down on the Chattooga valley. Go early on October weekends, when the small lot fills fast. There is a parking fee.",
-      "section": "Highlands and Cashiers, North Carolina"
+      "section": "Highlands and Cashiers, North Carolina",
+      "appleMapsID": "I6E3DEAF7CAC7D51E"
     },
     {
       "id": "guide:fall-color-southern-appalachians/sunset-rock-highlands",
@@ -173,11 +182,12 @@
       "address": "Ravenel Park, Horse Cove Rd, Highlands, NC 28741",
       "locality": "Highlands",
       "country": "United States",
-      "latitude": 35.0467,
-      "longitude": -83.1873,
+      "latitude": 35.047019,
+      "longitude": -83.187296,
       "wantToGo": true,
       "notes": "A short walk from the edge of town to a granite outcrop that looks straight down on Highlands and across to Whiteside. As the name says, come at the end of the day.",
-      "section": "Highlands and Cashiers, North Carolina"
+      "section": "Highlands and Cashiers, North Carolina",
+      "appleMapsID": "I52777155C99DCEC7"
     },
     {
       "id": "guide:fall-color-southern-appalachians/dry-falls",
@@ -186,11 +196,12 @@
       "address": "US Highway 64, Highlands, NC 28741",
       "locality": "Cullasaja Gorge",
       "country": "United States",
-      "latitude": 35.0686,
-      "longitude": -83.239,
+      "latitude": 35.068835,
+      "longitude": -83.238964,
       "wantToGo": true,
       "notes": "A short path and stairs lead behind a waterfall in the Cullasaja Gorge. The drive west on US 64 through the gorge is narrow and slow but one of the prettiest in the region. Check the Forest Service site for closures.",
-      "section": "Highlands and Cashiers, North Carolina"
+      "section": "Highlands and Cashiers, North Carolina",
+      "appleMapsID": "ID821C8A94C66C4E6"
     },
     {
       "id": "guide:fall-color-southern-appalachians/whitewater-falls",
@@ -199,11 +210,12 @@
       "address": "NC-281, Sapphire, NC 28774",
       "locality": "Nantahala National Forest",
       "country": "United States",
-      "latitude": 35.0315,
-      "longitude": -83.0165,
+      "latitude": 35.031938,
+      "longitude": -83.016472,
       "wantToGo": true,
       "notes": "One of the highest waterfalls in the East, seen from a paved path and a longer stairway down to a lower overlook. The surrounding gorge is thick with hardwoods. Check the Forest Service site for closures.",
-      "section": "Highlands and Cashiers, North Carolina"
+      "section": "Highlands and Cashiers, North Carolina",
+      "appleMapsID": "I17831DD86E771106"
     },
     {
       "id": "guide:fall-color-southern-appalachians/high-hampton",
@@ -212,11 +224,12 @@
       "address": "1525 Highway 107 South, Cashiers, NC 28717",
       "locality": "Cashiers",
       "country": "United States",
-      "latitude": 35.1021,
-      "longitude": -83.081,
+      "latitude": 35.098884,
+      "longitude": -83.081789,
       "wantToGo": true,
       "notes": "A long-running mountain inn on a lake below Chimney Top, with an old chestnut-bark main lodge and cottages. A splurge, and a classic Cashiers place to wait out the color.",
-      "section": "Highlands and Cashiers, North Carolina"
+      "section": "Highlands and Cashiers, North Carolina",
+      "appleMapsID": "I3BA06F0529122927"
     },
     {
       "id": "guide:fall-color-southern-appalachians/tellico-grains-bakery",
@@ -225,11 +238,12 @@
       "address": "105 Depot St, Tellico Plains, TN 37385",
       "locality": "Tellico Plains",
       "country": "United States",
-      "latitude": 35.3636,
-      "longitude": -84.2951,
+      "latitude": 35.363613,
+      "longitude": -84.295031,
       "wantToGo": true,
       "notes": "A wood-fired bakery near the square in Tellico Plains, good for bread, pastries and sandwiches to take up the skyway. Stop on the way in, since there is little food along the road.",
-      "section": "Cherohala Skyway, Tennessee and North Carolina"
+      "section": "Cherohala Skyway, Tennessee and North Carolina",
+      "appleMapsID": "IE15F0357DDA36819"
     },
     {
       "id": "guide:fall-color-southern-appalachians/cherohala-skyway-visitor-center",
@@ -238,11 +252,12 @@
       "address": "225 Cherohala Skyway, Tellico Plains, TN 37385",
       "locality": "Tellico Plains",
       "country": "United States",
-      "latitude": 35.3669,
-      "longitude": -84.2974,
+      "latitude": 35.366901,
+      "longitude": -84.297388,
       "wantToGo": true,
       "notes": "The start of the skyway, a high, lightly traveled road that climbs over 5,000 feet on its way to Robbinsville. Pick up a map and fill the tank here; there are no services for over 40 miles.",
-      "section": "Cherohala Skyway, Tennessee and North Carolina"
+      "section": "Cherohala Skyway, Tennessee and North Carolina",
+      "appleMapsID": "I76A87D73097AE4ED"
     },
     {
       "id": "guide:fall-color-southern-appalachians/bald-river-falls",
@@ -251,11 +266,12 @@
       "address": "Tellico River Rd, Tellico Plains, TN 37385",
       "locality": "Cherokee National Forest",
       "country": "United States",
-      "latitude": 35.3243,
-      "longitude": -84.1778,
+      "latitude": 35.324261,
+      "longitude": -84.177727,
       "wantToGo": true,
       "notes": "A broad waterfall you can see from the bridge on Tellico River Road, a short detour off the skyway. The river road itself is lined with color in late October.",
-      "section": "Cherohala Skyway, Tennessee and North Carolina"
+      "section": "Cherohala Skyway, Tennessee and North Carolina",
+      "appleMapsID": "IBDDAA7ED1B234C9F"
     },
     {
       "id": "guide:fall-color-southern-appalachians/huckleberry-knob",
@@ -264,11 +280,12 @@
       "address": "Cherohala Skyway, Robbinsville, NC 28771",
       "locality": "Nantahala National Forest",
       "country": "United States",
-      "latitude": 35.322,
+      "latitude": 35.32204,
       "longitude": -83.9935,
       "wantToGo": true,
       "notes": "A grassy bald reached by an old road from the skyway, about a mile each way. From the top the ridges roll off in every direction, and the walk is easier than the view suggests.",
-      "section": "Cherohala Skyway, Tennessee and North Carolina"
+      "section": "Cherohala Skyway, Tennessee and North Carolina",
+      "appleMapsID": "I336F1A0139FB60DC"
     },
     {
       "id": "guide:fall-color-southern-appalachians/joyce-kilmer-memorial-forest",
@@ -277,11 +294,12 @@
       "address": "Joyce Kilmer Rd, Robbinsville, NC 28771",
       "locality": "Nantahala National Forest",
       "country": "United States",
-      "latitude": 35.3574,
-      "longitude": -83.9313,
+      "latitude": 35.357497,
+      "longitude": -83.931846,
       "wantToGo": true,
       "notes": "A two-mile figure-eight loop through one of the largest stands of old-growth forest in the East, just below the skyway's eastern end. The giant poplars turn gold in fall. Mapping apps can misroute, so follow the Forest Service directions.",
-      "section": "Cherohala Skyway, Tennessee and North Carolina"
+      "section": "Cherohala Skyway, Tennessee and North Carolina",
+      "appleMapsID": "IBC18E7D3766F129A"
     },
     {
       "id": "guide:fall-color-southern-appalachians/roan-mountain-state-park",
@@ -290,11 +308,12 @@
       "address": "1015 Roan Rd, Roan Mountain, TN 37687",
       "locality": "Roan Mountain",
       "country": "United States",
-      "latitude": 36.1704,
-      "longitude": -82.0977,
+      "latitude": 36.17048,
+      "longitude": -82.10039,
       "wantToGo": true,
       "notes": "A valley park along the Doe River with cabins, a campground and trails through hardwood coves. A budget-friendly base for the Roan Highlands. Check the official site for any trail or cabin closures.",
-      "section": "Roan Mountain, Tennessee"
+      "section": "Roan Mountain, Tennessee",
+      "appleMapsID": "I6864DEC3DD8368CB"
     },
     {
       "id": "guide:fall-color-southern-appalachians/carvers-gap",
@@ -303,11 +322,12 @@
       "address": "TN-143 at NC-261, Roan Mountain, TN 37687",
       "locality": "Roan Highlands",
       "country": "United States",
-      "latitude": 36.1064,
-      "longitude": -82.111,
+      "latitude": 36.10642,
+      "longitude": -82.11094,
       "wantToGo": true,
       "notes": "Where the Appalachian Trail crosses the state line on the Roan. Head north up Round Bald and Jane Bald for open grassy summits. Color comes earlier at this elevation, so plan it for the start of the season.",
-      "section": "Roan Mountain, Tennessee"
+      "section": "Roan Mountain, Tennessee",
+      "appleMapsID": "IE8B889D44665A7A8"
     },
     {
       "id": "guide:fall-color-southern-appalachians/grayson-highlands-state-park",
@@ -316,11 +336,12 @@
       "address": "829 Grayson Highland Ln, Mouth of Wilson, VA 24363",
       "locality": "Mouth of Wilson",
       "country": "United States",
-      "latitude": 36.6283,
-      "longitude": -81.4969,
+      "latitude": 36.629328,
+      "longitude": -81.498409,
       "wantToGo": true,
       "notes": "High, rocky meadows beside Mount Rogers, with wild ponies grazing among the boulders and blueberry bushes that turn deep red in fall. The park closes on a few fall days for resource management; check the official site.",
-      "section": "Southwest Virginia highlands"
+      "section": "Southwest Virginia highlands",
+      "appleMapsID": "I3C978A08C10B0439"
     },
     {
       "id": "guide:fall-color-southern-appalachians/massie-gap",
@@ -329,11 +350,12 @@
       "address": "829 Grayson Highland Ln, Mouth of Wilson, VA 24363",
       "locality": "Grayson Highlands State Park",
       "country": "United States",
-      "latitude": 36.6336,
-      "longitude": -81.5078,
+      "latitude": 36.63962,
+      "longitude": -81.50758,
       "wantToGo": true,
       "notes": "The main trailhead in the park, where the Rhododendron Trail climbs to the Appalachian Trail and the pony meadows. Even a short walk up from the lot gets you above the trees.",
-      "section": "Southwest Virginia highlands"
+      "section": "Southwest Virginia highlands",
+      "appleMapsID": "IAD02BAC120EB8DCF"
     },
     {
       "id": "guide:fall-color-southern-appalachians/martha-washington-hotel",
@@ -342,11 +364,12 @@
       "address": "150 W Main St, Abingdon, VA 24210",
       "locality": "Abingdon",
       "country": "United States",
-      "latitude": 36.7096,
-      "longitude": -81.9759,
+      "latitude": 36.709811,
+      "longitude": -81.975597,
       "wantToGo": true,
       "notes": "An 1832 brick mansion turned hotel on Abingdon's main street, across from the Barter Theatre. Rocking chairs on the front porch and an easy drive to Grayson Highlands and Mount Rogers.",
-      "section": "Southwest Virginia highlands"
+      "section": "Southwest Virginia highlands",
+      "appleMapsID": "I6A1928ADED4FB5D7"
     }
   ]
 }

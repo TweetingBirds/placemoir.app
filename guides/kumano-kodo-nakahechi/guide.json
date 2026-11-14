@@ -32,11 +32,12 @@
       "address": "Minato, Tanabe, Wakayama 646-0031",
       "locality": "Tanabe",
       "country": "Japan",
-      "latitude": 33.7328,
-      "longitude": 135.3844,
+      "latitude": 33.732826,
+      "longitude": 135.384402,
       "wantToGo": true,
       "notes": "Right beside Kii-Tanabe Station, where the buses to Takijiri leave. Pick up trail maps and timetables here. Village lodging and luggage transfer fill early in spring and fall, so book well ahead through the Tanabe City Kumano Tourism Bureau.",
-      "section": "Tanabe · Gateway town on the coast"
+      "section": "Tanabe · Gateway town on the coast",
+      "appleMapsID": "ICB9720AB8BE0F2C3"
     },
     {
       "id": "guide:kumano-kodo-nakahechi/tokei-jinja",
@@ -45,11 +46,12 @@
       "address": "1-1, Toyo, Tanabe, Wakayama, Japan 646-0029",
       "locality": "Tanabe",
       "country": "Japan",
-      "latitude": 33.7297,
-      "longitude": 135.384,
+      "latitude": 33.729475,
+      "longitude": 135.383889,
       "wantToGo": true,
       "notes": "An old branch of Hongu where pilgrims once prayed before heading into the mountains, set in a grove a short walk from the station. A good first stop to get the feel of a Kumano shrine before the trail.",
-      "section": "Tanabe · Gateway town on the coast"
+      "section": "Tanabe · Gateway town on the coast",
+      "appleMapsID": "I3F6DF345DEDE659D"
     },
     {
       "id": "guide:kumano-kodo-nakahechi/miyoshiya-ryokan",
@@ -58,11 +60,12 @@
       "address": "31-2, Minato, Tanabe, Wakayama, Japan 646-0031",
       "locality": "Tanabe",
       "country": "Japan",
-      "latitude": 33.7307,
-      "longitude": 135.3857,
+      "latitude": 33.730625,
+      "longitude": 135.385645,
       "wantToGo": true,
       "notes": "A plain, friendly family ryokan a few minutes from Kii-Tanabe Station, set up for walkers catching the early bus to Takijiri. Tatami rooms, shared baths and the Ajikoji bar lanes close by for dinner.",
-      "section": "Tanabe · Gateway town on the coast"
+      "section": "Tanabe · Gateway town on the coast",
+      "appleMapsID": "I7F5E4E1E0A34C1CC"
     },
     {
       "id": "guide:kumano-kodo-nakahechi/tsuji-no-mochi",
@@ -71,11 +74,12 @@
       "address": "1, Kitashimmachi, Tanabe, Wakayama, Japan 646-0041",
       "locality": "Tanabe",
       "country": "Japan",
-      "latitude": 33.7336,
-      "longitude": 135.379,
+      "latitude": 33.733612,
+      "longitude": 135.378928,
       "wantToGo": true,
       "notes": "A long-running sweets shop known for soft mochi topped with a stripe of red bean paste. Pick up a few as trail snacks for the first day.",
-      "section": "Tanabe · Gateway town on the coast"
+      "section": "Tanabe · Gateway town on the coast",
+      "appleMapsID": "I7BFAF7CD69C4A664"
     },
     {
       "id": "guide:kumano-kodo-nakahechi/kumano-kodo-kan-pilgrimage-center",
@@ -84,11 +88,12 @@
       "address": "1222-1 Kurisugawa, Nakahechi-cho, Tanabe, Wakayama 646-1421",
       "locality": "Takijiri",
       "country": "Japan",
-      "latitude": 33.7748,
-      "longitude": 135.5037,
+      "latitude": 33.774769,
+      "longitude": 135.503743,
       "wantToGo": true,
       "notes": "The octagonal visitor center at the Takijiri bus stop, a few steps from the shrine. Look at the exhibits on the old pilgrimage, use the toilets and fill your water bottles before the steep climb.",
-      "section": "Day 1 · Takijiri-oji to Takahara · about 4 km"
+      "section": "Day 1 · Takijiri-oji to Takahara · about 4 km",
+      "appleMapsID": "ID464B4E11AEBF26D"
     },
     {
       "id": "guide:kumano-kodo-nakahechi/takijiri-oji",
@@ -123,11 +128,12 @@
       "address": "霧の郷たかはら, 826, Nakahechicho Takahara, Tanabe, Wakayama, Japan 646-1416, 30 m, name 0.75, at 33.7962,135.5323); Takahara Kirinosato (Nakahechichotakahara, Tanabe-Shi, Wakayama, Japan 646-1416",
       "locality": "Takahara",
       "country": "Japan",
-      "latitude": 33.796,
-      "longitude": 135.5322,
+      "latitude": 33.796246,
+      "longitude": 135.53233,
       "wantToGo": true,
       "notes": "A wooden ridge-top lodge with wide views over the Hatenashi range, where morning mist often fills the valley below. Meals lean on local produce; book early through the Tanabe City Kumano Tourism Bureau.",
-      "section": "Day 1 · Takijiri-oji to Takahara · about 4 km"
+      "section": "Day 1 · Takijiri-oji to Takahara · about 4 km",
+      "appleMapsID": "IF75D3A0BBF159BB4"
     },
     {
       "id": "guide:kumano-kodo-nakahechi/jujo-oji",
@@ -175,11 +181,12 @@
       "address": "401-12, Nakahechicho Chikatsuyu, Tanabe, Wakayama, Japan 646-1402",
       "locality": "Chikatsuyu",
       "country": "Japan",
-      "latitude": 33.817,
-      "longitude": 135.6056,
+      "latitude": 33.816781,
+      "longitude": 135.605805,
       "wantToGo": true,
       "notes": "A family-run riverside inn with its own hot spring bath next door and a dining room looking onto the water. Long a walker favorite, so it fills early in peak months.",
-      "section": "Day 2 · Takahara to Chikatsuyu · about 10 km"
+      "section": "Day 2 · Takahara to Chikatsuyu · about 10 km",
+      "appleMapsID": "IC6BAE911ADC400F6"
     },
     {
       "id": "guide:kumano-kodo-nakahechi/guesthouse-sora-chikatsuyu",
@@ -227,11 +234,12 @@
       "address": "Nonaka, Nakahechi-cho, Tanabe, Wakayama 646-1401",
       "locality": "Nonaka",
       "country": "Japan",
-      "latitude": 33.8283,
-      "longitude": 135.6346,
+      "latitude": 33.828232,
+      "longitude": 135.634442,
       "wantToGo": true,
       "notes": "A thatched teahouse with an open hearth next to Tsugizakura-oji. Sometimes a local volunteer is pouring tea; either way it is a good place to sit for a few minutes.",
-      "section": "Day 3 · Chikatsuyu to Kumano Hongu Taisha · about 25 km"
+      "section": "Day 3 · Chikatsuyu to Kumano Hongu Taisha · about 25 km",
+      "appleMapsID": "I964C848FEDE62BCC"
     },
     {
       "id": "guide:kumano-kodo-nakahechi/kumano-kodo-inn-hagi",
@@ -266,11 +274,12 @@
       "address": "Fushiogami, Hongu-cho, Tanabe, Wakayama",
       "locality": "Hongu",
       "country": "Japan",
-      "latitude": 33.8602,
-      "longitude": 135.7568,
+      "latitude": 33.859993,
+      "longitude": 135.756945,
       "wantToGo": true,
       "notes": "The viewpoint where tired pilgrims first saw Oyunohara far below and knelt to bow. A teahouse and rest area sit beside it, about an hour above Hongu.",
-      "section": "Day 3 · Chikatsuyu to Kumano Hongu Taisha · about 25 km"
+      "section": "Day 3 · Chikatsuyu to Kumano Hongu Taisha · about 25 km",
+      "appleMapsID": "IAACF24BFDDD04A06"
     },
     {
       "id": "guide:kumano-kodo-nakahechi/kumano-hongu-taisha",
@@ -279,11 +288,12 @@
       "address": "1110 Hongu, Hongu-cho, Tanabe, Wakayama 647-1731",
       "locality": "Hongu",
       "country": "Japan",
-      "latitude": 33.8404,
-      "longitude": 135.7736,
+      "latitude": 33.840262,
+      "longitude": 135.773619,
       "wantToGo": true,
       "notes": "The head shrine of the Kumano faith, reached at the end of the Nakahechi by a stone stairway lined with banners. The cypress-bark roofs and the quiet main courtyard are worth a slow look; stamp your credential at the shrine office.",
-      "section": "Day 4 · Kumano Hongu Taisha and Oyunohara"
+      "section": "Day 4 · Kumano Hongu Taisha and Oyunohara",
+      "appleMapsID": "IDABA13CE6934A67"
     },
     {
       "id": "guide:kumano-kodo-nakahechi/oyunohara",
@@ -305,11 +315,12 @@
       "address": "熊野本宮館, 100-1, Hongucho Hongu, Tanabe, Wakayama, Japan 647-1731",
       "locality": "Hongu",
       "country": "Japan",
-      "latitude": 33.8386,
-      "longitude": 135.7756,
+      "latitude": 33.838458,
+      "longitude": 135.775781,
       "wantToGo": true,
       "notes": "A free exhibition hall across the road from the shrine with clear displays on the World Heritage routes, plus restrooms and tourist information in English.",
-      "section": "Day 4 · Kumano Hongu Taisha and Oyunohara"
+      "section": "Day 4 · Kumano Hongu Taisha and Oyunohara",
+      "appleMapsID": "I14047BC3C0B18D4A"
     },
     {
       "id": "guide:kumano-kodo-nakahechi/cafe-alma",
@@ -318,11 +329,12 @@
       "address": "195-3 Hongu, Hongu-cho, Tanabe, Wakayama 647-1731",
       "locality": "Hongu",
       "country": "Japan",
-      "latitude": 33.8388,
-      "longitude": 135.7742,
+      "latitude": 33.839004,
+      "longitude": 135.774155,
       "wantToGo": true,
       "notes": "A small coffee stop in the Karasuya building at the foot of the shrine stairs. A good place to sit after arriving, with outdoor tables.",
-      "section": "Day 4 · Kumano Hongu Taisha and Oyunohara"
+      "section": "Day 4 · Kumano Hongu Taisha and Oyunohara",
+      "appleMapsID": "I2F8990D60158AAA"
     },
     {
       "id": "guide:kumano-kodo-nakahechi/blue-sky-guesthouse",
@@ -331,11 +343,12 @@
       "address": "1526, Hongucho Hongu, Tanabe, Wakayama, Japan 647-1731",
       "locality": "Hongu",
       "country": "Japan",
-      "latitude": 33.8345,
-      "longitude": 135.7707,
+      "latitude": 33.834637,
+      "longitude": 135.770664,
       "wantToGo": true,
       "notes": "A small, spotless guesthouse in a side valley of Hongu village, a short walk from both the shrine and Oyunohara. Private rooms and a hearty breakfast; it books out early.",
-      "section": "Day 4 · Kumano Hongu Taisha and Oyunohara"
+      "section": "Day 4 · Kumano Hongu Taisha and Oyunohara",
+      "appleMapsID": "ID32D096204D7CD29"
     },
     {
       "id": "guide:kumano-kodo-nakahechi/dainichi-goe",
@@ -370,11 +383,12 @@
       "address": "161 Yunomine, Hongu-cho, Tanabe, Wakayama 647-1732",
       "locality": "Yunomine",
       "country": "Japan",
-      "latitude": 33.8297,
-      "longitude": 135.7582,
+      "latitude": 33.829712,
+      "longitude": 135.758223,
       "wantToGo": true,
       "notes": "A hostel in an old minshuku with dorm beds and private tatami rooms, plus hot spring baths you can book for yourself. The budget choice in Yunomine.",
-      "section": "Day 5 · Dainichi-goe to Yunomine and Kawayu onsen · about 3.5 km"
+      "section": "Day 5 · Dainichi-goe to Yunomine and Kawayu onsen · about 3.5 km",
+      "appleMapsID": "I455157175545A254"
     },
     {
       "id": "guide:kumano-kodo-nakahechi/ryokan-adumaya",
@@ -383,11 +397,12 @@
       "address": "122 Yunomine, Hongu-cho, Tanabe, Wakayama 647-1732",
       "locality": "Yunomine",
       "country": "Japan",
-      "latitude": 33.8287,
-      "longitude": 135.7572,
+      "latitude": 33.828915,
+      "longitude": 135.757228,
       "wantToGo": true,
       "notes": "A traditional inn founded by a shrine priest in the 1700s, with wooden baths fed by the village spring and a kaiseki dinner. The splurge night of the trip for many walkers.",
-      "section": "Day 5 · Dainichi-goe to Yunomine and Kawayu onsen · about 3.5 km"
+      "section": "Day 5 · Dainichi-goe to Yunomine and Kawayu onsen · about 3.5 km",
+      "appleMapsID": "IF0B665988B15609B"
     },
     {
       "id": "guide:kumano-kodo-nakahechi/yoshinoya-ryokan",
@@ -396,11 +411,12 @@
       "address": "よしのや旅館, 173, Hongucho Yunomine, Tanabe, Wakayama, Japan 647-1732",
       "locality": "Yunomine",
       "country": "Japan",
-      "latitude": 33.8291,
-      "longitude": 135.7576,
+      "latitude": 33.829742,
+      "longitude": 135.757853,
       "wantToGo": true,
       "notes": "A family inn beside Tsuboyu with a private outdoor bath in a small garden and rooms overlooking the creek. Mid-range and well placed for an early soak.",
-      "section": "Day 5 · Dainichi-goe to Yunomine and Kawayu onsen · about 3.5 km"
+      "section": "Day 5 · Dainichi-goe to Yunomine and Kawayu onsen · about 3.5 km",
+      "appleMapsID": "I481ABB3CA4382E42"
     },
     {
       "id": "guide:kumano-kodo-nakahechi/kawayu-onsen",
@@ -435,11 +451,12 @@
       "address": "1 Shingu, Shingu, Wakayama 647-0081",
       "locality": "Shingu",
       "country": "Japan",
-      "latitude": 33.7323,
-      "longitude": 135.9837,
+      "latitude": 33.732155,
+      "longitude": 135.983545,
       "wantToGo": true,
       "notes": "The second of the three grand shrines, bright vermilion against a forested hill near the mouth of the Kumano River. Look for the giant nagi tree in the courtyard and the treasure hall of old offerings.",
-      "section": "Day 6 · Down the Kumano River to Shingu"
+      "section": "Day 6 · Down the Kumano River to Shingu",
+      "appleMapsID": "ID1DE5F0C41CCCABD"
     },
     {
       "id": "guide:kumano-kodo-nakahechi/kamikura-jinja",
@@ -448,8 +465,8 @@
       "address": "1-13-8 Kamikura, Shingu, Wakayama 647-0015",
       "locality": "Shingu",
       "country": "Japan",
-      "latitude": 33.7243,
-      "longitude": 135.9841,
+      "latitude": 33.721869,
+      "longitude": 135.986257,
       "wantToGo": true,
       "notes": "A small shrine wedged under a huge boulder high above town, reached by more than 500 rough stone steps. The first stretch is close to a scramble; the view over Shingu and the sea is the reward.",
       "section": "Day 6 · Down the Kumano River to Shingu"
@@ -487,11 +504,12 @@
       "address": "1 Nachisan, Nachikatsuura, Higashimuro District, Wakayama 649-5301",
       "locality": "Nachi",
       "country": "Japan",
-      "latitude": 33.6684,
-      "longitude": 135.8904,
+      "latitude": 33.668664,
+      "longitude": 135.890027,
       "wantToGo": true,
       "notes": "The third grand shrine, high on the mountainside facing the falls, its worship tied to the waterfall itself. Stamp your credential here to complete the three shrines.",
-      "section": "Day 7 · Daimon-zaka to Nachi Falls and Katsuura"
+      "section": "Day 7 · Daimon-zaka to Nachi Falls and Katsuura",
+      "appleMapsID": "I3319B78B6983BC3A"
     },
     {
       "id": "guide:kumano-kodo-nakahechi/seiganto-ji",
@@ -500,11 +518,12 @@
       "address": "8 Nachisan, Nachikatsuura, Higashimuro District, Wakayama 649-5301",
       "locality": "Nachi",
       "country": "Japan",
-      "latitude": 33.6693,
-      "longitude": 135.8899,
+      "latitude": 33.669167,
+      "longitude": 135.889868,
       "wantToGo": true,
       "notes": "A Buddhist temple next door to the shrine and the first stop on the Saigoku Kannon pilgrimage. The three-story vermilion pagoda with Nachi Falls behind it is the view most people come for.",
-      "section": "Day 7 · Daimon-zaka to Nachi Falls and Katsuura"
+      "section": "Day 7 · Daimon-zaka to Nachi Falls and Katsuura",
+      "appleMapsID": "I4D6A052EC89BAC39"
     },
     {
       "id": "guide:kumano-kodo-nakahechi/nachi-falls",
@@ -513,11 +532,12 @@
       "address": "〒649-5301, 東牟婁郡那智勝浦町, 那智山1",
       "locality": "Nachi",
       "country": "Japan",
-      "latitude": 33.675,
-      "longitude": 135.8877,
+      "latitude": 33.675384,
+      "longitude": 135.88757,
       "wantToGo": true,
       "notes": "Japan's tallest single-drop waterfall, worshipped as a deity at Hiro-jinja at its base. Walk down the cedar-lined steps from the road for the closest view.",
-      "section": "Day 7 · Daimon-zaka to Nachi Falls and Katsuura"
+      "section": "Day 7 · Daimon-zaka to Nachi Falls and Katsuura",
+      "appleMapsID": "I71C232B366C802EE"
     },
     {
       "id": "guide:kumano-kodo-nakahechi/katsuura-fish-market",
@@ -526,11 +546,12 @@
       "address": "〒649-5335, 和歌山県東牟婁郡那智勝浦町, 築地7丁目8-2",
       "locality": "Katsuura",
       "country": "Japan",
-      "latitude": 33.6266,
-      "longitude": 135.9439,
+      "latitude": 33.626108,
+      "longitude": 135.943735,
       "wantToGo": true,
       "notes": "The harbor market in Kii-Katsuura, a major tuna port, with stalls and simple counters serving fresh maguro. A good last meal before the train out.",
-      "section": "Day 7 · Daimon-zaka to Nachi Falls and Katsuura"
+      "section": "Day 7 · Daimon-zaka to Nachi Falls and Katsuura",
+      "appleMapsID": "IBEA368AB436D4AD5"
     },
     {
       "id": "guide:kumano-kodo-nakahechi/hotel-urashima",
@@ -539,11 +560,12 @@
       "address": "1165-2 Katsuura, Nachikatsuura, Higashimuro District, Wakayama 649-5334",
       "locality": "Katsuura",
       "country": "Japan",
-      "latitude": 33.6249,
-      "longitude": 135.9508,
+      "latitude": 33.625461,
+      "longitude": 135.951095,
       "wantToGo": true,
       "notes": "A sprawling onsen hotel on a peninsula in Katsuura Bay, reached by its own shuttle boat, with cave baths open to the Pacific. Busy and a bit dated, but the baths are memorable.",
-      "section": "Day 7 · Daimon-zaka to Nachi Falls and Katsuura"
+      "section": "Day 7 · Daimon-zaka to Nachi Falls and Katsuura",
+      "appleMapsID": "ID4838AC0D1B05159"
     }
   ]
 }

@@ -1,0 +1,215 @@
+{
+  "aachen-christmas-market": {
+    "address": "Markt, 52062 Aachen, Germany",
+    "latitude": 50.776307,
+    "longitude": 6.083174,
+    "name": "Markt"
+  },
+  "apfelwein-wagner": {
+    "address": "Schweizer Straße 71, 60594 Frankfurt, Germany",
+    "appleMapsID": "I295A264FB62B0C80",
+    "latitude": 50.100518,
+    "longitude": 8.682018,
+    "name": "Adolf Wagner"
+  },
+  "augustiner-klosterwirt": {
+    "address": "Augustinerstraße 1, 80331 Munich, Germany",
+    "appleMapsID": "IBE467695D9C77B8F",
+    "latitude": 48.138453,
+    "longitude": 11.572171,
+    "name": "Augustiner Klosterwirt"
+  },
+  "bratwursthaeusle": {
+    "address": "Rathausplatz 1, 90403 Nuremberg, Germany",
+    "appleMapsID": "I625D8EC58C29D346",
+    "latitude": 49.455011,
+    "longitude": 11.076649,
+    "name": "Bratwursthäusle"
+  },
+  "cafe-niederegger": {
+    "address": "Breite Straße 89, 23552 Lübeck, Germany",
+    "appleMapsID": "I99132067C27D2420",
+    "latitude": 53.86656,
+    "longitude": 10.68579,
+    "name": "Niederegger"
+  },
+  "cafe-van-den-daele": {
+    "address": "Büchel 18, 52062 Aachen, Germany",
+    "appleMapsID": "IFAFDA65472CC667D",
+    "latitude": 50.775887,
+    "longitude": 6.085459,
+    "name": "Café van den Daele"
+  },
+  "cologne-cathedral-christmas-market": {
+    "address": "Roncalliplatz, 50667 Cologne, Germany",
+    "latitude": 50.940276,
+    "longitude": 6.958957,
+    "name": "Roncalliplatz"
+  },
+  "cologne-heinzels-wintermaerchen": {
+    "address": "Alter Markt, Cologne, North Rhine-Westphalia, Germany",
+    "latitude": 50.938648,
+    "longitude": 6.960068,
+    "name": "Alter Markt"
+  },
+  "cologne-markt-der-engel": {
+    "address": "Neumarkt, 50667 Cologne, Germany",
+    "latitude": 50.93566,
+    "longitude": 6.947521,
+    "name": "Neumarkt"
+  },
+  "dresden-stallhof-medieval-market": {
+    "address": "Augustusstraße 1, 01067 Dresden, Germany",
+    "appleMapsID": "I24C758C98BEBE17A",
+    "latitude": 51.052572,
+    "longitude": 13.73926,
+    "name": "Stallhof"
+  },
+  "dresden-striezelmarkt": {
+    "address": "Altmarkt, 01067 Dresden, Germany",
+    "latitude": 51.049201,
+    "longitude": 13.737864,
+    "name": "Altmarkt"
+  },
+  "erfurt-christmas-market": {
+    "address": "Domplatz, 99084 Erfurt, Germany",
+    "latitude": 50.977708,
+    "longitude": 11.024465,
+    "name": "Domplatz"
+  },
+  "esslingen-medieval-christmas-market": {
+    "address": "Marktplatz, Esslingen am Neckar, Baden-Württemberg, Germany",
+    "latitude": 48.74281,
+    "longitude": 9.306069,
+    "name": "Marktplatz"
+  },
+  "excelsior-hotel-ernst": {
+    "address": "Trankgasse 1, 50667 Cologne, Germany",
+    "appleMapsID": "IEA698AA83058A293",
+    "latitude": 50.941884,
+    "longitude": 6.956567,
+    "name": "Excelsior Hotel Ernst"
+  },
+  "frankfurt-christmas-market": {
+    "address": "Römerberg, 60311 Frankfurt am Main, Germany",
+    "appleMapsID": "IC9A9BA3F494C5E37",
+    "latitude": 50.11042,
+    "longitude": 8.682144,
+    "name": "Römerberg"
+  },
+  "frueh-am-dom": {
+    "address": "Am Hof 12-18, 50667 Cologne, Germany",
+    "appleMapsID": "I49F43DC9DE0B5A9E",
+    "latitude": 50.939831,
+    "longitude": 6.957077,
+    "name": "Früh Am Dom"
+  },
+  "gengenbach-advent-calendar": {
+    "address": "Victor-Kretz-Straße 2, 77723 Gengenbach, Germany",
+    "appleMapsID": "IC52BBF5CCA1D2CF8",
+    "latitude": 48.40404,
+    "longitude": 8.015675,
+    "name": "Rathaus Gengenbach"
+  },
+  "german-christmas-museum": {
+    "address": "Herrngasse 1, Rothenburg, 91541 Rothenburg ob der Tauber, Germany",
+    "appleMapsID": "I7F298700B5CE725A",
+    "latitude": 49.376744,
+    "longitude": 10.178289,
+    "name": "Deutsches Weihnachtsmuseum Käthe Wohlfahrt KG"
+  },
+  "historische-wurstkuchl": {
+    "address": "Thundorferstraße 3, Innenstadt, 93047 Regensburg, Germany",
+    "appleMapsID": "IBB38F5B26E3D20B0",
+    "latitude": 49.020913,
+    "longitude": 12.097557,
+    "name": "Wurstkuchl"
+  },
+  "hofgut-sternen": {
+    "address": "Höllsteig 76, 79874 Breitnau, Germany",
+    "appleMapsID": "ICD45C6DD775A4847",
+    "latitude": 47.916551,
+    "longitude": 8.073476,
+    "name": "Hofgut Sternen"
+  },
+  "hotel-eisenhut": {
+    "address": "Herrngasse 3, Unit 7, Rothenburg, 91541 Rothenburg ob der Tauber, Germany",
+    "appleMapsID": "IF8A883DFC02AD639",
+    "latitude": 49.376782,
+    "longitude": 10.178092,
+    "name": "Eisenhut"
+  },
+  "hotel-elch-nuremberg": {
+    "address": "Irrerstraße 11, 90403 Nuremberg, Germany",
+    "appleMapsID": "IE6BFD3AABB2915B5",
+    "latitude": 49.455447,
+    "longitude": 11.073206,
+    "name": "Hotel Elch"
+  },
+  "hotel-taschenbergpalais": {
+    "address": "Taschenberg 3, 01067 Dresden, Germany",
+    "appleMapsID": "I15A053EDDEA6214D",
+    "latitude": 51.051808,
+    "longitude": 13.736247,
+    "name": "Kempinski Taschenbergpalais"
+  },
+  "hotel-torbraeu": {
+    "address": "Tal 41, 80331 Munich, Germany",
+    "appleMapsID": "IF464FC617F930887",
+    "latitude": 48.135484,
+    "longitude": 11.581512,
+    "name": "Hotel Torbräu"
+  },
+  "luebeck-christmas-market": {
+    "address": "Markt, Lübeck, Schleswig-Holstein, Germany",
+    "latitude": 53.866598,
+    "longitude": 10.684814,
+    "name": "Markt"
+  },
+  "munich-christkindlmarkt": {
+    "address": "Marienplatz, 80331 Munich, Germany",
+    "latitude": 48.137073,
+    "longitude": 11.576002,
+    "name": "Marienplatz"
+  },
+  "nuremberg-christkindlesmarkt": {
+    "address": "Hauptmarkt, 90403 Nuremberg, Germany",
+    "latitude": 49.45417,
+    "longitude": 11.077365,
+    "name": "Hauptmarkt"
+  },
+  "pulverturm-dresden": {
+    "address": "An der Frauenkirche 12, 01067 Dresden, Germany",
+    "appleMapsID": "I20C16E99A7D9D8A0",
+    "latitude": 51.052267,
+    "longitude": 13.742685,
+    "name": "Pulverturm an der Frauenkirche"
+  },
+  "ravennaschlucht-christmas-market": {
+    "address": "79874 Breitnau, Germany",
+    "appleMapsID": "I28250EC442C64248",
+    "latitude": 47.917572,
+    "longitude": 8.074449,
+    "name": "Ravennaschlucht"
+  },
+  "regensburg-thurn-und-taxis-market": {
+    "address": "Emmeramsplatz 5, Innenstadt, 93047 Regensburg, Germany",
+    "appleMapsID": "I3569627BE3BB1FB9",
+    "latitude": 49.014448,
+    "longitude": 12.092256,
+    "name": "Thurn and Taxis Castle"
+  },
+  "rothenburg-reiterlesmarkt": {
+    "address": "Marktplatz, 91541 Rothenburg ob der Tauber, Germany",
+    "latitude": 49.377138,
+    "longitude": 10.1792,
+    "name": "Marktplatz"
+  },
+  "stuttgart-christmas-market": {
+    "address": "Schillerplatz, 70173 Stuttgart, Germany",
+    "appleMapsID": "I73AB9A1BEB3D2E99",
+    "latitude": 48.777157,
+    "longitude": 9.178434,
+    "name": "Schillerplatz"
+  }
+}

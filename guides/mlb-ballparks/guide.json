@@ -29,11 +29,12 @@
       "address": "4 Jersey St, Boston, MA 02215",
       "locality": "Fenway-Kenmore",
       "country": "United States",
-      "latitude": 42.3465,
-      "longitude": -71.0971,
+      "latitude": 42.346505,
+      "longitude": -71.097323,
       "wantToGo": true,
       "notes": "The oldest park in the majors, open since 1912. Look for the single red seat high in the right-field bleachers that marks Ted Williams's longest home run, and Pesky's Pole down the short right-field line.",
-      "section": "Northeast"
+      "section": "Northeast",
+      "appleMapsID": "I9DB342A7B1DB6672"
     },
     {
       "id": "guide:mlb-ballparks/cask-n-flagon",
@@ -42,11 +43,12 @@
       "address": "62 Brookline Ave, Boston, MA 02215",
       "locality": "Fenway-Kenmore",
       "country": "United States",
-      "latitude": 42.3475,
-      "longitude": -71.0979,
+      "latitude": 42.347307,
+      "longitude": -71.098141,
       "wantToGo": true,
       "notes": "The sports bar across Brookline Avenue from the back of the Green Monster, pouring since 1969. Gets loud before first pitch and stays that way after the last out.",
-      "section": "Northeast"
+      "section": "Northeast",
+      "appleMapsID": "IDDBC42281B66F136"
     },
     {
       "id": "guide:mlb-ballparks/yankee-stadium",
@@ -55,11 +57,12 @@
       "address": "1 E 161st St, Bronx, NY 10451",
       "locality": "The Bronx",
       "country": "United States",
-      "latitude": 40.8296,
-      "longitude": -73.9265,
+      "latitude": 40.829482,
+      "longitude": -73.926562,
       "wantToGo": true,
       "notes": "Get in early for Monument Park behind the center-field fence, with plaques and retired numbers going back to Babe Ruth. It closes before first pitch; check the team site for the cutoff.",
-      "section": "Northeast"
+      "section": "Northeast",
+      "appleMapsID": "IC57FD8682B4BD4F"
     },
     {
       "id": "guide:mlb-ballparks/yankee-tavern",
@@ -81,11 +84,12 @@
       "address": "41 Seaver Way, Queens, NY 11368",
       "locality": "Flushing",
       "country": "United States",
-      "latitude": 40.757,
-      "longitude": -73.8458,
+      "latitude": 40.757075,
+      "longitude": -73.845806,
       "wantToGo": true,
       "notes": "Enter through the Jackie Robinson Rotunda, modeled on Ebbets Field. The old Home Run Apple from Shea Stadium sits outside the gate, and a newer one rises in center field after Mets homers.",
-      "section": "Northeast"
+      "section": "Northeast",
+      "appleMapsID": "I113617765FB06FB5"
     },
     {
       "id": "guide:mlb-ballparks/citizens-bank-park",
@@ -94,11 +98,12 @@
       "address": "1 Citizens Bank Way, Philadelphia, PA 19148",
       "locality": "South Philadelphia",
       "country": "United States",
-      "latitude": 39.9059,
-      "longitude": -75.1665,
+      "latitude": 39.90602,
+      "longitude": -75.166499,
       "wantToGo": true,
       "notes": "Walk Ashburn Alley behind the outfield for cheesesteaks and the Phillies' Wall of Fame. The giant neon Liberty Bell in right-center rings and lights up after Phillies home runs.",
-      "section": "Northeast"
+      "section": "Northeast",
+      "appleMapsID": "IE909DF335018E9B5"
     },
     {
       "id": "guide:mlb-ballparks/pnc-park",
@@ -107,11 +112,12 @@
       "address": "115 Federal St, Pittsburgh, PA 15212",
       "locality": "North Shore",
       "country": "United States",
-      "latitude": 40.4469,
-      "longitude": -80.0056,
+      "latitude": 40.447417,
+      "longitude": -80.005231,
       "wantToGo": true,
       "notes": "Arguably the best view in baseball: downtown Pittsburgh framed over the outfield across the Allegheny. The classic approach is on foot from downtown over the yellow Roberto Clemente Bridge.",
-      "section": "Northeast"
+      "section": "Northeast",
+      "appleMapsID": "I85B24CA189F66EB8"
     },
     {
       "id": "guide:mlb-ballparks/primanti-bros-strip",
@@ -120,11 +126,12 @@
       "address": "46 18th St, Pittsburgh, PA 15222",
       "locality": "Strip District",
       "country": "United States",
-      "latitude": 40.4507,
-      "longitude": -79.9855,
+      "latitude": 40.450719,
+      "longitude": -79.985581,
       "wantToGo": true,
       "notes": "The original Strip District counter, where the fries and coleslaw go inside the sandwich. About two miles up the river from PNC Park; expect a line on game days.",
-      "section": "Northeast"
+      "section": "Northeast",
+      "appleMapsID": "IC1C9B68C185F734A"
     },
     {
       "id": "guide:mlb-ballparks/camden-yards",
@@ -133,11 +140,12 @@
       "address": "333 W Camden St, Baltimore, MD 21201",
       "locality": "Downtown Baltimore",
       "country": "United States",
-      "latitude": 39.2837,
-      "longitude": -76.6216,
+      "latitude": 39.283925,
+      "longitude": -76.621635,
       "wantToGo": true,
       "notes": "The 1992 park that set the template for the retro ballparks that followed. Eutaw Street runs between the stands and the long brick B&O Warehouse, with brass plaques where home runs landed and Boog's BBQ smoking away.",
-      "section": "Northeast"
+      "section": "Northeast",
+      "appleMapsID": "I74E681546C1A4CB1"
     },
     {
       "id": "guide:mlb-ballparks/pickles-pub",
@@ -146,11 +154,12 @@
       "address": "520 Washington Blvd, Baltimore, MD 21230",
       "locality": "Sowebo",
       "country": "United States",
-      "latitude": 39.2855,
-      "longitude": -76.6229,
+      "latitude": 39.285508,
+      "longitude": -76.62295,
       "wantToGo": true,
       "notes": "A sports bar across Washington Boulevard from the ballpark, with a back patio and a crowd in orange before every home game. The default pregame stop for Orioles fans.",
-      "section": "Northeast"
+      "section": "Northeast",
+      "appleMapsID": "IE2BECF1D2721D4C2"
     },
     {
       "id": "guide:mlb-ballparks/nationals-park",
@@ -159,11 +168,12 @@
       "address": "1500 S Capitol St SE, Washington, DC 20003",
       "locality": "Navy Yard",
       "country": "United States",
-      "latitude": 38.8727,
-      "longitude": -77.0075,
+      "latitude": 38.872976,
+      "longitude": -77.007379,
       "wantToGo": true,
       "notes": "Stay in your seat for the fourth-inning Presidents Race, with giant-headed Washington, Jefferson, Lincoln and Teddy Roosevelt sprinting down the warning track. The Anacostia riverfront is a short walk away.",
-      "section": "Northeast"
+      "section": "Northeast",
+      "appleMapsID": "IE3E22353E898C02E"
     },
     {
       "id": "guide:mlb-ballparks/bens-chili-bowl",
@@ -172,11 +182,12 @@
       "address": "1213 U St NW, Washington, DC 20009",
       "locality": "U Street",
       "country": "United States",
-      "latitude": 38.9172,
-      "longitude": -77.0288,
+      "latitude": 38.917189,
+      "longitude": -77.028743,
       "wantToGo": true,
       "notes": "A U Street landmark since 1958 that kept serving through decades of change in the neighborhood. Order the chili half-smoke. It's about three miles north of the ballpark, a straight shot on the Green Line.",
-      "section": "Northeast"
+      "section": "Northeast",
+      "appleMapsID": "IDE99580BE9C44822"
     },
     {
       "id": "guide:mlb-ballparks/rogers-centre",
@@ -185,11 +196,12 @@
       "address": "1 Blue Jays Way, Toronto, ON M5V 1J1, Canada",
       "locality": "Downtown Toronto",
       "country": "Canada",
-      "latitude": 43.6417,
-      "longitude": -79.3892,
+      "latitude": 43.641464,
+      "longitude": -79.389074,
       "wantToGo": true,
       "notes": "The first ballpark with a fully retractable roof, under the CN Tower. A hotel has rooms that look straight onto the field, and the renovated outfield now has open-air social decks. Bring a passport.",
-      "section": "Northeast"
+      "section": "Northeast",
+      "appleMapsID": "I3A183CD0E5A01B2B"
     },
     {
       "id": "guide:mlb-ballparks/truist-park",
@@ -198,11 +210,12 @@
       "address": "755 Battery Ave SE, Atlanta, GA 30339",
       "locality": "The Battery Atlanta",
       "country": "United States",
-      "latitude": 33.8907,
-      "longitude": -84.4676,
+      "latitude": 33.890635,
+      "longitude": -84.467627,
       "wantToGo": true,
       "notes": "Out in Cobb County, about ten miles northwest of downtown, inside the Battery's restaurants and bars. The street number is a nod to Hank Aaron's 755 home runs; his statue stands in the Monument Garden on the concourse.",
-      "section": "Southeast"
+      "section": "Southeast",
+      "appleMapsID": "I885753690355E0A0"
     },
     {
       "id": "guide:mlb-ballparks/loandepot-park",
@@ -211,11 +224,12 @@
       "address": "501 Marlins Way, Miami, FL 33125",
       "locality": "Little Havana",
       "country": "United States",
-      "latitude": 25.7781,
-      "longitude": -80.2196,
+      "latitude": 25.77831,
+      "longitude": -80.21969,
       "wantToGo": true,
       "notes": "A retractable-roof park on the old Orange Bowl site. The colorful home run sculpture that once sat in center field now stands out on the plaza, which is the best place for photos.",
-      "section": "Southeast"
+      "section": "Southeast",
+      "appleMapsID": "IA96DD4A08E81A6D3"
     },
     {
       "id": "guide:mlb-ballparks/versailles-miami",
@@ -224,11 +238,12 @@
       "address": "3555 SW 8th St, Miami, FL 33135",
       "locality": "Little Havana",
       "country": "United States",
-      "latitude": 25.765,
-      "longitude": -80.2528,
+      "latitude": 25.764967,
+      "longitude": -80.25282,
       "wantToGo": true,
       "notes": "Miami's best-known Cuban restaurant, on Calle Ocho since 1971. Order a cafecito and a pastry at the walk-up window if you don't want a full meal of ropa vieja. About two miles from the ballpark.",
-      "section": "Southeast"
+      "section": "Southeast",
+      "appleMapsID": "I1DBC11E30B63F77"
     },
     {
       "id": "guide:mlb-ballparks/tropicana-field",
@@ -237,11 +252,12 @@
       "address": "1 Tropicana Dr, St. Petersburg, FL 33705",
       "locality": "St. Petersburg",
       "country": "United States",
-      "latitude": 27.7681,
-      "longitude": -82.6533,
+      "latitude": 27.768125,
+      "longitude": -82.653456,
       "wantToGo": true,
       "notes": "The Rays came home in 2026 after Hurricane Milton tore off the roof in 2024. It's the only fixed dome in the majors, with catwalks that have their own ground rules. Check team news on plans for a new ballpark.",
-      "section": "Southeast"
+      "section": "Southeast",
+      "appleMapsID": "ICAC68660CD9F8935"
     },
     {
       "id": "guide:mlb-ballparks/wrigley-field",
@@ -250,11 +266,12 @@
       "address": "1060 W Addison St, Chicago, IL 60613",
       "locality": "Wrigleyville",
       "country": "United States",
-      "latitude": 41.9482,
-      "longitude": -87.6556,
+      "latitude": 41.947906,
+      "longitude": -87.65582,
       "wantToGo": true,
       "notes": "Open since 1914, with ivy on the outfield brick and a center-field scoreboard still changed by hand. Look across Waveland and Sheffield for the rooftop bleachers on the apartment buildings.",
-      "section": "Midwest"
+      "section": "Midwest",
+      "appleMapsID": "IE175B1C48A249082"
     },
     {
       "id": "guide:mlb-ballparks/murphys-bleachers",
@@ -263,11 +280,12 @@
       "address": "3655 N Sheffield Ave, Chicago, IL 60613",
       "locality": "Wrigleyville",
       "country": "United States",
-      "latitude": 41.9484,
-      "longitude": -87.6543,
+      "latitude": 41.948923,
+      "longitude": -87.654179,
       "wantToGo": true,
       "notes": "The corner bar at Sheffield and Waveland, steps from the bleacher gate. A Wrigleyville fixture that fills up hours before first pitch and empties straight into the bleachers.",
-      "section": "Midwest"
+      "section": "Midwest",
+      "appleMapsID": "IB7767517AF177781"
     },
     {
       "id": "guide:mlb-ballparks/rate-field",
@@ -276,11 +294,12 @@
       "address": "333 W 35th St, Chicago, IL 60616",
       "locality": "Bridgeport",
       "country": "United States",
-      "latitude": 41.8297,
-      "longitude": -87.6338,
+      "latitude": 41.829811,
+      "longitude": -87.633577,
       "wantToGo": true,
       "notes": "The White Sox park on the South Side, with an exploding scoreboard whose pinwheels spin after home runs, carried over from old Comiskey Park. Comiskey's home plate is marked in the parking lot to the north.",
-      "section": "Midwest"
+      "section": "Midwest",
+      "appleMapsID": "I15F6134E11418850"
     },
     {
       "id": "guide:mlb-ballparks/american-family-field",
@@ -289,11 +308,12 @@
       "address": "1 Brewers Way, Milwaukee, WI 53214",
       "locality": "Milwaukee",
       "country": "United States",
-      "latitude": 43.0281,
-      "longitude": -87.9713,
+      "latitude": 43.028154,
+      "longitude": -87.972061,
       "wantToGo": true,
       "notes": "Arrive early: tailgating in the parking lots is part of the ritual here. Inside, watch for Bernie Brewer's slide after Brewers home runs and the sausage race in the sixth inning under the fan-shaped retractable roof.",
-      "section": "Midwest"
+      "section": "Midwest",
+      "appleMapsID": "IB951F7513169270E"
     },
     {
       "id": "guide:mlb-ballparks/target-field",
@@ -302,11 +322,12 @@
       "address": "1 Twins Way, Minneapolis, MN 55403",
       "locality": "North Loop",
       "country": "United States",
-      "latitude": 44.9817,
-      "longitude": -93.2779,
+      "latitude": 44.981703,
+      "longitude": -93.277761,
       "wantToGo": true,
       "notes": "Built with Minnesota limestone and squeezed into the North Loop, with light rail stopping at the gate. The Minnie and Paul sign in center field lights up when the Twins homer.",
-      "section": "Midwest"
+      "section": "Midwest",
+      "appleMapsID": "I65824D62E367BEF1"
     },
     {
       "id": "guide:mlb-ballparks/comerica-park",
@@ -315,11 +336,12 @@
       "address": "2100 Woodward Ave, Detroit, MI 48201",
       "locality": "Downtown Detroit",
       "country": "United States",
-      "latitude": 42.3392,
-      "longitude": -83.0489,
+      "latitude": 42.338927,
+      "longitude": -83.048648,
       "wantToGo": true,
       "notes": "Big stone tigers guard the gates, and inside there's a carousel and a Ferris wheel with baseball-shaped cars. After the Fifth Third and Comerica bank merger, expect a new name; check the Tigers site for the current one.",
-      "section": "Midwest"
+      "section": "Midwest",
+      "appleMapsID": "IB301C7E12E939DBE"
     },
     {
       "id": "guide:mlb-ballparks/american-coney-island",
@@ -328,11 +350,12 @@
       "address": "114 W Lafayette Blvd, Detroit, MI 48226",
       "locality": "Downtown Detroit",
       "country": "United States",
-      "latitude": 42.3315,
-      "longitude": -83.0487,
+      "latitude": 42.331559,
+      "longitude": -83.048619,
       "wantToGo": true,
       "notes": "The Detroit coney dog, with chili, mustard and onions, served since 1917 right next door to its rival, Lafayette Coney Island. About a mile south of the ballpark.",
-      "section": "Midwest"
+      "section": "Midwest",
+      "appleMapsID": "I1B68AB2DA0A83EFD"
     },
     {
       "id": "guide:mlb-ballparks/progressive-field",
@@ -341,11 +364,12 @@
       "address": "2401 Ontario St, Cleveland, OH 44115",
       "locality": "Gateway District",
       "country": "United States",
-      "latitude": 41.4959,
-      "longitude": -81.6853,
+      "latitude": 41.496074,
+      "longitude": -81.685233,
       "wantToGo": true,
       "notes": "Opened as Jacobs Field in 1994 and recently renovated. Heritage Park, behind the center-field wall, honors the Guardians' greats, and the downtown skyline rises over left field.",
-      "section": "Midwest"
+      "section": "Midwest",
+      "appleMapsID": "IEE334205AA35BF76"
     },
     {
       "id": "guide:mlb-ballparks/great-lakes-brewing",
@@ -354,11 +378,12 @@
       "address": "2516 Market Ave, Cleveland, OH 44113",
       "locality": "Ohio City",
       "country": "United States",
-      "latitude": 41.4844,
-      "longitude": -81.7045,
+      "latitude": 41.484424,
+      "longitude": -81.704339,
       "wantToGo": true,
       "notes": "A brewpub since 1988 in old brick buildings next to the West Side Market, across the river from the ballpark. Order the Edmund Fitzgerald porter.",
-      "section": "Midwest"
+      "section": "Midwest",
+      "appleMapsID": "ID0E64D21248B94E4"
     },
     {
       "id": "guide:mlb-ballparks/great-american-ball-park",
@@ -367,11 +392,12 @@
       "address": "100 Joe Nuxhall Way, Cincinnati, OH 45202",
       "locality": "The Banks",
       "country": "United States",
-      "latitude": 39.0972,
-      "longitude": -84.5066,
+      "latitude": 39.097314,
+      "longitude": -84.507089,
       "wantToGo": true,
       "notes": "Twin riverboat smokestacks beyond right-center shoot fireworks after Reds home runs. The Reds Hall of Fame and Museum is next to the main gate, and the Ohio River runs past the outfield.",
-      "section": "Midwest"
+      "section": "Midwest",
+      "appleMapsID": "I8D60B3CD6E7D5971"
     },
     {
       "id": "guide:mlb-ballparks/arnolds-bar-and-grill",
@@ -380,11 +406,12 @@
       "address": "210 E 8th St, Cincinnati, OH 45202",
       "locality": "Downtown Cincinnati",
       "country": "United States",
-      "latitude": 39.1052,
-      "longitude": -84.5101,
+      "latitude": 39.105095,
+      "longitude": -84.510104,
       "wantToGo": true,
       "notes": "Cincinnati's oldest tavern, open since 1861, with a covered courtyard out back. About a mile north of the ballpark.",
-      "section": "Midwest"
+      "section": "Midwest",
+      "appleMapsID": "IC9020018CC16CC2B"
     },
     {
       "id": "guide:mlb-ballparks/busch-stadium",
@@ -393,11 +420,12 @@
       "address": "700 Clark Ave, St. Louis, MO 63102",
       "locality": "Downtown St. Louis",
       "country": "United States",
-      "latitude": 38.6226,
-      "longitude": -90.1939,
+      "latitude": 38.622504,
+      "longitude": -90.192797,
       "wantToGo": true,
       "notes": "Upper-deck seats behind home plate frame the Gateway Arch over the outfield. Ballpark Village across Clark Avenue holds the Cardinals Hall of Fame and Museum.",
-      "section": "Midwest"
+      "section": "Midwest",
+      "appleMapsID": "IBC7534C4B78B84DB"
     },
     {
       "id": "guide:mlb-ballparks/kauffman-stadium",
@@ -406,11 +434,12 @@
       "address": "1 Royal Way, Kansas City, MO 64129",
       "locality": "Truman Sports Complex",
       "country": "United States",
-      "latitude": 39.0515,
-      "longitude": -94.4805,
+      "latitude": 39.051602,
+      "longitude": -94.480233,
       "wantToGo": true,
       "notes": "The fountains and waterfalls beyond the outfield wall are the largest privately funded fountain display in the world. Grab a seat out in the outfield to get misted on a hot night.",
-      "section": "Midwest"
+      "section": "Midwest",
+      "appleMapsID": "IA12E066DD2001976"
     },
     {
       "id": "guide:mlb-ballparks/globe-life-field",
@@ -419,11 +448,12 @@
       "address": "734 Stadium Dr, Arlington, TX 76011",
       "locality": "Arlington",
       "country": "United States",
-      "latitude": 32.7476,
-      "longitude": -97.0841,
+      "latitude": 32.747498,
+      "longitude": -97.084057,
       "wantToGo": true,
       "notes": "An air-conditioned park with a retractable roof, built so Texas summers don't wreck the game. It sits between the Rangers' old park and the Cowboys' stadium, with the Texas Live! district across the street.",
-      "section": "Southwest"
+      "section": "Southwest",
+      "appleMapsID": "I4407EB65C7F4FBD3"
     },
     {
       "id": "guide:mlb-ballparks/daikin-park",
@@ -432,11 +462,12 @@
       "address": "501 Crawford St, Houston, TX 77002",
       "locality": "Downtown Houston",
       "country": "United States",
-      "latitude": 29.7572,
-      "longitude": -95.3552,
+      "latitude": 29.75715,
+      "longitude": -95.355256,
       "wantToGo": true,
       "notes": "The Astros' park, called Minute Maid Park until 2025, built into the old Union Station. A replica locomotive rolls along the left-field wall after Astros home runs, above the short porch of the Crawford Boxes.",
-      "section": "Southwest"
+      "section": "Southwest",
+      "appleMapsID": "IF61FFD06C05AA9E4"
     },
     {
       "id": "guide:mlb-ballparks/ninfas-on-navigation",
@@ -445,11 +476,12 @@
       "address": "2704 Navigation Blvd, Houston, TX 77003",
       "locality": "Second Ward",
       "country": "United States",
-      "latitude": 29.7569,
-      "longitude": -95.3426,
+      "latitude": 29.756945,
+      "longitude": -95.342542,
       "wantToGo": true,
       "notes": "The East End Tex-Mex restaurant Mama Ninfa Laurenzo opened in 1973, credited with putting fajitas on the map in Houston. About a mile east of the ballpark.",
-      "section": "Southwest"
+      "section": "Southwest",
+      "appleMapsID": "I1568C12D77565DAB"
     },
     {
       "id": "guide:mlb-ballparks/chase-field",
@@ -458,11 +490,12 @@
       "address": "401 E Jefferson St, Phoenix, AZ 85004",
       "locality": "Downtown Phoenix",
       "country": "United States",
-      "latitude": 33.4453,
-      "longitude": -112.0667,
+      "latitude": 33.445551,
+      "longitude": -112.066716,
       "wantToGo": true,
       "notes": "There's a swimming pool beyond the right-center field wall, rented as a suite. The infield keeps an old-fashioned dirt path from the mound to home plate, and the roof closes for summer heat.",
-      "section": "Southwest"
+      "section": "Southwest",
+      "appleMapsID": "I9A7ED80FDA638880"
     },
     {
       "id": "guide:mlb-ballparks/coors-field",
@@ -471,11 +504,12 @@
       "address": "2001 Blake St, Denver, CO 80205",
       "locality": "Ballpark",
       "country": "United States",
-      "latitude": 39.756,
-      "longitude": -104.9929,
+      "latitude": 39.755855,
+      "longitude": -104.99423,
       "wantToGo": true,
       "notes": "A row of purple seats in the upper deck marks exactly one mile above sea level. Balls fly in the thin air, which is why the Rockies keep game balls in a humidor.",
-      "section": "Southwest"
+      "section": "Southwest",
+      "appleMapsID": "I9614832ACD05FD99"
     },
     {
       "id": "guide:mlb-ballparks/wynkoop-brewing",
@@ -484,11 +518,12 @@
       "address": "1634 18th St, Denver, CO 80202",
       "locality": "LoDo",
       "country": "United States",
-      "latitude": 39.7535,
-      "longitude": -104.9984,
+      "latitude": 39.753503,
+      "longitude": -104.998606,
       "wantToGo": true,
       "notes": "Colorado's first brewpub, opened in 1988 in an old LoDo warehouse two blocks from Coors Field. Pool tables upstairs and plenty of room for a postgame crowd.",
-      "section": "Southwest"
+      "section": "Southwest",
+      "appleMapsID": "I5F2681BBA82BB89B"
     },
     {
       "id": "guide:mlb-ballparks/dodger-stadium",
@@ -497,11 +532,12 @@
       "address": "1000 Vin Scully Ave, Los Angeles, CA 90012",
       "locality": "Elysian Park",
       "country": "United States",
-      "latitude": 34.0736,
-      "longitude": -118.2398,
+      "latitude": 34.073822,
+      "longitude": -118.239992,
       "wantToGo": true,
       "notes": "Open since 1962 in Chavez Ravine, with palm trees and the San Gabriel Mountains beyond the outfield at sunset. Have a Dodger Dog, and stay for the view from the top deck as the sun goes down.",
-      "section": "West"
+      "section": "West",
+      "appleMapsID": "IEF9F7C11119158BE"
     },
     {
       "id": "guide:mlb-ballparks/philippe-the-original",
@@ -510,11 +546,12 @@
       "address": "1001 N Alameda St, Los Angeles, CA 90012",
       "locality": "Chinatown",
       "country": "United States",
-      "latitude": 34.0597,
-      "longitude": -118.2369,
+      "latitude": 34.059699,
+      "longitude": -118.237052,
       "wantToGo": true,
       "notes": "A 1908 deli near Union Station that claims to have invented the French dip. Order it double-dipped with a dab of the hot mustard. About a mile and a half from Dodger Stadium.",
-      "section": "West"
+      "section": "West",
+      "appleMapsID": "IC11C26771140E089"
     },
     {
       "id": "guide:mlb-ballparks/angel-stadium",
@@ -523,11 +560,12 @@
       "address": "2000 E Gene Autry Way, Anaheim, CA 92806",
       "locality": "Anaheim",
       "country": "United States",
-      "latitude": 33.8003,
-      "longitude": -117.8817,
+      "latitude": 33.800198,
+      "longitude": -117.882759,
       "wantToGo": true,
       "notes": "The giant Big A sign in the parking lot lights its halo after Angels wins. Beyond center field, a fake rock formation with waterfalls and geysers goes off after home runs.",
-      "section": "West"
+      "section": "West",
+      "appleMapsID": "I1652BA6DD14B569D"
     },
     {
       "id": "guide:mlb-ballparks/petco-park",
@@ -536,11 +574,12 @@
       "address": "100 Park Blvd, San Diego, CA 92101",
       "locality": "East Village",
       "country": "United States",
-      "latitude": 32.7072,
-      "longitude": -117.1569,
+      "latitude": 32.707537,
+      "longitude": -117.157066,
       "wantToGo": true,
       "notes": "The old Western Metal Supply Co. building is built into the left-field corner, with seats on its roof. Gallagher Square, the grassy area beyond the outfield, is a low-cost way to watch a game from the lawn.",
-      "section": "West"
+      "section": "West",
+      "appleMapsID": "I1FDBB048DEC92F03"
     },
     {
       "id": "guide:mlb-ballparks/oracle-park",
@@ -549,11 +588,12 @@
       "address": "24 King St, San Francisco, CA 94107",
       "locality": "South Beach",
       "country": "United States",
-      "latitude": 37.7786,
-      "longitude": -122.3894,
+      "latitude": 37.778456,
+      "longitude": -122.389239,
       "wantToGo": true,
       "notes": "Home runs over the right-field wall land in McCovey Cove, where kayakers wait for splash hits. Get the garlic fries and bring a jacket; night games turn cold off the bay.",
-      "section": "West"
+      "section": "West",
+      "appleMapsID": "I4E4E1F6353362CA4"
     },
     {
       "id": "guide:mlb-ballparks/sutter-health-park",
@@ -562,11 +602,12 @@
       "address": "400 Ballpark Dr, West Sacramento, CA 95691",
       "locality": "West Sacramento",
       "country": "United States",
-      "latitude": 38.5804,
-      "longitude": -121.5134,
+      "latitude": 38.580551,
+      "longitude": -121.513415,
       "wantToGo": true,
       "notes": "The Athletics' temporary home through 2027, before their planned move to Las Vegas, shared with the Triple-A River Cats. The smallest park in the majors, with a lawn berm in the outfield and the gold Tower Bridge a short walk away.",
-      "section": "West"
+      "section": "West",
+      "appleMapsID": "ID5CF9114C99C2939"
     },
     {
       "id": "guide:mlb-ballparks/t-mobile-park",
@@ -575,11 +616,12 @@
       "address": "1250 1st Ave S, Seattle, WA 98134",
       "locality": "SoDo",
       "country": "United States",
-      "latitude": 47.5914,
-      "longitude": -122.3325,
+      "latitude": 47.590953,
+      "longitude": -122.333696,
       "wantToGo": true,
       "notes": "The retractable roof works like an umbrella: it covers the field when it rains but leaves the sides open. The upper concourse looks out over downtown and Elliott Bay.",
-      "section": "West"
+      "section": "West",
+      "appleMapsID": "IE3AB2D668A3F2E8C"
     }
   ]
 }

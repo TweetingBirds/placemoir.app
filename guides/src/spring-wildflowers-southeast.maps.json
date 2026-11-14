@@ -1,0 +1,147 @@
+{
+  "airlie-gardens": {
+    "address": "300 Airlie Rd, Wilmington, NC 28403, United States",
+    "appleMapsID": "ICA26D24BA235C424",
+    "latitude": 34.214988,
+    "longitude": -77.829653,
+    "name": "Airlie Gardens"
+  },
+  "atlanta-botanical-garden": {
+    "address": "1345 Piedmont Ave, Atlanta, GA 30309, United States",
+    "appleMapsID": "IBFEF27FD3846AE92",
+    "latitude": 33.789957,
+    "longitude": -84.372601,
+    "name": "Atlanta Botanical Garden"
+  },
+  "biltmore-estate": {
+    "address": "1 Lodge St, Asheville, NC 28803, United States",
+    "appleMapsID": "IB27C85E500C090E7",
+    "latitude": 35.54072,
+    "longitude": -82.553033,
+    "name": "Biltmore House"
+  },
+  "botanical-gardens-asheville": {
+    "address": "151 W T Weaver Blvd, Asheville, NC 28804, United States",
+    "appleMapsID": "IC6867458E30C60C8",
+    "latitude": 35.613391,
+    "longitude": -82.567892,
+    "name": "Asheville Botanical Garden"
+  },
+  "cheekwood": {
+    "address": "1200 Forrest Park Dr, Nashville, TN 37205, United States",
+    "appleMapsID": "I7682EA729FC900BB",
+    "latitude": 36.087302,
+    "longitude": -86.874646,
+    "name": "Cheekwood Estate & Gardens"
+  },
+  "chestnut-top-trail": {
+    "address": "Chestnut Top Trail, Townsend, TN 37882, United States",
+    "latitude": 35.654728,
+    "longitude": -83.724213,
+    "name": "Chestnut Top Trail"
+  },
+  "deep-creek-trail": {
+    "address": "Deep Creek Trail, Bryson City, NC 28713, United States",
+    "latitude": 35.472481,
+    "longitude": -83.428635,
+    "name": "Deep Creek Trail"
+  },
+  "frozen-head-state-park": {
+    "address": "964 Flat Fork Rd, Wartburg, TN 37887, United States",
+    "appleMapsID": "IE50166F14D855A18",
+    "latitude": 36.124888,
+    "longitude": -84.504302,
+    "name": "Frozen Head State Park"
+  },
+  "gibbs-gardens": {
+    "address": "1987 Gibbs Dr, Ball Ground, GA 30107, United States",
+    "appleMapsID": "IB5B7893F7D37A3F9",
+    "latitude": 34.378944,
+    "longitude": -84.280701,
+    "name": "Gibbs Gardens"
+  },
+  "leconte-lodge": {
+    "address": "250 Apple Valley Rd, Sevierville, TN 37862, United States",
+    "appleMapsID": "I2F2711F804FE78AE",
+    "latitude": 35.654887,
+    "longitude": -83.441059,
+    "name": "LeConte Lodge"
+  },
+  "little-river-trail-elkmont": {
+    "address": "Little River Trail, Gatlinburg, TN 37738, United States",
+    "appleMapsID": "I3FC1D5D9714E68CF",
+    "latitude": 35.653596,
+    "longitude": -83.580085,
+    "name": "Little River Trail Trailhead"
+  },
+  "middleton-place": {
+    "address": "4300 Ashley River Rd, Charleston, SC 29414, United States",
+    "appleMapsID": "IDD61BFFC286C66A7",
+    "latitude": 32.899741,
+    "longitude": -80.136541,
+    "name": "Middleton Place"
+  },
+  "nc-arboretum": {
+    "address": "20 Fredrick Law Olmsted Way, Asheville, NC 28806, United States",
+    "appleMapsID": "IA4AAAC6FAF9BD29B",
+    "latitude": 35.496753,
+    "longitude": -82.606759,
+    "name": "The North Carolina Arboretum"
+  },
+  "omni-grove-park-inn": {
+    "address": "290 Macon Ave, Asheville, NC 28804, United States",
+    "appleMapsID": "I7298D5F03006FF9A",
+    "latitude": 35.620638,
+    "longitude": -82.542298,
+    "name": "The Omni Grove Park Inn & Spa"
+  },
+  "panola-mountain-state-park": {
+    "address": "2620 Highway 155 SW, Stockbridge, GA 30281, United States",
+    "appleMapsID": "I799C4CB10DB103D8",
+    "latitude": 33.634134,
+    "longitude": -84.158749,
+    "name": "Panola Mountain State Park"
+  },
+  "porters-creek-trail": {
+    "address": "Gatlinburg, TN 37738, United States",
+    "appleMapsID": "I73C3F80C5DB6A3CA",
+    "latitude": 35.696772,
+    "longitude": -83.388242,
+    "name": "Porters Creek Trail Trailhead"
+  },
+  "radnor-lake-state-park": {
+    "address": "1160 Otter Creek Rd, Nashville, TN 37220, United States",
+    "appleMapsID": "I6BA913C29CA1C9CB",
+    "latitude": 36.063181,
+    "longitude": -86.809593,
+    "name": "Radnor Lake State Park"
+  },
+  "reflection-riding": {
+    "address": "400 Garden Rd, Chattanooga, TN 37419, United States",
+    "appleMapsID": "ID83FF7BEC4B3CBD1",
+    "latitude": 35.010055,
+    "longitude": -85.364743,
+    "name": "Reflection Riding Arboretum & Nature Center"
+  },
+  "sarah-p-duke-gardens": {
+    "address": "420 Anderson St, Durham, NC 27705, United States",
+    "appleMapsID": "I6636308705C94121",
+    "latitude": 36.002009,
+    "longitude": -78.933345,
+    "name": "Sarah P. Duke Gardens"
+  },
+  "state-botanical-garden-georgia": {
+    "address": "2450 S Milledge Ave, Athens, GA 30605, United States",
+    "appleMapsID": "IDEB1AED5FF56C25E",
+    "latitude": 33.901262,
+    "longitude": -83.383523,
+    "name": "State Botanical Garden of Georgia"
+  },
+  "sugarlands-visitor-center": {
+    "address": "1420 Fighting Creek Gap Rd, Gatlinburg, TN 37738, United States",
+    "appleMapsID": "ID62E8ADC6DD0041E",
+    "latitude": 35.685654,
+    "longitude": -83.536631,
+    "name": "Sugarlands Visitor Center"
+  }
+}

@@ -33,11 +33,12 @@
       "address": "E Adams St & S Michigan Ave, Chicago, IL 60603",
       "locality": "The Loop",
       "country": "United States",
-      "latitude": 41.8794,
-      "longitude": -87.6245,
+      "latitude": 41.879683,
+      "longitude": -87.624705,
       "wantToGo": true,
       "notes": "The road starts on Adams Street across from the Art Institute, where a brown Begin sign marks mile zero. Westbound traffic leaves on Adams; the matching End sign is a block south on Jackson.",
-      "section": "Day 1 · Chicago to Springfield, Illinois · 200 mi"
+      "section": "Day 1 · Chicago to Springfield, Illinois · 200 mi",
+      "appleMapsID": "I85DB824D56A7E592"
     },
     {
       "id": "guide:route-66/lou-mitchells",
@@ -46,11 +47,12 @@
       "address": "565 W Jackson Blvd, Chicago, IL 60661",
       "locality": "West Loop",
       "country": "United States",
-      "latitude": 41.8778,
-      "longitude": -87.6421,
+      "latitude": 41.877895,
+      "longitude": -87.642136,
       "wantToGo": true,
       "notes": "A diner since 1923, a few blocks from the start of the road. Big omelets, double-yolk eggs and a free donut hole while you wait in line.",
-      "section": "Day 1 · Chicago to Springfield, Illinois · 200 mi"
+      "section": "Day 1 · Chicago to Springfield, Illinois · 200 mi",
+      "appleMapsID": "IBD8D7A632F3A579B"
     },
     {
       "id": "guide:route-66/dell-rheas-chicken-basket",
@@ -59,11 +61,12 @@
       "address": "645 Joliet Rd, Willowbrook, IL 60527",
       "locality": "Willowbrook",
       "country": "United States",
-      "latitude": 41.7456,
-      "longitude": -87.9392,
+      "latitude": 41.745565,
+      "longitude": -87.939235,
       "wantToGo": true,
       "notes": "A roadhouse serving fried chicken on this stretch of old 66 since the 1940s, now listed on the National Register of Historic Places.",
-      "section": "Day 1 · Chicago to Springfield, Illinois · 200 mi"
+      "section": "Day 1 · Chicago to Springfield, Illinois · 200 mi",
+      "appleMapsID": "IB454B51CEC5D9EAF"
     },
     {
       "id": "guide:route-66/launching-pad-gemini-giant",
@@ -85,11 +88,12 @@
       "address": "222 N Front St, Braidwood, IL 60408",
       "locality": "Braidwood",
       "country": "United States",
-      "latitude": 41.2653,
-      "longitude": -88.21,
+      "latitude": 41.265238,
+      "longitude": -88.209965,
       "wantToGo": true,
       "notes": "A 1950s burger stand with fiberglass statues of Elvis, Marilyn Monroe and the Blues Brothers out front. Order a malt and pose for the photo.",
-      "section": "Day 1 · Chicago to Springfield, Illinois · 200 mi"
+      "section": "Day 1 · Chicago to Springfield, Illinois · 200 mi",
+      "appleMapsID": "IEDDB3B431CB24B1B"
     },
     {
       "id": "guide:route-66/illinois-route-66-hall-of-fame-museum",
@@ -98,11 +102,12 @@
       "address": "110 W Howard St, Pontiac, IL 61764",
       "locality": "Pontiac",
       "country": "United States",
-      "latitude": 40.8809,
-      "longitude": -88.629,
+      "latitude": 40.881032,
+      "longitude": -88.628987,
       "wantToGo": true,
       "notes": "A free museum in Pontiac's old firehouse, with road artist Bob Waldmire's converted school bus and VW van parked out back. Look for the murals around the courthouse square.",
-      "section": "Day 1 · Chicago to Springfield, Illinois · 200 mi"
+      "section": "Day 1 · Chicago to Springfield, Illinois · 200 mi",
+      "appleMapsID": "I23D78BF7F4988683"
     },
     {
       "id": "guide:route-66/funks-grove-pure-maple-sirup",
@@ -111,11 +116,12 @@
       "address": "5257 Old Route 66, Shirley, IL 61772",
       "locality": "Funks Grove",
       "country": "United States",
-      "latitude": 40.3565,
-      "longitude": -89.1176,
+      "latitude": 40.356463,
+      "longitude": -89.117607,
       "wantToGo": true,
       "notes": "A family that has tapped these maples since the 1800s and spells it sirup the old way. The shop keeps limited, seasonal hours, so check before you count on it.",
-      "section": "Day 1 · Chicago to Springfield, Illinois · 200 mi"
+      "section": "Day 1 · Chicago to Springfield, Illinois · 200 mi",
+      "appleMapsID": "I5459833331546CD7"
     },
     {
       "id": "guide:route-66/cozy-dog-drive-in",
@@ -124,11 +130,12 @@
       "address": "2935 S 6th St, Springfield, IL 62703",
       "locality": "Springfield",
       "country": "United States",
-      "latitude": 39.7624,
-      "longitude": -89.6488,
+      "latitude": 39.762401,
+      "longitude": -89.648902,
       "wantToGo": true,
       "notes": "The family that claims the corn dog on a stick still runs this Springfield counter. The walls are covered with Route 66 memorabilia.",
-      "section": "Day 1 · Chicago to Springfield, Illinois · 200 mi"
+      "section": "Day 1 · Chicago to Springfield, Illinois · 200 mi",
+      "appleMapsID": "I3CB536C055B73403"
     },
     {
       "id": "guide:route-66/lincoln-home-national-historic-site",
@@ -137,11 +144,12 @@
       "address": "426 S. 7th Street, Springfield, IL 62701",
       "locality": "Springfield",
       "country": "United States",
-      "latitude": 39.7976,
-      "longitude": -89.6451,
+      "latitude": 39.79752,
+      "longitude": -89.646203,
       "wantToGo": true,
       "notes": "The only house Abraham Lincoln ever owned, set in four restored blocks of his old neighborhood. Free ranger-led tours start at the visitor center.",
-      "section": "Day 1 · Chicago to Springfield, Illinois · 200 mi"
+      "section": "Day 1 · Chicago to Springfield, Illinois · 200 mi",
+      "appleMapsID": "IF8CC3FDA9BD1BE09"
     },
     {
       "id": "guide:route-66/ariston-cafe",
@@ -150,11 +158,12 @@
       "address": "413 Old Route 66 N, Litchfield, IL 62056",
       "locality": "Litchfield",
       "country": "United States",
-      "latitude": 39.1775,
-      "longitude": -89.667,
+      "latitude": 39.177566,
+      "longitude": -89.667009,
       "wantToGo": true,
       "notes": "A dining room in a 1935 brick building that has served travelers on the road since the 1920s. Good for a sit-down lunch between Springfield and St. Louis.",
-      "section": "Day 2 · Springfield, Illinois to Cuba, Missouri · 180 mi"
+      "section": "Day 2 · Springfield, Illinois to Cuba, Missouri · 180 mi",
+      "appleMapsID": "IECC31BA6D782E641"
     },
     {
       "id": "guide:route-66/old-chain-of-rocks-bridge",
@@ -163,11 +172,12 @@
       "address": "Chain of Rocks Rd, Granite City, IL 62040",
       "locality": "Mississippi River",
       "country": "United States",
-      "latitude": 38.7616,
-      "longitude": -90.1777,
+      "latitude": 38.760542,
+      "longitude": -90.176404,
       "wantToGo": true,
       "notes": "A mile-long former Route 66 bridge over the Mississippi, with a 22-degree bend in the middle, now open only to walkers and cyclists. Park on the Illinois side.",
-      "section": "Day 2 · Springfield, Illinois to Cuba, Missouri · 180 mi"
+      "section": "Day 2 · Springfield, Illinois to Cuba, Missouri · 180 mi",
+      "appleMapsID": "IDC18EBCFD4DB6391"
     },
     {
       "id": "guide:route-66/gateway-arch-national-park",
@@ -176,11 +186,12 @@
       "address": "11 N 4th St, St. Louis, MO 63102",
       "locality": "St. Louis",
       "country": "United States",
-      "latitude": 38.6245,
-      "longitude": -90.1857,
+      "latitude": 38.624708,
+      "longitude": -90.185301,
       "wantToGo": true,
       "notes": "The 630-foot stainless steel arch on the riverfront, with a museum underneath and small tram pods to the top. Book tram times ahead on the official site.",
-      "section": "Day 2 · Springfield, Illinois to Cuba, Missouri · 180 mi"
+      "section": "Day 2 · Springfield, Illinois to Cuba, Missouri · 180 mi",
+      "appleMapsID": "ID907BB80A6283775"
     },
     {
       "id": "guide:route-66/ted-drewes-frozen-custard",
@@ -189,11 +200,12 @@
       "address": "6726 Chippewa St, St. Louis, MO 63109",
       "locality": "St. Louis",
       "country": "United States",
-      "latitude": 38.5894,
-      "longitude": -90.3076,
+      "latitude": 38.589391,
+      "longitude": -90.307618,
       "wantToGo": true,
       "notes": "A walk-up custard stand on Chippewa Street, an old 66 alignment, since 1941. Order a concrete, so thick it is handed over upside down. Closed for part of the winter.",
-      "section": "Day 2 · Springfield, Illinois to Cuba, Missouri · 180 mi"
+      "section": "Day 2 · Springfield, Illinois to Cuba, Missouri · 180 mi",
+      "appleMapsID": "IF8D48D1F38CF7916"
     },
     {
       "id": "guide:route-66/meramec-caverns",
@@ -202,11 +214,12 @@
       "address": "1135 Highway W, Sullivan MO US 63080",
       "locality": "Stanton",
       "country": "United States",
-      "latitude": 38.2411,
-      "longitude": -91.0922,
+      "latitude": 38.241033,
+      "longitude": -91.092018,
       "wantToGo": true,
       "notes": "The cave that painted its name on barn roofs all along the road. Guided tours walk through large lit chambers along the Meramec River.",
-      "section": "Day 2 · Springfield, Illinois to Cuba, Missouri · 180 mi"
+      "section": "Day 2 · Springfield, Illinois to Cuba, Missouri · 180 mi",
+      "appleMapsID": "IF82423637B2E0A70"
     },
     {
       "id": "guide:route-66/wagon-wheel-motel",
@@ -215,11 +228,12 @@
       "address": "901 E Washington St, Cuba, MO 65453",
       "locality": "Cuba",
       "country": "United States",
-      "latitude": 38.0651,
-      "longitude": -91.3963,
+      "latitude": 38.064712,
+      "longitude": -91.396117,
       "wantToGo": true,
       "notes": "Stone cottages from the 1930s, restored with modern rooms and a working neon sign. Cuba's downtown murals are a short walk away.",
-      "section": "Day 2 · Springfield, Illinois to Cuba, Missouri · 180 mi"
+      "section": "Day 2 · Springfield, Illinois to Cuba, Missouri · 180 mi",
+      "appleMapsID": "I8E1E9289B7D70D77"
     },
     {
       "id": "guide:route-66/missouri-hick-bar-b-que",
@@ -228,11 +242,12 @@
       "address": "913 E Washington St, Cuba, MO 65453",
       "locality": "Cuba",
       "country": "United States",
-      "latitude": 38.0648,
-      "longitude": -91.3945,
+      "latitude": 38.064677,
+      "longitude": -91.395038,
       "wantToGo": true,
       "notes": "Barbecue smoked over hickory in a big log building next door to the Wagon Wheel. Easy dinner without moving the car.",
-      "section": "Day 2 · Springfield, Illinois to Cuba, Missouri · 180 mi"
+      "section": "Day 2 · Springfield, Illinois to Cuba, Missouri · 180 mi",
+      "appleMapsID": "IBD1C0B381E528F54"
     },
     {
       "id": "guide:route-66/devils-elbow-bridge",
@@ -254,11 +269,12 @@
       "address": "17231 Old 66 Blvd, Carthage, MO 64836",
       "locality": "Carthage",
       "country": "United States",
-      "latitude": 37.1742,
-      "longitude": -94.3689,
+      "latitude": 37.174188,
+      "longitude": -94.369057,
       "wantToGo": true,
       "notes": "A 1949 drive-in movie screen still showing films on the old highway west of Carthage. It runs from spring to fall only; check the schedule.",
-      "section": "Day 3 · Cuba, Missouri to Tulsa, Oklahoma · 290 mi"
+      "section": "Day 3 · Cuba, Missouri to Tulsa, Oklahoma · 290 mi",
+      "appleMapsID": "I88E4F68D1DCF7254"
     },
     {
       "id": "guide:route-66/cars-on-the-route",
@@ -267,11 +283,12 @@
       "address": "119 N Main St, Galena, KS 66739",
       "locality": "Galena",
       "country": "United States",
-      "latitude": 37.0804,
-      "longitude": -94.6389,
+      "latitude": 37.080359,
+      "longitude": -94.638927,
       "wantToGo": true,
       "notes": "A restored 1930s Kan-O-Tex service station on Kansas's short stretch of 66. The rusty tow truck out front helped inspire Mater in Cars.",
-      "section": "Day 3 · Cuba, Missouri to Tulsa, Oklahoma · 290 mi"
+      "section": "Day 3 · Cuba, Missouri to Tulsa, Oklahoma · 290 mi",
+      "appleMapsID": "I5924346B8A083040"
     },
     {
       "id": "guide:route-66/rainbow-bridge-riverton",
@@ -293,11 +310,12 @@
       "address": "103 N Main St, Miami, OK 74354",
       "locality": "Miami",
       "country": "United States",
-      "latitude": 36.8765,
-      "longitude": -94.8779,
+      "latitude": 36.876513,
+      "longitude": -94.877888,
       "wantToGo": true,
       "notes": "A 1929 Spanish Revival vaudeville house on Main Street with its original theater organ. Volunteers lead tours on most days; check the theater's site.",
-      "section": "Day 3 · Cuba, Missouri to Tulsa, Oklahoma · 290 mi"
+      "section": "Day 3 · Cuba, Missouri to Tulsa, Oklahoma · 290 mi",
+      "appleMapsID": "IFFD5D98E4D112FA4"
     },
     {
       "id": "guide:route-66/blue-whale-of-catoosa",
@@ -306,11 +324,12 @@
       "address": "2680 N Highway 66, Catoosa, OK 74015",
       "locality": "Catoosa",
       "country": "United States",
-      "latitude": 36.1938,
-      "longitude": -95.7329,
+      "latitude": 36.19378,
+      "longitude": -95.73293,
       "wantToGo": true,
       "notes": "A grinning 80-foot concrete whale built in the early 1970s as an anniversary gift, sitting in a spring-fed pond. A free photo stop.",
-      "section": "Day 3 · Cuba, Missouri to Tulsa, Oklahoma · 290 mi"
+      "section": "Day 3 · Cuba, Missouri to Tulsa, Oklahoma · 290 mi",
+      "appleMapsID": "ID9ABF0AE10E20F42"
     },
     {
       "id": "guide:route-66/cyrus-avery-centennial-plaza",
@@ -319,11 +338,12 @@
       "address": "1324 Southwest Blvd, Tulsa, OK 74119",
       "locality": "Tulsa",
       "country": "United States",
-      "latitude": 36.1428,
-      "longitude": -96.0049,
+      "latitude": 36.144382,
+      "longitude": -96.003003,
       "wantToGo": true,
       "notes": "A plaza at the old 11th Street bridge honoring Tulsa's Cyrus Avery, who helped create Route 66, with a large bronze of a family car meeting a horse-drawn wagon.",
-      "section": "Day 3 · Cuba, Missouri to Tulsa, Oklahoma · 290 mi"
+      "section": "Day 3 · Cuba, Missouri to Tulsa, Oklahoma · 290 mi",
+      "appleMapsID": "I5975D07F0A32B4D0"
     },
     {
       "id": "guide:route-66/campbell-hotel",
@@ -332,11 +352,12 @@
       "address": "2636 E 11th St, Tulsa, OK 74104",
       "locality": "Tulsa",
       "country": "United States",
-      "latitude": 36.1476,
-      "longitude": -95.9521,
+      "latitude": 36.147625,
+      "longitude": -95.952016,
       "wantToGo": true,
       "notes": "A 1927 building on 11th Street, Tulsa's stretch of Route 66, restored as a boutique hotel with individually themed rooms.",
-      "section": "Day 3 · Cuba, Missouri to Tulsa, Oklahoma · 290 mi"
+      "section": "Day 3 · Cuba, Missouri to Tulsa, Oklahoma · 290 mi",
+      "appleMapsID": "I5F58E646B1B47637"
     },
     {
       "id": "guide:route-66/tallys-good-food-cafe",
@@ -345,11 +366,12 @@
       "address": "1102 S Yale Ave, Tulsa, OK 74112",
       "locality": "Tulsa",
       "country": "United States",
-      "latitude": 36.1489,
-      "longitude": -95.9218,
+      "latitude": 36.147562,
+      "longitude": -95.922817,
       "wantToGo": true,
       "notes": "A neon-lit diner on 11th Street with chicken-fried steak, cinnamon rolls the size of a plate and breakfast all day.",
-      "section": "Day 3 · Cuba, Missouri to Tulsa, Oklahoma · 290 mi"
+      "section": "Day 3 · Cuba, Missouri to Tulsa, Oklahoma · 290 mi",
+      "appleMapsID": "I8200DC700B0853DA"
     },
     {
       "id": "guide:route-66/rock-cafe-stroud",
@@ -358,11 +380,12 @@
       "address": "114 W Main St, Stroud, OK 74079",
       "locality": "Stroud",
       "country": "United States",
-      "latitude": 35.7488,
-      "longitude": -96.6544,
+      "latitude": 35.748811,
+      "longitude": -96.654457,
       "wantToGo": true,
       "notes": "A 1939 cafe built from sandstone dug up during road construction. Order a burger or the chicken-fried steak at the counter.",
-      "section": "Day 4 · Tulsa to Elk City, Oklahoma · 210 mi"
+      "section": "Day 4 · Tulsa to Elk City, Oklahoma · 210 mi",
+      "appleMapsID": "I7BEC7BACF2CB1FF8"
     },
     {
       "id": "guide:route-66/arcadia-round-barn",
@@ -371,11 +394,12 @@
       "address": "107 Highway 66, Arcadia, OK 73007",
       "locality": "Arcadia",
       "country": "United States",
-      "latitude": 35.6624,
-      "longitude": -97.326,
+      "latitude": 35.662334,
+      "longitude": -97.325959,
       "wantToGo": true,
       "notes": "A big round red barn from 1898, restored by local volunteers, with a small museum downstairs and a dance loft upstairs.",
-      "section": "Day 4 · Tulsa to Elk City, Oklahoma · 210 mi"
+      "section": "Day 4 · Tulsa to Elk City, Oklahoma · 210 mi",
+      "appleMapsID": "IDE671A55CCF7DDE2"
     },
     {
       "id": "guide:route-66/pops-66",
@@ -384,11 +408,12 @@
       "address": "660 W Highway 66, Arcadia, OK 73007",
       "locality": "Arcadia",
       "country": "United States",
-      "latitude": 35.6581,
-      "longitude": -97.3355,
+      "latitude": 35.658098,
+      "longitude": -97.335504,
       "wantToGo": true,
       "notes": "A modern gas station and diner under a 66-foot steel soda bottle that lights up at night. Inside, coolers hold hundreds of different sodas.",
-      "section": "Day 4 · Tulsa to Elk City, Oklahoma · 210 mi"
+      "section": "Day 4 · Tulsa to Elk City, Oklahoma · 210 mi",
+      "appleMapsID": "I5855A7B645F7B294"
     },
     {
       "id": "guide:route-66/lucilles-service-station",
@@ -397,11 +422,12 @@
       "address": "Route 66, Hydro, OK 73048",
       "locality": "Hydro",
       "country": "United States",
-      "latitude": 35.537,
-      "longitude": -98.5885,
+      "latitude": 35.537008,
+      "longitude": -98.588384,
       "wantToGo": true,
       "notes": "A 1929 two-story gas station where Lucille Hamons sold gas and kindness to travelers for decades. Now preserved as a roadside stop on the old road.",
-      "section": "Day 4 · Tulsa to Elk City, Oklahoma · 210 mi"
+      "section": "Day 4 · Tulsa to Elk City, Oklahoma · 210 mi",
+      "appleMapsID": "I4BC3F22C00959049"
     },
     {
       "id": "guide:route-66/oklahoma-route-66-museum",
@@ -410,11 +436,12 @@
       "address": "2229 W Gary Blvd, Clinton, OK 73601",
       "locality": "Clinton",
       "country": "United States",
-      "latitude": 35.5065,
-      "longitude": -98.9869,
+      "latitude": 35.506595,
+      "longitude": -98.986941,
       "wantToGo": true,
       "notes": "A state-run museum with rooms that walk through the road decade by decade, from the Dust Bowl exodus to the neon motel era. Plan an hour or more.",
-      "section": "Day 4 · Tulsa to Elk City, Oklahoma · 210 mi"
+      "section": "Day 4 · Tulsa to Elk City, Oklahoma · 210 mi",
+      "appleMapsID": "I6182A08E478D12AD"
     },
     {
       "id": "guide:route-66/national-route-66-transportation-museum",
@@ -423,11 +450,12 @@
       "address": "2717 W 3rd St, Elk City, OK 73644",
       "locality": "Elk City",
       "country": "United States",
-      "latitude": 35.4117,
-      "longitude": -99.438,
+      "latitude": 35.412363,
+      "longitude": -99.436929,
       "wantToGo": true,
       "notes": "A museum complex with a re-created old town, a farm and transportation museum, and a giant Route 66 sign for photos.",
-      "section": "Day 4 · Tulsa to Elk City, Oklahoma · 210 mi"
+      "section": "Day 4 · Tulsa to Elk City, Oklahoma · 210 mi",
+      "appleMapsID": "IC763B5FFB39AD869"
     },
     {
       "id": "guide:route-66/u-drop-inn",
@@ -436,11 +464,12 @@
       "address": "105 E 12th St, Shamrock, TX 79079",
       "locality": "Shamrock",
       "country": "United States",
-      "latitude": 35.2267,
-      "longitude": -100.2487,
+      "latitude": 35.226689,
+      "longitude": -100.248868,
       "wantToGo": true,
       "notes": "A 1936 Art Deco gas station and cafe, now the town visitor center. Come back after dark when the green and pink neon is on.",
-      "section": "Day 5 · Elk City to Tucumcari, New Mexico · 260 mi"
+      "section": "Day 5 · Elk City to Tucumcari, New Mexico · 260 mi",
+      "appleMapsID": "I9E126FBC724F18ED"
     },
     {
       "id": "guide:route-66/big-texan-steak-ranch",
@@ -449,11 +478,12 @@
       "address": "7701 Interstate 40 East Access Rd, Amarillo, TX 79118",
       "locality": "Amarillo",
       "country": "United States",
-      "latitude": 35.1938,
-      "longitude": -101.755,
+      "latitude": 35.193538,
+      "longitude": -101.755053,
       "wantToGo": true,
       "notes": "The home of the 72-ounce steak challenge, with a motel and brewery on the same lot. Loud and kitschy, and that is the point.",
-      "section": "Day 5 · Elk City to Tucumcari, New Mexico · 260 mi"
+      "section": "Day 5 · Elk City to Tucumcari, New Mexico · 260 mi",
+      "appleMapsID": "I7955D798E8A5ACB"
     },
     {
       "id": "guide:route-66/cadillac-ranch",
@@ -462,11 +492,12 @@
       "address": "13651 I-40 Frontage Rd, Amarillo, TX 79124",
       "locality": "Amarillo",
       "country": "United States",
-      "latitude": 35.1872,
-      "longitude": -101.9871,
+      "latitude": 35.187247,
+      "longitude": -101.987109,
       "wantToGo": true,
       "notes": "Ten Cadillacs buried nose-down in a field west of Amarillo by the Ant Farm art collective in 1974. Bring spray paint; everyone adds a layer.",
-      "section": "Day 5 · Elk City to Tucumcari, New Mexico · 260 mi"
+      "section": "Day 5 · Elk City to Tucumcari, New Mexico · 260 mi",
+      "appleMapsID": "I3BA41DA5E967F3C5"
     },
     {
       "id": "guide:route-66/route-66-midpoint",
@@ -475,11 +506,12 @@
       "address": "357 IH-40 BL, Adrian, TX 79001",
       "locality": "Adrian",
       "country": "United States",
-      "latitude": 35.2707,
-      "longitude": -102.6729,
+      "latitude": 35.271117,
+      "longitude": -102.672864,
       "wantToGo": true,
       "notes": "A sign in tiny Adrian marks the halfway point: 1,139 miles to Chicago and 1,139 to Los Angeles.",
-      "section": "Day 5 · Elk City to Tucumcari, New Mexico · 260 mi"
+      "section": "Day 5 · Elk City to Tucumcari, New Mexico · 260 mi",
+      "appleMapsID": "I383585DDA83BA0F6"
     },
     {
       "id": "guide:route-66/blue-swallow-motel",
@@ -488,11 +520,12 @@
       "address": "815 E Route 66 Blvd, Tucumcari, NM 88401",
       "locality": "Tucumcari",
       "country": "United States",
-      "latitude": 35.172,
-      "longitude": -103.7164,
+      "latitude": 35.17203,
+      "longitude": -103.716407,
       "wantToGo": true,
       "notes": "A 1939 motor court with a garage beside each room and one of the best neon signs on the road. Book ahead in summer.",
-      "section": "Day 5 · Elk City to Tucumcari, New Mexico · 260 mi"
+      "section": "Day 5 · Elk City to Tucumcari, New Mexico · 260 mi",
+      "appleMapsID": "I3FBA2B7830BE3D10"
     },
     {
       "id": "guide:route-66/motel-safari",
@@ -501,11 +534,12 @@
       "address": "722 E Route 66 Blvd, Tucumcari, NM 88401",
       "locality": "Tucumcari",
       "country": "United States",
-      "latitude": 35.1714,
-      "longitude": -103.7178,
+      "latitude": 35.171581,
+      "longitude": -103.717439,
       "wantToGo": true,
       "notes": "A 1959 motel restored with clean mid-century rooms and a camel on the sign. A good second choice if the Blue Swallow is full.",
-      "section": "Day 5 · Elk City to Tucumcari, New Mexico · 260 mi"
+      "section": "Day 5 · Elk City to Tucumcari, New Mexico · 260 mi",
+      "appleMapsID": "I29823F1FBD733650"
     },
     {
       "id": "guide:route-66/tee-pee-curios",
@@ -514,11 +548,12 @@
       "address": "924 E Route 66 Blvd, Tucumcari, NM 88401",
       "locality": "Tucumcari",
       "country": "United States",
-      "latitude": 35.1716,
-      "longitude": -103.7148,
+      "latitude": 35.171535,
+      "longitude": -103.714872,
       "wantToGo": true,
       "notes": "A 1940s gift shop with a concrete tepee entrance and a neon sign that lights the street at night.",
-      "section": "Day 5 · Elk City to Tucumcari, New Mexico · 260 mi"
+      "section": "Day 5 · Elk City to Tucumcari, New Mexico · 260 mi",
+      "appleMapsID": "IA5C00449B5515D08"
     },
     {
       "id": "guide:route-66/dels-restaurant",
@@ -527,11 +562,12 @@
       "address": "1202 E Tucumcari Blvd, Tucumcari, NM 88401",
       "locality": "Tucumcari",
       "country": "United States",
-      "latitude": 35.1715,
-      "longitude": -103.7119,
+      "latitude": 35.171553,
+      "longitude": -103.711886,
       "wantToGo": true,
       "notes": "A family restaurant under a neon cow sign, serving New Mexican plates with red or green chile since 1956.",
-      "section": "Day 5 · Elk City to Tucumcari, New Mexico · 260 mi"
+      "section": "Day 5 · Elk City to Tucumcari, New Mexico · 260 mi",
+      "appleMapsID": "ID8113A9E81E63D80"
     },
     {
       "id": "guide:route-66/blue-hole-santa-rosa",
@@ -540,11 +576,12 @@
       "address": "1085 Blue Hole Rd, Santa Rosa, NM 88435",
       "locality": "Santa Rosa",
       "country": "United States",
-      "latitude": 34.9405,
-      "longitude": -104.6733,
+      "latitude": 34.940167,
+      "longitude": -104.673721,
       "wantToGo": true,
       "notes": "A clear, cold artesian spring about 80 feet deep, popular with scuba divers and for a bracing swim on a hot day.",
-      "section": "Day 6 · Tucumcari to Gallup, New Mexico · 310 mi"
+      "section": "Day 6 · Tucumcari to Gallup, New Mexico · 310 mi",
+      "appleMapsID": "I724D1B6B1E07CCBE"
     },
     {
       "id": "guide:route-66/route-66-auto-museum",
@@ -553,11 +590,12 @@
       "address": "2436 Route 66, Santa Rosa, NM 88435",
       "locality": "Santa Rosa",
       "country": "United States",
-      "latitude": 34.9462,
-      "longitude": -104.6545,
+      "latitude": 34.946242,
+      "longitude": -104.654512,
       "wantToGo": true,
       "notes": "Rows of hot rods, classic cars and road signs in a big shed on the east side of town.",
-      "section": "Day 6 · Tucumcari to Gallup, New Mexico · 310 mi"
+      "section": "Day 6 · Tucumcari to Gallup, New Mexico · 310 mi",
+      "appleMapsID": "I8F7243FF9B82D4C7"
     },
     {
       "id": "guide:route-66/66-diner-albuquerque",
@@ -566,11 +604,12 @@
       "address": "1405 Central Ave NE, Albuquerque, NM 87106",
       "locality": "Albuquerque",
       "country": "United States",
-      "latitude": 35.0822,
-      "longitude": -106.6307,
+      "latitude": 35.08218,
+      "longitude": -106.630689,
       "wantToGo": true,
       "notes": "A 1950s-style diner on Central Avenue, Albuquerque's long stretch of 66, with burgers, green chile and thick shakes.",
-      "section": "Day 6 · Tucumcari to Gallup, New Mexico · 310 mi"
+      "section": "Day 6 · Tucumcari to Gallup, New Mexico · 310 mi",
+      "appleMapsID": "IF8232316CB3B091E"
     },
     {
       "id": "guide:route-66/kimo-theatre",
@@ -579,11 +618,12 @@
       "address": "423 Central Ave NW, Albuquerque, NM 87102",
       "locality": "Albuquerque",
       "country": "United States",
-      "latitude": 35.0848,
-      "longitude": -106.6526,
+      "latitude": 35.084952,
+      "longitude": -106.652519,
       "wantToGo": true,
       "notes": "A 1927 theater in the Pueblo Deco style, with painted ceilings and steer-skull light fixtures. The city runs shows and occasional tours.",
-      "section": "Day 6 · Tucumcari to Gallup, New Mexico · 310 mi"
+      "section": "Day 6 · Tucumcari to Gallup, New Mexico · 310 mi",
+      "appleMapsID": "I7E2744DA0D80737D"
     },
     {
       "id": "guide:route-66/richardsons-trading-post",
@@ -605,11 +645,12 @@
       "address": "1000 E Hwy 66, Gallup, NM 87301",
       "locality": "Gallup",
       "country": "United States",
-      "latitude": 35.5296,
-      "longitude": -108.7281,
+      "latitude": 35.529541,
+      "longitude": -108.728142,
       "wantToGo": true,
       "notes": "A 1937 hotel built for movie crews shooting westerns nearby. Rooms are named for the stars who stayed, and signed photos line the lobby balcony.",
-      "section": "Day 6 · Tucumcari to Gallup, New Mexico · 310 mi"
+      "section": "Day 6 · Tucumcari to Gallup, New Mexico · 310 mi",
+      "appleMapsID": "IAB66477D2FF7EBE7"
     },
     {
       "id": "guide:route-66/petrified-forest-national-park",
@@ -631,11 +672,12 @@
       "address": "811 W Hopi Dr, Holbrook, AZ 86025",
       "locality": "Holbrook",
       "country": "United States",
-      "latitude": 34.9026,
-      "longitude": -110.1688,
+      "latitude": 34.902566,
+      "longitude": -110.16883,
       "wantToGo": true,
       "notes": "Fifteen concrete tepees from 1950, each with a vintage car parked out front. Book directly with the motel.",
-      "section": "Day 7 · Gallup to Flagstaff, Arizona · 190 mi"
+      "section": "Day 7 · Gallup to Flagstaff, Arizona · 190 mi",
+      "appleMapsID": "IF26881BDABEA06AB"
     },
     {
       "id": "guide:route-66/standin-on-the-corner-park",
@@ -644,11 +686,12 @@
       "address": "100 E 2nd St, Winslow, AZ 86047",
       "locality": "Winslow",
       "country": "United States",
-      "latitude": 35.0237,
-      "longitude": -110.6983,
+      "latitude": 35.023711,
+      "longitude": -110.698186,
       "wantToGo": true,
       "notes": "A street corner in Winslow made famous by the Eagles song, with a statue and a mural of a flatbed Ford.",
-      "section": "Day 7 · Gallup to Flagstaff, Arizona · 190 mi"
+      "section": "Day 7 · Gallup to Flagstaff, Arizona · 190 mi",
+      "appleMapsID": "IF2B9489675BCAA5A"
     },
     {
       "id": "guide:route-66/la-posada-hotel",
@@ -657,11 +700,12 @@
       "address": "303 E 2nd St, Winslow, AZ 86047",
       "locality": "Winslow",
       "country": "United States",
-      "latitude": 35.0217,
-      "longitude": -110.6952,
+      "latitude": 35.021296,
+      "longitude": -110.695096,
       "wantToGo": true,
       "notes": "Mary Colter's 1930 railroad hotel, rescued and restored with gardens and art-filled halls. Trains still roll past the back door.",
-      "section": "Day 7 · Gallup to Flagstaff, Arizona · 190 mi"
+      "section": "Day 7 · Gallup to Flagstaff, Arizona · 190 mi",
+      "appleMapsID": "IC586631DD745F7BD"
     },
     {
       "id": "guide:route-66/turquoise-room",
@@ -670,11 +714,12 @@
       "address": "305 E 2nd St, Winslow, AZ 86047",
       "locality": "Winslow",
       "country": "United States",
-      "latitude": 35.0215,
-      "longitude": -110.6947,
+      "latitude": 35.021308,
+      "longitude": -110.695016,
       "wantToGo": true,
       "notes": "The dining room at La Posada, cooking Southwestern food with local lamb and heirloom corn.",
-      "section": "Day 7 · Gallup to Flagstaff, Arizona · 190 mi"
+      "section": "Day 7 · Gallup to Flagstaff, Arizona · 190 mi",
+      "appleMapsID": "IC3702EF29FDF7EA"
     },
     {
       "id": "guide:route-66/meteor-crater",
@@ -683,11 +728,12 @@
       "address": "Interstate 40, Exit 233, Winslow, AZ 86047",
       "locality": "Winslow",
       "country": "United States",
-      "latitude": 35.031,
-      "longitude": -111.0225,
+      "latitude": 35.028027,
+      "longitude": -111.022739,
       "wantToGo": true,
       "notes": "A crater almost a mile wide left by an impact about 50,000 years ago. A visitor center and observation decks sit on the rim, six miles south of the interstate.",
-      "section": "Day 7 · Gallup to Flagstaff, Arizona · 190 mi"
+      "section": "Day 7 · Gallup to Flagstaff, Arizona · 190 mi",
+      "appleMapsID": "I13324610B3A8124"
     },
     {
       "id": "guide:route-66/lowell-observatory",
@@ -696,11 +742,12 @@
       "address": "1400 W Mars Hill Rd, Flagstaff, AZ 86001",
       "locality": "Flagstaff",
       "country": "United States",
-      "latitude": 35.2017,
-      "longitude": -111.6653,
+      "latitude": 35.20259,
+      "longitude": -111.666647,
       "wantToGo": true,
       "notes": "The observatory on Mars Hill where Pluto was found in 1930. Come at night for telescope viewing under Flagstaff's dark skies.",
-      "section": "Day 7 · Gallup to Flagstaff, Arizona · 190 mi"
+      "section": "Day 7 · Gallup to Flagstaff, Arizona · 190 mi",
+      "appleMapsID": "ID3080EA6CCA9F6D9"
     },
     {
       "id": "guide:route-66/hotel-monte-vista",
@@ -709,11 +756,12 @@
       "address": "100 N San Francisco St, Flagstaff, AZ 86001",
       "locality": "Flagstaff",
       "country": "United States",
-      "latitude": 35.1983,
-      "longitude": -111.6474,
+      "latitude": 35.198239,
+      "longitude": -111.647394,
       "wantToGo": true,
       "notes": "A 1927 downtown hotel with a long list of movie-star guests and ghost stories. A block from the old 66 and the railroad.",
-      "section": "Day 7 · Gallup to Flagstaff, Arizona · 190 mi"
+      "section": "Day 7 · Gallup to Flagstaff, Arizona · 190 mi",
+      "appleMapsID": "I63D98CA84C89783A"
     },
     {
       "id": "guide:route-66/grand-canyon-railway-depot",
@@ -722,11 +770,12 @@
       "address": "233 N Grand Canyon Blvd, Williams, AZ 86046",
       "locality": "Williams",
       "country": "United States",
-      "latitude": 35.2513,
-      "longitude": -112.1911,
+      "latitude": 35.251421,
+      "longitude": -112.191292,
       "wantToGo": true,
       "notes": "The 1908 depot where trains leave for the South Rim. Williams was the last Route 66 town bypassed by the interstate, and its main street still has the neon.",
-      "section": "Day 8 · Flagstaff to Barstow, California · 390 mi"
+      "section": "Day 8 · Flagstaff to Barstow, California · 390 mi",
+      "appleMapsID": "I5C5C321F0F53F4AE"
     },
     {
       "id": "guide:route-66/delgadillos-snow-cap",
@@ -735,11 +784,12 @@
       "address": "301 E Chino Ave, Seligman, AZ 86337",
       "locality": "Seligman",
       "country": "United States",
-      "latitude": 35.3256,
-      "longitude": -112.879,
+      "latitude": 35.32607,
+      "longitude": -112.872952,
       "wantToGo": true,
       "notes": "A burger stand opened in 1953 by Juan Delgadillo, known for its pranks: fake mustard bottles and a menu of jokes. The family still runs it.",
-      "section": "Day 8 · Flagstaff to Barstow, California · 390 mi"
+      "section": "Day 8 · Flagstaff to Barstow, California · 390 mi",
+      "appleMapsID": "I4C95A99F395BF52D"
     },
     {
       "id": "guide:route-66/angel-vilma-delgadillos-gift-shop",
@@ -748,11 +798,12 @@
       "address": "22265 W Historic Route 66, Seligman, AZ 86337",
       "locality": "Seligman",
       "country": "United States",
-      "latitude": 35.3258,
-      "longitude": -112.8754,
+      "latitude": 35.326173,
+      "longitude": -112.873578,
       "wantToGo": true,
       "notes": "The former barbershop of Angel Delgadillo, who led the campaign to have the old road named a historic highway. Busy with souvenirs and stories.",
-      "section": "Day 8 · Flagstaff to Barstow, California · 390 mi"
+      "section": "Day 8 · Flagstaff to Barstow, California · 390 mi",
+      "appleMapsID": "I9BA7E04029B5652F"
     },
     {
       "id": "guide:route-66/hackberry-general-store",
@@ -761,11 +812,12 @@
       "address": "11255 E Hwy 66, Hackberry, AZ 86411",
       "locality": "Hackberry",
       "country": "United States",
-      "latitude": 35.3749,
-      "longitude": -113.7227,
+      "latitude": 35.374924,
+      "longitude": -113.72275,
       "wantToGo": true,
       "notes": "A roadside store stacked with old gas pumps, signs and a red Corvette, on the long empty stretch between Peach Springs and Kingman.",
-      "section": "Day 8 · Flagstaff to Barstow, California · 390 mi"
+      "section": "Day 8 · Flagstaff to Barstow, California · 390 mi",
+      "appleMapsID": "I49B21607C5095F3"
     },
     {
       "id": "guide:route-66/arizona-route-66-museum",
@@ -774,11 +826,12 @@
       "address": "120 W Andy Devine Ave, Kingman, AZ 86401",
       "locality": "Kingman",
       "country": "United States",
-      "latitude": 35.1891,
-      "longitude": -114.059,
+      "latitude": 35.189063,
+      "longitude": -114.058814,
       "wantToGo": true,
       "notes": "A museum inside the 1907 Kingman powerhouse, covering the road from wagon trails to the motel era. The visitor center is in the same building.",
-      "section": "Day 8 · Flagstaff to Barstow, California · 390 mi"
+      "section": "Day 8 · Flagstaff to Barstow, California · 390 mi",
+      "appleMapsID": "I867E9E970855ACB2"
     },
     {
       "id": "guide:route-66/mr-dz-route-66-diner",
@@ -787,11 +840,12 @@
       "address": "105 E Andy Devine Ave, Kingman, AZ 86401",
       "locality": "Kingman",
       "country": "United States",
-      "latitude": 35.1893,
-      "longitude": -114.0573,
+      "latitude": 35.18927,
+      "longitude": -114.057278,
       "wantToGo": true,
       "notes": "A turquoise and pink diner across from the powerhouse, serving burgers, root beer and breakfast.",
-      "section": "Day 8 · Flagstaff to Barstow, California · 390 mi"
+      "section": "Day 8 · Flagstaff to Barstow, California · 390 mi",
+      "appleMapsID": "I8F450583174D9437"
     },
     {
       "id": "guide:route-66/oatman-hotel",
@@ -800,11 +854,12 @@
       "address": "181 Main St, Oatman, AZ 86433",
       "locality": "Oatman",
       "country": "United States",
-      "latitude": 35.0264,
-      "longitude": -114.3834,
+      "latitude": 35.026409,
+      "longitude": -114.383407,
       "wantToGo": true,
       "notes": "A 1902 adobe in an old gold-mining town where wild burros wander the street. The bar walls are papered with signed dollar bills. Expect sharp switchbacks over Sitgreaves Pass to get here.",
-      "section": "Day 8 · Flagstaff to Barstow, California · 390 mi"
+      "section": "Day 8 · Flagstaff to Barstow, California · 390 mi",
+      "appleMapsID": "I81BBC1288D9C8B55"
     },
     {
       "id": "guide:route-66/roys-motel-and-cafe",
@@ -813,11 +868,12 @@
       "address": "87520 National Trails Hwy, Amboy, CA 92304",
       "locality": "Amboy",
       "country": "United States",
-      "latitude": 34.5588,
-      "longitude": -115.7436,
+      "latitude": 34.558654,
+      "longitude": -115.744039,
       "wantToGo": true,
       "notes": "A 1959 boomerang sign in the Mojave, at a stop with a small store and gas. Parts of National Trails Highway close for repairs; check San Bernardino County road status.",
-      "section": "Day 8 · Flagstaff to Barstow, California · 390 mi"
+      "section": "Day 8 · Flagstaff to Barstow, California · 390 mi",
+      "appleMapsID": "IE70C4A8F484F9190"
     },
     {
       "id": "guide:route-66/elmers-bottle-tree-ranch",
@@ -826,11 +882,12 @@
       "address": "24266 National Trails Hwy, Oro Grande, CA 92368",
       "locality": "Oro Grande",
       "country": "United States",
-      "latitude": 34.6903,
-      "longitude": -117.3396,
+      "latitude": 34.69033,
+      "longitude": -117.339901,
       "wantToGo": true,
       "notes": "A field of welded metal trees hung with colored glass bottles, built by Elmer Long. Free to wander; stay on the paths.",
-      "section": "Day 9 · Barstow to Santa Monica · 140 mi"
+      "section": "Day 9 · Barstow to Santa Monica · 140 mi",
+      "appleMapsID": "IA267BDA3BA2A91A0"
     },
     {
       "id": "guide:route-66/california-route-66-museum",
@@ -839,11 +896,12 @@
       "address": "16825 D St, Victorville, CA 92395",
       "locality": "Victorville",
       "country": "United States",
-      "latitude": 34.5371,
-      "longitude": -117.2944,
+      "latitude": 34.537183,
+      "longitude": -117.294362,
       "wantToGo": true,
       "notes": "A small volunteer-run museum on old 66 in Victorville with a VW hippie van, signs and road memorabilia.",
-      "section": "Day 9 · Barstow to Santa Monica · 140 mi"
+      "section": "Day 9 · Barstow to Santa Monica · 140 mi",
+      "appleMapsID": "ID3D4A9CCF44B16AD"
     },
     {
       "id": "guide:route-66/wigwam-motel-san-bernardino",
@@ -852,11 +910,12 @@
       "address": "2728 W Foothill Blvd, San Bernardino, CA 92410",
       "locality": "Rialto",
       "country": "United States",
-      "latitude": 34.1072,
-      "longitude": -117.35,
+      "latitude": 34.107025,
+      "longitude": -117.350019,
       "wantToGo": true,
       "notes": "The 1949 California sibling of the Holbrook motel: concrete tepees around a pool on Foothill Boulevard, the old 66.",
-      "section": "Day 9 · Barstow to Santa Monica · 140 mi"
+      "section": "Day 9 · Barstow to Santa Monica · 140 mi",
+      "appleMapsID": "I7DA2CC211DB69346"
     },
     {
       "id": "guide:route-66/fair-oaks-pharmacy",
@@ -865,11 +924,12 @@
       "address": "1526 Mission St, South Pasadena, CA 91030",
       "locality": "South Pasadena",
       "country": "United States",
-      "latitude": 34.116,
-      "longitude": -118.1505,
+      "latitude": 34.116019,
+      "longitude": -118.150561,
       "wantToGo": true,
       "notes": "A 1915 drugstore with a restored soda fountain on the old route through South Pasadena. Phosphates, malts and egg creams at the counter.",
-      "section": "Day 9 · Barstow to Santa Monica · 140 mi"
+      "section": "Day 9 · Barstow to Santa Monica · 140 mi",
+      "appleMapsID": "I7CD1A071792F7F5F"
     },
     {
       "id": "guide:route-66/barneys-beanery",
@@ -878,11 +938,12 @@
       "address": "8447 Santa Monica Blvd, West Hollywood, CA 90069",
       "locality": "West Hollywood",
       "country": "United States",
-      "latitude": 34.0908,
-      "longitude": -118.3747,
+      "latitude": 34.090766,
+      "longitude": -118.37465,
       "wantToGo": true,
       "notes": "A roadhouse on Santa Monica Boulevard, the last leg of Route 66, at this spot since 1927. Chili, pool tables and license plates on the ceiling.",
-      "section": "Day 9 · Barstow to Santa Monica · 140 mi"
+      "section": "Day 9 · Barstow to Santa Monica · 140 mi",
+      "appleMapsID": "IC8AE12CE5C2691D9"
     },
     {
       "id": "guide:route-66/santa-monica-pier-end-of-trail",
@@ -891,11 +952,12 @@
       "address": "200 Santa Monica Pier, Santa Monica, CA 90401",
       "locality": "Santa Monica",
       "country": "United States",
-      "latitude": 34.0089,
-      "longitude": -118.4974,
+      "latitude": 34.008994,
+      "longitude": -118.497484,
       "wantToGo": true,
       "notes": "The end of the road. The Route 66 End of the Trail sign stands on the pier, past the carousel; walk out for the ocean and the Ferris wheel.",
-      "section": "Day 9 · Barstow to Santa Monica · 140 mi"
+      "section": "Day 9 · Barstow to Santa Monica · 140 mi",
+      "appleMapsID": "IBF103B5FC143278C"
     }
   ]
 }

@@ -30,11 +30,12 @@
       "address": "900 E 11th St, Austin, TX 78702",
       "locality": "Austin",
       "country": "United States",
-      "latitude": 30.2701,
-      "longitude": -97.7313,
+      "latitude": 30.270084,
+      "longitude": -97.731279,
       "wantToGo": true,
       "notes": "The brisket that set off the modern Austin barbecue boom. The line forms well before opening and the meat often sells out, so plan the morning around it or look into preorders on the official site.",
-      "section": "Austin · the starting point"
+      "section": "Austin · the starting point",
+      "appleMapsID": "IAA409CDF9D3555A9"
     },
     {
       "id": "guide:texas-hill-country-barbecue/la-barbecue",
@@ -43,11 +44,12 @@
       "address": "2401 E Cesar Chavez St, Austin, TX 78702",
       "locality": "Austin",
       "country": "United States",
-      "latitude": 30.2545,
-      "longitude": -97.7176,
+      "latitude": 30.254485,
+      "longitude": -97.717601,
       "wantToGo": true,
       "notes": "An East Austin pit with roots in the Mueller barbecue family of Taylor. Peppery brisket, pork ribs and house sausage, served until it runs out.",
-      "section": "Austin · the starting point"
+      "section": "Austin · the starting point",
+      "appleMapsID": "ID27477247784E9FB"
     },
     {
       "id": "guide:texas-hill-country-barbecue/leroy-and-lewis",
@@ -56,11 +58,12 @@
       "address": "5621 Emerald Forest Dr, Austin, TX 78745",
       "locality": "Austin",
       "country": "United States",
-      "latitude": 30.2098,
-      "longitude": -97.7873,
+      "latitude": 30.209816,
+      "longitude": -97.787232,
       "wantToGo": true,
       "notes": "South Austin barbecue that treats the sides and the less familiar cuts as seriously as the brisket. Beef cheeks made its name, and the vegetables get real smoke too.",
-      "section": "Austin · the starting point"
+      "section": "Austin · the starting point",
+      "appleMapsID": "IA2F219C92726FC53"
     },
     {
       "id": "guide:texas-hill-country-barbecue/interstellar-bbq",
@@ -69,11 +72,12 @@
       "address": "12233 Ranch Rd 620 N, Suite 105, Austin, TX 78750",
       "locality": "Austin",
       "country": "United States",
-      "latitude": 30.4615,
-      "longitude": -97.8152,
+      "latitude": 30.461461,
+      "longitude": -97.815178,
       "wantToGo": true,
       "notes": "A strip-mall counter in Northwest Austin that turns out some of the most precise barbecue in the state. Convenient on the way out toward Llano or Spicewood.",
-      "section": "Austin · the starting point"
+      "section": "Austin · the starting point",
+      "appleMapsID": "I7948F5B22027B0B4"
     },
     {
       "id": "guide:texas-hill-country-barbecue/louie-mueller-barbecue",
@@ -82,11 +86,12 @@
       "address": "206 W 2nd St, Taylor, TX 76574",
       "locality": "Taylor",
       "country": "United States",
-      "latitude": 30.5688,
-      "longitude": -97.4112,
+      "latitude": 30.5687,
+      "longitude": -97.411118,
       "wantToGo": true,
       "notes": "Run by the same family since the 1940s in a room whose walls have gone dark from decades of smoke. Order at the counter, then take a look at the pits. The big beef rib is the classic order.",
-      "section": "Taylor, Elgin and Lexington · 25 to 55 mi northeast of Austin"
+      "section": "Taylor, Elgin and Lexington · 25 to 55 mi northeast of Austin",
+      "appleMapsID": "I225D7DD3043DD739"
     },
     {
       "id": "guide:texas-hill-country-barbecue/southside-market",
@@ -95,11 +100,12 @@
       "address": "1212 US Highway 290 W, Elgin, TX 78621",
       "locality": "Elgin",
       "country": "United States",
-      "latitude": 30.3496,
-      "longitude": -97.3863,
+      "latitude": 30.349845,
+      "longitude": -97.386128,
       "wantToGo": true,
       "notes": "Elgin has long been called the sausage capital of Texas, and Southside has been making its hot links since 1882. Eat in the big hall or buy links at the meat counter to take home.",
-      "section": "Taylor, Elgin and Lexington · 25 to 55 mi northeast of Austin"
+      "section": "Taylor, Elgin and Lexington · 25 to 55 mi northeast of Austin",
+      "appleMapsID": "I8EB6381AA2B36DE5"
     },
     {
       "id": "guide:texas-hill-country-barbecue/snows-bbq",
@@ -108,11 +114,12 @@
       "address": "516 Main St, Lexington, TX 78947",
       "locality": "Lexington",
       "country": "United States",
-      "latitude": 30.4134,
-      "longitude": -97.0097,
+      "latitude": 30.413345,
+      "longitude": -97.009599,
       "wantToGo": true,
       "notes": "A small-town pit open on Saturday mornings only, famous for its longtime pitmaster Tootsie Tomanetz. Get there early: the line starts at dawn and the meat is often gone by late morning. Check the official site before driving out.",
-      "section": "Taylor, Elgin and Lexington · 25 to 55 mi northeast of Austin"
+      "section": "Taylor, Elgin and Lexington · 25 to 55 mi northeast of Austin",
+      "appleMapsID": "I7893A4DE2C6245D8"
     },
     {
       "id": "guide:texas-hill-country-barbecue/kreuz-market",
@@ -121,11 +128,12 @@
       "address": "619 N Colorado St, Lockhart, TX 78644",
       "locality": "Lockhart",
       "country": "United States",
-      "latitude": 29.8899,
-      "longitude": -97.6719,
+      "latitude": 29.889908,
+      "longitude": -97.671755,
       "wantToGo": true,
       "notes": "A huge barn of a meat market with roots going back to 1900. Order by the pound in the pit room and carry it out on butcher paper. The salt-and-pepper brisket and the house sausage are the classic orders.",
-      "section": "Lockhart · 30 mi south of Austin"
+      "section": "Lockhart · 30 mi south of Austin",
+      "appleMapsID": "I9EFB9399CBB2CB2C"
     },
     {
       "id": "guide:texas-hill-country-barbecue/smittys-market",
@@ -134,11 +142,12 @@
       "address": "208 S Commerce St, Lockhart, TX 78644",
       "locality": "Lockhart",
       "country": "United States",
-      "latitude": 29.8836,
-      "longitude": -97.6709,
+      "latitude": 29.883624,
+      "longitude": -97.670836,
       "wantToGo": true,
       "notes": "The original Kreuz building, where you walk through a smoky back hall past open fire pits to order. Even if you only stop for a sausage ring, come for the room.",
-      "section": "Lockhart · 30 mi south of Austin"
+      "section": "Lockhart · 30 mi south of Austin",
+      "appleMapsID": "IAA7F18F731138101"
     },
     {
       "id": "guide:texas-hill-country-barbecue/blacks-barbecue-lockhart",
@@ -147,11 +156,12 @@
       "address": "215 N Main St, Lockhart, TX 78644",
       "locality": "Lockhart",
       "country": "United States",
-      "latitude": 29.8861,
-      "longitude": -97.6729,
+      "latitude": 29.885964,
+      "longitude": -97.672878,
       "wantToGo": true,
       "notes": "One family has run these pits since 1932. Known for oversized beef ribs and a long cafeteria line of sides. The walls are covered in old photos.",
-      "section": "Lockhart · 30 mi south of Austin"
+      "section": "Lockhart · 30 mi south of Austin",
+      "appleMapsID": "I4DF86F753773293E"
     },
     {
       "id": "guide:texas-hill-country-barbecue/chisholm-trail-bbq",
@@ -160,11 +170,12 @@
       "address": "1323 S Colorado St, Lockhart, TX 78644",
       "locality": "Lockhart",
       "country": "United States",
-      "latitude": 29.8702,
-      "longitude": -97.6692,
+      "latitude": 29.870264,
+      "longitude": -97.669134,
       "wantToGo": true,
       "notes": "The everyday local spot on the south side of town, cafeteria style with plenty of sides. Easier on the wallet and the clock than the famous names.",
-      "section": "Lockhart · 30 mi south of Austin"
+      "section": "Lockhart · 30 mi south of Austin",
+      "appleMapsID": "I4FF5C3875C2D3095"
     },
     {
       "id": "guide:texas-hill-country-barbecue/caldwell-county-courthouse",
@@ -173,11 +184,12 @@
       "address": "110 S Main St, Lockhart, TX 78644",
       "locality": "Lockhart",
       "country": "United States",
-      "latitude": 29.8844,
-      "longitude": -97.6718,
+      "latitude": 29.884356,
+      "longitude": -97.671858,
       "wantToGo": true,
       "notes": "An ornate 1890s courthouse at the center of a square lined with shops, coffee and antiques. A good place to walk off lunch between pits.",
-      "section": "Lockhart · 30 mi south of Austin"
+      "section": "Lockhart · 30 mi south of Austin",
+      "appleMapsID": "I416FD854821D5390"
     },
     {
       "id": "guide:texas-hill-country-barbecue/lockhart-state-park",
@@ -186,11 +198,12 @@
       "address": "2012 State Park Rd, Lockhart, TX 78644",
       "locality": "Lockhart",
       "country": "United States",
-      "latitude": 29.8518,
-      "longitude": -97.6983,
+      "latitude": 29.850694,
+      "longitude": -97.697725,
       "wantToGo": true,
       "notes": "A small state park just south of town with a creek, short trails, a nine-hole golf course and a compact campground. Reserve sites through Texas Parks and Wildlife.",
-      "section": "Lockhart · 30 mi south of Austin"
+      "section": "Lockhart · 30 mi south of Austin",
+      "appleMapsID": "I1F82F650B9DB864"
     },
     {
       "id": "guide:texas-hill-country-barbecue/city-market-luling",
@@ -199,11 +212,12 @@
       "address": "633 E Davis St, Luling, TX 78648",
       "locality": "Luling",
       "country": "United States",
-      "latitude": 29.6816,
-      "longitude": -97.6477,
+      "latitude": 29.681639,
+      "longitude": -97.647783,
       "wantToGo": true,
       "notes": "Order meat in the glassed-in pit room at the back, then sides and drinks up front. Pork ribs, sausage and the house mustard sauce are the reasons to come.",
-      "section": "Luling · 15 mi south of Lockhart"
+      "section": "Luling · 15 mi south of Lockhart",
+      "appleMapsID": "I3BACD564E3C03F0F"
     },
     {
       "id": "guide:texas-hill-country-barbecue/palmetto-state-park",
@@ -212,11 +226,12 @@
       "address": "78 Park Road 11 S, Gonzales, TX 78629",
       "locality": "Ottine",
       "country": "United States",
-      "latitude": 29.6028,
-      "longitude": -97.5833,
+      "latitude": 29.587901,
+      "longitude": -97.582841,
       "wantToGo": true,
       "notes": "A few miles south of Luling, dwarf palmettos and swampy trails along the San Marcos River feel nothing like the rest of Central Texas. Has a campground and river paddling.",
-      "section": "Luling · 15 mi south of Lockhart"
+      "section": "Luling · 15 mi south of Lockhart",
+      "appleMapsID": "I36FFCCC6A8DED081"
     },
     {
       "id": "guide:texas-hill-country-barbecue/salt-lick-bbq",
@@ -225,11 +240,12 @@
       "address": "18300 FM 1826, Driftwood, TX 78619",
       "locality": "Driftwood",
       "country": "United States",
-      "latitude": 30.1316,
-      "longitude": -98.0133,
+      "latitude": 30.131718,
+      "longitude": -98.013342,
       "wantToGo": true,
       "notes": "A big open pit under a stone building on a Hill Country ranch, with family-style platters at picnic tables. More about the setting and the afternoon than the brisket. The Driftwood location is BYOB; check the official site for details.",
-      "section": "Driftwood and Spicewood · 25 to 35 mi west of Austin"
+      "section": "Driftwood and Spicewood · 25 to 35 mi west of Austin",
+      "appleMapsID": "I29C6C6D9CFFF5963"
     },
     {
       "id": "guide:texas-hill-country-barbecue/camp-lucy",
@@ -238,11 +254,12 @@
       "address": "3509 Creek Rd, Dripping Springs, TX 78620",
       "locality": "Dripping Springs",
       "country": "United States",
-      "latitude": 30.1831,
-      "longitude": -98.1397,
+      "latitude": 30.181064,
+      "longitude": -98.146317,
       "wantToGo": true,
       "notes": "A ranch resort near Dripping Springs with rooms and cottages under old live oaks, about fifteen minutes from the Salt Lick. The splurge stay on this list.",
-      "section": "Driftwood and Spicewood · 25 to 35 mi west of Austin"
+      "section": "Driftwood and Spicewood · 25 to 35 mi west of Austin",
+      "appleMapsID": "IE0B44EE1522A6011"
     },
     {
       "id": "guide:texas-hill-country-barbecue/opies-barbecue",
@@ -251,11 +268,12 @@
       "address": "9504 E State Highway 71, Spicewood, TX 78669",
       "locality": "Spicewood",
       "country": "United States",
-      "latitude": 30.4616,
-      "longitude": -98.1585,
+      "latitude": 30.461677,
+      "longitude": -98.158942,
       "wantToGo": true,
       "notes": "Pick meat straight from the pit outside, Llano style, then grab sides inside. The sweet-and-spicy baby back ribs and tater tot casserole are the usual orders. An easy stop on the way to Llano.",
-      "section": "Driftwood and Spicewood · 25 to 35 mi west of Austin"
+      "section": "Driftwood and Spicewood · 25 to 35 mi west of Austin",
+      "appleMapsID": "I6200299AB57B532A"
     },
     {
       "id": "guide:texas-hill-country-barbecue/coopers-llano",
@@ -264,11 +282,12 @@
       "address": "604 W Young St, Llano, TX 78643",
       "locality": "Llano",
       "country": "United States",
-      "latitude": 30.7592,
-      "longitude": -98.6821,
+      "latitude": 30.759262,
+      "longitude": -98.682107,
       "wantToGo": true,
       "notes": "The original Cooper's. Point at what you want from the open mesquite pits out front, then eat at long communal tables inside. The thick pork chop is the signature, and the beans are free.",
-      "section": "Llano · 75 mi northwest of Austin"
+      "section": "Llano · 75 mi northwest of Austin",
+      "appleMapsID": "I89E320862928CAD0"
     },
     {
       "id": "guide:texas-hill-country-barbecue/dabbs-railroad-hotel",
@@ -277,11 +296,12 @@
       "address": "112 E Burnet St, Llano, TX 78643",
       "locality": "Llano",
       "country": "United States",
-      "latitude": 30.7547,
-      "longitude": -98.6755,
+      "latitude": 30.754294,
+      "longitude": -98.674158,
       "wantToGo": true,
       "notes": "A 1907 railroad hotel in Llano's old railyard district, now a small bed-and-breakfast with six suites and a backyard that runs down to the river. A short walk to the courthouse square.",
-      "section": "Llano · 75 mi northwest of Austin"
+      "section": "Llano · 75 mi northwest of Austin",
+      "appleMapsID": "I270CDAC7AFB47DDC"
     }
   ]
 }

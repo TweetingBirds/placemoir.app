@@ -30,11 +30,12 @@
       "address": "90 Public Square North, Dahlonega, GA 30533",
       "locality": "Dahlonega",
       "country": "United States",
-      "latitude": 34.5329,
-      "longitude": -83.9853,
+      "latitude": 34.532993,
+      "longitude": -83.9854,
       "wantToGo": true,
       "notes": "A small hotel in an 1880s building right on the town square, so everything in Dahlonega is a short walk. Rooms are upstairs over the shops and restaurants.",
-      "section": "Dahlonega, Georgia · 1 hr 15 min"
+      "section": "Dahlonega, Georgia · 1 hr 15 min",
+      "appleMapsID": "I66098E5F747EBB99"
     },
     {
       "id": "guide:weekends-from-atlanta/amicalola-falls-lodge",
@@ -43,11 +44,12 @@
       "address": "418 Amicalola Falls Lodge Road, Dawsonville, GA 30534",
       "locality": "Dawsonville",
       "country": "United States",
-      "latitude": 34.5654,
-      "longitude": -84.2427,
+      "latitude": 34.56537,
+      "longitude": -84.242751,
       "wantToGo": true,
       "notes": "The state park lodge sits on the mountain above the falls, about half an hour west of Dahlonega. Walk out the door to the trails and the long view toward Atlanta.",
-      "section": "Dahlonega, Georgia · 1 hr 15 min"
+      "section": "Dahlonega, Georgia · 1 hr 15 min",
+      "appleMapsID": "I7DB2851DBA4880CD"
     },
     {
       "id": "guide:weekends-from-atlanta/back-porch-oyster-bar",
@@ -69,11 +71,12 @@
       "address": "501 Hightower Church Road, Dahlonega, GA 30533",
       "locality": "Dahlonega",
       "country": "United States",
-      "latitude": 34.5629,
-      "longitude": -84.0682,
+      "latitude": 34.564351,
+      "longitude": -84.066926,
       "wantToGo": true,
       "notes": "A Tuscan-style winery a few miles outside town with a tasting room and a restaurant overlooking the vines. Book ahead for weekend brunch or dinner.",
-      "section": "Dahlonega, Georgia · 1 hr 15 min"
+      "section": "Dahlonega, Georgia · 1 hr 15 min",
+      "appleMapsID": "ID0F5A32DB8937CB"
     },
     {
       "id": "guide:weekends-from-atlanta/dahlonega-gold-museum",
@@ -82,11 +85,12 @@
       "address": "1 Public Square North, Dahlonega, GA 30533",
       "locality": "Dahlonega",
       "country": "United States",
-      "latitude": 34.5326,
-      "longitude": -83.9849,
+      "latitude": 34.532603,
+      "longitude": -83.984937,
       "wantToGo": true,
       "notes": "The 1836 courthouse in the middle of the square tells the story of the 1829 gold rush and the branch mint that once struck coins in town.",
-      "section": "Dahlonega, Georgia · 1 hr 15 min"
+      "section": "Dahlonega, Georgia · 1 hr 15 min",
+      "appleMapsID": "I97A38485F9815B44"
     },
     {
       "id": "guide:weekends-from-atlanta/amicalola-falls",
@@ -95,11 +99,12 @@
       "address": "166 Amicalola Falls State Park Rd, Dawsonville, GA 30534",
       "locality": "Dawsonville",
       "country": "United States",
-      "latitude": 34.5674,
-      "longitude": -84.2443,
+      "latitude": 34.565479,
+      "longitude": -84.242683,
       "wantToGo": true,
       "notes": "One of the tallest waterfalls in the Southeast, with a staircase climb beside it and an approach trail to the start of the Appalachian Trail. Parking fees apply; check the official site.",
-      "section": "Dahlonega, Georgia · 1 hr 15 min"
+      "section": "Dahlonega, Georgia · 1 hr 15 min",
+      "appleMapsID": "I4F187C4A7E8967C3"
     },
     {
       "id": "guide:weekends-from-atlanta/rivet-house",
@@ -108,11 +113,12 @@
       "address": "355 Oneta St, Athens, GA 30601",
       "locality": "Athens",
       "country": "United States",
-      "latitude": 33.971,
-      "longitude": -83.3916,
+      "latitude": 33.969465,
+      "longitude": -83.397513,
       "wantToGo": true,
       "notes": "A boutique hotel in a converted factory building at the old Southern Mill complex, northwest of downtown, with an Italian restaurant and a small spa on site. Downtown is a short drive or ride-share away.",
-      "section": "Athens, Georgia · 1 hr 30 min"
+      "section": "Athens, Georgia · 1 hr 30 min",
+      "appleMapsID": "IDBD7170C3C244793"
     },
     {
       "id": "guide:weekends-from-atlanta/five-and-ten",
@@ -121,11 +127,12 @@
       "address": "1073 S Milledge Ave, Athens, GA 30605",
       "locality": "Athens",
       "country": "United States",
-      "latitude": 33.9413,
-      "longitude": -83.3875,
+      "latitude": 33.941573,
+      "longitude": -83.387176,
       "wantToGo": true,
       "notes": "A long-running Athens dinner spot in a house on Milledge Avenue, cooking Southern food with local farm produce. Save it for a Saturday night and reserve ahead.",
-      "section": "Athens, Georgia · 1 hr 30 min"
+      "section": "Athens, Georgia · 1 hr 30 min",
+      "appleMapsID": "IADCF4F5106A3BE23"
     },
     {
       "id": "guide:weekends-from-atlanta/the-national",
@@ -134,11 +141,12 @@
       "address": "232 W Hancock Ave, Athens, GA 30601",
       "locality": "Athens",
       "country": "United States",
-      "latitude": 33.9595,
-      "longitude": -83.3796,
+      "latitude": 33.959571,
+      "longitude": -83.379611,
       "wantToGo": true,
       "notes": "A downtown neighborhood restaurant with Mediterranean-leaning plates, a good bar and a patio. Easy for lunch between walks around campus.",
-      "section": "Athens, Georgia · 1 hr 30 min"
+      "section": "Athens, Georgia · 1 hr 30 min",
+      "appleMapsID": "ID3A0DE974ECD7569"
     },
     {
       "id": "guide:weekends-from-atlanta/state-botanical-garden-of-georgia",
@@ -147,11 +155,12 @@
       "address": "2450 S Milledge Ave, Athens, GA 30605",
       "locality": "Athens",
       "country": "United States",
-      "latitude": 33.9013,
-      "longitude": -83.384,
+      "latitude": 33.901262,
+      "longitude": -83.383523,
       "wantToGo": true,
       "notes": "The university's garden south of town, with a glass conservatory, themed gardens and miles of wooded trails along the Middle Oconee River.",
-      "section": "Athens, Georgia · 1 hr 30 min"
+      "section": "Athens, Georgia · 1 hr 30 min",
+      "appleMapsID": "IDEB1AED5FF56C25E"
     },
     {
       "id": "guide:weekends-from-atlanta/georgia-museum-of-art",
@@ -160,11 +169,12 @@
       "address": "90 Carlton St, Athens, GA 30602",
       "locality": "Athens",
       "country": "United States",
-      "latitude": 33.9412,
-      "longitude": -83.3698,
+      "latitude": 33.941097,
+      "longitude": -83.36985,
       "wantToGo": true,
       "notes": "The official state art museum, on the university's east campus, with a strong collection of American paintings and decorative arts from the South.",
-      "section": "Athens, Georgia · 1 hr 30 min"
+      "section": "Athens, Georgia · 1 hr 30 min",
+      "appleMapsID": "ID9C71B7341ED2CAF"
     },
     {
       "id": "guide:weekends-from-atlanta/blue-ridge-inn",
@@ -173,11 +183,12 @@
       "address": "477 W First St, Blue Ridge, GA 30513",
       "locality": "Blue Ridge",
       "country": "United States",
-      "latitude": 34.8658,
-      "longitude": -84.3262,
+      "latitude": 34.866347,
+      "longitude": -84.325395,
       "wantToGo": true,
       "notes": "An 1890 Victorian house a block from downtown, with a wraparound porch and a cooked breakfast. A good alternative to renting a cabin up a mountain road.",
-      "section": "Blue Ridge, Georgia · 1 hr 45 min"
+      "section": "Blue Ridge, Georgia · 1 hr 45 min",
+      "appleMapsID": "I80D01ECE19F084B3"
     },
     {
       "id": "guide:weekends-from-atlanta/harvest-on-main",
@@ -186,11 +197,12 @@
       "address": "576 E Main St, Blue Ridge, GA 30513",
       "locality": "Blue Ridge",
       "country": "United States",
-      "latitude": 34.867,
-      "longitude": -84.3231,
+      "latitude": 34.867227,
+      "longitude": -84.323153,
       "wantToGo": true,
       "notes": "A Main Street dinner and lunch spot built around local sourcing: grass-fed beef from nearby farms, seasonal vegetables and North Georgia trout, with a long wine list.",
-      "section": "Blue Ridge, Georgia · 1 hr 45 min"
+      "section": "Blue Ridge, Georgia · 1 hr 45 min",
+      "appleMapsID": "IFD9B51EF51339A09"
     },
     {
       "id": "guide:weekends-from-atlanta/black-sheep-blue-ridge",
@@ -199,11 +211,12 @@
       "address": "480 W Main St, Blue Ridge, GA 30513",
       "locality": "Blue Ridge",
       "country": "United States",
-      "latitude": 34.863,
-      "longitude": -84.3278,
+      "latitude": 34.863239,
+      "longitude": -84.327982,
       "wantToGo": true,
       "notes": "Dinner and weekend brunch in an old house with a big covered patio and outdoor bar under the oaks.",
-      "section": "Blue Ridge, Georgia · 1 hr 45 min"
+      "section": "Blue Ridge, Georgia · 1 hr 45 min",
+      "appleMapsID": "I594100E9E33B3DE4"
     },
     {
       "id": "guide:weekends-from-atlanta/blue-ridge-scenic-railway",
@@ -212,11 +225,12 @@
       "address": "241 Depot St, Blue Ridge, GA 30513",
       "locality": "Blue Ridge",
       "country": "United States",
-      "latitude": 34.8654,
-      "longitude": -84.3249,
+      "latitude": 34.86558,
+      "longitude": -84.324724,
       "wantToGo": true,
       "notes": "A train from the downtown depot along the Toccoa River to McCaysville, where you can step across the Tennessee line before riding back. Book ahead for fall color weekends.",
-      "section": "Blue Ridge, Georgia · 1 hr 45 min"
+      "section": "Blue Ridge, Georgia · 1 hr 45 min",
+      "appleMapsID": "ID22452BB594D0C71"
     },
     {
       "id": "guide:weekends-from-atlanta/mercier-orchards",
@@ -225,11 +239,12 @@
       "address": "8660 Blue Ridge Dr, Blue Ridge, GA 30513",
       "locality": "Blue Ridge",
       "country": "United States",
-      "latitude": 34.8864,
-      "longitude": -84.3389,
+      "latitude": 34.886642,
+      "longitude": -84.340805,
       "wantToGo": true,
       "notes": "A family orchard north of town with a big market, a bakery known for fried pies, hard cider and pick-your-own seasons for berries and apples.",
-      "section": "Blue Ridge, Georgia · 1 hr 45 min"
+      "section": "Blue Ridge, Georgia · 1 hr 45 min",
+      "appleMapsID": "IC81CE78F796AC394"
     },
     {
       "id": "guide:weekends-from-atlanta/toccoa-river-swinging-bridge",
@@ -238,11 +253,12 @@
       "address": "Forest Service Road 816, off Aska Road, Blue Ridge, GA 30513",
       "locality": "Chattahoochee National Forest",
       "country": "United States",
-      "latitude": 34.7368,
-      "longitude": -84.1671,
+      "latitude": 34.73683,
+      "longitude": -84.167182,
       "wantToGo": true,
       "notes": "A long suspension footbridge over the Toccoa on the Benton MacKaye Trail, a short walk from a gravel forest road lot. The road is rough, so higher clearance helps.",
-      "section": "Blue Ridge, Georgia · 1 hr 45 min"
+      "section": "Blue Ridge, Georgia · 1 hr 45 min",
+      "appleMapsID": "I94CECFADC8D5B0B0"
     },
     {
       "id": "guide:weekends-from-atlanta/the-read-house",
@@ -251,11 +267,12 @@
       "address": "107 W MLK Blvd, Chattanooga, TN 37402",
       "locality": "Chattanooga",
       "country": "United States",
-      "latitude": 35.0458,
-      "longitude": -85.3115,
+      "latitude": 35.045925,
+      "longitude": -85.311068,
       "wantToGo": true,
       "notes": "Chattanooga's grand 1920s hotel downtown, restored with a dark-wood lobby bar and a steakhouse. Walkable to the Southside and a short ride to the river.",
-      "section": "Chattanooga, Tennessee · 2 hr"
+      "section": "Chattanooga, Tennessee · 2 hr",
+      "appleMapsID": "I3179388943CE1EB3"
     },
     {
       "id": "guide:weekends-from-atlanta/the-dwell-hotel",
@@ -264,11 +281,12 @@
       "address": "120 E 10th St, Chattanooga, TN 37402",
       "locality": "Chattanooga",
       "country": "United States",
-      "latitude": 35.0444,
-      "longitude": -85.3083,
+      "latitude": 35.044188,
+      "longitude": -85.307982,
       "wantToGo": true,
       "notes": "A small hotel in an early 1900s building downtown, with each room decorated differently and a bright solarium cafe downstairs.",
-      "section": "Chattanooga, Tennessee · 2 hr"
+      "section": "Chattanooga, Tennessee · 2 hr",
+      "appleMapsID": "IF88DBBDB2756DFE8"
     },
     {
       "id": "guide:weekends-from-atlanta/main-street-meats",
@@ -277,11 +295,12 @@
       "address": "217 E Main St, Chattanooga, TN 37408",
       "locality": "Southside",
       "country": "United States",
-      "latitude": 35.0354,
-      "longitude": -85.3051,
+      "latitude": 35.035255,
+      "longitude": -85.304483,
       "wantToGo": true,
       "notes": "A Southside butcher shop with a restaurant attached, known for its burger, house charcuterie and steaks cut in-house.",
-      "section": "Chattanooga, Tennessee · 2 hr"
+      "section": "Chattanooga, Tennessee · 2 hr",
+      "appleMapsID": "I2B9C98148A895C4"
     },
     {
       "id": "guide:weekends-from-atlanta/st-johns-restaurant",
@@ -290,11 +309,12 @@
       "address": "729 Chestnut St, Chattanooga, TN 37402",
       "locality": "Chattanooga",
       "country": "United States",
-      "latitude": 35.0479,
-      "longitude": -85.3117,
+      "latitude": 35.04726,
+      "longitude": -85.312015,
       "wantToGo": true,
       "notes": "Chattanooga's longtime special-occasion dinner, cooking regional American food with local ingredients. It has moved downtown to Chestnut Street, so ignore older listings on Market Street.",
-      "section": "Chattanooga, Tennessee · 2 hr"
+      "section": "Chattanooga, Tennessee · 2 hr",
+      "appleMapsID": "IBFC1B9CDDE327409"
     },
     {
       "id": "guide:weekends-from-atlanta/tennessee-aquarium",
@@ -303,11 +323,12 @@
       "address": "1 Broad St, Chattanooga, TN 37402",
       "locality": "Chattanooga",
       "country": "United States",
-      "latitude": 35.0559,
-      "longitude": -85.311,
+      "latitude": 35.055839,
+      "longitude": -85.311016,
       "wantToGo": true,
       "notes": "Two buildings on the riverfront: one follows a raindrop from the Appalachian headwaters down the Tennessee River, the other covers the oceans. Give it half a day.",
-      "section": "Chattanooga, Tennessee · 2 hr"
+      "section": "Chattanooga, Tennessee · 2 hr",
+      "appleMapsID": "I99DE6366C56EE4CE"
     },
     {
       "id": "guide:weekends-from-atlanta/walnut-street-bridge",
@@ -316,11 +337,12 @@
       "address": "1 Walnut Street, Chattanooga, TN 37403",
       "locality": "Chattanooga",
       "country": "United States",
-      "latitude": 35.0585,
-      "longitude": -85.3073,
+      "latitude": 35.058675,
+      "longitude": -85.307261,
       "wantToGo": true,
       "notes": "An 1890s truss bridge now open only to people on foot and bikes, linking downtown with the North Shore's shops and Coolidge Park. Best at sunset.",
-      "section": "Chattanooga, Tennessee · 2 hr"
+      "section": "Chattanooga, Tennessee · 2 hr",
+      "appleMapsID": "I91C9DB8E2D798BED"
     },
     {
       "id": "guide:weekends-from-atlanta/rock-city",
@@ -342,11 +364,12 @@
       "address": "445 Main St, Highlands, NC 28741",
       "locality": "Highlands",
       "country": "United States",
-      "latitude": 35.0524,
-      "longitude": -83.1968,
+      "latitude": 35.05233,
+      "longitude": -83.197067,
       "wantToGo": true,
       "notes": "The splurge stay in Highlands, a restored 1870s inn on Main Street with a full spa and rooms spread across several buildings in town.",
-      "section": "Highlands, North Carolina · 2 hr 45 min"
+      "section": "Highlands, North Carolina · 2 hr 45 min",
+      "appleMapsID": "I67CD2C47292EA37"
     },
     {
       "id": "guide:weekends-from-atlanta/highlander-mountain-house",
@@ -355,11 +378,12 @@
       "address": "270 Main St, Highlands, NC 28741",
       "locality": "Highlands",
       "country": "United States",
-      "latitude": 35.0536,
-      "longitude": -83.1996,
+      "latitude": 35.053705,
+      "longitude": -83.199391,
       "wantToGo": true,
       "notes": "A relaxed, more affordable stay on Main Street styled like an English country house, with fires in the common rooms, a pet-friendly bunkhouse out back and a tavern for dinner.",
-      "section": "Highlands, North Carolina · 2 hr 45 min"
+      "section": "Highlands, North Carolina · 2 hr 45 min",
+      "appleMapsID": "ID8180473DBE8206E"
     },
     {
       "id": "guide:weekends-from-atlanta/madisons-restaurant",
@@ -368,11 +392,12 @@
       "address": "445 Main St, Highlands, NC 28741",
       "locality": "Highlands",
       "country": "United States",
-      "latitude": 35.0522,
-      "longitude": -83.1969,
+      "latitude": 35.052278,
+      "longitude": -83.19704,
       "wantToGo": true,
       "notes": "The dining room off the Old Edwards lobby, cooking with produce from the inn's own farm. Worth a dinner even if you stay elsewhere; reserve ahead.",
-      "section": "Highlands, North Carolina · 2 hr 45 min"
+      "section": "Highlands, North Carolina · 2 hr 45 min",
+      "appleMapsID": "IA547B91254B3AFF3"
     },
     {
       "id": "guide:weekends-from-atlanta/mountain-fresh-grocery",
@@ -381,11 +406,12 @@
       "address": "521 E Main St, Highlands, NC 28741",
       "locality": "Highlands",
       "country": "United States",
-      "latitude": 35.0516,
-      "longitude": -83.1953,
+      "latitude": 35.051653,
+      "longitude": -83.19518,
       "wantToGo": true,
       "notes": "A grocery, deli, bakery and coffee bar where you can grab breakfast or build a trail lunch before heading out to the overlooks.",
-      "section": "Highlands, North Carolina · 2 hr 45 min"
+      "section": "Highlands, North Carolina · 2 hr 45 min",
+      "appleMapsID": "I255DAB4C4A1CF743"
     },
     {
       "id": "guide:weekends-from-atlanta/whiteside-mountain",
@@ -394,11 +420,12 @@
       "address": "Whiteside Mountain Rd, Highlands, NC 28741",
       "locality": "Nantahala National Forest",
       "country": "United States",
-      "latitude": 35.0805,
-      "longitude": -83.1441,
+      "latitude": 35.080514,
+      "longitude": -83.144048,
       "wantToGo": true,
       "notes": "A two-mile loop to the top of sheer granite cliffs, with long views over the Chattooga valley. There is a small parking fee at the trailhead.",
-      "section": "Highlands, North Carolina · 2 hr 45 min"
+      "section": "Highlands, North Carolina · 2 hr 45 min",
+      "appleMapsID": "I6E3DEAF7CAC7D51E"
     },
     {
       "id": "guide:weekends-from-atlanta/dry-falls",
@@ -407,11 +434,12 @@
       "address": "US Highway 64, Highlands, NC 28741",
       "locality": "Cullasaja Gorge",
       "country": "United States",
-      "latitude": 35.0686,
-      "longitude": -83.239,
+      "latitude": 35.068835,
+      "longitude": -83.238964,
       "wantToGo": true,
       "notes": "A short paved path and stairs lead behind a waterfall in the Cullasaja Gorge, so you can stand under the overhang and stay mostly dry. Check the Forest Service site for closures.",
-      "section": "Highlands, North Carolina · 2 hr 45 min"
+      "section": "Highlands, North Carolina · 2 hr 45 min",
+      "appleMapsID": "ID821C8A94C66C4E6"
     },
     {
       "id": "guide:weekends-from-atlanta/marshall-house",
@@ -420,11 +448,12 @@
       "address": "123 E Broughton St, Savannah, GA 31401",
       "locality": "Savannah",
       "country": "United States",
-      "latitude": 32.0786,
-      "longitude": -81.0906,
+      "latitude": 32.078438,
+      "longitude": -81.090522,
       "wantToGo": true,
       "notes": "An 1850s hotel on Broughton Street with iron balconies, a central location between the river and the squares, and plenty of ghost stories.",
-      "section": "Savannah, Georgia · 3 hr 45 min"
+      "section": "Savannah, Georgia · 3 hr 45 min",
+      "appleMapsID": "I81DC1E3C3EAF4573"
     },
     {
       "id": "guide:weekends-from-atlanta/thunderbird-inn",
@@ -433,11 +462,12 @@
       "address": "611 W Oglethorpe Ave, Savannah, GA 31401",
       "locality": "Savannah",
       "country": "United States",
-      "latitude": 32.0788,
-      "longitude": -81.0995,
+      "latitude": 32.07882,
+      "longitude": -81.100709,
       "wantToGo": true,
       "notes": "A 1960s motor inn redone in retro colors at the west edge of the historic district. The budget pick, with parking and an easy walk to City Market.",
-      "section": "Savannah, Georgia · 3 hr 45 min"
+      "section": "Savannah, Georgia · 3 hr 45 min",
+      "appleMapsID": "I2BEB07A20BD85BE0"
     },
     {
       "id": "guide:weekends-from-atlanta/mrs-wilkes-dining-room",
@@ -446,11 +476,12 @@
       "address": "107 W Jones St, Savannah, GA 31401",
       "locality": "Savannah",
       "country": "United States",
-      "latitude": 32.0727,
-      "longitude": -81.0956,
+      "latitude": 32.072625,
+      "longitude": -81.095887,
       "wantToGo": true,
       "notes": "Weekday lunch served family-style at shared tables, bowls of fried chicken and Southern sides passed around with strangers. Expect a line, bring cash, and note the winter break.",
-      "section": "Savannah, Georgia · 3 hr 45 min"
+      "section": "Savannah, Georgia · 3 hr 45 min",
+      "appleMapsID": "IE4A297021CBB5CC0"
     },
     {
       "id": "guide:weekends-from-atlanta/the-grey",
@@ -459,11 +490,12 @@
       "address": "109 Martin Luther King Jr Blvd, Savannah, GA 31401",
       "locality": "Savannah",
       "country": "United States",
-      "latitude": 32.0798,
-      "longitude": -81.0975,
+      "latitude": 32.079879,
+      "longitude": -81.097705,
       "wantToGo": true,
       "notes": "A restored 1938 Greyhound bus station where the kitchen cooks Southern food through a Savannah port-city lens. Reserve well ahead for dinner.",
-      "section": "Savannah, Georgia · 3 hr 45 min"
+      "section": "Savannah, Georgia · 3 hr 45 min",
+      "appleMapsID": "I8AAA6BF90B89F04B"
     },
     {
       "id": "guide:weekends-from-atlanta/forsyth-park",
@@ -472,11 +504,12 @@
       "address": "Gaston St & Whitaker St, Savannah, GA 31401",
       "locality": "Savannah",
       "country": "United States",
-      "latitude": 32.0667,
-      "longitude": -81.0966,
+      "latitude": 32.067556,
+      "longitude": -81.096289,
       "wantToGo": true,
       "notes": "The big green at the south end of the historic district, with its fountain, live oaks and a Saturday farmers market. Walk up through the squares to get there.",
-      "section": "Savannah, Georgia · 3 hr 45 min"
+      "section": "Savannah, Georgia · 3 hr 45 min",
+      "appleMapsID": "ID6645087DF23373B"
     },
     {
       "id": "guide:weekends-from-atlanta/bonaventure-cemetery",
@@ -485,11 +518,12 @@
       "address": "330 Bonaventure Rd, Savannah, GA 31404",
       "locality": "Savannah",
       "country": "United States",
-      "latitude": 32.0443,
-      "longitude": -81.0468,
+      "latitude": 32.045065,
+      "longitude": -81.050389,
       "wantToGo": true,
       "notes": "A Victorian cemetery on a bluff over the Wilmington River, with moss-draped oaks and carved monuments. Pick up a map at the gate and go early in the day.",
-      "section": "Savannah, Georgia · 3 hr 45 min"
+      "section": "Savannah, Georgia · 3 hr 45 min",
+      "appleMapsID": "I7FEA5FFC0088ED8B"
     },
     {
       "id": "guide:weekends-from-atlanta/wormsloe",
@@ -498,11 +532,12 @@
       "address": "7601 Skidaway Rd, Savannah, GA 31406",
       "locality": "Isle of Hope",
       "country": "United States",
-      "latitude": 31.9822,
-      "longitude": -81.0705,
+      "latitude": 31.978667,
+      "longitude": -81.066742,
       "wantToGo": true,
       "notes": "A long avenue of live oaks leads to the tabby ruins of an 18th-century colonial estate, with marsh trails and a small museum.",
-      "section": "Savannah, Georgia · 3 hr 45 min"
+      "section": "Savannah, Georgia · 3 hr 45 min",
+      "appleMapsID": "I16AA4F0928C88710"
     }
   ]
 }

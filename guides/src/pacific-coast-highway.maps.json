@@ -1,0 +1,408 @@
+{
+  "ano-nuevo-state-park": {
+    "address": "1 New Years Creek Rd, Pescadero, CA 94060, United States",
+    "appleMapsID": "IED621791D9152D0F",
+    "latitude": 37.118462,
+    "longitude": -122.306982,
+    "name": "Año Nuevo State Park"
+  },
+  "asilomar": {
+    "address": "800 Asilomar Ave, Pacific Grove, CA 93950, United States",
+    "appleMapsID": "IBF872615ED20E977",
+    "latitude": 36.61897,
+    "longitude": -121.937768,
+    "name": "Asilomar Conference Grounds"
+  },
+  "balboa-park": {
+    "address": "1549 El Prado, San Diego, CA 92101, United States",
+    "appleMapsID": "IA89C396EAC7B7298",
+    "latitude": 32.734601,
+    "longitude": -117.144616,
+    "name": "Balboa Park"
+  },
+  "beachcomber-crystal-cove": {
+    "address": "15 Crystal Cove, Newport Coast, CA 92657, United States",
+    "appleMapsID": "I60461E496F4C4D3B",
+    "latitude": 33.574476,
+    "longitude": -117.840283,
+    "name": "The Beachcomber At Crystal Cove"
+  },
+  "big-sur-bakery": {
+    "address": "47540 California 1, Big Sur, CA 93920, United States",
+    "appleMapsID": "IF717D8AA088763FF",
+    "latitude": 36.235828,
+    "longitude": -121.769044,
+    "name": "Big Sur Bakery"
+  },
+  "big-sur-lodge": {
+    "address": "47225 Highway 1, Big Sur, CA 93920, United States",
+    "appleMapsID": "I7A4935D81903E969",
+    "latitude": 36.250479,
+    "longitude": -121.785915,
+    "name": "Big Sur Lodge"
+  },
+  "bixby-creek-bridge": {
+    "address": "CA-1, Carmel, CA 93923, United States",
+    "appleMapsID": "IB4E8868CF02A12CB",
+    "latitude": 36.371506,
+    "longitude": -121.901933,
+    "name": "Bixby Bridge"
+  },
+  "cabrillo-national-monument": {
+    "address": "1800 Cabrillo Memorial Dr, San Diego, CA 92106, United States",
+    "appleMapsID": "I29EF12843D2EDD1D",
+    "latitude": 32.673553,
+    "longitude": -117.242416,
+    "name": "Cabrillo National Monument"
+  },
+  "cambria-pines-lodge": {
+    "address": "2905 Burton Dr, Cambria, CA 93428, United States",
+    "appleMapsID": "I800B1848066C1FAC",
+    "latitude": 35.55864,
+    "longitude": -121.080205,
+    "name": "Cambria Pines Lodge"
+  },
+  "carmel-mission": {
+    "address": "3080 Rio Rd, Carmel, CA 93923, United States",
+    "appleMapsID": "IC72678C3247A7BE1",
+    "latitude": 36.542131,
+    "longitude": -121.919972,
+    "name": "Carmel Mission Basilica"
+  },
+  "crystal-cove-state-park": {
+    "address": "8471 N Coast Hwy, Laguna Beach, CA 92651, United States",
+    "appleMapsID": "IE4F15712F59B7069",
+    "latitude": 33.579686,
+    "longitude": -117.802749,
+    "name": "Crystal Cove State Park"
+  },
+  "cypress-inn": {
+    "address": "Lincoln St & 7th Ave, Carmel-By-The-Sea, CA 93921, United States",
+    "appleMapsID": "ID97B95D0C96D7045",
+    "latitude": 36.553956,
+    "longitude": -121.923421,
+    "name": "Cypress Inn"
+  },
+  "devils-slide-trail": {
+    "address": "Devils Slide Coastal Trail, Pacifica, CA 94044, United States",
+    "appleMapsID": "I4555C61686B61FEE",
+    "latitude": 37.584301,
+    "longitude": -122.515293,
+    "name": "Devil's Slide Trail - Northern Overlook"
+  },
+  "dream-inn-santa-cruz": {
+    "address": "175 Beach St, Santa Cruz, CA 95060, United States",
+    "appleMapsID": "I2D9B202CC64EC078",
+    "latitude": 36.961787,
+    "longitude": -122.024986,
+    "name": "Dream Inn"
+  },
+  "duartes-tavern": {
+    "address": "202 Stage Rd, Pescadero, CA 94060, United States",
+    "appleMapsID": "I681E8593F4E392D1",
+    "latitude": 37.25213,
+    "longitude": -122.382808,
+    "name": "Duarte's Tavern"
+  },
+  "el-matador-state-beach": {
+    "address": "32220 Pacific Coast Hwy, Malibu, CA 90265, United States",
+    "appleMapsID": "I16303AAD70817A77",
+    "latitude": 34.037918,
+    "longitude": -118.874551,
+    "name": "El Matador State Beach"
+  },
+  "firestone-grill": {
+    "address": "1001 Higuera St, San Luis Obispo, CA 93401, United States",
+    "appleMapsID": "I6EC1039CB544318C",
+    "latitude": 35.281243,
+    "longitude": -120.660337,
+    "name": "Firestone Grill"
+  },
+  "getty-villa": {
+    "address": "17985 Pacific Coast Highway, Pacific Palisades, CA 90272, United States",
+    "appleMapsID": "IC1A5227A1E045191",
+    "latitude": 34.045307,
+    "longitude": -118.564871,
+    "name": "Getty Villa"
+  },
+  "giovannis-fish-market": {
+    "address": "1001 Front St, Morro Bay, CA 93442, United States",
+    "appleMapsID": "I29985149FA607330",
+    "latitude": 35.367964,
+    "longitude": -120.854201,
+    "name": "Giovanni's Fish Market & Galley"
+  },
+  "gjusta": {
+    "address": "320 Sunset Ave, Venice, CA 90291, United States",
+    "appleMapsID": "I7F3F4329F3A323FC",
+    "latitude": 33.995274,
+    "longitude": -118.474552,
+    "name": "Gjusta"
+  },
+  "glen-oaks-big-sur": {
+    "address": "47080 Highway 1, Big Sur, CA 93920, United States",
+    "appleMapsID": "I664B35081B2EF2FD",
+    "latitude": 36.2646,
+    "longitude": -121.800973,
+    "name": "Glen Oaks Big Sur"
+  },
+  "golden-gate-bridge-welcome-center": {
+    "address": "956 Lincoln Blvd, San Francisco, CA 94129, United States",
+    "appleMapsID": "I18C9E8C26EFE853",
+    "latitude": 37.807788,
+    "longitude": -122.47484,
+    "name": "Golden Gate Bridge Pavilion"
+  },
+  "hearst-castle": {
+    "address": "750 Hearst Castle Rd, San Simeon, CA 93452, United States",
+    "appleMapsID": "I3B984B4A8C9DF3CF",
+    "latitude": 35.685244,
+    "longitude": -121.167988,
+    "name": "Hearst Castle"
+  },
+  "heisler-park": {
+    "address": "375 Cliff Dr, Laguna Beach, CA 92651, United States",
+    "appleMapsID": "IC04454D24CF1A749",
+    "latitude": 33.543854,
+    "longitude": -117.792277,
+    "name": "Heisler Park"
+  },
+  "hi-pigeon-point-hostel": {
+    "address": "210 Pigeon Point Rd, Pescadero, CA 94060, United States",
+    "appleMapsID": "ID5FC7F8C00F645B0",
+    "latitude": 37.182254,
+    "longitude": -122.393973,
+    "name": "HI Pigeon Point Lighthouse Hostel"
+  },
+  "hotel-californian": {
+    "address": "36 State St, Santa Barbara, CA 93101, United States",
+    "appleMapsID": "I61DFE120D7BAD76C",
+    "latitude": 34.413285,
+    "longitude": -119.689976,
+    "name": "Hotel Californian"
+  },
+  "hotel-del-coronado": {
+    "address": "1500 Orange Ave, Coronado, CA 92118, United States",
+    "appleMapsID": "IA6CF6D85D466F429",
+    "latitude": 32.680346,
+    "longitude": -117.17818,
+    "name": "Hotel del Coronado"
+  },
+  "hotel-erwin": {
+    "address": "1697 Pacific Ave, Venice, CA 90291, United States",
+    "appleMapsID": "I3DEA85CE3ADA0722",
+    "latitude": 33.987095,
+    "longitude": -118.472195,
+    "name": "Hotel Erwin"
+  },
+  "la-bicyclette": {
+    "address": "Dolores & 7th, Carmel, CA 93921, United States",
+    "appleMapsID": "IA2C30E6125A90AF9",
+    "latitude": 36.553924,
+    "longitude": -121.922819,
+    "name": "La Bicyclette"
+  },
+  "la-jolla-cove": {
+    "address": "La Jolla Coastal Trail, La Jolla, CA 92037, United States",
+    "appleMapsID": "I201387136C5CD40E",
+    "latitude": 32.850451,
+    "longitude": -117.273029,
+    "name": "La Jolla Cove"
+  },
+  "la-super-rica-taqueria": {
+    "address": "622 N Milpas St, Santa Barbara, CA 93103, United States",
+    "appleMapsID": "I69E7016675AE7597",
+    "latitude": 34.427926,
+    "longitude": -119.687261,
+    "name": "La Super-Rica Taqueria"
+  },
+  "linns-restaurant": {
+    "address": "2277 Main St, Cambria, CA 93428, United States",
+    "appleMapsID": "ICB3F96DDEBD4D4EC",
+    "latitude": 35.564402,
+    "longitude": -121.081865,
+    "name": "Linn's Restaurant"
+  },
+  "lone-cypress": {
+    "address": "3212-3230 17 Mile Dr, Del Monte Forest, CA 93953, United States",
+    "appleMapsID": "ICF9325B411F93CC9",
+    "latitude": 36.568804,
+    "longitude": -121.965221,
+    "name": "The Lone Cypress"
+  },
+  "madonna-inn": {
+    "address": "100 Madonna Rd, San Luis Obispo, CA 93405, United States",
+    "appleMapsID": "I7CAD9DA6D43BFB55",
+    "latitude": 35.267564,
+    "longitude": -120.674256,
+    "name": "Madonna Inn"
+  },
+  "mcway-falls": {
+    "address": "Julia Pfeiffer Burns State Park, Big Sur, CA 93920, United States",
+    "appleMapsID": "IB1A29998C04C0B35",
+    "latitude": 36.157714,
+    "longitude": -121.672382,
+    "name": "McWay Falls"
+  },
+  "mission-san-luis-obispo": {
+    "address": "751 Palm St, San Luis Obispo, CA 93401, United States",
+    "appleMapsID": "IF2A31FC10E3BB971",
+    "latitude": 35.280612,
+    "longitude": -120.664877,
+    "name": "Mission San Luis Obispo de Tolosa"
+  },
+  "monterey-bay-aquarium": {
+    "address": "886 Cannery Row, Monterey, CA 93940, United States",
+    "appleMapsID": "I11EF4F8E0F2091DD",
+    "latitude": 36.618275,
+    "longitude": -121.902049,
+    "name": "Monterey Bay Aquarium"
+  },
+  "moonstone-beach-boardwalk": {
+    "address": "6216 Moonstone Beach Dr, Cambria, CA 93428, United States",
+    "appleMapsID": "I3A6A3CA1FC1D33B0",
+    "latitude": 35.575138,
+    "longitude": -121.113923,
+    "name": "Moonstone Beach Boardwalk"
+  },
+  "natural-bridges-state-beach": {
+    "address": "2531 W Cliff Dr, Santa Cruz, CA 95060, United States",
+    "appleMapsID": "ID55C2CB1148E3AEA",
+    "latitude": 36.952483,
+    "longitude": -122.057635,
+    "name": "Natural Bridges State Beach"
+  },
+  "nepenthe": {
+    "address": "48510 Highway One, Big Sur, CA 93920, United States",
+    "appleMapsID": "IA00492A3F018C0B8",
+    "latitude": 36.221782,
+    "longitude": -121.759713,
+    "name": "Nepenthe"
+  },
+  "neptunes-net": {
+    "address": "42505 Pacific Coast Hwy, Malibu, CA 90265, United States",
+    "appleMapsID": "I6AC80A92188B8E2B",
+    "latitude": 34.053215,
+    "longitude": -118.962466,
+    "name": "Neptune's Net"
+  },
+  "old-mission-santa-barbara": {
+    "address": "2201 Laguna St, Santa Barbara, CA 93105, United States",
+    "appleMapsID": "I5F4BCD52292FFD16",
+    "latitude": 34.438433,
+    "longitude": -119.713216,
+    "name": "Old Mission Santa Barbara"
+  },
+  "pfeiffer-beach": {
+    "address": "Sycamore Canyon Road, Big Sur, CA 93920, United States",
+    "appleMapsID": "IE22DE28AEEAF06EB",
+    "latitude": 36.239583,
+    "longitude": -121.817887,
+    "name": "Pfeiffer Beach"
+  },
+  "pfeiffer-big-sur-state-park": {
+    "address": "47555 CA-1, Big Sur, CA 93920, United States",
+    "appleMapsID": "IF0B6C85D2C488331",
+    "latitude": 36.24716,
+    "longitude": -121.781151,
+    "name": "Pfeiffer Big Sur State Park"
+  },
+  "phils-fish-market": {
+    "address": "10700 Merritt St, Castroville, CA 95012, United States",
+    "appleMapsID": "IB4C3F0C72A341367",
+    "latitude": 36.765799,
+    "longitude": -121.758324,
+    "name": "Phil's Fish Market"
+  },
+  "piedras-blancas-elephant-seals": {
+    "address": "Elephant Seal Boardwalk, Ragged Point, CA 93452, United States",
+    "appleMapsID": "I88D1202FBE1C37CC",
+    "latitude": 35.662862,
+    "longitude": -121.257724,
+    "name": "Elephant Seal Vista Point"
+  },
+  "pigeon-point-light-station": {
+    "address": "San Mateo County, CA, United States",
+    "appleMapsID": "ID52F3287E1DE3A7D",
+    "latitude": 37.181803,
+    "longitude": -122.394288,
+    "name": "Pigeon Point"
+  },
+  "point-lobos": {
+    "address": "Hwy 1, Carmel, CA 93923, United States",
+    "appleMapsID": "I8518CE3033BAA9CC",
+    "latitude": 36.516328,
+    "longitude": -121.94232,
+    "name": "Point Lobos State Natural Reserve"
+  },
+  "point-loma-seafoods": {
+    "address": "2805 Emerson St, San Diego, CA 92106, United States",
+    "appleMapsID": "I45590DFEF085AEE6",
+    "latitude": 32.723287,
+    "longitude": -117.227911,
+    "name": "Point Loma Seafoods"
+  },
+  "point-sur-state-historic-park": {
+    "address": "Big Sur, CA 93920, United States",
+    "appleMapsID": "I180F01D31743E597",
+    "latitude": 36.306307,
+    "longitude": -121.901507,
+    "name": "Point Sur Lighthouse"
+  },
+  "post-ranch-inn": {
+    "address": "47900 CA-1, Big Sur, CA 93920, United States",
+    "appleMapsID": "IA1643FCCD2318662",
+    "latitude": 36.230246,
+    "longitude": -121.771751,
+    "name": "Post Ranch Inn"
+  },
+  "queen-mary": {
+    "address": "1126 Queens Hwy, Long Beach, CA 90802, United States",
+    "appleMapsID": "I503D5EC78F7ED792",
+    "latitude": 33.752716,
+    "longitude": -118.190258,
+    "name": "The Queen Mary"
+  },
+  "sams-chowder-house": {
+    "address": "4210 N Cabrillo Hwy, Half Moon Bay, CA 94019, United States",
+    "appleMapsID": "I7F98BBC39038EEA4",
+    "latitude": 37.502562,
+    "longitude": -122.475723,
+    "name": "Sam's Chowder House"
+  },
+  "santa-cruz-beach-boardwalk": {
+    "address": "400 Beach St, Santa Cruz, CA 95060, United States",
+    "appleMapsID": "I80FD05BFDEAEC900",
+    "latitude": 36.964429,
+    "longitude": -122.016607,
+    "name": "Santa Cruz Beach Boardwalk"
+  },
+  "santa-monica-pier": {
+    "address": "200 Santa Monica Pier, Ste A, Santa Monica, CA 90401, United States",
+    "appleMapsID": "IBF103B5FC143278C",
+    "latitude": 34.008994,
+    "longitude": -118.497484,
+    "name": "Santa Monica Pier"
+  },
+  "the-ranch-at-laguna-beach": {
+    "address": "31106 S Coast Hwy, Laguna Beach, CA 92651, United States",
+    "appleMapsID": "I389452E83611FCED",
+    "latitude": 33.513495,
+    "longitude": -117.747812,
+    "name": "The Ranch at Laguna Beach"
+  },
+  "torrey-pines-state-natural-reserve": {
+    "address": "12600 N Torrey Pines Rd, San Diego, CA 92037, United States",
+    "appleMapsID": "I9623B7C184149DC3",
+    "latitude": 32.9174,
+    "longitude": -117.25436,
+    "name": "Torrey Pines State Natural Reserve"
+  },
+  "venice-canals": {
+    "address": "Venice, CA 90291, United States",
+    "appleMapsID": "IEC181F44CD706123",
+    "latitude": 33.985934,
+    "longitude": -118.465099,
+    "name": "Venice Canals"
+  }
+}

@@ -36,8 +36,8 @@
       "address": "Hauptmarkt, 90403 Nuremberg",
       "locality": "Nuremberg",
       "country": "Germany",
-      "latitude": 49.4537,
-      "longitude": 11.0773,
+      "latitude": 49.45417,
+      "longitude": 11.077365,
       "wantToGo": true,
       "notes": "The best known of them all, a tight grid of red-and-white striped stalls on the main square under the Frauenkirche. Stalls are held to a tradition of handmade goods, so expect prune-and-walnut figures, gingerbread and three-in-a-bun bratwurst rather than plastic.",
       "section": "Nuremberg"
@@ -49,11 +49,12 @@
       "address": "Rathausplatz 1, 90403 Nuremberg",
       "locality": "Nuremberg",
       "country": "Germany",
-      "latitude": 49.455,
-      "longitude": 11.0767,
+      "latitude": 49.455011,
+      "longitude": 11.076649,
       "wantToGo": true,
       "notes": "A busy old tavern beside St. Sebald, steps from the market, grilling Nuremberg's finger-sized sausages over beechwood. Order them by the half dozen with sauerkraut or potato salad.",
-      "section": "Nuremberg"
+      "section": "Nuremberg",
+      "appleMapsID": "I625D8EC58C29D346"
     },
     {
       "id": "guide:christmas-markets-germany/hotel-elch-nuremberg",
@@ -62,11 +63,12 @@
       "address": "Irrerstraße 11, 90403 Nuremberg",
       "locality": "Nuremberg",
       "country": "Germany",
-      "latitude": 49.4555,
-      "longitude": 11.0733,
+      "latitude": 49.455447,
+      "longitude": 11.073206,
       "wantToGo": true,
       "notes": "A small family-run hotel in a 14th-century half-timbered house in the castle quarter, a few minutes' walk from the Hauptmarkt. Rooms are compact, and the building has plenty of character.",
-      "section": "Nuremberg"
+      "section": "Nuremberg",
+      "appleMapsID": "IE6BFD3AABB2915B5"
     },
     {
       "id": "guide:christmas-markets-germany/rothenburg-reiterlesmarkt",
@@ -75,8 +77,8 @@
       "address": "Marktplatz, 91541 Rothenburg ob der Tauber",
       "locality": "Rothenburg ob der Tauber",
       "country": "Germany",
-      "latitude": 49.3772,
-      "longitude": 10.179,
+      "latitude": 49.377138,
+      "longitude": 10.1792,
       "wantToGo": true,
       "notes": "A compact market spread around the town hall and St. Jakob's in a walled medieval town that already looks like a Christmas card. Named for an old legend of a rider who carried souls; try a Schneeball pastry while you walk the lanes.",
       "section": "Rothenburg ob der Tauber"
@@ -88,11 +90,12 @@
       "address": "Herrngasse 1, 91541 Rothenburg ob der Tauber",
       "locality": "Rothenburg ob der Tauber",
       "country": "Germany",
-      "latitude": 49.3768,
-      "longitude": 10.1784,
+      "latitude": 49.376744,
+      "longitude": 10.178289,
       "wantToGo": true,
       "notes": "A museum of Christmas history inside the Käthe Wohlfahrt building, a year-round Christmas shop a few steps off the market square. Old ornaments, tree stands and Advent calendars show how German customs took shape.",
-      "section": "Rothenburg ob der Tauber"
+      "section": "Rothenburg ob der Tauber",
+      "appleMapsID": "I7F298700B5CE725A"
     },
     {
       "id": "guide:christmas-markets-germany/hotel-eisenhut",
@@ -101,11 +104,12 @@
       "address": "Herrngasse 3-7, 91541 Rothenburg ob der Tauber",
       "locality": "Rothenburg ob der Tauber",
       "country": "Germany",
-      "latitude": 49.3768,
-      "longitude": 10.1781,
+      "latitude": 49.376782,
+      "longitude": 10.178092,
       "wantToGo": true,
       "notes": "Four joined patrician houses from the 15th and 16th centuries on the town's grandest street. A classic Rothenburg stay, two minutes from the market.",
-      "section": "Rothenburg ob der Tauber"
+      "section": "Rothenburg ob der Tauber",
+      "appleMapsID": "IF8A883DFC02AD639"
     },
     {
       "id": "guide:christmas-markets-germany/zur-hoell",
@@ -127,8 +131,8 @@
       "address": "Marienplatz, 80331 Munich",
       "locality": "Munich",
       "country": "Germany",
-      "latitude": 48.1371,
-      "longitude": 11.5754,
+      "latitude": 48.137073,
+      "longitude": 11.576002,
       "wantToGo": true,
       "notes": "Munich's main market fills Marienplatz in front of the neo-Gothic town hall, with a giant tree and brass music from the balcony in the evenings. Look for the nativity-figure market nearby, a Munich specialty.",
       "section": "Munich"
@@ -140,11 +144,12 @@
       "address": "Augustinerstraße 1, 80331 Munich",
       "locality": "Munich",
       "country": "Germany",
-      "latitude": 48.1385,
-      "longitude": 11.5723,
+      "latitude": 48.138453,
+      "longitude": 11.572171,
       "wantToGo": true,
       "notes": "A traditional Bavarian inn next to the Frauenkirche, a few minutes from Marienplatz, pouring Augustiner beer with roast pork and dumplings. Warmer and calmer than the big beer halls.",
-      "section": "Munich"
+      "section": "Munich",
+      "appleMapsID": "IBE467695D9C77B8F"
     },
     {
       "id": "guide:christmas-markets-germany/hotel-torbraeu",
@@ -153,11 +158,12 @@
       "address": "Tal 41, 80331 Munich",
       "locality": "Munich",
       "country": "Germany",
-      "latitude": 48.1356,
-      "longitude": 11.5816,
+      "latitude": 48.135484,
+      "longitude": 11.581512,
       "wantToGo": true,
       "notes": "A hotel by the Isartor that claims to be the oldest in central Munich. An easy walk to Marienplatz, the Viktualienmarkt and the Hofbräuhaus.",
-      "section": "Munich"
+      "section": "Munich",
+      "appleMapsID": "IF464FC617F930887"
     },
     {
       "id": "guide:christmas-markets-germany/regensburg-thurn-und-taxis-market",
@@ -166,11 +172,12 @@
       "address": "Emmeramsplatz 5, Innenstadt, 93047 Regensburg",
       "locality": "Regensburg",
       "country": "Germany",
-      "latitude": 49.0146,
-      "longitude": 12.0938,
+      "latitude": 49.014448,
+      "longitude": 12.092256,
       "wantToGo": true,
       "notes": "Held in the courtyards of the princely family's palace, with fire pits, craftspeople at work and a quieter, lantern-lit feel than the city-square markets. Admission is charged; check the official site.",
-      "section": "Regensburg"
+      "section": "Regensburg",
+      "appleMapsID": "I3569627BE3BB1FB9"
     },
     {
       "id": "guide:christmas-markets-germany/historische-wurstkuchl",
@@ -179,11 +186,12 @@
       "address": "Thundorferstraße 3, 93047 Regensburg",
       "locality": "Regensburg",
       "country": "Germany",
-      "latitude": 49.0209,
-      "longitude": 12.0975,
+      "latitude": 49.020913,
+      "longitude": 12.097557,
       "wantToGo": true,
       "notes": "A tiny sausage kitchen beside the Stone Bridge that has been feeding the riverfront for centuries. Small grilled sausages, house sweet mustard and sauerkraut, eaten at shared tables.",
-      "section": "Regensburg"
+      "section": "Regensburg",
+      "appleMapsID": "IBB38F5B26E3D20B0"
     },
     {
       "id": "guide:christmas-markets-germany/dresden-striezelmarkt",
@@ -192,8 +200,8 @@
       "address": "Altmarkt, 01067 Dresden",
       "locality": "Dresden",
       "country": "Germany",
-      "latitude": 51.0496,
-      "longitude": 13.7379,
+      "latitude": 51.049201,
+      "longitude": 13.737864,
       "wantToGo": true,
       "notes": "One of Germany's oldest Christmas markets, named for the Striezel, the loaf now called Dresdner Stollen. Look for the giant step pyramid, Erzgebirge wood carvings, smoking men and Pulsnitz gingerbread.",
       "section": "Dresden"
@@ -205,11 +213,12 @@
       "address": "Stallhof, Schloßstraße, 01067 Dresden",
       "locality": "Dresden",
       "country": "Germany",
-      "latitude": 51.0526,
-      "longitude": 13.7389,
+      "latitude": 51.052572,
+      "longitude": 13.73926,
       "wantToGo": true,
       "notes": "A medieval-style market in the arcaded former tournament yard of the royal palace, behind the Fürstenzug mural. Expect craftspeople at work, live music, firelight and no plastic. Admission is charged on some days; check the official site.",
-      "section": "Dresden"
+      "section": "Dresden",
+      "appleMapsID": "I24C758C98BEBE17A"
     },
     {
       "id": "guide:christmas-markets-germany/hotel-taschenbergpalais",
@@ -218,11 +227,12 @@
       "address": "Taschenberg 3, 01067 Dresden",
       "locality": "Dresden",
       "country": "Germany",
-      "latitude": 51.0519,
-      "longitude": 13.7363,
+      "latitude": 51.051808,
+      "longitude": 13.736247,
       "wantToGo": true,
       "notes": "A rebuilt baroque palace across from the Zwinger and next to the royal palace. The grand-hotel choice in Dresden, within walking distance of every market in the old town.",
-      "section": "Dresden"
+      "section": "Dresden",
+      "appleMapsID": "I15A053EDDEA6214D"
     },
     {
       "id": "guide:christmas-markets-germany/pulverturm-dresden",
@@ -231,11 +241,12 @@
       "address": "An der Frauenkirche 12, 01067 Dresden",
       "locality": "Dresden",
       "country": "Germany",
-      "latitude": 51.0522,
-      "longitude": 13.7425,
+      "latitude": 51.052267,
+      "longitude": 13.742685,
       "wantToGo": true,
       "notes": "A large vaulted cellar restaurant beside the Frauenkirche, in the 16th-century gunpowder tower of the old city defenses. Saxon roasts and costumed performers in a setting that leans into the history.",
-      "section": "Dresden"
+      "section": "Dresden",
+      "appleMapsID": "I20C16E99A7D9D8A0"
     },
     {
       "id": "guide:christmas-markets-germany/erfurt-christmas-market",
@@ -244,8 +255,8 @@
       "address": "Domplatz, 99084 Erfurt",
       "locality": "Erfurt",
       "country": "Germany",
-      "latitude": 50.9775,
-      "longitude": 11.0228,
+      "latitude": 50.977708,
+      "longitude": 11.024465,
       "wantToGo": true,
       "notes": "Set on the wide cathedral square below the steps of the cathedral and St. Severus, which are lit up at night. Thuringian bratwurst grilled over charcoal and a large wooden pyramid are the signatures.",
       "section": "Erfurt"
@@ -257,8 +268,8 @@
       "address": "Markt, 23552 Lübeck",
       "locality": "Lübeck",
       "country": "Germany",
-      "latitude": 53.8666,
-      "longitude": 10.6849,
+      "latitude": 53.866598,
+      "longitude": 10.684814,
       "wantToGo": true,
       "notes": "The heart of Lübeck's spread of markets, set against the dark brick town hall in a Hanseatic old town on an island. Other themed markets fill nearby squares and church courtyards.",
       "section": "Lübeck"
@@ -270,11 +281,12 @@
       "address": "Breite Straße 89, 23552 Lübeck",
       "locality": "Lübeck",
       "country": "Germany",
-      "latitude": 53.8666,
-      "longitude": 10.6858,
+      "latitude": 53.86656,
+      "longitude": 10.68579,
       "wantToGo": true,
       "notes": "Lübeck's famous marzipan house, opposite the town hall, with a shop downstairs and a café upstairs. Try the marzipan torte with coffee after a round of the market.",
-      "section": "Lübeck"
+      "section": "Lübeck",
+      "appleMapsID": "I99132067C27D2420"
     },
     {
       "id": "guide:christmas-markets-germany/cologne-cathedral-christmas-market",
@@ -283,8 +295,8 @@
       "address": "Roncalliplatz, 50667 Cologne",
       "locality": "Cologne",
       "country": "Germany",
-      "latitude": 50.9405,
-      "longitude": 6.9577,
+      "latitude": 50.940276,
+      "longitude": 6.958957,
       "wantToGo": true,
       "notes": "Red-roofed stalls under a canopy of lights right at the foot of the cathedral. The setting is the draw; it gets very crowded, so weekday afternoons are easiest.",
       "section": "Cologne"
@@ -296,8 +308,8 @@
       "address": "Alter Markt, 50667 Köln",
       "locality": "Cologne",
       "country": "Germany",
-      "latitude": 50.9385,
-      "longitude": 6.9597,
+      "latitude": 50.938648,
+      "longitude": 6.960068,
       "wantToGo": true,
       "notes": "The old-town market on Alter Markt and Heumarkt, built around the legend of the Heinzelmännchen, Cologne's helpful house elves. Heumarkt has an ice rink in winter, and the gabled houses make a fine backdrop.",
       "section": "Cologne"
@@ -309,8 +321,8 @@
       "address": "Neumarkt, 50667 Cologne",
       "locality": "Cologne",
       "country": "Germany",
-      "latitude": 50.9358,
-      "longitude": 6.9478,
+      "latitude": 50.93566,
+      "longitude": 6.947521,
       "wantToGo": true,
       "notes": "Cologne's angel market on Neumarkt, with lanes under a canopy of star lights and costumed angels and stilt figures wandering through. Calmer than the cathedral market.",
       "section": "Cologne"
@@ -322,11 +334,12 @@
       "address": "Am Hof 12-18, 50667 Cologne",
       "locality": "Cologne",
       "country": "Germany",
-      "latitude": 50.9398,
-      "longitude": 6.957,
+      "latitude": 50.939831,
+      "longitude": 6.957077,
       "wantToGo": true,
       "notes": "A big, classic Cologne brewhouse a block from the cathedral. Blue-aproned servers keep the small glasses of Kölsch coming until you set a coaster on top.",
-      "section": "Cologne"
+      "section": "Cologne",
+      "appleMapsID": "I49F43DC9DE0B5A9E"
     },
     {
       "id": "guide:christmas-markets-germany/excelsior-hotel-ernst",
@@ -335,11 +348,12 @@
       "address": "Trankgasse 1, 50667 Cologne",
       "locality": "Cologne",
       "country": "Germany",
-      "latitude": 50.9422,
-      "longitude": 6.9563,
+      "latitude": 50.941884,
+      "longitude": 6.956567,
       "wantToGo": true,
       "notes": "Cologne's grand old hotel, directly beside the cathedral and a short walk from Roncalliplatz. Formal and expensive, with a long history of royal and celebrity guests.",
-      "section": "Cologne"
+      "section": "Cologne",
+      "appleMapsID": "IEA698AA83058A293"
     },
     {
       "id": "guide:christmas-markets-germany/aachen-christmas-market",
@@ -348,8 +362,8 @@
       "address": "Markt, 52062 Aachen",
       "locality": "Aachen",
       "country": "Germany",
-      "latitude": 50.7763,
-      "longitude": 6.0837,
+      "latitude": 50.776307,
+      "longitude": 6.083174,
       "wantToGo": true,
       "notes": "Stalls wind between the Gothic town hall and Charlemagne's cathedral, across the Markt and Katschhof. Aachen Printen, a hard spiced gingerbread, is the thing to buy.",
       "section": "Aachen"
@@ -361,11 +375,12 @@
       "address": "Büchel 18, 52062 Aachen",
       "locality": "Aachen",
       "country": "Germany",
-      "latitude": 50.7759,
-      "longitude": 6.0855,
+      "latitude": 50.775887,
+      "longitude": 6.085459,
       "wantToGo": true,
       "notes": "The city's oldest café, in a crooked house a few steps from the market, known for its Printen and Belgian-style rice tart. Low beams and old tiles make it a good place to warm up.",
-      "section": "Aachen"
+      "section": "Aachen",
+      "appleMapsID": "IFAFDA65472CC667D"
     },
     {
       "id": "guide:christmas-markets-germany/frankfurt-christmas-market",
@@ -374,11 +389,12 @@
       "address": "Römerberg, 60311 Frankfurt am Main",
       "locality": "Frankfurt",
       "country": "Germany",
-      "latitude": 50.1104,
-      "longitude": 8.6821,
+      "latitude": 50.11042,
+      "longitude": 8.682144,
       "wantToGo": true,
       "notes": "Centered on the Römerberg in front of the stepped gables of the old town hall, with a tall tree and stalls running toward the river. Try Bethmännchen, a local marzipan sweet, and hot apple wine.",
-      "section": "Frankfurt"
+      "section": "Frankfurt",
+      "appleMapsID": "IC9A9BA3F494C5E37"
     },
     {
       "id": "guide:christmas-markets-germany/apfelwein-wagner",
@@ -387,11 +403,12 @@
       "address": "Schweizer Straße 71, 60594 Frankfurt am Main",
       "locality": "Sachsenhausen",
       "country": "Germany",
-      "latitude": 50.1005,
-      "longitude": 8.682,
+      "latitude": 50.100518,
+      "longitude": 8.682018,
       "wantToGo": true,
       "notes": "A cider tavern in Sachsenhausen, family-owned since 1931 and across the river from the market, with shared tables and apple wine poured from blue stoneware jugs. Order schnitzel with green sauce.",
-      "section": "Frankfurt"
+      "section": "Frankfurt",
+      "appleMapsID": "I295A264FB62B0C80"
     },
     {
       "id": "guide:christmas-markets-germany/stuttgart-christmas-market",
@@ -400,11 +417,12 @@
       "address": "Schillerplatz, 70173 Stuttgart",
       "locality": "Stuttgart",
       "country": "Germany",
-      "latitude": 48.7771,
-      "longitude": 9.1788,
+      "latitude": 48.777157,
+      "longitude": 9.178434,
       "wantToGo": true,
       "notes": "One of the largest markets in Europe, running from Schillerplatz across the Marktplatz and nearby streets. Stallholders compete over the most elaborate roof decorations, which are the reason to come.",
-      "section": "Stuttgart and Esslingen"
+      "section": "Stuttgart and Esslingen",
+      "appleMapsID": "I73AB9A1BEB3D2E99"
     },
     {
       "id": "guide:christmas-markets-germany/esslingen-medieval-christmas-market",
@@ -413,8 +431,8 @@
       "address": "Marktplatz, 73728 Esslingen am Neckar",
       "locality": "Esslingen am Neckar",
       "country": "Germany",
-      "latitude": 48.7427,
-      "longitude": 9.3065,
+      "latitude": 48.74281,
+      "longitude": 9.306069,
       "wantToGo": true,
       "notes": "A medieval market of blacksmiths, jugglers and fire-eaters running alongside a classic Christmas market in a half-timbered old town. A short S-Bahn ride from Stuttgart, and free to enter.",
       "section": "Stuttgart and Esslingen"
@@ -426,11 +444,12 @@
       "address": "Höllsteig 76, 79874 Breitnau",
       "locality": "Breitnau",
       "country": "Germany",
-      "latitude": 47.9172,
-      "longitude": 8.0745,
+      "latitude": 47.917572,
+      "longitude": 8.074449,
       "wantToGo": true,
       "notes": "A small market in a forest gorge directly beneath a lit stone railway viaduct, open only on certain days. Tickets are timed, limited and sell out well ahead; buy only through the official site.",
-      "section": "Black Forest"
+      "section": "Black Forest",
+      "appleMapsID": "I28250EC442C64248"
     },
     {
       "id": "guide:christmas-markets-germany/hofgut-sternen",
@@ -439,11 +458,12 @@
       "address": "Höllsteig 76, 79874 Breitnau",
       "locality": "Breitnau",
       "country": "Germany",
-      "latitude": 47.9166,
-      "longitude": 8.0735,
+      "latitude": 47.916551,
+      "longitude": 8.073476,
       "wantToGo": true,
       "notes": "An old coaching inn at the mouth of the Ravenna Gorge, with a glassblowing workshop and a Black Forest restaurant. Staying here puts you a short walk from the market.",
-      "section": "Black Forest"
+      "section": "Black Forest",
+      "appleMapsID": "ICD45C6DD775A4847"
     },
     {
       "id": "guide:christmas-markets-germany/gengenbach-advent-calendar",
@@ -452,11 +472,12 @@
       "address": "Marktplatz, 77723 Gengenbach",
       "locality": "Gengenbach",
       "country": "Germany",
-      "latitude": 48.4041,
-      "longitude": 8.0153,
+      "latitude": 48.40404,
+      "longitude": 8.015675,
       "wantToGo": true,
       "notes": "Each evening in Advent another of the 24 windows of the baroque town hall is lit to reveal a new artwork, with a small market on the square below. Check the official site, since the facade can change during renovation work.",
-      "section": "Black Forest"
+      "section": "Black Forest",
+      "appleMapsID": "IC52BBF5CCA1D2CF8"
     }
   ]
 }

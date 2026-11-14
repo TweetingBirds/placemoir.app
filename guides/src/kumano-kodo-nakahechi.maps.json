@@ -1,0 +1,162 @@
+{
+  "blue-sky-guesthouse": {
+    "address": "1526, Hongucho Hongu, Tanabe, Wakayama, Japan 647-1731",
+    "appleMapsID": "ID32D096204D7CD29",
+    "latitude": 33.834637,
+    "longitude": 135.770664,
+    "name": "Aozora Guest House"
+  },
+  "cafe-alma": {
+    "address": "〒647-1731, 和歌山県田辺市, 本宮町本宮195-3 熊野本宮大社 瑞鳳殿内",
+    "appleMapsID": "I2F8990D60158AAA",
+    "latitude": 33.839004,
+    "longitude": 135.774155,
+    "name": "cafe alma"
+  },
+  "fushiogami-oji": {
+    "address": "300-2, Hongucho Fushiogami, Tanabe, Wakayama, Japan 647-1743",
+    "appleMapsID": "IAACF24BFDDD04A06",
+    "latitude": 33.859993,
+    "longitude": 135.756945,
+    "name": "Fushiogami Ojiato"
+  },
+  "hotel-urashima": {
+    "address": "1165-2, Katsuura, Nachikatsuura,Wakayama, Japan 649-5334",
+    "appleMapsID": "ID4838AC0D1B05159",
+    "latitude": 33.625461,
+    "longitude": 135.951095,
+    "name": "Hotel Urashima"
+  },
+  "j-hoppers-kumano-yunomine": {
+    "address": "〒647-1732, 和歌山県田辺市, 本宮町湯峯161",
+    "appleMapsID": "I455157175545A254",
+    "latitude": 33.829712,
+    "longitude": 135.758223,
+    "name": "J-Hoppers Kumano Yumine Guest House"
+  },
+  "kamikura-jinja": {
+    "address": "Kamikura, Shingu, Wakayama, Japan",
+    "latitude": 33.721869,
+    "longitude": 135.986257,
+    "name": "Kamikura"
+  },
+  "katsuura-fish-market": {
+    "address": "〒649-5335, 和歌山県東牟婁郡那智勝浦町, 築地7丁目8-2",
+    "appleMapsID": "IBEA368AB436D4AD5",
+    "latitude": 33.626108,
+    "longitude": 135.943735,
+    "name": "Katsuura Gyokyo Regional Wholesale Market"
+  },
+  "kiri-no-sato-takahara-lodge": {
+    "address": "霧の郷たかはら, 826, Nakahechicho Takahara, Tanabe, Wakayama, Japan 646-1416",
+    "appleMapsID": "IF75D3A0BBF159BB4",
+    "latitude": 33.796246,
+    "longitude": 135.53233,
+    "name": "Kumano Kodo-no-Yado Kiri-no-Sato Takahara"
+  },
+  "kumano-hayatama-taisha": {
+    "address": "1, Shingu, Shingu, Wakayama, Japan 647-0081",
+    "appleMapsID": "ID1DE5F0C41CCCABD",
+    "latitude": 33.732155,
+    "longitude": 135.983545,
+    "name": "Kumano Hayatama Taisha"
+  },
+  "kumano-hongu-heritage-center": {
+    "address": "熊野本宮館, 100-1, Hongucho Hongu, Tanabe, Wakayama, Japan 647-1731",
+    "appleMapsID": "I14047BC3C0B18D4A",
+    "latitude": 33.838458,
+    "longitude": 135.775781,
+    "name": "Kumano Hongukan"
+  },
+  "kumano-hongu-taisha": {
+    "address": "〒647-1731, 和歌山県田辺市, 本宮町本宮",
+    "appleMapsID": "IDABA13CE6934A67",
+    "latitude": 33.840262,
+    "longitude": 135.773619,
+    "name": "Kumano Hongu Taisha"
+  },
+  "kumano-kodo-kan-pilgrimage-center": {
+    "address": "〒646-1421, 和歌山県田辺市, 中辺路町栗栖川1222-1",
+    "appleMapsID": "ID464B4E11AEBF26D",
+    "latitude": 33.774769,
+    "longitude": 135.503743,
+    "name": "Kumano Kodokan"
+  },
+  "kumano-nachi-taisha": {
+    "address": "〒649-5301, 和歌山県東牟婁郡那智勝浦町, 那智山1",
+    "appleMapsID": "I3319B78B6983BC3A",
+    "latitude": 33.668664,
+    "longitude": 135.890027,
+    "name": "Kumano Nachi-taisha Shrine"
+  },
+  "minshuku-chikatsuyu": {
+    "address": "401-12, Nakahechicho Chikatsuyu, Tanabe, Wakayama, Japan 646-1402",
+    "appleMapsID": "IC6BAE911ADC400F6",
+    "latitude": 33.816781,
+    "longitude": 135.605805,
+    "name": "Chikatsuyu Guesthouse"
+  },
+  "miyoshiya-ryokan": {
+    "address": "31-2, Minato, Tanabe, Wakayama, Japan 646-0031",
+    "appleMapsID": "I7F5E4E1E0A34C1CC",
+    "latitude": 33.730625,
+    "longitude": 135.385645,
+    "name": "Miyoshiya Inn"
+  },
+  "nachi-falls": {
+    "address": "〒649-5301, 東牟婁郡那智勝浦町, 那智山1",
+    "appleMapsID": "I71C232B366C802EE",
+    "latitude": 33.675384,
+    "longitude": 135.88757,
+    "name": "Nachi-no-taki Falls"
+  },
+  "ryokan-adumaya": {
+    "address": "〒647-1732, 和歌山県田辺市, 本宮町湯の峰122",
+    "appleMapsID": "IF0B665988B15609B",
+    "latitude": 33.828915,
+    "longitude": 135.757228,
+    "name": "Ryokan Adumaya"
+  },
+  "seiganto-ji": {
+    "address": "〒649-5301, 和歌山県東牟婁郡, 那智勝浦町那智山8",
+    "appleMapsID": "I4D6A052EC89BAC39",
+    "latitude": 33.669167,
+    "longitude": 135.889868,
+    "name": "Nachisan Seiganto-ji Temple"
+  },
+  "tanabe-tourist-information-center": {
+    "address": "田辺市観光センター, 1-20, Minato, Tanabe, Wakayama, Japan 646-0031",
+    "appleMapsID": "ICB9720AB8BE0F2C3",
+    "latitude": 33.732826,
+    "longitude": 135.384402,
+    "name": "Tanabe Tourist Information Center"
+  },
+  "toganoki-jaya": {
+    "address": "615-1, Nakahechicho Nonaka, Tanabe, Wakayama, Japan 646-1401",
+    "appleMapsID": "I964C848FEDE62BCC",
+    "latitude": 33.828232,
+    "longitude": 135.634442,
+    "name": "Toganoki Chaya"
+  },
+  "tokei-jinja": {
+    "address": "1-1, Toyo, Tanabe, Wakayama, Japan 646-0029",
+    "appleMapsID": "I3F6DF345DEDE659D",
+    "latitude": 33.729475,
+    "longitude": 135.383889,
+    "name": "Tokei-jinja Shrine"
+  },
+  "tsuji-no-mochi": {
+    "address": "1, Kitashimmachi, Tanabe, Wakayama, Japan 646-0041",
+    "appleMapsID": "I7BFAF7CD69C4A664",
+    "latitude": 33.733612,
+    "longitude": 135.378928,
+    "name": "Tsuji Mochi"
+  },
+  "yoshinoya-ryokan": {
+    "address": "よしのや旅館, 173, Hongucho Yunomine, Tanabe, Wakayama, Japan 647-1732",
+    "appleMapsID": "I481ABB3CA4382E42",
+    "latitude": 33.829742,
+    "longitude": 135.757853,
+    "name": "Yoshinoya Inn"
+  }
+}

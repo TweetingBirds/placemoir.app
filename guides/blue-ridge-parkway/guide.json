@@ -29,11 +29,12 @@
       "address": "Blue Ridge Pkwy, Milepost 6, Lyndhurst, VA 22952",
       "locality": "Humpback Gap",
       "country": "United States",
-      "latitude": 37.9685,
-      "longitude": -78.8967,
+      "latitude": 37.968298,
+      "longitude": -78.896563,
       "wantToGo": true,
       "notes": "The first real climb south of Rockfish Gap: a short, steep trail from Humpback Gap to a bare rock summit over the Shenandoah Valley. The visitor center and pioneer farm buildings are just up the road at milepost 5.8.",
-      "section": "Day 1 · Rockfish Gap to Peaks of Otter · 86 mi"
+      "section": "Day 1 · Rockfish Gap to Peaks of Otter · 86 mi",
+      "appleMapsID": "ID6EB2E240910E224"
     },
     {
       "id": "guide:blue-ridge-parkway/ravens-roost-overlook",
@@ -42,11 +43,12 @@
       "address": "Blue Ridge Pkwy, Milepost 10.7, Lyndhurst, VA 22952",
       "locality": "Augusta County",
       "country": "United States",
-      "latitude": 37.9337,
-      "longitude": -78.9529,
+      "latitude": 37.933704,
+      "longitude": -78.95278,
       "wantToGo": true,
       "notes": "A cliff-edge pullout facing west over the Shenandoah Valley and Torry Mountain. Rock climbers use the ledge; everyone else comes for the late-afternoon light.",
-      "section": "Day 1 · Rockfish Gap to Peaks of Otter · 86 mi"
+      "section": "Day 1 · Rockfish Gap to Peaks of Otter · 86 mi",
+      "appleMapsID": "I78A2EAD521561C95"
     },
     {
       "id": "guide:blue-ridge-parkway/devils-backbone-basecamp",
@@ -55,11 +57,12 @@
       "address": "200 Crandall Run, Roseland, VA 22967",
       "locality": "Roseland",
       "country": "United States",
-      "latitude": 37.8713,
-      "longitude": -78.9186,
+      "latitude": 37.87125,
+      "longitude": -78.918618,
       "wantToGo": true,
       "notes": "A big timber-frame brewpub in the Rockfish Valley, down VA-664 from Reeds Gap. A good lunch or dinner stop, with a lawn out back and a campground nearby run by the same brewery.",
-      "section": "Day 1 · Rockfish Gap to Peaks of Otter · 86 mi"
+      "section": "Day 1 · Rockfish Gap to Peaks of Otter · 86 mi",
+      "appleMapsID": "ID0DFABF5D84FDB41"
     },
     {
       "id": "guide:blue-ridge-parkway/crabtree-falls-va",
@@ -68,11 +71,12 @@
       "address": "11581 Crabtree Falls Hwy, Tyro, VA 22976",
       "locality": "Tyro",
       "country": "United States",
-      "latitude": 37.8511,
-      "longitude": -79.0797,
+      "latitude": 37.850792,
+      "longitude": -79.079109,
       "wantToGo": true,
       "notes": "A string of cascades dropping more than 1,000 feet, reached by a short detour down VA-56 from milepost 27. The lower overlook is a few minutes from the lot; the full climb to the top takes a couple of hours round trip.",
-      "section": "Day 1 · Rockfish Gap to Peaks of Otter · 86 mi"
+      "section": "Day 1 · Rockfish Gap to Peaks of Otter · 86 mi",
+      "appleMapsID": "I9178083A43E82B97"
     },
     {
       "id": "guide:blue-ridge-parkway/yankee-horse-ridge",
@@ -81,11 +85,12 @@
       "address": "Blue Ridge Pkwy, Milepost 34.4, Vesuvius, VA 24483",
       "locality": "Rockbridge County",
       "country": "United States",
-      "latitude": 37.8094,
-      "longitude": -79.1796,
+      "latitude": 37.809364,
+      "longitude": -79.179741,
       "wantToGo": true,
       "notes": "A pullout with a rebuilt stretch of narrow-gauge logging railroad and a short walk to Wigwam Falls. A quick leg-stretch on the way down to the James River.",
-      "section": "Day 1 · Rockfish Gap to Peaks of Otter · 86 mi"
+      "section": "Day 1 · Rockfish Gap to Peaks of Otter · 86 mi",
+      "appleMapsID": "IA4AD58C426C2FA3D"
     },
     {
       "id": "guide:blue-ridge-parkway/natural-bridge-state-park",
@@ -94,11 +99,12 @@
       "address": "6477 S Lee Hwy, Natural Bridge, VA 24578",
       "locality": "Natural Bridge",
       "country": "United States",
-      "latitude": 37.6289,
-      "longitude": -79.5452,
+      "latitude": 37.62844,
+      "longitude": -79.543505,
       "wantToGo": true,
       "notes": "A 200-foot limestone arch over Cedar Creek, about a half-hour off the parkway near the James River crossing. The creekside trail runs under the bridge past Saltpeter Cave to Lace Falls. Worth the detour if you have a spare afternoon.",
-      "section": "Day 1 · Rockfish Gap to Peaks of Otter · 86 mi"
+      "section": "Day 1 · Rockfish Gap to Peaks of Otter · 86 mi",
+      "appleMapsID": "I5297A871B5D1B936"
     },
     {
       "id": "guide:blue-ridge-parkway/james-river-visitor-center",
@@ -107,11 +113,12 @@
       "address": "Blue Ridge Pkwy, Milepost 63.6, Big Island, VA 24526",
       "locality": "Big Island",
       "country": "United States",
-      "latitude": 37.5552,
-      "longitude": -79.3659,
+      "latitude": 37.555152,
+      "longitude": -79.365886,
       "wantToGo": true,
       "notes": "The parkway's lowest point, where it crosses the James. A footbridge under the road leads to a restored lock from the old James River and Kanawha Canal. Bridge repair work has brought detours here; check NPS road status.",
-      "section": "Day 1 · Rockfish Gap to Peaks of Otter · 86 mi"
+      "section": "Day 1 · Rockfish Gap to Peaks of Otter · 86 mi",
+      "appleMapsID": "I4FD4AEECFCEC7317"
     },
     {
       "id": "guide:blue-ridge-parkway/sunset-field-overlook",
@@ -120,11 +127,12 @@
       "address": "Blue Ridge Pkwy, Milepost 78.4, Buchanan, VA 24066",
       "locality": "Botetourt County",
       "country": "United States",
-      "latitude": 37.5076,
-      "longitude": -79.5239,
+      "latitude": 37.507703,
+      "longitude": -79.523953,
       "wantToGo": true,
       "notes": "Trailhead for Apple Orchard Falls, a 200-foot falls reached by a steep descent through a hardwood cove. Plan on a couple of hours and save energy for the climb back up.",
-      "section": "Day 1 · Rockfish Gap to Peaks of Otter · 86 mi"
+      "section": "Day 1 · Rockfish Gap to Peaks of Otter · 86 mi",
+      "appleMapsID": "I94BD4A935F0CAE5E"
     },
     {
       "id": "guide:blue-ridge-parkway/peaks-of-otter-visitor-center",
@@ -133,11 +141,12 @@
       "address": "85919 Blue Ridge Pkwy, Bedford, VA 24523",
       "locality": "Peaks of Otter",
       "country": "United States",
-      "latitude": 37.4456,
-      "longitude": -79.61,
+      "latitude": 37.445619,
+      "longitude": -79.609887,
       "wantToGo": true,
       "notes": "Ranger desk and exhibits at the foot of Sharp Top. From here you can walk to the restored Johnson Farm or loop around Abbott Lake.",
-      "section": "Day 1 · Rockfish Gap to Peaks of Otter · 86 mi"
+      "section": "Day 1 · Rockfish Gap to Peaks of Otter · 86 mi",
+      "appleMapsID": "ICC2F89F804DD97F8"
     },
     {
       "id": "guide:blue-ridge-parkway/sharp-top-trail",
@@ -146,11 +155,12 @@
       "address": "Blue Ridge Pkwy, Milepost 86, Bedford, VA 24523",
       "locality": "Peaks of Otter",
       "country": "United States",
-      "latitude": 37.4429,
-      "longitude": -79.6093,
+      "latitude": 37.443211,
+      "longitude": -79.609305,
       "wantToGo": true,
       "notes": "A stiff climb up stone steps to the rocky summit of Sharp Top, with a full circle of views across the Piedmont and the ridges. Start early on fall weekends, when the lot fills.",
-      "section": "Day 1 · Rockfish Gap to Peaks of Otter · 86 mi"
+      "section": "Day 1 · Rockfish Gap to Peaks of Otter · 86 mi",
+      "appleMapsID": "I4C66241A5F2EC46F"
     },
     {
       "id": "guide:blue-ridge-parkway/peaks-of-otter-lodge",
@@ -159,11 +169,12 @@
       "address": "85554 Blue Ridge Pkwy, Bedford, VA 24523",
       "locality": "Peaks of Otter",
       "country": "United States",
-      "latitude": 37.4481,
-      "longitude": -79.6046,
+      "latitude": 37.448068,
+      "longitude": -79.60456,
       "wantToGo": true,
       "notes": "The only lodge on the Virginia side of the parkway, set on Abbott Lake with every room facing the water and Sharp Top. The dining room is the one sit-down meal for miles. Seasonal; book well ahead for October.",
-      "section": "Day 1 · Rockfish Gap to Peaks of Otter · 86 mi"
+      "section": "Day 1 · Rockfish Gap to Peaks of Otter · 86 mi",
+      "appleMapsID": "IA841ADCC926BF4CF"
     },
     {
       "id": "guide:blue-ridge-parkway/explore-park",
@@ -172,11 +183,12 @@
       "address": "3900 Rutrough Rd, Vinton, VA 24014",
       "locality": "Roanoke",
       "country": "United States",
-      "latitude": 37.2383,
-      "longitude": -79.852,
+      "latitude": 37.238305,
+      "longitude": -79.851763,
       "wantToGo": true,
       "notes": "A county park along the Roanoke River at milepost 115 with a parkway visitor center, trails, river access, and cabins, yurts and campsites for an inexpensive night near the road.",
-      "section": "Day 2 · Peaks of Otter to Mabry Mill · 90 mi"
+      "section": "Day 2 · Peaks of Otter to Mabry Mill · 90 mi",
+      "appleMapsID": "IB26EBB0CE3639C6D"
     },
     {
       "id": "guide:blue-ridge-parkway/mill-mountain-star",
@@ -185,11 +197,12 @@
       "address": "2404 Prospect Rd SE, Roanoke, VA 24014",
       "locality": "Roanoke",
       "country": "United States",
-      "latitude": 37.2511,
-      "longitude": -79.9325,
+      "latitude": 37.250866,
+      "longitude": -79.932302,
       "wantToGo": true,
       "notes": "Roanoke's giant neon star on Mill Mountain, reached by a spur road from milepost 120. The overlook takes in the whole city; come back after dark to see it lit.",
-      "section": "Day 2 · Peaks of Otter to Mabry Mill · 90 mi"
+      "section": "Day 2 · Peaks of Otter to Mabry Mill · 90 mi",
+      "appleMapsID": "I41296020D033298"
     },
     {
       "id": "guide:blue-ridge-parkway/hotel-roanoke",
@@ -198,11 +211,12 @@
       "address": "110 Shenandoah Ave NW, Roanoke, VA 24016",
       "locality": "Roanoke",
       "country": "United States",
-      "latitude": 37.2745,
-      "longitude": -79.9398,
+      "latitude": 37.274847,
+      "longitude": -79.940012,
       "wantToGo": true,
       "notes": "The Tudor-style railroad hotel across the tracks from downtown, built in the 1880s and still the city's grand old address. A pedestrian bridge leads straight into the Market district.",
-      "section": "Day 2 · Peaks of Otter to Mabry Mill · 90 mi"
+      "section": "Day 2 · Peaks of Otter to Mabry Mill · 90 mi",
+      "appleMapsID": "I2AB1566B26F2F5D3"
     },
     {
       "id": "guide:blue-ridge-parkway/texas-tavern",
@@ -211,11 +225,12 @@
       "address": "114 W Church Ave, Roanoke, VA 24011",
       "locality": "Roanoke",
       "country": "United States",
-      "latitude": 37.2705,
-      "longitude": -79.9431,
+      "latitude": 37.270343,
+      "longitude": -79.943035,
       "wantToGo": true,
       "notes": "A ten-stool hot dog and chili counter that has been feeding downtown Roanoke since 1930. Order a cheesy western and a bowl of chili, and expect to wait for a seat.",
-      "section": "Day 2 · Peaks of Otter to Mabry Mill · 90 mi"
+      "section": "Day 2 · Peaks of Otter to Mabry Mill · 90 mi",
+      "appleMapsID": "I50E0D03E58A3EF88"
     },
     {
       "id": "guide:blue-ridge-parkway/floyd-country-store",
@@ -224,11 +239,12 @@
       "address": "206 S Locust St, Floyd, VA 24091",
       "locality": "Floyd",
       "country": "United States",
-      "latitude": 36.9104,
-      "longitude": -80.3202,
+      "latitude": 36.910365,
+      "longitude": -80.320289,
       "wantToGo": true,
       "notes": "Old-time and bluegrass music hub in the town of Floyd, about six miles off the parkway on VA-8. Weekend shows pack the floor with flatfoot dancers; check the official site for the music calendar.",
-      "section": "Day 2 · Peaks of Otter to Mabry Mill · 90 mi"
+      "section": "Day 2 · Peaks of Otter to Mabry Mill · 90 mi",
+      "appleMapsID": "I75B5FF46D473E31"
     },
     {
       "id": "guide:blue-ridge-parkway/hotel-floyd",
@@ -237,11 +253,12 @@
       "address": "300 Rick Lewis Way, Floyd, VA 24091",
       "locality": "Floyd",
       "country": "United States",
-      "latitude": 36.9103,
-      "longitude": -80.3186,
+      "latitude": 36.910305,
+      "longitude": -80.318226,
       "wantToGo": true,
       "notes": "A small hotel built with green materials a short walk from the Country Store, with rooms named for and furnished by local artists and craftspeople. Handy if you want to stay for a night of music.",
-      "section": "Day 2 · Peaks of Otter to Mabry Mill · 90 mi"
+      "section": "Day 2 · Peaks of Otter to Mabry Mill · 90 mi",
+      "appleMapsID": "I7EC113D2AA3CDAE"
     },
     {
       "id": "guide:blue-ridge-parkway/rock-castle-gorge",
@@ -250,8 +267,8 @@
       "address": "Blue Ridge Pkwy, Milepost 167, Floyd, VA 24091",
       "locality": "Rocky Knob",
       "country": "United States",
-      "latitude": 36.8122,
-      "longitude": -80.3459,
+      "latitude": 36.818543,
+      "longitude": -80.342822,
       "wantToGo": true,
       "notes": "A long, demanding loop that drops from the open meadows of Rocky Knob into a deep gorge and climbs back. For a shorter outing, walk only the grassy ridgetop stretch along the parkway.",
       "section": "Day 2 · Peaks of Otter to Mabry Mill · 90 mi"
@@ -263,11 +280,12 @@
       "address": "291 Winery Rd SW, Floyd, VA 24091",
       "locality": "Floyd",
       "country": "United States",
-      "latitude": 36.7938,
-      "longitude": -80.3939,
+      "latitude": 36.79382,
+      "longitude": -80.39508,
       "wantToGo": true,
       "notes": "A winery just off milepost 171.5 in a big timber-frame building, with a restaurant and tastings. Reservations are a good idea for a meal.",
-      "section": "Day 2 · Peaks of Otter to Mabry Mill · 90 mi"
+      "section": "Day 2 · Peaks of Otter to Mabry Mill · 90 mi",
+      "appleMapsID": "IB515C88CA9CC0CDE"
     },
     {
       "id": "guide:blue-ridge-parkway/mabry-mill",
@@ -276,8 +294,8 @@
       "address": "266 Mabry Mill Rd SE, Meadows of Dan, VA 24120",
       "locality": "Meadows of Dan",
       "country": "United States",
-      "latitude": 36.7509,
-      "longitude": -80.406,
+      "latitude": 36.750136,
+      "longitude": -80.404785,
       "wantToGo": true,
       "notes": "The gristmill on a millpond that ends up on half the parkway postcards. A short path passes a blacksmith shop and other farm buildings. The parkside restaurant has been closed for renovation; check before counting on a meal here.",
       "section": "Day 2 · Peaks of Otter to Mabry Mill · 90 mi"
@@ -289,11 +307,12 @@
       "address": "Blue Ridge Pkwy, Milepost 189.9, Meadows of Dan, VA 24120",
       "locality": "Carroll County",
       "country": "United States",
-      "latitude": 36.6433,
-      "longitude": -80.5473,
+      "latitude": 36.642963,
+      "longitude": -80.54682,
       "wantToGo": true,
       "notes": "The log cabin of Orelena Puckett, a midwife who delivered babies across these hills into the 1930s. A two-minute stop with a good story attached.",
-      "section": "Day 3 · Mabry Mill to Blowing Rock · 116 mi"
+      "section": "Day 3 · Mabry Mill to Blowing Rock · 116 mi",
+      "appleMapsID": "I9FA0E2BAD90C799A"
     },
     {
       "id": "guide:blue-ridge-parkway/blue-ridge-music-center",
@@ -302,11 +321,12 @@
       "address": "700 Foothills Rd, Galax, VA 24333",
       "locality": "Galax",
       "country": "United States",
-      "latitude": 36.5734,
-      "longitude": -80.8501,
+      "latitude": 36.57319,
+      "longitude": -80.849998,
       "wantToGo": true,
       "notes": "Exhibits on the fiddle and banjo traditions of the region, with local musicians often playing on the breezeway and an outdoor amphitheater for summer concerts. Check the official site for the schedule.",
-      "section": "Day 3 · Mabry Mill to Blowing Rock · 116 mi"
+      "section": "Day 3 · Mabry Mill to Blowing Rock · 116 mi",
+      "appleMapsID": "IB9B31B098849FCE9"
     },
     {
       "id": "guide:blue-ridge-parkway/cumberland-knob",
@@ -315,11 +335,12 @@
       "address": "Blue Ridge Pkwy, Milepost 217.5, Ennice, NC 28623",
       "locality": "Surry County",
       "country": "United States",
-      "latitude": 36.5541,
-      "longitude": -80.9069,
+      "latitude": 36.5505,
+      "longitude": -80.90874,
       "wantToGo": true,
       "notes": "Just past the North Carolina line, the first recreation area built on the parkway. An easy loop climbs to the knob, and the Gully Creek trail drops into a ravine for something harder.",
-      "section": "Day 3 · Mabry Mill to Blowing Rock · 116 mi"
+      "section": "Day 3 · Mabry Mill to Blowing Rock · 116 mi",
+      "appleMapsID": "IA606937F0016C1E3"
     },
     {
       "id": "guide:blue-ridge-parkway/brinegar-cabin",
@@ -328,11 +349,12 @@
       "address": "Blue Ridge Pkwy, Milepost 238.5, Laurel Springs, NC 28644",
       "locality": "Doughton Park",
       "country": "United States",
-      "latitude": 36.4187,
-      "longitude": -81.1457,
+      "latitude": 36.418333,
+      "longitude": -81.145556,
       "wantToGo": true,
       "notes": "A homestead cabin and garden at Doughton Park, where the meadows open up on both sides of the road. Good place to watch for deer at dusk.",
-      "section": "Day 3 · Mabry Mill to Blowing Rock · 116 mi"
+      "section": "Day 3 · Mabry Mill to Blowing Rock · 116 mi",
+      "appleMapsID": "I946C2DB960B25ADF"
     },
     {
       "id": "guide:blue-ridge-parkway/the-bluffs-restaurant",
@@ -341,11 +363,12 @@
       "address": "45338 Blue Ridge Pkwy, Laurel Springs, NC 28644",
       "locality": "Doughton Park",
       "country": "United States",
-      "latitude": 36.4018,
-      "longitude": -81.1708,
+      "latitude": 36.433978,
+      "longitude": -81.177268,
       "wantToGo": true,
       "notes": "A parkway coffee shop dating to 1949, with a curved counter and country cooking, reopened with help from the Blue Ridge Parkway Foundation. It is seasonal and has run on limited days, so check its site before planning lunch around it.",
-      "section": "Day 3 · Mabry Mill to Blowing Rock · 116 mi"
+      "section": "Day 3 · Mabry Mill to Blowing Rock · 116 mi",
+      "appleMapsID": "I52187657D239E304"
     },
     {
       "id": "guide:blue-ridge-parkway/eb-jeffress-park",
@@ -354,11 +377,12 @@
       "address": "Blue Ridge Pkwy, Milepost 271.9, Deep Gap, NC 28618",
       "locality": "Deep Gap",
       "country": "United States",
-      "latitude": 36.2478,
-      "longitude": -81.4614,
+      "latitude": 36.247371,
+      "longitude": -81.4568,
       "wantToGo": true,
       "notes": "Trailhead for the Cascades, a short loop through rhododendron to viewing platforms beside a long slide of water down a rock face. Stay behind the railings; the rock is slick.",
-      "section": "Day 3 · Mabry Mill to Blowing Rock · 116 mi"
+      "section": "Day 3 · Mabry Mill to Blowing Rock · 116 mi",
+      "appleMapsID": "IA4D02E3320C928"
     },
     {
       "id": "guide:blue-ridge-parkway/the-blowing-rock",
@@ -367,11 +391,12 @@
       "address": "432 The Rock Rd, Blowing Rock, NC 28605",
       "locality": "Blowing Rock",
       "country": "United States",
-      "latitude": 36.1144,
-      "longitude": -81.6603,
+      "latitude": 36.113978,
+      "longitude": -81.660599,
       "wantToGo": true,
       "notes": "The cliff that gave the town its name, where updrafts out of the Johns River Gorge can push light objects back up. Privately run since the 1930s, with a view to Grandfather Mountain.",
-      "section": "Day 3 · Mabry Mill to Blowing Rock · 116 mi"
+      "section": "Day 3 · Mabry Mill to Blowing Rock · 116 mi",
+      "appleMapsID": "IE7B0CD63FBA83C91"
     },
     {
       "id": "guide:blue-ridge-parkway/blowing-rock-art-history-museum",
@@ -380,11 +405,12 @@
       "address": "159 Ginny Stevens Ln, Blowing Rock, NC 28605",
       "locality": "Blowing Rock",
       "country": "United States",
-      "latitude": 36.1304,
-      "longitude": -81.6793,
+      "latitude": 36.130379,
+      "longitude": -81.679466,
       "wantToGo": true,
       "notes": "A compact museum just off Main Street with rotating shows of Appalachian art and the town's history as a mountain resort. A good rainy-day stop.",
-      "section": "Day 3 · Mabry Mill to Blowing Rock · 116 mi"
+      "section": "Day 3 · Mabry Mill to Blowing Rock · 116 mi",
+      "appleMapsID": "IF3A0B81DA5195287"
     },
     {
       "id": "guide:blue-ridge-parkway/speckled-trout",
@@ -393,11 +419,12 @@
       "address": "922 Main St, Blowing Rock, NC 28605",
       "locality": "Blowing Rock",
       "country": "United States",
-      "latitude": 36.1352,
-      "longitude": -81.6781,
+      "latitude": 36.135169,
+      "longitude": -81.678052,
       "wantToGo": true,
       "notes": "A long-running Main Street restaurant where mountain trout is the dish to order. Easy to walk to from most of the town's inns.",
-      "section": "Day 3 · Mabry Mill to Blowing Rock · 116 mi"
+      "section": "Day 3 · Mabry Mill to Blowing Rock · 116 mi",
+      "appleMapsID": "I449C12F26D06EB8B"
     },
     {
       "id": "guide:blue-ridge-parkway/green-park-inn",
@@ -406,11 +433,12 @@
       "address": "9239 Valley Blvd, Blowing Rock, NC 28605",
       "locality": "Blowing Rock",
       "country": "United States",
-      "latitude": 36.1186,
-      "longitude": -81.6604,
+      "latitude": 36.118442,
+      "longitude": -81.660143,
       "wantToGo": true,
       "notes": "A white clapboard hotel from the late 1800s sitting right on the Eastern Continental Divide. Old-fashioned rooms, a wide porch and the Divide Tavern, which straddles the line.",
-      "section": "Day 3 · Mabry Mill to Blowing Rock · 116 mi"
+      "section": "Day 3 · Mabry Mill to Blowing Rock · 116 mi",
+      "appleMapsID": "I1FDC31DBE6992FE7"
     },
     {
       "id": "guide:blue-ridge-parkway/chetola-resort",
@@ -419,11 +447,12 @@
       "address": "185 Chetola Lake Dr, Blowing Rock, NC 28605",
       "locality": "Blowing Rock",
       "country": "United States",
-      "latitude": 36.1366,
-      "longitude": -81.6718,
+      "latitude": 36.139595,
+      "longitude": -81.67323,
       "wantToGo": true,
       "notes": "A lakeside resort on an old estate at the edge of town, a short walk from Main Street and a few minutes from Moses Cone. The splurge stay of the trip.",
-      "section": "Day 3 · Mabry Mill to Blowing Rock · 116 mi"
+      "section": "Day 3 · Mabry Mill to Blowing Rock · 116 mi",
+      "appleMapsID": "I21E4B82EEB542727"
     },
     {
       "id": "guide:blue-ridge-parkway/flat-top-manor",
@@ -432,11 +461,12 @@
       "address": "Blue Ridge Pkwy, Milepost 294, Blowing Rock, NC 28605",
       "locality": "Blowing Rock",
       "country": "United States",
-      "latitude": 36.1491,
-      "longitude": -81.6929,
+      "latitude": 36.1492,
+      "longitude": -81.692959,
       "wantToGo": true,
       "notes": "Flat Top Manor, a 1901 summer house with a long porch facing Bass Lake, now holds a craft shop of the Southern Highland Craft Guild. Miles of old carriage roads wind around the estate for walking or riding.",
-      "section": "Day 4 · Blowing Rock to Asheville · 90 mi"
+      "section": "Day 4 · Blowing Rock to Asheville · 90 mi",
+      "appleMapsID": "IA51566D47915DDB2"
     },
     {
       "id": "guide:blue-ridge-parkway/price-lake",
@@ -445,8 +475,8 @@
       "address": "Blue Ridge Pkwy, Milepost 297, Blowing Rock, NC 28605",
       "locality": "Julian Price Park",
       "country": "United States",
-      "latitude": 36.1356,
-      "longitude": -81.7354,
+      "latitude": 36.136193,
+      "longitude": -81.734019,
       "wantToGo": true,
       "notes": "A still mountain lake with Grandfather Mountain reflected in it on calm mornings. A flat trail loops all the way around the shore.",
       "section": "Day 4 · Blowing Rock to Asheville · 90 mi"
@@ -458,11 +488,12 @@
       "address": "Blue Ridge Pkwy, Milepost 297, Blowing Rock, NC 28605",
       "locality": "Julian Price Park",
       "country": "United States",
-      "latitude": 36.1404,
-      "longitude": -81.7391,
+      "latitude": 36.138886,
+      "longitude": -81.737059,
       "wantToGo": true,
       "notes": "The parkway's biggest campground, with lakeside tent sites and an easy walk to Price Lake. The budget way to sleep near Blowing Rock; reserve through Recreation.gov.",
-      "section": "Day 4 · Blowing Rock to Asheville · 90 mi"
+      "section": "Day 4 · Blowing Rock to Asheville · 90 mi",
+      "appleMapsID": "IF8646C8A08AB874"
     },
     {
       "id": "guide:blue-ridge-parkway/linn-cove-viaduct",
@@ -471,11 +502,12 @@
       "address": "Blue Ridge Pkwy, Milepost 304, Linville, NC 28646",
       "locality": "Grandfather Mountain",
       "country": "United States",
-      "latitude": 36.0934,
-      "longitude": -81.813,
+      "latitude": 36.093158,
+      "longitude": -81.81318,
       "wantToGo": true,
       "notes": "The S-curved concrete bridge that wraps the side of Grandfather Mountain, the last piece of the parkway finished, in 1987. The Tanawha Trail passes underneath for the classic view from below.",
-      "section": "Day 4 · Blowing Rock to Asheville · 90 mi"
+      "section": "Day 4 · Blowing Rock to Asheville · 90 mi",
+      "appleMapsID": "I4FCD873C75EC9BD2"
     },
     {
       "id": "guide:blue-ridge-parkway/grandfather-mountain",
@@ -497,11 +529,12 @@
       "address": "Linville Falls Spur Rd, Linville Falls, NC 28647",
       "locality": "Linville Falls",
       "country": "United States",
-      "latitude": 35.9554,
-      "longitude": -81.9281,
+      "latitude": 35.954535,
+      "longitude": -81.927742,
       "wantToGo": true,
       "notes": "The falls where the Linville River drops into Linville Gorge. The spur road and trails have reopened after Helene, but some facilities nearby, including the campground and picnic area, remain closed; check the NPS site.",
-      "section": "Day 4 · Blowing Rock to Asheville · 90 mi"
+      "section": "Day 4 · Blowing Rock to Asheville · 90 mi",
+      "appleMapsID": "I3983A7BD8492B324"
     },
     {
       "id": "guide:blue-ridge-parkway/famous-louises-rock-house",
@@ -510,11 +543,12 @@
       "address": "23175 Linville Falls Hwy, Linville Falls, NC 28647",
       "locality": "Linville Falls",
       "country": "United States",
-      "latitude": 35.9589,
-      "longitude": -81.9431,
+      "latitude": 35.958843,
+      "longitude": -81.942772,
       "wantToGo": true,
       "notes": "A 1930s stone tavern where three counties meet, serving country breakfasts, ribs and homemade pies. A short hop from the Linville Falls exit.",
-      "section": "Day 4 · Blowing Rock to Asheville · 90 mi"
+      "section": "Day 4 · Blowing Rock to Asheville · 90 mi",
+      "appleMapsID": "I570613E91B3D52B5"
     },
     {
       "id": "guide:blue-ridge-parkway/switzerland-inn",
@@ -523,11 +557,12 @@
       "address": "86 High Ridge Rd, Little Switzerland, NC 28749",
       "locality": "Little Switzerland",
       "country": "United States",
-      "latitude": 35.8502,
-      "longitude": -82.0907,
+      "latitude": 35.849873,
+      "longitude": -82.090896,
       "wantToGo": true,
       "notes": "A Swiss-chalet style inn in the old resort village of Little Switzerland, reached from milepost 334, with rooms looking off the edge of the ridge. South of here the parkway has had long Helene repair closures; check NPS road status for the detour.",
-      "section": "Day 4 · Blowing Rock to Asheville · 90 mi"
+      "section": "Day 4 · Blowing Rock to Asheville · 90 mi",
+      "appleMapsID": "IA07FC5A386F601C0"
     },
     {
       "id": "guide:blue-ridge-parkway/mount-mitchell-state-park",
@@ -536,11 +571,12 @@
       "address": "2388 NC-128, Burnsville, NC 28714",
       "locality": "Black Mountains",
       "country": "United States",
-      "latitude": 35.7528,
-      "longitude": -82.2737,
+      "latitude": 35.77095,
+      "longitude": -82.263178,
       "wantToGo": true,
       "notes": "The highest summit east of the Mississippi, reached by NC-128 from milepost 355. A short paved path climbs from the summit lot to an observation deck. The park closes often in winter, and the top can be much colder than the valleys.",
-      "section": "Day 4 · Blowing Rock to Asheville · 90 mi"
+      "section": "Day 4 · Blowing Rock to Asheville · 90 mi",
+      "appleMapsID": "I3BFB9F8557554FC2"
     },
     {
       "id": "guide:blue-ridge-parkway/craggy-gardens",
@@ -549,11 +585,12 @@
       "address": "Blue Ridge Pkwy, Milepost 364.5, Barnardsville, NC 28709",
       "locality": "Craggy Gardens",
       "country": "United States",
-      "latitude": 35.7003,
-      "longitude": -82.3796,
+      "latitude": 35.700266,
+      "longitude": -82.379644,
       "wantToGo": true,
       "notes": "Grassy balds covered in rhododendron. A trail from the visitor center climbs to the bald, and the Craggy Pinnacle trail starts from a lot just north for a ring of views. Some trails and the picnic area may be closed; check the NPS site.",
-      "section": "Day 4 · Blowing Rock to Asheville · 90 mi"
+      "section": "Day 4 · Blowing Rock to Asheville · 90 mi",
+      "appleMapsID": "I81A21F38B2E4B43E"
     },
     {
       "id": "guide:blue-ridge-parkway/folk-art-center",
@@ -562,11 +599,12 @@
       "address": "382 Blue Ridge Pkwy, Asheville, NC 28805",
       "locality": "Asheville",
       "country": "United States",
-      "latitude": 35.5927,
-      "longitude": -82.4817,
+      "latitude": 35.592857,
+      "longitude": -82.482184,
       "wantToGo": true,
       "notes": "Home of the Southern Highland Craft Guild, with a gallery of historic Appalachian crafts and a shop selling work by guild members. Craftspeople often demonstrate in the lobby.",
-      "section": "Day 4 · Blowing Rock to Asheville · 90 mi"
+      "section": "Day 4 · Blowing Rock to Asheville · 90 mi",
+      "appleMapsID": "I1C3DCC8EDA3AD846"
     },
     {
       "id": "guide:blue-ridge-parkway/omni-grove-park-inn",
@@ -575,11 +613,12 @@
       "address": "290 Macon Ave, Asheville, NC 28804",
       "locality": "Asheville",
       "country": "United States",
-      "latitude": 35.6202,
-      "longitude": -82.5419,
+      "latitude": 35.620638,
+      "longitude": -82.542298,
       "wantToGo": true,
       "notes": "The granite-boulder resort from 1913 on Sunset Mountain, with fireplaces big enough to stand in and a terrace looking over the city to the Blue Ridge. Stop in for a drink at sunset even if you sleep elsewhere.",
-      "section": "Day 4 · Blowing Rock to Asheville · 90 mi"
+      "section": "Day 4 · Blowing Rock to Asheville · 90 mi",
+      "appleMapsID": "I7298D5F03006FF9A"
     },
     {
       "id": "guide:blue-ridge-parkway/curate",
@@ -588,11 +627,12 @@
       "address": "13 Biltmore Ave, Asheville, NC 28801",
       "locality": "Asheville",
       "country": "United States",
-      "latitude": 35.5942,
-      "longitude": -82.5518,
+      "latitude": 35.59407,
+      "longitude": -82.551699,
       "wantToGo": true,
       "notes": "Downtown Spanish tapas bar with a long counter facing the kitchen. Book ahead, or try for a seat at the bar.",
-      "section": "Day 4 · Blowing Rock to Asheville · 90 mi"
+      "section": "Day 4 · Blowing Rock to Asheville · 90 mi",
+      "appleMapsID": "I1CB9D8047ECFB978"
     },
     {
       "id": "guide:blue-ridge-parkway/french-broad-chocolate-lounge",
@@ -601,11 +641,12 @@
       "address": "10 S Pack Sq, Asheville, NC 28801",
       "locality": "Asheville",
       "country": "United States",
-      "latitude": 35.5949,
-      "longitude": -82.5509,
+      "latitude": 35.594864,
+      "longitude": -82.550926,
       "wantToGo": true,
       "notes": "Truffles, cakes and drinking chocolate on Pack Square. The line moves faster than it looks.",
-      "section": "Day 4 · Blowing Rock to Asheville · 90 mi"
+      "section": "Day 4 · Blowing Rock to Asheville · 90 mi",
+      "appleMapsID": "IE18E2AEEEE9D5DA8"
     },
     {
       "id": "guide:blue-ridge-parkway/sunny-point-cafe",
@@ -614,11 +655,12 @@
       "address": "626 Haywood Rd, Asheville, NC 28806",
       "locality": "West Asheville",
       "country": "United States",
-      "latitude": 35.5786,
-      "longitude": -82.5889,
+      "latitude": 35.578553,
+      "longitude": -82.588869,
       "wantToGo": true,
       "notes": "West Asheville's breakfast institution, with a kitchen garden out front and biscuits worth the wait. Fuel up here before the last day.",
-      "section": "Day 4 · Blowing Rock to Asheville · 90 mi"
+      "section": "Day 4 · Blowing Rock to Asheville · 90 mi",
+      "appleMapsID": "IFED1142486887A97"
     },
     {
       "id": "guide:blue-ridge-parkway/brp-visitor-center-asheville",
@@ -627,11 +669,12 @@
       "address": "195 Hemphill Knob Rd, Asheville, NC 28803",
       "locality": "Asheville",
       "country": "United States",
-      "latitude": 35.5658,
-      "longitude": -82.4863,
+      "latitude": 35.565784,
+      "longitude": -82.486404,
       "wantToGo": true,
       "notes": "The parkway's main visitor center at milepost 384, with a long wall map of the whole road and rangers who know current closures. Good place to plan the final stretch.",
-      "section": "Day 5 · Asheville to Cherokee · 87 mi"
+      "section": "Day 5 · Asheville to Cherokee · 87 mi",
+      "appleMapsID": "I850DE65D1314040B"
     },
     {
       "id": "guide:blue-ridge-parkway/nc-arboretum",
@@ -640,11 +683,12 @@
       "address": "20 Fredrick Law Olmsted Way, Asheville, NC 28806",
       "locality": "Bent Creek",
       "country": "United States",
-      "latitude": 35.4987,
-      "longitude": -82.6101,
+      "latitude": 35.496753,
+      "longitude": -82.606759,
       "wantToGo": true,
       "notes": "Gardens, a bonsai collection and miles of trails in Bent Creek, right off milepost 393. Easy to spend a morning.",
-      "section": "Day 5 · Asheville to Cherokee · 87 mi"
+      "section": "Day 5 · Asheville to Cherokee · 87 mi",
+      "appleMapsID": "IA4AAAC6FAF9BD29B"
     },
     {
       "id": "guide:blue-ridge-parkway/mount-pisgah-trail",
@@ -653,11 +697,12 @@
       "address": "Blue Ridge Pkwy, Milepost 407.6, Canton, NC 28716",
       "locality": "Mount Pisgah",
       "country": "United States",
-      "latitude": 35.4187,
-      "longitude": -82.748,
+      "latitude": 35.425564,
+      "longitude": -82.756777,
       "wantToGo": true,
       "notes": "A rocky, steepening climb of about a mile and a half from the Mount Pisgah parking area to the summit beside the broadcast tower. Views reach back toward Asheville across land George Vanderbilt once owned.",
-      "section": "Day 5 · Asheville to Cherokee · 87 mi"
+      "section": "Day 5 · Asheville to Cherokee · 87 mi",
+      "appleMapsID": "IB88F87CDA3C10971"
     },
     {
       "id": "guide:blue-ridge-parkway/pisgah-inn",
@@ -666,11 +711,12 @@
       "address": "Blue Ridge Pkwy, Milepost 408.6, Canton, NC 28716",
       "locality": "Mount Pisgah",
       "country": "United States",
-      "latitude": 35.4029,
-      "longitude": -82.7538,
+      "latitude": 35.402867,
+      "longitude": -82.753837,
       "wantToGo": true,
       "notes": "A ridgetop motor inn whose rooms look east over the Pisgah forest, with a restaurant facing the same view. Open spring through fall; meals need reservations, so book early.",
-      "section": "Day 5 · Asheville to Cherokee · 87 mi"
+      "section": "Day 5 · Asheville to Cherokee · 87 mi",
+      "appleMapsID": "IBBF2784F54882AEE"
     },
     {
       "id": "guide:blue-ridge-parkway/looking-glass-rock-overlook",
@@ -693,10 +739,11 @@
       "locality": "Pisgah National Forest",
       "country": "United States",
       "latitude": 35.3202,
-      "longitude": -82.8473,
+      "longitude": -82.847193,
       "wantToGo": true,
       "notes": "A high valley of blueberry thickets and waterfalls, with a short walk to Second Falls and a longer one to Upper Falls. The lot overflows on fall weekends; arrive early or late.",
-      "section": "Day 5 · Asheville to Cherokee · 87 mi"
+      "section": "Day 5 · Asheville to Cherokee · 87 mi",
+      "appleMapsID": "I563FC5BB45FFEF8"
     },
     {
       "id": "guide:blue-ridge-parkway/devils-courthouse",
@@ -705,11 +752,12 @@
       "address": "Blue Ridge Pkwy, Milepost 422.4, Brevard, NC 28712",
       "locality": "Pisgah National Forest",
       "country": "United States",
-      "latitude": 35.3028,
-      "longitude": -82.8955,
+      "latitude": 35.30526,
+      "longitude": -82.89927,
       "wantToGo": true,
       "notes": "A short, steep paved trail to a rock summit where you can see into four states on a clear day. Peregrine falcons nest on the cliffs, so parts may close in spring.",
-      "section": "Day 5 · Asheville to Cherokee · 87 mi"
+      "section": "Day 5 · Asheville to Cherokee · 87 mi",
+      "appleMapsID": "IA3E2216125F0811F"
     },
     {
       "id": "guide:blue-ridge-parkway/richland-balsam-overlook",
@@ -718,11 +766,12 @@
       "address": "Blue Ridge Pkwy, Milepost 431.4, Sylva, NC 28779",
       "locality": "Jackson County",
       "country": "United States",
-      "latitude": 35.363,
-      "longitude": -82.9922,
+      "latitude": 35.362933,
+      "longitude": -82.992304,
       "wantToGo": true,
       "notes": "The highest point on the whole parkway, just over 6,000 feet. The self-guiding trail from the Haywood-Jackson Overlook just north loops through spruce-fir forest that feels more like New England than North Carolina.",
-      "section": "Day 5 · Asheville to Cherokee · 87 mi"
+      "section": "Day 5 · Asheville to Cherokee · 87 mi",
+      "appleMapsID": "IDA5767476381090E"
     },
     {
       "id": "guide:blue-ridge-parkway/waterrock-knob",
@@ -731,11 +780,12 @@
       "address": "Blue Ridge Pkwy, Milepost 451.2, Waynesville, NC 28786",
       "locality": "Plott Balsams",
       "country": "United States",
-      "latitude": 35.461,
-      "longitude": -83.1405,
+      "latitude": 35.46018,
+      "longitude": -83.14102,
       "wantToGo": true,
       "notes": "A small visitor center with one of the widest views on the road, looking toward the Great Smoky Mountains. A short, steep trail climbs to the summit.",
-      "section": "Day 5 · Asheville to Cherokee · 87 mi"
+      "section": "Day 5 · Asheville to Cherokee · 87 mi",
+      "appleMapsID": "I4EE9419744D6DA4C"
     },
     {
       "id": "guide:blue-ridge-parkway/oconaluftee-visitor-center",
@@ -744,11 +794,12 @@
       "address": "1194 Newfound Gap Rd, Cherokee, NC 28719",
       "locality": "Great Smoky Mountains",
       "country": "United States",
-      "latitude": 35.5131,
-      "longitude": -83.3061,
+      "latitude": 35.513024,
+      "longitude": -83.30615,
       "wantToGo": true,
       "notes": "Just past the parkway's end at milepost 469, the Great Smoky Mountains entrance. Next door the Mountain Farm Museum gathers log farm buildings, and elk often graze the fields at dawn and dusk.",
-      "section": "Day 5 · Asheville to Cherokee · 87 mi"
+      "section": "Day 5 · Asheville to Cherokee · 87 mi",
+      "appleMapsID": "I1B3A0E3027645A8B"
     },
     {
       "id": "guide:blue-ridge-parkway/museum-of-the-cherokee-people",
@@ -757,11 +808,12 @@
       "address": "589 Tsali Blvd, Cherokee, NC 28719",
       "locality": "Cherokee",
       "country": "United States",
-      "latitude": 35.4845,
-      "longitude": -83.3164,
+      "latitude": 35.484327,
+      "longitude": -83.316203,
       "wantToGo": true,
       "notes": "The Eastern Band of Cherokee Indians' museum, telling the tribe's history in its own voice, from early life in these mountains through removal and the present. Formerly the Museum of the Cherokee Indian.",
-      "section": "Day 5 · Asheville to Cherokee · 87 mi"
+      "section": "Day 5 · Asheville to Cherokee · 87 mi",
+      "appleMapsID": "ID2CD297ED304764"
     },
     {
       "id": "guide:blue-ridge-parkway/native-brews-tap-grill",
@@ -770,11 +822,12 @@
       "address": "1897 Tsali Blvd, Cherokee, NC 28719",
       "locality": "Cherokee",
       "country": "United States",
-      "latitude": 35.5004,
-      "longitude": -83.3063,
+      "latitude": 35.50038,
+      "longitude": -83.306261,
       "wantToGo": true,
       "notes": "A Native-owned grill on the main road through Cherokee, with burgers, trout and beer on tap. A relaxed dinner at the end of the road.",
-      "section": "Day 5 · Asheville to Cherokee · 87 mi"
+      "section": "Day 5 · Asheville to Cherokee · 87 mi",
+      "appleMapsID": "I9A89E14D28A8F9DC"
     }
   ]
 }

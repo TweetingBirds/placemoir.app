@@ -1,0 +1,517 @@
+{
+  "accueil-des-pelerins-saint-jean": {
+    "address": "39 Rue de la Citadelle, 64220 Saint-Jean-Pied-de-Port, France",
+    "appleMapsID": "I766EE6F1E1959F36",
+    "latitude": 43.163483,
+    "longitude": -1.235898,
+    "name": "Office des Pèlerins"
+  },
+  "albergue-arca-o-pino": {
+    "address": "Avenida de Lugo, 30, 15821 O Pino, La Coruña, Spain",
+    "appleMapsID": "I43C98AA5B60417C6",
+    "latitude": 42.907248,
+    "longitude": -8.358846,
+    "name": "Albergue De Peregrinos Arca"
+  },
+  "albergue-benedictinas-leon": {
+    "address": "Calle las Carbajalas, 24003 León, Spain",
+    "latitude": 42.595622,
+    "longitude": -5.56787,
+    "name": "Calle las Carbajalas"
+  },
+  "albergue-casa-del-santo": {
+    "address": "Calle Mayor, 42, 26250 Santo Domingo de la Calzada, Rioja, Spain",
+    "appleMapsID": "I31602A15C9B94788",
+    "latitude": 42.440945,
+    "longitude": -2.952494,
+    "name": "Albergue de Peregrinos Cofradia del Santo"
+  },
+  "albergue-cuatro-cantones": {
+    "address": "Calle de Hipólito López Bernal, 10, 09250 Belorado, Burgos, Spain",
+    "appleMapsID": "IBEFE4BA288F917B3",
+    "latitude": 42.421191,
+    "longitude": -3.190682,
+    "name": "Restaurante Cuatro Cantones"
+  },
+  "albergue-de-portomarin": {
+    "address": "Rúa Fraga Iribarne, 7, 27170 Portomarín, Lugo, Spain",
+    "appleMapsID": "I8359A887E3AF302A",
+    "latitude": 42.808395,
+    "longitude": -7.614979,
+    "name": "Albergue De Peregrinos"
+  },
+  "albergue-de-roncesvalles": {
+    "address": "Carretera N-135, 31650 Roncesvalles, Navarra, Spain",
+    "appleMapsID": "I985ED25772F9933E",
+    "latitude": 43.010216,
+    "longitude": -1.319176,
+    "name": "Albergue de Peregrinos"
+  },
+  "albergue-do-cebreiro": {
+    "address": "Lugar Cebreiro, 17, 27671 Pedrafita do Cebreiro, Lugo, Spain",
+    "appleMapsID": "I4B4195C70F33821A",
+    "latitude": 42.707762,
+    "longitude": -7.045979,
+    "name": "Albergue De Peregrinos De O Cebreiro"
+  },
+  "albergue-en-el-camino-boadilla": {
+    "address": "Calle Francos, 3, 34468 Boadilla del Camino, Palencia, Spain",
+    "appleMapsID": "I720758357AB5A625",
+    "latitude": 42.258203,
+    "longitude": -4.346549,
+    "name": "Albergue En El Camino"
+  },
+  "albergue-isaac-santiago": {
+    "address": "Calle de San Lázaro, 2, 31210 Los Arcos, Navarra, Spain",
+    "latitude": 42.568975,
+    "longitude": -2.194158,
+    "name": "Albergue Isaac Santiago"
+  },
+  "albergue-jacques-de-molay": {
+    "address": "Travesía de la Iglesia, 18, 34349 Terradillos de los Templarios, Palencia, Spain",
+    "appleMapsID": "I93F25169DA527729",
+    "latitude": 42.362662,
+    "longitude": -4.890504,
+    "name": "Hostel Jacques De Molay"
+  },
+  "albergue-jesus-y-maria": {
+    "address": "Calle Compañia, 4, 31001 Pamplona / Iruña, Navarra, Spain",
+    "appleMapsID": "IE0BE007EB9E840C0",
+    "latitude": 42.818919,
+    "longitude": -1.641885,
+    "name": "Albergue De Peregrinos Jesus Y Maria"
+  },
+  "albergue-karl-leisner": {
+    "address": "Calle de Álvarez Vega, 32, 24286 Hospital de Órbigo, León, Spain",
+    "appleMapsID": "IB5A932BCC225272C",
+    "latitude": 42.463569,
+    "longitude": -5.883836,
+    "name": "Albergue Parroquial Karl Leisner"
+  },
+  "albergue-los-templarios": {
+    "address": "Camino Francés, 34349 Lagartos, Palencia, Spain",
+    "appleMapsID": "IF1425D383AEF022D",
+    "latitude": 42.364591,
+    "longitude": -4.884732,
+    "name": "Albergue Los Templarios"
+  },
+  "albergue-municipal-estella": {
+    "address": "Calle de la Rua, 50, 31200 Estella, Navarre, Spain",
+    "appleMapsID": "I4AD8DDD762E30101",
+    "latitude": 42.669903,
+    "longitude": -2.027561,
+    "name": "Albergue Municipal de Estella"
+  },
+  "albergue-municipal-hornillos": {
+    "address": "Calle Real, 13, 09230 Hornillos del Camino, Burgos, Spain",
+    "appleMapsID": "I5B21F1DC7E290478",
+    "latitude": 42.338729,
+    "longitude": -3.926035,
+    "name": "Albergue Municipal de Peregrinos"
+  },
+  "albergue-municipal-logrono": {
+    "address": "Calle Ruavieja, 32, 26001 Logroño, Rioja, Spain",
+    "appleMapsID": "I375FBE8C3861B0EE",
+    "latitude": 42.468307,
+    "longitude": -2.444753,
+    "name": "Albergue de Peregrinos"
+  },
+  "albergue-municipal-mansilla": {
+    "address": "Mansilla de las Mulas, León, Spain",
+    "latitude": 42.496833,
+    "longitude": -5.417184,
+    "name": "Mansilla de las Mulas"
+  },
+  "albergue-municipal-najera": {
+    "address": "Plaza de Santiago, 26300 Nájera, Rioja, Spain",
+    "appleMapsID": "I973B3A578712CEA5",
+    "latitude": 42.415051,
+    "longitude": -2.73409,
+    "name": "Albergue Municipal De Peregrinos"
+  },
+  "albergue-padres-reparadores": {
+    "address": "Paseo Osabidea, 17, 31100 Puente la Reina, Navarra, Spain",
+    "appleMapsID": "IAB2BE26BC363CBEE",
+    "latitude": 42.673434,
+    "longitude": -1.810354,
+    "name": "Albergue de los Padres Reparadores"
+  },
+  "albergue-palas-de-rei": {
+    "address": "Avenida de Compostela, 19, 27200 Palas de Rei, Lugo, Spain",
+    "appleMapsID": "IC207F372575C62B",
+    "latitude": 42.873109,
+    "longitude": -7.868908,
+    "name": "Albergue de peregrinos de Palas de Rei"
+  },
+  "albergue-parroquial-santa-maria-carrion": {
+    "address": "Calle Clérigo Pastor, 31, 34120 Carrión de Los Condes, Palencia, Spain",
+    "appleMapsID": "IE27E75C0AA8B76C",
+    "latitude": 42.337825,
+    "longitude": -4.601598,
+    "name": "Albergue Parroquial de Santa María"
+  },
+  "albergue-seminario-menor": {
+    "address": "Avenida Quiroga Palacios, 2A, 15703 Santiago de Compostela, A Coruña, España",
+    "appleMapsID": "I5C6B558C120E65D6",
+    "latitude": 42.876813,
+    "longitude": -8.536463,
+    "name": "Albergue Seminario Menor"
+  },
+  "albergue-siervas-de-maria": {
+    "address": "Plaza de San Francisco, 3, 24700 Astorga, León, Spain",
+    "appleMapsID": "I653D15B68E68F621",
+    "latitude": 42.452884,
+    "longitude": -6.051173,
+    "name": "Albergue de peregrinos Siervas de María"
+  },
+  "albergue-triacastela": {
+    "address": "Camino Francés, 27630 Triacastela, Lugo, Spain",
+    "appleMapsID": "I21A992036775409A",
+    "latitude": 42.755294,
+    "longitude": -7.235322,
+    "name": "Albergue Municipal de Peregrinos de Triacastela"
+  },
+  "alto-del-perdon": {
+    "address": "Calle San Andrés, 12, 31190 Zariquiegui, Navarra, Spain",
+    "appleMapsID": "I194326FA5405224E",
+    "latitude": 42.73541,
+    "longitude": -1.742384,
+    "name": "Alto del Perdon"
+  },
+  "arco-de-san-benito-sahagun": {
+    "address": "Calle de Alfonso VI, 1, 24320 Sahagún, León, Spain",
+    "appleMapsID": "I701EACB96851CBF8",
+    "latitude": 42.370982,
+    "longitude": -5.033579,
+    "name": "Arco De San Benito"
+  },
+  "barrio-humedo-leon": {
+    "address": "Plaza de San Martín, 24003 León, Spain",
+    "latitude": 42.596786,
+    "longitude": -5.567656,
+    "name": "Plaza de San Martín"
+  },
+  "basilica-virgen-del-camino": {
+    "address": "Avenida Astroga, 94, 24198 Virgen Camino, León, Spain",
+    "appleMapsID": "I56B652F6645FDB0",
+    "latitude": 42.579946,
+    "longitude": -5.641394,
+    "name": "Basílica de la Virgen del Camino"
+  },
+  "cafe-iruna": {
+    "address": "Plaza del Castillo, 44, 31001 Pamplona, Navarra, Spain",
+    "appleMapsID": "ID847C9E0CD603B7C",
+    "latitude": 42.817519,
+    "longitude": -1.643186,
+    "name": "Café Iruña"
+  },
+  "calle-del-laurel": {
+    "address": "Calle del Laurel, 26001 Logroño, Rioja, Spain",
+    "latitude": 42.465528,
+    "longitude": -2.448403,
+    "name": "Calle del Laurel"
+  },
+  "castillo-de-castrojeriz": {
+    "address": "Castillo de Castrojeriz, 09110 Castrojeriz, Burgos, Spain",
+    "appleMapsID": "I18902A2585D864E4",
+    "latitude": 42.2916,
+    "longitude": -4.136111,
+    "name": "Castillo de Castrojeriz"
+  },
+  "castillo-de-ponferrada": {
+    "address": "Avenida del Castillo, 131–143, 24401 Ponferrada, León, Spain",
+    "appleMapsID": "IA670C6EE72344D1D",
+    "latitude": 42.543962,
+    "longitude": -6.593529,
+    "name": "Castillo de los Templarios"
+  },
+  "castro-de-castromaior": {
+    "address": "Castromaior, Portomarín, Lugo, Spain",
+    "latitude": 42.831708,
+    "longitude": -7.707664,
+    "name": "Castromaior"
+  },
+  "catedral-de-burgos": {
+    "address": "Plaza Santa María, s/n, 09003 Burgos, Spain",
+    "appleMapsID": "I6B241C6EEE3B2557",
+    "latitude": 42.340721,
+    "longitude": -3.70431,
+    "name": "Catedral de Santa María de Burgos"
+  },
+  "catedral-de-leon": {
+    "address": "Plaza Regla, 3, 24003 León, Spain",
+    "appleMapsID": "I6CAE9364344E6893",
+    "latitude": 42.599559,
+    "longitude": -5.566581,
+    "name": "León Cathedral"
+  },
+  "catedral-de-pamplona": {
+    "address": "Calle Curia, s/n, 31001 Pamplona, Navarra, Spain",
+    "appleMapsID": "I3A902A4CBA97CB54",
+    "latitude": 42.819659,
+    "longitude": -1.641051,
+    "name": "Catedral de Santa María la Real de Pamplona"
+  },
+  "catedral-de-santiago": {
+    "address": "Praza do Obradoiro, 15704 Santiago de Compostela, La Coruña, Spain",
+    "appleMapsID": "IF6C5257E83998559",
+    "latitude": 42.880571,
+    "longitude": -8.544477,
+    "name": "Cathedral of Santiago"
+  },
+  "catedral-santo-domingo-calzada": {
+    "address": "Plaza del Santo, 4, 26250 Santo Domingo de la Calzada, Rioja, Spain",
+    "appleMapsID": "I7BDEBC0F68C33DC3",
+    "latitude": 42.441336,
+    "longitude": -2.953805,
+    "name": "Cathedral of Santo Domingo de la Calzada"
+  },
+  "cerveceria-morito": {
+    "address": "Calle Sombrerería, 27, 09003 Burgos, Spain",
+    "appleMapsID": "IDD508892D30B8330",
+    "latitude": 42.340582,
+    "longitude": -3.703069,
+    "name": "El Morito"
+  },
+  "colegiata-de-roncesvalles": {
+    "address": "Orreaga Roncesvalles, 8, 31650 Roncesvalles, Navarra, Spain",
+    "appleMapsID": "I958F3A41215E165D",
+    "latitude": 43.009532,
+    "longitude": -1.319749,
+    "name": "Real Colegiata de Roncesvalles"
+  },
+  "cruz-de-ferro": {
+    "address": "LE-142, 24722 Santa Colomba de Somoza, León, Spain",
+    "appleMapsID": "IFF6D4E058B75969B",
+    "latitude": 42.488934,
+    "longitude": -6.361494,
+    "name": "Cruz de Ferro"
+  },
+  "cuca-la-vaina": {
+    "address": "Calle la Magdalena, 10, 24718 Castrillo de los Polvazares, León, Spain",
+    "appleMapsID": "IEE555F7E805A7018",
+    "latitude": 42.46435,
+    "longitude": -6.128738,
+    "name": "Cuca la Vaina Restaurante"
+  },
+  "ermita-virgen-de-monasterio": {
+    "address": "Camino de Santiago, 12, 09130 Rabé de Las Calzadas, Burgos, Spain",
+    "appleMapsID": "IC13BE78C99B7EDFF",
+    "latitude": 42.340186,
+    "longitude": -3.838143,
+    "name": "Ermita De Nuestra Señora De Monasterio"
+  },
+  "hostal-burguete": {
+    "address": "Calle de San Nikolas, 71, 31640 Auritz, Navarra, Spain",
+    "appleMapsID": "I8CDD50C39B5D7C2D",
+    "latitude": 42.990705,
+    "longitude": -1.334982,
+    "name": "Hotel Burguete"
+  },
+  "hostal-el-palacio-molinaseca": {
+    "address": "Calle del Palacio, 19, 24413 Molinaseca, León, Spain",
+    "appleMapsID": "ID21615977894729C",
+    "latitude": 42.537698,
+    "longitude": -6.519131,
+    "name": "Hostal Restaurante El Palacio"
+  },
+  "hotel-real-monasterio-san-zoilo": {
+    "address": "San Zoilo, 34120 Carrión de Los Condes, Palencia, Spain",
+    "latitude": 42.340274,
+    "longitude": -4.611089,
+    "name": "San Zoilo"
+  },
+  "hotel-san-anton-abad": {
+    "address": "Calle del Hospital, 4, 09257 Villafranca Montes de Oca, Burgos, Spain",
+    "appleMapsID": "IE326C28B5C33D230",
+    "latitude": 42.388454,
+    "longitude": -3.3097,
+    "name": "Hotel San Antón Abad"
+  },
+  "iglesia-de-la-asuncion-navarrete": {
+    "address": "Plaza Mayor, 1, 26370 Navarrete, Rioja, Spain",
+    "appleMapsID": "IE1D658795998D6FE",
+    "latitude": 42.429671,
+    "longitude": -2.561309,
+    "name": "Iglesia Nuestra Señora de la Asunción"
+  },
+  "iglesia-de-san-martin-fromista": {
+    "address": "Plaza de San Martín, 8, 34440 Frómista, Palencia, Spain",
+    "appleMapsID": "I14A0F591B98744B2",
+    "latitude": 42.26702,
+    "longitude": -4.406827,
+    "name": "Iglesia de San Martín"
+  },
+  "iglesia-de-santiago-villafranca": {
+    "address": "Calle de Santiago, 18, 24500 Villafranca del Bierzo, León, Spain",
+    "appleMapsID": "I7E3F457CDC1641E3",
+    "latitude": 42.604062,
+    "longitude": -6.807719,
+    "name": "Iglesia de Santiago de Villafranca del Bierzo"
+  },
+  "iglesia-san-nicolas-portomarin": {
+    "address": "Plaza Conde Fenosa, 27170 Portomarín, Lugo, Spain",
+    "appleMapsID": "I6EA20ED0AD081C6D",
+    "latitude": 42.807685,
+    "longitude": -7.615548,
+    "name": "Parroquia De San Nicolás"
+  },
+  "igrexa-de-santa-eulalia-de-arca": {
+    "address": "Lugar Pedrouzo, 10, 15821 O Pino, La Coruña, Spain",
+    "appleMapsID": "ID25942EF00C22961",
+    "latitude": 42.901545,
+    "longitude": -8.363399,
+    "name": "Parroquia de Santa Eulalia de Arca"
+  },
+  "mercado-de-abastos-santiago": {
+    "address": "Rúa das Ameas, s/n, 15704 Santiago de Compostela, La Coruña, Spain",
+    "appleMapsID": "I83DAFA3014B81FF0",
+    "latitude": 42.879983,
+    "longitude": -8.541232,
+    "name": "Mercado de Abastos de Santiago"
+  },
+  "monasterio-san-juan-de-ortega": {
+    "address": "Calle de la Iglesia, 7, 09199 San Juan Ortega, Burgos, Spain",
+    "appleMapsID": "IA8FC12FE4A7D5A62",
+    "latitude": 42.376025,
+    "longitude": -3.436945,
+    "name": "Monasterio de San Juan de Ortega"
+  },
+  "monte-do-gozo": {
+    "address": "",
+    "appleMapsID": "I79E7E8A11E3FBB04",
+    "latitude": 42.88927,
+    "longitude": -8.493268,
+    "name": "Monte do Gozo"
+  },
+  "mosteiro-de-samos": {
+    "address": "Avenida de Compostela, 1, 27620 Samos, Lugo, Spain",
+    "appleMapsID": "I20C14262AFE87DB2",
+    "latitude": 42.73235,
+    "longitude": -7.326484,
+    "name": "Monasterio de San Julián de Samos"
+  },
+  "museo-de-los-pueblos-leoneses": {
+    "address": "Calle de San Agustín, 1, 24210 Mansilla de las Mulas, León, España",
+    "appleMapsID": "IB80B4B071D11C46",
+    "latitude": 42.498428,
+    "longitude": -5.420294,
+    "name": "Museo De Los Pueblos Leoneses"
+  },
+  "oficina-del-peregrino": {
+    "address": "Rúa das Carretas, 33, 15705 Santiago de Compostela, La Coruña, Spain",
+    "appleMapsID": "IE8F7098819CB170D",
+    "latitude": 42.881798,
+    "longitude": -8.546879,
+    "name": "Oficina de Acogida al Peregrino"
+  },
+  "palacio-de-gaudi-astorga": {
+    "address": "Glorieta de Eduardo de Castro, 11, 24700 Astorga, León, Spain",
+    "appleMapsID": "I618C8DDBFFBD4A4",
+    "latitude": 42.457787,
+    "longitude": -6.055928,
+    "name": "Palau Episcopal d'Astorga"
+  },
+  "pallozas-o-cebreiro": {
+    "address": "O Cebreiro, Pedrafita do Cebreiro, Lugo, Spain",
+    "latitude": 42.707828,
+    "longitude": -7.043634,
+    "name": "O Cebreiro"
+  },
+  "parador-de-leon": {
+    "address": "Plaza de San Marcos, 7, 24008 León, Spain",
+    "appleMapsID": "IDA22489E031A05B",
+    "latitude": 42.601659,
+    "longitude": -5.582439,
+    "name": "Parador de Leon"
+  },
+  "parador-hostal-dos-reis-catolicos": {
+    "address": "Rúa Obradoiro, 1, 15707 Santiago de Compostela, A Coruña, España",
+    "appleMapsID": "IDBEC31CB58C31313",
+    "latitude": 42.881365,
+    "longitude": -8.545952,
+    "name": "Paradores de Turismo de España"
+  },
+  "parador-santo-domingo": {
+    "address": "Plaza del Santo, 3, 26250 Santo Domingo de la Calzada, La Rioja, España",
+    "appleMapsID": "IE89BBFA1938646E4",
+    "latitude": 42.440798,
+    "longitude": -2.954053,
+    "name": "Restaurante Parador de Santo Domingo de la Calzada"
+  },
+  "puente-de-la-rabia": {
+    "address": "Calle del Puente de la Rabia, 31630 Esteribar, Navarra, Spain",
+    "latitude": 42.930136,
+    "longitude": -1.504219,
+    "name": "Calle del Puente de la Rabia"
+  },
+  "puente-de-los-peregrinos-molinaseca": {
+    "address": "Calle la Presa, 3, 24413 Molinaseca, León, Spain",
+    "appleMapsID": "I266EB8146AE51B93",
+    "latitude": 42.537468,
+    "longitude": -6.518897,
+    "name": "Meson Puente Romano"
+  },
+  "puente-de-orbigo": {
+    "address": "Puente de Órbigo, Hospital de Órbigo, León, Spain",
+    "latitude": 42.462698,
+    "longitude": -5.874713,
+    "name": "Puente de Órbigo"
+  },
+  "pulperia-ezequiel": {
+    "address": "Cantón San Roque, 48, 15800 Melide, La Coruña, Spain",
+    "appleMapsID": "I93E057B4C7A0DE8D",
+    "latitude": 42.913274,
+    "longitude": -8.012591,
+    "name": "Pulpería Ezequiel"
+  },
+  "real-colegiata-san-isidoro": {
+    "address": "Plaza de San Isidoro, 4, 24003 León, Spain",
+    "appleMapsID": "I470A3F2017DD7EC0",
+    "latitude": 42.600534,
+    "longitude": -5.571104,
+    "name": "Museo de San Isidoro de León"
+  },
+  "refuge-orisson": {
+    "address": "RD 428, 64220 Uhart-Cize, France",
+    "appleMapsID": "IEB782483FC45DF10",
+    "latitude": 43.108832,
+    "longitude": -1.239278,
+    "name": "Refuge Orisson"
+  },
+  "refugio-gaucelmo": {
+    "address": "Lugar Rabanal Camino, 21D, 24722 Santa Colomba de Somoza, León, Spain",
+    "appleMapsID": "I633B3CF72F7F7D8",
+    "latitude": 42.482069,
+    "longitude": -6.284773,
+    "name": "Refugio Gaucelmo"
+  },
+  "san-pedro-de-la-rua": {
+    "address": "Calle de San Nicolás, 10, 31200 Estella, Navarra, Spain",
+    "appleMapsID": "IDEE4D25A88F0CB29",
+    "latitude": 42.668875,
+    "longitude": -2.029382,
+    "name": "Church of San Pedro de la Rúa"
+  },
+  "santa-maria-a-real-cebreiro": {
+    "address": "Lugar Cebreiro, 16, 27671 Pedrafita do Cebreiro, Lugo, Spain",
+    "appleMapsID": "IABE632D768EE1137",
+    "latitude": 42.707936,
+    "longitude": -7.043336,
+    "name": "Iglesia de Santa María la Real de O Cebreiro"
+  },
+  "santa-maria-de-eunate": {
+    "address": "Camino de la Hijuela, 31152 Muruzábal, Navarra, Spain",
+    "appleMapsID": "ICB5C2FBFBC905F75",
+    "latitude": 42.672221,
+    "longitude": -1.761562,
+    "name": "Church of Saint Mary of Eunate"
+  },
+  "santuario-de-la-peregrina": {
+    "address": "Plaza de San Lorenzo, 24320 Sahagún, León, Spain",
+    "appleMapsID": "IE839002EAC71010",
+    "latitude": 42.367785,
+    "longitude": -5.032421,
+    "name": "Santuario de la peregrina"
+  }
+}

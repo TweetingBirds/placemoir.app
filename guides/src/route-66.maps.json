@@ -1,0 +1,436 @@
+{
+  "66-diner-albuquerque": {
+    "address": "1405 Central Ave NE, Albuquerque, NM 87106, United States",
+    "appleMapsID": "IF8232316CB3B091E",
+    "latitude": 35.08218,
+    "longitude": -106.630689,
+    "name": "66 Diner"
+  },
+  "66-drive-in-theatre": {
+    "address": "17231 Old 66 Blvd, Carthage, MO 64836, United States",
+    "appleMapsID": "I88E4F68D1DCF7254",
+    "latitude": 37.174188,
+    "longitude": -94.369057,
+    "name": "66 Drive-In"
+  },
+  "angel-vilma-delgadillos-gift-shop": {
+    "address": "22265 W Historic Route 66, Seligman, AZ 86337, United States",
+    "appleMapsID": "I9BA7E04029B5652F",
+    "latitude": 35.326173,
+    "longitude": -112.873578,
+    "name": "The Original Route 66 Gift Shop"
+  },
+  "arcadia-round-barn": {
+    "address": "107 Highway 66, Arcadia, OK 73007, United States",
+    "appleMapsID": "IDE671A55CCF7DDE2",
+    "latitude": 35.662334,
+    "longitude": -97.325959,
+    "name": "Arcadia Round Barn"
+  },
+  "ariston-cafe": {
+    "address": "413 Old Route 66 N, Litchfield, IL 62056, United States",
+    "appleMapsID": "IECC31BA6D782E641",
+    "latitude": 39.177566,
+    "longitude": -89.667009,
+    "name": "The Ariston Cafe"
+  },
+  "arizona-route-66-museum": {
+    "address": "120 W Andy Devine Ave, Kingman, AZ 86401, United States",
+    "appleMapsID": "I867E9E970855ACB2",
+    "latitude": 35.189063,
+    "longitude": -114.058814,
+    "name": "Arizona Route 66 Museum"
+  },
+  "barneys-beanery": {
+    "address": "8447 Santa Monica Blvd, West Hollywood, CA 90069, United States",
+    "appleMapsID": "IC8AE12CE5C2691D9",
+    "latitude": 34.090766,
+    "longitude": -118.37465,
+    "name": "Barney's Beanery"
+  },
+  "begin-route-66-sign": {
+    "address": "78-98 E Adams St, Chicago, IL 60603, United States",
+    "appleMapsID": "I85DB824D56A7E592",
+    "latitude": 41.879683,
+    "longitude": -87.624705,
+    "name": "Historic Route 66 Begin Sign"
+  },
+  "big-texan-steak-ranch": {
+    "address": "7701 Interstate 40 East Access Rd, Amarillo, TX 79118, United States",
+    "appleMapsID": "I7955D798E8A5ACB",
+    "latitude": 35.193538,
+    "longitude": -101.755053,
+    "name": "The Big Texan"
+  },
+  "blue-hole-santa-rosa": {
+    "address": "1085 Blue Hole Rd, Santa Rosa, NM 88435, United States",
+    "appleMapsID": "I724D1B6B1E07CCBE",
+    "latitude": 34.940167,
+    "longitude": -104.673721,
+    "name": "Blue Hole"
+  },
+  "blue-swallow-motel": {
+    "address": "815 E Route 66, Tucumcari, NM 88401, United States",
+    "appleMapsID": "I3FBA2B7830BE3D10",
+    "latitude": 35.17203,
+    "longitude": -103.716407,
+    "name": "Blue Swallow Motel"
+  },
+  "blue-whale-of-catoosa": {
+    "address": "2680 N Highway 66, Catoosa, OK 74015, United States",
+    "appleMapsID": "ID9ABF0AE10E20F42",
+    "latitude": 36.19378,
+    "longitude": -95.73293,
+    "name": "Blue Whale of Catoosa"
+  },
+  "cadillac-ranch": {
+    "address": "13651 I-40 Frontage Rd, Amarillo, TX 79121, United States",
+    "appleMapsID": "I3BA41DA5E967F3C5",
+    "latitude": 35.187247,
+    "longitude": -101.987109,
+    "name": "Cadillac Ranch"
+  },
+  "california-route-66-museum": {
+    "address": "16825 S D St, Victorville, CA 92395, United States",
+    "appleMapsID": "ID3D4A9CCF44B16AD",
+    "latitude": 34.537183,
+    "longitude": -117.294362,
+    "name": "California Route 66 Museum"
+  },
+  "campbell-hotel": {
+    "address": "2636 E 11th St, Tulsa, OK 74104, United States",
+    "appleMapsID": "I5F58E646B1B47637",
+    "latitude": 36.147625,
+    "longitude": -95.952016,
+    "name": "The Campbell Hotel"
+  },
+  "cars-on-the-route": {
+    "address": "119 N Main St, Galena, KS 66739, United States",
+    "appleMapsID": "I5924346B8A083040",
+    "latitude": 37.080359,
+    "longitude": -94.638927,
+    "name": "Cars on the Route"
+  },
+  "coleman-theatre": {
+    "address": "103 N Main St, Miami, OK 74354, United States",
+    "appleMapsID": "IFFD5D98E4D112FA4",
+    "latitude": 36.876513,
+    "longitude": -94.877888,
+    "name": "Coleman Theatre"
+  },
+  "cozy-dog-drive-in": {
+    "address": "2935 S Sixth St, Springfield, IL 62703, United States",
+    "appleMapsID": "I3CB536C055B73403",
+    "latitude": 39.762401,
+    "longitude": -89.648902,
+    "name": "Cozy Dog Drive In"
+  },
+  "cyrus-avery-centennial-plaza": {
+    "address": "1362–1398 Southwest Blvd, Tulsa, OK 74127, United States",
+    "appleMapsID": "I5975D07F0A32B4D0",
+    "latitude": 36.144382,
+    "longitude": -96.003003,
+    "name": "Cyrus Avery Centennial Plaza"
+  },
+  "delgadillos-snow-cap": {
+    "address": "301 W Chino St, Seligman, AZ 86337, United States",
+    "appleMapsID": "I4C95A99F395BF52D",
+    "latitude": 35.32607,
+    "longitude": -112.872952,
+    "name": "Delgadillo's Snow Cap"
+  },
+  "dell-rheas-chicken-basket": {
+    "address": "645 Joliet Rd, Willowbrook, IL 60527, United States",
+    "appleMapsID": "IB454B51CEC5D9EAF",
+    "latitude": 41.745565,
+    "longitude": -87.939235,
+    "name": "Dell Rhea's Chicken Basket"
+  },
+  "dels-restaurant": {
+    "address": "1202 E Tucumcari Blvd, Tucumcari, NM 88401, United States",
+    "appleMapsID": "ID8113A9E81E63D80",
+    "latitude": 35.171553,
+    "longitude": -103.711886,
+    "name": "Del's Restaurant"
+  },
+  "el-rancho-hotel": {
+    "address": "1000 E Hwy 66, Gallup, NM 87301, United States",
+    "appleMapsID": "IAB66477D2FF7EBE7",
+    "latitude": 35.529541,
+    "longitude": -108.728142,
+    "name": "Hotel El Rancho"
+  },
+  "elmers-bottle-tree-ranch": {
+    "address": "24266 National Trails Hwy, Oro Grande, CA 92368, United States",
+    "appleMapsID": "IA267BDA3BA2A91A0",
+    "latitude": 34.69033,
+    "longitude": -117.339901,
+    "name": "Elmer's Bottle Tree Ranch"
+  },
+  "fair-oaks-pharmacy": {
+    "address": "1526 Mission St, South Pasadena, CA 91030, United States",
+    "appleMapsID": "I7CD1A071792F7F5F",
+    "latitude": 34.116019,
+    "longitude": -118.150561,
+    "name": "Fair Oaks Pharmacy & Soda Fountain"
+  },
+  "funks-grove-pure-maple-sirup": {
+    "address": "5257 Old Route 66, Shirley, IL 61772, United States",
+    "appleMapsID": "I5459833331546CD7",
+    "latitude": 40.356463,
+    "longitude": -89.117607,
+    "name": "Funks Grove Pure Maple Sirup"
+  },
+  "gateway-arch-national-park": {
+    "address": "Saint Louis, MO 63102, United States",
+    "appleMapsID": "ID907BB80A6283775",
+    "latitude": 38.624708,
+    "longitude": -90.185301,
+    "name": "Gateway Arch National Park"
+  },
+  "grand-canyon-railway-depot": {
+    "address": "233 N Grand Canyon Blvd, Williams, AZ 86046, United States",
+    "appleMapsID": "I5C5C321F0F53F4AE",
+    "latitude": 35.251421,
+    "longitude": -112.191292,
+    "name": "Williams Depot"
+  },
+  "hackberry-general-store": {
+    "address": "11255 E Hwy 66, Hackberry, AZ 86411, United States",
+    "appleMapsID": "I49B21607C5095F3",
+    "latitude": 35.374924,
+    "longitude": -113.72275,
+    "name": "Hackberry General Store"
+  },
+  "hotel-monte-vista": {
+    "address": "100 N San Francisco St, Flagstaff, AZ 86001, United States",
+    "appleMapsID": "I63D98CA84C89783A",
+    "latitude": 35.198239,
+    "longitude": -111.647394,
+    "name": "Hotel Monte Vista"
+  },
+  "illinois-route-66-hall-of-fame-museum": {
+    "address": "110 W Howard St, Pontiac, IL 61764, United States",
+    "appleMapsID": "I23D78BF7F4988683",
+    "latitude": 40.881032,
+    "longitude": -88.628987,
+    "name": "Route 66 Association Hall of Fame & Museum"
+  },
+  "kimo-theatre": {
+    "address": "423 Central Ave NW, Albuquerque, NM 87102, United States",
+    "appleMapsID": "I7E2744DA0D80737D",
+    "latitude": 35.084952,
+    "longitude": -106.652519,
+    "name": "KiMo Theatre"
+  },
+  "la-posada-hotel": {
+    "address": "303 E Second St, Winslow, AZ 86047, United States",
+    "appleMapsID": "IC586631DD745F7BD",
+    "latitude": 35.021296,
+    "longitude": -110.695096,
+    "name": "La Posada"
+  },
+  "lincoln-home-national-historic-site": {
+    "address": "426 S. 7th Street, Springfield, IL 62701, United States",
+    "appleMapsID": "IF8CC3FDA9BD1BE09",
+    "latitude": 39.79752,
+    "longitude": -89.646203,
+    "name": "Lincoln Home National Historic Site"
+  },
+  "lou-mitchells": {
+    "address": "565 W Jackson Blvd, Chicago, IL 60661, United States",
+    "appleMapsID": "IBD8D7A632F3A579B",
+    "latitude": 41.877895,
+    "longitude": -87.642136,
+    "name": "Lou Mitchell's"
+  },
+  "lowell-observatory": {
+    "address": "1400 W Mars Hill Rd, Flagstaff, AZ 86001, United States",
+    "appleMapsID": "ID3080EA6CCA9F6D9",
+    "latitude": 35.20259,
+    "longitude": -111.666647,
+    "name": "Lowell Observatory"
+  },
+  "lucilles-service-station": {
+    "address": "Historic Route 66, Hydro, OK 73048, United States",
+    "appleMapsID": "I4BC3F22C00959049",
+    "latitude": 35.537008,
+    "longitude": -98.588384,
+    "name": "Lucille's Historic HIghway Gas Station"
+  },
+  "meramec-caverns": {
+    "address": "1135 Highway W, Sullivan MO US 63080, United States",
+    "appleMapsID": "IF82423637B2E0A70",
+    "latitude": 38.241033,
+    "longitude": -91.092018,
+    "name": "Meramec Caverns"
+  },
+  "meteor-crater": {
+    "address": "Winslow, AZ 86047, United States",
+    "appleMapsID": "I13324610B3A8124",
+    "latitude": 35.028027,
+    "longitude": -111.022739,
+    "name": "Meteor Crater"
+  },
+  "missouri-hick-bar-b-que": {
+    "address": "913 E Washington St, Cuba, MO 65453, United States",
+    "appleMapsID": "IBD1C0B381E528F54",
+    "latitude": 38.064677,
+    "longitude": -91.395038,
+    "name": "Missouri Hick Bar-B-Que"
+  },
+  "motel-safari": {
+    "address": "722 E Route 66 Blvd, Tucumcari, NM 88401, United States",
+    "appleMapsID": "I29823F1FBD733650",
+    "latitude": 35.171581,
+    "longitude": -103.717439,
+    "name": "Motel Safari"
+  },
+  "mr-dz-route-66-diner": {
+    "address": "105 E Andy Devine Ave, Kingman, AZ 86401, United States",
+    "appleMapsID": "I8F450583174D9437",
+    "latitude": 35.18927,
+    "longitude": -114.057278,
+    "name": "Mr D'z Route 66 Diner"
+  },
+  "national-route-66-transportation-museum": {
+    "address": "2717 W Third St, Elk City, OK 73644, United States",
+    "appleMapsID": "IC763B5FFB39AD869",
+    "latitude": 35.412363,
+    "longitude": -99.436929,
+    "name": "National Route 66 Museum"
+  },
+  "oatman-hotel": {
+    "address": "181 Main St, Oatman, AZ 86433, United States",
+    "appleMapsID": "I81BBC1288D9C8B55",
+    "latitude": 35.026409,
+    "longitude": -114.383407,
+    "name": "Oatman Hotel"
+  },
+  "oklahoma-route-66-museum": {
+    "address": "2229 W Gary Blvd, Clinton, OK 73601, United States",
+    "appleMapsID": "I6182A08E478D12AD",
+    "latitude": 35.506595,
+    "longitude": -98.986941,
+    "name": "Oklahoma Route 66 Museum"
+  },
+  "old-chain-of-rocks-bridge": {
+    "address": "10950 Riverview Dr, Saint Louis, MO 63137, United States",
+    "appleMapsID": "IDC18EBCFD4DB6391",
+    "latitude": 38.760542,
+    "longitude": -90.176404,
+    "name": "Chain of Rocks Bridge"
+  },
+  "polk-a-dot-drive-in": {
+    "address": "222 N Front St, Braidwood, IL 60408, United States",
+    "appleMapsID": "IEDDB3B431CB24B1B",
+    "latitude": 41.265238,
+    "longitude": -88.209965,
+    "name": "Polk-A-Dot Drive In"
+  },
+  "pops-66": {
+    "address": "660 W Highway 66, Arcadia, OK 73007, United States",
+    "appleMapsID": "I5855A7B645F7B294",
+    "latitude": 35.658098,
+    "longitude": -97.335504,
+    "name": "Pops"
+  },
+  "rock-cafe-stroud": {
+    "address": "114 W Main St, Stroud, OK 74079, United States",
+    "appleMapsID": "I7BEC7BACF2CB1FF8",
+    "latitude": 35.748811,
+    "longitude": -96.654457,
+    "name": "Rock Cafe"
+  },
+  "route-66-auto-museum": {
+    "address": "2436 Route 66, Santa Rosa, NM 88435, United States",
+    "appleMapsID": "I8F7243FF9B82D4C7",
+    "latitude": 34.946242,
+    "longitude": -104.654512,
+    "name": "Route 66 Auto Museum"
+  },
+  "route-66-midpoint": {
+    "address": "357 IH-40 BL, Adrian, TX 79001, United States",
+    "appleMapsID": "I383585DDA83BA0F6",
+    "latitude": 35.271117,
+    "longitude": -102.672864,
+    "name": "MidPoint Sign of US Route 66"
+  },
+  "roys-motel-and-cafe": {
+    "address": "87520 National Trails Hwy, Amboy, CA 92304, United States",
+    "appleMapsID": "IE70C4A8F484F9190",
+    "latitude": 34.558654,
+    "longitude": -115.744039,
+    "name": "Roy's Motel & Cafe"
+  },
+  "santa-monica-pier-end-of-trail": {
+    "address": "200 Santa Monica Pier, Ste A, Santa Monica, CA 90401, United States",
+    "appleMapsID": "IBF103B5FC143278C",
+    "latitude": 34.008994,
+    "longitude": -118.497484,
+    "name": "Santa Monica Pier"
+  },
+  "standin-on-the-corner-park": {
+    "address": "100 E Second St, Winslow, AZ 86047, United States",
+    "appleMapsID": "IF2B9489675BCAA5A",
+    "latitude": 35.023711,
+    "longitude": -110.698186,
+    "name": "Standin' on the Corner Park"
+  },
+  "tallys-good-food-cafe": {
+    "address": "1102 S Yale Ave, Tulsa, OK 74112, United States",
+    "appleMapsID": "I8200DC700B0853DA",
+    "latitude": 36.147562,
+    "longitude": -95.922817,
+    "name": "Tally’s Good Food Café"
+  },
+  "ted-drewes-frozen-custard": {
+    "address": "6726 Chippewa st, St. Louis, MO 63109, United States",
+    "appleMapsID": "IF8D48D1F38CF7916",
+    "latitude": 38.589391,
+    "longitude": -90.307618,
+    "name": "Ted Drewes"
+  },
+  "tee-pee-curios": {
+    "address": "924 E Route 66 Blvd, Tucumcari, NM 88401, United States",
+    "appleMapsID": "IA5C00449B5515D08",
+    "latitude": 35.171535,
+    "longitude": -103.714872,
+    "name": "Tee Pee Curios"
+  },
+  "turquoise-room": {
+    "address": "305 E Second St, Winslow, AZ 86047, United States",
+    "appleMapsID": "IC3702EF29FDF7EA",
+    "latitude": 35.021308,
+    "longitude": -110.695016,
+    "name": "The Turquoise Room"
+  },
+  "u-drop-inn": {
+    "address": "105 E 12th St, Shamrock, TX 79079, United States",
+    "appleMapsID": "I9E126FBC724F18ED",
+    "latitude": 35.226689,
+    "longitude": -100.248868,
+    "name": "U Drop Inn"
+  },
+  "wagon-wheel-motel": {
+    "address": "901 E Washington St, Cuba, MO 65453, United States",
+    "appleMapsID": "I8E1E9289B7D70D77",
+    "latitude": 38.064712,
+    "longitude": -91.396117,
+    "name": "Wagon Wheel Motel"
+  },
+  "wigwam-motel-holbrook": {
+    "address": "811 W Hopi Dr, Holbrook, AZ 86025, United States",
+    "appleMapsID": "IF26881BDABEA06AB",
+    "latitude": 34.902566,
+    "longitude": -110.16883,
+    "name": "Wigwam Motel"
+  },
+  "wigwam-motel-san-bernardino": {
+    "address": "2728 E Foothill Blvd, San Bernardino, CA 92410, United States",
+    "appleMapsID": "I7DA2CC211DB69346",
+    "latitude": 34.107025,
+    "longitude": -117.350019,
+    "name": "Wigwam Motel"
+  }
+}
