@@ -1159,6 +1159,26 @@
     },
     {
       "type": "Feature",
+      "id": "balsam-mountain-inn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0872,
+          35.4265
+        ]
+      },
+      "properties": {
+        "name": "Balsam Mountain Inn",
+        "category": "inn",
+        "section": "day-5",
+        "position": 55,
+        "notes": "An early-1900s railroad hotel with long double porches, a few minutes off the parkway near Balsam Gap. A quiet last night before the drive down to Cherokee.",
+        "address": "68 Seven Springs Dr, Balsam, NC 28707",
+        "locality": "Balsam"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "waterrock-knob",
       "geometry": {
         "type": "Point",
@@ -1171,7 +1191,7 @@
         "name": "Waterrock Knob Visitor Center",
         "category": "visitor-center",
         "section": "day-5",
-        "position": 55,
+        "position": 56,
         "notes": "A small visitor center with one of the widest views on the road, looking toward the Great Smoky Mountains. A short, steep trail climbs to the summit.",
         "address": "Blue Ridge Pkwy, Milepost 451.2, Waynesville, NC 28786",
         "locality": "Plott Balsams"
@@ -1191,7 +1211,7 @@
         "name": "Oconaluftee Visitor Center",
         "category": "visitor-center",
         "section": "day-5",
-        "position": 56,
+        "position": 57,
         "notes": "Just past the parkway's end at milepost 469, the Great Smoky Mountains entrance. Next door the Mountain Farm Museum gathers log farm buildings, and elk often graze the fields at dawn and dusk.",
         "address": "1194 Newfound Gap Rd, Cherokee, NC 28719",
         "locality": "Great Smoky Mountains"
@@ -1211,7 +1231,7 @@
         "name": "Museum of the Cherokee People",
         "category": "museum",
         "section": "day-5",
-        "position": 57,
+        "position": 58,
         "notes": "The Eastern Band of Cherokee Indians' museum, telling the tribe's history in its own voice, from early life in these mountains through removal and the present. Formerly the Museum of the Cherokee Indian.",
         "address": "589 Tsali Blvd, Cherokee, NC 28719",
         "locality": "Cherokee"
@@ -1231,7 +1251,7 @@
         "name": "Native Brews Tap & Grill",
         "category": "restaurant",
         "section": "day-5",
-        "position": 58,
+        "position": 59,
         "notes": "A Native- and women-owned grill on the main road through Cherokee, with burgers, peanut-crusted trout and house beers on tap. A relaxed dinner at the end of the road.",
         "address": "1897 Tsali Blvd, Cherokee, NC 28719",
         "locality": "Cherokee"
@@ -1353,6 +1373,7 @@
           "graveyard-fields",
           "devils-courthouse",
           "richland-balsam-overlook",
+          "balsam-mountain-inn",
           "waterrock-knob",
           "oconaluftee-visitor-center",
           "museum-of-the-cherokee-people",

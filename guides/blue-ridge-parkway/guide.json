@@ -774,6 +774,19 @@
       "appleMapsID": "IDA5767476381090E"
     },
     {
+      "id": "guide:blue-ridge-parkway/balsam-mountain-inn",
+      "name": "Balsam Mountain Inn",
+      "category": "hotel",
+      "address": "68 Seven Springs Dr, Balsam, NC 28707",
+      "locality": "Balsam",
+      "country": "United States",
+      "latitude": 35.4265,
+      "longitude": -83.0872,
+      "wantToGo": true,
+      "notes": "An early-1900s railroad hotel with long double porches, a few minutes off the parkway near Balsam Gap. A quiet last night before the drive down to Cherokee.",
+      "section": "Day 5 · Asheville to Cherokee · 87 mi"
+    },
+    {
       "id": "guide:blue-ridge-parkway/waterrock-knob",
       "name": "Waterrock Knob Visitor Center",
       "category": "attraction",
