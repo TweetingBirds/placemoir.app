@@ -30,6 +30,16 @@
         "$ref": "#/$defs/place"
       }
     },
+    "trips": {
+      "type": "array",
+      "description": "Placemoir 1.2. Trips, each listing its visits by id. A visit is on one trip at most.",
+      "items": {
+        "$ref": "#/$defs/trip"
+      }
+    },
+    "home": {
+      "$ref": "#/$defs/home"
+    },
     "guide": {
       "$ref": "#/$defs/guide"
     }
@@ -62,16 +72,49 @@
         "category": {
           "enum": [
             "restaurant",
+            "barbecue",
+            "bakery",
+            "dessert",
+            "food-truck",
             "cafe",
             "bar",
+            "brewery",
+            "winery",
+            "distillery",
             "hotel",
-            "park",
-            "museum",
+            "albergue",
+            "inn",
+            "lodge",
+            "hostel",
+            "campground",
             "attraction",
+            "museum",
+            "visitor-center",
+            "gallery",
+            "landmark",
+            "historic-site",
+            "zoo",
+            "aquarium",
+            "place-of-worship",
+            "stadium",
+            "market",
+            "theater",
+            "shop",
+            "amusement-park",
+            "spa",
+            "park",
+            "state-park",
+            "garden",
+            "waterfall",
+            "viewpoint",
+            "beach",
+            "national-park",
+            "trailhead",
             "airport",
+            "station",
             "other"
           ],
-          "description": "Write one of these, in lowercase. Placemoir also accepts other case, and imports unknown values as other."
+          "description": "Write one of these, in lowercase: the Field Guide format's categories. Placemoir also accepts other case, and imports unknown values as other (before 1.2, anything outside the first nine)."
         },
         "address": {
           "type": "string",
@@ -82,7 +125,13 @@
           "description": "City or neighbourhood, e.g. \"Paris 11e\"."
         },
         "country": {
-          "type": "string"
+          "type": "string",
+          "description": "The country's name, as free text."
+        },
+        "countryCode": {
+          "type": "string",
+          "pattern": "^\\s*[A-Za-z]{2}\\s*$",
+          "description": "ISO 3166-1 alpha-2 country code, e.g. \"PT\". Write it uppercase; Placemoir reads any case. Placemoir 1.2 and later."
         },
         "latitude": {
           "type": "number",
@@ -105,15 +154,18 @@
         "createdAt": {
           "$ref": "#/$defs/date"
         },
+        "ids": {
+          "$ref": "#/$defs/placeIDs"
+        },
         "section": {
           "type": "string",
           "minLength": 1,
-          "description": "In a guide, the section this place is listed under. One of guide.sections."
+          "description": "Legacy. In a guide, the section this place is listed under. One of guide.sections. Still read; written only by the placemoir.app website until Placemoir 1.2 reads .guide.geojson files."
         },
         "appleMapsID": {
           "type": "string",
           "minLength": 1,
-          "description": "Apple Maps place ID (MKMapItem.Identifier), when known."
+          "description": "Legacy. Apple Maps place ID (MKMapItem.Identifier). Placemoir 1.2 reads it as ids.apple when that is missing, and writes only ids.apple."
         },
         "visits": {
           "type": "array",
@@ -268,9 +320,35 @@
         }
       }
     },
+    "placeIDs": {
+      "type": "object",
+      "description": "Where the same place is found in other map data. Placemoir 1.2 and later.",
+      "properties": {
+        "apple": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Apple Maps place ID (MKMapItem.Identifier)."
+        },
+        "wikidata": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Wikidata item, e.g. \"Q243\"."
+        },
+        "overture": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Overture Maps place id (GERS)."
+        },
+        "osm": {
+          "type": "string",
+          "minLength": 1,
+          "description": "OpenStreetMap element as type and number: \"node/123\", \"way/456\" or \"relation/789\"."
+        }
+      }
+    },
     "guide": {
       "type": "object",
-      "description": "A published list of places to try, such as a city guide. Placemoir 1.0 ignores it.",
+      "description": "Legacy. A published list of places to try, such as a city guide. Still read; written only by the placemoir.app website until Placemoir 1.2 reads .guide.geojson files. Placemoir 1.0 ignores it.",
       "required": [
         "slug",
         "title"
@@ -309,6 +387,89 @@
         "url": {
           "type": "string",
           "format": "uri"
+        }
+      }
+    },
+    "trip": {
+      "type": "object",
+      "description": "Placemoir 1.2. A stretch of visits away from home. Visits listed outside its dates widen it on import.",
+      "required": [
+        "startDate",
+        "endDate"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "name": {
+          "type": "string",
+          "description": "Leave it out for the generated name (\"Lisbon · Oct 2025\")."
+        },
+        "startDate": {
+          "$ref": "#/$defs/date"
+        },
+        "endDate": {
+          "$ref": "#/$defs/date",
+          "description": "Not before startDate."
+        },
+        "notes": {
+          "type": "string"
+        },
+        "source": {
+          "enum": [
+            "detected",
+            "manual"
+          ],
+          "description": "Missing reads as manual; Placemoir never changes a manual trip on its own."
+        },
+        "detectionKey": {
+          "type": "string",
+          "description": "For a detected trip, the id of its first visit."
+        },
+        "isHidden": {
+          "type": "boolean",
+          "description": "A detected trip the person deleted, kept so it isn't found again."
+        },
+        "createdAt": {
+          "$ref": "#/$defs/date"
+        },
+        "updatedAt": {
+          "$ref": "#/$defs/date"
+        },
+        "visitIDs": {
+          "type": "array",
+          "description": "Ids of visits anywhere in places. An id not in the file is ignored.",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "home": {
+      "type": "object",
+      "description": "Placemoir 1.2. Where the person lives.",
+      "required": [
+        "latitude",
+        "longitude"
+      ],
+      "properties": {
+        "latitude": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "longitude": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        },
+        "name": {
+          "type": "string"
+        },
+        "isUserSet": {
+          "type": "boolean",
+          "description": "Whether the person chose it, rather than Placemoir guessing. Missing reads as false."
         }
       }
     }
