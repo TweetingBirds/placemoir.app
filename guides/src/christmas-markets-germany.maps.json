@@ -6,13 +6,6 @@
     "longitude": 8.682018,
     "name": "Adolf Wagner"
   },
-  "augustiner-klosterwirt": {
-    "address": "Augustinerstraße 1, 80331 Munich, Germany",
-    "appleMapsID": "IBE467695D9C77B8F",
-    "latitude": 48.138453,
-    "longitude": 11.572171,
-    "name": "Augustiner Klosterwirt"
-  },
   "bratwursthaeusle": {
     "address": "Rathausplatz 1, 90403 Nuremberg, Germany",
     "appleMapsID": "I625D8EC58C29D346",
@@ -90,13 +83,6 @@
     "longitude": 8.073476,
     "name": "Hofgut Sternen"
   },
-  "hotel-eisenhut": {
-    "address": "Herrngasse 3, Unit 7, Rothenburg, 91541 Rothenburg ob der Tauber, Germany",
-    "appleMapsID": "IF8A883DFC02AD639",
-    "latitude": 49.376782,
-    "longitude": 10.178092,
-    "name": "Eisenhut"
-  },
   "hotel-elch-nuremberg": {
     "address": "Irrerstraße 11, 90403 Nuremberg, Germany",
     "appleMapsID": "IE6BFD3AABB2915B5",
@@ -117,13 +103,6 @@
     "latitude": 48.135484,
     "longitude": 11.581512,
     "name": "Hotel Torbräu"
-  },
-  "pulverturm-dresden": {
-    "address": "An der Frauenkirche 12, 01067 Dresden, Germany",
-    "appleMapsID": "I20C16E99A7D9D8A0",
-    "latitude": 51.052267,
-    "longitude": 13.742685,
-    "name": "Pulverturm an der Frauenkirche"
   },
   "ravennaschlucht-christmas-market": {
     "address": "79874 Breitnau, Germany",
