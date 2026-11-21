@@ -58,7 +58,7 @@
         </div>
         <div class="wrap page-body">
             <article class="prose spec">
-<p>A Placemoir archive holds a whole Placemoir journal in one file: places, visits, ratings, notes, tags, weather, photos, voice memos and other attachments. Placemoir writes one when you export your journal (You › Export journal), and reads one back under You › Import an archive, or when you open the file from Files, Mail or AirDrop.</p>
+<p>A Placemoir archive holds a whole Placemoir journal in one file: places, visits, ratings, notes, tags, weather, photos, voice memos and other attachments. Placemoir writes one when you export your journal (You › Export journal as Placemoir archive), and reads one back under You › Import an archive, or when you open the file from Files, Mail or AirDrop.</p>
 <p>The format is public so that anyone, including scripts and AI assistants, can write files Placemoir imports: from Day One, Apple Journal, a spreadsheet, a travel blog or another app's export. This document is the whole contract. The machine-readable version is <a href="https://placemoir.app/schemas/library-v1.json">library-v1.json</a> (JSON Schema 2020-12), and <a href="https://placemoir.app/schemas/example-library.json">example-library.json</a> is a complete example that imports as it is, as a bare <code>library.json</code>. It has no attachments, because a bare file can't carry any; <a href="#at-a-glance">At a glance</a> shows one inside an archive.</p>
 <p>The words MUST, SHOULD and MAY are used as in RFC 2119.</p>
 <h2 id="for-ai-assistants-and-scripts">For AI assistants and scripts</h2>
@@ -160,9 +160,19 @@
 <td></td>
 </tr>
 <tr>
+<td><code>trips</code></td>
+<td>array of <a href="#trip">trips</a></td>
+<td>Placemoir 1.2. Trips, each listing its visits by id.</td>
+</tr>
+<tr>
+<td><code>home</code></td>
+<td><a href="#home">home</a></td>
+<td>Placemoir 1.2. Where the person lives, used to tell trips from everyday visits.</td>
+</tr>
+<tr>
 <td><code>guide</code></td>
 <td><a href="#guide">guide</a></td>
-<td>Set when the file is a published list of places to try, such as a city guide from placemoir.app. Leave it out of journals and backups.</td>
+<td><strong>Legacy.</strong> Set when the file is a published list of places to try, such as a city guide from placemoir.app. Placemoir still reads it, but only the placemoir.app website writes it, until Placemoir 1.2 reads <code>.guide.geojson</code> Field Guide files. Leave it out of journals and backups.</td>
 </tr>
 </tbody>
 </table></div>
@@ -190,7 +200,7 @@
 <tr>
 <td><code>category</code></td>
 <td>string</td>
-<td><code>restaurant</code>, <code>cafe</code>, <code>bar</code>, <code>hotel</code>, <code>park</code>, <code>museum</code>, <code>attraction</code>, <code>airport</code> or <code>other</code>. Placemoir ignores case, and imports any other value as <code>other</code>.</td>
+<td>One of the 42 Field Guide categories, grouped as the app filters them: Eat (<code>restaurant</code>, <code>barbecue</code>, <code>bakery</code>, <code>dessert</code>, <code>food-truck</code>); Drink (<code>cafe</code>, <code>bar</code>, <code>brewery</code>, <code>winery</code>, <code>distillery</code>); Stay (<code>hotel</code>, <code>albergue</code>, <code>inn</code>, <code>lodge</code>, <code>hostel</code>, <code>campground</code>); See (<code>attraction</code>, <code>museum</code>, <code>visitor-center</code>, <code>gallery</code>, <code>landmark</code>, <code>historic-site</code>, <code>zoo</code>, <code>aquarium</code>, <code>place-of-worship</code>); Do (<code>stadium</code>, <code>market</code>, <code>theater</code>, <code>shop</code>, <code>amusement-park</code>, <code>spa</code>); Outdoors (<code>park</code>, <code>state-park</code>, <code>garden</code>, <code>waterfall</code>, <code>viewpoint</code>, <code>beach</code>, <code>national-park</code>, <code>trailhead</code>); Other (<code>airport</code>, <code>station</code>, <code>other</code>). Placemoir ignores case and imports any other value as <code>other</code>. Placemoir before 1.2 knows only <code>restaurant</code>, <code>cafe</code>, <code>bar</code>, <code>hotel</code>, <code>park</code>, <code>museum</code>, <code>attraction</code>, <code>airport</code> and <code>other</code>, and imports the rest as <code>other</code>.</td>
 </tr>
 <tr>
 <td><code>address</code></td>
@@ -205,7 +215,12 @@
 <tr>
 <td><code>country</code></td>
 <td>string</td>
-<td></td>
+<td>The country's name, as free text ("Portugal").</td>
+</tr>
+<tr>
+<td><code>countryCode</code></td>
+<td>string</td>
+<td>The country's <a href="https://www.iso.org/iso-3166-country-codes.html">ISO 3166-1 alpha-2</a> code, such as <code>"PT"</code>. Placemoir reads any case and trims spaces, and writes it uppercase. Anything but two letters is an error; an empty string counts as left out. Placemoir 1.2 and later.</td>
 </tr>
 <tr>
 <td><code>latitude</code>, <code>longitude</code></td>
@@ -228,19 +243,57 @@
 <td>When it was added to the journal. Defaults to the time of the import.</td>
 </tr>
 <tr>
+<td><code>ids</code></td>
+<td><a href="#provider-ids">provider ids</a></td>
+<td>The place's ids at Apple Maps, Wikidata, Overture and OpenStreetMap. Placemoir 1.2 and later.</td>
+</tr>
+<tr>
 <td><code>section</code></td>
 <td>string</td>
-<td>In a <a href="#guide">guide</a>, the section the place is listed under, such as <code>"Eat"</code> or <code>"Midtown"</code>. Exactly one of the guide's <code>sections</code>. Ignored outside a guide.</td>
+<td><strong>Legacy.</strong> In a <a href="#guide">guide</a>, the section the place is listed under, such as <code>"Eat"</code> or <code>"Midtown"</code>. Exactly one of the guide's <code>sections</code>. Ignored outside a guide. Still read, but only the placemoir.app website writes it, until Placemoir 1.2 reads <code>.guide.geojson</code> files.</td>
 </tr>
 <tr>
 <td><code>appleMapsID</code></td>
 <td>string</td>
-<td>The Apple Maps place ID (MapKit's <code>MKMapItem.Identifier</code>) of the place, when known. Placemoir 1.0 ignores it.</td>
+<td><strong>Legacy.</strong> The Apple Maps place ID. Placemoir 1.2 still reads it, as <code>ids.apple</code> when that is missing, and writes only <code>ids.apple</code>. Placemoir 1.0 and 1.1 ignore it.</td>
 </tr>
 <tr>
 <td><code>visits</code></td>
 <td>array of <a href="#visit">visits</a></td>
 <td></td>
+</tr>
+</tbody>
+</table></div>
+<h4 id="provider-ids">Provider ids</h4>
+<p>The <code>ids</code> object of a place: where the same place is found in other map data. Every field is an optional, non-empty string. Placemoir keeps them as they are (trimmed) and writes only the ones it has; it leaves <code>ids</code> out when it has none.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Type</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>apple</code></td>
+<td>string</td>
+<td>Apple Maps place ID (MapKit's <code>MKMapItem.Identifier</code>), such as <code>"I63802885C8189B2B"</code>.</td>
+</tr>
+<tr>
+<td><code>wikidata</code></td>
+<td>string</td>
+<td>Wikidata item, such as <code>"Q243"</code>.</td>
+</tr>
+<tr>
+<td><code>overture</code></td>
+<td>string</td>
+<td>Overture Maps place id (GERS).</td>
+</tr>
+<tr>
+<td><code>osm</code></td>
+<td>string</td>
+<td>OpenStreetMap element as type and number: <code>"node/123"</code>, <code>"way/456"</code> or <code>"relation/789"</code>.</td>
 </tr>
 </tbody>
 </table></div>
@@ -377,6 +430,7 @@
 </table></div>
 <p>Photos can be any format iOS reads (JPEG, HEIC, PNG). Placemoir keeps the original bytes and makes its own thumbnail. Audio SHOULD be M4A (AAC) or MP3. Video isn't supported yet; attach it as <code>file</code> if you want to keep it.</p>
 <h3 id="guide">Guide</h3>
+<p><strong>Legacy:</strong> Placemoir still reads this object, but only the placemoir.app website writes it, until Placemoir 1.2 reads <code>.guide.geojson</code> Field Guide files.</p>
 <p>A guide is a library of <a href="#place">Want to go</a> places someone else picked, such as a week in a city. The places have no visits, and their <code>notes</code> say why each is worth going. Importing a guide works like importing any library, so a place you already have is matched and left as it is. Placemoir 1.0 imports a guide as a plain library and ignores this object.</p>
 <div class="table-scroll"><table>
 <thead>
@@ -430,6 +484,103 @@
 </tbody>
 </table></div>
 <p>Give each place an <code>id</code> that isn't a UUID, such as <code>"guide:atlanta/fox-theatre"</code>. Then importing the guide again adds nothing, and a place already in the journal under its own id is still found by name and position (see <a href="#how-placemoir-imports">How Placemoir imports</a>).</p>
+<h3 id="trip">Trip</h3>
+<p>Placemoir 1.2. A trip is a stretch of visits away from home. Placemoir finds most of them itself; people can also make and fix them, and plan one before any visit is on it, so its dates are given rather than worked out from its visits.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Type</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>id</code></td>
+<td>string</td>
+<td>See <a href="#ids">Ids</a>. Unique among the trips in the file.</td>
+</tr>
+<tr>
+<td><code>name</code></td>
+<td>string</td>
+<td>Leave it out to show a name made from the place and month ("Lisbon · Oct 2025").</td>
+</tr>
+<tr>
+<td><code>startDate</code></td>
+<td>date</td>
+<td><strong>Required.</strong></td>
+</tr>
+<tr>
+<td><code>endDate</code></td>
+<td>date</td>
+<td><strong>Required.</strong> Not before <code>startDate</code>.</td>
+</tr>
+<tr>
+<td><code>notes</code></td>
+<td>string</td>
+<td></td>
+</tr>
+<tr>
+<td><code>source</code></td>
+<td>string</td>
+<td><code>"detected"</code> (Placemoir found it) or <code>"manual"</code> (the person made or edited it). Missing reads as <code>"manual"</code>: Placemoir never changes a manual trip on its own.</td>
+</tr>
+<tr>
+<td><code>detectionKey</code></td>
+<td>string</td>
+<td>For a detected trip, the id of its first visit. Placemoir uses it to merge copies of the same trip found on two devices.</td>
+</tr>
+<tr>
+<td><code>isHidden</code></td>
+<td>boolean</td>
+<td>A detected trip the person deleted, kept so it isn't found again. Hidden trips aren't shown.</td>
+</tr>
+<tr>
+<td><code>createdAt</code>, <code>updatedAt</code></td>
+<td>date</td>
+<td></td>
+</tr>
+<tr>
+<td><code>visitIDs</code></td>
+<td>array of strings</td>
+<td>The <code>id</code>s of the visits on this trip, anywhere in <code>places</code>. A visit is on one trip at most, so an id MUST NOT be in two trips. An id that isn't in the file is ignored.</td>
+</tr>
+</tbody>
+</table></div>
+<p>A visit listed in a trip that falls outside its dates (a stay's <code>endDate</code> included) widens the trip to cover it on import.</p>
+<h3 id="home">Home</h3>
+<p>Placemoir 1.2. Where the person lives. Placemoir keeps it in iCloud key-value storage, not the journal, so it follows them to their other devices.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Type</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>latitude</code></td>
+<td>number</td>
+<td><strong>Required.</strong> -90 to 90.</td>
+</tr>
+<tr>
+<td><code>longitude</code></td>
+<td>number</td>
+<td><strong>Required.</strong> -180 to 180.</td>
+</tr>
+<tr>
+<td><code>name</code></td>
+<td>string</td>
+<td>The town's name as shown, such as <code>"Lisbon"</code>.</td>
+</tr>
+<tr>
+<td><code>isUserSet</code></td>
+<td>boolean</td>
+<td>Whether the person chose it, rather than Placemoir guessing it from the journal. Missing reads as <code>false</code>.</td>
+</tr>
+</tbody>
+</table></div>
 <h3 id="dates">Dates</h3>
 <p>Dates are ISO 8601 strings. Placemoir writes <code>2026-11-01T18:30:00Z</code> (or <code>2026-11-01T18:30:00.250Z</code> when the time has fractions of a second) and reads any of these:</p>
 <div class="table-scroll"><table>
@@ -460,15 +611,17 @@
 </table></div>
 <p>A time zone is <code>Z</code> or <code>+hh:mm</code>/<code>-hh:mm</code>, and needs the seconds before it (<code>18:30:00Z</code>, not <code>18:30Z</code>). Fractions of a second have exactly three digits. Anything else, such as <code>Nov 1, 2026</code> or a Unix timestamp, is an error. The schema's <code>date</code> pattern allows exactly these shapes.</p>
 <h3 id="ids">Ids</h3>
-<p>An <code>id</code> is any non-empty string, unique among the places (or visits, or attachments) in the file. Placemoir writes UUIDs. Any other string, such as a Day One entry id, is turned into a UUID the same way every time, so ids from another app keep working across imports.</p>
+<p>An <code>id</code> is any non-empty string, unique among the places (or visits, attachments or trips) in the file. Placemoir writes UUIDs. Any other string, such as a Day One entry id, is turned into a UUID the same way every time, so ids from another app keep working across imports.</p>
 <p>Give every place and visit an id when you can. It is what makes importing the same file twice safe.</p>
 <h2 id="how-placemoir-imports">How Placemoir imports</h2>
 <p>Importing <strong>merges</strong>: it adds what's new and never changes or removes what's already in the journal.</p>
 <ul>
-<li><strong>A place</strong> is already there when it has the same id. A place whose id is a UUID (what Placemoir writes) matches only by id, so a restore never merges two places that share a name. Otherwise (another kind of id, or none) it also matches the same name (ignoring case) within 150 m; when either side has no position, the addresses must match too; and when neither has a position or an address, the same name is enough. A matched place keeps its own fields, and gains any that were blank (address, locality, country, notes, position, a category other than <code>other</code>).</li>
+<li><strong>A place</strong> is already there when it has the same id. A place whose id is a UUID (what Placemoir writes) matches only by id, so a restore never merges two places that share a name. Otherwise (another kind of id, or none) it also matches the same name (ignoring case) within 150 m; when either side has no position, the addresses must match too; and when neither has a position or an address, the same name is enough. A matched place keeps its own fields, and gains any that were blank (address, locality, country, country code, notes, position, a category other than <code>other</code>, and each of the provider ids).</li>
 <li><strong>A visit</strong> is already there when it has the same id. A visit without an id is already there when the same place has a visit within a minute of it with the same notes. Visits already there are skipped, except that one with an id gains any of the file's attachments, by id, that it doesn't have yet. Attachments without an id on a visit already there are skipped.</li>
 <li><strong>An attachment</strong> keeps its id unless the journal already uses it, in which case it gets a new one.</li>
 <li>A Want to go place that gains visits from the file comes off the list, unless the file says <code>"wantToGo": true</code>.</li>
+<li><strong>A trip</strong> is already there when it has the same id; a trip without an id is matched by its name and start date. A trip already there keeps its own name, dates and notes. Once every visit is in, each visit a trip lists goes on it, unless the visit is already on a trip, and the trip's dates widen to fit it.</li>
+<li><strong>The home town</strong> is set from the file only when the device has none, or has only one Placemoir guessed and the file's was chosen by the person. A home the person chose is never replaced.</li>
 </ul>
 <p>So restoring a backup into the journal it came from adds nothing, and importing the same file twice adds nothing the second time. To replace a journal instead, use You › Delete all data first.</p>
 <p>Before anything is imported, the whole file is checked. If anything is wrong, nothing is imported and Placemoir lists the problems with where to find them:</p>
@@ -492,7 +645,7 @@
 <tr>
 <td>1</td>
 <td>1.0</td>
-<td>First version. Later additions that don't change the version: <code>guide</code>, and <code>section</code> and <code>appleMapsID</code> on places (Placemoir 1.1).</td>
+<td>First version. Later additions that don't change the version: <code>guide</code>, and <code>section</code> and <code>appleMapsID</code> on places (Placemoir 1.1); <code>countryCode</code> and <code>ids</code> on places, and top-level <code>trips</code> and <code>home</code> (Placemoir 1.2), with <code>appleMapsID</code>, <code>section</code> and <code>guide</code> now legacy. Placemoir 1.0 and 1.1 import a 1.2 file's places and visits and ignore its trips and home.</td>
 </tr>
 </tbody>
 </table></div>
