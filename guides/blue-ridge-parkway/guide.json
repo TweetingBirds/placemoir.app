@@ -1,7 +1,7 @@
 {
   "format": "placemoir-library",
   "formatVersion": 1,
-  "exportedAt": "2026-11-14",
+  "exportedAt": "2026-11-21",
   "generator": "Placemoir Field Guides",
   "guide": {
     "slug": "blue-ridge-parkway",
@@ -16,7 +16,7 @@
       "Day 4 · Blowing Rock to Asheville · 90 mi",
       "Day 5 · Asheville to Cherokee · 87 mi"
     ],
-    "updatedAt": "2026-11-14",
+    "updatedAt": "2026-11-21",
     "url": "https://placemoir.app/guides/blue-ridge-parkway/",
     "kind": "route",
     "region": "Virginia and North Carolina"
@@ -116,7 +116,7 @@
       "latitude": 37.555152,
       "longitude": -79.365886,
       "wantToGo": true,
-      "notes": "The parkway's lowest point, where it crosses the James. A footbridge under the road leads to a restored lock from the old James River and Kanawha Canal. Bridge repair work has brought detours here; check NPS road status.",
+      "notes": "The parkway's lowest point, where it crosses the James. A footbridge under the road leads to a restored lock from the old James River and Kanawha Canal. The visitor center is seasonal, and bridge work has brought detours; check NPS road status.",
       "section": "Day 1 · Rockfish Gap to Peaks of Otter · 86 mi",
       "appleMapsID": "I4FD4AEECFCEC7317"
     },
@@ -427,20 +427,6 @@
       "appleMapsID": "I449C12F26D06EB8B"
     },
     {
-      "id": "guide:blue-ridge-parkway/green-park-inn",
-      "name": "Green Park Inn",
-      "category": "hotel",
-      "address": "9239 Valley Blvd, Blowing Rock, NC 28605",
-      "locality": "Blowing Rock",
-      "country": "United States",
-      "latitude": 36.118442,
-      "longitude": -81.660143,
-      "wantToGo": true,
-      "notes": "A white clapboard hotel from the late 1800s sitting right on the Eastern Continental Divide. Old-fashioned rooms, a wide porch and the Divide Tavern, which straddles the line.",
-      "section": "Day 3 · Mabry Mill to Blowing Rock · 116 mi",
-      "appleMapsID": "I1FDC31DBE6992FE7"
-    },
-    {
       "id": "guide:blue-ridge-parkway/chetola-resort",
       "name": "Chetola Resort",
       "category": "hotel",
@@ -588,7 +574,7 @@
       "latitude": 35.700266,
       "longitude": -82.379644,
       "wantToGo": true,
-      "notes": "Grassy balds covered in rhododendron. A trail from the visitor center climbs to the bald, and the Craggy Pinnacle trail starts from a lot just north for a ring of views. Some trails and the picnic area may be closed; check the NPS site.",
+      "notes": "Grassy balds covered in rhododendron. A trail from the visitor center climbs to the bald, and the Craggy Pinnacle trail starts from a lot just north for a ring of views. The visitor center is seasonal and some trails may be closed; check the NPS site.",
       "section": "Day 4 · Blowing Rock to Asheville · 90 mi",
       "appleMapsID": "I81A21F38B2E4B43E"
     },

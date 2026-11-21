@@ -1,7 +1,7 @@
 {
   "format": "placemoir-library",
   "formatVersion": 1,
-  "exportedAt": "2026-11-14",
+  "exportedAt": "2026-11-21",
   "generator": "Placemoir Field Guides",
   "guide": {
     "slug": "christmas-markets-germany",
@@ -23,7 +23,7 @@
       "Stuttgart and Esslingen",
       "Black Forest"
     ],
-    "updatedAt": "2026-11-14",
+    "updatedAt": "2026-11-21",
     "url": "https://placemoir.app/guides/christmas-markets-germany/",
     "kind": "season",
     "region": "Germany"
