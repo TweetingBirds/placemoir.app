@@ -10,11 +10,13 @@
   <url><loc>https://placemoir.app/support.html</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://placemoir.app/whats-new.html</loc><lastmod>2026-11-07</lastmod></url>
   <!-- guides:sitemap -->
-  <url><loc>https://placemoir.app/guides/</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://placemoir.app/guides/</loc><lastmod>2026-11-21</lastmod></url>
   <url><loc>https://placemoir.app/guides/atlanta/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://placemoir.app/guides/austin/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://placemoir.app/guides/blue-ridge-parkway/</loc><lastmod>2026-11-21</lastmod></url>
   <url><loc>https://placemoir.app/guides/boston/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://placemoir.app/guides/chicago/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://placemoir.app/guides/christmas-markets-germany/</loc><lastmod>2026-11-21</lastmod></url>
   <url><loc>https://placemoir.app/guides/denver/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://placemoir.app/guides/great-smoky-mountains/</loc><lastmod>2026-11-14</lastmod></url>
   <url><loc>https://placemoir.app/guides/kansas-city/</loc><lastmod>2026-11-08</lastmod></url>
@@ -26,6 +28,6 @@
   <url><loc>https://placemoir.app/guides/san-francisco/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://placemoir.app/guides/seattle/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://placemoir.app/guides/washington-dc/</loc><lastmod>2026-11-08</lastmod></url>
-  <url><loc>https://placemoir.app/guides/suggest/</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://placemoir.app/guides/suggest/</loc><lastmod>2026-11-21</lastmod></url>
   <!-- /guides:sitemap -->
 </urlset>
