@@ -34,20 +34,6 @@
     "longitude": -82.486404,
     "name": "Blue Ridge Parkway Visitor Center"
   },
-  "chateau-morrisette": {
-    "address": "291 Winery Rd SW, Floyd, VA 24091, United States",
-    "appleMapsID": "IB515C88CA9CC0CDE",
-    "latitude": 36.79382,
-    "longitude": -80.39508,
-    "name": "Chateau Morrisette Winery"
-  },
-  "chetola-resort": {
-    "address": "185 Chetola Lake Dr, Blowing Rock, NC 28605, United States",
-    "appleMapsID": "I21E4B82EEB542727",
-    "latitude": 36.139595,
-    "longitude": -81.67323,
-    "name": "Chetola Resort & Spa"
-  },
   "crabtree-falls-va": {
     "address": "Montebello, VA 24464, United States",
     "appleMapsID": "I9178083A43E82B97",
@@ -75,13 +61,6 @@
     "latitude": 35.59407,
     "longitude": -82.551699,
     "name": "Cúrate"
-  },
-  "devils-backbone-basecamp": {
-    "address": "200 Crandall Run, Roseland, VA 22967, United States",
-    "appleMapsID": "ID0DFABF5D84FDB41",
-    "latitude": 37.87125,
-    "longitude": -78.918618,
-    "name": "Devils Backbone Brewing Company"
   },
   "devils-courthouse": {
     "address": "Balsam Grove, NC 28708, United States",
@@ -145,20 +124,6 @@
     "latitude": 35.3202,
     "longitude": -82.847193,
     "name": "Graveyard Fields Overlook"
-  },
-  "green-park-inn": {
-    "address": "9239 Valley Blvd, Blowing Rock, NC 28605, United States",
-    "appleMapsID": "I1FDC31DBE6992FE7",
-    "latitude": 36.118442,
-    "longitude": -81.660143,
-    "name": "Green Park Inn"
-  },
-  "hotel-floyd": {
-    "address": "300 Rick Lewis Way, Floyd, VA 24091, United States",
-    "appleMapsID": "I7EC113D2AA3CDAE",
-    "latitude": 36.910305,
-    "longitude": -80.318226,
-    "name": "Hotel Floyd"
   },
   "hotel-roanoke": {
     "address": "110 Shenandoah Avenue, Roanoke, VA 24016, United States",
@@ -325,13 +290,6 @@
     "latitude": 37.443211,
     "longitude": -79.609305,
     "name": "Sharp Top Trail"
-  },
-  "speckled-trout": {
-    "address": "922 Main St, Blowing Rock, NC 28605, United States",
-    "appleMapsID": "I449C12F26D06EB8B",
-    "latitude": 36.135169,
-    "longitude": -81.678052,
-    "name": "The Speckled Trout Restaurant & Bottle Shop"
   },
   "sunny-point-cafe": {
     "address": "626 Haywood Rd, Asheville, NC 28806, United States",
