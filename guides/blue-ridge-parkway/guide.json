@@ -51,20 +51,6 @@
       "appleMapsID": "I78A2EAD521561C95"
     },
     {
-      "id": "guide:blue-ridge-parkway/devils-backbone-basecamp",
-      "name": "Devils Backbone Basecamp Brewpub",
-      "category": "bar",
-      "address": "200 Crandall Run, Roseland, VA 22967",
-      "locality": "Roseland",
-      "country": "United States",
-      "latitude": 37.87125,
-      "longitude": -78.918618,
-      "wantToGo": true,
-      "notes": "A big timber-frame brewpub in the Rockfish Valley, down VA-664 from Reeds Gap. A good lunch or dinner stop, with a lawn out back and a campground nearby run by the same brewery.",
-      "section": "Day 1 · Rockfish Gap to Peaks of Otter · 86 mi",
-      "appleMapsID": "ID0DFABF5D84FDB41"
-    },
-    {
       "id": "guide:blue-ridge-parkway/crabtree-falls-va",
       "name": "Crabtree Falls",
       "category": "park",
@@ -247,20 +233,6 @@
       "appleMapsID": "I75B5FF46D473E31"
     },
     {
-      "id": "guide:blue-ridge-parkway/hotel-floyd",
-      "name": "Hotel Floyd",
-      "category": "hotel",
-      "address": "300 Rick Lewis Way, Floyd, VA 24091",
-      "locality": "Floyd",
-      "country": "United States",
-      "latitude": 36.910305,
-      "longitude": -80.318226,
-      "wantToGo": true,
-      "notes": "A small hotel built with green materials a short walk from the Country Store, with rooms named for and furnished by local artists and craftspeople. Handy if you want to stay for a night of music.",
-      "section": "Day 2 · Peaks of Otter to Mabry Mill · 90 mi",
-      "appleMapsID": "I7EC113D2AA3CDAE"
-    },
-    {
       "id": "guide:blue-ridge-parkway/rock-castle-gorge",
       "name": "Rock Castle Gorge Trail",
       "category": "park",
@@ -272,20 +244,6 @@
       "wantToGo": true,
       "notes": "A long, demanding loop that drops from the open meadows of Rocky Knob into a deep gorge and climbs back. For a shorter outing, walk only the grassy ridgetop stretch along the parkway.",
       "section": "Day 2 · Peaks of Otter to Mabry Mill · 90 mi"
-    },
-    {
-      "id": "guide:blue-ridge-parkway/chateau-morrisette",
-      "name": "Chateau Morrisette",
-      "category": "bar",
-      "address": "291 Winery Rd SW, Floyd, VA 24091",
-      "locality": "Floyd",
-      "country": "United States",
-      "latitude": 36.79382,
-      "longitude": -80.39508,
-      "wantToGo": true,
-      "notes": "A winery just off milepost 171.5 in a big timber-frame building, with a restaurant and tastings. Reservations are a good idea for a meal.",
-      "section": "Day 2 · Peaks of Otter to Mabry Mill · 90 mi",
-      "appleMapsID": "IB515C88CA9CC0CDE"
     },
     {
       "id": "guide:blue-ridge-parkway/mabry-mill",
@@ -411,34 +369,6 @@
       "notes": "A compact museum just off Main Street with rotating shows of Appalachian art and the town's history as a mountain resort. A good rainy-day stop.",
       "section": "Day 3 · Mabry Mill to Blowing Rock · 116 mi",
       "appleMapsID": "IF3A0B81DA5195287"
-    },
-    {
-      "id": "guide:blue-ridge-parkway/speckled-trout",
-      "name": "The Speckled Trout",
-      "category": "restaurant",
-      "address": "922 Main St, Blowing Rock, NC 28605",
-      "locality": "Blowing Rock",
-      "country": "United States",
-      "latitude": 36.135169,
-      "longitude": -81.678052,
-      "wantToGo": true,
-      "notes": "A Main Street restaurant and bottle shop serving seasonal Appalachian food, about a mile from the parkway. Closed midweek, so check the days before you go.",
-      "section": "Day 3 · Mabry Mill to Blowing Rock · 116 mi",
-      "appleMapsID": "I449C12F26D06EB8B"
-    },
-    {
-      "id": "guide:blue-ridge-parkway/chetola-resort",
-      "name": "Chetola Resort",
-      "category": "hotel",
-      "address": "185 Chetola Lake Dr, Blowing Rock, NC 28605",
-      "locality": "Blowing Rock",
-      "country": "United States",
-      "latitude": 36.139595,
-      "longitude": -81.67323,
-      "wantToGo": true,
-      "notes": "A lakeside resort on an old estate at the edge of town, a short walk from Main Street and a few minutes from Moses Cone. The splurge stay of the trip.",
-      "section": "Day 3 · Mabry Mill to Blowing Rock · 116 mi",
-      "appleMapsID": "I21E4B82EEB542727"
     },
     {
       "id": "guide:blue-ridge-parkway/flat-top-manor",

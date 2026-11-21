@@ -242,28 +242,6 @@
     },
     {
       "type": "Feature",
-      "id": "hotel-eisenhut",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.1781,
-          49.3768
-        ]
-      },
-      "properties": {
-        "name": "Hotel Eisenhut",
-        "category": "hotel",
-        "section": "rothenburg-ob-der-tauber",
-        "notes": "Four joined patrician houses from the 15th and 16th centuries on the town's grandest street. A classic Rothenburg stay, two minutes from the market.",
-        "address": "Herrngasse 3-7, 91541 Rothenburg ob der Tauber",
-        "locality": "Rothenburg ob der Tauber",
-        "sources": [
-          "fodors"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "zur-hoell",
       "geometry": {
         "type": "Point",
@@ -308,28 +286,6 @@
         "match": {
           "skip": "Seasonal Christmas market on Marienplatz; Apple Maps has no listing for the event itself (checked Nov 14, 2026)"
         }
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "augustiner-klosterwirt",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.5723,
-          48.1385
-        ]
-      },
-      "properties": {
-        "name": "Augustiner Klosterwirt",
-        "category": "restaurant",
-        "section": "munich",
-        "notes": "A traditional Bavarian inn next to the Frauenkirche, a few minutes from Marienplatz, pouring Augustiner beer with roast pork and dumplings. Warmer and calmer than the big beer halls.",
-        "address": "Augustinerstraße 1, 80331 Munich",
-        "locality": "Munich",
-        "sources": [
-          "schlemmer-atlas"
-        ]
       }
     },
     {
@@ -464,25 +420,6 @@
         "sources": [
           "michelin"
         ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "pulverturm-dresden",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.7425,
-          51.0522
-        ]
-      },
-      "properties": {
-        "name": "Pulverturm an der Frauenkirche",
-        "category": "restaurant",
-        "section": "dresden",
-        "notes": "A large vaulted cellar restaurant beside the Frauenkirche, in the 16th-century gunpowder tower of the old city defenses. Saxon roasts and costumed performers in a setting that leans into the history.",
-        "address": "An der Frauenkirche 12, 01067 Dresden",
-        "locality": "Dresden"
       }
     },
     {

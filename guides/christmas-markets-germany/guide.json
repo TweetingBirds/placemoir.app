@@ -98,20 +98,6 @@
       "appleMapsID": "I7F298700B5CE725A"
     },
     {
-      "id": "guide:christmas-markets-germany/hotel-eisenhut",
-      "name": "Hotel Eisenhut",
-      "category": "hotel",
-      "address": "Herrngasse 3-7, 91541 Rothenburg ob der Tauber",
-      "locality": "Rothenburg ob der Tauber",
-      "country": "Germany",
-      "latitude": 49.376782,
-      "longitude": 10.178092,
-      "wantToGo": true,
-      "notes": "Four joined patrician houses from the 15th and 16th centuries on the town's grandest street. A classic Rothenburg stay, two minutes from the market.",
-      "section": "Rothenburg ob der Tauber",
-      "appleMapsID": "IF8A883DFC02AD639"
-    },
-    {
       "id": "guide:christmas-markets-germany/zur-hoell",
       "name": "Zur Höll",
       "category": "restaurant",
@@ -136,20 +122,6 @@
       "wantToGo": true,
       "notes": "Munich's main market fills Marienplatz in front of the neo-Gothic town hall, with a giant tree and brass music from the balcony in the evenings. Look for the nativity-figure market nearby, a Munich specialty.",
       "section": "Munich"
-    },
-    {
-      "id": "guide:christmas-markets-germany/augustiner-klosterwirt",
-      "name": "Augustiner Klosterwirt",
-      "category": "restaurant",
-      "address": "Augustinerstraße 1, 80331 Munich",
-      "locality": "Munich",
-      "country": "Germany",
-      "latitude": 48.138453,
-      "longitude": 11.572171,
-      "wantToGo": true,
-      "notes": "A traditional Bavarian inn next to the Frauenkirche, a few minutes from Marienplatz, pouring Augustiner beer with roast pork and dumplings. Warmer and calmer than the big beer halls.",
-      "section": "Munich",
-      "appleMapsID": "IBE467695D9C77B8F"
     },
     {
       "id": "guide:christmas-markets-germany/hotel-torbraeu",
@@ -233,20 +205,6 @@
       "notes": "A rebuilt baroque palace across from the Zwinger and next to the royal palace. The grand-hotel choice in Dresden, within walking distance of every market in the old town.",
       "section": "Dresden",
       "appleMapsID": "I15A053EDDEA6214D"
-    },
-    {
-      "id": "guide:christmas-markets-germany/pulverturm-dresden",
-      "name": "Pulverturm an der Frauenkirche",
-      "category": "restaurant",
-      "address": "An der Frauenkirche 12, 01067 Dresden",
-      "locality": "Dresden",
-      "country": "Germany",
-      "latitude": 51.052267,
-      "longitude": 13.742685,
-      "wantToGo": true,
-      "notes": "A large vaulted cellar restaurant beside the Frauenkirche, in the 16th-century gunpowder tower of the old city defenses. Saxon roasts and costumed performers in a setting that leans into the history.",
-      "section": "Dresden",
-      "appleMapsID": "I20C16E99A7D9D8A0"
     },
     {
       "id": "guide:christmas-markets-germany/erfurt-christmas-market",
