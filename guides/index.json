@@ -1,7 +1,7 @@
 {
   "format": "placemoir-guides",
   "formatVersion": 1,
-  "updatedAt": "2026-11-14",
+  "updatedAt": "2026-11-21",
   "guides": [
     {
       "slug": "atlanta",
@@ -46,6 +46,30 @@
       "archiveURL": "https://placemoir.app/guides/austin/austin.placemoirarchive"
     },
     {
+      "slug": "blue-ridge-parkway",
+      "title": "The Blue Ridge Parkway from Shenandoah to Cherokee",
+      "summary": "Five days down all 469 miles of the parkway, from Rockfish Gap in Virginia to the Great Smoky Mountains, with overlooks, short hikes, old mills and lodges. Sections close for weather and repairs; check NPS road status.",
+      "author": "friends of Placemoir",
+      "language": "en",
+      "country": "United States",
+      "kind": "route",
+      "region": "Virginia and North Carolina",
+      "sections": [
+        "Day 1 · Rockfish Gap to Peaks of Otter · 86 mi",
+        "Day 2 · Peaks of Otter to Mabry Mill · 90 mi",
+        "Day 3 · Mabry Mill to Blowing Rock · 116 mi",
+        "Day 4 · Blowing Rock to Asheville · 90 mi",
+        "Day 5 · Asheville to Cherokee · 87 mi"
+      ],
+      "placeCount": 53,
+      "latitude": 36.3323,
+      "longitude": -81.3962,
+      "updatedAt": "2026-11-21",
+      "url": "https://placemoir.app/guides/blue-ridge-parkway/",
+      "guideURL": "https://placemoir.app/guides/blue-ridge-parkway/guide.json",
+      "archiveURL": "https://placemoir.app/guides/blue-ridge-parkway/blue-ridge-parkway.placemoirarchive"
+    },
+    {
       "slug": "boston",
       "title": "Boston on foot",
       "summary": "Seven days of the Freedom Trail and the North End, oysters and cannoli, great museums, Fenway and walks along the Charles.",
@@ -86,6 +110,37 @@
       "url": "https://placemoir.app/guides/chicago/",
       "guideURL": "https://placemoir.app/guides/chicago/guide.json",
       "archiveURL": "https://placemoir.app/guides/chicago/chicago.placemoirarchive"
+    },
+    {
+      "slug": "christmas-markets-germany",
+      "title": "Germany's Christmas Markets from Nuremberg to the Ravenna Gorge",
+      "summary": "Germany's classic Christmas markets, from Nuremberg, Dresden and Cologne to small-town and forest markets in Franconia and the Black Forest, with a traditional place to stay or eat in many of the cities.",
+      "author": "friends of Placemoir",
+      "language": "en",
+      "country": "Germany",
+      "kind": "season",
+      "region": "Germany",
+      "sections": [
+        "Nuremberg",
+        "Rothenburg ob der Tauber",
+        "Munich",
+        "Regensburg",
+        "Dresden",
+        "Erfurt",
+        "Lübeck",
+        "Cologne",
+        "Aachen",
+        "Frankfurt",
+        "Stuttgart and Esslingen",
+        "Black Forest"
+      ],
+      "placeCount": 30,
+      "latitude": 50.0295,
+      "longitude": 9.7226,
+      "updatedAt": "2026-11-21",
+      "url": "https://placemoir.app/guides/christmas-markets-germany/",
+      "guideURL": "https://placemoir.app/guides/christmas-markets-germany/guide.json",
+      "archiveURL": "https://placemoir.app/guides/christmas-markets-germany/christmas-markets-germany.placemoirarchive"
     },
     {
       "slug": "denver",

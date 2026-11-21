@@ -3,7 +3,7 @@
   "placemoirGuide": "0.2",
   "guide": {
     "id": "christmas-markets-germany",
-    "status": "draft",
+    "status": "published",
     "kind": "season",
     "name": "Germany's Christmas Markets from Nuremberg to the Ravenna Gorge",
     "description": "Germany's classic Christmas markets, from Nuremberg, Dresden and Cologne to small-town and forest markets in Franconia and the Black Forest, with a traditional place to stay or eat in many of the cities.",
@@ -146,7 +146,8 @@
         "locality": "Nuremberg",
         "match": {
           "skip": "Seasonal Christmas market on Hauptmarkt; Apple Maps has no listing for the event itself (checked Nov 14, 2026)"
-        }
+        },
+        "lastVerified": "2026-11-21"
       }
     },
     {
@@ -169,7 +170,8 @@
         "sources": [
           "michelin",
           "nuernberg-tourismus"
-        ]
+        ],
+        "lastVerified": "2026-11-21"
       }
     },
     {
@@ -193,7 +195,8 @@
           "frommers",
           "lonely-planet",
           "rough-guides"
-        ]
+        ],
+        "lastVerified": "2026-11-21"
       }
     },
     {
@@ -215,7 +218,8 @@
         "locality": "Rothenburg ob der Tauber",
         "match": {
           "skip": "Seasonal Christmas market on Marktplatz; Apple Maps has no listing for the event itself (checked Nov 14, 2026)"
-        }
+        },
+        "lastVerified": "2026-11-21"
       }
     },
     {
@@ -237,7 +241,8 @@
         "locality": "Rothenburg ob der Tauber",
         "match": {
           "query": "Deutsches Weihnachtsmuseum Rothenburg"
-        }
+        },
+        "lastVerified": "2026-11-21"
       }
     },
     {
@@ -263,7 +268,8 @@
         "sources": [
           "fodors",
           "lonely-planet"
-        ]
+        ],
+        "lastVerified": "2026-11-21"
       }
     },
     {
@@ -285,7 +291,8 @@
         "locality": "Munich",
         "match": {
           "skip": "Seasonal Christmas market on Marienplatz; Apple Maps has no listing for the event itself (checked Nov 14, 2026)"
-        }
+        },
+        "lastVerified": "2026-11-21"
       }
     },
     {
@@ -308,7 +315,8 @@
         "sources": [
           "fodors",
           "michelin"
-        ]
+        ],
+        "lastVerified": "2026-11-21"
       }
     },
     {
@@ -330,7 +338,8 @@
         "locality": "Regensburg",
         "match": {
           "query": "Thurn and Taxis Castle"
-        }
+        },
+        "lastVerified": "2026-11-21"
       }
     },
     {
@@ -353,7 +362,8 @@
         "sources": [
           "fodors",
           "lonely-planet"
-        ]
+        ],
+        "lastVerified": "2026-11-21"
       }
     },
     {
@@ -375,7 +385,8 @@
         "locality": "Dresden",
         "match": {
           "skip": "Seasonal Christmas market on Altmarkt; Apple Maps has no listing for the event itself (checked Nov 14, 2026)"
-        }
+        },
+        "lastVerified": "2026-11-21"
       }
     },
     {
@@ -397,7 +408,8 @@
         "locality": "Dresden",
         "match": {
           "query": "Stallhof Dresden"
-        }
+        },
+        "lastVerified": "2026-11-21"
       }
     },
     {
@@ -419,7 +431,8 @@
         "locality": "Dresden",
         "sources": [
           "michelin"
-        ]
+        ],
+        "lastVerified": "2026-11-21"
       }
     },
     {
@@ -441,7 +454,8 @@
         "locality": "Erfurt",
         "match": {
           "skip": "Seasonal Christmas market on Domplatz; Apple Maps has no listing for the event itself (checked Nov 14, 2026)"
-        }
+        },
+        "lastVerified": "2026-11-21"
       }
     },
     {
@@ -463,7 +477,8 @@
         "locality": "Lübeck",
         "match": {
           "skip": "Seasonal Christmas market on the Markt; Apple Maps has no listing for the event itself (checked Nov 14, 2026)"
-        }
+        },
+        "lastVerified": "2026-11-21"
       }
     },
     {
@@ -486,7 +501,8 @@
         "sources": [
           "fodors",
           "lonely-planet"
-        ]
+        ],
+        "lastVerified": "2026-11-21"
       }
     },
     {
@@ -508,7 +524,8 @@
         "locality": "Cologne",
         "match": {
           "skip": "Seasonal Christmas market on Roncalliplatz; Apple Maps has no listing for the event itself (checked Nov 14, 2026)"
-        }
+        },
+        "lastVerified": "2026-11-21"
       }
     },
     {
@@ -530,7 +547,8 @@
         "locality": "Cologne",
         "match": {
           "skip": "Seasonal Christmas market on Alter Markt/Heumarkt; Apple Maps has no listing for the event itself (checked Nov 14, 2026)"
-        }
+        },
+        "lastVerified": "2026-11-21"
       }
     },
     {
@@ -552,7 +570,8 @@
         "locality": "Cologne",
         "match": {
           "skip": "Seasonal Christmas market on Neumarkt; Apple Maps has no listing for the event itself (checked Nov 14, 2026)"
-        }
+        },
+        "lastVerified": "2026-11-21"
       }
     },
     {
@@ -576,7 +595,8 @@
           "fodors",
           "lonely-planet",
           "frommers"
-        ]
+        ],
+        "lastVerified": "2026-11-21"
       }
     },
     {
@@ -599,7 +619,8 @@
         "sources": [
           "michelin",
           "lhw"
-        ]
+        ],
+        "lastVerified": "2026-11-21"
       }
     },
     {
@@ -621,7 +642,8 @@
         "locality": "Aachen",
         "match": {
           "skip": "Seasonal Christmas market around Markt and the cathedral; Apple Maps has no listing for the event itself (checked Nov 14, 2026)"
-        }
+        },
+        "lastVerified": "2026-11-21"
       }
     },
     {
@@ -644,7 +666,8 @@
         "sources": [
           "fodors",
           "aachen-tourismus"
-        ]
+        ],
+        "lastVerified": "2026-11-21"
       }
     },
     {
@@ -666,7 +689,8 @@
         "locality": "Frankfurt",
         "match": {
           "query": "Römerberg Frankfurt"
-        }
+        },
+        "lastVerified": "2026-11-21"
       }
     },
     {
@@ -690,7 +714,8 @@
           "fodors",
           "lonely-planet",
           "frommers"
-        ]
+        ],
+        "lastVerified": "2026-11-21"
       }
     },
     {
@@ -712,7 +737,8 @@
         "locality": "Stuttgart",
         "match": {
           "query": "Schillerplatz Stuttgart"
-        }
+        },
+        "lastVerified": "2026-11-21"
       }
     },
     {
@@ -734,7 +760,8 @@
         "locality": "Esslingen am Neckar",
         "match": {
           "skip": "Seasonal market on Marktplatz/Rathausplatz; Apple Maps has no listing for the event itself (checked Nov 14, 2026)"
-        }
+        },
+        "lastVerified": "2026-11-21"
       }
     },
     {
@@ -756,7 +783,8 @@
         "locality": "Breitnau",
         "match": {
           "query": "Ravennaschlucht"
-        }
+        },
+        "lastVerified": "2026-11-21"
       }
     },
     {
@@ -779,7 +807,8 @@
         "sources": [
           "hochschwarzwald",
           "schlemmer-atlas"
-        ]
+        ],
+        "lastVerified": "2026-11-21"
       }
     },
     {
@@ -801,7 +830,8 @@
         "locality": "Gengenbach",
         "match": {
           "query": "Rathaus Gengenbach"
-        }
+        },
+        "lastVerified": "2026-11-21"
       }
     }
   ]
